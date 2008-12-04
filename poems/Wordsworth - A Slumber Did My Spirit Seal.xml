@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI PUBLIC "-//TEI P5//DTD Main Document Type//EN" "http://localhost:8080/prosody/poems/tei_all.dtd">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>A Slumber Did My Spirit Seal</title>
+                <author>William Wordsworth</author>
+            </titleStmt>
+            <publicationStmt>
+                <date>1800</date>
+            </publicationStmt>
+            <sourceDesc><p/></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <lg n="1" type="quatrain" met="-+(4/3/4/3)" rhyme="abab">
+                <l n="1">
+                    <seg met="-+">A slum<sb/></seg>
+                    <seg met="-+">ber did</seg>
+                    <seg met="-+">my spir<sb/></seg>
+                    <seg met="-+">it <rhyme label="a">seal</rhyme></seg>;
+                </l>
+                <l n="2">
+                    <seg met="-+">I had</seg>
+                    <seg met="-+">no hu<sb/></seg>
+                    <seg met="-+">man <rhyme label="b">fears</rhyme></seg>:
+                </l>
+                <l n="3">
+                    <seg met="-+">She seemed</seg>
+                    <seg met="-+">a thing</seg>
+                    <seg met="-+">that could</seg>
+                    <seg met="-+">not <rhyme label="a">feel</rhyme></seg>
+                </l>
+                <l n="4">
+                    <seg met="-+">The touch</seg>
+                    <seg met="-+">of earth<sb/></seg>
+                    <seg met="-+">ly <rhyme label="b">years</rhyme></seg>.
+                </l>
+            </lg>
+            <lg n="2" type="quatrain" met="-+(4/3/4/3)" rhyme="abab">
+                <l n="5">
+                    <seg met="-+" real="++">No mo<sb/></seg>
+                    <seg met="-+" real="--">tion has</seg>
+                    <seg met="-+">she now</seg>,
+                    <caesura/>
+                    <seg met="-+" real="++">no <rhyme label="a">force</rhyme></seg>;
+                </l>
+                <l n="6">
+                    <seg met="-+">She nei<sb/></seg>
+                    <seg met="-+">ther hears</seg>
+                    <seg met="-+">nor <rhyme label="b">sees</rhyme></seg>;
+                </l>
+                <l n="7">
+                    <seg met="-+" real="++">Rolled round</seg>
+                    <seg met="-+">in earth's</seg>
+                    <seg met="-+">di<sb/>ur<sb/></seg>
+                    <seg met="-+">nal <rhyme label="a">course</rhyme></seg>,
+                </l>
+                <l n="8">
+                    <seg met="-+">With rocks</seg>,
+                    <caesura/>
+                    <seg met="-+">and stones</seg>,
+                    <caesura/>
+                    <seg met="-+">and <rhyme label="b">trees</rhyme></seg>.
+                </l>
+            </lg>
+        </body>
+    </text>
+</TEI>

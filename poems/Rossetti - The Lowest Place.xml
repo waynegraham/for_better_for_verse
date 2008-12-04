@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI PUBLIC "-//TEI P5//DTD Main Document Type//EN" "http://localhost:8080/prosody/poems/tei_all.dtd">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Lowest Place</title>
+                <author>Christina Rossetti</author>
+            </titleStmt>
+            <publicationStmt><p/></publicationStmt>
+            <sourceDesc><p/></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <lg n="1" type="quatrain" met="-+(5/5/3/3)" rhyme="abab">
+                <l n="1">
+                    <seg met="-+" real="+-">Give me</seg>
+                    <seg met="-+">the low<sb/></seg>
+                    <seg met="-+">est place</seg>:
+                    <caesura/>
+                    <seg met="-+" real="+-">not that</seg>
+                    <seg met="-+">I <rhyme label="a">dare</rhyme></seg>
+                </l>
+                <l n="2">
+                    <seg met="-+" real="+-">Ask for</seg>
+                    <seg met="-+">that low<sb/></seg>
+                    <seg met="-+">est place</seg>,
+                    <caesura/>
+                    <seg met="-+">but Thou</seg>
+                    <seg met="-+">hast <rhyme label="b">died</rhyme></seg>
+                </l>
+                <l n="3">
+                    <seg met="-+">That I</seg>
+                    <seg met="-+">might live</seg>
+                    <seg met="-+">and <rhyme label="a">share</rhyme></seg>
+                </l>
+                <l n="4">
+                    <seg met="-+">Thy glo<sb/></seg>
+                    <seg met="-+">ry by</seg>
+                    <seg met="-+">Thy <rhyme label="b">side</rhyme></seg>.
+                </l>
+            </lg>
+            <lg n="2" type="quatrain" met="-+5/5/3/3" rhyme="abab">
+                <l n="5">
+                    <seg met="-+" real="+-">Give me</seg>
+                    <seg met="-+">the low<sb/></seg>
+                    <seg met="-+">est place</seg>:
+                    <caesura/>
+                    <seg met="-+">or if</seg>
+                    <seg met="-+">for <rhyme label="a">me</rhyme></seg>
+                </l>
+                <l n="6">
+                    <seg met="-+">That low<sb/></seg>
+                    <seg met="-+">est place</seg>
+                    <seg met="-+" real="++">too high</seg>,
+                    <caesura/>
+                    <seg met="-+" real="+-">make one</seg>
+                    <seg met="-+">more <rhyme label="b">low</rhyme></seg>
+                </l>
+                <l n="7">
+                    <seg met="-+">Where I</seg>
+                    <seg met="-+">may sit</seg>
+                    <seg met="-+">and <rhyme label="a">see</rhyme></seg>
+                </l>
+                <l n="8">
+                    <seg met="-+">My God</seg>
+                    <seg met="-+">and love</seg>
+                    <seg met="-+">Thee <rhyme label="b">so</rhyme></seg>.
+                </l>
+            </lg>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI PUBLIC "-//TEI P5//DTD Main Document Type//EN" "http://localhost:8080/prosody/poems/tei_all.dtd">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Night is Freezing Fast</title>
+                <author>A. E. Housman</author>
+            </titleStmt>
+            <publicationStmt>
+                <p>N/A</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>N/A</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <lg met="-+(3)" rhyme="abcabc">
+                <l n="1"><seg met="-+">The night</seg> <seg met="-+">is freez<sb/></seg><seg met="-+">ing fast</seg>,</l>
+                <l n="2"><seg met="-+">To-mor<sb/></seg><seg met="-+">row comes</seg> <seg met="-+" real="-+^">De<sb/>cem<sb/>ber</seg>;</l>
+                <l n="3"><seg met="-+">And win<sb/></seg><seg met="-+">ter<sb/>falls</seg> <seg met="-+">of old</seg></l>
+                <l n="4"><seg met="-+">Are with</seg> <seg met="-+">me from</seg> <seg met="-+">the past</seg>;</l>
+                <l n="5"><seg met="-+">And chief<sb/></seg><seg met="-+">ly I</seg> <seg met="-+" real="-+^">re<sb/>mem<sb/>ber</seg></l>
+                <l n="6"><seg met="-+">How Dick</seg> <seg met="-+">would hate</seg> <seg met="-+">the cold</seg>.</l>
+            </lg>
+            <lg met="-+(3)" rhyme="abcabc">
+                <l n="7"><seg met="-+" real="++">Fall, win<sb/></seg><seg met="-+">ter, fall</seg>; <seg met="-+">for he</seg>,</l>
+                <l n="8"><seg met="-+" real="++">Prompt hand</seg> <seg met="-+">and head<sb/></seg><seg met="-+" real="-+^">piece clever</seg></l>
+                <l n="9"><seg met="-+">Has wo<sb/></seg><seg met="-+" real="--+">ven a win<sb/></seg><seg met="-+">ter robe</seg>,</l>
+                <l n="10"><seg met="-+">And made</seg> <seg met="-+">of earth</seg> <seg met="-+">and sea</seg></l>
+                <l n="11"><seg met="-+">His ov<sb/></seg><seg met="-+">er<sb/>coat</seg> <seg met="-+" real="-+^">for ev<sb/>er</seg>,</l>
+                <l n="12"><seg met="-+">And wears</seg> <seg met="-+">the turn<sb/></seg><seg met="-+">ing globe</seg>.</l>
+            </lg>
+        </body>
+    </text>
+</TEI>
