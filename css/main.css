@@ -1,10 +1,35 @@
 
-
-span.TEI\:l {
-  display: block;
-  white-space: nowrap;
+div.prosody-line {
+    display: table;
 
 }
-TEI\:seg {
-  display: inline;
+
+div.prosody-shadowline {
+    display:table-row;
+}
+
+div.TEI-l {
+    display:table-row;
+}
+
+span.prosody-shadowsyllable {
+    display:table-cell;
+}
+
+span.prosody-checkstress {
+    display:table-cell;
+}
+
+span.prosody-syllable {
+    display:table-cell;
+/*    padding-right:50%;
+    padding-left:50%; */
+}
+
+span.prosody-marker {
+    visibility:visible;
+}
+
+span.prosody-placeholder {
+    visibility:hidden;
 }

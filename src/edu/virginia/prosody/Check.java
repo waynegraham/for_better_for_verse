@@ -48,7 +48,8 @@ public class Check extends HttpServlet implements Servlet {
 		}
 		context = getServletContext();
 	}
-
+	
+	
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp)
 			throws ServletException, IOException {
