@@ -19,34 +19,69 @@ function init() {
 	});
 }
 
-function switchstress(coords) {
+function switchstress(shadowspan) {
 	// called when a syllable's stress is changed
-	shadowspan = $("prosody:shadow:" + coords.substring(13));
-	if ($(coords).stress != "+") {
+	realsyllable = $( "prosody:real:" + shadowspan.id.substring(15) );
+	if (realsyllable.stress != "+") {
 		shadowspan.removeAllChildren();
-		shadowspan.appendChild(marker());
-		$(coords).stress = '+';
+		shadowspan.appendChild(marker(realsyllable));
+		realsyllable.stress = '+';
 
 	} else {
 		shadowspan.removeAllChildren();
-		shadowspan.appendChild(placeholder(coords));
-		$(coords).stress = '-';
+		shadowspan.appendChild(placeholder());
+		realsyllable.stress = '-';
 	}
 }
 
 function checkstress(linenumber) {
-	// called to submit an answer to the checking servlet, returns the answer
+	// called to submit an answer to the scansion-checking servlet, returns the answer
 
-	// first we assemble the answer from the "stress" member of the appropriate
+	// first we assemble the answer from the "stress" members of the appropriate
 	// line
 	var answer = $("prosody:real:" + linenumber).select("span[real]").pluck(
 			"stress").join('');
 
 	// now we use Prototype's Ajax Updater convenience type to update the
-	// checking signal
+	// checking signal/control
 	new Ajax.Updater( {
 		success :'checkstress' + linenumber
-	}, 'check', {
+	}, 'checkscansion', {
+		parameters : {
+			answer: answer,
+			line :linenumber,
+			poem :$('title').text
+		} , method: 'get'
+	}
+
+	);
+
+}
+
+function switchfoot(coords){
+	syllabletext = $(coords).innerHTML;
+	if ( syllabletext.endsWith('|') ) {
+		$(coords).innerHTML = syllabletext.substring(0,syllabletext.length-1);
+	}
+	else {
+		$(coords).innerHTML = syllabletext + "|";
+	}
+	
+}
+
+function checkfeet(linenumber) {
+	// called to submit an answer to the feet-checking servlet, returns the answer
+
+	// first we assemble the answer from the "stress" members of the appropriate
+	// line
+	var answer = $("prosody:real:" + linenumber).select("span[real]").pluck("textContent").join('');
+	console.log(answer);
+	
+	// now we use Prototype's Ajax Updater convenience type to update the
+	// checking signal/control
+	new Ajax.Updater( {
+		success :'checkfeet' + linenumber
+	}, 'checkfeet', {
 		parameters : {
 			answer: answer,
 			line :linenumber,
@@ -59,17 +94,17 @@ function checkstress(linenumber) {
 }
 
 // returns an appropriate token element for use as a stress marker
-function marker() {
+function marker(real) {	
 	mark = document.createElement("span");
 	mark.setAttribute('class', 'prosody-marker');
-	mark.appendChild(document.createTextNode("/"));
+	spacer = " ".times(Math.floor(real.textContent.length / 2 ));
+	mark.appendChild(document.createTextNode(spacer + "/" + spacer))	
 	return mark;
 }
 
 // returns an appropriate placeholder element for use as a slack marker
-function placeholder(coords) {
+function placeholder() {
 	place = document.createElement("span");
 	place.setAttribute('class', 'prosody-placeholder');
-	place.innerHTML = document.getElementById(coords).innerHTML;
 	return place;
 }

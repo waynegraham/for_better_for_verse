@@ -1,35 +1,33 @@
-
 div.prosody-line {
-    display: table;
-
+    display:table-row-group;
 }
-
 div.prosody-shadowline {
     display:table-row;
 }
-
 div.TEI-l {
     display:table-row;
 }
-
 span.prosody-shadowsyllable {
     display:table-cell;
+    empty-cells: show;
+    padding-right:1em;
+    text-align:center;
 }
-
+span.prosody-syllable {
+    display:table-cell;
+    padding-right:1em;
+}
+span.prosody-marker {
+    visibility:visible;
+    white-space:pre;
+}
+span.prosody-placeholder {
+    visibility:hidden;
+    white-space:pre;
+}
 span.prosody-checkstress {
     display:table-cell;
 }
-
-span.prosody-syllable {
+span.prosody-checkfeet {
     display:table-cell;
-/*    padding-right:50%;
-    padding-left:50%; */
-}
-
-span.prosody-marker {
-    visibility:visible;
-}
-
-span.prosody-placeholder {
-    visibility:hidden;
 }

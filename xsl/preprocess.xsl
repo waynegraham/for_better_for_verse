@@ -16,10 +16,15 @@
             <xhtml:div class="prosody-shadowline" id="prosody:shadow:{$line-number}">
                 <xsl:copy-of select="@*"/>
                 <xsl:for-each select="TEI:seg">
-                    <xsl:variable name="word-position" select="position()"/>
+                    <xsl:variable name="seg-position" select="position()"/>
+                    <xsl:variable name="seg-last" select="last()"/>
                     <xsl:for-each select="tokenize(string(.),' ')">
                         <xhtml:span class="prosody-shadowsyllable" shadow=""
-                            id="prosody:shadow:{$line-number}:{$word-position}:{position()}">
+                            id="prosody:shadow:{$line-number}:{$seg-position}:{position()}"
+                            onclick="switchstress(this);">
+                            <xsl:if test="position()!=last() or $seg-last = $seg-position">
+                                <xsl:attribute name="style" select="'padding-right:1em'"/>                               
+                            </xsl:if>
                             <xhtml:span class="prosody-placeholder">
                                 <xsl:copy-of select="string(.)"/>
                             </xhtml:span>
@@ -32,32 +37,38 @@
 
                 <xsl:copy-of select="@*"/>
                 <xsl:for-each select="TEI:seg">
-                    <xhtml:span class="TEI-seg">
-                        <xsl:if test="position()=last()">
-                            <xsl:attribute name="style" select="'padding-right:1em'"/>
-                        </xsl:if>
-                        <xsl:variable name="word-position" select="position()"/>
-                        <xsl:for-each select="tokenize(string(.),' ')">
-                            <xhtml:span class="prosody-syllable" real=""
-                                id="prosody:real:{$line-number}:{$word-position}:{position()}"
-                                onclick="switchstress(this.id);">
-                                <xsl:if test="position()!=last()">
-                                    <xsl:attribute name="style" select="'padding-right:1em'"/>
-                                </xsl:if>
-                                <xsl:copy-of select="."/>
-                                <!-- add space back -->
-                                <xsl:if test="position()!=last()">
-                                    <xsl:text> </xsl:text>
-                                </xsl:if>
-                            </xhtml:span>
-                        </xsl:for-each>
-                    </xhtml:span>
+                    <xsl:variable name="seg-position" select="position()"/>
+                    <xsl:variable name="seg-last" select="last()"/>
+                    <xsl:for-each select="tokenize(string(.),' ')">
+                        <xhtml:span class="prosody-syllable" real=""
+                            id="prosody:real:{$line-number}:{$seg-position}:{position()}"
+                            onclick="switchfoot('prosody:real:{$line-number}:{$seg-position}:{position()}');">
+                            <xsl:if test="position()!=last() or $seg-last = $seg-position">
+                                    <xsl:attribute name="style" select="'padding-right:1em'"/>                               
+                            </xsl:if>
+                            
+                            
+
+                            <xsl:copy-of select="."/>
+                            <!-- add space back -->
+                            <xsl:if test="position()!=last()">
+                                <xsl:text> </xsl:text>
+                            </xsl:if>
+                        </xhtml:span>
+                    </xsl:for-each>
+                    
                 </xsl:for-each>
-                <xhtml:button class="prosody-checkstress" id="checkstress{$line-number}" name="Check stress" onclick="checkstress({$line-number})">Not right yet</xhtml:button>
-                
+                <xhtml:button class="prosody-checkstress" id="checkstress{$line-number}"
+                    name="Check stress" onclick="checkstress({$line-number})">Not right yet</xhtml:button>
+                <xhtml:label for="checkstress{$line-number}">Check your scansion</xhtml:label>
+                <xhtml:button class="prosody-checkfeet" id="checkfeet{$line-number}"
+                    name="Check stress" onclick="checkfeet({$line-number})">Not right yet</xhtml:button>
+                <xhtml:label for="checkfeet{$line-number}">Check your feet</xhtml:label>
+
+
             </xhtml:div>
-            
-            
+
+
         </xhtml:div>
     </xsl:template>
 

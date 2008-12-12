@@ -6,18 +6,15 @@
             <titleStmt>
                 <title>Westron Wynde</title>
             </titleStmt>
-            <publicationStmt>
-                <p></p>
-            </publicationStmt>
-            <sourceDesc><p></p>
-            </sourceDesc>
+            <publicationStmt><p/></publicationStmt>
+            <sourceDesc><p/></sourceDesc>
         </fileDesc>
     </teiHeader>
     <text>
         <body>
             <lg met="(4/3/4/3)" rhyme="abcb">
                 <l n="1">
-                    <seg met="+" real="-+">West<sb/></seg>
+                    <seg met="-+" real="+">West<sb/></seg>
                     <seg met="-+">ron wynde</seg>
                     <seg met="-+">when wyll</seg>
                     <seg met="-+">thow <rhyme label="a">blow</rhyme></seg>
@@ -37,7 +34,7 @@
                     <seg met="-+">and I</seg>
                     <seg met="--+">yn my bed</seg>
                     <seg met="-+">a<sb/><rhyme label="b">gayne</rhyme></seg>
-                 </l>
+                </l>
             </lg>
         </body>
     </text>
