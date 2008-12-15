@@ -7,15 +7,21 @@ div.prosody-shadowline {
 div.TEI-l {
     display:table-row;
 }
+span:hover {
+    font-weight :bolder;
+} 
+
 span.prosody-shadowsyllable {
     display:table-cell;
     empty-cells: show;
-    padding-right:1em;
+    /*padding-right:1em;*/
     text-align:center;
 }
-span.prosody-syllable {
+span.prosody-syllable 
+{
+white-space:pre;
     display:table-cell;
-    padding-right:1em;
+    /* padding-right:1em; */
 }
 span.prosody-marker {
     visibility:visible;

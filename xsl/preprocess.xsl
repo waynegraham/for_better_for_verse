@@ -15,18 +15,18 @@
             <!-- first cycle through the segments, constructing shadow syllables -->
             <xhtml:div class="prosody-shadowline" id="prosody:shadow:{$line-number}">
                 <xsl:copy-of select="@*"/>
-                <xsl:for-each select="TEI:seg">
+                <xsl:for-each select="TEI:seg|text()">
+
                     <xsl:variable name="seg-position" select="position()"/>
-                    <xsl:variable name="seg-last" select="last()"/>
+
                     <xsl:for-each select="text()|*/text()">
                         <xsl:variable name="foot-position" select="position()"/>
+                        <xsl:variable name="foot-last" select="last()"/>
                         <xsl:for-each select="tokenize(normalize-space(string(.)),' ')">
                             <xhtml:span class="prosody-shadowsyllable" shadow=""
                                 id="prosody:shadow:{$line-number}:{$seg-position}:{$foot-position}:{position()}"
                                 onclick="switchstress(this);">
-                                <xsl:if test="position()!=last() or $seg-last = $seg-position">
-                                    <xsl:attribute name="style" select="'padding-right:1em'"/>
-                                </xsl:if>
+
                                 <xhtml:span class="prosody-placeholder">
                                     <xsl:copy-of select="string(.)"/>
                                 </xhtml:span>
@@ -44,19 +44,21 @@
                     <xsl:variable name="seg-last" select="last()"/>
                     <xsl:for-each select="text()|*/text()">
                         <xsl:variable name="foot-position" select="position()"/>
+                        <xsl:variable name="foot-last" select="last()"/>
                         <xsl:for-each select="tokenize(normalize-space(string(.)),' ')">
                             <xhtml:span class="prosody-syllable" real=""
                                 id="prosody:real:{$line-number}:{$seg-position}:{$foot-position}:{position()}"
                                 onclick="switchfoot('prosody:real:{$line-number}:{$seg-position}:{$foot-position}:{position()}');">
-                                <xsl:if test="position()!=last() or $seg-last = $seg-position">
-                                    <xsl:attribute name="style" select="'padding-right:1em'"/>
-                                </xsl:if>
 
+                                <!-- <xsl:if test="position()!=last() or $foot-last = $foot-position">
+                                    <xsl:attribute name="style" select="'padding-right:1em'"/>
+                                </xsl:if> -->
 
 
                                 <xsl:copy-of select="."/>
                                 <!-- add space back -->
-                                <xsl:if test="position()!=last()">
+                                <xsl:if
+                                    test="position()!=last() or ($foot-position=$foot-last and $seg-position!=$seg-last)">
                                     <xsl:text> </xsl:text>
                                 </xsl:if>
                             </xhtml:span>
