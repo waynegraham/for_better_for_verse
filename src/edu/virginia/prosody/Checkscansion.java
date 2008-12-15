@@ -70,10 +70,11 @@ public class Checkscansion extends HttpServlet implements Servlet {
 		String xpathexpected = "string-join(//TEI:l[@n='" + line
 				+ "']/TEI:seg/@met,'')";
 		String xpathcorrect = "string-join(//TEI:l[@n='" + line
-				+ "']/TEI:seg/@met[not(../@real)]|@real[not(../@met)],'')";
+				+ "']/TEI:seg/(@met[not(../@real)]|@real),'')";
 		log("Using xpaths " + xpathexpected + " and " + xpathcorrect);
 		
 		log("Reading " + filepath);
+		log("The proffered answer was: " + answer);
 		System.setProperty("javax.xml.xpath.XPathFactory:"
 				+ NamespaceConstant.OBJECT_MODEL_SAXON,
 				"net.sf.saxon.xpath.XPathFactoryImpl");
@@ -88,15 +89,12 @@ public class Checkscansion extends HttpServlet implements Servlet {
 		String realanswer;
 		try {
 			realanswer = xp.evaluate(xpathcorrect,new InputSource(new FileInputStream(filepath)));
+			log("The correct answer was: " + realanswer);
 			if (answer.equals(realanswer)) {
-				log("The proffered answer was: " + answer
-						+ ", and the correct answer was indeed " + realanswer);
 				correct = true;
 			} else {
-				String expectedanswer =  xp.evaluate(xpathexpected,new InputSource(new FileInputStream(filepath)))
-						;
-				log("The proffered answer was: " + answer
-						+ " and the expected answer was " + expectedanswer);
+				String expectedanswer =  xp.evaluate(xpathexpected,new InputSource(new FileInputStream(filepath)));
+				log("The expect-able answer was " + expectedanswer);
 				if (answer.equals(expectedanswer)) {
 					expected = true;
 				}

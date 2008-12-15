@@ -18,17 +18,20 @@
                 <xsl:for-each select="TEI:seg">
                     <xsl:variable name="seg-position" select="position()"/>
                     <xsl:variable name="seg-last" select="last()"/>
-                    <xsl:for-each select="tokenize(string(.),' ')">
-                        <xhtml:span class="prosody-shadowsyllable" shadow=""
-                            id="prosody:shadow:{$line-number}:{$seg-position}:{position()}"
-                            onclick="switchstress(this);">
-                            <xsl:if test="position()!=last() or $seg-last = $seg-position">
-                                <xsl:attribute name="style" select="'padding-right:1em'"/>                               
-                            </xsl:if>
-                            <xhtml:span class="prosody-placeholder">
-                                <xsl:copy-of select="string(.)"/>
+                    <xsl:for-each select="text()|*/text()">
+                        <xsl:variable name="foot-position" select="position()"/>
+                        <xsl:for-each select="tokenize(normalize-space(string(.)),' ')">
+                            <xhtml:span class="prosody-shadowsyllable" shadow=""
+                                id="prosody:shadow:{$line-number}:{$seg-position}:{$foot-position}:{position()}"
+                                onclick="switchstress(this);">
+                                <xsl:if test="position()!=last() or $seg-last = $seg-position">
+                                    <xsl:attribute name="style" select="'padding-right:1em'"/>
+                                </xsl:if>
+                                <xhtml:span class="prosody-placeholder">
+                                    <xsl:copy-of select="string(.)"/>
+                                </xhtml:span>
                             </xhtml:span>
-                        </xhtml:span>
+                        </xsl:for-each>
                     </xsl:for-each>
                 </xsl:for-each>
             </xhtml:div>
@@ -39,24 +42,26 @@
                 <xsl:for-each select="TEI:seg">
                     <xsl:variable name="seg-position" select="position()"/>
                     <xsl:variable name="seg-last" select="last()"/>
-                    <xsl:for-each select="tokenize(string(.),' ')">
-                        <xhtml:span class="prosody-syllable" real=""
-                            id="prosody:real:{$line-number}:{$seg-position}:{position()}"
-                            onclick="switchfoot('prosody:real:{$line-number}:{$seg-position}:{position()}');">
-                            <xsl:if test="position()!=last() or $seg-last = $seg-position">
-                                    <xsl:attribute name="style" select="'padding-right:1em'"/>                               
-                            </xsl:if>
-                            
-                            
+                    <xsl:for-each select="text()|*/text()">
+                        <xsl:variable name="foot-position" select="position()"/>
+                        <xsl:for-each select="tokenize(normalize-space(string(.)),' ')">
+                            <xhtml:span class="prosody-syllable" real=""
+                                id="prosody:real:{$line-number}:{$seg-position}:{$foot-position}:{position()}"
+                                onclick="switchfoot('prosody:real:{$line-number}:{$seg-position}:{$foot-position}:{position()}');">
+                                <xsl:if test="position()!=last() or $seg-last = $seg-position">
+                                    <xsl:attribute name="style" select="'padding-right:1em'"/>
+                                </xsl:if>
 
-                            <xsl:copy-of select="."/>
-                            <!-- add space back -->
-                            <xsl:if test="position()!=last()">
-                                <xsl:text> </xsl:text>
-                            </xsl:if>
-                        </xhtml:span>
+
+
+                                <xsl:copy-of select="."/>
+                                <!-- add space back -->
+                                <xsl:if test="position()!=last()">
+                                    <xsl:text> </xsl:text>
+                                </xsl:if>
+                            </xhtml:span>
+                        </xsl:for-each>
                     </xsl:for-each>
-                    
                 </xsl:for-each>
                 <xhtml:button class="prosody-checkstress" id="checkstress{$line-number}"
                     name="Check stress" onclick="checkstress({$line-number})">Not right yet</xhtml:button>
