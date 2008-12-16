@@ -15,7 +15,7 @@
             <!-- first cycle through the segments, constructing shadow syllables -->
             <xhtml:div class="prosody-shadowline" id="prosody:shadow:{$line-number}">
                 <xsl:copy-of select="@*"/>
-                <xsl:for-each select="TEI:seg|text()">
+                <xsl:for-each select="TEI:seg">
 
                     <xsl:variable name="seg-position" select="position()"/>
 

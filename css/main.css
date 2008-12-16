@@ -8,7 +8,7 @@ div.TEI-l {
     display:table-row;
 }
 span:hover {
-    font-weight :bolder;
+    text-decoration:underline;
 } 
 
 span.prosody-shadowsyllable {
