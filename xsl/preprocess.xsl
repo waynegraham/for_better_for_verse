@@ -6,7 +6,9 @@
     <xsl:output indent="yes" method="xml" omit-xml-declaration="yes"/>
 
     <xsl:template match="/">
+        <xhtml:div id="poem">
         <xsl:apply-templates select="TEI:TEI/TEI:text/TEI:body/*"/>
+        </xhtml:div>
     </xsl:template>
 
     <xsl:template match="TEI:l">
@@ -65,14 +67,14 @@
                         </xsl:for-each>
                     </xsl:for-each>
                 </xsl:for-each>
+                <xhtml:div class="buttons">
                 <xhtml:button class="prosody-checkstress" id="checkstress{$line-number}"
                     name="Check stress" onclick="checkstress({$line-number})">Not right yet</xhtml:button>
                 <xhtml:label for="checkstress{$line-number}">Check your scansion</xhtml:label>
                 <xhtml:button class="prosody-checkfeet" id="checkfeet{$line-number}"
                     name="Check stress" onclick="checkfeet({$line-number})">Not right yet</xhtml:button>
                 <xhtml:label for="checkfeet{$line-number}">Check your feet</xhtml:label>
-
-
+                </xhtml:div>
             </xhtml:div>
 
 

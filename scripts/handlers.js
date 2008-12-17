@@ -22,20 +22,31 @@ function init() {
 function switchstress(shadowspan) {
 	// called when a syllable's stress is changed
 	realsyllable = $( "prosody:real:" + shadowspan.id.substring(15) );
+	console.log(realsyllable.stress);
 	if (realsyllable.stress == "-") {
+		new Effect.Opacity($(shadowspan), { from: 0, to: 1, duration: 0.4 });
 		shadowspan.removeAllChildren();
 		shadowspan.appendChild(marker(realsyllable));
 		realsyllable.stress = '+';
 
 	} else if (realsyllable.stress == "+") {
+		new Effect.Opacity($(shadowspan), { from: 1, to: 0, duration: 0.4 });
+		setTimeout(function() {
+			shadowspan.removeAllChildren();
+			shadowspan.appendChild(slackmarker(realsyllable));
+			realsyllable.stress = '̆';}, 150);
+		/*console.log(slackmarker(realsyllable));
 		shadowspan.removeAllChildren();
 		shadowspan.appendChild(slackmarker(realsyllable));
-		realsyllable.stress = ' ̆';
+		realsyllable.stress = '̆';*/
+		new Effect.Opacity($(shadowspan), { from: 0, to: 1, duration: 0.4 });
 	}
 	else {
+		new Effect.Opacity($(shadowspan), { from: 1, to: 0, duration: 0.4 });
+		setTimeout(function() {
 		shadowspan.removeAllChildren();
 		shadowspan.appendChild(placeholder());
-		realsyllable.stress = '-';
+		realsyllable.stress = '-';}, 150);
 	}
 }
 
