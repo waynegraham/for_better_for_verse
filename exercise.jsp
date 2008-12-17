@@ -17,9 +17,9 @@
 		<xhtml:title id="title">
 			<c:out value="${param.poem}" />
 		</xhtml:title>
-		<xhtml:link href="css/main.css" rel="stylesheet"
-			title="Basic TEI style" type="text/css" />
-			<xhtml:script type="text/javascript" src="scripts/prototype.js"></xhtml:script>
+		<xhtml:link href="css/main.css" rel="stylesheet" title="Basic TEI style" type="text/css" />
+		<xhtml:script type="text/javascript" src="scripts/prototype.js"></xhtml:script>
+		<xhtml:script type="text/javascript" id="scriptaculous" src="scripts/effects.js"></xhtml:script>
 		<xhtml:script type="text/javascript" src="scripts/handlers.js"></xhtml:script>
 	</xhtml:head>
 
