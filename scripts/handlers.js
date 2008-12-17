@@ -22,14 +22,12 @@ function init() {
 function switchstress(shadowspan) {
 	// called when a syllable's stress is changed
 	realsyllable = $( "prosody:real:" + shadowspan.id.substring(15) );
-	console.log(realsyllable.stress);
 	if (realsyllable.stress == "-") {
 		shadowspan.removeAllChildren();
 		shadowspan.appendChild(marker(realsyllable));
 		realsyllable.stress = '+';
 
 	} else if (realsyllable.stress == "+") {
-		console.log(slackmarker(realsyllable));
 		shadowspan.removeAllChildren();
 		shadowspan.appendChild(slackmarker(realsyllable));
 		realsyllable.stress = ' ̆';
