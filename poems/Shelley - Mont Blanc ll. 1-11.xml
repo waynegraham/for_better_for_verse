@@ -20,33 +20,33 @@
                     <seg met="-+">The ev<sb/></seg>
                     <seg met="-+">er<sb/>last<sb/></seg>
                     <seg met="-+">ing u<sb/></seg>
-                    <seg met="-+">ni<sb/>verse</seg>
+                    <seg met="-+">ni<sb/>verse </seg>
                     <seg met="-+">of <rhyme label="a">things</rhyme></seg>
                 </l>
                 <l n="2">
-                    <seg met="-+" real="+-">Flows through</seg>
-                    <seg met="-+">the mind</seg>,
+                    <seg met="-+" real="+-">Flows through </seg>
+                    <seg met="-+">the mind </seg>,
                     <caesura/>
-                    <seg met="-+">and rolls</seg>
+                    <seg met="-+">and rolls </seg>
                     <seg met="-+">its rap<sb/></seg>
                     <seg met="-+">id <rhyme label="b">waves</rhyme></seg>,
                 </l>
                 <l n="3">
-                    <seg met="-+">Now dark</seg> -<caesura/>-
+                    <seg met="-+">Now dark </seg> -<caesura/>-
                     <seg met="-+">now glit<sb/></seg>
-                    <seg met="-+" real="--+">ter<sb/>ing -<caesura/>- now</seg>
+                    <seg met="-+" real="--+">ter<sb/>ing -<caesura/>- now </seg>
                     <seg met="-+">re<sb/>flect<sb/></seg>
                     <seg met="-+">ing <rhyme label="c">gloom</rhyme></seg> --
                 </l>
                 <l n="4">
                     <seg met="-+">Now lend<sb/></seg>
                     <seg met="-+">ing splen<sb/></seg>
-                    <seg met="-+">dour, <caesura/> where</seg>
+                    <seg met="-+">dour, <caesura/>where </seg>
                     <seg met="-+">from se<sb/></seg>
                     <seg met="-+">cret <rhyme label="a">springs</rhyme></seg>
                 </l>
                 <l n="5">
-                    <seg met="-+">The source</seg>
+                    <seg met="-+">The source </seg>
                     <seg met="-+">of hu<sb/></seg>
                     <seg met="-+">man thought</seg>
                     <seg met="-+">its trib<sb/></seg>
@@ -54,21 +54,21 @@
                 </l>
                 <l n="6">
                     <seg met="-+">Of wa<sb/></seg>
-                    <seg met="-+">ters, -<caesura/>- with</seg>
-                    <seg met="-+">a sound</seg>
-                    <seg met="-+">but half</seg>
+                    <seg met="-+">ters, -<caesura/>- with </seg>
+                    <seg met="-+">a sound </seg>
+                    <seg met="-+">but half </seg>
                     <seg met="-+">its <rhyme label="d">own</rhyme></seg>,
                 </l>
                 <l n="7">
-                    <seg met="-+" real="+-">Such as</seg>
+                    <seg met="-+" real="+-">Such as </seg>
                     <seg met="-+">a fee<sb/></seg>
-                    <seg met="-+">ble brook</seg>
-                    <seg met="-+">will oft</seg>
+                    <seg met="-+">ble brook </seg>
+                    <seg met="-+">will oft </seg>
                     <seg met="-+">as<sb/><rhyme label="c">sume</rhyme></seg>
                 </l>
                 <l n="8">
-                    <seg met="-+" real="--">In the</seg>
-                    <seg met="-+" real="++">wild woods</seg>,
+                    <seg met="-+" real="--">In th </seg>
+                    <seg met="-+" real="++">wild woods </seg>,
                     <caesura/>
                     <seg met="-+">a<sb/>mong</seg>
                     <seg met="-+">the moun<sb/></seg>
@@ -76,23 +76,23 @@
                 </l>
                 <l n="9">
                     <seg met="-+">Where wa<sb/></seg>
-                    <seg met="-+">ter<sb/>falls</seg>
-                    <seg met="-+">a<sb/>round</seg>
-                    <seg met="-+">it leap</seg>
+                    <seg met="-+">ter<sb/>falls </seg>
+                    <seg met="-+">a<sb/>round </seg>
+                    <seg met="-+">it leap </seg>
                     <seg met="-+" real="-+^">for <rhyme label="e">ev<sb/>er</rhyme></seg>,
                 </l>
                 <l n="10">
-                    <seg met="-+">Where woods</seg>
-                    <seg met="-+">and winds</seg>
-                    <seg met="-+">con<sb/>tend</seg>,
-                    <seg met="-+" real="--">and a</seg>
+                    <seg met="-+">Where woods </seg>
+                    <seg met="-+">and winds </seg>
+                    <seg met="-+">con<sb/>tend </seg>,
+                    <seg met="-+" real="--">and a </seg>
                     <seg met="-+" real="++^">vast <rhyme label="e">riv<sb/>er</rhyme></seg>
                 </l>
                 <l n="11">
-                    <seg met="-+" real="+-">o<sb/>ver</seg>
-                    <seg met="-+">its rocks</seg>
+                    <seg met="-+" real="+-">o<sb/>ver </seg>
+                    <seg met="-+">its rocks </seg>
                     <seg met="-+" real="+-">cease<sb/>less<sb/></seg>
-                    <seg met="-+">ly bursts</seg>
+                    <seg met="-+">ly bursts </seg>
                     <seg met="-+">and <rhyme label="b">raves</rhyme></seg>.
                 </l>
             </lg>
