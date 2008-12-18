@@ -4,6 +4,7 @@
     xmlns:xhtml="http://www.w3.org/1999/xhtml" version="2.0">
 
     <xsl:output indent="yes" method="xml" omit-xml-declaration="yes"/>
+    <xsl:preserve-space elements="*"/>
 
     <xsl:template match="/">
         <xhtml:div id="poem">
@@ -42,6 +43,7 @@
 
                 <xsl:copy-of select="@*"/>
                 <xsl:for-each select="TEI:seg">
+                    <xsl:variable name="sb-flag" select="exists(TEI:sb)"/>
                     <xsl:variable name="seg-position" select="position()"/>
                     <xsl:variable name="seg-last" select="last()"/>
                     <xsl:for-each select="text()|*/text()">
@@ -60,7 +62,7 @@
                                 <xsl:copy-of select="."/>
                                 <!-- add space back -->
                                 <xsl:if
-                                    test="position()!=last() or ($foot-position=$foot-last and $seg-position!=$seg-last)">
+                                    test="not(position()=last() and $sb-flag)">
                                     <xsl:text> </xsl:text>
                                 </xsl:if>
                             </xhtml:span>

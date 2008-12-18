@@ -22,7 +22,6 @@ function init() {
 function switchstress(shadowspan) {
 	// called when a syllable's stress is changed
 	realsyllable = $( "prosody:real:" + shadowspan.id.substring(15) );
-	console.log(realsyllable.stress);
 	if (realsyllable.stress == "-") {
 		new Effect.Opacity($(shadowspan), { from: 0, to: 1, duration: 0.4 });
 		shadowspan.removeAllChildren();
@@ -34,11 +33,7 @@ function switchstress(shadowspan) {
 		setTimeout(function() {
 			shadowspan.removeAllChildren();
 			shadowspan.appendChild(slackmarker(realsyllable));
-			realsyllable.stress = '̆';}, 150);
-		/*console.log(slackmarker(realsyllable));
-		shadowspan.removeAllChildren();
-		shadowspan.appendChild(slackmarker(realsyllable));
-		realsyllable.stress = '̆';*/
+			realsyllable.stress = '∪';}, 150);
 		new Effect.Opacity($(shadowspan), { from: 0, to: 1, duration: 0.4 });
 	}
 	else {
@@ -56,7 +51,7 @@ function checkstress(linenumber) {
 	// first we assemble the answer from the "stress" members of the appropriate
 	// line
 	var answer = $("prosody:real:" + linenumber).select("span[real]").pluck(
-			"stress").collect(function(s){return s.replace(/ ̆/,'-')}).join('');
+			"stress").collect(function(s){return s.replace(/∪/,'-')}).join('');
 
 	// now we use Prototype's Ajax Updater convenience type to update the
 	// checking signal/control
@@ -91,7 +86,7 @@ function checkfeet(linenumber) {
 	// first we assemble the answer from the "stress" members of the appropriate
 	// line
 	var answer = $("prosody:real:" + linenumber).select("span[real]").pluck("textContent").join('');
-	console.log(answer);
+	/*console.log(answer); */
 	
 	// now we use Prototype's Ajax Updater convenience type to update the
 	// checking signal/control
@@ -123,7 +118,7 @@ function slackmarker(real) {
 	mark = document.createElement("span");
 	mark.setAttribute('class', 'prosody-marker');
 	spacer = " ".times(Math.floor(real.textContent.length / 2 ));
-	mark.appendChild(document.createTextNode(spacer + " ̆" + spacer))	
+	mark.appendChild(document.createTextNode(spacer + "∪" + spacer))	
 	return mark;
 }
 
