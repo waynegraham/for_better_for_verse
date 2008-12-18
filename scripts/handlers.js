@@ -117,8 +117,12 @@ function marker(real) {
 function slackmarker(real) {	
 	mark = document.createElement("span");
 	mark.setAttribute('class', 'prosody-marker');
+	if(real.textContent.length > 2){
 	spacer = " ".times(Math.floor(real.textContent.length / 2 ));
-	mark.appendChild(document.createTextNode(spacer + "∪" + spacer))	
+	mark.appendChild(document.createTextNode(spacer + "∪" + spacer))
+	} else {
+	mark.appendChild(document.createTextNode("∪"))	
+	}
 	return mark;
 }
 

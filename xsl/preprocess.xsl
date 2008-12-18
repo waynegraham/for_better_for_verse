@@ -70,12 +70,15 @@
                     </xsl:for-each>
                 </xsl:for-each>
                 <xhtml:div class="buttons">
+                    <xhtml:span class="button">
                 <xhtml:button class="prosody-checkstress" id="checkstress{$line-number}"
-                    name="Check stress" onclick="checkstress({$line-number})">Not right yet</xhtml:button>
-                <xhtml:label for="checkstress{$line-number}">Check your scansion</xhtml:label>
+                    name="Check stress" onclick="checkstress({$line-number})">Stress <xhtml:img src="images/default.png"/></xhtml:button>
+                <xhtml:label for="checkstress{$line-number}">Stress</xhtml:label>
+                </xhtml:span>
+                    <xhtml:span class="button">
                 <xhtml:button class="prosody-checkfeet" id="checkfeet{$line-number}"
-                    name="Check stress" onclick="checkfeet({$line-number})">Not right yet</xhtml:button>
-                <xhtml:label for="checkfeet{$line-number}">Check your feet</xhtml:label>
+                    name="Check stress" onclick="checkfeet({$line-number})">Feet <xhtml:img src="images/default.png"/></xhtml:button>
+                </xhtml:span>
                 </xhtml:div>
             </xhtml:div>
 
