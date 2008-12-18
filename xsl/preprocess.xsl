@@ -69,6 +69,8 @@
                         </xsl:for-each>
                     </xsl:for-each>
                 </xsl:for-each>
+
+            </xhtml:div>
                 <xhtml:div class="buttons">
                     <xhtml:span class="button">
                 <xhtml:button class="prosody-checkstress" id="checkstress{$line-number}"
@@ -80,8 +82,6 @@
                     name="Check stress" onclick="checkfeet({$line-number})">Feet <xhtml:img src="images/default.png"/></xhtml:button>
                 </xhtml:span>
                 </xhtml:div>
-            </xhtml:div>
-
 
         </xhtml:div>
     </xsl:template>

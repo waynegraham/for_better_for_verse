@@ -5,7 +5,7 @@
 
 body {
     font-family: arial, sans-serif;
-    font-size: 16px;
+    font-size: 15px;
     background: #222222;
     color: #FFFFFF;
 }
@@ -61,13 +61,14 @@ span.prosody-checkfeet {
 
 #poem span {
     word-spacing: .4em;
-    letter-spacing: .02em;
     }
 
 .buttons {
-    position: absolute;
+    /* position: absolute;
     left: 400px;
-    margin-top: -20px;
+    margin-top: -20px; */
+    float: right;
+    margin-top: -1.5em;  
 }
 
 button img {
@@ -130,8 +131,8 @@ a.button span, span.button button, span.button input, del.button span{
 	background-position:100% 0;
 	background-repeat:no-repeat;
 	height:30px;
-	padding:8px 20px 0 10px;
-	margin:0 -16px 0 10px;
+	padding:4px 10px 0 5px;
+	margin:0 -20px 0 10px;
 	border:none;
 	vertical-align:text-top;
 	zoom:1;
