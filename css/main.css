@@ -61,7 +61,12 @@ span.prosody-checkfeet {
 
 #poem span {
     word-spacing: .4em;
+    letter-spacing: .03em;
     }
+    
+#poem #title {
+    margin: 0 0 20px 0;
+}
 
 .buttons {
     /* position: absolute;
@@ -131,8 +136,8 @@ a.button span, span.button button, span.button input, del.button span{
 	background-position:100% 0;
 	background-repeat:no-repeat;
 	height:30px;
-	padding:4px 10px 0 5px;
-	margin:0 -20px 0 10px;
+	padding:8px 20px 0 10px;
+	margin:0 -16px 0 10px;
 	border:none;
 	vertical-align:text-top;
 	zoom:1;

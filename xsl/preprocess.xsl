@@ -8,6 +8,12 @@
 
     <xsl:template match="/">
         <xhtml:div id="poem">
+                    <xhtml:div id="title">
+            <xhtml:h2><xsl:apply-templates select="/TEI:TEI/TEI:teiHeader/TEI:fileDesc/TEI:titleStmt/TEI:title"/></xhtml:h2>
+            <xsl:if test="/TEI:TEI/TEI:teiHeader/TEI:fileDesc/TEI:titleStmt/TEI:author">
+                <xhtml:h4><xsl:apply-templates select="/TEI:TEI/TEI:teiHeader/TEI:fileDesc/TEI:titleStmt/TEI:author"/></xhtml:h4>
+                    </xsl:if>
+            </xhtml:div>
         <xsl:apply-templates select="TEI:TEI/TEI:text/TEI:body/*"/>
         </xhtml:div>
     </xsl:template>
