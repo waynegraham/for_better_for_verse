@@ -132,3 +132,12 @@ function placeholder() {
 	place.setAttribute('class', 'prosody-placeholder');
 	return place;
 }
+
+function togglestress() {
+	var toggle = document.getElementById('togglestress');
+	if(toggle.hasClassName('on')) {
+		toggle.removeClassName('on');
+		toggle.addClassName('off');
+		/*$$('.prosody-marker').each*/
+	}
+}

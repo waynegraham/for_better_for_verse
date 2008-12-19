@@ -29,6 +29,9 @@
 			<c:import url="xsl/preprocess.xsl" var="preprocessxsl" />
 			<x:transform doc="${poemxml}" xslt="${preprocessxsl}" />
 		</xhtml:div>
+		<xhtml:div id="utils">
+			<xhtml:a id="togglestress" class="on" onclick="togglestress();">Hide stresses</xhtml:a>
+			</xhtml:div>
 	</xhtml:body>
 	</xhtml:html>
 </jsp:root>

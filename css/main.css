@@ -22,7 +22,7 @@ div.TEI-l {
     display:table-row;
 }
 span:hover {
-    text-decoration:underline;
+    background:#444;
 } 
 
 span.prosody-shadowsyllable {
@@ -138,6 +138,7 @@ a.button span, span.button button, span.button input, del.button span{
 	height:30px;
 	padding:8px 20px 0 10px;
 	margin:0 -16px 0 10px;
+        width: 70px;
 	border:none;
 	vertical-align:text-top;
 	zoom:1;
