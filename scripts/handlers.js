@@ -13,16 +13,16 @@ function init() {
 		}
 	});
 
-	// now we set 'stress' to be slack on all the real syllables
+	// now we set 'stress' to be empty on all the real syllables
 	$$('span[real]').collect( function(node) {
-		node.stress = "-"
+		node.stress = ""
 	});
 }
 
 function switchstress(shadowspan) {
 	// called when a syllable's stress is changed
 	realsyllable = $( "prosody:real:" + shadowspan.id.substring(15) );
-	if (realsyllable.stress == "-") {
+	if (realsyllable.stress == "-" || realsyllable.stress == "") {
 		new Effect.Opacity($(shadowspan), { from: 0, to: 1, duration: 0.4 });
 		shadowspan.removeAllChildren();
 		shadowspan.appendChild(marker(realsyllable));
@@ -52,6 +52,13 @@ function checkstress(linenumber) {
 	// line
 	var answer = $("prosody:real:" + linenumber).select("span[real]").pluck(
 			"stress").collect(function(s){return s.replace(/∪/,'-')}).join('');
+	
+	// now we check to see that this is a complete answer. if not, we alert and return
+	
+	if ( answer.length != $("prosody:real:" + linenumber).select("span[real]").length ) {
+		alert("An answer must be complete to be submitted. Please fill in a symbol over each syllable in this line.");
+		return;
+	}
 
 	// now we use Prototype's Ajax Updater convenience type to update the
 	// checking signal/control
