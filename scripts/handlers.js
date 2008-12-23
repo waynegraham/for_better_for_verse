@@ -17,6 +17,7 @@ function init() {
 	$$('span[real]').collect( function(node) {
 		node.stress = ""
 	});
+	
 }
 
 function switchstress(shadowspan) {
@@ -140,11 +141,26 @@ function placeholder() {
 	return place;
 }
 
-function togglestress() {
+/* function togglestress() {
 	var toggle = document.getElementById('togglestress');
 	if(toggle.hasClassName('on')) {
 		toggle.removeClassName('on');
 		toggle.addClassName('off');
-		/*$$('.prosody-marker').each*/
+		/*$$('.prosody-marker').each
+	}
+} */
+
+// this function highlights those syllables in which real="" and met="" scansions are different.
+// it assumes that any syllable featuring a @real attribute will have also a @met attribute and that
+// they are different.
+
+function toggledifferences(e) {
+	if (e.value == "off"){		
+		document.styleSheets[0].insertRule('span[discrepant] { color: red; }',0);
+		e.value = "on";
+	}
+	else if (e.value == "on") {
+		document.styleSheets[0].deleteRule(0);
+		e.value = "off"
 	}
 }
