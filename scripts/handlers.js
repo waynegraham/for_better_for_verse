@@ -18,6 +18,8 @@ function init() {
 		node.stress = ""
 	});
 	
+	$("toggle-discrepancies").toggle();
+	
 }
 
 function switchstress(shadowspan) {
@@ -47,14 +49,16 @@ function switchstress(shadowspan) {
 }
 
 function checkstress(linenumber) {
-	// called to submit an answer to the scansion-checking servlet, returns the answer
+	// called to submit an answer to the scansion-checking servlet, returns the
+	// answer
 
 	// first we assemble the answer from the "stress" members of the appropriate
 	// line
 	var answer = $("prosody:real:" + linenumber).select("span[real]").pluck(
 			"stress").collect(function(s){return s.replace(/∪/,'-')}).join('');
 	
-	// now we check to see that this is a complete answer. if not, we alert and return
+	// now we check to see that this is a complete answer. if not, we alert and
+	// return
 	
 	if ( answer.length != $("prosody:real:" + linenumber).select("span[real]").length ) {
 		alert("An answer must be complete to be submitted. Please fill in a symbol over each syllable in this line.");
@@ -70,10 +74,15 @@ function checkstress(linenumber) {
 			answer: answer,
 			line :linenumber,
 			poem :$('title').text
-		} , method: 'get'
-	}
-
-	);
+		} , method: 'get' , onComplete: function() {		
+			// here we update the visibility of the "Show Discrepancies control"
+			if ( $$("button.prosody-checkstress span[allowdis]").length == $$("button.prosody-checkstress").length ) {	
+				$("toggle-discrepancies").toggle();
+			}
+		}
+	});
+	
+	
 
 }
 
@@ -89,12 +98,13 @@ function switchfoot(coords){
 }
 
 function checkfeet(linenumber) {
-	// called to submit an answer to the feet-checking servlet, returns the answer
+	// called to submit an answer to the feet-checking servlet, returns the
+	// answer
 
 	// first we assemble the answer from the "stress" members of the appropriate
 	// line
 	var answer = $("prosody:real:" + linenumber).select("span[real]").pluck("textContent").join('');
-	/*console.log(answer); */
+	/* console.log(answer); */
 	
 	// now we use Prototype's Ajax Updater convenience type to update the
 	// checking signal/control
@@ -121,7 +131,7 @@ function marker(real) {
 	return mark;
 }
 
-//returns an appropriate token element for use as a slack marker
+// returns an appropriate token element for use as a slack marker
 function slackmarker(real) {	
 	mark = document.createElement("span");
 	mark.setAttribute('class', 'prosody-marker');
@@ -141,17 +151,17 @@ function placeholder() {
 	return place;
 }
 
-/* function togglestress() {
-	var toggle = document.getElementById('togglestress');
-	if(toggle.hasClassName('on')) {
-		toggle.removeClassName('on');
-		toggle.addClassName('off');
-		/*$$('.prosody-marker').each
-	}
-} */
+/*
+ * function togglestress() { var toggle =
+ * document.getElementById('togglestress'); if(toggle.hasClassName('on')) {
+ * toggle.removeClassName('on'); toggle.addClassName('off');
+ * /*$$('.prosody-marker').each } }
+ */
 
-// this function highlights those syllables in which real="" and met="" scansions are different.
-// it assumes that any syllable featuring a @real attribute will have also a @met attribute and that
+// this function highlights those syllables in which real="" and met=""
+// scansions are different.
+// it assumes that any syllable featuring a @real attribute will have also a
+// @met attribute and that
 // they are different.
 
 function toggledifferences(e) {
