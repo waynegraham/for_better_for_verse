@@ -16,6 +16,7 @@
             </xhtml:div>
         <xsl:apply-templates select="TEI:TEI/TEI:text/TEI:body/*"/>
         </xhtml:div>
+        <xhtml:button id="toggle-discrepancies" value="off" onclick="toggledifferences(this)">Toggle metrical discrepancies</xhtml:button>
     </xsl:template>
 
     <xsl:template match="TEI:l">
@@ -49,6 +50,9 @@
 
                 <xsl:copy-of select="@*"/>
                 <xsl:for-each select="TEI:seg">
+                    <!-- if the following flag gets set, this indicates that there is a discrepancy in the line which must be later
+                        highlighted -->
+                    <xsl:variable name="discrepant-flag" select="exists(@real) and exists(@met)"/>
                     <xsl:variable name="sb-flag" select="exists(TEI:sb)"/>
                     <xsl:variable name="seg-position" select="position()"/>
                     <xsl:variable name="seg-last" select="last()"/>
@@ -59,7 +63,9 @@
                             <xhtml:span class="prosody-syllable" real=""
                                 id="prosody:real:{$line-number}:{$seg-position}:{$foot-position}:{position()}"
                                 onclick="switchfoot('prosody:real:{$line-number}:{$seg-position}:{$foot-position}:{position()}');">
-
+                                <xsl:if test="$discrepant-flag">
+                                    <xsl:attribute name="discrepant"/>
+                                </xsl:if>
                                 <!-- <xsl:if test="position()!=last() or $foot-last = $foot-position">
                                     <xsl:attribute name="style" select="'padding-right:1em'"/>
                                 </xsl:if> -->
