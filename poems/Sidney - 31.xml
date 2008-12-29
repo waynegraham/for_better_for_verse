@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI PUBLIC "-//TEI P5//DTD Main Document Type//EN" "http://localhost:8080/prosody/poems/tei_all.dtd">
+<!DOCTYPE TEI PUBLIC "-//TEI P5//DTD Main Document Type//EN" "tei_all.dtd">
 <TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <teiHeader>
         <fileDesc>
@@ -22,6 +22,9 @@
                     <seg met="-+">O Moone, </seg>
                     <seg met="-+">thou climb'st </seg>
                     <seg met="-+">the <rhyme label="a">skies,</rhyme></seg>
+                    <note>
+                        This line is almost regular with an spondee in the second foot.
+                    </note>
                 </l>
                 <l n="2">
                     <seg met="-+">How si<sb/></seg>
@@ -30,6 +33,9 @@
                     <seg met="-+" real="--">and with </seg>
                     <seg met="-+" real="++">how wanne </seg>
                     <seg met="-+">a <rhyme label="b">face,</rhyme></seg>
+                    <note>
+                        I read the second and third feet as pyrrhic but might be read as iambic.
+                    </note>
                 </l>
                 <l n="3">
                     <seg met="-+" real="+-">What, <caesura/>may </seg>
@@ -60,6 +66,9 @@
                     <seg met="-+">thou feel'st </seg>
                     <seg met="-+">a Lov<sb/></seg>
                     <seg met="-+">er's <rhyme label="b">case;</rhyme></seg>
+                    <note>
+                        Hey, this one's completely regular!
+                    </note>
                 </l>
                 <l n="7">
                     <seg met="-+">I reade </seg>
