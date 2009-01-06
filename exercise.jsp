@@ -18,7 +18,7 @@
 			<c:out value="${param.poem}" />
 		</xhtml:title>
 		<xhtml:link href="css/main.css" rel="stylesheet" title="Basic TEI style" type="text/css" />
-	
+		<xhtml:script type="text/javascript">debugflag=true;</xhtml:script>
 		<xhtml:script type="text/javascript" src="scripts/prototype.js"></xhtml:script>
 		<xhtml:script type="text/javascript" id="scriptaculous" src="scripts/effects.js"></xhtml:script>
 		<xhtml:script type="text/javascript" src="scripts/handlers.js"></xhtml:script>
@@ -31,7 +31,7 @@
 			<x:transform doc="${poemxml}" xslt="${preprocessxsl}" />
 		</xhtml:div>
 		<xhtml:div id="utils">
-			<xhtml:a id="togglestress" class="on" onclick="togglestress();">Hide stresses</xhtml:a>
+			<xhtml:button id="togglestress" class="on" onclick="togglestress();">Hide/show stresses</xhtml:button>
 			</xhtml:div>
 	</xhtml:body>
 	</xhtml:html>
