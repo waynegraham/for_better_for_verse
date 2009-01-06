@@ -53,8 +53,17 @@ span.prosody-checkfeet {
     display:table-cell;
 }
 
+p.prosody-note {
+    display:none;
+}
+button.prosody-note-button {
+
+
+}
+
+
 #poem {
-    width: 600px;
+    width: 700px;
     height: 629px;
     padding: 20px;
 }
