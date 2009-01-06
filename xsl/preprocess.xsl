@@ -8,15 +8,22 @@
 
     <xsl:template match="/">
         <xhtml:div id="poem">
-                    <xhtml:div id="title">
-            <xhtml:h2><xsl:apply-templates select="/TEI:TEI/TEI:teiHeader/TEI:fileDesc/TEI:titleStmt/TEI:title"/></xhtml:h2>
-            <xsl:if test="/TEI:TEI/TEI:teiHeader/TEI:fileDesc/TEI:titleStmt/TEI:author">
-                <xhtml:h4><xsl:apply-templates select="/TEI:TEI/TEI:teiHeader/TEI:fileDesc/TEI:titleStmt/TEI:author"/></xhtml:h4>
-                    </xsl:if>
+            <xhtml:div id="title">
+                <xhtml:h2>
+                    <xsl:apply-templates
+                        select="/TEI:TEI/TEI:teiHeader/TEI:fileDesc/TEI:titleStmt/TEI:title"/>
+                </xhtml:h2>
+                <xsl:if test="/TEI:TEI/TEI:teiHeader/TEI:fileDesc/TEI:titleStmt/TEI:author">
+                    <xhtml:h4>
+                        <xsl:apply-templates
+                            select="/TEI:TEI/TEI:teiHeader/TEI:fileDesc/TEI:titleStmt/TEI:author"/>
+                    </xhtml:h4>
+                </xsl:if>
             </xhtml:div>
-        <xsl:apply-templates select="TEI:TEI/TEI:text/TEI:body/*"/>
+            <xsl:apply-templates select="TEI:TEI/TEI:text/TEI:body/*"/>
         </xhtml:div>
-        <xhtml:button id="toggle-discrepancies" value="off" onclick="toggledifferences(this)">Toggle metrical discrepancies</xhtml:button>
+        <xhtml:button id="toggle-discrepancies" value="off" onclick="toggledifferences(this)">Toggle
+            metrical discrepancies</xhtml:button>
     </xsl:template>
 
     <xsl:template match="TEI:l">
@@ -73,8 +80,7 @@
 
                                 <xsl:copy-of select="."/>
                                 <!-- add space back -->
-                                <xsl:if
-                                    test="not(position()=last() and $sb-flag)">
+                                <xsl:if test="not(position()=last() and $sb-flag)">
                                     <xsl:text> </xsl:text>
                                 </xsl:if>
                             </xhtml:span>
@@ -83,17 +89,33 @@
                 </xsl:for-each>
 
             </xhtml:div>
-                <xhtml:div class="buttons">
-                    <xhtml:span class="button">
-                <xhtml:button class="prosody-checkstress" id="checkstress{$line-number}"
-                    name="Check stress" onclick="checkstress({$line-number})">Stress <xhtml:img src="images/default.png"/></xhtml:button>
-                <xhtml:label for="checkstress{$line-number}">Stress</xhtml:label>
+            <xhtml:div class="buttons">
+                <xhtml:span class="button">
+                    <xhtml:button class="prosody-checkstress" id="checkstress{$line-number}"
+                        name="Check stress" onclick="checkstress({$line-number})">Stress <xhtml:img
+                            src="images/default.png"/></xhtml:button>
+                    <xhtml:label for="checkstress{$line-number}">Check Stress</xhtml:label>
                 </xhtml:span>
-                    <xhtml:span class="button">
-                <xhtml:button class="prosody-checkfeet" id="checkfeet{$line-number}"
-                    name="Check stress" onclick="checkfeet({$line-number})">Feet <xhtml:img src="images/default.png"/></xhtml:button>
+                <xhtml:span class="button">
+                    <xhtml:button class="prosody-checkfeet" id="checkfeet{$line-number}"
+                        name="Check feet" onclick="checkfeet({$line-number})">Feet <xhtml:img
+                        src="images/default.png"/></xhtml:button>
+                    <xhtml:label for="checkfeet{$line-number}">Check Feet</xhtml:label>
                 </xhtml:span>
-                </xhtml:div>
+                <xsl:if test="TEI:note">
+                    <xhtml:span class="button">
+                        <xhtml:button class="prosody-note-button" id="displaynotebutton{$line-number}"
+                            name="Note about this line" onclick="">
+                            <xhtml:img src="images/unclickablehint.png"/>
+                        </xhtml:button>
+                        <xhtml:p class="prosody-note" id="hintfor{$line-number}">
+                            <xhtml:span>Note on line number <xsl:value-of select="$line-number"/>:</xhtml:span>
+                            <xsl:copy-of select="TEI:note"/>
+                        </xhtml:p>
+                        <xhtml:label for="displaynotebutton{$line-number}">Hint button for line <xsl:value-of select="$line-number"/></xhtml:label>
+                    </xhtml:span>
+                </xsl:if>
+            </xhtml:div>
 
         </xhtml:div>
     </xsl:template>
