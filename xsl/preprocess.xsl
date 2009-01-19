@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:prosody="http://www.prosody.org" xmlns:TEI="http://www.tei-c.org/ns/1.0"
-    xmlns:xhtml="http://www.w3.org/1999/xhtml" version="2.0">
+    xmlns="http://www.w3.org/1999/xhtml" version="2.0">
 
     <xsl:output indent="yes" method="xml" omit-xml-declaration="yes"/>
     <xsl:preserve-space elements="*"/>
 
     <xsl:template match="/">
-        <xhtml:div id="poem">
-            <xhtml:div id="title">
-                <xhtml:h2>
+        <div id="poem">
+            <div id="title">
+                <h2>
                     <xsl:apply-templates
                         select="/TEI:TEI/TEI:teiHeader/TEI:fileDesc/TEI:titleStmt/TEI:title"/>
-                </xhtml:h2>
+                </h2>
                 <xsl:if test="/TEI:TEI/TEI:teiHeader/TEI:fileDesc/TEI:titleStmt/TEI:author">
-                    <xhtml:h4>
+                    <h4>
                         <xsl:apply-templates
                             select="/TEI:TEI/TEI:teiHeader/TEI:fileDesc/TEI:titleStmt/TEI:author"/>
-                    </xhtml:h4>
+                    </h4>
                 </xsl:if>
-            </xhtml:div>
+            </div>
             <xsl:apply-templates select="TEI:TEI/TEI:text/TEI:body/*"/>
-        </xhtml:div>
-        <xhtml:button id="toggle-discrepancies" value="off" onclick="toggledifferences(this)">Toggle
-            metrical discrepancies</xhtml:button>
+        </div>
+        <button id="toggle-discrepancies" value="off" onclick="toggledifferences(this)">Toggle
+            metrical discrepancies</button>
     </xsl:template>
 
     <xsl:template match="TEI:l">
         <xsl:variable name="line-number" select="@n"/>
-        <xhtml:div class="prosody:line">
+        <div class="prosody:line">
             <!-- first cycle through the segments, constructing shadow syllables -->
-            <xhtml:div class="prosody-shadowline" id="prosody:shadow:{$line-number}">
+            <div class="prosody-shadowline" id="prosody:shadow:{$line-number}">
                 <xsl:copy-of select="@*"/>
                 <xsl:for-each select="TEI:seg">
 
@@ -40,20 +40,20 @@
                         <xsl:variable name="foot-position" select="position()"/>
                         <xsl:variable name="foot-last" select="last()"/>
                         <xsl:for-each select="tokenize(normalize-space(string(.)),' ')">
-                            <xhtml:span class="prosody-shadowsyllable" shadow=""
+                            <span class="prosody-shadowsyllable" shadow=""
                                 id="prosody:shadow:{$line-number}:{$seg-position}:{$foot-position}:{position()}"
                                 onclick="switchstress(this);">
 
-                                <xhtml:span class="prosody-placeholder">
+                                <span class="prosody-placeholder">
                                     <xsl:copy-of select="string(.)"/>
-                                </xhtml:span>
-                            </xhtml:span>
+                                </span>
+                            </span>
                         </xsl:for-each>
                     </xsl:for-each>
                 </xsl:for-each>
-            </xhtml:div>
+            </div>
 
-            <xhtml:div class="TEI-l" id="prosody:real:{$line-number}">
+            <div class="TEI-l" id="prosody:real:{$line-number}">
 
                 <xsl:copy-of select="@*"/>
                 <xsl:for-each select="TEI:seg">
@@ -67,7 +67,7 @@
                         <xsl:variable name="foot-position" select="position()"/>
                         <xsl:variable name="foot-last" select="last()"/>
                         <xsl:for-each select="tokenize(normalize-space(string(.)),' ')">
-                            <xhtml:span class="prosody-syllable" real=""
+                            <span class="prosody-syllable" real=""
                                 id="prosody:real:{$line-number}:{$seg-position}:{$foot-position}:{position()}"
                                 onclick="switchfoot('prosody:real:{$line-number}:{$seg-position}:{$foot-position}:{position()}');">
                                 <xsl:if test="$discrepant-flag">
@@ -83,48 +83,48 @@
                                 <xsl:if test="not(position()=last() and $sb-flag)">
                                     <xsl:text> </xsl:text>
                                 </xsl:if>
-                            </xhtml:span>
+                            </span>
                         </xsl:for-each>
                     </xsl:for-each>
                 </xsl:for-each>
 
-            </xhtml:div>
-            <xhtml:div class="buttons">
-                <xhtml:span class="button">
-                    <xhtml:button class="prosody-checkstress" id="checkstress{$line-number}"
-                        name="Check stress" onclick="checkstress({$line-number})">Stress <xhtml:img
-                            src="images/default.png"/></xhtml:button>
-                    <xhtml:label for="checkstress{$line-number}">Check Stress</xhtml:label>
-                </xhtml:span>
-                <xhtml:span class="button">
-                    <xhtml:button class="prosody-checkfeet" id="checkfeet{$line-number}"
-                        name="Check feet" onclick="checkfeet({$line-number})">Feet <xhtml:img
-                        src="images/default.png"/></xhtml:button>
-                    <xhtml:label for="checkfeet{$line-number}">Check Feet</xhtml:label>
-                </xhtml:span>
+            </div>
+            <div class="buttons">
+                <span class="button">
+                    <button class="prosody-checkstress" id="checkstress{$line-number}"
+                        name="Check stress" onclick="checkstress({$line-number})">Stress <img
+                            src="images/default.png"/></button>
+                    <label for="checkstress{$line-number}">Check Stress</label>
+                </span>
+                <span class="button">
+                    <button class="prosody-checkfeet" id="checkfeet{$line-number}"
+                        name="Check feet" onclick="checkfeet({$line-number})">Feet <img
+                        src="images/default.png"/></button>
+                    <label for="checkfeet{$line-number}">Check Feet</label>
+                </span>
                 <xsl:if test="TEI:note">
-                    <xhtml:span class="button">
-                        <xhtml:button class="prosody-note-button" id="displaynotebutton{$line-number}"
+                    <span class="button">
+                        <button class="prosody-note-button" id="displaynotebutton{$line-number}"
                             name="Note about this line" onclick="">
-                            <xhtml:img src="images/unclickablehint.png"/>
-                        </xhtml:button>
-                        <xhtml:p class="prosody-note" id="hintfor{$line-number}">
-                            <xhtml:span>Note on line number <xsl:value-of select="$line-number"/>:</xhtml:span>
+                            <img src="images/unclickablehint.png"/>
+                        </button>
+                        <p class="prosody-note" id="hintfor{$line-number}">
+                            <span>Note on line number <xsl:value-of select="$line-number"/>:</span>
                             <xsl:copy-of select="TEI:note"/>
-                        </xhtml:p>
-                        <xhtml:label for="displaynotebutton{$line-number}">Hint button for line <xsl:value-of select="$line-number"/></xhtml:label>
-                    </xhtml:span>
+                        </p>
+                        <label for="displaynotebutton{$line-number}">Hint button for line <xsl:value-of select="$line-number"/></label>
+                    </span>
                 </xsl:if>
-            </xhtml:div>
+            </div>
 
-        </xhtml:div>
+        </div>
     </xsl:template>
 
-    <xsl:template match="node()|@*">
+    <!-- <xsl:template match="node()|@*">
         <xsl:copy>
             <xsl:apply-templates select="@*"/>
             <xsl:apply-templates/>
         </xsl:copy>
-    </xsl:template>
+    </xsl:template> -->
 
 </xsl:stylesheet>
