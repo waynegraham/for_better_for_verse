@@ -20,9 +20,9 @@
 		</title>
 		<link href="css/main.css" rel="stylesheet" title="Basic TEI style" type="text/css" />
 		<script type="text/javascript">debugflag=true;</script>
-		<script type="text/javascript" src="scripts/prototype.js"></script>
-		<script type="text/javascript" id="scriptaculous" src="scripts/effects.js"></script>
-		<script type="text/javascript" src="scripts/handlers.js"></script>
+		<script type="text/javascript" src="scripts/prototype.js"><!--this--></script>
+		<script type="text/javascript" id="scriptaculous" src="scripts/effects.js"><!--this--></script>
+		<script type="text/javascript" src="scripts/handlers.js"><!--this--></script>
 	</head>
 
 
