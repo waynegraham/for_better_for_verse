@@ -86,12 +86,16 @@ button.prosody-note-button {
 }
 
 button img {
-    vertical-align: text-top;
+    vertical-align: middle;
 }
 
 button {
 	background: none;
 	border: none;
 	color: #FFFFFF;
+}
+
+label {
+	vertical-align: bottom;
 }
 
