@@ -4,8 +4,8 @@
 }
 
 body {
-    font-family: arial, sans-serif;
-    font-size: 15px;
+    font-family: arial, verdana, helvetica, sans-serif;
+    font-size: 14px;
     background: #222222;
     color: #FFFFFF;
 }
@@ -57,14 +57,11 @@ p.prosody-note {
     display:none;
 }
 button.prosody-note-button {
-
-
 }
 
-
 #poem {
-    width: 700px;
-    height: 629px;
+    width: 560px;
+    height: 570px;
     padding: 20px;
 }
 
@@ -97,5 +94,6 @@ button {
 
 label {
 	vertical-align: bottom;
+	margin-left: -7px;
 }
 
