@@ -16,7 +16,7 @@
     <text>
         <body>
             <lg met="-+(5)" rhyme="abbaabbacdcdee">
-                <l n="1">
+                <l n="1" type="stanza">
                     <seg met="-+">With how</seg>
                     <seg met="-+" real="++">sad steps</seg>,
                     <seg met="-+">O Moone</seg>,

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "file:/C:/Users/toadymc/Author9.3/Tucker%20Project/tei_all.dtd">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Heaven-Haven: A Nun Takes the Veil</title>
+                <author>Gerard Manley Hopkins</author>
+            </titleStmt>
+            <publicationStmt></publicationStmt>
+            <sourceDesc></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <lg n="1" type="stanza" met="-+(3/2/5/3)" rhyme="abba">
+                <space/><l n="1">
+                    <seg met="-+" real="+-">I have</seg>
+                    <seg met="-+">de<sb/>sired</seg>
+                    <seg met="-+">to <rhyme label="a">go</rhyme></seg>
+                </l>
+                <space/><space/><l n="2">
+                    <seg met="-+">Where springs</seg>
+                    <seg met="-+" real="++">not <rhyme label="b">fail</rhyme></seg>,
+                </l>
+                <l n="3">
+                    <seg met="-+">To fields</seg>
+                    <seg met="-+">where flies</seg>
+                    <seg met="-+">no sharp</seg>
+                    <seg met="-+">and sid<sb/></seg>
+                    <seg met="-+">ed <rhyme label="b">hail</rhyme></seg>
+                </l>
+                <space/><l n="4">
+                    <seg met="-+" real="--">And a</seg>
+                    <seg met="-+" real="++">few lil<sb/></seg>
+                    <seg met="-+">ies <rhyme label="a">blow</rhyme></seg>.
+                </l>
+            </lg>
+            <lg n="2" type="stanza" met="-+(3/2/5/3)" rhyme="cddc">
+                <space/><l n="5">
+                    <seg met="-+">And I</seg>
+                    <seg met="-+">have asked</seg>
+                    <seg met="-+">to <rhyme label="c">be</rhyme></seg>
+                </l>
+                <space/><space/><l n="6">
+                    <seg met="-+">Where no</seg>
+                    <seg met="-+" real="++">storms <rhyme label="d">come</rhyme></seg>,
+                </l>
+                <l n="7">
+                    <seg met="-+" real="--">Where the</seg>
+                    <seg met="-+" real="++">green swell</seg>
+                    <seg met="-+">is in</seg>
+                    <seg met="-+">the ha<sb/></seg>
+                    <seg met="-+">vens <rhyme label="d">dumb</rhyme></seg>,
+                </l>
+                <space/><l n="8">
+                    <seg met="-+">And out</seg>
+                    <seg met="-+" real="--+">of the swing</seg>
+                    <seg met="-+" real="--+">of the <rhyme label="c">sea</rhyme></seg>.
+                </l>
+            </lg>
+        </body>
+    </text>
+</TEI>

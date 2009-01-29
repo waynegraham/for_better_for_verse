@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "file:/C:/Users/toadymc/Author9.3/Tucker%20Project/tei_all.dtd">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>I Look Into My Glass</title>
+                <author>Thomas Hardy</author>
+            </titleStmt>
+            <publicationStmt></publicationStmt>
+            <sourceDesc></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <lg n="1" type="quatrain" met="-+(3/3/4/3)" rhyme="abab">
+                <l n="1">
+                    <seg met="-+">I look</seg>
+                    <seg met="-+">in<sb/>to</seg>
+                    <seg met="-+">my <rhyme label="a">glass</rhyme></seg>,
+                </l>
+                <space/><l n="2">
+                    <seg met="-+">And view</seg>
+                    <seg met="-+">my wast<sb/></seg>
+                    <seg met="-+">ing <rhyme label="b">skin</rhyme></seg>,
+                </l>
+                <l n="3">
+                    <seg met="-+">And say</seg>,
+                    <caesura/>
+                    "<seg met="-+" real="++">Would God</seg>
+                    <seg met="-+">it came</seg>
+                    <seg met="-+">to <rhyme label="a">pass</rhyme></seg>
+                </l>
+                <space/><l n="4">
+                    <seg met="-+">My heart</seg>
+                    <seg met="-+">had shrunk</seg>
+                    <seg met="-+">as <rhyme label="b">thin</rhyme></seg>!"
+                </l>
+            </lg>
+            <lg n="2" type="quatrain" met="-+(3/3/4/3)" rhyme="cdcd">
+                <l n="5">
+                    <seg met="-+">For then</seg>,
+                    <seg met="-+">I, <caesura/> un<sb/></seg>
+                    <seg met="-+">dis<sb/><rhyme label="c">trest</rhyme></seg>
+                </l>
+                <space/><l n="6">
+                    <seg met="-+">By hearts</seg>
+                    <seg met="-+" real="++">grown cold</seg>
+                    <seg met="-+">to <rhyme label="d">me</rhyme></seg>,
+                </l>
+                <l n="7">
+                    <seg met="-+">Could lone<sb/></seg>
+                    <seg met="-+">ly wait</seg>
+                    <seg met="-+">my end<sb/></seg>
+                    <seg met="-+">less <rhyme label="c">rest</rhyme></seg>
+                </l>
+                <space/><l n="8">
+                    <seg met="-+">With e<sb/></seg>
+                    <seg met="-+">qua<sb/>nim<sb/></seg>
+                    <seg met="-+">i<sb/><rhyme label="d">ty</rhyme></seg>.
+                </l>
+            </lg>
+            <lg n="3" type="quatrain" met="-+(3/3/4/3)" rhyme="efef">
+                <l n="9">
+                    <seg met="-+">But Time</seg>,
+                    <caesura/>
+                    <seg met="-+">to make</seg>
+                    <seg met="-+">me <rhyme label="e">grieve</rhyme></seg>,
+                </l>
+                <space/><l n="10">
+                    <seg met="++">Part steals</seg>,
+                    <caesura/>
+                    <seg met="-+">lets part</seg>
+                    <seg met="-+">a<sb/><rhyme label="f">bide</rhyme></seg>;
+                </l>
+                <l n="11">
+                    <seg met="-+">And shakes</seg>
+                    <seg met="-+">this frag<sb/></seg>
+                    <seg met="-+">ile frame</seg>
+                    <seg met="-+">at <rhyme label="e">eve</rhyme></seg>
+                </l>
+                <space/><l n="12">
+                    <seg met="-+">With throb<sb/></seg>
+                    <seg met="-+" real="--">bings of</seg>
+                    <seg met="-+" real="++">noon<sb/><rhyme label="f">tide</rhyme></seg>.
+                </l>
+            </lg>
+        </body>
+    </text>
+</TEI>

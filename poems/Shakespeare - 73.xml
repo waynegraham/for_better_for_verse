@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "file:/C:/Users/toadymc/Author9.3/Tucker%20Project/tei_all.dtd">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sonnet 73</title>
+                <author>William Shakespeare</author>
+            </titleStmt>
+            <publicationStmt>
+                <date>1609</date>
+            </publicationStmt>
+            <sourceDesc></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <lg n="1" type="quatrain" met="-+(5)" rhyme="abab">
+                <l n="1">
+                    <seg met="-+">That time</seg>
+                    <seg met="-+">of year</seg>
+                    <seg met="-+">thou mayst</seg>
+                    <seg met="-+">in me</seg>
+                    <seg met="-+">be<sb/><rhyme label="a">hold</rhyme></seg>
+                </l>
+                <l n="2">
+                    <seg met="-+">When yel<sb/></seg>
+                    <seg met="-+">low leaves</seg>,
+                    <seg met="-+">or none</seg>,
+                    <seg met="-+">or few</seg>,
+                    <seg met="-+">do <rhyme label="b">hang</rhyme></seg>
+                </l>
+                <l n="3">
+                    <seg met="-+">Up<sb/>on</seg>
+                    <seg met="-+">those boughs</seg>
+                    <seg met="-+">which shake</seg>
+                    <seg met="-+">a<sb/>gainst</seg>
+                    <seg met="-+">the <rhyme label="a">cold</rhyme></seg>,
+                </l>
+                <l n="4">
+                    <seg met="-+" real="++">Bare ru<sb/></seg>
+                    <seg met="-+">ined choirs</seg>,
+                    <caesura/>
+                    <seg met="-+">where late</seg>
+                    <seg met="-+">the sweet</seg>
+                    <seg met="-+" real="++">birds <rhyme label="b">sang</rhyme></seg>.
+                </l>
+            </lg>
+            <lg n="2" type="quatrain" met="-+(5)" rhyme="cdcd">
+                <l n="5">
+                    <seg met="-+">In me</seg>
+                    <seg met="-+">thou seest</seg>
+                    <seg met="-+">the twi<sb/></seg>
+                    <seg met="-+" real="--">light of</seg>
+                    <seg met="-+" real="++">such <rhyme label="c">day</rhyme></seg>
+                </l>
+                <l n="6">
+                    <seg met="-+">As af<sb/></seg>
+                    <seg met="-+">ter sun<sb/></seg>
+                    <seg met="-+">set fad<sb/></seg>
+                    <seg met="-+">eth in</seg>
+                    <seg met="-+">the <rhyme label="d">west</rhyme></seg>;
+                </l>
+                <l n="7">
+                    <seg met="-+">Which by</seg>
+                    <seg met="-+">and by</seg>
+                    <seg met="-+" real="++">black night</seg>
+                    <seg met="-+">doth take</seg>
+                    <seg met="-+">a<sb/><rhyme label="c">way</rhyme></seg>,
+                </l>
+                <l n="8">
+                    <seg met="-+" real="++">Death's sec<sb/></seg>
+                    <seg met="-+">ond self</seg>,
+                    <caesura/>
+                    <seg met="-+">that seals</seg>
+                    <seg met="-+">up all</seg>
+                    <seg met="-+">in <rhyme label="d">rest</rhyme></seg>.
+                </l>
+            </lg>
+            <lg n="3" type="quatrain" met="-+(5)" rhyme="efef">
+                <l n="9">
+                    <seg met="-+">In me</seg>
+                    <seg met="-+">thou seest</seg>
+                    <seg met="-+">the glow<sb/></seg>
+                    <seg met="-+" real="--">ing of</seg>
+                    <seg met="-+" real="++">such <rhyme label="e">fire</rhyme></seg>,
+                </l>
+                <l n="10">
+                    <seg met="-+">That on</seg>
+                    <seg met="-+">the ash<sb/></seg>
+                    <seg met="-+">es of</seg>
+                    <seg met="-+">his youth</seg>
+                    <seg met="-+">doth <rhyme label="f">lie</rhyme></seg>,
+                </l>
+                <l n="11">
+                    <seg met="-+" real="--">As the</seg>
+                    <seg met="-+" real="++">death<sb/>bed</seg>
+                    <seg met="-+">where<sb/>on</seg>
+                    <seg met="-+">it must</seg>
+                    <seg met="-+">ex<sb/><rhyme label="e">pire</rhyme></seg>,
+                </l>
+                <l n="12">
+                    <seg met="-+">Con<sb/>sumed</seg>
+                    <seg met="-+">with that</seg>
+                    <seg met="-+">which it</seg>
+                    <seg met="-+">was nour<sb/></seg>
+                    <seg met="-+">ished <rhyme label="f">by</rhyme></seg>.
+                </l>
+            </lg>
+            <lg n="4" type="couplet" met="-+(5)" rhyme="gg">
+                <l n="13">
+                    <seg met="-+" real="+-">This thou</seg>
+                    <seg met="-+">per<sb/>ceiv'st</seg>,
+                    <caesura/>
+                    <seg met="-+">which makes</seg>
+                    <seg met="-+">thy love</seg>
+                    <seg met="-+">more <rhyme label="g">strong</rhyme></seg>,
+                </l>
+                <l n="14">
+                    <seg met="-+">To love</seg>
+                    <seg met="-+">that well</seg>
+                    <seg met="-+">which thou</seg>
+                    <seg met="-+">must leave</seg>
+                    <seg met="-+">ere <rhyme label="g">long</rhyme></seg>.
+                </l>
+            </lg>
+        </body>
+    </text>
+</TEI>

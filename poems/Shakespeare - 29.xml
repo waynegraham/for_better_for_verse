@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "file:/C:/Users/toadymc/Author9.3/Tucker%20Project/tei_all.dtd">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sonnet 18</title>
+                <author>William Shakespeare</author>
+            </titleStmt>
+            <publicationStmt>
+                <date>1609</date>
+            </publicationStmt>
+            <sourceDesc></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <lg n="1" type="quatrain" met="-+(5)" rhyme="abab">
+                <l n="1">
+                    <seg met="-+" real="+-">When, in</seg>
+                    <seg met="-+">dis<sb/>grace</seg>
+                    <seg met="-+">with for<sb/></seg>
+                    <seg met="-+" real="--">tune and</seg>
+                    <seg met="-+" real="++">men's <rhyme label="a">eyes</rhyme></seg>,
+                </l>
+                <l n="2">
+                    <seg met="-+">I all</seg>
+                    <seg met="-+">a<sb/>lone</seg>
+                    <seg met="-+">be<sb/>weep</seg>
+                    <seg met="-+">my out<sb/></seg>
+                    <seg met="-+">cast <rhyme label="b">state</rhyme></seg>,
+                </l>
+                <l n="3">
+                    <seg met="-+">And trou<sb/></seg>
+                    <seg met="-+">ble deaf</seg>
+                    <seg met="-+" real="+-">heav<sb/>en</seg>
+                    <caesura/>
+                    <seg met="-+" real="--+">with my boot<sb/></seg>
+                    <seg met="-+">less <rhyme label="a">cries</rhyme></seg>,
+                </l>
+                <l n="4">
+                    <seg met="-+">And look</seg>
+                    <seg met="-+">up<sb/>on</seg>
+                    <seg met="-+">my<sb/>self</seg>,
+                    <caesura/>
+                    <seg met="-+">and curse</seg>
+                    <seg met="-+">my <rhyme label="b">fate</rhyme></seg>,
+                </l>
+            </lg>
+            <lg n="2" type="quatrain" met="-+(5)" rhyme="cdce">
+                <l n="5">
+                    <seg met="-+" real="+-">Wish<sb/>ing</seg>
+                    <seg met="-+">me like</seg>
+                    <seg met="-+">to one</seg>
+                    <seg met="-+">more rich</seg>
+                    <seg met="-+">in <rhyme label="c">hope</rhyme></seg>,
+                </l>
+                <l n="6">
+                    <seg met="-+" real="+-">Fea<sb/>tured</seg>
+                    <seg met="-+">like him</seg>,
+                    <caesura/>
+                    <seg met="-+">like him</seg>
+                    <seg met="-+">with friends</seg>
+                    <seg met="-+"> pos<sb/><rhyme label="d">sessed</rhyme></seg>,
+                </l>
+                <l n="7">
+                    <seg met="-+">De<sb/>sir<sb/></seg>
+                    <seg met="-+">ing this</seg>
+                    <seg met="-+">man's art</seg>
+                    <seg met="-+">and that</seg>
+                    <seg met="-+">man's <rhyme label="c">scope</rhyme></seg>,
+                </l>
+                <l n="8">
+                    <seg met="-+">With what</seg>
+                    <seg met="-+">I most</seg>
+                    <seg met="-+">en<sb/>joy</seg>
+                    <seg met="-+">con<sb/>tent<sb/></seg>
+                    <seg met="-+">ed <rhyme label="e">least</rhyme></seg>;
+                </l>
+            </lg>
+            <lg n="3" type="quatrain" met="-+(5)" rhyme="fbfb">
+                <l n="9">
+                    <seg met="-+" real="+-">Yet in</seg>
+                    <seg met="-+">these thoughts</seg>
+                    <seg met="-+">my<sb/>self</seg>
+                    <seg met="-+">al<sb/>most</seg>
+                    <seg met="-+" real="-+^">de<sb/><rhyme label="f">spis<sb/>ing</rhyme></seg>, 
+                </l>
+                <l n="10">
+                    <seg met="-+" real="+-">Hap<sb/>ly</seg>
+                    <seg met="-+">I think</seg>
+                    <seg met="-+">on thee</seg> -
+                    <caesura/>- 
+                    <seg met="-+">and then</seg>
+                    <seg met="-+">my <rhyme label="b">state</rhyme></seg>,
+                </l>
+                <l n="11">
+                    <seg met="-+" real="+-">Like to</seg>
+                    <seg met="-+">the lark</seg>
+                    <seg met="-+">at break</seg>
+                    <seg met="-+">of day</seg>
+                    <seg met="-+" real="-+^">a<sb/><rhyme label="f">ris<sb/>ing</rhyme></seg>
+                </l>
+                <l n="12">
+                    <seg met="-+">From sul<sb/></seg>
+                    <seg met="-+">len earth</seg>,
+                    <caesura/>
+                    <seg met="-+" real="++">sings hymns</seg>
+                    <seg met="-+">at heav<sb/></seg>
+                    <seg met="-+">en's <rhyme label="b">gate</rhyme></seg>;
+                </l>
+            </lg>
+            <lg n="4" type="couplet" met="-+(5)" rhyme="gg">
+                <l n="13">
+                    <seg met="-+" real="--">For thy</seg>
+                    <seg met="-+" real="++">sweet love</seg>
+                    <seg met="-+">re<sb/>mem<sb/></seg>
+                    <seg met="-+">bered such</seg>
+                    <seg met="-+" real="++">wealth <rhyme label="g">brings</rhyme></seg>
+                </l>
+                <l n="14">
+                    <seg met="-+">That then</seg>
+                    <seg met="-+">I scorn</seg>
+                    <seg met="-+">to change</seg>
+                    <seg met="-+">my state</seg>
+                    <seg met="-+">with <rhyme label="g">kings</rhyme></seg>.
+                </l>
+            </lg>
+        </body>
+    </text>
+</TEI>
