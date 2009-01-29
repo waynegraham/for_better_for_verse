@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI SYSTEM "http://sds6.itc.virginia.edu:8080/prosody/poems/tei_all.dtd">
+<!DOCTYPE TEI SYSTEM "file:/C:/Users/toadymc/Author9.3/Tucker%20Project/tei_all.dtd">
 <TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <teiHeader>
         <fileDesc>
@@ -7,16 +7,16 @@
                 <title>God's Grandeur</title>
                 <author>Gerard Manley Hopkins</author>
             </titleStmt>
-            <publicationStmt><p/></publicationStmt>
-            <sourceDesc><p/></sourceDesc>
+            <publicationStmt></publicationStmt>
+            <sourceDesc></sourceDesc>
         </fileDesc>
     </teiHeader>
     <text>
         <body>
             <lg n="1" type="octave" met="-+(5)" rhyme="abbaabba">
                <l n="1">
-                   <seg met="-+">The world </seg>
-                   <seg met="-+">is charged </seg>
+                   <seg met="-+">The world</seg>
+                   <seg met="-+">is charged</seg>
                    <seg met="-+" real="--">with the</seg>
                    <seg met="-+" real="++">gran<sb/>deur</seg>
                    <seg met="-+">of <rhyme label="a">God</rhyme></seg>.
