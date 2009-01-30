@@ -59,7 +59,7 @@ function switchstress(shadowspan) {
 		});
 		setTimeout( function() {
 			shadowspan.removeAllChildren();
-			shadowspan.appendChild(placeholder());
+			shadowspan.appendChild(placeholder(realsyllable));
 			realsyllable.stress = '-';
 		}, 150);
 	}
@@ -156,31 +156,52 @@ function checkfeet(linenumber) {
 
 // returns an appropriate token element for use as a stress marker
 function marker(real) {
-	mark = document.createElementNS("http://www.w3.org/1999/xhtml","xhtml:span");
+	var mark = document.createElement("span");
 	mark.setAttribute('class', 'prosody-marker');
-	spacer = " ".times(Math.floor(real.textContent.length / 2));
+	if(real.innerText){
+		spacer = " ".times(Math.floor(real.innerText.length / 2));
+		} else {
+		spacer = " ".times(Math.floor(real.textContent.length / 2));
+		}
 	mark.appendChild(document.createTextNode(spacer + "/" + spacer))
 	return mark;
 }
 
 // returns an appropriate token element for use as a slack marker
 function slackmarker(real) {
-	mark = document.createElementNS("http://www.w3.org/1999/xhtml","xhtml:span");
+	var mark = document.createElement("span");
 	mark.setAttribute('class', 'prosody-marker');
-	if (real.textContent.length > 2) {
-		spacer = " ".times(Math.floor(real.textContent.length / 2));
-		mark.appendChild(document.createTextNode(spacer + "∪" + spacer))
+	if (real.innerText) {
+		if (real.innerText.length > 2) {
+			spacer = " ".times(Math.floor(real.innerText.length / 2));
+			mark.appendChild(document.createTextNode(spacer + "∪" + spacer))
+		}
+		else {
+			mark.appendChild(document.createTextNode("∪"))
+		}
 	} else {
-		mark.appendChild(document.createTextNode("∪"))
+		if (real.textContent.length > 2) {
+			spacer = " ".times(Math.floor(real.textContent.length / 2));
+			mark.appendChild(document.createTextNode(spacer + "∪" + spacer))
+		}
+		else {
+			mark.appendChild(document.createTextNode("∪"))
+		}
 	}
 	return mark;
 }
 
 // returns an appropriate placeholder element for use as a blank marker
-function placeholder() {
-	place = document.createElementNS("http://www.w3.org/1999/xhtml","xhtml:span");
-	place.setAttribute('class', 'prosody-placeholder');
-	return place;
+function placeholder(real) {
+	var mark = document.createElement("span");
+	mark.setAttribute('class', 'prosody-placeholder');
+	if (real.innerText) {
+		spacer = " ".times(Math.floor(real.innerText.length));
+	} else {
+		spacer = " ".times(Math.floor(real.textContent.length));
+	}
+	mark.appendChild(document.createTextNode(spacer));
+	return mark;
 }
 
 // changes the visibility of the stress markers
@@ -229,7 +250,7 @@ function updatehintbutton(id) {
 
 function clickablehintimage() {
 	debug("Entering clickablehintimage()");
-	img = document.createElementNS("http://www.w3.org/1999/xhtml","xhtml:img");
+	img = document.createElement("img");
 	img.setAttribute('src', 'images/clickablehint.png');
 	debug("img = ");
 	debug(img);
