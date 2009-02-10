@@ -28,6 +28,7 @@
 
     <xsl:template match="TEI:l">
         <xsl:variable name="line-number" select="@n"/>
+
         <div class="prosody:line">
             <!-- first cycle through the segments, constructing shadow syllables -->
             <div class="prosody-shadowline" id="prosody:shadow:{$line-number}">
@@ -56,6 +57,9 @@
             <div class="TEI-l" id="prosody:real:{$line-number}">
 
                 <xsl:copy-of select="@*"/>
+
+                <span style="visibility:none" answer="{../@met}">The answer</span>
+
                 <xsl:for-each select="TEI:seg">
                     <!-- if the following flag gets set, this indicates that there is a discrepancy in the line which must be later
                         highlighted -->
@@ -92,15 +96,23 @@
             <div class="buttons">
                 <span class="button">
                     <button class="prosody-checkstress" id="checkstress{$line-number}"
-                        name="Check stress" onclick="checkstress({$line-number})"><img
-                            src="images/default.png"/></button>
+                        name="Check stress" onclick="checkstress({$line-number})">
+                        <img src="images/default.png"/>
+                    </button>
                     <label for="checkstress{$line-number}">Stress</label>
                 </span>
                 <span class="button">
-                    <button class="prosody-checkfeet" id="checkfeet{$line-number}"
-                        name="Check feet" onclick="checkfeet({$line-number})"><img
-                        src="images/default.png"/></button>
+                    <button class="prosody-checkfeet" id="checkfeet{$line-number}" name="Check feet"
+                        onclick="checkfeet({$line-number})">
+                        <img src="images/default.png"/>
+                    </button>
                     <label for="checkfeet{$line-number}">Feet</label>
+                </span>
+                <span class="button">
+                    <button class="prosody-meter" id="checkmeter{$line-number}" name="Check meter"
+                        onclick="checkmeter({$line-number})">Meter <img src="images/default.png"
+                        /></button>
+                    <label for="checkmeter{$line-number}">Check Meter</label>
                 </span>
                 <xsl:if test="TEI:note">
                     <span class="button">
@@ -112,13 +124,17 @@
                             <span>Note on line number <xsl:value-of select="$line-number"/>:</span>
                             <xsl:copy-of select="TEI:note"/>
                         </p>
-                        <label for="displaynotebutton{$line-number}">Hint button for line <xsl:value-of select="$line-number"/></label>
+                        <label for="displaynotebutton{$line-number}">Hint button for line
+                                <xsl:value-of select="$line-number"/></label>
                     </span>
                 </xsl:if>
             </div>
 
         </div>
     </xsl:template>
+
+
+
 
     <!-- <xsl:template match="node()|@*">
         <xsl:copy>
