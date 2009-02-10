@@ -1,0 +1,59 @@
+<!DOCTYPE html SYSTEM "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head><title>Check your knowledge of meter, friend!</title>
+    <script type="text/javascript">
+        function init() {
+            var linenumber = window.location.search.substring(1).split('=')[1];
+            var fullanswer = window.opener.$("prosody:real:" + linenumber).select("span[answer]")[0].getAttribute('answer');    
+            var foottype = fullanswer.split("(")[0];
+            var numberfeet = fullanswer.split("(")[1].split(")")[0].split("/")[linenumber-1];
+            document.forms[0].answer.value = foottype + numberfeet;
+        }
+        
+        function check() {
+            // first, assemble the user's proposed answer
+            var answer = document.forms[0].foot.value + document.forms[0].number.value ;
+                
+            // now, test it and repond
+              if (answer == document.forms[0].answer.value ) {
+                alert("Correct.");
+            }
+            else {
+                alert("Wrong.");
+            } 
+        }
+        
+    </script></head>
+    <body onload="init();">
+        <form action="" title="Checking the meter" name="meterform" id="meterform">
+            <select id="foot-select" name="foot" title="Name of foot">
+                <option value="++">spondic</option>
+                <option value="+-">trochic</option>
+                <option value="-+">iambic</option>
+                <option value="--">pyrrhic</option>
+                <option value="---">tribrachic</option>
+                <option value="+--">dactylic</option>
+                <option value="-+-">amphibrachic</option>
+                <option value="--+">anapestic</option>
+                <option value="-++">bacchic</option>
+                <option value="++-">antibacchic</option>
+                <option value="+-+">cretic</option>
+                <option value="+++">molossic</option>
+            </select>
+            <label for="foot-select">Select the type of foot</label>
+            <select id="number-select" name="number" title="Number of feet">
+                <option value="1">monometer</option>
+                <option value="2">dimeter</option>
+                <option value="3">trimeter</option>
+                <option value="4">tetrameter</option>
+                <option value="5">pentameter</option>
+                <option value="6">hexameter</option>
+            </select>
+            <label for="number-select">Select the number of feet</label>
+            <input type="text" name="answer" id="answer" title="The answer"/>
+        </form>
+        
+        <button id="check-answer" title="Check answer" onclick="check()"/>
+        <label for="check-answer">Check your answer</label>
+    </body>
+</html>
