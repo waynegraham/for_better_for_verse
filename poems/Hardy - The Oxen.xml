@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI SYSTEM "file:/C:/Users/toadymc/Author9.3/Tucker%20Project/tei_all.dtd">
+<!DOCTYPE TEI SYSTEM "http://sds6.itc.virginia.edu:8080/prosody/poems/tei_all.dtd">
 <TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <teiHeader>
         <fileDesc>
@@ -7,8 +7,8 @@
                 <title>The Oxen</title>
                 <author>Thomas Hardy</author>
             </titleStmt>
-            <publicationStmt></publicationStmt>
-            <sourceDesc></sourceDesc>
+            <publicationStmt><p/></publicationStmt>
+            <sourceDesc><p/></sourceDesc>
         </fileDesc>
     </teiHeader>
     <text>
