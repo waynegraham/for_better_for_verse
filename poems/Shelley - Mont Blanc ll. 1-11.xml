@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI PUBLIC "-//TEI P5//DTD Main Document Type//EN" "http://localhost:8080/prosody/poems/tei_all.dtd">
+<!DOCTYPE TEI PUBLIC "-//TEI P5//DTD Main Document Type//EN" "http://sds6.itc.virginia.edu:8080/prosody/poems/tei_all.dtd">
 <TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <teiHeader>
         <fileDesc>
@@ -25,18 +25,19 @@
                 </l>
                 <l n="2">
                     <seg met="-+" real="+-">Flows through </seg>
-                    <seg met="-+">the mind </seg>,
+                    <seg met="-+">the mind, </seg>
                     <caesura/>
                     <seg met="-+">and rolls </seg>
                     <seg met="-+">its rap<sb/></seg>
-                    <seg met="-+">id <rhyme label="b">waves</rhyme></seg>,
+                    <seg met="-+">id <rhyme label="b">waves</rhyme>,</seg>
                 </l>
                 <l n="3">
-                    <seg met="-+">Now dark </seg> -<caesura/>-
+                    <seg met="-+">Now dark --</seg>
+                    <caesura/>
                     <seg met="-+">now glit<sb/></seg>
                     <seg met="-+" real="--+">ter<sb/>ing -<caesura/>- now </seg>
                     <seg met="-+">re<sb/>flect<sb/></seg>
-                    <seg met="-+">ing <rhyme label="c">gloom</rhyme></seg> --
+                    <seg met="-+">ing <rhyme label="c">gloom</rhyme> -- </seg>
                 </l>
                 <l n="4">
                     <seg met="-+">Now lend<sb/></seg>
@@ -48,7 +49,7 @@
                 <l n="5">
                     <seg met="-+">The source </seg>
                     <seg met="-+">of hu<sb/></seg>
-                    <seg met="-+">man thought</seg>
+                    <seg met="-+">man thought </seg>
                     <seg met="-+">its trib<sb/></seg>
                     <seg met="-+">ute <rhyme label="a">brings</rhyme></seg>
                 </l>
@@ -57,7 +58,7 @@
                     <seg met="-+">ters, -<caesura/>- with </seg>
                     <seg met="-+">a sound </seg>
                     <seg met="-+">but half </seg>
-                    <seg met="-+">its <rhyme label="d">own</rhyme></seg>,
+                    <seg met="-+">its <rhyme label="d">own</rhyme>,</seg>
                 </l>
                 <l n="7">
                     <seg met="-+" real="+-">Such as </seg>
@@ -67,24 +68,24 @@
                     <seg met="-+">as<sb/><rhyme label="c">sume</rhyme></seg>
                 </l>
                 <l n="8">
-                    <seg met="-+" real="--">In th </seg>
-                    <seg met="-+" real="++">wild woods </seg>,
+                    <seg met="-+" real="--">In the </seg>
+                    <seg met="-+" real="++">wild woods, </seg>
                     <caesura/>
                     <seg met="-+">a<sb/>mong</seg>
                     <seg met="-+">the moun<sb/></seg>
-                    <seg met="-+">tains <rhyme label="d">lone</rhyme></seg>,
+                    <seg met="-+">tains <rhyme label="d">lone</rhyme>,</seg>
                 </l>
                 <l n="9">
                     <seg met="-+">Where wa<sb/></seg>
                     <seg met="-+">ter<sb/>falls </seg>
                     <seg met="-+">a<sb/>round </seg>
                     <seg met="-+">it leap </seg>
-                    <seg met="-+" real="-+^">for <rhyme label="e">ev<sb/>er</rhyme></seg>,
+                    <seg met="-+" real="-+^">for <rhyme label="e">ev<sb/>er</rhyme>,</seg>
                 </l>
                 <l n="10">
                     <seg met="-+">Where woods </seg>
                     <seg met="-+">and winds </seg>
-                    <seg met="-+">con<sb/>tend </seg>,
+                    <seg met="-+">con<sb/>tend, </seg>
                     <seg met="-+" real="--">and a </seg>
                     <seg met="-+" real="++^">vast <rhyme label="e">riv<sb/>er</rhyme></seg>
                 </l>
@@ -93,7 +94,7 @@
                     <seg met="-+">its rocks </seg>
                     <seg met="-+" real="+-">cease<sb/>less<sb/></seg>
                     <seg met="-+">ly bursts </seg>
-                    <seg met="-+">and <rhyme label="b">raves</rhyme></seg>.
+                    <seg met="-+">and <rhyme label="b">raves</rhyme>.</seg>
                 </l>
             </lg>
         </body>

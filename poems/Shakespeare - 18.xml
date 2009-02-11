@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI SYSTEM "file:/C:/Users/toadymc/Author9.3/Tucker%20Project/tei_all.dtd">
+<!DOCTYPE TEI SYSTEM "http://sds6.itc.virginia.edu:8080/prosody/poems/tei_all.dtd">
 <TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <teiHeader>
         <fileDesc>
@@ -17,111 +17,111 @@
         <body>
             <lg n="1" type="quatrain" met="-+(5)" rhyme="abab">
                 <l n="1">
-                    <seg met="-+">Shall I</seg>
-                    <seg met="-+">com<sb/>pare</seg>
-                    <seg met="-+">thee to</seg>
+                    <seg met="-+">Shall I </seg>
+                    <seg met="-+">com<sb/>pare </seg>
+                    <seg met="-+">thee to </seg>
                     <seg met="-+">a sum<seg/></seg>
-                    <seg met="-+">mer's <rhyme label="a">day</rhyme></seg>?
+                    <seg met="-+">mer's <rhyme label="a">day</rhyme>?</seg>
                 </l>
                 <l n="2">
-                    <seg met="-+" real="--">Thou art</seg>
-                    <seg met="-+" real="++">more love<sb/></seg>
-                    <seg met="-+" real="--">ly and</seg>
+                    <seg met="-+" real="--">Thou art </seg>
+                    <seg met="-+" real="++">more love <sb/></seg>
+                    <seg met="-+" real="--">ly and </seg>
                     <seg met="-+" real="++">more tem<sb/></seg>
-                    <seg met="-+" real="-+">per<sb/><rhyme label="b">ate</rhyme></seg>:                    
+                    <seg met="-+" real="-+">per<sb/><rhyme label="b">ate</rhyme>:</seg>                 
                 </l>
                 <l n="3">
-                    <seg met="-+" real="++">Rough winds</seg>
-                    <seg met="-+">do shake</seg>
+                    <seg met="-+" real="++">Rough winds </seg>
+                    <seg met="-+">do shake </seg>
                     <seg met="-+">the dar<sb/></seg>
-                    <seg met="-+">ling buds</seg>
-                    <seg met="-+">of <rhyme label="a">May</rhyme></seg>,
+                    <seg met="-+">ling buds </seg>
+                    <seg met="-+">of <rhyme label="a">May</rhyme>,</seg>
                 </l>
                 <l n="4">
                     <seg met="-+">And sum<sb/></seg>
-                    <seg met="-+">mer's lease</seg>
-                    <seg met="-+">hath all</seg>
-                    <seg met="-+">too short</seg>
-                    <seg met="-+">a <rhyme label="b">date</rhyme></seg>;
+                    <seg met="-+">mer's lease </seg>
+                    <seg met="-+">hath all </seg>
+                    <seg met="-+">too short </seg>
+                    <seg met="-+">a <rhyme label="b">date</rhyme>;</seg>
                 </l>
             </lg>
             <lg n="2" type="quatrain" met="-+(5)" rhyme="cdcd">
                 <l n="5">
-                    <seg met="-+" real="+-">Some<sb/>times</seg>
-                    <seg met="-+" real="++">too hot</seg>
+                    <seg met="-+" real="+-">Some<sb/>times </seg>
+                    <seg met="-+" real="++">too hot </seg>
                     <caesura/>
-                    <seg met="-+">the eye</seg>
+                    <seg met="-+">the eye </seg>
                     <seg met="-+">of heav<sb/></seg>
-                    <seg met="-+">en <rhyme label="c">shines</rhyme></seg>,
+                    <seg met="-+">en <rhyme label="c">shines</rhyme>,</seg>
                 </l>
                 <l n="6">
-                    <seg met="-+">And of<sb/></seg>
-                    <seg met="-+">ten is</seg>
-                    <seg met="-+">his gold</seg>
+                    <seg met="-+">And of <sb/></seg>
+                    <seg met="-+">ten is </seg>
+                    <seg met="-+">his gold </seg>
                     <seg met="-+">com<sb/>plex<sb/></seg>
-                    <seg met="-+">ion <rhyme label="d">dimmed</rhyme></seg>;
+                    <seg met="-+">ion <rhyme label="d">dimmed</rhyme>;</seg>
                 </l>
                 <l n="7">
                     <seg met="-+">And eve<sb/></seg>
-                    <seg met="-+">ry fair</seg>
-                    <seg met="-+">from fair</seg>
-                    <seg met="-+">some<sb/>times</seg>
-                    <seg met="-+">de<sb/><rhyme label="c">clines</rhyme></seg>,
+                    <seg met="-+">ry fair </seg>
+                    <seg met="-+">from fair </seg>
+                    <seg met="-+">some<sb/>times </seg>
+                    <seg met="-+">de<sb/><rhyme label="c">clines</rhyme>,</seg>
                 </l>
                 <l n="8">
-                    <seg met="-+">By chance</seg>
+                    <seg met="-+">By chance </seg>
                     <seg met="-+">or na<sb/></seg>
                     <seg met="-+">ture's chang<sb/></seg>
-                    <seg met="-+">ing course</seg>
-                    <seg met="-+">un<sb/><rhyme label="d">trimmed</rhyme></seg>;
+                    <seg met="-+">ing course </seg>
+                    <seg met="-+">un<sb/><rhyme label="d">trimmed</rhyme>;</seg>
                 </l>
             </lg>
             <lg n="3" type="quatrain" met="-+(5)" rhyme="efef">
                 <l n="9">
-                    <seg met="-+">But thy</seg>
+                    <seg met="-+">But thy </seg>
                     <seg met="-+">e<sb/>ter<sb/></seg>
                     <seg met="-+">nal sum<sb/></seg>
-                    <seg met="-+">mer shall</seg>
-                    <seg met="-+">not <rhyme label="e">fade</rhyme></seg>,
+                    <seg met="-+">mer shall </seg>
+                    <seg met="-+">not <rhyme label="e">fade</rhyme>,</seg>
                 </l>
                 <l n="10">
-                    <seg met="-+">Nor lose</seg>
+                    <seg met="-+">Nor lose </seg>
                     <seg met="-+">Pos<sb/>ses<sb/></seg>
-                    <seg met="-+">sion of</seg>
-                    <seg met="-+">that fair</seg>
-                    <seg met="-+">thou <rhyme label="f">ow'st</rhyme></seg>;
+                    <seg met="-+">sion of </seg>
+                    <seg met="-+">that fair </seg>
+                    <seg met="-+">thou <rhyme label="f">ow'st</rhyme>;</seg>
                 </l>
                 <l n="11">
-                    <seg met="-+" real="+-">Nor shall</seg>
-                    <seg met="-+" real="++">death brag</seg>
+                    <seg met="-+" real="+-">Nor shall </seg>
+                    <seg met="-+" real="++">death brag </seg>
                     <seg met="-+">thou wand'<sb/></seg>
-                    <seg met="-+">rest in</seg>
-                    <seg met="-+">his <rhyme label="e">shade</rhyme></seg>,
+                    <seg met="-+">rest in </seg>
+                    <seg met="-+">his <rhyme label="e">shade</rhyme>,</seg>
                 </l>
                 <l n="12">
-                    <seg met="-+">When in</seg>
+                    <seg met="-+">When in </seg>
                     <seg met="-+">e<sb/>ter<sb/></seg>
-                    <seg met="-+">nal lines</seg>
-                    <seg met="-+">to Time</seg>
-                    <seg met="-+">thou <rhyme label="f">grow'st</rhyme></seg>:
+                    <seg met="-+">nal lines </seg>
+                    <seg met="-+">to Time </seg>
+                    <seg met="-+">thou <rhyme label="f">grow'st</rhyme>:</seg>
                 </l>
             </lg>
             <lg n="4" type="couplet" met="-+(5)" rhyme="gg">
                 <l n="13">
-                    <seg met="-+">So long</seg>
-                    <seg met="-+">as men</seg>
-                    <seg met="-+">can breathe</seg>,
+                    <seg met="-+">So long </seg>
+                    <seg met="-+">as men </seg>
+                    <seg met="-+">can breathe, </seg>
                     <caesura/>
-                    <seg met="-+">or eyes</seg>
-                    <seg met="-+">can <rhyme label="g">see</rhyme></seg>,
+                    <seg met="-+">or eyes </seg>
+                    <seg met="-+">can <rhyme label="g">see</rhyme>,</seg>
                 </l>
                 <l n="14">
-                   <seg met="-+">So long</seg>
-                    <seg met="-+" real="++">lives this</seg>,
+                   <seg met="-+">So long </seg>
+                    <seg met="-+" real="++">lives this, </seg>
                     <caesura/>
-                    <seg met="-+">and this</seg>
-                    <seg met="-+">gives life</seg>
-                    <seg met="-+">to <rhyme label="g">thee</rhyme></seg>.
+                    <seg met="-+">and this </seg>
+                    <seg met="-+">gives life </seg>
+                    <seg met="-+">to <rhyme label="g">thee</rhyme>.</seg>
                 </l>
             </lg>
         </body>

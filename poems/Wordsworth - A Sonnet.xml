@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI SYSTEM "file:/C:/Users/toadymc/Author9.3/Tucker%20Project/tei_all.dtd">
+<!DOCTYPE TEI SYSTEM "http://sds6.itc.virginia.edu:8080/prosody/poems/tei_all.dtd">
 <TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <teiHeader>
         <fileDesc>
@@ -7,115 +7,115 @@
                 <title>The Sonnet</title>
                 <author>William Wordsworth</author>
             </titleStmt>
-            <publicationStmt></publicationStmt>
-            <sourceDesc></sourceDesc>
+            <publicationStmt><p/></publicationStmt>
+            <sourceDesc><p/></sourceDesc>
         </fileDesc>
     </teiHeader>
     <text>
         <body>
             <lg n="1" type="Italianate Sonnet" met="-+" rhyme="abbaabbacddccd">
                 <l n="1">
-                    <seg met="-+" real="++">Nuns fret</seg>
-                    <seg met="-+" real="--">not at</seg>
+                    <seg met="-+" real="++">Nuns fret </seg>
+                    <seg met="-+" real="--">not at </seg>
                     <seg met="-+">their con<sb/></seg>
                     <seg met="-+">vent's nar<sb/></seg>
-                    <seg met="-+">row <rhyme label="a">room</rhyme></seg>,
+                    <seg met="-+">row <rhyme label="a">room</rhyme>,</seg>
                 </l>
                 <space/><l n="2">
                     <seg met="-+">And her<sb/></seg>
-                    <seg met="-+">mits are</seg>
+                    <seg met="-+">mits are </seg>
                     <seg met="-+">con<sb/>tent<sb/></seg>
-                    <seg met="-+">ed with</seg>
-                    <seg met="-+">their <rhyme label="b">cells</rhyme></seg>,
+                    <seg met="-+">ed with </seg>
+                    <seg met="-+">their <rhyme label="b">cells</rhyme>,</seg>
                 </l>
                 <space/><l n="3">
                     <seg met="-+">And stu<sb/></seg>
-                    <seg met="-+">dents with</seg>
+                    <seg met="-+">dents with </seg>
                     <seg met="-+">their pen<sb/></seg>
                     <seg met="-+">sive cit<sb/></seg>
-                    <seg met="-+">a<sb/><rhyme label="b">dels</rhyme></seg>;
+                    <seg met="-+">a<sb/><rhyme label="b">dels</rhyme>;</seg>
                 </l>
                 <l n="4">
-                    <seg met="-+" real="+-">Maids at</seg>
-                    <seg met="-+">the wheel</seg>,
+                    <seg met="-+" real="+-">Maids at </seg>
+                    <seg met="-+">the wheel,</seg>
                     <caesura/>
                     <seg met="-+">the weav<sb/></seg>
-                    <seg met="-+">er at</seg>
-                    <seg met="-+">his <rhyme label="a">loom</rhyme></seg>,
+                    <seg met="-+">er at </seg>
+                    <seg met="-+">his <rhyme label="a">loom</rhyme>,</seg>
                 </l>
                 <l n="5">
-                    <seg met="-+" real="++">Sit blithe</seg>
+                    <seg met="-+" real="++">Sit blithe </seg>
                     <seg met="-+">and hap<sb/></seg>
-                    <seg met="-+">py; <caesura/> bees</seg>
-                    <seg met="-+">that soar</seg>
-                    <seg met="-+">for <rhyme label="a">bloom</rhyme></seg>,
+                    <seg met="-+">py; <caesura/> bees </seg>
+                    <seg met="-+">that soar </seg>
+                    <seg met="-+">for <rhyme label="a">bloom</rhyme>,</seg>
                 </l>
                 <space/><l n="6">
-                    <seg met="-+" real="+-">High as</seg>
+                    <seg met="-+" real="+-">High as </seg>
                     <seg met="-+">the high<sb/></seg>
-                    <seg met="-+">est peak</seg>
+                    <seg met="-+">est peak </seg>
                     <seg met="-+">of Fur<sb/></seg>
-                    <seg met="-+">ness <rhyme label="b">fells</rhyme></seg>,
+                    <seg met="-+">ness <rhyme label="b">fells</rhyme>,</seg>
                 </l>
                 <space/><l n="7">
                     <seg met="-+">Will mur<sb/></seg>
-                    <seg met="-+">mur by</seg>
-                    <seg met="-+">the hour</seg>
+                    <seg met="-+">mur by </seg>
+                    <seg met="-+">the hour </seg>
                     <seg met="-+">in fox<sb/></seg>
-                    <seg met="-+">glove <rhyme label="b">bells</rhyme></seg>:
+                    <seg met="-+">glove <rhyme label="b">bells</rhyme>:</seg>
                 </l>
                 <l n="8">
-                    <seg met="-+">In truth</seg>
+                    <seg met="-+">In truth </seg>
                     <seg met="-+">the pris<sb/></seg>
                     <seg met="-+">on un<sb/></seg>
-                    <seg met="-+">to which</seg>
+                    <seg met="-+">to which </seg>
                     <seg met="-+">we <rhyme label="a">doom</rhyme></seg>
                 </l>
                 <l n="9">
-                    <seg met="-+">Our<sb/>selves</seg>
+                    <seg met="-+">Our<sb/>selves </seg>
                     <seg met="-+">no pris<sb/></seg>
-                    <seg met="-+">on is</seg>:
+                    <seg met="-+">on is:</seg>
                     <caesura/>
-                    <seg met="-+">and hence</seg>
-                    <seg met="-+">for <rhyme label="c">me</rhyme></seg>,
+                    <seg met="-+">and hence </seg>
+                    <seg met="-+">for <rhyme label="c">me</rhyme>,</seg>
                 </l>
                 <space/><l n="10">
                     <seg met="-+">In sun<sb/></seg>
-                    <seg met="-+">dry moods</seg>,
+                    <seg met="-+">dry moods,</seg>
                     <caesura/>
                     <seg met="-+">'twas pas<sb/></seg>
-                    <seg met="-+">time to</seg>
+                    <seg met="-+">time to </seg>
                     <seg met="-+">be <rhyme label="d">bound</rhyme></seg>
                 </l>
                 <space/><l n="11">
-                    <seg met="-+">With<sb/>in</seg>
+                    <seg met="-+">With<sb/>in </seg>
                     <seg met="-+">the Son<sb/></seg>
                     <seg met="-+">net's scan<sb/></seg>
-                    <seg met="-+">ty plot</seg>
-                    <seg met="-+">of <rhyme label="d">ground</rhyme></seg>;
+                    <seg met="-+">ty plot </seg>
+                    <seg met="-+">of <rhyme label="d">ground</rhyme>;</seg>
                 </l>
                 <l n="12">
-                    <seg met="-+" real="+-">Pleased if</seg>
-                    <seg met="-+" real="++">some souls</seg>
+                    <seg met="-+" real="+-">Pleased if </seg>
+                    <seg met="-+" real="++">some souls </seg>
                     <caesura/>
-                    (<seg met="-+">for such</seg>
-                    <seg met="-+">there needs</seg>
-                    <seg met="-+">must <rhyme label="c">be</rhyme></seg>)
+                    <seg met="-+">(for such </seg>
+                    <seg met="-+">there needs </seg>
+                    <seg met="-+">must <rhyme label="c">be</rhyme>)</seg>
                 </l>
                 <l n="13">
-                    <seg met="-+" real="--+">Who have felt</seg>
-                    <seg met="-+">the weight</seg>
-                    <seg met="-+">of too</seg>
+                    <seg met="-+" real="--+">Who have felt </seg>
+                    <seg met="-+">the weight </seg>
+                    <seg met="-+">of too </seg>
                     <seg met="-+" real="++">much li<sb/></seg>
-                    <seg met="-+">ber<sb/><rhyme label="c">ty</rhyme></seg>,
+                    <seg met="-+">ber<sb/><rhyme label="c">ty</rhyme>,</seg>
                 </l>
                 <space/><l n="14">
-                    <seg met="-+">Should find</seg>
+                    <seg met="-+">Should find </seg>
                     <seg met="-+" real="++">brief sol<sb/></seg>
-                    <seg met="-+">ace there</seg>,
+                    <seg met="-+">ace there,</seg>
                     <caesura/>
-                    <seg met="-+">as I</seg>
-                    <seg met="-+">have <rhyme label="d">found</rhyme></seg>.
+                    <seg met="-+">as I </seg>
+                    <seg met="-+">have <rhyme label="d">found</rhyme>.</seg>
                 </l>
             </lg>
         </body>

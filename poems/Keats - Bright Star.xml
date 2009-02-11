@@ -7,7 +7,9 @@
                 <title>"Bright Star, would I were stedfast as thou art"</title>
                 <author>John Keats</author>
             </titleStmt>
-            <publicationStmt><p/></publicationStmt>
+            <publicationStmt>
+                <date>1848</date>
+            </publicationStmt>
             <sourceDesc><p/></sourceDesc>
         </fileDesc>
     </teiHeader>
@@ -15,109 +17,109 @@
         <body>
             <lg n="1" type="quatrain" met="-+(5)" rhyme="abab">
                 <l n="1">
-                    <seg met="-+" real="++">Bright star</seg>,
+                    <seg met="-+" real="++">Bright star, </seg>
                     <caesura/>
-                    <seg met="-+">would I</seg>
+                    <seg met="-+">would I </seg>
                     <seg met="-+">were stead<sb/></seg>
-                    <seg met="-+" real="--">fast as</seg>
-                    <seg met="-+" real="++">thou <rhyme label="a">art</rhyme></seg>
+                    <seg met="-+" real="--">fast as </seg>
+                    <seg met="-+" real="++">thou <rhyme label="a">art-- </rhyme></seg>
                 </l>
                 <space/><l n="2">
-                    <seg met="-+" real="+-">Not in</seg>
+                    <seg met="-+" real="+-">Not in </seg>
                     <seg met="-+" real="++">lone splen<sb/></seg>
-                    <seg met="-+">dour hung</seg>
-                    <seg met="-+">a<sb/>loft</seg>
+                    <seg met="-+">dour hung </seg>
+                    <seg met="-+">a<sb/>loft </seg>
                     <seg met="-+">the <rhyme label="b">night</rhyme></seg>
                 </l>
                 <l n="3">
-                    <seg met="-+">And watch<sb/></seg>
-                    <seg met="-+">ing, with</seg>
+                    <seg met="-+">And watch <sb/></seg>
+                    <seg met="-+">ing, with </seg>
                     <seg met="-+">e<sb/>ter<sb/></seg>
-                    <seg met="-+">nal lids</seg>
-                    <seg met="-+">a<sb/><rhyme label="a">part</rhyme></seg>,
+                    <seg met="-+">nal lids </seg>
+                    <seg met="-+">a<sb/><rhyme label="a">part</rhyme>,</seg>
                 </l>
                 <space/><l n="4">
                     <seg met="-+">Like na<sb/></seg>
                     <seg met="-+">ture's pa<sb/></seg>
                     <seg met="-+">tient, sleep<sb/></seg>
                     <seg met="-+">less Er<sb/></seg>
-                    <seg met="-+">e<sb/><rhyme label="b">mite</rhyme></seg>,
+                    <seg met="-+">e<sb/><rhyme label="b">mite</rhyme>,</seg>
                 </l>
             </lg>
             <lg n="2" type="quatrain" met="-+(5)" rhyme="cdcd">
                 <l n="5">
                     <seg met="-+">The mov<sb/></seg>
                     <seg met="-+">ing wa<sb/></seg>
-                    <seg met="-+">ters at</seg>
+                    <seg met="-+">ters at </seg>
                     <seg met="-+">their priest<sb/></seg>
                     <seg met="-+">like <rhyme label="c">task</rhyme></seg>
                 </l>
                 <space/><l n="6">
-                    <seg met="-+">Of pure</seg>
+                    <seg met="-+">Of pure </seg>
                     <seg met="-+">ab<sb/>lu<sb/></seg>
-                    <seg met="-+">tion round</seg>
+                    <seg met="-+">tion round </seg>
                     <seg met="-+" real="++">earth's hu<sb/></seg>
-                    <seg met="-+">man <rhyme label="d">shores</rhyme></seg>,
+                    <seg met="-+">man <rhyme label="d">shores</rhyme>,</seg>
                 </l>
                 <l n="7">
                     <seg met="-+">Or gaz<sb/></seg>
-                    <seg met="-+">ing on</seg>
-                    <seg met="-+">the new</seg>
+                    <seg met="-+">ing on </seg>
+                    <seg met="-+">the new </seg>
                     <seg met="-+" real="++">soft-<sb/>fall<sb/></seg>
                     <seg met="-+">en <rhyme label="c">mask</rhyme></seg>
                 </l>
                 <space/><l n="8">
-                    <seg met="-+">Of snow</seg>
-                    <seg met="-+">up<sb/>on</seg>
+                    <seg met="-+">Of snow </seg>
+                    <seg met="-+">up<sb/>on </seg>
                     <seg met="-+">the moun<sb/></seg>
-                    <seg met="-+">tains and</seg>
-                    <seg met="-+">the <rhyme label="d">moors</rhyme></seg>--
+                    <seg met="-+">tains and </seg>
+                    <seg met="-+">the <rhyme label="d">moors</rhyme>-- </seg>
                 </l>
             </lg>
             <lg n="3" type="quatrain" met="-+(5)" rhyme="efef">
                 <l n="9">
-                    <seg met="-+" real="+-">No-<caesura/>-yet</seg>
+                    <seg met="-+" real="+-">No-<caesura/>-yet </seg>
                     <seg met="-+" real="++">still sted<sb/></seg>
-                    <seg met="-+">fast, <caesura/> still</seg>
+                    <seg met="-+">fast, <caesura/> still </seg>
                     <seg met="-+">un<sb/>change<sb/></seg>
-                    <seg met="-+">a<sb/><rhyme label="e">ble</rhyme></seg>,
+                    <seg met="-+">a<sb/><rhyme label="e">ble</rhyme>,</seg>
                 </l>
                 <space/><l n="10">
-                    <seg met="-+" real="+-">Pil<sb/>low'd</seg>
-                    <seg met="-+">up<sb/>on</seg>
-                    <seg met="-+">my fair</seg>
+                    <seg met="-+" real="+-">Pil<sb/>low'd </seg>
+                    <seg met="-+">up<sb/>on </seg>
+                    <seg met="-+">my fair </seg>
                     <seg met="-+" real="++">love's rip<sb/></seg>
-                    <seg met="-+" real="--+">en<sb/>ing <rhyme label="f">breast</rhyme></seg>,
+                    <seg met="-+" real="--+">en<sb/>ing <rhyme label="f">breast</rhyme>,</seg>
                 </l>
                 <l n="11">
-                    <seg met="-+">To feel</seg>
+                    <seg met="-+">To feel </seg>
                     <seg met="-+">for ev<sb/></seg>
-                    <seg met="-+" real="--">er its</seg>
-                    <seg met="-+" real="++">soft fall</seg>
-                    <seg met="-+">and <rhyme label="e">swell</rhyme></seg>,
+                    <seg met="-+" real="--">er its </seg>
+                    <seg met="-+" real="++">soft fall </seg>
+                    <seg met="-+">and <rhyme label="e">swell</rhyme>,</seg>
                 </l>
                 <space/><l n="12">
-                    <seg met="-+">A<sb/>wake</seg>
+                    <seg met="-+">A<sb/>wake </seg>
                     <seg met="-+">for ev<sb/></seg>
-                    <seg met="-+" real="--">er in</seg>
-                    <seg met="-+">a sweet</seg>
-                    <seg met="-+" real="++">un<sb/><rhyme label="f">rest</rhyme></seg>,
+                    <seg met="-+" real="--">er in </seg>
+                    <seg met="-+">a sweet </seg>
+                    <seg met="-+" real="++">un<sb/><rhyme label="f">rest</rhyme>,</seg>
                 </l>
             </lg>
             <lg n="4" type="couplet" met="-+(5)" rhyme="gg">
                 <l n="13">
-                    <seg met="-+" real="++">Still, still</seg>
-                    <seg met="-+">to hear</seg>
+                    <seg met="-+" real="++">Still, still </seg>
+                    <seg met="-+">to hear </seg>
                     <seg met="-+">her ten<sb/></seg>
                     <seg met="-+">der-tak<sb/></seg>
-                    <seg met="-+">en <rhyme label="g">breath</rhyme></seg>,
+                    <seg met="-+">en <rhyme label="g">breath</rhyme>,</seg>
                 </l>
                 <space/><l n="14">
-                    <seg met="-+">And so</seg>
+                    <seg met="-+">And so </seg>
                     <seg met="-+" real="++">live ev<sb/></seg>
-                    <seg met="-+" real="--">er-<caesura/>-or</seg>
-                    <seg met="-+">else swoon</seg>
-                    <seg met="-+">to <rhyme label="g">death</rhyme></seg>.
+                    <seg met="-+" real="--">er-<caesura/>-or </seg>
+                    <seg met="-+">else swoon </seg>
+                    <seg met="-+">to <rhyme label="g">death</rhyme>.</seg>
                 </l>
             </lg>
         </body>

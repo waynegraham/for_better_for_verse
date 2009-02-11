@@ -15,66 +15,66 @@
         <body>
             <lg n="1" type="stanza" met="-+(5/5/5/3/2/5)" rhyme="ababcc">
                 <l n="1">
-                    <seg met="-+" real="+-">Come to</seg>
-                    <seg met="-+">me in</seg>
+                    <seg met="-+" real="+-">Come to </seg>
+                    <seg met="-+">me in </seg>
                     <seg met="-+">the si<sb/></seg>
-                    <seg met="-+">lence of</seg>
-                    <seg met="-+">the <rhyme label="a">night</rhyme></seg>;
+                    <seg met="-+">lence of </seg>
+                    <seg met="-+">the <rhyme label="a">night</rhyme>;</seg>
                 </l>
                 <space/><l n="2">
-                    <seg met="-+" real="+-">Come in</seg>
+                    <seg met="-+" real="+-">Come in </seg>
                     <seg met="-+">the speak<sb/></seg>
                     <seg met="-+">ing si<sb/></seg>
-                    <seg met="-+">lence of</seg>
-                    <seg met="-+">a <rhyme label="b">dream</rhyme></seg>;
+                    <seg met="-+">lence of </seg>
+                    <seg met="-+">a <rhyme label="b">dream</rhyme>;</seg>
                 </l>
                 <l n="3">
-                    <seg met="-+" real="+-">Come with</seg>
+                    <seg met="-+" real="+-">Come with </seg>
                     <seg met="-+" real="++">soft round<sb/></seg>
-                    <seg met="-+">ed cheeks</seg>
-                    <seg met="-+">and eyes</seg>
+                    <seg met="-+">ed cheeks </seg>
+                    <seg met="-+">and eyes </seg>
                     <seg met="-+">as <rhyme label="a">bright</rhyme></seg>
                 </l>
                 <space/><l n="4">
                     <seg met="-+">As sun<sb/></seg>
-                    <seg met="-+">light on</seg>
-                    <seg met="-+">a <rhyme label="b">stream</rhyme></seg>;
+                    <seg met="-+">light on </seg>
+                    <seg met="-+">a <rhyme label="b">stream</rhyme>;</seg>
                 </l>
                 <space/><space/><l n="5">
-                    <seg met="-+">Come back</seg>
-                    <seg met="-+">in <rhyme label="c">tears</rhyme></seg>,
+                    <seg met="-+">Come back </seg>
+                    <seg met="-+">in <rhyme label="c">tears</rhyme>,</seg>
                 </l>
                 <l n="6">
                     <seg met="-+">O mem<sb/></seg>
-                    <seg met="-+" real="--+">o<sb/>ry, hope</seg>
-                    <seg met="-+">and love</seg>
+                    <seg met="-+" real="--+">o<sb/>ry, hope </seg>
+                    <seg met="-+">and love </seg>
                     <seg met="-+">of fin<sb/></seg>
-                    <seg met="-+">ished <rhyme label="c">years</rhyme></seg>.
+                    <seg met="-+">ished <rhyme label="c">years</rhyme>.</seg>
                 </l>
             </lg>
             <lg n="2" type="stanza" met="-+(5/5/5/3/2/5)" rhyme="dedeff">
                 <l n="7">
-                    <seg met="-+">O dream</seg>
-                    <seg met="-+">how sweet</seg>,
+                    <seg met="-+">O dream </seg>
+                    <seg met="-+">how sweet, </seg>
                     <caesura/>
-                    <seg met="-+" real="++">too sweet</seg>,
+                    <seg met="-+" real="++">too sweet, </seg>
                     <caesura/>
                     <seg met="-+">too bit<sb/></seg>
-                    <seg met="-+">ter-<sb/><rhyme label="d">sweet</rhyme></seg>,
+                    <seg met="-+">ter-<sb/><rhyme label="d">sweet</rhyme>,</seg>
                 </l>
                 <space/><l n="8">
                     <seg met="-+">Whose wak<sb/></seg>
-                    <seg met="-+" real="--+">en<sb/>ing should</seg>
-                    <seg met="-+">have been</seg>
+                    <seg met="-+" real="--+">en<sb/>ing should </seg>
+                    <seg met="-+">have been </seg>
                     <seg met="-+">in Par<sb/></seg>
-                    <seg met="-+">a<sb/><rhyme label="e">dise</rhyme></seg>,
+                    <seg met="-+">a<sb/><rhyme label="e">dise</rhyme>,</seg>
                 </l>
                 <l n="9">
-                    <seg met="-+">Where souls</seg>
-                    <seg met="-+" real="++">brim-<sb/>full</seg>
-                    <seg met="-+">of love</seg>
-                    <seg met="-+">a<sb/>bide</seg>
-                    <seg met="-+">and <rhyme label="d">meet</rhyme></seg>;
+                    <seg met="-+">Where souls </seg>
+                    <seg met="-+" real="++">brim-<sb/>full </seg>
+                    <seg met="-+">of love </seg>
+                    <seg met="-+">a<sb/>bide </seg>
+                    <seg met="-+">and <rhyme label="d">meet</rhyme>;</seg>
                 </l>
                 <space/><l n="10">
                     <seg met="-+">Where thirst<sb/></seg>
@@ -82,59 +82,59 @@
                     <seg met="-+">ing <rhyme label="e">eyes</rhyme></seg>
                 </l>
                 <space/><space/><l n="11">
-                    <seg met="-+" real="+-">Watch the</seg>
+                    <seg met="-+" real="+-">Watch the </seg>
                     <seg met="-+" real="++">slow <rhyme label="f">door</rhyme></seg>
                 </l>
                 <l n="12">
                     <seg met="-+">That o<sb/></seg>
                     <seg met="-+" real="--+">pen<sb/>ing, <caesura/> let<sb/></seg>
-                    <seg met="-+">ting in</seg>,
+                    <seg met="-+">ting in, </seg>
                     <caesura/>
-                    <seg met="-+">lets out</seg>
-                    <seg met="-+" real="++">no <rhyme label="f">more</rhyme></seg>.
+                    <seg met="-+">lets out </seg>
+                    <seg met="-+" real="++">no <rhyme label="f">more</rhyme>.</seg>
                 </l>
             </lg>
             <lg n="3" type="stanza" met="-+(5/5/5/3/2/5)" rhyme="ghghii">
                 <l n="13">
-                    <seg met="-+">Yet come</seg>
-                    <seg met="-+">to me</seg>
-                    <seg met="-+">in dreams</seg>,
+                    <seg met="-+">Yet come </seg>
+                    <seg met="-+">to me </seg>
+                    <seg met="-+">in dreams, </seg>
                     <caesura/>
-                    <seg met="-+">that I</seg>
+                    <seg met="-+">that I </seg>
                     <seg met="-+">may <rhyme label="g">live</rhyme></seg>
                 </l>
                 <space/><l n="14">
                     <seg met="-+">My ver<sb/></seg>
-                    <seg met="-+">y life</seg>
-                    <seg met="-+">a<sb/>gain</seg>
-                    <seg met="-+">though cold</seg>
-                    <seg met="-+">in <rhyme label="h">death</rhyme></seg>;
+                    <seg met="-+">y life </seg>
+                    <seg met="-+">a<sb/>gain </seg>
+                    <seg met="-+">though cold </seg>
+                    <seg met="-+">in <rhyme label="h">death</rhyme>;</seg>
                 </l>
                 <l n="15">
-                    <seg met="-+">Come back</seg>
-                    <seg met="-+">to me</seg>
-                    <seg met="-+">in dreams</seg>,
-                    <seg met="-+">that I</seg>
+                    <seg met="-+">Come back </seg>
+                    <seg met="-+">to me </seg>
+                    <seg met="-+">in dreams, </seg>
+                    <seg met="-+">that I </seg>
                     <seg met="-+">may <rhyme label="g">give</rhyme></seg>
                 </l>
                 <space/><l n="16">
-                    <seg met="-+" real="+-">Pulse for</seg>
-                    <seg met="-+" real="++">pulse, <caesura/> breath</seg>
-                    <seg met="-+">for <rhyme label="h">breath</rhyme></seg>:
+                    <seg met="-+" real="+-">Pulse for </seg>
+                    <seg met="-+" real="++">pulse, <caesura/> breath </seg>
+                    <seg met="-+">for <rhyme label="h">breath</rhyme>:</seg>
                 </l>
                 <space/><space/><l n="17">
-                    <seg met="-+" real="++">Speak low</seg>,
+                    <seg met="-+" real="++">Speak low, </seg>
                     <caesura/>
-                    <seg met="-+" real="++">lean <rhyme label="i">low</rhyme></seg>,
+                    <seg met="-+" real="++">lean <rhyme label="i">low</rhyme>,</seg>
                 </l>
                 <l n="18">
-                    <seg met="-+">As long</seg>
-                    <seg met="-+">a<sb/>go</seg>,
+                    <seg met="-+">As long </seg>
+                    <seg met="-+">a<sb/>go, </seg>
                     <caesura/>
-                    <seg met="-+">my love</seg>,
+                    <seg met="-+">my love, </seg>
                     <caesura/>
-                    <seg met="-+">how long</seg>
-                    <seg met="-+">a<sb/><rhyme label="i">go</rhyme></seg>.
+                    <seg met="-+">how long </seg>
+                    <seg met="-+">a<sb/><rhyme label="i">go</rhyme>.</seg>
                 </l>
             </lg>
         </body>

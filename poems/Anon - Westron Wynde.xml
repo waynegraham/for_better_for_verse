@@ -14,16 +14,26 @@
         <body>
             <lg met="(4/3/4/3)" rhyme="abcb">
                 <l n="1">
-                    <seg met="+" real="-+">West<sb/></seg><seg met="-+">ron wynde </seg><seg met="-+">when wyll </seg><seg met="-+">thow <rhyme label="a">blow</rhyme></seg>
+                    <seg met="+" real="-+">West<sb/></seg>
+                    <seg met="-+">ron wynde </seg>
+                    <seg met="-+">when wyll </seg>
+                    <seg met="-+">thow <rhyme label="a">blow</rhyme></seg>
                 </l>
                 <l n="2">
-                    <seg met="-+">the smalle </seg><seg met="++">rayne downe </seg><seg met="-+">can <rhyme label="b">rayne</rhyme></seg>
+                    <seg met="-+">the smalle </seg>
+                    <seg met="++">rayne downe </seg>
+                    <seg met="-+">can <rhyme label="b">rayne</rhyme></seg>
                 </l>
                 <l n="3">
-                    <seg met="+-">Chryst yf </seg><seg met="-+">my love </seg><seg met="-+">wer in </seg><seg met="-+">my <rhyme label="c">armes</rhyme></seg>
+                    <seg met="+-">Chryst yf </seg>
+                    <seg met="-+">my love </seg>
+                    <seg met="-+">wer in </seg>
+                    <seg met="-+">my <rhyme label="c">armes</rhyme></seg>
                 </l>
                 <l n="4">
-                    <seg met="-+">and I </seg><seg met="--+">yn my bed </seg><seg met="-+">a<sb/><rhyme label="b">gayne</rhyme></seg>
+                    <seg met="-+">and I </seg>
+                    <seg met="--+">yn my bed </seg>
+                    <seg met="-+">a<sb/><rhyme label="b">gayne</rhyme></seg>
                  </l>
             </lg>
         </body>

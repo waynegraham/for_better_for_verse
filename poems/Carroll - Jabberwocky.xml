@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "http://sds6.itc.virginia.edu:8080/prosody/poems/tei_all.dtd">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jabberwocky</title>
+                <author>Lewis Carroll</author>
+            </titleStmt>
+            <publicationStmt>
+                <date>1855</date>
+            </publicationStmt>
+            <sourceDesc><p/></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <lg n="1" type="stanza" met="-+(4/4/4/3)" rhyme="abab">
+                <l n="1">
+                    <seg met="-+">'Twas bril<sb/></seg>
+                    <seg met="-+">lig, <caesura/> and </seg>
+                    <seg met="-+">the slith<sb/></seg>
+                    <seg met="-+">y <rhyme label="a">toves</rhyme></seg>
+                </l>
+                <space/><l n="2">
+                    <seg met="-+">Did gyre </seg>
+                    <seg met="-+">and gim<sb/></seg>
+                    <seg met="-+">ble in </seg>
+                    <seg met="-+">the <rhyme label="b">wabe</rhyme>;</seg>
+                </l>
+                <l n="3">
+                    <seg met="-+" real="++">All mim<sb/></seg>
+                    <seg met="-+">sy were </seg>
+                    <seg met="-+">the bo<sb/></seg>
+                    <seg met="-+">ro<sb/><rhyme label="a">goves</rhyme>,</seg>
+                </l>
+                <space/><space/><l n="4">
+                    <seg met="-+" real="--">And the </seg>
+                    <seg met="-+" real="++">mome raths </seg>
+                    <seg met="-+">out<sb/><rhyme label="b">grabe</rhyme>.</seg>
+                </l>
+            </lg>
+            <lg n="2" type="stanza" met="-+(4/4/4/3)" rhyme="cdcd">
+                <l n="5">
+                    "<seg met="-+">Be<sb/>ware </seg>
+                    <seg met="-+">the Jab<sb/></seg>
+                    <seg met="-+">ber<sb/>wock, </seg>
+                    <seg met="-+">my <rhyme label="c">son </rhyme>!</seg>
+                </l>
+                <space/><l n="6">
+                    <seg met="-+">The jaws </seg>
+                    <seg met="-+">that bite, </seg>
+                    <seg met="-+">the claws </seg>
+                    <seg met="-+">that <rhyme label="d">catch </rhyme>!</seg>
+                </l>
+                <l n="7">
+                    <seg met="-+">Be<sb/>ware </seg>
+                    <seg met="-+">the Jub<sb/></seg>
+                    <seg met="-+">jub bird, </seg>
+                    <seg met="-+">and <rhyme label="c">shun</rhyme></seg>
+                </l>
+                <space/><space/><l n="8">
+                    <seg met="-+">The fru<sb/></seg>
+                    <seg met="-+" real="--+">mi<sb/>ous Band<sb/></seg>
+                    <seg met="-+">er<sb/><rhyme label="d">snatch</rhyme>!"</seg>
+                </l>
+            </lg>
+            <lg n="3" type="stanza" met="-+(4/4/4/3)" rhyme="efgf">
+                <l n="9">
+                    <seg met="-+">He took </seg>
+                    <seg met="-+">his vor<sb/></seg>
+                    <seg met="-+">pal sword </seg>
+                    <seg met="-+">in <rhyme label="e">hand</rhyme>:</seg>
+                </l>
+                <space/><l n="10">
+                    <seg met="-+" real="++">Long time </seg>
+                    <seg met="-+">the manx<sb/></seg>
+                    <seg met="-+">ome foe </seg>
+                    <seg met="-+">he <rhyme label="f">sought</rhyme> -</seg>
+                </l>
+                <l n="11">
+                    <seg met="-+">So rest<sb/></seg>
+                    <seg met="-+">ed he </seg>
+                    <caesura/>
+                    <seg met="-+" real="--+">by the Tum<sb/></seg>
+                    <seg met="-+">tum <rhyme label="g">tree</rhyme>,</seg>
+                </l>
+                <space/><space/><l n="12">
+                    <seg met="-+">And stood </seg>
+                    <seg met="-+">a<sb/>while </seg>
+                    <seg met="-+">in <rhyme label="f">thought </rhyme>.</seg>
+                </l>
+            </lg>
+            <lg n="4" type="stanza" met="-+(4/4/4/3)" rhyme="hihi">
+                <l n="13">
+                    <seg met="-+">And as </seg>
+                    <seg met="-+">in uf<sb/></seg>
+                    <seg met="-+">fish thought </seg>
+                    <seg met="-+">he <rhyme label="h">stood</rhyme>,</seg>
+                </l>
+                <space/><l n="14">
+                    <seg met="-+">The Jab<sb/></seg>
+                    <seg met="-+">ber<sb/>wock, </seg>
+                    <seg met="-+">with eyes </seg>
+                    <seg met="-+">of <rhyme label="i">flame</rhyme>,</seg>
+                </l>
+                <l n="15">
+                    <seg met="-+">Came whif<sb/></seg>
+                    <seg met="-+">fling through </seg>
+                    <seg met="-+">the tul<sb/></seg>
+                    <seg met="-+">gey <rhyme label="h">wood</rhyme>.</seg>
+                </l>
+                <space/><space/><l n="16">
+                    <seg met="-+">And bur<sb/></seg>
+                    <seg met="-+">bled as </seg>
+                    <seg met="-+">it <rhyme label="i">came</rhyme>!</seg>
+                </l>
+            </lg>
+            <lg n="5" type="stanza" met="-+(4/4/4/3)" rhyme="jklk">
+                <l n="17">
+                    <seg met="-+">One, two! </seg>
+                    <seg met="-+">One, two! </seg>
+                    <caesura/>
+                    <seg met="-+">And through </seg>
+                    <seg met="-+">and <rhyme label="j">through</rhyme></seg>
+                </l>
+                <space/><l n="18">
+                    <seg met="-+">The vor<sb/></seg>
+                    <seg met="-+">pal blade </seg>
+                    <seg met="-+">went snick<sb/></seg>
+                    <seg met="-+">er-<sb/><rhyme label="k">snack</rhyme>!</seg>
+                </l>
+                <l n="19">
+                    <seg met="-+">He left </seg>
+                    <seg met="-+">it dead, </seg>
+                    <caesura/>
+                    <seg met="-+">and with </seg>
+                    <seg met="-+">its <rhyme label="l">head</rhyme></seg>
+                </l>
+                <space/><space/><l n="20">
+                    <seg met="-+">He went </seg>
+                    <seg met="-+">ga<sb/>lumph<sb/></seg>
+                    <seg met="-+">ing <rhyme label="k">back</rhyme>.</seg>
+                </l>
+            </lg>
+            <lg n="5" type="stanza" real="-+(4/4/4/3)" rhyme="mnon">
+                <l n="21">
+                    "<seg met="-+">And hast </seg>
+                    <seg met="-+">thou slain </seg>
+                    <seg met="-+">the Jab<sb/></seg>
+                    <seg met="-+">ber<sb/><rhyme label="m">wock</rhyme>?</seg>
+                </l>
+                <space/><l n="22">
+                    <seg met="-+" real="+-">Come to </seg>
+                    <seg met="-+">my arms, </seg>
+                    <caesura/>
+                    <seg met="-+">my beam<sb/></seg>
+                    <seg met="-+">ish <rhyme label="n">boy</rhyme>!</seg>
+                </l>
+                <l n="23">
+                    <seg met="-+">O frab<sb/></seg>
+                    <seg met="-+">jous day! </seg>
+                    <caesura/>
+                    <seg met="-+">Cal<sb/>looh! </seg>
+                    <caesura/>
+                    <seg met="-+">Cal<sb/><rhyme label="o">lay</rhyme>!"</seg>
+                </l>
+                <space/><space/><l n="24">
+                    <seg met="-+">He chor<sb/></seg>
+                    <seg met="-+">tled in </seg>
+                    <seg met="-+">his <rhyme label="n">joy</rhyme>.</seg>
+                </l>
+            </lg>
+            <lg n="6" type="stanza" met="-+(4/4/4/3)" rhyme="abab">
+                <l n="25">
+                    '<seg met="-+">Twas bril<sb/></seg>
+                    <seg met="-+">lig, <caesura/> and </seg>
+                    <seg met="-+">the slith<sb/></seg>
+                    <seg met="-+">y <rhyme label="a">toves</rhyme></seg>
+                </l>
+                <space/><l n="26">
+                    <seg met="-+">Did gyre </seg>
+                    <seg met="-+">and gim<sb/></seg>
+                    <seg met="-+">ble in </seg>
+                    <seg met="-+">the <rhyme label="b">wabe</rhyme>;</seg>
+                </l>
+                <l n="27">
+                    <seg met="-+" real="++">All mim<sb/></seg>
+                    <seg met="-+">sy were </seg>
+                    <seg met="-+">the bo<sb/></seg>
+                    <seg met="-+">ro<sb/><rhyme label="a">goves</rhyme>,</seg>
+                </l>
+                <space/><space/><l n="28">
+                    <seg met="-+" real="--">And the </seg>
+                    <seg met="-+" real="++">mome raths </seg>
+                    <seg met="-+">out<sb/><rhyme label="b">grabe</rhyme>.</seg>
+                </l>
+            </lg>
+        </body>
+    </text>
+</TEI>
