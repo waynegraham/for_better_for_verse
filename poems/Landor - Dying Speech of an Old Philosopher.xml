@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "http://sds6.itc.virginia.edu:8080/prosody/poems/tei_all.dtd">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Dying Speech of an Old Philosopher</title>
+                <author>Walter Savage Landor</author>
+            </titleStmt>
+            <publicationStmt><p/></publicationStmt>
+            <sourceDesc><p/></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <lg n="1" type="Sicilian Quatrain" met="-+(5)" rhyme="abab">
+                <l n="1">
+                    <seg met="-+">I strove </seg>
+                    <seg met="-+">with none, </seg>
+                    <caesura/>
+                    <seg met="-+">for none </seg>
+                    <seg met="-+">was worth </seg>
+                    <seg met="-+">my <rhyme label="a">strife</rhyme>:</seg>
+                </l>
+                <l n="2">
+                    <seg met="-+" real="+-">Na<sb/>ture </seg>
+                    <seg met="-+">I loved, </seg>
+                    <caesura/>
+                    <seg met="-+">and, next </seg>
+                    <seg met="-+">to Na<sb/></seg>
+                    <seg met="-+">ture, <rhyme label="b">Art</rhyme>:</seg>
+                </l>
+                <l n="3">
+                    <seg met="-+">I warm'd </seg>
+                    <seg met="-+" real="++">both hands </seg>
+                    <seg met="-+">be<sb/>fore </seg>
+                    <seg met="-+">the fire </seg>
+                    <seg met="-+">of <rhyme label="a">Life</rhyme>;</seg>
+                </l>
+                <l n="4">
+                    <seg met="-+">It sinks; </seg>
+                    <caesura/>
+                    <seg met="-+">and I </seg>
+                    <seg met="-+">am read<sb/></seg>
+                    <seg met="-+">y to </seg>
+                    <seg met="-+">de<sb/><rhyme>part</rhyme>.</seg>
+                </l>
+            </lg>
+        </body>
+    </text>
+</TEI>
+
