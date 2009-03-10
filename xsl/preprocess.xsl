@@ -58,7 +58,7 @@
 
                 <xsl:copy-of select="@*"/>
 
-                <span style="visibility:none" answer="{../@met}">The answer</span>
+                <span style="display:none;" answer="{../@met}">The answer</span>
 
                 <xsl:for-each select="TEI:seg">
                     <!-- if the following flag gets set, this indicates that there is a discrepancy in the line which must be later
