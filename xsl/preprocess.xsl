@@ -97,22 +97,20 @@
                 <span class="button">
                     <button class="prosody-checkstress" id="checkstress{$line-number}"
                         name="Check stress" onclick="checkstress({$line-number})">
-                        <img src="images/default.png"/>
+                        <img src="images/stress-default.png"/>
                     </button>
-                    <label for="checkstress{$line-number}">Stress</label>
                 </span>
                 <span class="button">
                     <button class="prosody-checkfeet" id="checkfeet{$line-number}" name="Check feet"
                         onclick="checkfeet({$line-number})">
-                        <img src="images/default.png"/>
+                        <img src="images/feet-default.png"/>
                     </button>
-                    <label for="checkfeet{$line-number}">Feet</label>
                 </span>
                 <span class="button">
                     <button class="prosody-meter" id="checkmeter{$line-number}" name="Check meter"
-                        onclick="checkmeter({$line-number})">Meter <img src="images/default.png"
-                        /></button>
-                    <label for="checkmeter{$line-number}">Check Meter</label>
+                        onclick="checkmeter({$line-number})">
+                        <img src="images/meter-default.png"/>
+                    </button>
                 </span>
                 <xsl:if test="TEI:note">
                     <span class="button">
