@@ -16,13 +16,16 @@
             // first, assemble the user's proposed answer
             var answer = document.forms[0].foot.value + document.forms[0].number.value ;
                 
-            // now, test it and repond
+            // now, test it and respond
               if (answer == document.forms[0].answer.value ) {
-              	alert(linenumber + " is correct");
+              	var meter_target = opener.document.getElementById("checkmeter" + linenumber);
+              	meter_target.innerHTML = "<img src='images/correct.png'/>";
             }
             else {
-              	alert(linenumber + " is incorrect");
+              	var meter_target = opener.document.getElementById("checkmeter" + linenumber);
+              	meter_target.innerHTML = "<img src='images/incorrect.png'/>";
             } 
+            self.close();
         }
         
     </script></head>
