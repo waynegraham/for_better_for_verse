@@ -19,6 +19,7 @@
 			<c:out value="${param.poem}" />
 		</title>
 		<link href="css/main.css" rel="stylesheet" title="Basic TEI style" type="text/css" />
+		<link href="css/ie.css" rel="stylesheet" title="IE hacks" type="text/css" />
 		<script type="text/javascript">debugflag=true;</script>
 		<script type="text/javascript" src="scripts/prototype.js"><!--this--></script>
 		<script type="text/javascript" id="scriptaculous" src="scripts/effects.js"><!--this--></script>

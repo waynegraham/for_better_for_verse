@@ -162,11 +162,24 @@ function marker(real) {
     var mark = document.createElement("span");
     mark.setAttribute('class', 'prosody-marker');
     if (real.innerText) {
-        spacer = " ".times(Math.floor(real.innerText.length / 2));
+        if (real.innerText.length > 1) {
+            spacer = " ".times(Math.floor(real.innerText.length / 2));
+            if (real.innerText.length > 3) {
+            	mark.appendChild(document.createTextNode(spacer + "/" + spacer));
+            } else {
+            	mark.appendChild(document.createTextNode("/" + spacer));
+            }
+        } else {
+            mark.appendChild(document.createTextNode("/"));
+        }
     } else {
-        spacer = " ".times(Math.floor(real.textContent.length / 2));
+        if (real.textContent.length > 3) {
+            spacer = " ".times(Math.floor(real.textContent.length / 2));
+            mark.appendChild(document.createTextNode(spacer + "/" + spacer));
+        } else {
+            mark.appendChild(document.createTextNode("/"));
+        }
     }
-    mark.appendChild(document.createTextNode(spacer + "/" + spacer))
     return mark;
 }
 
@@ -175,18 +188,22 @@ function slackmarker(real) {
     var mark = document.createElement("span");
     mark.setAttribute('class', 'prosody-marker');
     if (real.innerText) {
-        if (real.innerText.length > 2) {
+        if (real.innerText.length > 1) {
             spacer = " ".times(Math.floor(real.innerText.length / 2));
-            mark.appendChild(document.createTextNode(spacer + "∪" + spacer))
+            if (real.innerText.length > 3) {
+            	mark.appendChild(document.createTextNode(spacer + "∪" + spacer));
+            } else {
+            	mark.appendChild(document.createTextNode("∪" + spacer));
+            }
         } else {
-            mark.appendChild(document.createTextNode("∪"))
+            mark.appendChild(document.createTextNode("∪"));
         }
     } else {
-        if (real.textContent.length > 2) {
+        if (real.textContent.length > 3) {
             spacer = " ".times(Math.floor(real.textContent.length / 2));
-            mark.appendChild(document.createTextNode(spacer + "∪" + spacer))
+            mark.appendChild(document.createTextNode(spacer + "∪" + spacer));
         } else {
-            mark.appendChild(document.createTextNode("∪"))
+            mark.appendChild(document.createTextNode("∪"));
         }
     }
     return mark;

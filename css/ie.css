@@ -1,0 +1,10 @@
+#main #poem span {
+	font-family: monospace;
+	word-spacing: 0em;
+	letter-spacing: 0em;
+	}
+#main #poem span.prosody-shadowsyllable, #main #poem span.prosody-placeholder {
+	font-size: 9pt;
+	margin: 0;
+	padding: 0;
+	}
