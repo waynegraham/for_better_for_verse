@@ -110,12 +110,10 @@ function checkstress(linenumber) {
 }
 
 function switchfoot(coords) {
-    syllabletext = $(coords).innerHTML;
-    if (syllabletext.endsWith('|')) {
-        $(coords).innerHTML = syllabletext
-        .substring(0, syllabletext.length - 1);
+    if ($(coords).select("span").length > 0) {
+        $(coords).select("span")[0].remove();
     } else {
-        $(coords).innerHTML = syllabletext + "|";
+        $(coords).appendChild(footmarker());;
     }
 }
 
