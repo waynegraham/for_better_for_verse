@@ -209,6 +209,14 @@ function slackmarker(real) {
     return mark;
 }
 
+//returns an appropriate placeholder element for use as a blank marker
+function footmarker() {
+    var mark = document.createElement("span");
+    mark.setAttribute('class', 'prosody-footmarker');
+    mark.appendChild(document.createTextNode('|'));
+    return mark;
+}
+
 // returns an appropriate placeholder element for use as a blank marker
 function placeholder(real) {
     var mark = document.createElement("span");
