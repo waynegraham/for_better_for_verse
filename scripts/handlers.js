@@ -148,13 +148,13 @@ function checkfeet(linenumber) {
     });
 }
 
-function checkmeter(linenumber) {
-    // creates a popup window with popup menus to offer a choice of meters
-    // the user is told whether the answer is correct or not
-    var popup_url = "meter-popup.html?line=" + linenumber;
-    popup_props = "toolbar=no,menubar=no,scrollbars=no,statusbar=no,height=200,width=300,left=200, top=200";
-    var popup = window.open(popup_url, "Meter", popup_props);
-    
+function checkmeter(linenumber, linegroupindex) {
+	// creates a popup window with popup menus to offer a choice of meters
+	// the user is told whether the answer is correct or not
+	var popup = window.open("meter-popup.html?line=" + linenumber
+			+ "&linegroupindex=" + linegroupindex, "Check your meter, friend!",
+			"resizable=no,scrollbars=no,status=no");
+
 }
 
 // returns an appropriate token element for use as a stress marker
