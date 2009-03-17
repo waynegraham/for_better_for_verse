@@ -3,16 +3,19 @@
     <head><title>Check your knowledge of meter, friend!</title>
     <link href="css/main.css" rel="stylesheet" title="Basic TEI style" type="text/css" />
     <script type="text/javascript">
+
         function init() {
-            var linenumber = window.location.search.substring(1).split('=')[1];
+            var linenumber = window.location.search.substring(1).split('&')[0].split('=')[1];
+            var linegroupindex = window.location.search.substring(1).split('&')[1].split('=')[1];
             var fullanswer = window.opener.$("prosody:real:" + linenumber).select("span[answer]")[0].getAttribute('answer');    
             var foottype = fullanswer.split("(")[0];
-            var numberfeet = fullanswer.split("(")[1].split(")")[0].split("/")[linenumber-1];
+            var numberfeet = fullanswer.split("(")[1].split(")")[0].split("/")[linegroupindex-1];
             document.forms[0].answer.value = foottype + numberfeet;
         }
         
         function check() {
-            var linenumber = window.location.search.substring(1).split('=')[1];
+        	var linenumber = window.location.search.substring(1).split('&')[0].split('=')[1];
+            
             // first, assemble the user's proposed answer
             var answer = document.forms[0].foot.value + document.forms[0].number.value ;
                 
