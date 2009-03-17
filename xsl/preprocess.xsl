@@ -118,7 +118,7 @@
                 </span>
                 <span class="button">
                     <button class="prosody-meter" id="checkmeter{$line-number}" name="Check meter"
-                        onclick="checkmeter({$line-number},{$linegroupindex})">Meter <img
+                        onclick="checkmeter({$line-number},{$linegroupindex})"><img
                             src="images/default.png"/>
                         <img src="images/meter-default.png"/>
                     </button>
