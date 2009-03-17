@@ -151,7 +151,7 @@ function checkmeter(linenumber, linegroupindex) {
 	// the user is told whether the answer is correct or not
 	var popup = window.open("meter-popup.html?line=" + linenumber
 			+ "&linegroupindex=" + linegroupindex, "Check your meter, friend!",
-			"resizable=no,scrollbars=no,status=no");
+			"resizable=no,scrollbars=no,status=no,width=300,height=200");
 
 }
 

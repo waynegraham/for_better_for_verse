@@ -20,6 +20,7 @@ div.prosody-shadowline {
 }
 div.TEI-l {
     display:table-row;
+	height: 25px;
 }
 span:hover {
     background:#444;
@@ -31,12 +32,14 @@ span.prosody-shadowsyllable {
     /*padding-right:1em;*/
     text-align:center;
     font-size: 14px;
+    color: #BAB2AB;
 }
 span.prosody-syllable 
 {
 white-space:pre;
     display:table-cell;
     /* padding-right:1em; */
+    	vertical-align: bottom;
 }
 span.prosody-marker {
     visibility:visible;
@@ -123,4 +126,10 @@ label {
 
 #meter-select button:hover {
 	background: #858575;
+	}
+#poem .prosody-syllable span.prosody-footmarker {
+	color: #BAB2AB;
+	font-size: 20px;
+	font-weight: bold;
+	vertical-align: bottom;
 	}
