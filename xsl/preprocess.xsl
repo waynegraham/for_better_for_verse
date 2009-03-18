@@ -32,6 +32,7 @@
                 <xsl:with-param name="linegroupindex" select="position()"/>
             </xsl:apply-templates>
         </xsl:for-each>
+        <br/>
     </xsl:template>
     
     <xsl:template match="TEI:l">
