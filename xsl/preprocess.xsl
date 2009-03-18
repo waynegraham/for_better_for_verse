@@ -104,6 +104,18 @@
                 
             </div>
             <div class="buttons">
+                  <xsl:if test="TEI:note">
+                    <span class="button">
+                        <button class="prosody-note-button" id="displaynotebutton{$line-number}"
+                            name="Note about this line" onclick="">
+                            <img src="images/unclickablehint.png"/>
+                        </button>
+                        <p class="prosody-note" id="hintfor{$line-number}">
+                            <span>Note on line number <xsl:value-of select="$line-number"/>:</span>
+                            <xsl:copy-of select="TEI:note"/>
+                        </p>
+                    </span>
+                </xsl:if>
                 <span class="button">
                     <button class="prosody-checkstress" id="checkstress{$line-number}"
                         name="Check stress" onclick="checkstress({$line-number})">
@@ -122,20 +134,6 @@
                         <img src="images/meter-default.png"/>
                     </button>
                 </span>
-                <xsl:if test="TEI:note">
-                    <span class="button">
-                        <button class="prosody-note-button" id="displaynotebutton{$line-number}"
-                            name="Note about this line" onclick="">
-                            <img src="images/unclickablehint.png"/>
-                        </button>
-                        <p class="prosody-note" id="hintfor{$line-number}">
-                            <span>Note on line number <xsl:value-of select="$line-number"/>:</span>
-                            <xsl:copy-of select="TEI:note"/>
-                        </p>
-                        <label for="displaynotebutton{$line-number}">Hint button for line
-                            <xsl:value-of select="$line-number"/></label>
-                    </span>
-                </xsl:if>
             </div>
             
         </div>
