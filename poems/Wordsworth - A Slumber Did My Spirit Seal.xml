@@ -46,6 +46,9 @@
                     <seg met="-+">she now, </seg>
                     <caesura/>
                     <seg met="-+" real="++">no <rhyme label="a">force;</rhyme></seg>
+                    <note>
+                    	Just a test.
+                    </note>
                 </l>
                 <l n="6">
                     <seg met="-+">She nei<sb/></seg>
