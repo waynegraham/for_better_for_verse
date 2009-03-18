@@ -244,7 +244,7 @@ function togglestress() {
 // they are different.
 function toggledifferences(e) {
     if (e.value == "off") {
-        document.styleSheets[0].insertRule('span[discrepant] { color: red; }',
+        document.styleSheets[0].insertRule('span[discrepant] { color: #F0F055; }',
         0);
         e.value = "on";
     } else if (e.value == "on") {
