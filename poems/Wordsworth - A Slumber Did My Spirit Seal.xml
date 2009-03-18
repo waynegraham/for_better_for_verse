@@ -24,7 +24,7 @@
                 </l>
                 <l n="2">
                     <seg met="-+">I had </seg>
-                    <seg met="-+">no hu<sb/></seg>
+                    <seg met="-+" real="++">no hu<sb/></seg>
                     <seg met="-+">man <rhyme label="b">fears:</rhyme></seg>
                 </l>
                 <l n="3">
