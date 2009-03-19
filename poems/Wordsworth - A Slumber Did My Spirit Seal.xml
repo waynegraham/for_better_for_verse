@@ -47,7 +47,7 @@
                     <caesura/>
                     <seg met="-+" real="++">no <rhyme label="a">force;</rhyme></seg>
                     <note>
-                    	Just a test.
+                    	This is the most metrically irregular line in the poem, and with good reason.  The spondaic substitution in the first foot registers a change in rhythm which stands for a change in perspective on the speaker's part.  (Not to mention the change in state for her who has died!)  And the difficulty of registering this perspectival change gets reinforced in foot 4, as if to drive the change home.  Readers may also feel an ironic contrast with the only previous departure from meter, again spondaic, in the second foot of line 2 -- ironic, because at that point what was being stressed was the false security of a belief now revealed to have been wrong.
                     </note>
                 </l>
                 <l n="6">
@@ -67,6 +67,9 @@
                     <seg met="-+">and stones </seg>,
                     <caesura/>
                     <seg met="-+">and <rhyme label="b">trees.</rhyme></seg>
+                    <note>
+                        The thing to notice here is the utter, weirdly serene regularity of the last line, corresponding as it does to the organic, even inorganic pulse of the earth in which the deceased "She" is now buried.  It's an effect arguably set in motion by the heavily alliterated first foot of line 7 (our last, sojourning spondee in this iambic lyric), which seems to heave into being a process whose laws enfold life and death as the grave enfolds the deceased.
+                    </note>
                 </l>
             </lg>
         </body>
