@@ -104,8 +104,10 @@
                                 <xsl:if test="not(position()=last() and $sb-flag)">
                                     <xsl:text> </xsl:text>
                                 </xsl:if>
-                                <xsl:if test="$sb-space and (not(starts-with($sb-first, .)))">
-                                    <xsl:text> </xsl:text>
+                                <xsl:if test="$sb-first">
+                                    <xsl:if test="$sb-space and (not(starts-with($sb-first, .)))">
+                                        <xsl:text> </xsl:text>
+                                    </xsl:if>
                                 </xsl:if>
                             </span>
                         </xsl:for-each>
