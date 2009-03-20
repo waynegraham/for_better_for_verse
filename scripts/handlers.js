@@ -283,7 +283,7 @@ function clickablehintimage() {
 function pophint(e) {
     linenumber = e.id.substring(17);
     hintp = $("hintfor" + linenumber);
-    pop = window.open("", "Hint for line " + linenumber, "menubar=no,height=300,width=200");
+    pop = window.open("", "Hint for line " + linenumber,"menubar=no,scrollbars=yes,height=300,width=400");
     pop.document.body.setAttribute("style", "background: #222;color: #fff;font-size: 14px;");
     pop.document.body.appendChild(pop.document.importNode(hintp, true));
 }
