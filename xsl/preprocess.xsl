@@ -151,7 +151,9 @@
         </div>
     </xsl:template>
     
-    
+    <xsl:template match="caesura">
+        <xsl:text> </xsl:text>
+    </xsl:template>
     
     
     <!-- <xsl:template match="node()|@*">

@@ -34,6 +34,7 @@ span.prosody-shadowsyllable {
     text-align:center;
     font-size: 14px;
     color: #DEB887;
+	vertical-align: bottom;
 }
 span.prosody-syllable 
 {
