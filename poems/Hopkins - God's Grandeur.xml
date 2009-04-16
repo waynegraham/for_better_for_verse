@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "http://sds1.itc.virginia.edu:8080/prosody/poems/tei_all.dtd">
 <!DOCTYPE TEI SYSTEM "http://localhost:8080/prosody/poems/tei_all.dtd">
 <TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <teiHeader>
@@ -33,7 +34,7 @@
                 </l>
                 <l n="3">
                     <seg met="-+">It gath<sb/></seg>
-                    <seg met="-+" real="-~~+">ers to a great <sb/></seg>
+                    <seg met="-+" real="---+">ers to a great<sb/></seg>
                     <seg met="-+">ness, <caesura/> like </seg>
                     <seg met="-+">the ooze </seg>
                     <seg met="-+">of <rhyme label="b">oil</rhyme></seg>
@@ -89,7 +90,7 @@
                 </l>
                 <l n="10">
                     <seg met="-+">There lives </seg>
-                    <seg met="-+">the dear <sb/></seg>
+                    <seg met="-+">the dear<sb/></seg>
                     <seg met="-+">est fresh<sb/></seg>
                     <seg met="-+">ness deep </seg>
                     <seg met="-+" real="++">down <rhyme label="d">things;</rhyme></seg>
