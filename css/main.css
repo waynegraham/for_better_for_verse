@@ -8,6 +8,7 @@ body {
     font-size: 14px;
     background: #222222;
     color: #FFFFFF;
+	line-height: 1em;
 }
 
 div.prosody-line {
