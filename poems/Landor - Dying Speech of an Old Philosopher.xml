@@ -20,7 +20,7 @@
                     <caesura/>
                     <seg met="-+">for none </seg>
                     <seg met="-+">was worth </seg>
-                    <seg met="-+">my <rhyme label="a">strife</rhyme>:</seg>
+                    <seg met="-+">my <rhyme label="a">strife:</rhyme></seg>
                 </l>
                 <l n="2">
                     <seg met="-+" real="+-">Na<sb/>ture </seg>
@@ -28,14 +28,14 @@
                     <caesura/>
                     <seg met="-+">and, next </seg>
                     <seg met="-+">to Na<sb/></seg>
-                    <seg met="-+">ture, <rhyme label="b">Art</rhyme>:</seg>
+                    <seg met="-+">ture, <rhyme label="b">Art:</rhyme></seg>
                 </l>
                 <l n="3">
                     <seg met="-+">I warm'd </seg>
                     <seg met="-+" real="++">both hands </seg>
                     <seg met="-+">be<sb/>fore </seg>
                     <seg met="-+">the fire </seg>
-                    <seg met="-+">of <rhyme label="a">Life</rhyme>;</seg>
+                    <seg met="-+">of <rhyme label="a">Life;</rhyme></seg>
                 </l>
                 <l n="4">
                     <seg met="-+">It sinks; </seg>
@@ -43,7 +43,7 @@
                     <seg met="-+">and I </seg>
                     <seg met="-+">am read<sb/></seg>
                     <seg met="-+">y to </seg>
-                    <seg met="-+">de<sb/><rhyme>part</rhyme>.</seg>
+                    <seg met="-+">de<sb/><rhyme>part.</rhyme></seg>
                     <note>
                         The noble stoicism of our speaker here is enriched rhythmically by just a hint of reluctance to accept the limits of mortality in which his philosophy has trained him.  Two hints, really.  First, feel how the spondee in line 3 pauses, for a heartbeat, over what remains for him the memory of a creature comfort when life was still warm to him.  Then drop down to the disappointment that flickers in the very strong caesura after the first foot of line 4.  He's ready, all right, but staying ready takes all his energy at this point.   
                     </note>
