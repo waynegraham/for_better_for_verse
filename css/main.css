@@ -32,7 +32,7 @@ span.prosody-shadowsyllable {
     /*padding-right:1em;*/
     text-align:center;
     font-size: 14px;
-    color: #BAB2AB;
+    color: #DEB887;
 }
 span.prosody-syllable 
 {
@@ -64,7 +64,6 @@ button.prosody-note-button {
 
 #poem {
     width: 560px;
-    height: 570px;
     padding: 20px;
 }
 
@@ -128,7 +127,7 @@ label {
 	background: #858575;
 	}
 #poem .prosody-syllable span.prosody-footmarker {
-	color: #BAB2AB;
+	color: #DEB887;
 	font-size: 20px;
 	font-weight: bold;
 	vertical-align: bottom;
