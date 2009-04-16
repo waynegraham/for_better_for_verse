@@ -43,7 +43,7 @@
                     <seg met="-+">do men </seg>
                     <seg met="-+">then now </seg>
                     <seg met="-+">not reck </seg>
-                    <seg met="-+">his <rhyme label="a">rod </rhyme>?</seg>
+                    <seg met="-+">his <rhyme label="a">rod?</rhyme></seg>
                 </l>
                 <l n="5">
                     <seg met="-+" real="+-">Gen<sb/>er<sb/></seg>
@@ -52,7 +52,7 @@
                     <caesura/>
                     <seg met="-+">have trod, </seg>
                     <caesura/>
-                    <seg met="-+">have <rhyme label="a">trod</rhyme>;</seg>
+                    <seg met="-+">have <rhyme label="a">trod;</rhyme></seg>
                 </l>
                 <l n="6">
                     <seg met="-+">And all </seg>
@@ -60,7 +60,7 @@
                     <seg met="-+">with trade; </seg>
                     <caesura/>
                     <seg met="-+" real="++">bleared, smeared </seg>
-                    <seg met="-+">with <rhyme label="b">toil</rhyme>;</seg>
+                    <seg met="-+">with <rhyme label="b">toil;</rhyme></seg>
                 </l>
                 <l n="7">
                     <seg met="-+">And wears </seg>
@@ -75,7 +75,7 @@
                     <seg met="-+">now, <caesura/> nor </seg>
                     <seg met="-+">can foot </seg>
                     <seg met="-+" real="++">feel, be<sb/></seg>
-                    <seg met="-+">ing <rhyme label="a">shod</rhyme>.</seg>
+                    <seg met="-+">ing <rhyme label="a">shod.</rhyme></seg>
                 </l>
             </lg>
             <lg n="2" type="sestet" met="-+(5)" rhyme="cdcdcd">
@@ -85,14 +85,14 @@
                     <caesura/>
                     <seg met="-+" real="+-">na<sb/>ture </seg>
                     <seg met="-+">is nev<sb/></seg>
-                    <seg met="-+">er <rhyme label="c">spent</rhyme>;</seg>
+                    <seg met="-+">er <rhyme label="c">spent;</rhyme></seg>
                 </l>
                 <l n="10">
                     <seg met="-+">There lives </seg>
                     <seg met="-+">the dear <sb/></seg>
                     <seg met="-+">est fresh<sb/></seg>
                     <seg met="-+">ness deep </seg>
-                    <seg met="-+" real="++">down <rhyme label="d">things</rhyme>;</seg>
+                    <seg met="-+" real="++">down <rhyme label="d">things;</rhyme></seg>
                 </l>
                 <l n="11">
                     <seg met="-+">And though </seg>
