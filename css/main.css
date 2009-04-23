@@ -65,7 +65,7 @@ button.prosody-note-button {
 
 #poem {
     width: 552px;
-    padding: 10px;
+    padding: 20px;
 }
 
 #poem span {
@@ -74,7 +74,11 @@ button.prosody-note-button {
     }
     
 #poem #title {
-    margin: 0 0 20px 0;
+    margin: 10px 0 15px 0;
+}
+
+#poem #title h2 {
+	padding-bottom: 10px;
 }
 
 .buttons {
