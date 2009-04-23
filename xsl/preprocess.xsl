@@ -5,7 +5,11 @@
     
     <xsl:output indent="yes" method="xml" omit-xml-declaration="yes"/>
     <xsl:preserve-space elements="*"/>
-    
+
+    <xsl:template match="caesura">
+        <xsl:text> </xsl:text>
+    </xsl:template>
+        
     <xsl:template match="/">
         <div id="poem">
             <div id="title">
@@ -150,11 +154,6 @@
             
         </div>
     </xsl:template>
-    
-    <xsl:template match="caesura">
-        <xsl:text> </xsl:text>
-    </xsl:template>
-    
     
     <!-- <xsl:template match="node()|@*">
         <xsl:copy>
