@@ -21,7 +21,6 @@ div.prosody-shadowline {
 }
 div.TEI-l {
     display:table-row;
-	height: 25px;
 }
 span:hover {
     background:#444;
@@ -94,6 +93,8 @@ button {
 	background: none;
 	border: none;
 	color: #FFFFFF;
+	padding: 0;
+	margin: 0;
 }
 
 label {
@@ -130,7 +131,6 @@ label {
 	}
 #poem .prosody-syllable span.prosody-footmarker {
 	color: #DEB887;
-	font-size: 20px;
 	font-weight: bold;
 	vertical-align: bottom;
 	}
