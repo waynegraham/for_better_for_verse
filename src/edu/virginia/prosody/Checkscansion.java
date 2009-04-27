@@ -2,6 +2,13 @@ package edu.virginia.prosody;
 
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Arrays;
+import java.util.regex.Pattern;
+
 import javax.servlet.Servlet;
 import javax.servlet.ServletConfig;
 import javax.servlet.ServletContext;
@@ -55,7 +62,6 @@ public class Checkscansion extends HttpServlet implements Servlet {
 		context = getServletContext();
 	}
 
-
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp)
 			throws ServletException, IOException {
@@ -67,12 +73,10 @@ public class Checkscansion extends HttpServlet implements Servlet {
 		Boolean expected = false;
 
 		Integer line = Integer.parseInt(req.getParameter("line"));
-		String xpathexpected = "string-join(//TEI:l[@n='" + line
-				+ "']/TEI:seg/@met,'')";
-		String xpathcorrect = "string-join(//TEI:l[@n='" + line
-				+ "']/TEI:seg/(@met[not(../@real)]|@real),'')";
+		String xpathexpected = "//TEI:l[@n='" + line + "']/@met";
+		String xpathcorrect = "//TEI:l[@n='" + line + "']/@real";
 		log("Using xpaths " + xpathexpected + " and " + xpathcorrect);
-		
+
 		log("Reading " + filepath);
 		log("The proffered answer was: " + answer);
 		System.setProperty("javax.xml.xpath.XPathFactory:"
@@ -82,20 +86,28 @@ public class Checkscansion extends HttpServlet implements Servlet {
 				new Configuration());
 		xpathcontext.declareNamespace("TEI", "http://www.tei-c.org/ns/1.0");
 		XPathEvaluator xp = new XPathEvaluator();
-	
+
 		xp.setNamespaceContext(new NamespaceContextImpl(xpathcontext
 				.getNamespaceResolver()));
 
-		String realanswer;
 		try {
-			realanswer = xp.evaluate(xpathcorrect,new InputSource(new FileInputStream(filepath)));
-			log("The correct answer was: " + realanswer);
-			if (answer.equals(realanswer)) {
+
+			List<String> realanswers = Arrays.asList(xp.evaluate(xpathcorrect,
+					new InputSource(new FileInputStream(filepath))).split("[|]"));
+			List<String> quotedrealanswers = quote(realanswers);
+			String realanswer = join(quotedrealanswers, "|");
+			log("The correct answers were: " + realanswer);
+			if (answer.matches(realanswer)) {
 				correct = true;
 			} else {
-				String expectedanswer =  xp.evaluate(xpathexpected,new InputSource(new FileInputStream(filepath)));
-				log("The expect-able answer was " + expectedanswer);
-				if (answer.equals(expectedanswer)) {
+				List<String> expectedanswers = Arrays.asList(xp.evaluate(
+						xpathexpected,
+						new InputSource(new FileInputStream(filepath))).split(
+						"[|]"));
+				List<String> quotedexpectedanswers = quote(expectedanswers);
+				String expectedanswer = join(quotedexpectedanswers, "|");
+				log("The expect-able answers were " + expectedanswer);
+				if (answer.matches(expectedanswer)) {
 					expected = true;
 				}
 			}
@@ -112,6 +124,26 @@ public class Checkscansion extends HttpServlet implements Servlet {
 		} else {
 			resp.sendRedirect(INCORRECT_RESPONSE);
 		}
+	}
+
+	public static String join(List<String> s, String delimiter) {
+		StringBuffer buffer = new StringBuffer();
+		Iterator<String> iter = s.iterator();
+		while (iter.hasNext()) {
+			buffer.append(iter.next());
+			if (iter.hasNext()) {
+				buffer.append(delimiter);
+			}
+		}
+		return buffer.toString();
+	}
+
+	public static List<String> quote(List<String> col) {
+		List<String> quotedlist = new ArrayList<String>(0);
+		for (String i : col) {
+			quotedlist.add(Pattern.quote(i));
+		}
+		return quotedlist;
 	}
 
 }
