@@ -15,21 +15,21 @@
         <body>
             <lg n="1" type="tercet" met="-+(4/4/4)" rhyme="aaa">
                 <l n="1">
-                    <seg met="-+">Whenas </seg>
+                    <seg met="-+">When<sb/>as </seg>
                     <seg met="-+">in silks </seg>
                     <seg met="-+">my Ju<sb/></seg>
-                    <seg met="-+">lia <rhyme label="a">goes</rhyme>, </seg>
+                    <seg met="-+">lia <rhyme label="a">goes,</rhyme></seg>
                 </l>
                 <l n="2">
                     <seg met="-+" real="++">Then, then </seg>
-                    <seg met="-+">(methinks) </seg>
+                    <seg met="-+">(me<sb/>thinks) </seg>
                     <caesura/>
                     <seg met="-+">how sweet<sb/></seg>
-                    <seg met="-+">ly <rhyme label="a">flows</rhyme> </seg>
+                    <seg met="-+">ly <rhyme label="a">flows</rhyme></seg>
                 </l>
                 <l n="3">
                     <seg met="-+">That li<sb/></seg>
-                    <seg met="-+">quefac<sb/></seg>
+                    <seg met="-+">que<sb/>fac<sb/></seg>
                     <seg met="-+">tion of </seg>
                     <seg met="-+">her <rhyme label="a">clothes.</rhyme></seg>
                 </l>
@@ -51,7 +51,7 @@
                     <seg met="-+" real="+-">O how </seg>
                     <seg met="-+">that glit<sb/></seg>
                     <seg met="-+" real="--+">tering tak<sb/></seg>
-                    <seg met+"-+">eth <rhyme label="b">me</rhyme>!</seg>
+                    <seg met="-+">eth <rhyme label="b">me</rhyme>!</seg>
                 </l>
              </lg>
         </body>

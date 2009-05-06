@@ -13,7 +13,7 @@
     </teiHeader>
     <text>
         <body>
-            <lg n="1" type="Sicilian Quatrain" met="-+(5)" rhyme="abab">
+            <lg n="1" type="Sicilian Quatrain" met="-+(5/5/5/5)" rhyme="abab">
                 <l n="1">
                     <seg met="-+">I strove </seg>
                     <seg met="-+">with none, </seg>
