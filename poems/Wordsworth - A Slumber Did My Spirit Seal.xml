@@ -16,7 +16,7 @@
     <text>
         <body>
             <lg n="1" type="quatrain" met="-+(4/3/4/3)" rhyme="abab">
-                <l n="1">
+                <l n="1" met="-+-+-+-+|---+-+-+" real="-+-+++-+|-+-+-+++">
                     <seg met="-+">A slum<sb/></seg>
                     <seg met="-+">ber did </seg>
                     <seg met="-+">my spir<sb/></seg>
