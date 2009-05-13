@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI SYSTEM "http://localhost:8080/prosody/poems/tei_all.dtd">
+<!DOCTYPE TEI SYSTEM "http://sds1.itc.virginia.edu:8080/prosody/poems/tei_all.dtd">
 <TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Upon Juliet's Clothes</title>
+                <title>Upon Julia's Clothes</title>
                 <author>Robert Herrick</author>
             </titleStmt>
             <publicationStmt><p/></publicationStmt>
