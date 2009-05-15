@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "http://sds1.itc.virginia.edu:8080/prosody/poems/tei_all.dtd">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>In Neglect</title>
+                <author>Robert Frost</author>
+            </titleStmt>
+            <publicationStmt><p/></publicationStmt>
+            <sourceDesc><p/></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <lg n="1" type="quintain" met="-+(4/4/4/4/4)" rhyme="abaab">
+                <l n="1" met="-+-+-+-+" real="-+-+--+-+">
+                    <seg met="-+">They leave </seg>
+                    <seg met="-+">us so </seg>
+                    <seg met="-+" real="--+">to the way </seg>
+                    <seg met="-+">we <rhyme label="a">took,</rhyme></seg>
+                </l>
+                <l n="2" met="-+-+-+-+" real="-+-+--+-+-">
+                    <seg met="-+">  As two </seg>
+                    <seg met="-+">in whom </seg>
+                    <caesura/>
+                    <seg met="-+" real="--+">they were proved</seg>
+                    <seg met="-+" real="-+(-)">mis<sb/>tak<sb/><rhyme label="b">en,</rhyme></seg>
+                </l>
+                <l n="3" met="-+-+-+-+" real="--+-+--+-+">
+                    <seg met="-+" real="--+">That we sit </seg>
+                    <seg met="-+">some<sb/>times </seg>
+                    <seg met="-+" real="--+">in the way<sb/></seg>
+                    <seg met="-+">side <rhyme label="a">nook,</rhyme></seg>
+                </l>
+                <l n="4" met="-+-+-+-+" real="-+--+--+-+">
+                    <seg met="-+">With mis<sb/> </seg>
+                    <seg met="-+" real="--+">chie<sb/>vous, va<sb/></seg>
+                    <seg met="-+" real="--+">grant, se<sb/>raph</seg>
+                    <seg met="-+">ic <rhyme label="a">look, </rhyme></seg>
+                </l>
+                <l n="5" met="-+-+-+-+" real="-+--+-+-+(-)">
+                    <seg met="-+">  And try </seg>
+                    <seg met="-+" real="--+">if we can<sb/></seg>
+                    <seg met="-+">not feel </seg>
+                    <seg met="-+" real="-+(-)">for<sb/>sak<sb/><rhyme label="b">en.</rhyme></seg>
+                </l>
+             </lg>
+        </body>
+    </text>
+</TEI>
