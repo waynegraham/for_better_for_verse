@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "http://sds1.itc.virginia.edu:8080/prosody/poems/tei_all.dtd">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sudden Light</title>
+                <author>Dante Gabriel Rossetti</author>
+            </titleStmt>
+            <publicationStmt><p/></publicationStmt>
+            <sourceDesc><p/></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <lg n="1" type="quintains" met="-+(3/4/4/2/5)" rhyme="ababa">
+               <l n="1" met="-+(3)" real="+--+-+">
+                   <seg met="-+" real="+-">I have </seg>
+                   <seg met="-+">been here </seg>
+                   <seg met="-+">be<sb/><rhyme label="a">fore,</rhyme></seg>
+               </l>
+                <l n="2" met="-+(4)">
+                    <seg met="-+">But when </seg>
+                    <seg met="-+">or how </seg>
+                    <seg met="-+">I can<sb/></seg>
+                    <seg met="-+">not <rhyme label="b">tell:</rhyme></seg>
+                </l>
+                <l n="3" met="-+(4)">
+                    <seg met="-+">I know </seg>
+                    <seg met="-+">the grass </seg>
+                    <seg met="-+">be<sb/>yond </seg>
+                    <seg met="-+">the <rhyme label="a">door, </rhyme></seg>
+                </l>
+                <l n="4" met="-+(2)" real="-+++">
+                    <seg met="-+">The sweet </seg>
+                    <seg met="-+" real="++">keen <rhyme label="b">smell, </rhyme></seg>
+                </l>
+                <l n="5" met="-+(5)">
+                    <seg met="-+">The sigh<sb/></seg>
+                    <seg met="-+">ing sound, </seg>
+                    <caesura/>
+                    <seg met="-+">the lights </seg>
+                    <seg met="-+">a<sb/>round </seg>
+                    <seg met="-+">the <rhyme label="a">shore.</rhyme></seg>
+                </l>
+            </lg>
+            <lg n="2" type="quintains" met="-+(3/4/4/2/5)" rhyme="ababa">
+                <l n="1" met="-+(3)" real="+--+-+">
+                    <seg met="-+" real="+-">You have </seg>
+                    <seg met="-+">been mine </seg>
+                    <seg met="-+">be<sb/><rhyme label="a">fore, --</rhyme></seg>
+                </l>
+                <l n="2" met="-+(4)">
+                    <seg met="-+">How long </seg>
+                    <seg met="-+">a<sb/>go </seg>
+                    <seg met="-+">I may </seg>
+                    <seg met="-+">not <rhyme label="b">know:</rhyme></seg>
+                </l>
+                <l n="3" met="-+(4)" real="-++--+-+">
+                    <seg met="-+">But just </seg>
+                    <seg met="-+" real="+-">when at </seg>
+                    <seg met="-+">that swal<sb/></seg>
+                    <seg met="-+">low's <rhyme label="a">soar</rhyme></seg>
+                </l>
+                <l n="4" met="-+(2)" real="-+++">
+                    <seg met="-+">Your neck </seg>
+                    <seg met="-+" real="++">turned <rhyme label="b">so, </rhyme></seg>
+                </l>
+                <l n="5" met="-+(5)">
+                    <seg met="-+">Some veil </seg>
+                    <seg met="-+">did fall, -- </seg>
+                    <caesura/>
+                    <seg met="-+">I knew </seg>
+                    <seg met="-+">it all </seg>
+                    <seg met="-+">of <rhyme label="a">yore.</rhyme></seg>
+                </l>
+            </lg>
+            <lg n="3" type="quintains" met="-+(3/4/4/2/5)" rhyme="ababa">
+                <l n="1" met="-+(3)" real="++-+-+">
+                    <seg met="-+" real="++">Then, now, -- </seg>
+                    <caesura/>
+                    <seg met="-+">per<sb/>chance </seg>
+                    <seg met="-+">a<sb/><rhyme label="a">gain!</rhyme></seg>
+                </l>
+                <l n="2" met="-+(4)">
+                    <seg met="-+">O round </seg>
+                    <seg met="-+">mine eyes </seg>
+                    <seg met="-+">your tress<sb/></seg>
+                    <seg met="-+">es <rhyme label="b">shake!</rhyme></seg>
+                </l>
+                <l n="3" met="-+(4)">
+                    <seg met="-+">Shall we </seg>
+                    <seg met="-+">not lie </seg>
+                    <seg met="-+">as we </seg>
+                    <seg met="-+">have <rhyme label="a">lain </rhyme></seg>
+                </l>
+                <l n="4" met="-+(2)" real="+-++">
+                    <seg met="-+" real="+-">Thus for </seg>
+                    <seg met="-+" real="++">Love's <rhyme label="b">sake,</rhyme></seg>
+                </l>
+                <l n="5" met="-+(5)">
+                    <seg met="-+">And sleep, </seg>
+                    <seg met="-+">and wake, </seg>
+                    <caesura/>
+                    <seg met="-+">yet nev<sb/></seg>
+                    <seg met="-+">er break </seg>
+                    <seg met="-+">the <rhyme label="a">chain?</rhyme></seg>
+                </l>
+            </lg>
+        </body>
+    </text>
+</TEI>

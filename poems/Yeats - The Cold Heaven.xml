@@ -13,7 +13,7 @@
     </teiHeader>
     <text>
         <body>
-            <lg n="1" type="???" met="-+(6)" rhyme="ababcdcdefef">
+            <lg n="1" met="-+(6)" rhyme="ababcdcdefef">
                <l n="1" met="-+(6)" real="+---+-+-+-+-+-">
                    <seg met="-+" real="+-">Sud<sb/>den<sb/></seg>
                    <seg met="-+" real="--+">ly I saw </seg>
@@ -107,6 +107,14 @@
                     <seg met="-+" real="--">as the </seg>
                     <seg met="-+" real="++">books say, </seg>
                     <seg met="-+" real="-+(-)">and strick<sb/><rhyme label="e">en</rhyme></seg>
+                </l>
+                <l n="12" met="-+(6)" real="+--+-+-+-+-+">
+                    <seg met="-+" real="+-">By the </seg>
+                    <seg met="-+">in<sb/>jus<sb/></seg>
+                    <seg met="-+">tice of </seg>
+                    <seg met="-+">the skies </seg>
+                    <seg met="-+">for pun<sb/></seg>
+                    <seg met="-+">ish<sb/><rhyme label="f">ment?</rhyme></seg>
                 </l>
             </lg>
         </body>

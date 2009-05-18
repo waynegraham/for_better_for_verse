@@ -13,7 +13,7 @@
     </teiHeader>
     <text>
         <body>
-            <lg n="1" type="quatorzain" met="-+(5)" rhyme="abcabdecdfegfg">
+            <lg n="1" type="sonnet" met="-+(5)" rhyme="abcabdecdfegfg">
                <l n="1" met="-+(5)" real="--+--+-+-+-+">
                    <seg met="-+" real="--+">The was nev<sb/></seg>
                    <seg met="-+" real="--+">er a sound </seg>
@@ -62,7 +62,7 @@
                     <seg met="-+" real="+-">of the </seg>
                     <seg met="-+">gift of </seg>
                     <seg met="-+">i<sb/>dle </seg>
-                    <seg met="-+">hou<sb/><rhyme label="e">rs,</rhyme></seg>
+                    <seg met="-+">ho<sb/><rhyme label="e">urs,</rhyme></seg>
                 </l>
                 <l n="8" met="-+(5)" real="-+-+--+-+-+">
                     <seg met="-+">Or eas<sb/></seg>
