@@ -94,10 +94,6 @@
                                 <xsl:if test="$discrepant-flag">
                                     <xsl:attribute name="discrepant"/>
                                 </xsl:if>
-                                <!-- <xsl:if test="position()!=last() or $foot-last = $foot-position">
-                                    <xsl:attribute name="style" select="'padding-right:1em'"/>
-                                    </xsl:if> -->
-                                
                                 
                                 <xsl:copy-of select="."/>
                                 <!-- add space back -->
@@ -105,7 +101,7 @@
                                     <xsl:text> </xsl:text>
                                 </xsl:if>
                                 <xsl:if test="$sb-first">
-                                    <xsl:if test="$sb-space and (not(starts-with($sb-first, .)))">
+                                    <xsl:if test="$sb-space and not(starts-with($sb-first, .))">
                                         <xsl:text> </xsl:text>
                                     </xsl:if>
                                 </xsl:if>
@@ -152,12 +148,5 @@
     </xsl:template>
     
     <xsl:template match="caesura"/>
-    
-    <!-- <xsl:template match="node()|@*">
-        <xsl:copy>
-        <xsl:apply-templates select="@*"/>
-        <xsl:apply-templates/>
-        </xsl:copy>
-        </xsl:template> -->
     
 </xsl:stylesheet>
