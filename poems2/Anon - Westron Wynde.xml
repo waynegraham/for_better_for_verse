@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+  PUBLIC "-//TEI P5//DTD Main Document Type//EN" "http://localhost:8080/prosody/poems/tei_all.dtd">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     version="5.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Westron Wynde</title>
+         </titleStmt>
+         <publicationStmt>
+            <p/>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p/>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <lg met="(4/3/4/3)" rhyme="abcb" org="uniform" sample="complete" part="N">
+            <l n="1" part="N" met="+-+-+-+" real="-+-+-+-+">
+                    <seg met="+" real="-+" part="N">West<sb part="N"/>
+               </seg>
+                    <seg met="-+" part="N">ron wynde </seg>
+                    <seg met="-+" part="N">when wyll </seg>
+                    <seg met="-+" part="N">thow <rhyme label="a">blow</rhyme>
+               </seg>
+                </l>
+            <l n="2" part="N" met="-+++-+" real="-+++-+">
+                    <seg met="-+" part="N">the smalle </seg>
+                    <seg met="++" part="N">rayne downe </seg>
+                    <seg met="-+" part="N">can <rhyme label="b">rayne</rhyme>
+               </seg>
+                </l>
+            <l n="3" part="N" met="+--+-+-+" real="+--+-+-+">
+                    <seg met="+-" part="N">Chryst yf </seg>
+                    <seg met="-+" part="N">my love </seg>
+                    <seg met="-+" part="N">wer in </seg>
+                    <seg met="-+" part="N">my <rhyme label="c">armes</rhyme>
+               </seg>
+                </l>
+            <l n="4" part="N" met="-+--+-+" real="-+--+-+">
+                    <seg met="-+" part="N">and I </seg>
+                    <seg met="--+" part="N">yn my bed </seg>
+                    <seg met="-+" part="N">a<sb part="N"/>
+                  <rhyme label="b">gayne</rhyme>
+               </seg>
+                 </l>
+         </lg>
+      </body>
+   </text>
+</TEI>

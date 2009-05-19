@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+  PUBLIC "-//TEI P5//DTD Main Document Type//EN" "http://localhost:8080/prosody/poems/tei_all.dtd">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     version="5.0">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>The Oxen</title>
+            <author>Thomas Hardy</author>
+         </titleStmt>
+         <publicationStmt>
+            <p/>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p/>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <lg n="1" type="quatrain" met="-+(4/3/4/3)" rhyme="abab" org="uniform"
+             sample="complete"
+             part="N">
+            <l n="1" part="N" met="-+-+-+-+" real="^+-+-+--+">
+                    <seg met="-+" real="^+" part="N">Christ<sb part="N"/>
+               </seg>
+                    <seg met="-+" part="N">mas Eve, </seg>
+                    <caesura/>
+                    <seg met="-+" part="N">and twelve </seg>
+                    <seg met="-+" real="--+" part="N">of the <rhyme label="a">clock</rhyme>
+               </seg>.
+                </l>
+            <l n="2" part="N" met="-+-+-+" real="^+--+--+">
+                    "<seg met="-+" real="^+" part="N">Now </seg>
+                    <seg met="-+" real="--+" part="N">they are all </seg>
+                    <seg met="-+" real="--+" part="N">on their <rhyme label="b">knees</rhyme>,"</seg>
+                </l>
+            <l n="3" part="N" met="-+-+-+-+" real="-+-+--+--+">
+                    <seg met="-+" part="N">An el<sb part="N"/>
+               </seg>
+                    <seg met="-+" part="N">der said </seg>
+                    <seg met="-+" real="--+" part="N">as we sat </seg>
+                    <seg met="-+" real="--+" part="N">in a <rhyme label="a">flock</rhyme>
+               </seg>
+                </l>
+            <space/>
+            <l n="4" part="N" met="-+-+-+" real="--+--+-+">
+                    <seg met="-+" real="--+" part="N">By the em<sb part="N"/>
+               </seg>
+                    <seg met="-+" real="--+" part="N">bers in hearth <sb part="N"/>
+               </seg>
+                    <seg met="-+" part="N">side <rhyme label="b">ease</rhyme>.</seg>
+                </l>
+         </lg>
+         <lg n="2" type="quatrain" met="-+(4/3/4/3)" rhyme="cdcd" org="uniform"
+             sample="complete"
+             part="N">
+            <l n="5" part="N" met="-+-+-+-+" real="-+--+++-+">
+                    <seg met="-+" part="N">We pic<sb part="N"/>
+               </seg>
+                    <seg met="-+" real="--+" part="N">tured the meek </seg>
+                    <seg met="-+" real="++" part="N">mild crea<sb part="N"/>
+               </seg>
+                    <seg met="-+" part="N">tures <rhyme label="c">where</rhyme>
+               </seg>
+                </l>
+            <l n="6" part="N" met="-+-+-+" real="-+--+-+">
+                    <seg met="-+" part="N">They dwelt </seg>
+                    <seg met="-+" real="--+" part="N">in their straw <sb part="N"/>
+               </seg>
+                    <seg met="-+" part="N">y <rhyme label="d">pen</rhyme>, </seg>
+                </l>
+            <l n="7" part="N" met="-+-+-+-+" real="-+--+-+--+">
+                    <seg met="-+" part="N">Nor did </seg>
+                    <seg met="-+" real="--+" part="N">it oc<sb part="N"/>cur </seg>
+                    <seg met="-+" part="N">to one </seg>
+                    <seg met="-+" real="--+" part="N">of us <rhyme label="c">there</rhyme>
+               </seg>
+                </l>
+            <space/>
+            <l n="8" part="N" met="-+-+-+" real="-+--+-+">
+                    <seg met="-+" part="N">To doubt </seg>
+                    <seg met="-+" real="--+" part="N">they were kneel<sb part="N"/>
+               </seg>
+                    <seg met="-+" part="N">ing <rhyme label="d">then. </rhyme>
+               </seg>
+                </l>
+         </lg>
+         <lg n="3" type="quatrain" met="-+(4/3/4/3)" rhyme="efef" org="uniform"
+             sample="complete"
+             part="N">
+            <l n="9" part="N" met="-+-+-+-+" real="-+-+-+-+">
+                    <seg met="-+" part="N">So fair </seg>
+                    <seg met="-+" part="N">a fan<sb part="N"/>
+               </seg>
+                    <seg met="-+" part="N">cy few </seg>
+                    <seg met="-+" part="N">would <rhyme label="e">weave</rhyme>
+               </seg>
+                </l>
+            <l n="10" part="N" met="-+-+-+" real="-+-+-+">
+                    <seg met="-+" part="N">In these </seg>
+                    <seg met="-+" part="N">years! <caesura/> Yet, </seg>
+                    <caesura/>
+                    <seg met="-+" part="N">I <rhyme label="f">feel, </rhyme>
+               </seg>
+                </l>
+            <l n="11" part="N" met="-+-+-+-+" real="-+-+-+-+">
+                    <seg met="-+" part="N">If some<sb part="N"/>
+               </seg>
+                    <seg met="-+" part="N">one said </seg>
+                    <seg met="-+" part="N">on Christ<sb part="N"/>
+               </seg>
+                    <seg met="-+" part="N">mas <rhyme label="e">Eve</rhyme>,</seg>
+                </l>
+            <space/>
+            <l n="12" part="N" met="-+-+-+" real="+--+-+">
+                    "<seg met="-+" real="+-" part="N">Come; <caesura/> see </seg>
+                    <seg met="-+" part="N">the ox<sb part="N"/>
+               </seg>
+                    <seg met="-+" part="N">en <rhyme label="f">kneel</rhyme>
+               </seg>
+                </l>
+         </lg>
+         <lg n="4" type="quatrain" met="-+(4/3/4/3)" rhyme="ghgh" org="uniform"
+             sample="complete"
+             part="N">
+            <l n="13" part="N" met="-+-+-+-+" real="--+-+--+-+">
+                    "<seg met="-+" real="--+" part="N">In the lone<sb part="N"/>
+               </seg>
+                    <seg met="-+" part="N">ly bar<sb part="N"/>
+               </seg>
+                    <seg met="-+" real="--+" part="N">ton by yon<sb part="N"/>
+               </seg>
+                    <seg met="-+" part="N">der <rhyme label="g">coomb </rhyme>
+               </seg>
+                </l>
+            <l n="14" part="N" met="-+-+-+" real="-+-+-+">
+                    <seg met="-+" part="N">Our child<sb part="N"/>
+               </seg>
+                    <seg met="-+" part="N">hood used </seg>
+                    <seg met="-+" part="N">to <rhyme label="h">know</rhyme>,"</seg>
+                </l>
+            <l n="15" part="N" met="-+-+-+-+" real="-+-+-+-+">
+                    <seg met="-+" part="N">I should </seg>
+                    <seg met="-+" part="N">go with </seg>
+                    <seg met="-+" part="N">him in </seg>
+                    <seg met="-+" part="N">the <rhyme label="g">gloom</rhyme>,</seg>
+                </l>
+            <space/>
+            <l n="16" part="N" met="-+-+-+" real="+--+-+">
+                    <seg met="-+" real="+-" part="N">Hop<sb part="N"/>ing </seg>
+                    <seg met="-+" part="N">it might </seg>
+                    <seg met="-+" part="N">be <rhyme label="h">so</rhyme>.</seg>
+                </l>
+         </lg>
+      </body>
+   </text>
+</TEI>
