@@ -75,7 +75,10 @@
                     <!-- if the following flag gets set, this indicates that there is a discrepancy in the line which must be later
                         highlighted -->
                     <xsl:variable name="discrepant-flag" select="exists(@real) and exists(@met)"/>
+                    <!-- if the following flag gets set, this indicates that there is a sb element in the line -->
                     <xsl:variable name="sb-flag" select="exists(TEI:sb)"/>
+                    <!-- if the following flag gets set, this indicates that there is a sb element in the line and the
+                    segment ends with a space -->
                     <xsl:variable name="sb-space" select="$sb-flag and ends-with(., ' ')"/>
                     <xsl:variable name="sb-first">
                         <xsl:if test="$sb-space">
