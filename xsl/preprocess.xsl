@@ -50,15 +50,17 @@
                     <xsl:for-each select="text()|*/text()">
                         <xsl:variable name="foot-position" select="position()"/>
                         <xsl:variable name="foot-last" select="last()"/>
-                        <xsl:for-each select="tokenize(normalize-space(string(.)),' ')">
+                        <xsl:for-each select="tokenize(string(.),' ')">
+                            <xsl:if test="string-length(normalize-space(.)) > 0">
                             <span class="prosody-shadowsyllable" shadow=""
                                 id="prosody:shadow:{$line-number}:{$seg-position}:{$foot-position}:{position()}"
                                 onclick="switchstress(this);">
                                 
                                 <span class="prosody-placeholder">
-                                    <xsl:copy-of select="string(.)"/>
+                                    <xsl:copy-of select="normalize-space(.)"/>
                                 </span>
                             </span>
+                                </xsl:if>
                         </xsl:for-each>
                     </xsl:for-each>
                 </xsl:for-each>
@@ -90,15 +92,16 @@
                     <xsl:for-each select="text()|*/text()">
                         <xsl:variable name="foot-position" select="position()"/>
                         <xsl:variable name="foot-last" select="last()"/>
-                        <xsl:for-each select="tokenize(normalize-space(string(.)),' ')">
-                            <span class="prosody-syllable" real=""
+                        <xsl:for-each select="tokenize(string(.),' ')">
+                            <xsl:if test="string-length(normalize-space(.)) > 0">
+                            <span class="prosody-syllable" real=""                        
                                 id="prosody:real:{$line-number}:{$seg-position}:{$foot-position}:{position()}"
                                 onclick="switchfoot('prosody:real:{$line-number}:{$seg-position}:{$foot-position}:{position()}');">
                                 <xsl:if test="$discrepant-flag">
                                     <xsl:attribute name="discrepant"/>
                                 </xsl:if>
                                 
-                                <xsl:copy-of select="."/>
+                                <xsl:copy-of select="normalize-space(.)"/>
                                 <!-- add space back -->
                                 <xsl:if test="not(position()=last() and $sb-flag)">
                                     <xsl:text> </xsl:text>
@@ -109,6 +112,7 @@
                                     </xsl:if>
                                 </xsl:if>
                             </span>
+                            </xsl:if>
                         </xsl:for-each>
                     </xsl:for-each>
                 </xsl:for-each>
