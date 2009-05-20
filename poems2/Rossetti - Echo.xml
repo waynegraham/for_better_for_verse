@@ -1,190 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE TEI
   PUBLIC "-//TEI P5//DTD Main Document Type//EN" "http://localhost:8080/prosody/poems/tei_all.dtd">
-<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     version="5.0">
-   <teiHeader type="text">
-      <fileDesc>
-         <titleStmt>
-            <title>Echo</title>
-            <author>Christina Rossetti</author>
-         </titleStmt>
-         <publicationStmt>
-            <p/>
-         </publicationStmt>
-         <sourceDesc default="false">
-            <p/>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <text>
-      <body>
-         <lg n="1" type="stanza" met="-+(5/5/5/3/2/5)" rhyme="ababcc" org="uniform"
-             sample="complete"
-             part="N">
-            <l n="1" part="N" met="-+-+-+-+-+" real="+--+-+-+-+">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" version="5.0"><teiHeader type="text"><fileDesc><titleStmt><title>Echo</title><author>Christina Rossetti</author></titleStmt><publicationStmt><p/></publicationStmt><sourceDesc default="false"><p/></sourceDesc></fileDesc></teiHeader><text><body><lg n="1" type="stanza" met="-+(5/5/5/3/2/5)" rhyme="ababcc" org="uniform" sample="complete" part="N"><l n="1" part="N" met="-+-+-+-+-+" real="+--+-+-+-+">
                     <seg met="-+" real="+-" part="N">Come to </seg>
                     <seg met="-+" part="N">me in </seg>
-                    <seg met="-+" part="N">the si<sb part="N"/>
-               </seg>
+                    <seg met="-+" part="N">the si<sb part="N"/></seg>
                     <seg met="-+" part="N">lence of </seg>
                     <seg met="-+" part="N">the <rhyme label="a">night</rhyme>;</seg>
-                </l>
-            <space/>
-            <l n="2" part="N" met="-+-+-+-+-+" real="+--+-+-+-+">
+                </l><space/><l n="2" part="N" met="-+-+-+-+-+" real="+--+-+-+-+">
                     <seg met="-+" real="+-" part="N">Come in </seg>
-                    <seg met="-+" part="N">the speak<sb part="N"/>
-               </seg>
-                    <seg met="-+" part="N">ing si<sb part="N"/>
-               </seg>
+                    <seg met="-+" part="N">the speak<sb part="N"/></seg>
+                    <seg met="-+" part="N">ing si<sb part="N"/></seg>
                     <seg met="-+" part="N">lence of </seg>
                     <seg met="-+" part="N">a <rhyme label="b">dream</rhyme>;</seg>
-                </l>
-            <l n="3" part="N" met="-+-+-+-+-+" real="+-++-+-+-+">
+                </l><l n="3" part="N" met="-+-+-+-+-+" real="+-++-+-+-+">
                     <seg met="-+" real="+-" part="N">Come with </seg>
-                    <seg met="-+" real="++" part="N">soft round<sb part="N"/>
-               </seg>
+                    <seg met="-+" real="++" part="N">soft round<sb part="N"/></seg>
                     <seg met="-+" part="N">ed cheeks </seg>
                     <seg met="-+" part="N">and eyes </seg>
-                    <seg met="-+" part="N">as <rhyme label="a">bright</rhyme>
-               </seg>
-                </l>
-            <space/>
-            <l n="4" part="N" met="-+-+-+" real="-+-+-+">
-                    <seg met="-+" part="N">As sun<sb part="N"/>
-               </seg>
+                    <seg met="-+" part="N">as <rhyme label="a">bright</rhyme></seg>
+                </l><space/><l n="4" part="N" met="-+-+-+" real="-+-+-+">
+                    <seg met="-+" part="N">As sun<sb part="N"/></seg>
                     <seg met="-+" part="N">light on </seg>
                     <seg met="-+" part="N">a <rhyme label="b">stream</rhyme>;</seg>
-                </l>
-            <space/>
-            <space/>
-            <l n="5" part="N" met="-+-+" real="-+-+">
+                </l><space/><space/><l n="5" part="N" met="-+-+" real="-+-+">
                     <seg met="-+" part="N">Come back </seg>
                     <seg met="-+" part="N">in <rhyme label="c">tears</rhyme>,</seg>
-                </l>
-            <l n="6" part="N" met="-+-+-+-+-+" real="-+--+-+-+-+">
-                    <seg met="-+" part="N">O mem<sb part="N"/>
-               </seg>
+                </l><l n="6" part="N" met="-+-+-+-+-+" real="-+--+-+-+-+">
+                    <seg met="-+" part="N">O mem<sb part="N"/></seg>
                     <seg met="-+" real="--+" part="N">o<sb part="N"/>ry, hope </seg>
                     <seg met="-+" part="N">and love </seg>
-                    <seg met="-+" part="N">of fin<sb part="N"/>
-               </seg>
+                    <seg met="-+" part="N">of fin<sb part="N"/></seg>
                     <seg met="-+" part="N">ished <rhyme label="c">years</rhyme>.</seg>
-                </l>
-         </lg>
-         <lg n="2" type="stanza" met="-+(5/5/5/3/2/5)" rhyme="dedeff" org="uniform"
-             sample="complete"
-             part="N">
-            <l n="7" part="N" met="-+-+-+-+-+" real="-+-+++-+-+">
+                </l></lg><lg n="2" type="stanza" met="-+(5/5/5/3/2/5)" rhyme="dedeff" org="uniform" sample="complete" part="N"><l n="7" part="N" met="-+-+-+-+-+" real="-+-+++-+-+">
                     <seg met="-+" part="N">O dream </seg>
                     <seg met="-+" part="N">how sweet, </seg>
                     <caesura/>
                     <seg met="-+" real="++" part="N">too sweet, </seg>
                     <caesura/>
-                    <seg met="-+" part="N">too bit<sb part="N"/>
-               </seg>
-                    <seg met="-+" part="N">ter-<sb part="N"/>
-                  <rhyme label="d">sweet</rhyme>,</seg>
-                </l>
-            <space/>
-            <l n="8" part="N" met="-+-+-+-+-+" real="-+--+-+-+-+">
-                    <seg met="-+" part="N">Whose wak<sb part="N"/>
-               </seg>
+                    <seg met="-+" part="N">too bit<sb part="N"/></seg>
+                    <seg met="-+" part="N">ter-<sb part="N"/><rhyme label="d">sweet</rhyme>,</seg>
+                </l><space/><l n="8" part="N" met="-+-+-+-+-+" real="-+--+-+-+-+">
+                    <seg met="-+" part="N">Whose wak<sb part="N"/></seg>
                     <seg met="-+" real="--+" part="N">en<sb part="N"/>ing should </seg>
                     <seg met="-+" part="N">have been </seg>
-                    <seg met="-+" part="N">in Par<sb part="N"/>
-               </seg>
-                    <seg met="-+" part="N">a<sb part="N"/>
-                  <rhyme label="e">dise</rhyme>,</seg>
-                </l>
-            <l n="9" part="N" met="-+-+-+-+-+" real="-+++-+-+-+">
+                    <seg met="-+" part="N">in Par<sb part="N"/></seg>
+                    <seg met="-+" part="N">a<sb part="N"/><rhyme label="e">dise</rhyme>,</seg>
+                </l><l n="9" part="N" met="-+-+-+-+-+" real="-+++-+-+-+">
                     <seg met="-+" part="N">Where souls </seg>
                     <seg met="-+" real="++" part="N">brim-<sb part="N"/>full </seg>
                     <seg met="-+" part="N">of love </seg>
                     <seg met="-+" part="N">a<sb part="N"/>bide </seg>
                     <seg met="-+" part="N">and <rhyme label="d">meet</rhyme>;</seg>
-                </l>
-            <space/>
-            <l n="10" part="N" met="-+-+-+" real="-+-+-+">
-                    <seg met="-+" part="N">Where thirst<sb part="N"/>
-               </seg>
-                    <seg met="-+" part="N">ing long<sb part="N"/>
-               </seg>
-                    <seg met="-+" part="N">ing <rhyme label="e">eyes</rhyme>
-               </seg>
-                </l>
-            <space/>
-            <space/>
-            <l n="11" part="N" met="-+-+" real="+-++">
+                </l><space/><l n="10" part="N" met="-+-+-+" real="-+-+-+">
+                    <seg met="-+" part="N">Where thirst<sb part="N"/></seg>
+                    <seg met="-+" part="N">ing long<sb part="N"/></seg>
+                    <seg met="-+" part="N">ing <rhyme label="e">eyes</rhyme></seg>
+                </l><space/><space/><l n="11" part="N" met="-+-+" real="+-++">
                     <seg met="-+" real="+-" part="N">Watch the </seg>
-                    <seg met="-+" real="++" part="N">slow <rhyme label="f">door</rhyme>
-               </seg>
-                </l>
-            <l n="12" part="N" met="-+-+-+-+-+" real="-+--+-+-+++">
-                    <seg met="-+" part="N">That o<sb part="N"/>
-               </seg>
-                    <seg met="-+" real="--+" part="N">pen<sb part="N"/>ing, <caesura/> let<sb part="N"/>
-               </seg>
+                    <seg met="-+" real="++" part="N">slow <rhyme label="f">door</rhyme></seg>
+                </l><l n="12" part="N" met="-+-+-+-+-+" real="-+--+-+-+++">
+                    <seg met="-+" part="N">That o<sb part="N"/></seg>
+                    <seg met="-+" real="--+" part="N">pen<sb part="N"/>ing, <caesura/> let<sb part="N"/></seg>
                     <seg met="-+" part="N">ting in, </seg>
                     <caesura/>
                     <seg met="-+" part="N">lets out </seg>
                     <seg met="-+" real="++" part="N">no <rhyme label="f">more</rhyme>.</seg>
-                </l>
-         </lg>
-         <lg n="3" type="stanza" met="-+(5/5/5/3/2/5)" rhyme="ghghii" org="uniform"
-             sample="complete"
-             part="N">
-            <l n="13" part="N" met="-+-+-+-+-+" real="-+-+-+-+-+">
+                </l></lg><lg n="3" type="stanza" met="-+(5/5/5/3/2/5)" rhyme="ghghii" org="uniform" sample="complete" part="N"><l n="13" part="N" met="-+-+-+-+-+" real="-+-+-+-+-+">
                     <seg met="-+" part="N">Yet come </seg>
                     <seg met="-+" part="N">to me </seg>
                     <seg met="-+" part="N">in dreams, </seg>
                     <caesura/>
                     <seg met="-+" part="N">that I </seg>
-                    <seg met="-+" part="N">may <rhyme label="g">live</rhyme>
-               </seg>
-                </l>
-            <space/>
-            <l n="14" part="N" met="-+-+-+-+-+" real="-+-+-+-+-+">
-                    <seg met="-+" part="N">My ver<sb part="N"/>
-               </seg>
+                    <seg met="-+" part="N">may <rhyme label="g">live</rhyme></seg>
+                </l><space/><l n="14" part="N" met="-+-+-+-+-+" real="-+-+-+-+-+">
+                    <seg met="-+" part="N">My ver<sb part="N"/></seg>
                     <seg met="-+" part="N">y life </seg>
                     <seg met="-+" part="N">a<sb part="N"/>gain </seg>
                     <seg met="-+" part="N">though cold </seg>
                     <seg met="-+" part="N">in <rhyme label="h">death</rhyme>;</seg>
-                </l>
-            <l n="15" part="N" met="-+-+-+-+-+" real="-+-+-+-+-+">
+                </l><l n="15" part="N" met="-+-+-+-+-+" real="-+-+-+-+-+">
                     <seg met="-+" part="N">Come back </seg>
                     <seg met="-+" part="N">to me </seg>
                     <seg met="-+" part="N">in dreams, </seg>
                     <seg met="-+" part="N">that I </seg>
-                    <seg met="-+" part="N">may <rhyme label="g">give</rhyme>
-               </seg>
-                </l>
-            <space/>
-            <l n="16" part="N" met="-+-+-+" real="+-++-+">
+                    <seg met="-+" part="N">may <rhyme label="g">give</rhyme></seg>
+                </l><space/><l n="16" part="N" met="-+-+-+" real="+-++-+">
                     <seg met="-+" real="+-" part="N">Pulse for </seg>
                     <seg met="-+" real="++" part="N">pulse, <caesura/> breath </seg>
                     <seg met="-+" part="N">for <rhyme label="h">breath</rhyme>:</seg>
-                </l>
-            <space/>
-            <space/>
-            <l n="17" part="N" met="-+-+" real="++++">
+                </l><space/><space/><l n="17" part="N" met="-+-+" real="++++">
                     <seg met="-+" real="++" part="N">Speak low, </seg>
                     <caesura/>
                     <seg met="-+" real="++" part="N">lean <rhyme label="i">low</rhyme>,</seg>
-                </l>
-            <l n="18" part="N" met="-+-+-+-+-+" real="-+-+-+-+-+">
+                </l><l n="18" part="N" met="-+-+-+-+-+" real="-+-+-+-+-+">
                     <seg met="-+" part="N">As long </seg>
                     <seg met="-+" part="N">a<sb part="N"/>go, </seg>
                     <caesura/>
                     <seg met="-+" part="N">my love, </seg>
                     <caesura/>
                     <seg met="-+" part="N">how long </seg>
-                    <seg met="-+" part="N">a<sb part="N"/>
-                  <rhyme label="i">go</rhyme>.</seg>
-                </l>
-         </lg>
-      </body>
-   </text>
-</TEI>
+                    <seg met="-+" part="N">a<sb part="N"/><rhyme label="i">go</rhyme>.</seg>
+                </l></lg></body></text></TEI>
