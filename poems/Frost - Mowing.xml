@@ -1,120 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI SYSTEM "http://sds1.itc.virginia.edu:8080/prosody/poems/tei_all.dtd">
-<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Mowing</title>
-                <author>Robert Frost</author>
-            </titleStmt>
-            <publicationStmt><p/></publicationStmt>
-            <sourceDesc><p/></sourceDesc>
-        </fileDesc>
-    </teiHeader>
-    <text>
-        <body>
-            <lg n="1" type="sonnet" met="-+(5)" rhyme="abcabdecdfegfg">
-               <l n="1" met="-+(5)" real="--+--+-+-+-+">
-                   <seg met="-+" real="--+">The was nev<sb/></seg>
-                   <seg met="-+" real="--+">er a sound </seg>
-                   <seg met="-+">be<sb/>side </seg>
-                   <seg met="-+">the wood </seg>
-                   <seg met="-+">but <rhyme label="a">one,</rhyme></seg>
-               </l>
-                <l n="2" met="-+(5)" real="-+--+++--+-+">
-                    <seg met="-+">And that </seg>
-                    <seg met="-+" real="--+">was my long </seg>
-                    <seg met="-+" real="++">scythe whis<sb/></seg>
-                    <seg met="-+" real="--+">per<sb/>ing to </seg>
-                    <seg met="-+">the <rhyme label="b">ground.</rhyme></seg>
-                </l>
-                <l n="3" met="-+(5)" real="-+--+--+-+-+">
-                    <seg met="-+">What was </seg>
-                    <seg met="-+" real="--+">it it whis<sb/></seg>
-                    <seg met="-+" real="--+">pered? <caesura/> I knew </seg>
-                    <seg met="-+">not well </seg>
-                    <seg met="-+">my<sb/><rhyme label="c">self;</rhyme></seg>
-                </l>
-                <l n="4" met="-+(5)" real="-+--+--+-+--+">
-                    <seg met="-+">Per<sb/>haps </seg>
-                    <seg met="-+" real="--+">it was some<sb/></seg>
-                    <seg met="-+" real="--+">thing a<sb/>bout </seg>
-                    <seg met="-+">the heat </seg>
-                    <seg met="-+" real="--+">of the <rhyme label="a">sun,</rhyme></seg>
-                </l>
-                <l n="5" met="-+(5)" real="+--+-+-+-+">
-                    <seg met="-+" real="+-">Some<sb/>thing, </seg>
-                    <seg met="-+">per<sb/>haps, </seg>
-                    <seg met="-+">a<sb/>bout, </seg>
-                    <seg met="-+">the lack </seg>
-                    <seg met="-+">of <rhyme label="b">sound --</rhyme></seg>
-                </l>
-                <l n="6" met="-+(5)" real="-+-+--+-+-+">
-                    <seg met="-+">And that </seg>
-                    <seg met="-+">was why </seg>
-                    <seg met="-+" real="--+">it whis<sb/>pered </seg>
-                    <seg met="-+">and did </seg>
-                    <seg met="-+">not <rhyme label="d">speak.</rhyme></seg>
-                </l>
-                <l n="7" met="-+(5)" real="+--++--+-+-+">
-                    <seg met="-+" real="+-">It was </seg>
-                    <seg met="-+">no dream </seg>
-                    <seg met="-+" real="+-">of the </seg>
-                    <seg met="-+">gift of </seg>
-                    <seg met="-+">i<sb/>dle </seg>
-                    <seg met="-+">ho<sb/><rhyme label="e">urs,</rhyme></seg>
-                </l>
-                <l n="8" met="-+(5)" real="-+-+--+-+-+">
-                    <seg met="-+">Or eas<sb/></seg>
-                    <seg met="-+">y gold </seg>
-                    <seg met="-+" real="--+">at the hand </seg>
-                    <seg met="-+">of fay </seg>
-                    <seg met="-+">or <rhyme label="c">elf:</rhyme></seg>
-                </l>
-                <l n="9" met="-+(5)" real="+--+--+--+-+">
-                    <seg met="-+" real="+-">An<sb/>y<sb/></seg>
-                    <seg met="-+">thing more </seg>
-                    <seg met="-+" real="--+">than the truth </seg>
-                    <seg met="-+" real="--+">would have seemed </seg>
-                    <seg met="-+">too <rhyme label="d">weak</rhyme></seg>
-                </l>
-                <l n="10" met="-+(5)" real="--+-+-+-+-+">
-                    <seg met="-+" real="--+">To the ear<sb/></seg>
-                    <seg met="-+">nest love </seg>
-                    <seg met="-+">that laid </seg>
-                    <seg met="-+">the swale </seg>
-                    <seg met="-+">in <rhyme label="f">rows,</rhyme></seg>
-                </l>
-                <l n="11" met="-+(5)" real="+---+-+-+-+">
-                    <seg met="-+" real="+-">Not with<sb/></seg>
-                    <seg met="--+">out fee<sb/>ble </seg>
-                    <seg met="-+">point<sb/>ed </seg>
-                    <seg met="-+">spikes of </seg>
-                    <seg met="-+">flow<sb/><rhyme label="e">ers</rhyme></seg>
-                </l>
-                <l n="12" met="-+(5)" real="++---+-+++">
-                    <seg met="-+" real="++">(Pale or<sb/></seg>
-                    <seg met="-+" real="--">chis<sb/>es), </seg>
+<!DOCTYPE TEI
+  PUBLIC "-//TEI P5//DTD Main Document Type//EN" "http://localhost:8080/prosody/poems/tei_all.dtd">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" version="5.0"><teiHeader type="text"><fileDesc><titleStmt><title>Mowing</title><author>Robert Frost</author></titleStmt><publicationStmt><p/></publicationStmt><sourceDesc default="false"><p/></sourceDesc></fileDesc></teiHeader><text><body><lg n="1" type="quatorzain" met="-+(5)" rhyme="abcabdecdfegfg" org="uniform" sample="complete" part="N"><l n="1" met="-+-+-+-+-+" real="--+--+-+-+-+" part="N">
+                   <seg met="-+" real="--+" part="N">The was nev<sb part="N"/></seg>
+                   <seg met="-+" real="--+" part="N">er a sound </seg>
+                   <seg met="-+" part="N">be<sb part="N"/>side </seg>
+                   <seg met="-+" part="N">the wood </seg>
+                   <seg met="-+" part="N">but <rhyme label="a">one,</rhyme></seg>
+               </l><l n="2" met="-+-+-+-+-+" real="-+--+++--+-+" part="N">
+                    <seg met="-+" part="N">And that </seg>
+                    <seg met="-+" real="--+" part="N">was my long </seg>
+                    <seg met="-+" real="++" part="N">scythe whis<sb part="N"/></seg>
+                    <seg met="-+" real="--+" part="N">per<sb part="N"/>ing to </seg>
+                    <seg met="-+" part="N">the <rhyme label="b">ground.</rhyme></seg>
+                </l><l n="3" met="-+-+-+-+-+" real="-+--+--+-+-+" part="N">
+                    <seg met="-+" part="N">What was </seg>
+                    <seg met="-+" real="--+" part="N">it it whis<sb part="N"/></seg>
+                    <seg met="-+" real="--+" part="N">pered? <caesura/> I knew </seg>
+                    <seg met="-+" part="N">not well </seg>
+                    <seg met="-+" part="N">my<sb part="N"/><rhyme label="c">self;</rhyme></seg>
+                </l><l n="4" met="-+-+-+-+-+" real="-+--+--+-+--+" part="N">
+                    <seg met="-+" part="N">Per<sb part="N"/>haps </seg>
+                    <seg met="-+" real="--+" part="N">it was some<sb part="N"/></seg>
+                    <seg met="-+" real="--+" part="N">thing a<sb part="N"/>bout </seg>
+                    <seg met="-+" part="N">the heat </seg>
+                    <seg met="-+" real="--+" part="N">of the <rhyme label="a">sun,</rhyme></seg>
+                </l><l n="5" met="-+-+-+-+-+" real="+--+-+-+-+" part="N">
+                    <seg met="-+" real="+-" part="N">Some<sb part="N"/>thing, </seg>
+                    <seg met="-+" part="N">per<sb part="N"/>haps, </seg>
+                    <seg met="-+" part="N">a<sb part="N"/>bout, </seg>
+                    <seg met="-+" part="N">the lack </seg>
+                    <seg met="-+" part="N">of <rhyme label="b">sound --</rhyme></seg>
+                </l><l n="6" met="-+-+-+-+-+" real="-+-+--+-+-+" part="N">
+                    <seg met="-+" part="N">And that </seg>
+                    <seg met="-+" part="N">was why </seg>
+                    <seg met="-+" real="--+" part="N">it whis<sb part="N"/>pered </seg>
+                    <seg met="-+" part="N">and did </seg>
+                    <seg met="-+" part="N">not <rhyme label="d">speak.</rhyme></seg>
+                </l><l n="7" met="-+-+-+-+-+-+" real="+--++--+-+-+" part="N">
+                    <seg met="-+" real="+-" part="N">It was </seg>
+                    <seg met="-+" part="N">no dream </seg>
+                    <seg met="-+" real="+-" part="N">of the </seg>
+                    <seg met="-+" part="N">gift of </seg>
+                    <seg met="-+" part="N">i<sb part="N"/>dle </seg>
+                    <seg met="-+" part="N">hou<sb part="N"/><rhyme label="e">rs,</rhyme></seg>
+                </l><l n="8" met="-+-+-+-+-+" real="-+-+--+-+-+" part="N">
+                    <seg met="-+" part="N">Or eas<sb part="N"/></seg>
+                    <seg met="-+" part="N">y gold </seg>
+                    <seg met="-+" real="--+" part="N">at the hand </seg>
+                    <seg met="-+" part="N">of fay </seg>
+                    <seg met="-+" part="N">or <rhyme label="c">elf:</rhyme></seg>
+                </l><l n="9" met="-+-+-+-+-+" real="+--+--+--+-+" part="N">
+                    <seg met="-+" real="+-" part="N">An<sb part="N"/>y<sb part="N"/></seg>
+                    <seg met="-+" part="N">thing more </seg>
+                    <seg met="-+" real="--+" part="N">than the truth </seg>
+                    <seg met="-+" real="--+" part="N">would have seemed </seg>
+                    <seg met="-+" part="N">too <rhyme label="d">weak</rhyme></seg>
+                </l><l n="10" met="-+-+-+-+-+" real="--+-+-+-+-+" part="N">
+                    <seg met="-+" real="--+" part="N">To the ear<sb part="N"/></seg>
+                    <seg met="-+" part="N">nest love </seg>
+                    <seg met="-+" part="N">that laid </seg>
+                    <seg met="-+" part="N">the swale </seg>
+                    <seg met="-+" part="N">in <rhyme label="f">rows,</rhyme></seg>
+                </l><l n="11" met="-+--+-+-+-+" real="+---+-+-+-+" part="N">
+                    <seg met="-+" real="+-" part="N">Not with<sb part="N"/></seg>
+                    <seg met="--+" part="N">out fee<sb part="N"/>ble </seg>
+                    <seg met="-+" part="N">point<sb part="N"/>ed </seg>
+                    <seg met="-+" part="N">spikes of </seg>
+                    <seg met="-+" part="N">flow<sb part="N"/><rhyme label="e">ers</rhyme></seg>
+                </l><l n="12" met="-+-+-+-+-+" real="++---+-+++" part="N">
+                    <seg met="-+" real="++" part="N">(Pale or<sb part="N"/></seg>
+                    <seg met="-+" real="--" part="N">chis<sb part="N"/>es), </seg>
                     <caesura/>
-                    <seg met="-+">and scared </seg>
-                    <seg met="-+">a bright </seg>
-                    <seg met="-+" real="++">green <rhyme label="g">snake.</rhyme> -- </seg>
-                </l>
-                <l n="13" met="-+(5)" real="-+--+-+-+-+">
-                    <seg met="-+">The fact </seg>
-                    <seg met="-+" real="--+">is the sweet<sb/></seg>
-                    <seg met="-+">est dream </seg>
-                    <seg met="-+">that la<sb/></seg>
-                    <seg met="-+">bor <rhyme label="f">knows.</rhyme></seg>
-                </l>
-                <l n="14" met="-+(5)" real="-+++--+-+-+">
-                    <seg met="-+">My long </seg>
-                    <seg met="-+" real="++">scythe whis<sb/></seg>
-                    <seg met="-+" real="--+">pered and left</seg>
-                    <seg met="-+">the hay </seg>
-                    <seg met="-+">to <rhyme label="g">make.</rhyme></seg>
-                </l>
-            </lg>
-        </body>
-    </text>
-</TEI>
+                    <seg met="-+" part="N">and scared </seg>
+                    <seg met="-+" part="N">a bright </seg>
+                    <seg met="-+" real="++" part="N">green <rhyme label="g">snake.</rhyme> -- </seg>
+                </l><l n="13" met="-+-+-+-+-+" real="-+--+-+-+-+" part="N">
+                    <seg met="-+" part="N">The fact </seg>
+                    <seg met="-+" real="--+" part="N">is the sweet<sb part="N"/></seg>
+                    <seg met="-+" part="N">est dream </seg>
+                    <seg met="-+" part="N">that la<sb part="N"/></seg>
+                    <seg met="-+" part="N">bor <rhyme label="f">knows.</rhyme></seg>
+                </l><l n="14" met="-+-+-+-+-+" real="-+++--+-+-+" part="N">
+                    <seg met="-+" part="N">My long </seg>
+                    <seg met="-+" real="++" part="N">scythe whis<sb part="N"/></seg>
+                    <seg met="-+" real="--+" part="N">pered and left</seg>
+                    <seg met="-+" part="N">the hay </seg>
+                    <seg met="-+" part="N">to <rhyme label="g">make.</rhyme></seg>
+                </l></lg></body></text></TEI>

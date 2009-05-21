@@ -1,68 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI SYSTEM "http://sds1.itc.virginia.edu:8080/prosody/poems/tei_all.dtd">
-<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>He Wishes for the Cloths of Heaven</title>
-                <author>W.B. Yeats</author>
-            </titleStmt>
-            <publicationStmt><p/></publicationStmt>
-            <sourceDesc><p/></sourceDesc>
-        </fileDesc>
-    </teiHeader>
-    <text>
-        <body>
-            <lg n="1" type="octave" met="-+(4)" rhyme="ababcdcd">
-               <l n="1" met="-+(4)" real="-+-+--+-+">
-                   <seg met="-+">Had I </seg>
-                   <seg met="-+">the heav<sb/></seg>
-                   <seg met="-+" real="--+">ens' em<sb/>broi<sb/></seg>
-                   <seg met="-+">dered <rhyme label="a">cloths,</rhyme></seg>
-               </l>
-                <l n="2" met="-+(4)" real="-+-+--+-+">
-                    <seg met="-+">En<sb/>wrought </seg>
-                    <seg met="-+">with gold<sb/></seg>
-                    <seg met="-+" real="--+">en and sil<sb/></seg>
-                    <seg met="-+">ver <rhyme>light,</rhyme></seg>
-                </l>
-                <l n="3" met="-+(4)" real="-+--+--++">
-                    <seg met="-+">The blue </seg>
-                    <seg met="-+" real="--+">and the dim </seg>
-                    <seg met="-+" real="--">and the </seg>
-                    <seg met="-+" real="++">dark <rhyme label="a">cloths</rhyme></seg>
-                </l>
-                <l n="4" met="-+(4)" real="-+-+--++">
-                    <seg met="-+">Of night </seg>
-                    <seg met="-+">and light </seg>
-                    <seg met="-+" real="--">and the </seg>
-                    <seg met="-+" real="++">half-<sb/><rhyme label="b">light,</rhyme></seg>
-                </l>
-                <l n="5" met="-+(4)" real="--+-++--+">
-                    <seg met="-+" real="--+">I would spread </seg>
-                    <seg met="-+">the cloths </seg>
-                    <seg met="-+" real="+-">un<sb/>der </seg>
-                    <seg met="-+">your <rhyme label="c">feet:</rhyme></seg>
-                </l>
-                <l n="6" met="-+(4)" real="-+--+-+--+">
-                    <seg met="-+">But I, </seg>
-                    <seg met="-+" real="--+">be<sb/>ing poor, </seg>
-                    <seg met="-+">have on<sb/></seg>
-                    <seg met="-+" real="--+">ly my <rhyme label="d">dreams;</rhyme></seg>
-                </l>
-                <l n="7" met="-+(4)" real="--+-++--+">
-                    <seg met="-+" real="--+">I have spread </seg>
-                    <seg met="-+">my dreams </seg>
-                    <seg met="-+" real="+-">un<sb/>der </seg>
-                    <seg met="-+">your <rhyme label="c">feet;</rhyme></seg>
-                </l>
-                <l n="8" met="-+(4)" real="++--+-+--+">
-                    <seg met="-+" real="++">Tread soft<sb/></seg>
-                    <seg met="-+" real="--+">ly be<sb/>cause </seg>
-                    <seg met="-+">you tread </seg>
-                    <seg met="-+" real="--+">on my <rhyme label="d">dreams.</rhyme></seg>
-                </l>
-            </lg>
-        </body>
-    </text>
-</TEI>
+<!DOCTYPE TEI
+  PUBLIC "-//TEI P5//DTD Main Document Type//EN" "http://localhost:8080/prosody/poems/tei_all.dtd">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" version="5.0"><teiHeader type="text"><fileDesc><titleStmt><title>He Wishes for the Cloths of Heaven</title><author>W.B. Yeats</author></titleStmt><publicationStmt><p/></publicationStmt><sourceDesc default="false"><p/></sourceDesc></fileDesc></teiHeader><text><body><lg n="1" type="octave" met="-+(4)" rhyme="ababcdcd" org="uniform" sample="complete" part="N"><l n="1" met="-+-+-+-+" real="-+-+--+-+" part="N">
+                   <seg met="-+" part="N">Had I </seg>
+                   <seg met="-+" part="N">the heav<sb part="N"/></seg>
+                   <seg met="-+" real="--+" part="N">ens' em<sb part="N"/>broi<sb part="N"/></seg>
+                   <seg met="-+" part="N">dered <rhyme label="a">cloths,</rhyme></seg>
+               </l><l n="2" met="-+-+-+-+" real="-+-+--+-+" part="N">
+                    <seg met="-+" part="N">En<sb part="N"/>wrought </seg>
+                    <seg met="-+" part="N">with gold<sb part="N"/></seg>
+                    <seg met="-+" real="--+" part="N">en and sil<sb part="N"/></seg>
+                    <seg met="-+" part="N">ver <rhyme>light,</rhyme></seg>
+                </l><l n="3" met="-+-+-+-+" real="-+--+--++" part="N">
+                    <seg met="-+" part="N">The blue </seg>
+                    <seg met="-+" real="--+" part="N">and the dim </seg>
+                    <seg met="-+" real="--" part="N">and the </seg>
+                    <seg met="-+" real="++" part="N">dark <rhyme label="a">cloths</rhyme></seg>
+                </l><l n="4" met="-+-+-+-+" real="-+-+--++" part="N">
+                    <seg met="-+" part="N">Of night </seg>
+                    <seg met="-+" part="N">and light </seg>
+                    <seg met="-+" real="--" part="N">and the </seg>
+                    <seg met="-+" real="++" part="N">half-<sb part="N"/><rhyme label="b">light,</rhyme></seg>
+                </l><l n="5" met="-+-+-+-+" real="--+-++--+" part="N">
+                    <seg met="-+" real="--+" part="N">I would spread </seg>
+                    <seg met="-+" part="N">the cloths </seg>
+                    <seg met="-+" real="+-" part="N">un<sb part="N"/>der </seg>
+                    <seg met="-+" part="N">your <rhyme label="c">feet:</rhyme></seg>
+                </l><l n="6" met="-+-+-+-+" real="-+--+-+--+" part="N">
+                    <seg met="-+" part="N">But I, </seg>
+                    <seg met="-+" real="--+" part="N">be<sb part="N"/>ing poor, </seg>
+                    <seg met="-+" part="N">have on<sb part="N"/></seg>
+                    <seg met="-+" real="--+" part="N">ly my <rhyme label="d">dreams;</rhyme></seg>
+                </l><l n="7" met="-+-+-+-+" real="--+-++--+" part="N">
+                    <seg met="-+" real="--+" part="N">I have spread </seg>
+                    <seg met="-+" part="N">my dreams </seg>
+                    <seg met="-+" real="+-" part="N">un<sb part="N"/>der </seg>
+                    <seg met="-+" part="N">your <rhyme label="c">feet;</rhyme></seg>
+                </l><l n="8" met="-+-+-+-+" real="++--+-+--+" part="N">
+                    <seg met="-+" real="++" part="N">Tread soft<sb part="N"/></seg>
+                    <seg met="-+" real="--+" part="N">ly be<sb part="N"/>cause </seg>
+                    <seg met="-+" part="N">you tread </seg>
+                    <seg met="-+" real="--+" part="N">on my <rhyme label="d">dreams.</rhyme></seg>
+                </l></lg></body></text></TEI>
