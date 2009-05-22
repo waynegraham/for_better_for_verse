@@ -14,13 +14,13 @@
     <text>
         <body>
             <lg n="1" type="couplet" met="-+(4)" rhyme="aa">
-               <l n="1" met="-+(4)">
+               <l part="N" n="1" met="-+-+-+-+" real="-+-+-+-+">
                    <seg met="-+">He gazed </seg>
                    <seg met="-+">and gazed </seg>
                    <seg met="-+">and gazed </seg>
                    <seg met="-+">and <rhyme label="a">gazed,</rhyme></seg>
                </l>
-                <l n="2" met="-+(4)">
+                <l part="N" n="2" met="-+-+-+-+" real="-+-+-+-+">
                     <seg met="-+">A<sb/>mazed, </seg>
                     <seg met="-+">a<sb/>mazed, </seg>
                     <seg met="-+">a<sb/>mazed, </seg>
