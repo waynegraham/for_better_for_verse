@@ -4,7 +4,7 @@
     xmlns="http://www.w3.org/1999/xhtml" version="2.0">
     
     <xsl:output indent="yes" method="xml" omit-xml-declaration="yes"/>
-    <xsl:preserve-space elements="*"/>
+    <xsl:strip-space elements="*"/>
     
     <xsl:template match="/">
         <div id="poem">
@@ -50,15 +50,16 @@
                     <xsl:for-each select="text()|*/text()">
                         <xsl:variable name="foot-position" select="position()"/>
                         <xsl:variable name="foot-last" select="last()"/>
-                        <xsl:for-each select="tokenize(normalize-space(string(.)),' ')">
-                            <span class="prosody-shadowsyllable" shadow=""
-                                id="prosody:shadow:{$line-number}:{$seg-position}:{$foot-position}:{position()}"
-                                onclick="switchstress(this);">
-                                
-                                <span class="prosody-placeholder">
-                                    <xsl:copy-of select="string(.)"/>
+                        <xsl:for-each select="tokenize(string(.),' ')">
+                            <xsl:if test="string(.)">
+                                <span class="prosody-shadowsyllable" shadow=""
+                                    id="prosody:shadow:{$line-number}:{$seg-position}:{$foot-position}:{position()}"
+                                    onclick="switchstress(this);">
+                                    <span class="prosody-placeholder">
+                                        <xsl:copy-of select="string(.)"/>
+                                    </span>
                                 </span>
-                            </span>
+                            </xsl:if>
                         </xsl:for-each>
                     </xsl:for-each>
                 </xsl:for-each>
@@ -75,40 +76,32 @@
                     <!-- if the following flag gets set, this indicates that there is a discrepancy in the line which must be later
                         highlighted -->
                     <xsl:variable name="discrepant-flag" select="exists(@real) and exists(@met)"/>
-                    <!-- if the following flag gets set, this indicates that there is a sb element in the line -->
-                    <xsl:variable name="sb-flag" select="exists(TEI:sb)"/>
+
                     <!-- if the following flag gets set, this indicates that there is a sb element in the line and the
                     segment ends with a space -->
-                    <xsl:variable name="sb-space" select="$sb-flag and ends-with(., ' ')"/>
-                    <xsl:variable name="sb-first">
-                        <xsl:if test="$sb-space">
-                            <xsl:value-of select="normalize-space(string(.))"/>
-                        </xsl:if>
-                    </xsl:variable>
+                   
                     <xsl:variable name="seg-position" select="position()"/>
-                    <xsl:variable name="seg-last" select="last()"/>
+
                     <xsl:for-each select="text()|*/text()">
                         <xsl:variable name="foot-position" select="position()"/>
                         <xsl:variable name="foot-last" select="last()"/>
-                        <xsl:for-each select="tokenize(normalize-space(string(.)),' ')">
-                            <span class="prosody-syllable" real=""
-                                id="prosody:real:{$line-number}:{$seg-position}:{$foot-position}:{position()}"
-                                onclick="switchfoot('prosody:real:{$line-number}:{$seg-position}:{$foot-position}:{position()}');">
-                                <xsl:if test="$discrepant-flag">
-                                    <xsl:attribute name="discrepant"/>
-                                </xsl:if>
-                                
-                                <xsl:copy-of select="."/>
-                                <!-- add space back -->
-                                <xsl:if test="not(position()=last() and $sb-flag)">
-                                    <xsl:text> </xsl:text>
-                                </xsl:if>
-                                <xsl:if test="$sb-first">
-                                    <xsl:if test="$sb-space and not(starts-with($sb-first, .))">
+                        <xsl:for-each select="tokenize(.,' ')">
+                            <xsl:if test="string(.)">
+                                <span class="prosody-syllable" real=""
+                                    id="prosody:real:{$line-number}:{$seg-position}:{$foot-position}:{position()}"
+                                    onclick="switchfoot('prosody:real:{$line-number}:{$seg-position}:{$foot-position}:{position()}');">
+                                    <xsl:if test="$discrepant-flag">
+                                        <xsl:attribute name="discrepant"/>
+                                    </xsl:if>
+                                    <xsl:copy-of select="."/>
+                                    <!-- add space back -->
+                                    
+                                    <xsl:if test="not(position()=last())">
                                         <xsl:text> </xsl:text>
                                     </xsl:if>
-                                </xsl:if>
-                            </span>
+
+                                </span>
+                            </xsl:if>
                         </xsl:for-each>
                     </xsl:for-each>
                 </xsl:for-each>
