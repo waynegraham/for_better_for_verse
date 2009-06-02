@@ -124,7 +124,7 @@ function checkfeet(linenumber) {
     // first we assemble the answer from the "stress" members of the appropriate
     // line
     var answer = $("prosody:real:" + linenumber).select("span[real]").pluck(
-    "textContent").join('');
+    "innerText").join('');
     /* console.log(answer); */
     
     // now we use Prototype's Ajax Updater convenience type to update the
