@@ -1,6 +1,6 @@
 function init() {
     
-    // utility method for all elements
+    // utility methods for all elements
     Element.addMethods({
         removeAllChildren: function (element) {
             element = $(element);
@@ -10,6 +10,22 @@ function init() {
                 }
             }
             return element;
+        }
+    });
+    
+    Element.addMethods({
+        pullText: function (element) {
+	    	var t;
+	        element = $(element);
+	        if (element !== undefined && element !== null) {
+	        	if (element.innerText) {
+	        		t = element.innerText;
+	        	}
+	        	else {
+	        		t = element.textContent
+	        	}
+	        }
+	        return t;
         }
     });
     
@@ -123,8 +139,8 @@ function checkfeet(linenumber) {
     
     // first we assemble the answer from the "stress" members of the appropriate
     // line
-    var answer = $("prosody:real:" + linenumber).select("span[real]").pluck(
-    "innerText").join('');
+    var answer = $("prosody:real:" + linenumber).select("span[real]").invoke(
+    "pullText").join('');
     /* console.log(answer); */
     
     // now we use Prototype's Ajax Updater convenience type to update the
