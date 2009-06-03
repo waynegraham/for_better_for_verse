@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE TEI
-  PUBLIC "-//TEI P5//DTD Main Document Type//EN" "http://localhost:8080/prosody/poems/tei_all.dtd">
-<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" version="5.0"><teiHeader type="text"><fileDesc><titleStmt><title>He Wishes for the Cloths of Heaven</title><author>W.B. Yeats</author></titleStmt><publicationStmt><p/></publicationStmt><sourceDesc default="false"><p/></sourceDesc></fileDesc></teiHeader><text><body><lg n="1" type="octave" met="-+(4)" rhyme="ababcdcd" org="uniform" sample="complete" part="N"><l n="1" met="-+-+-+-+" real="-+-+--+-+" part="N">
+  PUBLIC "-//TEI P5//DTD Main Document Type//EN" "http://sds1.itc.virginia.edu:8080/prosody/poems/tei_all.dtd">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" version="5.0">
+        <teiHeader type="text">
+            <fileDesc>
+                <titleStmt>
+                    <title>He Wishes for the Cloths of Heaven</title>
+                    <author>W.B. Yeats</author>
+                </titleStmt>
+                <publicationStmt><p/></publicationStmt>
+                <sourceDesc default="false"><p/></sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <lg n="1" type="octave" met="-+(4/4/4/4/4/4/4/4)" rhyme="ababcdcd" org="uniform" sample="complete" part="N">
+                    <l n="1" met="-+-+-+-+" real="-+-+--+-+" part="N">
                    <seg met="-+" part="N">Had I </seg>
                    <seg met="-+" part="N">the heav<sb part="N"/></seg>
                    <seg met="-+" real="--+" part="N">ens' em<sb part="N"/>broi<sb part="N"/></seg>

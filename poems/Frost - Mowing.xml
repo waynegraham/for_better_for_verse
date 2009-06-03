@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE TEI
-  PUBLIC "-//TEI P5//DTD Main Document Type//EN" "http://localhost:8080/prosody/poems/tei_all.dtd">
-<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" version="5.0"><teiHeader type="text"><fileDesc><titleStmt><title>Mowing</title><author>Robert Frost</author></titleStmt><publicationStmt><p/></publicationStmt><sourceDesc default="false"><p/></sourceDesc></fileDesc></teiHeader><text><body><lg n="1" type="quatorzain" met="-+(5)" rhyme="abcabdecdfegfg" org="uniform" sample="complete" part="N"><l n="1" met="-+-+-+-+-+" real="--+--+-+-+-+" part="N">
+  PUBLIC "-//TEI P5//DTD Main Document Type//EN" "http://sds1.itc.virginia.edu:8080/prosody/poems/tei_all.dtd">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" version="5.0">
+        <teiHeader type="text">
+            <fileDesc>
+                <titleStmt>
+                    <title>Mowing</title>
+                    <author>Robert Frost</author>
+                </titleStmt>
+                <publicationStmt><p/></publicationStmt>
+                <sourceDesc default="false"><p/></sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <lg n="1" type="sonnet" met="-+(5/5/5/5/5/5/5/5/5/5/5/5/5/5)" rhyme="abcabdecdfegfg" org="uniform" sample="complete" part="N">
+                    <l n="1" met="-+-+-+-+-+" real="--+--+-+-+-+" part="N">
                    <seg met="-+" real="--+" part="N">The was nev<sb part="N"/></seg>
                    <seg met="-+" real="--+" part="N">er a sound </seg>
                    <seg met="-+" part="N">be<sb part="N"/>side </seg>
@@ -50,7 +64,7 @@
                     <seg met="-+" real="--+" part="N">at the hand </seg>
                     <seg met="-+" part="N">of fay </seg>
                     <seg met="-+" part="N">or <rhyme label="c">elf:</rhyme></seg>
-                </l><l n="9" met="-+-+-+-+-+" real="+--+--+--+-+" part="N">
+                </l><l n="9" met="-+-+-+-+-+" real="+--+--+--+-+|+--+--+--+++" part="N">
                     <seg met="-+" real="+-" part="N">An<sb part="N"/>y<sb part="N"/></seg>
                     <seg met="-+" part="N">thing more </seg>
                     <seg met="-+" real="--+" part="N">than the truth </seg>

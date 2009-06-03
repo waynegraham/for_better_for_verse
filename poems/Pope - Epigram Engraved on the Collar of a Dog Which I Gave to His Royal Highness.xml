@@ -13,7 +13,7 @@
     </teiHeader>
     <text>
         <body>
-            <lg n="1" type="couplet" met="-+(4)" rhyme="aa">
+            <lg n="1" type="couplet" met="-+(4/4)" rhyme="aa">
                <l n="1" met="-+-+-+-+" real="-+-+-+-+">
                    <seg met="-+">I am </seg>
                    <seg met="-+">his High<sb/></seg>
