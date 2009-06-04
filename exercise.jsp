@@ -9,8 +9,12 @@
 	<jsp:output omit-xml-declaration="false" doctype-root-element="html"
 		doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" />
 
+	
+
+
 	<c:import url="poems/${param.poem}" var="poem" />
 	<x:parse doc="${poem}" var="poemxml" />
+	
 
 	<html >
 	<head>
@@ -18,7 +22,8 @@
 		<title id="title">
 			<c:out value="${param.poem}" />
 		</title>
-		<link href="css/main.css" rel="stylesheet" title="Basic TEI style" type="text/css" />
+		
+		<link href="css/main.css" rel="stylesheet" title="Basic style" type="text/css" />
 		<link href="css/ie.css" rel="stylesheet" title="IE hacks" type="text/css" />
 		<script type="text/javascript">debugflag=false;</script>
 		<script type="text/javascript" src="http://www.prototypejs.org/assets/2009/3/27/prototype.js"><!--this--></script>
@@ -29,7 +34,16 @@
 
 	<body onload="init()">
 		<div id="main">
-			<c:import url="xsl/preprocess.xsl" var="preprocessxsl" />
+
+			<jsp:scriptlet>String ua = request.getHeader( "User-Agent" );
+			response.setHeader( "Vary", "User-Agent" );
+
+			if( ( ua.contains( "MSIE" )) ){ </jsp:scriptlet>
+				<c:import url="xsl/preprocessie.xsl" var="preprocessxsl" />
+			<jsp:scriptlet> } else { </jsp:scriptlet>
+				<c:import url="xsl/preprocess.xsl" var="preprocessxsl" />
+			<jsp:scriptlet> } </jsp:scriptlet>
+
 			<x:transform doc="${poemxml}" xslt="${preprocessxsl}" />
 		</div>
 		<div id="utils">
