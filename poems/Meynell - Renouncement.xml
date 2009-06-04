@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+  PUBLIC "-//TEI P5//DTD Main Document Type//EN" "http://sds1.itc.virginia.edu:8080/prosody/poems/tei_all.dtd">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" version="5.0">
+        <teiHeader type="text">
+            <fileDesc>
+                <titleStmt>
+                    <title>Renouncement</title>
+                    <author>Alice Meynell</author>
+                </titleStmt>
+                <publicationStmt><p/></publicationStmt>
+                <sourceDesc default="false"><p/></sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <lg n="1" type="sonnet" met="-+(5/5/5/5/5/5/5/5/5/5/5/5/5/5)" rhyme="abbaabbacdecde" org="uniform" sample="complete" part="N">
+                    <l n="1" met="-+-+-+-+-+" real="-+-+-+-+-+">
+                   <seg>I must </seg>
+                   <seg>not think </seg>
+                   <seg>of thee; </seg>
+                   <caesura/>
+                   <seg>and, tired </seg>
+                   <seg>yet <rhyme label="a">strong,</rhyme></seg>
+               </l><l n="2" met="-+-+-+-+-+" real="-+-+-+-+-+">
+                    <seg>I shun </seg>
+                    <seg>the thought </seg>
+                    <seg>that lurks </seg>
+                    <seg>in all </seg>
+                    <seg>de<sb/><rhyme label="b">light -</rhyme></seg>
+                </l><l n="3" met="-+-+-+-+-+" real="-+-+-+-++-(-)">
+                    <seg>The thought </seg>
+                    <seg>of thee - </seg>
+                    <caesura/>
+                    <seg>and in </seg>
+                    <seg>the blue </seg>
+                    <seg>heav<sb/>en's <rhyme label="b">height,</rhyme></seg>
+                </l><l n="4" met="-+-+-+-+-+" real="-+-+-+-+-+">
+                    <seg>And in </seg>
+                    <seg>the sweet<sb/></seg>
+                    <seg>est pas<sb/></seg>
+                    <seg>sage of </seg>
+                    <seg>a <rhyme label="a">song.</rhyme></seg>
+                </l><l n="5" met="-+-+-+-+-+" real="++-+-+-+-+">
+                    <seg>Oh, just </seg>
+                    <seg>be<sb/>yond </seg>
+                    <seg>the fair<sb/></seg>
+                    <seg>est thoughts </seg>
+                    <seg>that <rhyme label="a">throng</rhyme></seg>
+                </l><l n="6" met="-+-+-+-+-+" real="-+-+-+-++--+">
+                    <seg>This breast, </seg>
+                    <seg>the thought </seg>
+                    <seg>of thee </seg>
+                    <seg>a<sb/>waits, </seg>
+                    <caesura/>
+                    <seg>hid<sb/>den </seg>
+                    <seg>yet <rhyme label="b">bright; </rhyme></seg>
+                </l><l n="7" met="-+-+-+-+-+" real="-+-+-+-+-+">
+                    <seg>But it </seg>
+                    <seg>must nev<sb/></seg>
+                    <seg>er nev<sb/></seg>
+                    <seg>er come </seg>
+                    <seg>in <rhyme label="b">sight;</rhyme></seg>
+                </l><l n="8" met="-+-+-+-+-+" real="--++-+-+++">
+                    <seg>I must </seg>
+                    <seg>stop short </seg>
+                    <seg>of thee </seg>
+                    <seg>the whole </seg>
+                    <seg>day <rhyme label="a">long.</rhyme></seg>
+                </l><l n="9" met="-+-+-+-+-+" real="-+++-+++--+">
+                    <seg>But when </seg>
+                    <seg>sleep comes </seg>
+                    <seg>to close </seg>
+                    <seg>each dif<sb/></seg>
+                    <seg>fi<sb/>cult <rhyme label="c">day,</rhyme></seg>
+                </l><l n="10" met="-+-+-+-+-+" real="-+++--++-+">
+                    <seg>When night </seg>
+                    <seg>gives pause </seg>
+                    <seg>to the </seg>
+                    <seg>long watch </seg>
+                    <seg>I <rhyme label="d">keep,</rhyme></seg>
+                </l><l n="11" met="-+-+-+-+-+" real="-+-+-+-+-+">
+                    <seg>And all </seg>
+                    <seg>my bonds </seg>
+                    <seg>I needs </seg>
+                    <seg>must loose </seg>
+                    <seg>a<sb/><rhyme label="e">part,</rhyme></seg>
+                </l><l n="12" met="-+-+-+-+-+" real="-+-+-+-+-+">
+                    <seg>Must doff </seg>
+                    <seg>my will </seg>
+                    <seg>as rai<sb/></seg>
+                    <seg>ment laid </seg>
+                    <seg>a<sb/><rhyme label="c">way -</rhyme></seg>
+                </l><l n="13" met="-+-+-+-+-+" real="--++-+--++">
+                    <seg>With the </seg>
+                    <seg>first dream </seg>
+                    <seg>that comes </seg>
+                    <seg>with the </seg>
+                    <seg>first <rhyme label="d">sleep</rhyme></seg>
+                </l><l n="14" met="-+-+-+-+-+" real="-+-+--+-+-+">
+                    <seg>I run, </seg>
+                    <seg>I run, </seg>
+                    <seg>I am gath<sb/></seg>
+                    <seg>ered to </seg>
+                    <seg>thy <rhyme label="e">heart.</rhyme></seg>
+                </l></lg></body></text></TEI>
