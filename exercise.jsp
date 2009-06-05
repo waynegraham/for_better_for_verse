@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!-- <?xml version="1.0" encoding="ISO-8859-1" ?> -->
 <jsp:root xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0"
 	xmlns:prosody="http://www.prosody.org"
 	xmlns:x="http://java.sun.com/jsp/jstl/xml"
@@ -6,9 +6,10 @@
 	xmlns:TEI="http://www.tei-c.org/ns/1.0"
 	xmlns="http://www.w3.org/1999/xhtml">
 	<jsp:directive.page language="java" contentType="text/html" />
-	<jsp:output omit-xml-declaration="false" doctype-root-element="html"
-		doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" />
-
+	<!--<jsp:output omit-xml-declaration="false" doctype-root-element="html"
+		doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" />-->
+    <jsp:output omit-xml-declaration="true" doctype-root-element="html"
+		doctype-system="http://www.w3.org/TR/html4/strict.dtd" />
 	
 
 
