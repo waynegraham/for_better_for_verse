@@ -14,7 +14,7 @@
     <text>
         <body>
             <lg n="1" type="quintain" met="-+(3/4/4/2/5)" rhyme="ababa">
-               <l n="1" met="-+-+-+" real="+--+-+|--++-+">
+               <l n="1" met="-+-+-+" real="+--+-+|--++-+|-+-+-+">
                    <seg met="-+" real="+-">I have </seg>
                    <seg met="-+">been here </seg>
                    <seg met="-+">be<sb/><rhyme label="a">fore,</rhyme></seg>
