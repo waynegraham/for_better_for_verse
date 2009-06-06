@@ -26,7 +26,7 @@
 		<title id="title">
 			<c:out value="${param.poem}" />
 		</title>
-		<link href="css/reset-min.css" rel="stylesheet" title="Reset default CSS" type="text/css" />
+		<!--<link href="css/reset-min.css" rel="stylesheet" title="Reset default CSS" type="text/css" />-->
 		<link href="css/main.css" rel="stylesheet" title="Basic style" type="text/css" />
 		<link href="css/ie.css" rel="stylesheet" title="IE hacks" type="text/css" />
 		<script type="text/javascript">debugflag=false;</script>
