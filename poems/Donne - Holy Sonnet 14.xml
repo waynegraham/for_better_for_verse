@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+  PUBLIC "-//TEI P5//DTD Main Document Type//EN" "http://sds1.itc.virginia.edu:8080/prosody/poems/tei_all.dtd">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" version="5.0">
+        <teiHeader type="text">
+            <fileDesc>
+                <titleStmt>
+                    <title>Holy Sonnet 14</title>
+                    <author>John Donne</author>
+                </titleStmt>
+                <publicationStmt><p/></publicationStmt>
+                <sourceDesc default="false"><p/></sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <lg n="1" type="sonnet" met="-+(5/5/5/5/5/5/5/5/5/5/5/5/5/5)" rhyme="abbaabbacdcdee" org="uniform" sample="complete" part="N">
+                    <l n="1" met="-+-+-+-+-+" real="+--+++-+-+">
+                   <seg>Bat<sb/>ter </seg>
+                   <seg>my heart, </seg>
+                   <seg>three-<sb/>per<sb/></seg>
+                   <seg>soned God; </seg>
+                        <caesura/>
+                   <seg>for <rhyme label="a">you</rhyme></seg>
+               </l><l n="2" met="-+-+-+-+-+" real="-+-+++-+-+">
+                    <seg>As yet </seg>
+                    <seg>but knock, </seg>
+                    <seg>breathe, shine, </seg>
+                    <seg>and seek </seg>
+                    <seg>to <rhyme label="b">mend;</rhyme></seg>
+                </l><l n="3" met="-+-+-+-+-+" real="-+-+-+-+--+">
+                    <seg>That I </seg>
+                    <seg>may rise </seg>
+                    <seg>and stand, </seg>
+                    <seg>o'er<sb/>throw </seg>
+                    <seg>me and <rhyme label="b">bend</rhyme></seg>
+                </l><l n="4" met="-+-+-+-+-+" real="-+-+++-+-+">
+                    <seg>Your force </seg>
+                    <seg>to break, </seg>
+                    <seg>blow, burn, </seg>
+                    <seg>and make </seg>
+                    <seg>me <rhyme label="a">new.</rhyme></seg>
+                </l><l n="5" met="-+-+-+-+-+" real="+---++--+-+">
+                    <seg>I, like </seg>
+                    <seg>an u<sb/></seg>
+                    <seg>surped town, </seg>
+                    <seg>to an<sb/>oth<sb/></seg>
+                    <seg>er <rhyme label="a">due,</rhyme></seg>
+                </l><l n="6" met="-+-+-+-+-+" real="+---+--+-++">
+                    <seg>La<sb/>bor </seg>
+                    <seg>to ad<sb/>mit </seg>
+                    <seg>you, but </seg>
+                    <seg>O, to </seg>
+                    <seg>no <rhyme label="b">end;</rhyme></seg>
+                </l><l n="7" met="-+-+-+-+-+" real="+--+--++--+">
+                    <seg>Rea<sb/>son, </seg>
+                    <seg>your vice<sb/></seg>
+                    <seg>roy in me, </seg>
+                    <seg>me should </seg>
+                    <seg>de<sb/><rhyme label="b">fend,</rhyme></seg>
+                </l><l n="8" met="-+-+-+-+-+" real="-+-+-++--+">
+                    <seg>But is </seg>
+                    <seg>cap<sb/>tived, </seg>
+                    <seg>and proves </seg>
+                    <seg>weak or </seg>
+                    <seg>un<sb/><rhyme label="a">true.</rhyme></seg>
+                </l><l n="9" met="-+-+-+-+-+" real="-+--+--+-+-+">
+                    <seg>Yet dear<sb/></seg>
+                    <seg>ly I love </seg>
+                    <seg>you, and would </seg>
+                    <seg>be lov<sb/></seg>
+                    <seg>ed <rhyme label="c">fain,</rhyme></seg>
+                </l><l n="10" met="-+-+-+-+-+" real="-+-++--+-+">
+                    <seg>But am </seg>
+                    <seg>be<sb/>trothed </seg>
+                    <seg>un<sb/>to </seg>
+                    <seg>your en<sb/></seg>
+                    <seg>e<sb/><rhyme label="d">my.</rhyme></seg>
+                </l><l n="11" met="-+-+-+-+-+" real="-+--+-+++-+">
+                    <seg>Di<sb/>vorce </seg>
+                    <seg>me, <caesura/>un<sb/>tie </seg>
+                    <seg>or break</seg>
+                    <seg>that knot </seg>
+                    <seg>a<sb/><rhyme label="c">gain;</rhyme></seg>
+                </l><l n="12" met="-+-+-+-+-+" real="+--+-+-+-+">
+                    <seg>Take me </seg>
+                    <seg>to you, </seg>
+                    <seg>im<sb/>pris<sb/></seg>
+                    <seg>on me, </seg>
+                    <caesura/>
+                    <seg>for <rhyme label="d">I,</rhyme></seg>
+                </l><l n="13" met="-+-+-+-+-+" real="-+--+-+-+-+">
+                    <seg>Ex<sb/>cept </seg>
+                    <seg>you en<sb/>thrall </seg>
+                    <seg>me, <caesura/>nev<sb/></seg>
+                    <seg>er shall </seg>
+                    <seg>be <rhyme label="e">free,</rhyme></seg>
+                </l><l n="14" met="-+-+-+-+-+" real="-+-+-+-+-+">
+                    <seg>Nor ev<sb/></seg>
+                    <seg>er chaste, </seg>
+                    <caesura/>
+                    <seg>ex<sb/>cept </seg>
+                    <seg>you rav<sb/></seg>
+                    <seg>ish <rhyme label="e">me.</rhyme></seg>
+                </l></lg></body></text></TEI>

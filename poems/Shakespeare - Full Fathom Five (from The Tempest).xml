@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+  PUBLIC "-//TEI P5//DTD Main Document Type//EN" "http://sds1.itc.virginia.edu:8080/prosody/poems/tei_all.dtd">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" version="5.0">
+        <teiHeader type="text">
+            <fileDesc>
+                <titleStmt>
+                    <title>Full Fathom Five (from The Tempest)</title>
+                    <author>William Shakespeare</author>
+                </titleStmt>
+                <publicationStmt><p/></publicationStmt>
+                <sourceDesc default="false"><p/></sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <lg n="1" type="???" met="-+(4/4/4/4/4/4/4/1/4)" rhyme="ababccdxd" org="uniform" sample="complete" part="N">
+                    <l n="1" met="-+-+-+-+" real="++-+-+-+" part="N">
+                   <seg>Full fath<sb/></seg>
+                   <seg>om five </seg>
+                   <seg>thy fa<sb/></seg>
+                   <seg>ther <rhyme label="a">lies;</rhyme></seg>
+                    </l>
+                    <l n="2" met="-+-+-+-+" real="+-+-+-+" part="N">
+                            <seg> Of </seg>
+                            <seg>his bones </seg>
+                            <seg>are cor<sb/></seg>
+                            <seg>al <rhyme label="b">made;</rhyme></seg>
+                    </l>
+                    <l n="3" met="-+-+-+-+" real="+-+-+-+" part="N">
+                        <seg>Those </seg>
+                        <seg>are pearls </seg>
+                        <seg>that were </seg>
+                        <seg>his <rhyme label="a">eyes:</rhyme></seg>
+                    </l>
+                    <l n="4" met="-+-+-+-+" real="+-+-+-+" part="N">
+                        <seg> Noth<sb/></seg>
+                        <seg>ing of </seg>
+                        <seg>him that </seg>
+                        <seg>doth <rhyme label="b">fade,</rhyme></seg>
+                    </l>
+                    <l n="5" met="-+-+-+-+" real="+-+--++" part="N">
+                        <seg>But </seg>
+                        <seg>doth suf<sb/></seg>
+                        <seg>fer a </seg>
+                        <seg>sea <rhyme label="c">change</rhyme></seg>
+                    </l>
+                    <l n="6" met="-+-+-+-+" real="+-+-+-+" part="N">
+                        <seg>In<sb/></seg>
+                        <seg>to some<sb/></seg>
+                        <seg>thing rich </seg>
+                        <seg>and <rhyme label="c">strange.</rhyme></seg>
+                    </l>
+                    <l n="7" met="-+-+-+-+" real="+-+-+-+" part="N">
+                        <seg>Sea </seg>
+                        <seg>nymphs hour<sb/></seg>
+                        <seg>ly ring </seg>
+                        <seg>his <rhyme label="d">knell:</rhyme></seg>
+                    </l>
+                    <l n="8" met="-+" real="++" part="N">
+                        <seg> Ding-dong.</seg>
+                    </l>
+                    <l n="9" met="-+-+-+-+" real="+--+-+++" part="N">
+                        <seg>Hark! Now </seg>
+                        <seg>I hear </seg>
+                        <seg>them -- <caesura/>Ding-<sb/></seg>
+                        <seg>dong, <rhyme label="d">bell.</rhyme></seg>
+                    </l>
+                    
+                    
+                </lg></body></text></TEI>

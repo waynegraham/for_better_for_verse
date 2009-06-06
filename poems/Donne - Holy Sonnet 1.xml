@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+  PUBLIC "-//TEI P5//DTD Main Document Type//EN" "http://sds1.itc.virginia.edu:8080/prosody/poems/tei_all.dtd">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" version="5.0">
+        <teiHeader type="text">
+            <fileDesc>
+                <titleStmt>
+                    <title>Holy Sonnet 1</title>
+                    <author>John Donne</author>
+                </titleStmt>
+                <publicationStmt><p/></publicationStmt>
+                <sourceDesc default="false"><p/></sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <lg n="1" type="sonnet" met="-+(5/5/5/5/5/5/5/5/5/5/5/5/5/5)" rhyme="abbaabbacdcdee" org="uniform" sample="complete" part="N">
+                    <l n="1" met="-+-+-+-+-+" real="+-+--+-+-+">
+                   <seg>Thou hast </seg>
+                   <seg>made me, </seg>
+                        <caesura/>
+                   <seg>and shall </seg>
+                   <seg>thy work </seg>
+                   <seg>de<sb/><rhyme label="a">cay?</rhyme></seg>
+               </l><l n="2" met="-+-+-+-+-+" real="-+-+-+-+-+">
+                    <seg>Re<sb/>pair </seg>
+                    <seg>me now, </seg>
+                    <seg>for now </seg>
+                    <seg>mine end </seg>
+                    <seg>doth <rhyme label="b">haste;</rhyme></seg>
+                </l><l n="3" met="-+-+-+-+-+" real="-+-+-+++-+">
+                    <seg>I run </seg>
+                    <seg>to death, </seg>
+                    <seg>and death </seg>
+                    <seg>meets me </seg>
+                    <seg>as <rhyme label="b">fast,</rhyme></seg>
+                </l><l n="4" met="-+-+-+-+-+" real="-+-+--++-+">
+                    <seg>And all </seg>
+                    <seg>my pleas<sb/></seg>
+                    <seg>ures are </seg>
+                    <seg>like yes<sb/></seg>
+                    <seg>ter<sb/><rhyme label="a">day.</rhyme></seg>
+                </l><l n="5" met="-+-+-+-+-+" real="-+++-+++-+">
+                    <seg>I dare </seg>
+                    <seg>not move </seg>
+                    <seg>my dim </seg>
+                    <seg>eyes a<sb/></seg>
+                    <seg>ny <rhyme label="a">way,</rhyme></seg>
+                </l><l n="6" met="-+-+-+-+-+" real="-+-+-+-+-+">
+                    <seg>De<sb/>spair </seg>
+                    <seg>be<sb/>hind, </seg>
+                    <seg>and death </seg>
+                    <seg>be<sb/>fore </seg>
+                    <seg>doth <rhyme label="b">cast </rhyme></seg>
+                </l><l n="7" met="-+-+-+-+-+" real="-+-+-+-+-+">
+                    <seg>Such ter<sb/></seg>
+                    <seg>ror, <caesura/>and </seg>
+                    <seg>my fee<sb/></seg>
+                    <seg>ble flesh </seg>
+                    <seg>doth <rhyme label="b">waste</rhyme></seg>
+                </l><l n="8" met="-+-+-+-+-+" real="-+-+-+--+-+">
+                    <seg>By sin </seg>
+                    <seg>in it, </seg>
+                    <caesura/>
+                    <seg>which it </seg>
+                    <seg>to<sb/>wards hell </seg>
+                    <seg>doth <rhyme label="a">weigh.</rhyme></seg>
+                </l><l n="9" met="-+-+-+-+-+" real="+-+--+-+--+">
+                    <seg>On<sb/>ly </seg>
+                    <seg>thou art </seg>
+                    <seg>a<sb/>bove, </seg>
+                    <caesura/>
+                    <seg>and when </seg>
+                    <seg>to<sb/>wards <rhyme label="c">thee</rhyme></seg>
+                </l><l n="10" met="-+-+-+-+-+" real="-++--+-+-+">
+                    <seg>By thy </seg>
+                    <seg>leave I </seg>
+                    <seg>can look, </seg>
+                    <caesura/>
+                    <seg>I rise </seg>
+                    <seg>a<sb/><rhyme label="d">gain;</rhyme></seg>
+                </l><l n="11" met="-+-+-+-+-+" real="-+++-+-+-+">
+                    <seg>But our </seg>
+                    <seg>old sub<sb/></seg>
+                    <seg>tle foe </seg>
+                    <seg>so tempt<sb/></seg>
+                    <seg>eth <rhyme label="c">me</rhyme></seg>
+                </l><l n="12" met="-+-+-+-+-+" real="-+++-+-+-+">
+                    <seg>That not </seg>
+                    <seg>one hour </seg>
+                    <seg>my<sb/>self </seg>
+                    <seg>I can </seg>
+                    <seg>sus<sb/><rhyme label="d">tain.</rhyme></seg>
+                </l><l n="13" met="-+-+-+-+-+" real="++-+---+-+">
+                    <seg>Thy grace </seg>
+                    <seg>may wing </seg>
+                    <seg>me to </seg>
+                    <seg>pre<sb/>vent </seg>
+                    <seg>his <rhyme label="e">art,</rhyme></seg>
+                </l><l n="14" met="-+-+-+-+-+" real="-+-+--+-+-+">
+                    <seg>And thou </seg>
+                    <seg>like ad<sb/></seg>
+                    <seg>a<sb/>mant draw </seg>
+                    <seg>mine i<sb/></seg>
+                    <seg>ron <rhyme label="e">heart.</rhyme></seg>
+                </l></lg></body></text></TEI>

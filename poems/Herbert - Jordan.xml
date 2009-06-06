@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+  PUBLIC "-//TEI P5//DTD Main Document Type//EN" "http://sds1.itc.virginia.edu:8080/prosody/poems/tei_all.dtd">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" version="5.0">
+        <teiHeader type="text">
+            <fileDesc>
+                <titleStmt>
+                    <title>Jordan</title>
+                    <author>George Herbert</author>
+                </titleStmt>
+                <publicationStmt><p/></publicationStmt>
+                <sourceDesc default="false"><p/></sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <lg n="1" type="quintet" met="-+(5/5/5/5/4)" rhyme="ababa" org="uniform" sample="complete" part="N">
+                    <l n="1" met="-+-+-+-+-+" real="++-+-+--++" part="N">
+                   <seg>Who says </seg>
+                   <seg>that fic<sb/></seg>
+                   <seg>tions on<sb/></seg>
+                   <seg>ly and </seg>
+                   <seg>false <rhyme label="a">hair</rhyme></seg>
+                    </l>
+                    <l n="2" met="-+-+-+-+-+" real="-+-+-+-+-+(-)" part="N">
+                        <seg>Be<sb/>come </seg>
+                        <seg>a verse? </seg>
+                        <caesura/>
+                        <seg>Is there </seg>
+                        <seg>in truth </seg>
+                        <seg>no beau<sb/><rhyme label="b">ty?</rhyme></seg>
+                    </l>
+                    <l n="3" met="-+-+-+-+-+" real="-+++---+-+" part="N">
+                        <seg>Is all </seg>
+                        <seg>good struc<sb/></seg>
+                        <seg>ture in </seg>
+                        <seg>a wind<sb/></seg>
+                        <seg>ing <rhyme label="a">stair?</rhyme></seg>
+                    </l>
+                    <l n="4" met="-+-+-+-+-+" real="-+++-+-+-+(-)" part="N">
+                        <seg>May no </seg>
+                        <seg>lines pass, </seg>
+                        <caesura/>
+                        <seg>ex<sb/>cept </seg>
+                        <seg>they do </seg>
+                        <seg>their du<sb/><rhyme label="b">ty</rhyme></seg>
+                    </l>
+                    <l n="5" met="-+-+-+-+" real="+--+-+-+" part="N">
+                        <seg> Not to </seg>
+                        <seg>a true, </seg>
+                        <seg>but paint<sb/></seg>
+                        <seg>ed <rhyme label="a">chair?</rhyme></seg>
+                    </l>
+                    </lg>
+                <lg n="2" type="quintet" met="-+(5/5/5/5/4)" rhyme="ababa" org="uniform" sample="complete" part="N">
+                    <l n="1" met="-+-+-+-+-+" real="+--+-+-+-+" part="N">
+                        <seg>Is it </seg>
+                        <seg>no verse, </seg>
+                        <seg>ex<sb/>cept </seg>
+                        <seg>en<sb/>chant<sb/></seg>
+                        <seg>ed <rhyme label="a">groves</rhyme></seg>
+                    </l>
+                    <l n="2" met="-+-+-+-+-+" real="-+-+-+-+++" part="N">
+                        <seg>And sud<sb/></seg>
+                        <seg>den ar<sb/></seg>
+                        <seg>bors shad<sb/></seg>
+                        <seg>ow coarse-<sb/></seg>
+                        <seg>spun <rhyme label="b">lines?</rhyme></seg>
+                    </l>
+                    <l n="3" met="-+-+-+-+-+" real="-+-+-+-+-+" part="N">
+                        <seg>Must purl<sb/></seg>
+                        <seg>ing streams </seg>
+                        <seg>re<sb/>fresh </seg>
+                        <seg>a lov<sb/></seg>
+                        <seg>er's <rhyme label="a">loves?</rhyme></seg>
+                    </l>
+                    <l n="4" met="-+-+-+-+-+" real="-+-+-+-+-+" part="N">
+                        <seg>Must all </seg>
+                        <seg>be veiled, </seg>
+                        <seg>while he </seg>
+                        <seg>that reads, </seg>
+                        <seg>di<sb/><rhyme label="b">vines,</rhyme></seg>
+                    </l>
+                    <l n="5" met="-+-+-+-+" real="+--+-+-+" part="N">
+                        <seg> Catch<sb/>ing </seg>
+                        <seg>the sense </seg>
+                        <seg>at two </seg>
+                        <seg>re<sb/><rhyme label="a">moves?</rhyme></seg>
+                    </l>
+                </lg>
+                <lg n="3" type="quintet" met="-+(5/5/5/5/4)" rhyme="ababa" org="uniform" sample="complete" part="N">
+                    <l n="1" met="-+-+-+-+-+" real="+--+-+-+-+" part="N">
+                        <seg>Shep<sb/>herds </seg>
+                        <seg>are hon<sb/></seg>
+                        <seg>est peo<sb/></seg>
+                        <seg>ple; <caesura/>let </seg>
+                        <seg>them <rhyme label="a">sing:</rhyme></seg>
+                    </l>
+                    <l n="2" met="-+-+-+-+-+" real="+--+-+-+-+" part="N">
+                        <seg>Rid<sb/>dle </seg>
+                        <seg>who list, </seg>
+                        <seg>for me, </seg>
+                        <seg>and pull </seg>
+                        <seg>for <rhyme label="b">Prime;</rhyme></seg>
+                    </l>
+                    <l n="3" met="-+-+-+-+-+" real="-+-+-+-+-+" part="N">
+                        <seg>I en<sb/></seg>
+                        <seg>vy no </seg>
+                        <seg>man's night<sb/></seg>
+                        <seg>in<sb/>gale </seg>
+                        <seg>or <rhyme label="a">spring;</rhyme></seg>
+                    </l>
+                    <l n="4" met="-+-+-+-+-+" real="+--+-+-+-+" part="N">
+                        <seg>Nor let </seg>
+                        <seg>them pun<sb/></seg>
+                        <seg>ish me </seg>
+                        <seg>with loss </seg>
+                        <seg>of <rhyme label="b">rhyme,</rhyme></seg>
+                    </l>
+                    <l n="5" met="-+-+-+-+" real="-+-+-+-+" part="N">
+                        <seg> Who plain<sb/></seg>
+                        <seg>ly say, </seg>
+                        <seg>My God, </seg>
+                        <seg>My <rhyme label="a">King.</rhyme></seg>
+                    </l>
+                </lg></body></text></TEI>

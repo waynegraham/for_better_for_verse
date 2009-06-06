@@ -60,11 +60,11 @@
                         <seg>yes, as I </seg>
                         <seg>knew you <rhyme label="a">then,</rhyme></seg>
                     </l>
-                    <l n="4" met="+--+--+--+--" real="+----+--+--">
-                        <seg>E<sb/>ven to </seg>
-                        <seg>the o<sb/></seg>
-                        <seg>rig<sb/>i<sb/>nal </seg>
-                        <seg>air-<sb/>blue <rhyme label="b">gown!</rhyme></seg>
+                    <l n="4" met="+--+--+--+--" real="+--+--+++">
+                        <seg>Even to the </seg>
+                        <seg>orig<sb/>in<sb/>al </seg>
+                        <seg>air-<sb/>blue </seg>
+                        <seg><rhyme label="b">gown!</rhyme></seg>
                     </l>
                 </lg>
                 <lg n="3" type="quatrain" met="+--(4/4/4/4)" rhyme="abab" org="uniform" sample="complete" part="N">
