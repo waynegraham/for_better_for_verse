@@ -11,7 +11,7 @@
 		doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" /> -->
 	
    <jsp:output omit-xml-declaration="false" doctype-root-element="html" 
-		doctype-public="-//W3C//DTD XHTML 1.0 Transitionalreset-min.css//EN"
+		doctype-public="-//W3C//DTD XHTML 1.0 Transitional//EN"
 		doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" />
 	
 
