@@ -10,7 +10,6 @@
 	<!--<jsp:output omit-xml-declaration="false" doctype-root-element="html"
 		doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" /> -->
 	<jsp:output omit-xml-declaration="false" doctype-root-element="html"
-			
 			doctype-public="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" />
 	
    
