@@ -11,7 +11,7 @@
 		doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" /> -->
 	
    <jsp:output omit-xml-declaration="false" doctype-root-element="html" 
-		doctype-public="-//W3C//DTD XHTML 1.0 Strict//EN"
+		doctype-public="-//W3C//DTD XHTML 1.0 Transitionalreset-min.css//EN"
 		doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" />
 	
 
@@ -26,7 +26,7 @@
 		<title id="title">
 			<c:out value="${param.poem}" />
 		</title>
-		
+		<link href="css/reset-min.css" rel="stylesheet" title="Reset default CSS" type="text/css" />
 		<link href="css/main.css" rel="stylesheet" title="Basic style" type="text/css" />
 		<link href="css/ie.css" rel="stylesheet" title="IE hacks" type="text/css" />
 		<script type="text/javascript">debugflag=false;</script>
