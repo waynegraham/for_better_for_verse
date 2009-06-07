@@ -52,7 +52,7 @@
                         <xsl:variable name="foot-last" select="last()"/>
                         <xsl:for-each select="tokenize(string(.),' ')">
                             <xsl:if test="string(.)">
-                                <span class="prosody-shadowsyllable" prosody:shadow=""
+                                <span class="prosody-shadowsyllable" shadow=""
                                     id="prosody:shadow:{$line-number}:{$seg-position}:{$foot-position}:{position()}"
                                     onclick="switchstress(this);">
                                     <span class="prosody-placeholder">
@@ -87,7 +87,7 @@
                         <xsl:variable name="foot-last" select="last()"/>
                         <xsl:for-each select="tokenize(.,' ')">
                             <xsl:if test="string(.)">
-                                <span class="prosody-syllable" prosody:real=""
+                                <span class="prosody-syllable" real=""
                                     id="prosody:real:{$line-number}:{$seg-position}:{$foot-position}:{position()}"
                                     onclick="switchfoot('prosody:real:{$line-number}:{$seg-position}:{$foot-position}:{position()}');">
                                     <xsl:if test="$discrepant-flag">
@@ -110,11 +110,11 @@
             <div class="buttons">
                   <xsl:if test="TEI:note">
                     <span class="button">
-                        <button class="prosody-note-button" xml:id="displaynotebutton{$line-number}"
+                        <button class="prosody-note-button" id="displaynotebutton{$line-number}"
                             name="Note about this line" onclick="">
                             <img alt="blank" src="images/blank.gif"/>
                         </button>
-                        <p class="prosody-note" xml:id="hintfor{$line-number}">
+                        <p class="prosody-note" id="hintfor{$line-number}">
                             <span>Note on line number <xsl:value-of select="$line-number"/>:</span>
                             <xsl:copy-of select="TEI:note"/>
                         </p>
