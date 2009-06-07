@@ -112,7 +112,7 @@
                     <span class="button">
                         <button class="prosody-note-button" id="displaynotebutton{$line-number}"
                             name="Note about this line" onclick="">
-                            <img src="images/blank.gif"/>
+                            <img alt="blank" src="images/blank.gif"/>
                         </button>
                         <p class="prosody-note" id="hintfor{$line-number}">
                             <span>Note on line number <xsl:value-of select="$line-number"/>:</span>
@@ -123,19 +123,19 @@
                 <span class="button">
                     <button class="prosody-checkstress" id="checkstress{$line-number}"
                         name="Check stress" onclick="checkstress({$line-number})">
-                        <img src="images/stress-default.png"/>
+                        <img alt="stress" src="images/stress-default.png"/>
                     </button>
                 </span>
                 <span class="button">
                     <button class="prosody-checkfeet" id="checkfeet{$line-number}" name="Check feet"
                         onclick="checkfeet({$line-number})">
-                        <img src="images/feet-default.png"/>
+                        <img alt="foot" src="images/feet-default.png"/>
                     </button>
                 </span>
                 <span class="button">
                     <button class="prosody-meter" id="checkmeter{$line-number}" name="Check meter"
                         onclick="checkmeter({$line-number},{$linegroupindex})">
-                        <img src="images/meter-default.png"/>
+                        <img alt="meter" src="images/meter-default.png"/>
                     </button>
                 </span>
             </div>
