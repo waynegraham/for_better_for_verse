@@ -49,7 +49,7 @@
 
 			if( ( ua.contains( "MSIE" )) ){ </jsp:scriptlet>
 				<!-- <c:import url="xsl/preprocessie.xsl" var="preprocessxsl" /> -->
-				<c:import url="xsl/preprocessie.xsl" var="preprocessxsl" />
+				<c:import url="xsl/preprocess.xsl" var="preprocessxsl" />
 			<jsp:scriptlet> } else { </jsp:scriptlet>
 				<c:import url="xsl/preprocess.xsl" var="preprocessxsl" />
 			<jsp:scriptlet> } </jsp:scriptlet>
