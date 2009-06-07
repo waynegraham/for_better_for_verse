@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:prosody="http://staging.prosody.lib.virginia.edu" xmlns:TEI="http://www.tei-c.org/ns/1.0"
-     version="2.0" exclude-result-prefixes="xsl prosody TEI">
+     version="2.0" exclude-result-prefixes="">
     
     <xsl:output indent="yes" method="xml" omit-xml-declaration="yes"/>
     <xsl:strip-space elements="*"/>
