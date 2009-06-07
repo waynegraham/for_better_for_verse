@@ -23,7 +23,7 @@
 	<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html" />
-		<title id="title">
+		<title>
 			<c:out value="${param.poem}" />
 		</title>
 		<!--<link href="css/reset-min.css" rel="stylesheet" title="Reset default CSS" type="text/css" />-->
@@ -32,7 +32,7 @@
 		<script type="text/javascript">debugflag=false;</script>
 		<script type="text/javascript" src="http://www.prototypejs.org/assets/2009/3/27/prototype.js"><!--this--></script>
 		<script type="text/javascript" id="scriptaculous" src="scripts/effects.js"><!--this--></script>
-		<script type="text/javascript" src="scripts/handlers-min.js"><!--this--></script>
+		<script type="text/javascript" src="scripts/handlers.js"><!--this--></script>
 		
 		<link href="css/reset.css" rel="stylesheet" type="text/css" />
 		<link href="css/main.css" rel="stylesheet" title="Basic style" type="text/css" />
