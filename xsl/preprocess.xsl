@@ -52,7 +52,7 @@
                         <xsl:variable name="foot-last" select="last()"/>
                         <xsl:for-each select="tokenize(string(.),' ')">
                             <xsl:if test="string(.)">
-                                <span class="prosody-shadowsyllable" shadow=""
+                                <span class="prosody-shadowsyllable" prosody:shadow=""
                                     id="prosody:shadow:{$line-number}:{$seg-position}:{$foot-position}:{position()}"
                                     onclick="switchstress(this);">
                                     <span class="prosody-placeholder">
