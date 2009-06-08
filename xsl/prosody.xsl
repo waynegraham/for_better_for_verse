@@ -25,18 +25,18 @@
                         </title>
 
 						<script type="text/javascript">debugflag=false;</script>
-						<script src="http://www.prototypejs.org/assets/2009/3/27/prototype.js" type="text/javascript"></script>
-						<script src="scripts/effects.js" id="scriptaculous" type="text/javascript"></script><script src="scripts/handlers-min.js" type="text/javascript"></script>
+						
+					
                        
     					<script type="text/javascript" src="http://www.google.com/jsapi?key=ABQIAAAAioVG4cScdJ2Csnny8hxlzRR1_0_07KwYW_sMB1HMXTFZlmR5_RSumjipzo8fVGiOdkJSUScNnAzHxg"><xsl:text> </xsl:text></script>
                         
 						<script type="text/javascript">
-						//	google.load("prototype", "1.6.0.3");
+							google.load("prototype", "1.6.0.3");
 						//	google.load("scriptaculous", "1.8.2", {"load": ["effects"]});
 							
 						</script>
 
-				
+						<script src="scripts/effects.js" id="scriptaculous" type="text/javascript"></script><script src="scripts/handlers-min.js" type="text/javascript"></script>
                        
                         <script type="text/javascript" id="handlers" src="scripts/handlers.js"><xsl:text> </xsl:text></script> 
 
