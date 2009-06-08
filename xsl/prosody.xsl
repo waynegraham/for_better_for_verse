@@ -33,7 +33,7 @@
                         
                         <script type="text/javascript">
                               document.observe("dom:ready", function() { 
-								init();
+								
 								alert("The DOM has loaded!"); }); 
                         </script>
                         
