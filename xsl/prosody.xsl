@@ -23,13 +23,16 @@
                                     - <xsl:value-of select="/TEI:TEI/TEI:teiHeader/TEI:fileDesc/TEI:titleStmt/TEI:author"/>
                               </xsl:if>
                         </title>
-                        
-                        <script type="text/javascript">debugflag=false;</script>
+
+						<script type="text/javascript">debugflag=false;</script>
+						<script src="http://www.prototypejs.org/assets/2009/3/27/prototype.js" type="text/javascript"></script>
+						<script src="scripts/effects.js" id="scriptaculous" type="text/javascript"></script><script src="scripts/handlers-min.js" type="text/javascript"></script>
+                       
     					<script type="text/javascript" src="http://www.google.com/jsapi?key=ABQIAAAAioVG4cScdJ2Csnny8hxlzRR1_0_07KwYW_sMB1HMXTFZlmR5_RSumjipzo8fVGiOdkJSUScNnAzHxg"><xsl:text> </xsl:text></script>
                         
 						<script type="text/javascript">
-							google.load("prototype", "1.6.0.3");
-							google.load("scriptaculous", "1.8.2", {"load": ["effects"]});
+						//	google.load("prototype", "1.6.0.3");
+						//	google.load("scriptaculous", "1.8.2", {"load": ["effects"]});
 							
 						</script>
 
@@ -38,14 +41,14 @@
                         <script type="text/javascript" id="handlers" src="scripts/handlers.js"><xsl:text> </xsl:text></script> 
 
 						<script type="text/javascript">
-							google.setOnLoadCallback(init);
+							//google.setOnLoadCallback(init);
 						</script>
                         
                         <link href="css/reset.css" rel="stylesheet" type="text/css" /> 
                         <link href="css/main.css" rel="stylesheet" type="text/css" />
                         <link href="css/ie.css" rel="stylesheet" type="text/css"/> 
                   </head>
-                  <body>
+                  <body onload="init();">
                         <div id="main">
                               <div id="poem">
                                     <div id="title">
