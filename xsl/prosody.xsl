@@ -32,9 +32,9 @@
                         <script type="text/javascript" id="handlers" src="scripts/handlers.js"><xsl:text> </xsl:text></script> 
                         
                         <script type="text/javascript">
-                              document.obverve("dom:loaded", function(){
-                                    init();
-                              });
+                              document.observe("dom:ready", function() { 
+								init();
+								alert("The DOM has loaded!"); }); 
                         </script>
                         
                         
