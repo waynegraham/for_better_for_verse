@@ -25,7 +25,9 @@
                         </title>
 
 				<script type="text/javascript">debugflag=false;</script>
-                        <script src="http://www.prototypejs.org/assets/2009/3/27/prototype.js" type="text/javascript"><xsl:text> </xsl:text></script>
+                <script src="http://www.prototypejs.org/assets/2009/3/27/prototype.js" type="text/javascript">
+	//<xsl:text> </xsl:text>
+				</script>
 						
                         <script src="scripts/effects.js" id="scriptaculous" type="text/javascript"><xsl:text> </xsl:text></script>
                        
