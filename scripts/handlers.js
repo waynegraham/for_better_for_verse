@@ -165,8 +165,11 @@ function checkfeet(linenumber) {
 function checkmeter(linenumber, linegroupindex) {
 	// creates a popup window with popup menus to offer a choice of meters
 	// the user is told whether the answer is correct or not
-	var popup = window.open("meter-popup.html?line=" + linenumber + "&linegroupindex=" + linegroupindex, "Check your meter, friend!",
-			"resizable=no,scrollbars=no,status=no,width=300,height=200");
+	var win = new Window({className: "spread", title: "Ruby on Rails", top:70, left:100, width:300, height:200, url: "meter-popup.html?line=" + linenumber + "&linegroupindex=" + linegroupindex, 
+	showEffectOptions: {duration:1.5}}); 
+	win.show();
+	
+	//var popup = window.open("meter-popup.html?line=" + linenumber + "&linegroupindex=" + linegroupindex, "Check your meter, friend!", "resizable=no,scrollbars=no,status=no,width=300,height=200");
 
 }
 
@@ -298,14 +301,9 @@ function clickablehintimage() {
 function pophint(e) {
     linenumber = e.id.substring(17);
     hintp = $("hintfor" + linenumber);
-
-	var win = new Window({className: "dialog", width:350, height:400, zIndex: 100, resizable: true, title: "Sample window", showEffect:Effect.BlindDown, hideEffect: Effect.SwitchOff, draggable:true, wiredDrag: true}) 
-	win.getContent().innerHTML= "<div style='background: #222;color: #fff;font-size: 14px;'>" + importNode(hintp, true) + "</div>";
-	win.setStatusBar("Status bar info");
-	win.showCenter();
-	//pop = window.open("", "Hint for line " + linenumber,"menubar=no,scrollbars=yes,height=300,width=400");
-    //pop.document.body.setAttribute("style", "background: #222;color: #fff;font-size: 14px;");
-    //pop.document.body.appendChild(pop.document.importNode(hintp, true));
+    pop = window.open("", "Hint for line " + linenumber,"menubar=no,scrollbars=yes,height=300,width=400");
+    pop.document.body.setAttribute("style", "background: #222;color: #fff;font-size: 14px;");
+    pop.document.body.appendChild(pop.document.importNode(hintp, true));
 }
 
 function debug(s) {
