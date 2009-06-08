@@ -99,8 +99,7 @@
                                     <xsl:for-each select="tokenize(string(.),' ')">
                                           <xsl:if test="string(.)">
                                                 <span class="prosody-shadowsyllable" shadow=""
-                                                      id="prosody:shadow:{$line-number}:{$seg-position}:{$foot-position}:{position()}"
-                                                      onclick="switchstress(this);"><span class="prosody-placeholder"><xsl:copy-of select="string(.)"/></span>
+                                                     id="prosody:shadow:{$line-number}:{$seg-position}:{$foot-position}:{position()}" onclick="switchstress(this);"><span class="prosody-placeholder"><xsl:copy-of select="string(.)"/></span>
                                                 </span>
                                           </xsl:if>
                                     </xsl:for-each>
