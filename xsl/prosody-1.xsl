@@ -24,12 +24,12 @@
                 
                <script type="text/javascript">debugflag=false;</script>    
                <script type="text/javascript" src="http://wwww.prototypejs.org/assets/2009/3/27/prototype.js"><xsl:text> </xsl:text></script>
-               <script type="text/javascript" id="scriptaculous" src="http://sds1.itc.virginia.edu:8080/prosody/scripts/effects.js"><xsl:text> </xsl:text></script>
-                <script type="text/javascript" id="handlers" src="http://sds1.itc.virginia.edu:8080/prosody/scripts/handlers.js"><xsl:text> </xsl:text></script> 
+               <script type="text/javascript" id="scriptaculous" src="scripts/effects.js"><xsl:text> </xsl:text></script>
+                <script type="text/javascript" id="handlers" src="scripts/handlers.js"><xsl:text> </xsl:text></script> 
                 
-               <link href="../css/reset.css" rel="stylesheet" type="text/css" /> 
-               <link href="../css/main.css" rel="stylesheet" type="text/css" />
-               <link href="../css/ie.css" rel="stylesheet" type="text/css"/> 
+               <link href="css/reset.css" rel="stylesheet" type="text/css" /> 
+               <link href="css/main.css" rel="stylesheet" type="text/css" />
+               <link href="css/ie.css" rel="stylesheet" type="text/css"/> 
             </head>
             <body onload="init();">
                 <div id="main">
