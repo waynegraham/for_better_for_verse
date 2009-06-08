@@ -32,7 +32,9 @@
                         <script type="text/javascript" id="handlers" src="scripts/handlers.js"><xsl:text> </xsl:text></script> 
                         
                         <script type="text/javascript">
-                              Event.observe("window:load", init);
+                              Event.observe("window:load", function(){
+							init();
+});
                         </script>
                         
                         
