@@ -24,10 +24,18 @@
                               </xsl:if>
                         </title>
                         
-                        <script type="text/javascript">debugflag=false;</script>    
-                        <script type="text/javascript" src="http://wwww.prototypejs.org/assets/2009/3/27/prototype.js"><xsl:text> </xsl:text></script>
-                        <script type="text/javascript" id="scriptaculous" src="prosody/scripts/effects.js"><xsl:text> </xsl:text></script>
-                        <script type="text/javascript" id="handlers" src="prosody/scripts/handlers.js"><xsl:text> </xsl:text></script> 
+                        <script type="text/javascript">debugflag=false;</script>
+    					<script type="text/javascript" src="http://www.google.com/jsapi?key=ABQIAAAAioVG4cScdJ2Csnny8hxlzRR1_0_07KwYW_sMB1HMXTFZlmR5_RSumjipzo8fVGiOdkJSUScNnAzHxg"><xsl:text> </xsl:text></script>
+                        
+						<script type="text/javascript">
+							google.load("prototype", "1.6.0.3");
+							google.load("scriptaculous", "1.8.2", {"load", {"effects"}});
+							
+						</script>
+
+				
+                       
+                        <script type="text/javascript" id="handlers" src="scripts/handlers.js"><xsl:text> </xsl:text></script> 
                         
                         <link href="css/reset.css" rel="stylesheet" type="text/css" /> 
                         <link href="css/main.css" rel="stylesheet" type="text/css" />
