@@ -55,7 +55,7 @@
                               <button id="toggle-discrepancies" value="off" onclick="toggledifferences(this)">Toggle
                                     metrical discrepancies</button>
                         </div>
-						<script type="text/javascript">init && init();</script>
+						<script type="text/javascript">init();</script>
                   </body>
             </html>
       </xsl:template>
