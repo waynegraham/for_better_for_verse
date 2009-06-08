@@ -29,7 +29,7 @@
                         
 						<script type="text/javascript">
 							google.load("prototype", "1.6.0.3");
-							google.load("scriptaculous", "1.8.2", {"load", {"effects"}});
+							google.load("scriptaculous", "1.8.2", {"load": ["effects"]});
 							
 						</script>
 
