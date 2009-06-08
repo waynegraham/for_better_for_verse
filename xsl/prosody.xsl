@@ -33,7 +33,8 @@
                         
                         <script type="text/javascript">
                               Event.observe(window, "load", function(){
-							init();
+							alert('window loaded');
+							//init();
 });
                         </script>
                         
