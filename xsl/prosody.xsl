@@ -36,12 +36,16 @@
 				
                        
                         <script type="text/javascript" id="handlers" src="scripts/handlers.js"><xsl:text> </xsl:text></script> 
+
+						<script type="text/javascript">
+							google.setOnLoadCallback(init);
+						</script>
                         
                         <link href="css/reset.css" rel="stylesheet" type="text/css" /> 
                         <link href="css/main.css" rel="stylesheet" type="text/css" />
                         <link href="css/ie.css" rel="stylesheet" type="text/css"/> 
                   </head>
-                  <body onload="init();">
+                  <body>
                         <div id="main">
                               <div id="poem">
                                     <div id="title">
