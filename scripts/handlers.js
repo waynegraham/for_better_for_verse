@@ -298,9 +298,14 @@ function clickablehintimage() {
 function pophint(e) {
     linenumber = e.id.substring(17);
     hintp = $("hintfor" + linenumber);
-    pop = window.open("", "Hint for line " + linenumber,"menubar=no,scrollbars=yes,height=300,width=400");
-    pop.document.body.setAttribute("style", "background: #222;color: #fff;font-size: 14px;");
-    pop.document.body.appendChild(pop.document.importNode(hintp, true));
+
+	var win = new Window({className: "dialog", width:350, height:400, zIndex: 100, resizable: true, title: "Sample window", showEffect:Effect.BlindDown, hideEffect: Effect.SwitchOff, draggable:true, wiredDrag: true}) 
+	win.getContent().innerHTML= "<div style='background: #222;color: #fff;font-size: 14px;'>" + importNode(hintp, true) + "</div>";
+	win.setStatusBar("Status bar info");
+	win.showCenter();
+	//pop = window.open("", "Hint for line " + linenumber,"menubar=no,scrollbars=yes,height=300,width=400");
+    //pop.document.body.setAttribute("style", "background: #222;color: #fff;font-size: 14px;");
+    //pop.document.body.appendChild(pop.document.importNode(hintp, true));
 }
 
 function debug(s) {
