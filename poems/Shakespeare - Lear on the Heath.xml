@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+  PUBLIC "-//TEI P5//DTD Main Document Type//EN" "http://sds1.itc.virginia.edu:8080/prosody/poems/tei_all.dtd">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" version="5.0">
+        <teiHeader type="text">
+            <fileDesc>
+                <titleStmt>
+                    <title>Lear on the Heath (from King Lear III.ii.1-9) </title>
+                    <author>William Shakespeare</author>
+                </titleStmt>
+                <publicationStmt><p/></publicationStmt>
+                <sourceDesc default="false"><p/></sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <lg n="1" type="blank verse" met="-+(5/5/5/5/5/5/5/5/3)" org="uniform" sample="complete" part="N">
+                    <l n="1" met="-+-+-+-+-+" real="++-+-+++">
+                   <seg>Blow, winds, </seg>
+                   <seg>and crack </seg>
+                   <seg>your cheeks.  </seg>
+                        <caesura/>
+                   <seg>Rage, blow.</seg>
+               </l><l n="2" met="-+-+-+-+-+" real="-+-+-+-+-+">
+                    <seg>Your cat<sb/></seg>
+                    <seg>a<sb/>racts </seg>
+                    <seg>and hur<sb/></seg>
+                   <seg>ri<sb/>ca<sb/></seg>
+                    <seg>noes, <caesura/>sprout</seg>
+                </l><l n="3" met="-+-+-+-+-+" real="+--+-+-+-+">
+                    <seg>Till you </seg>
+                    <seg>have drenched </seg>
+                    <seg>our stee<sb/></seg>
+                    <seg>ples, drowned </seg>
+                    <seg>the cocks.</seg>
+                </l><l n="4" met="-+-+-+-+-+" real="-+--++-+-+(-)">
+                    <seg>You sul<sb/></seg>
+                    <seg>ph'rous and </seg>
+                    <seg>thought-<sb/>ex<sb/></seg>
+                    <seg>e<sb/>cut<sb/></seg>
+                    <seg>ing fi<sb/>res,</seg>
+                </l><l n="5" met="-+-+-+-+-+" real="++--++-+-+">
+                    <seg>Vaunt-<sb/>cou<sb/></seg>
+                    <seg>riers of </seg>
+                    <seg>oak-<sb/>cleav<sb/></seg>
+                    <seg>ing thun<sb/></seg>
+                    <seg>der<sb/>bolts,</seg>
+                </l><l n="6" met="-+-+-+-+-+" real="+-++-+++-+(-)">
+                    <seg>Singe my </seg>
+                    <seg>white head.  </seg>
+                    <caesura/>
+                    <seg>And thou, </seg>
+                    <seg>all-<sb/>shak<sb/></seg>
+                    <seg>ing thun<sb/>der,</seg>
+                </l><l n="7" met="-+-+-+-+-+" real="++-+-+--+-+">
+                    <seg>Strike flat </seg>
+                    <seg>the thick </seg>
+                    <seg>ro<sb/>tun<sb/></seg>
+                    <seg>di<sb/>ty of </seg>
+                    <seg>the world,</seg>
+                </l><l n="8" met="-+-+-+-+-+" real="++-+++-+-+">
+                    <seg>Crack Na<sb/></seg>
+                    <seg>ture's moulds, </seg>
+                    <caesura/>
+                    <seg>all ger<sb/></seg>
+                    <seg>mains spill </seg>
+                    <seg>at once,</seg>
+                </l><l n="9" met="-+-+-+" real="-+-+-+">
+                    <seg>That makes </seg>
+                    <seg>in<sb/>grate<sb/></seg>
+                    <seg>ful man. </seg>
+                </l>
+                   </lg></body></text></TEI>

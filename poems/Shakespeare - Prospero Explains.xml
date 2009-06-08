@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+  PUBLIC "-//TEI P5//DTD Main Document Type//EN" "http://sds1.itc.virginia.edu:8080/prosody/poems/tei_all.dtd">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" version="5.0">
+        <teiHeader type="text">
+            <fileDesc>
+                <titleStmt>
+                    <title>Prospero Explains (from The Tempest IV.i.148-63) </title>
+                    <author>William Shakespeare</author>
+                </titleStmt>
+                <publicationStmt><p/></publicationStmt>
+                <sourceDesc default="false"><p/></sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <lg n="1" type="blank verse" met="-+(5/5/5/5/5/5/5/5/5/5/5/5/5/5/5/3)" org="uniform" sample="complete" part="N">
+                    <l n="1" met="-+-+-+-+-+" real="-+-+-+-+-+(-)">
+                   <seg>Our rev<sb/></seg>
+                   <seg>els now </seg>
+                   <seg>are end<sb/></seg>
+                   <seg>ed.  <caesura/>These </seg>
+                        <seg>our ac<sb/>tors,</seg>
+               </l><l n="2" met="-+-+-+-+-+" real="-+-+--++-+">
+                    <seg>As I </seg>
+                    <seg>fore<sb/>told </seg>
+                    <seg>you, <caesura/>were </seg>
+                   <seg>all spir<sb/></seg>
+                    <seg>its and</seg>
+                </l><l n="3" met="-+-+-+-+-+" real="-+-+-+--++">
+                    <seg>Are melt<sb/></seg>
+                    <seg>ed in<sb/></seg>
+                    <seg>to air, </seg>
+                    <caesura/>
+                    <seg>in<sb/>to </seg>
+                    <seg>thin air;</seg>
+                </l><l n="4" met="-+-+-+-+-+" real="-+-+-+-+-+(-)">
+                    <seg>And, like </seg>
+                    <seg>the base<sb/></seg>
+                    <seg>less fab<sb/></seg>
+                    <seg>ric of </seg>
+                    <seg>this vi<sb/>sion,</seg>
+                </l><l n="5" met="-+-+-+-+-+" real="-+++-+-+-+">
+                    <seg>The cloud-<sb/></seg>
+                    <seg>capped towers, </seg>
+                    <caesura/>
+                    <seg>the gor<sb/></seg>
+                    <seg>geous pal<sb/></seg>
+                    <seg>ac<sb/>es</seg>
+                </l><l n="6" met="-+-+-+-+-+" real="-+-+--++-+">
+                    <seg>The sol<sb/></seg>
+                    <seg>emn tem<sb/></seg>
+                    <seg>ples, <caesura/>the </seg>
+                    <seg>great globe </seg>
+                    <seg>it<sb/>self,</seg>
+                </l><l n="7" met="-+-+-+-+-+" real="++-+-+---+">
+                    <seg>Yea, all </seg>
+                    <seg>which it </seg>
+                    <seg>in<sb/>her<sb/></seg>
+                    <seg>it, <caesura/>shall </seg>
+                    <seg>dis<sb/>solve,</seg>
+                </l><l n="8" met="-+-+-+-+-+" real="-+-+-+-+-+(-)">
+                    <seg>And, like </seg>
+                    <seg>this in<sb/></seg>
+                    <seg>sub<sb/>stan<sb/></seg>
+                    <seg>tial pag<sb/></seg>
+                    <seg>eant fad<sb/>ed,</seg>
+                </l><l n="9" met="-+-+-+-+-+" real="+--+-++-++">
+                    <seg>Leave not </seg>
+                    <seg>a rack </seg>
+                    <seg>be<sb/>hind.  </seg>
+                    <caesura/>
+                    <seg>We are </seg>
+                    <seg>such stuff </seg>
+                </l><l n="10" met="-+-+-+-+-+" real="-+-+-+-+-+">
+                    <seg>As dreams </seg>
+                    <seg>are made </seg>
+                    <seg>on, <caesura/>and </seg>
+                    <seg>our lit<sb/></seg>
+                    <seg>tle life </seg>
+                </l>
+                    <l n="11" met="-+-+-+-+-+" real="-+-+-++--+">
+                        <seg>Is round<sb/></seg>
+                        <seg>ed with </seg>
+                        <seg>a sleep.  </seg>
+                        <caesura/>
+                        <seg>Sir, I </seg>
+                        <seg>am vexed.</seg>
+                    </l>
+                    <l n="12" met="-+-+-+-+-+" real="+--+--++-+(-)">
+                        <seg>Bear with </seg>
+                        <seg>my weak<sb/></seg>
+                        <seg>ness: <caesura/>my </seg>
+                        <seg>old brain </seg>
+                        <seg>is trou<sb/>bled.</seg>
+                    </l>
+                    <l n="13" met="-+-+-+-+-+" real="-+-+-+-+-+">
+                        <seg>Be not </seg>
+                        <seg>dis<sb/>turbed </seg>
+                        <seg>with my </seg>
+                        <seg>in<sb/>fir<sb/></seg>
+                        <seg>mi<sb/>ty.</seg>
+                    </l>
+                    <l n="14" met="-+-+-+-+-+" real="-+-+-++--+">
+                        <seg>If you </seg>
+                        <seg>be pleased, </seg>
+                        <caesura/>
+                        <seg>re<sb/>tire </seg>
+                        <seg>in<sb/>to </seg>
+                        <seg>my cell</seg>
+                    </l>
+                    <l n="15" met="-+-+-+-+-+" real="-+-+-+-+-+">
+                        <seg>And there </seg>
+                        <seg>re<sb/>pose.  </seg>
+                        <caesura/>
+                        <seg>A turn </seg>
+                        <seg>or two </seg>
+                        <seg>I'll walk</seg>
+                    </l>
+                    <l n="16" met="-+-+-+" real="-+-+-+">
+                        <seg>To still </seg>
+                        <seg>my beat<sb/> </seg>
+                        <seg>ing mind.</seg>
+                    </l>
+                    
+                   </lg></body></text></TEI>

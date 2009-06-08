@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+  PUBLIC "-//TEI P5//DTD Main Document Type//EN" "http://sds1.itc.virginia.edu:8080/prosody/poems/tei_all.dtd">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" version="5.0">
+        <teiHeader type="text">
+            <fileDesc>
+                <titleStmt>
+                    <title>Slow, Slow, Fresh Fount</title>
+                    <author>Ben Jonson</author>
+                </titleStmt>
+                <publicationStmt><p/></publicationStmt>
+                <sourceDesc default="false"><p/></sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <lg n="1" type="???" met="-+(5/5/5/5/2/2/5/5/2/6)" rhyme="ababccddxd" org="uniform" sample="complete" part="N">
+                    <l n="1" met="-+-+-+-+-+" real="++++++--++" part="N">
+                   <seg>Slow, slow, </seg>
+                   <seg>fresh fount, </seg>
+                        <caesura/>
+                   <seg>keep time </seg>
+                        <seg>with my </seg>
+                   <seg>salt <rhyme label="a">tears;</rhyme></seg>
+                    </l>
+                    <l n="2" met="-+-+-+-+-+" real="-+-+++-+-+" part="N">
+                        <seg>Yet slow<sb/></seg>
+                        <seg>er, yet, </seg>
+                        <caesura/>
+                        <seg>O faint<sb/></seg>
+                        <seg>ly, gen<sb/></seg>
+                        <seg>tle <rhyme label="b">springs!</rhyme></seg>
+                    </l>
+                    <l n="3" met="-+-+-+-+-+" real="+--+-+-+-+" part="N">
+                        <seg>List to </seg>
+                        <seg>the heav<sb/></seg>
+                        <seg>y part </seg>
+                        <seg>the mu<sb/></seg>
+                        <seg>sic <rhyme label="a">bears,</rhyme></seg>
+                    </l>
+                    <l n="4" met="-+-+-+-+-+" real="+++--+-+-+" part="N">
+                        <seg>Woe weeps </seg>
+                        <seg>out her </seg>
+                        <seg>di<sb/>vi<sb/></seg>
+                        <seg>sion when </seg>
+                        <seg>she <rhyme label="b">sings.</rhyme></seg>
+                    </l>
+                    <l n="5" met="-+-+" real="++-+(-)" part="N">
+                        <seg> Droop herbs </seg>
+                        
+                        <seg>and flow<sb/><rhyme label="c">ers;</rhyme></seg>
+                    </l>
+                    <l n="6" met="-+-+" real="++-+(-)" part="N">
+                        <seg> Fall grief </seg>
+                        
+                        <seg>in show<sb/><rhyme label="c">ers;</rhyme></seg>
+                    </l>
+                    <l n="7" met="-+-+-+-+-+" real="-+--++(-)+--+" part="N">
+                        <seg>Our beau<sb/></seg>
+                        <seg>ties are </seg>
+                        <seg>not o<sb/>urs.  </seg>
+                        <caesura/>
+                        <seg>O, I </seg>
+                        <seg>could <rhyme label="d">still,</rhyme></seg>
+                    </l>
+                    <l n="8" met="-+-+-+-+-+" real="-+-+-+-+-+" part="N">
+                        <seg>Like melt<sb/></seg>
+                        <seg>ing snow </seg>
+                        <seg>up<sb/>on </seg>
+                        <seg>some crag<sb/></seg>
+                        <seg>gy <rhyme label="d">hill,</rhyme></seg>
+                    </l>
+                    <l n="9" met="-+-+" real="++++" part="N">
+                        <seg> Drop, drop, </seg>
+                        
+                        <seg>drop, <sb/><rhyme label="x">drop,</rhyme></seg>
+                    </l>
+                    <l n="10" met="-+-+-+-+-+-+" real="-+-+-+-+-+-+" part="N">
+                        <seg>Since na<sb/></seg>
+                        <seg>ture's pride </seg>
+                        <seg>is now </seg>
+                        <seg>a with<sb/></seg>
+                        <seg>ered daf<sb/></seg>
+                        <seg>fo<sb/><rhyme label="d">dil.</rhyme></seg>
+                    </l>
+                    
+                </lg></body></text></TEI>

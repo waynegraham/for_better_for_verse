@@ -15,7 +15,7 @@
         <text>
             <body>
                 <lg n="1" type="sonnet" met="-+(5/5/5/5/5/5/5/5/5/5/5/5/5/5)" rhyme="abbaabbacdcdee" org="uniform" sample="complete" part="N">
-                    <l n="1" met="-+-+-+-+-+" real="+-+--+-+-+">
+                    <l n="1" met="-+-+-+-+-+" real="+-+--+--++">
                    <seg>Thou hast </seg>
                    <seg>made me, </seg>
                         <caesura/>

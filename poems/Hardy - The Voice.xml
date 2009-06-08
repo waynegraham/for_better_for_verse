@@ -74,11 +74,12 @@
                         <seg>breeze, in its </seg>
                         <seg>list<sb/>lest<sb/><rhyme label="a">ness</rhyme></seg>
                     </l>
-                    <l n="2" met="+--+--+--+--" real="+--+--+--+(-)">
-                        <seg>Trav<sb/>el<sb/>ing </seg>
-                        <seg>a<sb/>cross the </seg>
-                        <seg>wet mead to </seg>
-                        <seg>me <rhyme label="b">here,</rhyme></seg>
+                    <l n="2" met="+--+--+--+--" real="+--">
+                        <seg>Trav<sb/>elling a<sb/></seg>
+                        <seg>cross the wet </seg>
+                        <seg>mead to me </seg>
+                        <seg><rhyme label="b">here,</rhyme></seg>
+                        <note>Note that "Travelling" has to be elided from 3 to 2 syllables in order to make this an honestly dactylic line.  Generally 4B4V eschews elision, but Hardy's fancy metric here leaves us no choice.</note>
                     </l>
                     <l n="3" met="+--+--+--+--" real="+--+--+--+--">
                         <seg>You be<sb/>ing </seg>
