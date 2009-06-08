@@ -32,11 +32,11 @@
                         
 						<script type="text/javascript">
 						//	google.load("prototype", "1.6.1");
-							google.load("scriptaculous", "1.8.2", {"load": ["effects"]});
+						//	google.load("scriptaculous", "1.8.2", {"load": ["effects"]});
 							
 						</script>
 
-			
+				<script src="scripts/effects.js" id="scriptaculous" type="text/javascript"></script><script src="scripts/handlers-min.js" type="text/javascript"></script>
                        
                         <script type="text/javascript" id="handlers" src="scripts/handlers.js"><xsl:text> </xsl:text></script> 
 
