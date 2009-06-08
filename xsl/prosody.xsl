@@ -24,18 +24,23 @@
                               </xsl:if>
                         </title>
 
-						<script type="text/javascript">debugflag=false;</script>
-						<script src="http://www.prototypejs.org/assets/2009/3/27/prototype.js" type="text/javascript"></script>
+				<script type="text/javascript">debugflag=false;</script>
+				<script src="http://www.prototypejs.org/assets/2009/3/27/prototype.js" type="text/javascript"></script>
 						
 				<script src="scripts/effects.js" id="scriptaculous" type="text/javascript"></script><script src="scripts/handlers-min.js" type="text/javascript"></script>
                        
                         <script type="text/javascript" id="handlers" src="scripts/handlers.js"><xsl:text> </xsl:text></script> 
-
-						
+                        
+                        <script type="text/javascript">
+                              document.obverve("dom:loaded", function(){
+                                    init();
+                              });
+                        </script>
+                        
                         
                         <link href="css/reset.css" rel="stylesheet" type="text/css" /> 
                         <link href="css/main.css" rel="stylesheet" type="text/css" />
-                        <link href="css/ie.css" rel="stylesheet" type="text/css"/> 
+                        
                   </head>
                   <body>
                         <div id="main">
@@ -55,7 +60,7 @@
                               <button id="toggle-discrepancies" value="off" onclick="toggledifferences(this)">Toggle
                                     metrical discrepancies</button>
                         </div>
-						<script type="text/javascript">init();</script>
+						
                   </body>
             </html>
       </xsl:template>
