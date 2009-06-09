@@ -84,7 +84,7 @@ function switchstress(shadowspan) {
 function checkstress(linenumber) {
     // called to submit an answer to the scansion-checking servlet, returns the
     // answer
-    debug("Entering checkstress(" + linenumber + ")");
+    //("Entering checkstress(" + linenumber + ")");
     // first we assemble the answer from the "stress" members of the appropriate
     // line
     
@@ -92,7 +92,7 @@ function checkstress(linenumber) {
     "stress").collect(function (s) {
         return s.replace(/∪/, '-');
     }).join('');
-    debug("past var answer");
+    //debug("past var answer");
     // now we check to see that this is a complete answer. if not, we alert and
     // return
     
@@ -100,7 +100,7 @@ function checkstress(linenumber) {
         alert("An answer must be complete to be submitted. Please fill in a symbol over each syllable in this line.");
         return;
     }
-    debug("past if(answer.length)");
+    //debug("past if(answer.length)");
     // now we use Prototype's Ajax Updater convenience type to update the
     // checking signal/control
     new Ajax.Updater({
@@ -269,12 +269,12 @@ function toggledifferences(e) {
 }
 
 function updatehintbutton(id) {
-    debug("Entering updatehintbutton(" + id + ")");
+    //debug("Entering updatehintbutton(" + id + ")");
     e = $("displaynotebutton" + id);
-    debug("	e = " + $("displaynotebutton" + id));
-    debug(" e.firstDescendant() = " + $(e).firstDescendant());
+   // debug("	e = " + $("displaynotebutton" + id));
+   // debug(" e.firstDescendant() = " + $(e).firstDescendant());
     if ($$("#checkstress" + id + " span[allowdis]").length > 0) {
-        debug("	Passed test.");
+        //debug("	Passed test.");
         // if the stress button has an acceptable state
         //if ($$("#checkfeet" + id + " span[allowdis]").length > 0) {
         // and the feet button as well, then change visual state
@@ -287,11 +287,11 @@ function updatehintbutton(id) {
 }
 
 function clickablehintimage() {
-    debug("Entering clickablehintimage()");
+    //debug("Entering clickablehintimage()");
     img = document.createElement("img");
     img.setAttribute('src', 'images/unclickablehint.png');
-    debug("img = ");
-    debug(img);
+   // debug("img = ");
+    //debug(img);
     return img;
 }
 
