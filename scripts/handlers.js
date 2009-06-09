@@ -165,11 +165,8 @@ function checkfeet(linenumber) {
 function checkmeter(linenumber, linegroupindex) {
 	// creates a popup window with popup menus to offer a choice of meters
 	// the user is told whether the answer is correct or not
-	var win = new Window({className: "spread", title: "Ruby on Rails", top:70, left:100, width:300, height:200, url: "meter-popup.html?line=" + linenumber + "&linegroupindex=" + linegroupindex, 
-	showEffectOptions: {duration:1.5}}); 
-	win.show();
 	
-	//var popup = window.open("meter-popup.html?line=" + linenumber + "&linegroupindex=" + linegroupindex, "Check your meter, friend!", "resizable=no,scrollbars=no,status=no,width=300,height=200");
+	var popup = window.open("meter-popup.html?line=" + linenumber + "&linegroupindex=" + linegroupindex, "meterChecker", "resizable=no,scrollbars=no,status=no,width=300,height=200");
 
 }
 
