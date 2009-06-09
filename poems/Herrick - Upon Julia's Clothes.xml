@@ -14,11 +14,11 @@
     <text>
         <body>
             <lg n="1" type="tercet" met="-+(4/4/4)" rhyme="aaa">
-                <l n="1" real="-+-+-+-+">
-                    <seg met="-+">When<sb/>as </seg>
+                <l n="1" real="+--+-+-+">
+                    <seg met="-+" real="+-">When<sb/>as </seg>
                     <seg met="-+">in silks </seg>
                     <seg met="-+">my Ju<sb/></seg>
-                    <seg met="-+">lia <rhyme label="a">goes,</rhyme></seg>
+                    <seg met="-+" real="--+">lia <rhyme label="a">goes,</rhyme></seg>
                 </l>
                 <l n="2" met="-+-+-+-+" real="++-+-+-+">
                     <seg met="-+" real="++">Then, then </seg>
