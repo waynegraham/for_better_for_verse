@@ -84,7 +84,7 @@ function switchstress(shadowspan) {
 function checkstress(linenumber) {
     // called to submit an answer to the scansion-checking servlet, returns the
     // answer
-    //("Entering checkstress(" + linenumber + ")");
+    debug("Entering checkstress(" + linenumber + ")");
     // first we assemble the answer from the "stress" members of the appropriate
     // line
     
@@ -92,7 +92,7 @@ function checkstress(linenumber) {
     "stress").collect(function (s) {
         return s.replace(/∪/, '-');
     }).join('');
-    //debug("past var answer");
+    debug("past var answer");
     // now we check to see that this is a complete answer. if not, we alert and
     // return
     
@@ -100,7 +100,7 @@ function checkstress(linenumber) {
         alert("An answer must be complete to be submitted. Please fill in a symbol over each syllable in this line.");
         return;
     }
-    //debug("past if(answer.length)");
+    debug("past if(answer.length)");
     // now we use Prototype's Ajax Updater convenience type to update the
     // checking signal/control
     new Ajax.Updater({
@@ -165,8 +165,11 @@ function checkfeet(linenumber) {
 function checkmeter(linenumber, linegroupindex) {
 	// creates a popup window with popup menus to offer a choice of meters
 	// the user is told whether the answer is correct or not
+	//var win = new Window({className: "spread", title: "Ruby on Rails", top:70, left:100, width:300, height:200, url: "meter-popup.html?line=" + linenumber + "&linegroupindex=" + linegroupindex, 
+	//showEffectOptions: {duration:1.5}}); 
+	//win.show();
 	
-	var popup = window.open("meter-popup.html?line=" + linenumber + "&linegroupindex=" + linegroupindex, "meterChecker", "resizable=no,scrollbars=no,status=no,width=300,height=200");
+	var popup = window.open("meter-popup.html?line=" + linenumber + "&linegroupindex=" + linegroupindex, "checkMeter", "resizable=no,scrollbars=no,status=no,width=300,height=200");
 
 }
 
@@ -269,12 +272,12 @@ function toggledifferences(e) {
 }
 
 function updatehintbutton(id) {
-    //debug("Entering updatehintbutton(" + id + ")");
+    debug("Entering updatehintbutton(" + id + ")");
     e = $("displaynotebutton" + id);
-   // debug("	e = " + $("displaynotebutton" + id));
-   // debug(" e.firstDescendant() = " + $(e).firstDescendant());
+    debug("	e = " + $("displaynotebutton" + id));
+    debug(" e.firstDescendant() = " + $(e).firstDescendant());
     if ($$("#checkstress" + id + " span[allowdis]").length > 0) {
-        //debug("	Passed test.");
+        debug("	Passed test.");
         // if the stress button has an acceptable state
         //if ($$("#checkfeet" + id + " span[allowdis]").length > 0) {
         // and the feet button as well, then change visual state
@@ -287,20 +290,19 @@ function updatehintbutton(id) {
 }
 
 function clickablehintimage() {
-    //debug("Entering clickablehintimage()");
+    debug("Entering clickablehintimage()");
     img = document.createElement("img");
     img.setAttribute('src', 'images/unclickablehint.png');
-   // debug("img = ");
-    //debug(img);
+    debug("img = ");
+    debug(img);
     return img;
 }
 
 function pophint(e) {
     linenumber = e.id.substring(17);
     hintp = $("hintfor" + linenumber);
-    //pop = window.open("", "Hint for line " + linenumber,"menubar=no,scrollbars=yes,height=300,width=400");
-    pop = window.open("", "linehint" + linenumber,"menubar=no,scrollbars=yes,height=300,width=400");	
-	pop.document.body.setAttribute("style", "background: #222;color: #fff;font-size: 14px;");
+    pop = window.open("", "Hint for line " + linenumber,"menubar=no,scrollbars=yes,height=300,width=400");
+    pop.document.body.setAttribute("style", "background: #222;color: #fff;font-size: 14px;");
     pop.document.body.appendChild(pop.document.importNode(hintp, true));
 }
 
