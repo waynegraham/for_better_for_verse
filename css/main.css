@@ -73,6 +73,9 @@ button.prosody-note-button {
     letter-spacing: .03em;
     }
     
+#poem .prosody-shadowline span, #poem .TEI-l span {
+	margin: 0 -2px;
+}
 #poem #title {
     margin: 10px 0 15px 0;
 }
@@ -86,7 +89,7 @@ button.prosody-note-button {
     left: 400px;
     margin-top: -20px; */
     float: right;
-    margin-top: -1.5em;  
+    margin-top: -1em;  
 }
 
 button img {
