@@ -82,6 +82,7 @@ button.prosody-note-button {
 
 #poem #title h2 {
 	padding-bottom: 10px;
+	line-height: 1em;
 }
 
 .buttons {
@@ -99,7 +100,7 @@ button img {
 button {
 	background: none;
 	border: none;
-	color: #FFFFFF;
+	color: #FFF;
 	padding: 0;
 	margin: 0;
 }

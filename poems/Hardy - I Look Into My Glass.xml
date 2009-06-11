@@ -21,7 +21,7 @@
                     <seg met="-+" part="N">as <rhyme label="b">thin!"</rhyme></seg>
                 </l></lg><lg n="2" type="quatrain" met="-+(3/3/4/3)" rhyme="cdcd" org="uniform" sample="complete" part="N"><l n="5" part="N" met="-+-+-+" real="-+-+-+">
                     <seg met="-+" part="N">For then, </seg>
-                    <seg met="-+" part="N">I, <caesura/> un<sb part="N"/></seg>
+                    <seg met="-+" part="N">I, <caesura/>un<sb part="N"/></seg>
                     <seg met="-+" part="N">dis<sb part="N"/><rhyme label="c">trest</rhyme></seg>
                 </l><space/><l n="6" part="N" met="-+-+-+" real="-+++-+">
                     <seg met="-+" part="N">By hearts </seg>

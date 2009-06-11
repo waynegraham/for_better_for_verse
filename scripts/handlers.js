@@ -301,7 +301,7 @@ function pophint(e) {
     hintp = $("hintfor" + linenumber);
     //pop = window.open("", "Hint for line " + linenumber,"menubar=no,scrollbars=yes,height=300,width=400");
 	pop=window.open("","","menubar=no,scrollbars=yes,height=300,width=400");
-    pop.document.body.setAttribute("style", "background: #222;color: #fff;font-size: 14px;");
+    pop.document.body.setAttribute("style", "background:#222;color:#fff;font-size:14px;font-family:arial;");
     pop.document.body.appendChild(pop.document.importNode(hintp, true));
 }
 
