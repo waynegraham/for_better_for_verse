@@ -58,7 +58,7 @@ function switchstress(shadowspan) {
         setTimeout(function () {
             shadowspan.removeAllChildren();
             shadowspan.appendChild(slackmarker(realsyllable));
-            realsyllable.stress = '∪';
+            realsyllable.stress = '\u222a';
         },
         150);
         new Effect.Opacity($(shadowspan), {
@@ -90,7 +90,7 @@ function checkstress(linenumber) {
     
     var answer = $("prosody:real:" + linenumber).select("span[real]").pluck(
     "stress").collect(function (s) {
-        return s.replace(/∪/, '-')
+        return s.replace(/\u222a/, '-')
     }).join('');
     debug("past var answer");
     // now we check to see that this is a complete answer. if not, we alert and
@@ -166,7 +166,7 @@ function checkmeter(linenumber, linegroupindex) {
 	// creates a popup window with popup menus to offer a choice of meters
 	// the user is told whether the answer is correct or not
 	var popup = window.open("meter-popup.html?line=" + linenumber
-			+ "&linegroupindex=" + linegroupindex, "Check your meter, friend!",
+			+ "&linegroupindex=" + linegroupindex, "",
 			"resizable=no,scrollbars=no,status=no,width=300,height=200");
 
 }
@@ -177,7 +177,7 @@ function marker(real) {
     mark.setAttribute('class', 'prosody-marker');
     if (real.innerText) {
         if (real.innerText.length > 1) {
-            spacer = " ".times(Math.floor(real.innerText.length / 2));
+            spacer = "\u00A0".times(Math.floor(real.innerText.length / 2));
             if (real.innerText.length > 3) {
             	mark.appendChild(document.createTextNode(spacer + "/" + spacer));
             } else {
@@ -188,7 +188,7 @@ function marker(real) {
         }
     } else {
         if (real.textContent.length > 3) {
-            spacer = " ".times(Math.floor(real.textContent.length / 2));
+            spacer = "\u00A0".times(Math.floor(real.textContent.length / 2));
             mark.appendChild(document.createTextNode(spacer + "/" + spacer));
         } else {
             mark.appendChild(document.createTextNode("/"));
@@ -203,21 +203,21 @@ function slackmarker(real) {
     mark.setAttribute('class', 'prosody-marker');
     if (real.innerText) {
         if (real.innerText.length > 1) {
-            spacer = " ".times(Math.floor(real.innerText.length / 2));
+            spacer = "\u00A0".times(Math.floor(real.innerText.length / 2));
             if (real.innerText.length > 3) {
-            	mark.appendChild(document.createTextNode(spacer + "∪" + spacer));
+            	mark.appendChild(document.createTextNode(spacer + "\u222a" + spacer));
             } else {
-            	mark.appendChild(document.createTextNode("∪" + spacer));
+            	mark.appendChild(document.createTextNode("\u222a" + spacer));
             }
         } else {
-            mark.appendChild(document.createTextNode("∪"));
+            mark.appendChild(document.createTextNode("\u222a"));
         }
     } else {
         if (real.textContent.length > 3) {
-            spacer = " ".times(Math.floor(real.textContent.length / 2));
-            mark.appendChild(document.createTextNode(spacer + "∪" + spacer));
+            spacer = "\u00A0".times(Math.floor(real.textContent.length / 2));
+            mark.appendChild(document.createTextNode(spacer + "\u222a" + spacer));
         } else {
-            mark.appendChild(document.createTextNode("∪"));
+            mark.appendChild(document.createTextNode("\u222a"));
         }
     }
     return mark;
@@ -236,9 +236,9 @@ function placeholder(real) {
     var mark = document.createElement("span");
     mark.setAttribute('class', 'prosody-placeholder');
     if (real.innerText) {
-        spacer = " ".times(Math.floor(real.innerText.length));
+        spacer = "\u00A0".times(Math.floor(real.innerText.length));
     } else {
-        spacer = " ".times(Math.floor(real.textContent.length));
+        spacer = "\u00A0".times(Math.floor(real.textContent.length));
     }
     mark.appendChild(document.createTextNode(spacer));
     return mark;
@@ -299,7 +299,8 @@ function clickablehintimage() {
 function pophint(e) {
     linenumber = e.id.substring(17);
     hintp = $("hintfor" + linenumber);
-    pop = window.open("", "Hint for line " + linenumber,"menubar=no,scrollbars=yes,height=300,width=400");
+    //pop = window.open("", "Hint for line " + linenumber,"menubar=no,scrollbars=yes,height=300,width=400");
+	pop=window.open("","","menubar=no,scrollbars=yes,height=300,width=400");
     pop.document.body.setAttribute("style", "background: #222;color: #fff;font-size: 14px;");
     pop.document.body.appendChild(pop.document.importNode(hintp, true));
 }
