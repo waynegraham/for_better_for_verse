@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+  PUBLIC "-//TEI P5//DTD Main Document Type//EN" "http://sds1.itc.virginia.edu:8080/prosody/poems/tei_all.dtd">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" version="5.0">
+        <teiHeader type="text">
+            <fileDesc>
+                <titleStmt>
+                    <title>Metrical Feet: Lesson for a Boy</title>
+                    <author>Samuel Taylor Coleridge</author>
+                </titleStmt>
+                <publicationStmt><p/></publicationStmt>
+                <sourceDesc default="false"><p/></sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <lg n="1" type="sestet" met="-+(4/4/4/4/4/4)" rhyme="aabbcc" org="uniform" sample="complete" part="N">
+                    <l n="1" met="-+-+-+-+" real="+-+-+-+" part="N">
+                   <seg>Tro<sb/></seg>
+                   <seg>chee trips </seg>
+                   <seg>from long </seg>
+                   <seg>to <rhyme label="a">short.</rhyme></seg>
+                    </l>
+                    <l n="2" met="-+-+-+-+" real="-+-+-+-+" part="N">
+                        <seg>From long </seg>
+                        <seg>to long </seg>
+                        <seg>in sol<sb/></seg>
+                        <seg>emn <rhyme label="a">sort</rhyme></seg>
+                    </l>
+                    <l n="3" met="-+-+-+-+" real="++-+++-+(--)" part="N">
+                        <seg>Slow Spon<sb/></seg>
+                        <seg>dee stalks; </seg>
+                        <seg>strong foot! </seg>
+                        <seg>yet ill a<sb/><rhyme label="b">ble</rhyme></seg>
+                    </l>
+                    <l n="4" met="-+-+-+-+" real="+--+--+--+--|+--+--+--+(--)" part="N">
+                        <seg>Ev<sb/>er to </seg>
+                        <seg>come up with </seg>
+                        <seg>Dac<sb/>tyl tri<sb/></seg>
+                        <seg>syl<sb/>la<sb/><rhyme label="b">ble.</rhyme></seg>
+                    </l>
+                    <l n="5" met="-+-+-+-+" real="-+-+-+-+" part="N">
+                        <seg>I<sb/>am<sb/></seg>
+                        <seg>bics march </seg>
+                        <seg>from short </seg>
+                        <seg>to <rhyme label="c">long.</rhyme></seg>
+                    </l>
+                    <l n="6" met="-+-+-+-+" real="--+--+--+--+" part="N">
+                        <seg>With a leap </seg>
+                        <seg>and a bound </seg>
+                        <seg>the swift An<sb/></seg>
+                        <seg>a<sb/>pests <rhyme label="c">throng.</rhyme></seg>
+                    </l>
+                    
+                </lg></body></text></TEI>

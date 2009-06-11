@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+  PUBLIC "-//TEI P5//DTD Main Document Type//EN" "http://sds1.itc.virginia.edu:8080/prosody/poems/tei_all.dtd">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" version="5.0">
+        <teiHeader type="text">
+            <fileDesc>
+                <titleStmt>
+                    <title>The Sick Rose</title>
+                    <author>William Blake</author>
+                </titleStmt>
+                <publicationStmt><p/></publicationStmt>
+                <sourceDesc default="false"><p/></sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <lg n="1" type="quatrain" met="--+(2/2/2/2)" rhyme="abxb" org="uniform" sample="complete" part="N">
+                    <l n="1" met="--+--+" real="-+--+" part="N">
+                   <seg>O Rose, </seg>
+                   <seg>thou art <rhyme label="a">sick!</rhyme></seg>
+                    </l>
+                    <l n="2" met="--+--+" real="--+--+" part="N">
+                        <seg>The in<sb/>vis<sb/></seg>
+                        <seg>i<sb/>ble <rhyme label="b">worm</rhyme></seg>
+                    </l>
+                    <l n="3" met="--+--+" real="-+--+" part="N">
+                        <seg>That flies </seg>
+                        <seg>in the <rhyme label="x">night</rhyme></seg>
+                    </l>
+                    <l n="4" met="--+--+" real="--+-+" part="N">
+                        <seg>In the howl<sb/></seg>
+                        <seg>ing <rhyme label="b">storm</rhyme></seg>
+                    </l>
+                    </lg>
+                <lg n="2" type="quatrain" met="--+(2/2/2/2)" rhyme="abxb" org="uniform" sample="complete" part="N">
+                    <l n="1" met="--+--+" real="-+--+" part="N">
+                        <seg>Has found </seg>
+                        <seg>out thy <rhyme label="a">bed</rhyme></seg>
+                    </l>
+                    <l n="2" met="--+--+" real="-+-+" part="N">
+                        <seg>Of crim<sb/></seg>
+                        <seg>son <rhyme label="b">joy,</rhyme></seg>
+                    </l>
+                    <l n="3" met="--+--+" real="--+--+" part="N">
+                        <seg>And his dark </seg>
+                        <seg>se<sb/>cret <rhyme label="x">love</rhyme></seg>
+                    </l>
+                    <l n="4" met="--+--+" real="--+-+" part="N">
+                        <seg>Does thy life </seg>
+                        <seg>de<sb/><rhyme label="b">stroy.</rhyme></seg>
+                    </l>
+                </lg></body></text></TEI>

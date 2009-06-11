@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+  PUBLIC "-//TEI P5//DTD Main Document Type//EN" "http://sds1.itc.virginia.edu:8080/prosody/poems/tei_all.dtd">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" version="5.0">
+        <teiHeader type="text">
+            <fileDesc>
+                <titleStmt>
+                    <title>Despaire in Praise of Suicide (Faerie Queene 1.9.39-40)</title>
+                    <author>Emily Dickinson</author>
+                </titleStmt>
+                <publicationStmt><p/></publicationStmt>
+                <sourceDesc default="false"><p/></sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <lg n="1" type="Spenserian stanza" met="-+(5/5/5/5/5/5/5/5/6)" rhyme="ababbcbcc" org="uniform" sample="complete" part="N">
+                    <l n="1" met="-+-+-+-+-+" real="-+-+-+-+-+">
+                        <seg>Who trav<sb/></seg>
+                        <seg>els by </seg>
+                        <seg>the wear<sb/></seg>
+                        <seg>ie wan<sb/></seg>
+                        <seg>dring <rhyme label="a">way,</rhyme></seg>
+                    </l>
+                    <l n="2" met="-+-+-+-+-+" real="-+-+-+-+-+">
+                        <seg> To come </seg>
+                        <seg>vn<sb/>to </seg>
+                        <seg>his wish<sb/></seg>
+                        <seg>ed home </seg>
+                        <seg>in <rhyme label="b">haste,</rhyme></seg>
+                    </l>
+                    <l n="3" met="-+-+-+-+-+" real="-+-+-+-+-+">
+                        <seg> And meetes </seg>
+                        <seg>a flood, </seg>
+                        <caesura/>
+                        <seg>that doth </seg>
+                        <seg>his pass<sb/></seg>
+                        <seg>age <rhyme label="a">stay,</rhyme></seg>
+                    </l>
+                    <l n="4" met="-+-+-+-+-+" real="-+++-+-+-+">
+                        <seg> Is not </seg>
+                        <seg>great grace </seg>
+                        <seg>to helpe </seg>
+                        <seg>him ou<sb/></seg>
+                        <seg>er <rhyme label="b">past,</rhyme></seg>
+                    </l>
+                    <l n="5" met="-+-+-+-+-+" real="-+-+-+-+++">
+                        <seg> Or free </seg>
+                        <seg>his feet, </seg>
+                        <caesura/>
+                        <seg>that in </seg>
+                        <seg>the myre </seg>
+                        <seg>sticke <rhyme label="b">fast?</rhyme></seg>
+                    </l>
+                    <l n="6" met="-+-+-+-+-+" real="++--+-+-+-+">
+                        <seg> Most en<sb/></seg>
+                        <seg>ui<sb/>ous man, </seg>
+                        <seg>that grieues </seg>
+                        <seg>at neigh<sb/></seg>
+                        <seg>bours <rhyme label="c">good,</rhyme></seg>
+                    </l>
+                    <l n="7" met="-+-+-+-+-+" real="-+-+-+-+-+">
+                        <seg> And fond, </seg>
+                        <seg>that ioy<sb/></seg>
+                        <seg>est in </seg>
+                        <seg>the woe </seg>
+                        <seg>thou <rhyme label="b">hast,</rhyme></seg>
+                    </l>
+                    <l n="8" met="-+-+-+-+-+" real="+--+-+-+-+">
+                        <seg> Why will </seg>
+                        <seg>not let </seg>
+                        <seg>him pass, </seg>
+                        <seg>that long </seg>
+                        <seg>hath <rhyme label="c">stood</rhyme></seg>
+                    </l>
+                    <l n="9" met="-+-+-+-+-+-+" real="-+-+-+-+++-+">
+                        <seg>V<sb/>pon </seg>
+                        <seg>the banke, </seg>
+                        <caesura/>
+                        <seg>yet wilt </seg>
+                        <seg>thy selfe </seg>
+                        <seg>not passe </seg>
+                        <seg>the <rhyme label="c">flood?</rhyme></seg>
+                    </l>
+                </lg>
+                <lg n="2" type="Spenserian stanza" met="-+(5/5/5/5/5/5/5/5/6)" rhyme="ababbcbcc" org="uniform" sample="complete" part="N">
+                    <l n="1" met="-+-+-+-+-+" real="-+-+-+-+-+">
+                        <seg>He there </seg>
+                        <seg>does now </seg>
+                        <seg>en<sb/>joy </seg>
+                        <seg>e<sb/>ter<sb/></seg>
+                        <seg>nall <rhyme label="a">rest </rhyme></seg>
+                    </l>
+                    <l n="2" met="-+-+-+-+-+" real="-+-+-+-+-+">
+                        <seg> And hap<sb/></seg>
+                        <seg>pie ease, </seg>
+                        <caesura/>
+                        <seg>which thou </seg>
+                        <seg>doest want </seg>
+                        <seg>and <rhyme label="b">craue,</rhyme></seg>
+                    </l>
+                    <l n="3" met="-+-+-+-+-+" real="-+-+-+-+-+">
+                        <seg> And fur<sb/></seg>
+                        <seg>ther from </seg>
+                        <seg>it dai<sb/></seg>
+                        <seg>ly wan<sb/></seg>
+                        <seg>der<sb/><rhyme label="a">est:</rhyme></seg>
+                    </l>
+                    <l n="4" met="-+-+-+-+-+" real="-+-+-+-+-+">
+                        <seg> What if </seg>
+                        <seg>some lit<sb/></seg>
+                        <seg>tle paine </seg>
+                        <seg>the pas<sb/></seg>
+                        <seg>sage <rhyme label="b">haue,</rhyme></seg>
+                    </l>
+                    <l n="5" met="-+-+-+-+-+" real="-+++-+-+-+">
+                        <seg> That makes </seg>
+                        <seg>fraile flesh </seg>
+                        <seg>to feare </seg>
+                        <seg>the bit<sb/></seg>
+                        <seg>ter <rhyme label="b">waue?</rhyme></seg>
+                    </l>
+                    <l n="6" met="-+-+-+-+-+" real="--++++-+++">
+                        <seg> Is not </seg>
+                        <seg>short paine </seg>
+                        <seg>well borne, </seg>
+                        <seg>that brings </seg>
+                        <seg>long <rhyme label="c">ease,</rhyme></seg>
+                    </l>
+                    <l n="7" met="-+-+-+-+-+" real="-+-+-+-+-+">
+                        <seg> And layes </seg>
+                        <seg>the soule </seg>
+                        <seg>to sleepe </seg>
+                        <seg>in qui<sb/></seg>
+                        <seg>et <rhyme label="b">graue?</rhyme></seg>
+                    </l>
+                    <l n="8" met="-+-+-+-+-+" real="+--++--+-+">
+                        <seg> Sleepe af<sb/></seg>
+                        <seg>ter toyle, </seg>
+                        <caesura/>
+                        <seg>port af<sb/></seg>
+                        <seg>ter storm<sb/></seg>
+                        <seg>y <rhyme label="c">seas,</rhyme></seg>
+                    </l>
+                    <l n="9" met="-+-+-+-+-+" real="+--++--+-+-+">
+                        <seg>Ease af<sb/></seg>
+                        <seg>ter warre, </seg>
+                        <caesura/>
+                        <seg>death af<sb/></seg>
+                        <seg>ter life </seg>
+                        <seg>does great<sb/></seg>
+                        <seg>ly <rhyme label="c">please.</rhyme></seg>
+                    </l>
+                </lg>
+            </body></text></TEI>

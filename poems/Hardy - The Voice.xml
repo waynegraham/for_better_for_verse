@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+  PUBLIC "-//TEI P5//DTD Main Document Type//EN" "http://sds1.itc.virginia.edu:8080/prosody/poems/tei_all.dtd">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" version="5.0">
+        <teiHeader type="text">
+            <fileDesc>
+                <titleStmt>
+                    <title>The Voice</title>
+                    <author>Thomas Hardy</author>
+                </titleStmt>
+                <publicationStmt><p/></publicationStmt>
+                <sourceDesc default="false"><p/></sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <lg n="1" type="quatrain" met="+--(4/4/4/4)" rhyme="abab" org="uniform" sample="complete" part="N">
+                    <l n="1" met="+--+--+--+--" real="+--+--+--+--">
+                        <seg>Wo<sb/>man much </seg>
+                        <seg>missed, how you </seg>
+                        <seg>call to me, </seg>
+                        <seg>call to <rhyme label="a">me,</rhyme></seg>
+                    </l>
+                    <l n="2" met="+--+--+--+--" real="+--+--+--+">
+                        <seg>Say<sb/>ing that </seg>
+                        <seg>now you are </seg>
+                        <seg>not as you </seg>
+                        <seg><rhyme label="b">were</rhyme></seg>
+                    </l>
+                    <l n="3" met="+--+--+--+--" real="+--+--+--+--">
+                        <seg>When you had </seg>
+                        <seg>changed from the </seg>
+                        <seg>one who was </seg>
+                        <seg>all to <rhyme label="a">me,</rhyme></seg>
+                    </l>
+                    <l n="4" met="+--+--+--+--" real="+--+--+-+">
+                        <seg>But as at </seg>
+                        <seg>first, when our </seg>
+                        <seg>day was </seg>
+                        <seg><rhyme label="b">fair.</rhyme></seg>
+                    </l>
+                </lg>
+                <lg n="2" type="quatrain" met="+--(4/4/4/4)" rhyme="abab" org="uniform" sample="complete" part="N">
+                    <l n="1" met="+--+--+--+--" real="+--+--+--+--">
+                        <seg>Can it be </seg>
+                        <seg>you that I </seg>
+                        <seg>hear? <caesura/>Let me </seg>
+                        <seg>view you, <rhyme label="a">then,</rhyme></seg>
+                    </l>
+                    <l n="2" met="+--+--+--+--" real="+--+--+--+">
+                        <seg>Stand<sb/>ing as </seg>
+                        <seg>when I drew </seg>
+                        <seg>near to the </seg>
+                        <seg><rhyme label="b">town</rhyme></seg>
+                    </l>
+                    <l n="3" met="+--+--+--+--" real="+--+--+--+--">
+                        <seg>Where you would </seg>
+                        <seg>wait for me: </seg>
+                        <caesura/>
+                        <seg>yes, as I </seg>
+                        <seg>knew you <rhyme label="a">then,</rhyme></seg>
+                    </l>
+                    <l n="4" met="+--+--+--+--" real="+--+--+++">
+                        <seg>Even to the </seg>
+                        <seg>orig<sb/>in<sb/>al </seg>
+                        <seg>air-<sb/>blue </seg>
+                        <seg><rhyme label="b">gown!</rhyme></seg>
+                    </l>
+                </lg>
+                <lg n="3" type="quatrain" met="+--(4/4/4/4)" rhyme="abab" org="uniform" sample="complete" part="N">
+                    <l n="1" met="+--+--+--+--" real="+--+--+--+--">
+                        <seg>Or is it </seg>
+                        <seg>on<sb/>ly the </seg>
+                        <seg>breeze, in its </seg>
+                        <seg>list<sb/>lest<sb/><rhyme label="a">ness</rhyme></seg>
+                    </l>
+                    <l n="2" met="+--+--+--+--" real="+--">
+                        <seg>Trav<sb/>elling a<sb/></seg>
+                        <seg>cross the wet </seg>
+                        <seg>mead to me </seg>
+                        <seg><rhyme label="b">here,</rhyme></seg>
+                        <note>Note that "Travelling" has to be elided from 3 to 2 syllables in order to make this an honestly dactylic line.  Generally 4B4V eschews elision, but Hardy's fancy metric here leaves us no choice.</note>
+                    </l>
+                    <l n="3" met="+--+--+--+--" real="+--+--+--+--">
+                        <seg>You be<sb/>ing </seg>
+                        <seg>e<sb/>ver dis<sb/></seg>
+                        <seg>solved to wan </seg>
+                        <seg>wist<sb/>less<sb/><rhyme label="a">ness,</rhyme></seg>
+                    </l>
+                    <l n="4" met="+--+--+--+--" real="+-+---+-+">
+                        <seg>Heard no </seg>
+                        <seg>more, a<sb/>gain </seg>
+                        <seg>far or </seg>
+                        <seg><rhyme label="b">near?</rhyme></seg>
+                    </l>
+                </lg>
+                <lg n="4" type="quatrain" met="+-(3/3/3/3)" rhyme="abab" org="uniform" sample="complete" part="N">
+                    <l n="1" met="+-+-+-" real="+++--+-">
+                        <seg>Thus I; </seg>
+                        <caesura/>
+                        <seg>fal<sb/>ter<sb/>ing </seg>
+                        <seg>for<sb/><rhyme label="a">ward,</rhyme></seg>
+                    </l>
+                    <l n="2" met="+-+-+-" real="+-+-+-">
+                        <seg>Leaves a<sb/></seg>
+                        <seg>round me </seg>
+                        <seg>fall<sb/><rhyme label="b">ing,</rhyme></seg>
+                    </l>
+                    <l n="3" met="+-+-+-" real="+--+--+-+-">
+                        <seg>Wind ooz<sb/>ing </seg>
+                        <seg>thin through the </seg>
+                        <seg>thorn from </seg>
+                        <seg>nor<sb/><rhyme label="a">ward,</rhyme></seg>
+                    </l>
+                    <l n="4" met="+-+-+-" real="+-+-+-">
+                        <seg>And the </seg>
+                        <seg>wo<sb/>man </seg>
+                        <seg>call<sb/><rhyme label="b">ing.</rhyme></seg>
+                    </l>
+                </lg>
+            </body></text></TEI>

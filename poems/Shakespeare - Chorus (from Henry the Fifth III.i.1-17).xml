@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+  PUBLIC "-//TEI P5//DTD Main Document Type//EN" "http://sds1.itc.virginia.edu:8080/prosody/poems/tei_all.dtd">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" version="5.0">
+        <teiHeader type="text">
+            <fileDesc>
+                <titleStmt>
+                    <title>Chorus (from Henry the Fifth III.i.1-17)</title>
+                    <author>William Shakespeare</author>
+                </titleStmt>
+                <publicationStmt><p/></publicationStmt>
+                <sourceDesc default="false"><p/></sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <lg n="1" type="blank verse" met="-+(5/5/5/5/5/5/5/5/5/5/5/5/5/5/5/5/5)" org="uniform" sample="complete" part="N">
+                    <l n="1" met="-+-+-+-+-+" real="+--+-+-+++">
+                   <seg>Thus with </seg>
+                   <seg>i<sb/>mag<sb/></seg>
+                   <seg>ined<sb/> wing </seg>
+                   <seg>our swift </seg>
+                   <seg>scene flies,</seg>
+               </l><l n="2" met="-+-+-+-+-+" real="-+--++-+-+">
+                    <seg>In mo<sb/></seg>
+                    <seg>tion of </seg>
+                    <seg>no less </seg>
+                   <seg>ce<sb/>ler<sb/></seg>
+                    <seg>i<sb/>ty</seg>
+                </l><l n="3" met="-+-+-+-+-+" real="-+-+-+-+-+">
+                    <seg>Than that </seg>
+                    <seg>of thought.  </seg>
+                    <caesura/>
+                    <seg>Sup<sb/>pose </seg>
+                    <seg>that you </seg>
+                    <seg>have seen</seg>
+                </l><l n="4" met="-+-+-+-+-+" real="-+-+-+-+-+">
+                    <seg>The well-<sb/></seg>
+                    <seg>ap<sb/>point<sb/></seg>
+                    <seg>ed king </seg>
+                    <seg>at Hamp<sb/></seg>
+                    <seg>ton pier</seg>
+                </l><l n="5" met="-+-+-+-+-+" real="-+-+-+--++">
+                    <seg>Em<sb/>bark </seg>
+                    <seg>his roy<sb/></seg>
+                    <seg>al<sb/>ty; </seg>
+                    <caesura/>
+                    <seg>and his </seg>
+                    <seg>brave fleet</seg>
+                </l><l n="6" met="-+-+-+-+-+" real="-+-+--++-+(-)">
+                    <seg>With silk<sb/></seg>
+                    <seg>en stream<sb/></seg>
+                    <seg>ers the </seg>
+                    <seg>young Phoeb<sb/></seg>
+                    <seg>us fan<sb/>ning.</seg>
+                </l><l n="7" met="-+-+-+-+-+" real="+--+-+-+-+">
+                    <seg>Play with </seg>
+                    <seg>your fan<sb/></seg>
+                    <seg>cies, <caesura/>and </seg>
+                    <seg>in them </seg>
+                    <seg>be<sb/>hold</seg>
+                </l><l n="8" met="-+-+-+-+-+" real="-+-+-+-+-+(-)">
+                    <seg>Up<sb/>on </seg>
+                    <seg>the hem<sb/></seg>
+                    <seg>en tack<sb/></seg>
+                    <seg>le ship<sb/></seg>
+                    <seg>boys climb<sb/>ing:</seg>
+                </l><l n="9" met="-+-+-+-+-+" real="+-++-+-+-+">
+                    <seg>Hear the </seg>
+                    <seg>shrill whist<sb/></seg>
+                    <seg>le which </seg>
+                    <seg>doth or<sb/></seg>
+                    <seg>der give</seg>
+                </l>
+                   <l n="10" met="-+-+-+-+-+" real="-+-+-+-+-+">
+                    <seg>To sounds </seg>
+                    <seg>con<sb/>fused; </seg>
+                    <caesura/>
+                    <seg>be<sb/>hold </seg>
+                    <seg>the thread<sb/></seg>
+                    <seg>en sails,</seg>
+                </l><l n="11" met="-+-+-+-+-+" real="+---+-+-+-+">
+                    <seg>Borne with </seg>
+                    <seg>the in<sb/>vis<sb/></seg>
+                    <seg>i<sb/>ble </seg>
+                    <seg>and creep<sb/></seg>
+                    <seg>ing wind,</seg>
+                </l><l n="12" met="-+-+-+-+-+" real="+-++-+-+-+">
+                    <seg>Draw the </seg>
+                    <seg>huge bot<sb/></seg>
+                    <seg>toms through </seg>
+                    <seg>the fur<sb/></seg>
+                    <seg>rowed sea,</seg>
+                </l><l n="13" met="-+-+-+-+-+" real="+--+-++--+">
+                    <seg>Breast<sb/>ing </seg>
+                    <seg>the loft<sb/></seg>
+                    <seg>y surge.  </seg>
+                    <caesura/>
+                    <seg>O, do </seg>
+                    <seg>but think</seg>
+                </l><l n="14" met="-+-+-+-+-+" real="-+-+-+-+-+">
+                    <seg>You stand </seg>
+                    <seg>up<sb/>on </seg>
+                    <seg>the riv<sb/></seg>
+                    <seg>age and </seg>
+                    <seg>be<sb/>hold</seg>
+                </l>
+                    <l n="15" met="-+-+-+-+-+" real="-+-+--+-+-+(-)">
+                        <seg>A cit<sb/></seg>
+                        <seg>y on </seg>
+                        <seg>the in<sb/>con<sb/></seg>
+                        <seg>stant bil<sb/></seg>
+                        <seg>lows danc<sb/>ing;</seg>
+                    </l><l n="16" met="-+-+-+-+-+" real="-+-+-+-+-+">
+                        <seg>For so </seg>
+                        <seg>ap<sb/>pears </seg>
+                        <seg>this fleet </seg>
+                        <seg>maj<sb/>est<sb/></seg>
+                        <seg>i<sb/>cal,</seg>
+                    </l><l n="17" met="-+-+-+-+-+" real="+-++-+++-+(-)">
+                        <seg>Hold<sb/>ing </seg>
+                        <seg>due course </seg>
+                        <seg>to Har<sb/></seg>
+                        <seg>fleur. <caesura/>Fol<sb/></seg>
+                        <seg>low, fol<sb/>low!</seg>
+                    </l></lg></body></text></TEI>
