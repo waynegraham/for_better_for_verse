@@ -22,7 +22,7 @@ function init() {
 	        		t = element.innerText;
 	        	}
 	        	else {
-	        		t = element.textContent;
+	        		t = element.textContent
 	        	}
 	        }
 	        return t;
@@ -31,7 +31,7 @@ function init() {
     
     // now we set 'stress' to be empty on all the real syllables
     $$('span[real]').collect(function (node) {
-        node.stress = "";
+        node.stress = ""
     });
     
     $("toggle-discrepancies").toggle();
@@ -40,7 +40,7 @@ function init() {
 function switchstress(shadowspan) {
     // called when a syllable's stress is changed
     realsyllable = $("prosody:real:" + shadowspan.id.substring(15));
-    if (realsyllable.stress == "-" || realsyllable.stress === "") {
+    if (realsyllable.stress == "-" || realsyllable.stress == "") {
         new Effect.Opacity($(shadowspan), {
             from: 0,
             to: 1,
@@ -90,7 +90,7 @@ function checkstress(linenumber) {
     
     var answer = $("prosody:real:" + linenumber).select("span[real]").pluck(
     "stress").collect(function (s) {
-        return s.replace(/∪/, '-');
+        return s.replace(/∪/, '-')
     }).join('');
     debug("past var answer");
     // now we check to see that this is a complete answer. if not, we alert and
@@ -129,7 +129,7 @@ function switchfoot(coords) {
     if ($(coords).select("span").length > 0) {
         $(coords).select("span")[0].remove();
     } else {
-        $(coords).appendChild(footmarker());
+        $(coords).appendChild(footmarker());;
     }
 }
 
@@ -165,11 +165,9 @@ function checkfeet(linenumber) {
 function checkmeter(linenumber, linegroupindex) {
 	// creates a popup window with popup menus to offer a choice of meters
 	// the user is told whether the answer is correct or not
-	//var win = new Window({className: "spread", title: "Ruby on Rails", top:70, left:100, width:300, height:200, url: "meter-popup.html?line=" + linenumber + "&linegroupindex=" + linegroupindex, 
-	//showEffectOptions: {duration:1.5}}); 
-	//win.show();
-	
-	var popup = window.open("meter-popup.html?line=" + linenumber + "&linegroupindex=" + linegroupindex, "checkMeter", "resizable=no,scrollbars=no,status=no,width=300,height=200");
+	var popup = window.open("meter-popup.html?line=" + linenumber
+			+ "&linegroupindex=" + linegroupindex, "Check your meter, friend!",
+			"resizable=no,scrollbars=no,status=no,width=300,height=200");
 
 }
 
@@ -267,7 +265,7 @@ function toggledifferences(e) {
         e.value = "on";
     } else if (e.value == "on") {
         document.styleSheets[0].deleteRule(0);
-        e.value = "off";
+        e.value = "off"
     }
 }
 
@@ -307,7 +305,6 @@ function pophint(e) {
 }
 
 function debug(s) {
-    if (debugflag){
-    	console.log(s);
-	}
+    if (debugflag)
+    console.log(s);
 }

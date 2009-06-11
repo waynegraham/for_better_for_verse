@@ -28,13 +28,13 @@
                     <seg>that lurks </seg>
                     <seg>in all </seg>
                     <seg>de<sb/><rhyme label="b">light -</rhyme></seg>
-                </l><l n="3" met="-+-+-+-+-+" real="-+-+-+-+++">
+                </l><l n="3" met="-+-+-+-+-+" real="-+-+-+-++-(-)">
                     <seg>The thought </seg>
                     <seg>of thee - </seg>
                     <caesura/>
                     <seg>and in </seg>
                     <seg>the blue </seg>
-                    <seg>heaven's <rhyme label="b">height,</rhyme></seg>
+                    <seg>heav<sb/>en's <rhyme label="b">height,</rhyme></seg>
                 </l><l n="4" met="-+-+-+-+-+" real="-+-+-+-+-+">
                     <seg>And in </seg>
                     <seg>the sweet<sb/></seg>

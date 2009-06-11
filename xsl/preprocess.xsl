@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:prosody="http://staging.prosody.lib.virginia.edu" xmlns:TEI="http://www.tei-c.org/ns/1.0"
-     version="2.0">
+    xmlns:prosody="http://www.prosody.org" xmlns:TEI="http://www.tei-c.org/ns/1.0"
+    xmlns="http://www.w3.org/1999/xhtml" version="2.0">
     
     <xsl:output indent="yes" method="xml" omit-xml-declaration="yes"/>
     <xsl:strip-space elements="*"/>
@@ -112,7 +112,7 @@
                     <span class="button">
                         <button class="prosody-note-button" id="displaynotebutton{$line-number}"
                             name="Note about this line" onclick="">
-                            <img alt="blank" src="images/blank.gif"/>
+                            <img src="images/blank.gif"/>
                         </button>
                         <p class="prosody-note" id="hintfor{$line-number}">
                             <span>Note on line number <xsl:value-of select="$line-number"/>:</span>
@@ -123,19 +123,19 @@
                 <span class="button">
                     <button class="prosody-checkstress" id="checkstress{$line-number}"
                         name="Check stress" onclick="checkstress({$line-number})">
-                        <img alt="stress" src="images/stress-default.png"/>
+                        <img src="images/stress-default.png"/>
                     </button>
                 </span>
                 <span class="button">
                     <button class="prosody-checkfeet" id="checkfeet{$line-number}" name="Check feet"
                         onclick="checkfeet({$line-number})">
-                        <img alt="foot" src="images/feet-default.png"/>
+                        <img src="images/feet-default.png"/>
                     </button>
                 </span>
                 <span class="button">
                     <button class="prosody-meter" id="checkmeter{$line-number}" name="Check meter"
                         onclick="checkmeter({$line-number},{$linegroupindex})">
-                        <img alt="meter" src="images/meter-default.png"/>
+                        <img src="images/meter-default.png"/>
                     </button>
                 </span>
             </div>
