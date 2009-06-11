@@ -7,7 +7,7 @@
                     <seg met="-+" part="N">would I </seg>
                     <seg met="-+" part="N">were stead<sb part="N"/></seg>
                     <seg met="-+" real="--" part="N">fast as </seg>
-                    <seg met="-+" real="++" part="N">thou <rhyme label="a">art-- </rhyme></seg>
+                    <seg met="-+" real="++" part="N">thou <rhyme label="a">art--</rhyme></seg>
                 </l><space/><l n="2" part="N" met="-+-+-+-+-+" real="+-++-+-+-+">
                     <seg met="-+" real="+-" part="N">Not in </seg>
                     <seg met="-+" real="++" part="N">lone splen<sb part="N"/></seg>
