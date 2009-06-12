@@ -15,7 +15,7 @@
         <text>
             <body>
                 <lg n="1" type="blank verse" met="-+(5/5/5/5/5/5/5/5/5/5/5/5/5/5/5/5/5/5/5/5/5)" org="uniform" sample="complete" part="N">
-                    <l n="1" met="-+-+-+-+-+" real="-+-+-+-+-+">
+                    <l n="1" met="-+-+-+-+-+" real="+--+-+-+-+">
                    <seg>South<sb/>ward </seg>
                    <seg>through E<sb/></seg>
                    <seg>den went </seg>
@@ -70,7 +70,7 @@
                     <seg>and met </seg>
                     <seg>the neth<sb/></seg>
                     <seg>er Flood,</seg>
-                </l><l n="10" met="-+-+-+-+-+" real="-+-+-+-+-+">
+                </l><l n="10" met="-+-+-+-+-+" real="+--+-+-+-+">
                     <seg>Which from </seg>
                     <seg>his dark<sb/></seg>
                     <seg>some pas<sb/></seg>
@@ -82,19 +82,22 @@
                     <seg>ed in<sb/></seg>
                     <seg>to four </seg>
                     <seg>main Streams,</seg>
-                </l><l n="12" met="-+-+-+-+-+" real="+-++-+--+-+">
+                </l><l n="12" met="-+-+-+-+-+" real="+-++-+--+-+|++-+-+--+-+">
                     <seg>Runs di<sb/></seg>
                     <seg>verse, <caesura/>wan<sb/></seg>
                     <seg>d'ring man<sb/></seg>
                     <seg>y a fa<sb/></seg>
                     <seg>mous Realm</seg>
+                    <note anchored="true">
+                        "Diverse": Milton probably stressed the first syllable; you probably stress the second.  This seems a good spot to admit some diversity, so long as we all agree the iambic pentameter runs into a little dam just here.
+                    </note>
                 </l><l n="13" met="-+-+-+-+-+" real="-+-+-+-+-+">
                     <seg>And coun<sb/></seg>
                     <seg>try where<sb/></seg>
                     <seg>of here </seg>
                     <seg>needs no </seg>
                     <seg>ac<sb/>count,</seg>
-                </l><l n="14" met="-+-+-+-+-+" real="-+-+-+-+-+">
+                </l><l n="14" met="-+-+-+-+-+" real="-+--++-+-+">
                     <seg>But rath<sb/></seg>
                     <seg>er to </seg>
                     <seg>tell how, </seg>
@@ -104,14 +107,14 @@
                 </l>
                     <l n="15" met="-+-+-+-+-+" real="+--+-+-+-+">
                         <seg>How from </seg>
-                        <seg>that Saph<sb/></seg>
+                        <seg>that Sap<sb/></seg>
                         <seg>phire Fount </seg>
                         <seg>the crisp<sb/></seg>
                         <seg>ed Brooks,</seg>
                     </l><l n="16" met="-+-+-+-+-+" real="+--+--+-+-+">
                         <seg>Roll<sb/>ing </seg>
                         <seg>on O<sb/></seg>
-                        <seg>ri<sb/>ent Pearl</seg>
+                        <seg>ri<sb/>ent Pearl </seg>
                         <seg>and sands </seg>
                         <seg>of Gold,</seg>
                     </l><l n="17" met="-+-+-+-+-+" real="-+-+-+-+-+">
@@ -130,7 +133,7 @@
                     </l><l n="19" met="-+-+-+-+-+" real="++--+-+-+++">
                         <seg>Flow'rs worth<sb/></seg>
                         <seg>y of Par<sb/></seg>
-                        <seg>a<sb/>dise </seg>
+                        <seg>a<sb/>dise, </seg>
                         <caesura/>
                         <seg>which not </seg>
                         <seg>nice Art</seg>
