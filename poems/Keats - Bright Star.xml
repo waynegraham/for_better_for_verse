@@ -8,6 +8,9 @@
                     <seg met="-+" part="N">were stead<sb part="N"/></seg>
                     <seg met="-+" real="--" part="N">fast as </seg>
                     <seg met="-+" real="++" part="N">thou <rhyme label="a">art--</rhyme></seg>
+    <note anchored="true">
+        Although ordinarily personal pronouns go unstressed, here we stress "I" and "thou" because Keats has built the entire sonnet on articulating the relation, and the difference, between the two (himself and the star).  Lines 2-8 elaborate one way of being "steadfast," attractive yet declined finally in favor of the way described in the rest of the poem.  The distinctly emphasized pronouns of line 1 set the whole contrast up.
+        </note>
                 </l><space/><l n="2" part="N" met="-+-+-+-+-+" real="+-++-+-+-+">
                     <seg met="-+" real="+-" part="N">Not in </seg>
                     <seg met="-+" real="++" part="N">lone splen<sb part="N"/></seg>
@@ -38,9 +41,9 @@
                     <seg met="-+" part="N">tion round </seg>
                     <seg met="-+" real="++" part="N">earth's hu<sb part="N"/></seg>
                     <seg met="-+" part="N">man <rhyme label="d">shores,</rhyme></seg>
-                </l><l n="7" part="N" met="-+-+-+-+-+" real="-+-+-+++-+">
+                </l><l n="7" part="N" met="-+-+-+-+-+" real="-+---+++-+">
                     <seg met="-+" part="N">Or gaz<sb part="N"/></seg>
-                    <seg met="-+" part="N">ing on </seg>
+                    <seg met="-+" real="--" part="N">ing on </seg>
                     <seg met="-+" part="N">the new </seg>
                     <seg met="-+" real="++" part="N">soft-<sb part="N"/>fall<sb part="N"/></seg>
                     <seg met="-+" part="N">en <rhyme label="c">mask</rhyme></seg>
@@ -52,7 +55,7 @@
                     <seg met="-+" part="N">the <rhyme label="d">moors--</rhyme></seg>
                 </l></lg><lg n="3" type="quatrain" met="-+(5)" rhyme="efef" org="uniform" sample="complete" part="N"><l n="9" part="N" met="-+-+-+-+-+" real="+-++-+-+-+">
                     <seg met="-+" real="+-" part="N">No--<caesura/>yet </seg>
-                    <seg met="-+" real="++" part="N">still sted<sb part="N"/></seg>
+                    <seg met="-+" real="++" part="N">still stead<sb part="N"/></seg>
                     <seg met="-+" part="N">fast, <caesura/> still </seg>
                     <seg met="-+" part="N">un<sb part="N"/>change<sb part="N"/></seg>
                     <seg met="-+" part="N">a<sb part="N"/><rhyme label="e">ble,</rhyme></seg>
@@ -86,4 +89,7 @@
                     <seg met="-+" real="--" part="N">er--<caesura/>or </seg>
                     <seg met="-+" part="N">else swoon </seg>
                     <seg met="-+" part="N">to <rhyme label="g">death.</rhyme></seg>
+                    <note anchored="true">
+                        This line may be scanned several different ways, with stress e. g. on "else" or even "or" (though not both!).  The scansion preferred here highlights the swooniness of the death wish -- a second-best alternative that Keats snatches at as doubts about immortality assail him at the caesura after "live ever."  A little melodramatic, perhaps; but in keeping with the poem's manifest preference for sensation over detached, dispassionate intellection.
+                    </note>
                 </l></lg></body></text></TEI>
