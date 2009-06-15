@@ -22,7 +22,7 @@
                    <seg>ly and </seg>
                    <seg>false <rhyme label="a">hair</rhyme></seg>
                     </l>
-                    <l n="2" met="-+-+-+-+-+" real="-+-+-+-+-+(-)" part="N">
+                    <l n="2" met="-+-+-+-+-+" real="-+-+-+-+-+-" part="N">
                         <seg>Be<sb/>come </seg>
                         <seg>a verse? </seg>
                         <caesura/>
@@ -37,7 +37,7 @@
                         <seg>a wind<sb/></seg>
                         <seg>ing <rhyme label="a">stair?</rhyme></seg>
                     </l>
-                    <l n="4" met="-+-+-+-+-+" real="-+++-+-+-+(-)" part="N">
+                    <l n="4" met="-+-+-+-+-+" real="-+++-+-+-+-" part="N">
                         <seg>May no </seg>
                         <seg>lines pass, </seg>
                         <caesura/>
