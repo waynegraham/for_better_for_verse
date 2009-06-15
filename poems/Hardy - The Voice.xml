@@ -24,8 +24,8 @@
                     <l n="2" met="+--+--+--+--" real="+--+--+--+">
                         <seg>Say<sb/>ing that </seg>
                         <seg>now you are </seg>
-                        <seg>not as you </seg>
-                        <seg><rhyme label="b">were</rhyme></seg>
+                        <seg>not as </seg>
+                        <seg><rhyme label="b">you were</rhyme></seg>
                     </l>
                     <l n="3" met="+--+--+--+--" real="+--+--+--+--">
                         <seg>When you had </seg>
@@ -36,8 +36,8 @@
                     <l n="4" met="+--+--+--+--" real="+--+--+-+">
                         <seg>But as at </seg>
                         <seg>first, when our </seg>
-                        <seg>day was </seg>
-                        <seg><rhyme label="b">fair.</rhyme></seg>
+                        <seg>our day </seg>
+                        <seg><rhyme label="b">was fair.</rhyme></seg>
                     </l>
                 </lg>
                 <lg n="2" type="quatrain" met="+--(4/4/4/4)" rhyme="abab" org="uniform" sample="complete" part="N">
