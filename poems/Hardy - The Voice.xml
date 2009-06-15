@@ -25,7 +25,10 @@
                         <seg>Say<sb/>ing that </seg>
                         <seg>now you are </seg>
                         <seg>not as </seg>
-                        <seg><rhyme label="b">you were</rhyme></seg>
+                        <seg>you <rhyme label="b">were</rhyme></seg>
+                        <note anchored="true">
+                            Another prosodist might reasonably scan this, and the even-numbered lines that follow, as four straight dactyls the fourth of which has double catalexis (two slack syllables missing but implied.  4B4V, however, hears at these line-ends a more substantial pause -- even though it may go, as here, unpunctuated -- where the speaker's voice catches breath in a way the iamb helps underscore.
+                        </note>
                     </l>
                     <l n="3" met="+--+--+--+--" real="+--+--+--+--">
                         <seg>When you had </seg>
@@ -50,8 +53,8 @@
                     <l n="6" met="+--+--+--+--" real="+--+--+--+">
                         <seg>Stand<sb/>ing as </seg>
                         <seg>when I drew </seg>
-                        <seg>near to the </seg>
-                        <seg><rhyme label="b">town</rhyme></seg>
+                        <seg>near to </seg>
+                        <seg><rhyme label="b">the town</rhyme></seg>
                     </l>
                     <l n="7" met="+--+--+--+--" real="+--+--+--+--">
                         <seg>Where you would </seg>
@@ -60,11 +63,14 @@
                         <seg>yes, as I </seg>
                         <seg>knew you <rhyme label="a">then,</rhyme></seg>
                     </l>
-                    <l n="8" met="+--+--+--+--" real="+--+--+++">
-                        <seg>Even to the </seg>
-                        <seg>orig<sb/>in<sb/>al </seg>
-                        <seg>air-<sb/>blue </seg>
-                        <seg><rhyme label="b">gown!</rhyme></seg>
+                    <l n="8" met="+--+--+--+--" real="+----+--+++">
+                        <seg>Even to </seg>
+                        <seg>the orig<sb/></seg>
+                        <seg>in<sb/>al air-<sb/></seg>
+                        <seg>blue <rhyme label="b">gown!</rhyme></seg>
+                        <note anchored="true">
+                            This may be the hardest line in all of 4B4V: a line in dactylic tetrameter that actually scans dactyl, anapest, anapest, spondee.  Congratulations if you got this as early as your third try.  You might linger to think how a remarried old man's airbrushed memory of his first wife, long estranged and since dead, might represent something of a third try, too; and how the line bears up under the freight of emotion and memory.
+                        </note>
                     </l>
                 </lg>
                 <lg n="3" type="quatrain" met="+--(4/4/4/4)" rhyme="abab" org="uniform" sample="complete" part="N">
@@ -74,12 +80,12 @@
                         <seg>breeze, in its </seg>
                         <seg>list<sb/>lest<sb/><rhyme label="a">ness</rhyme></seg>
                     </l>
-                    <l n="10" met="+--+--+--+--" real="+--">
+                    <l n="10" met="+--+--+--+--" real="+--+-++--+">
                         <seg>Trav<sb/>elling a<sb/></seg>
-                        <seg>cross the wet </seg>
-                        <seg>mead to me </seg>
-                        <seg><rhyme label="b">here,</rhyme></seg>
-                        <note>Note that "Travelling" has to be elided from 3 to 2 syllables in order to make this an honestly dactylic line.  Generally 4B4V eschews elision, but Hardy's fancy metric here leaves us no choice.</note>
+                        <seg>cross the </seg>
+                        <seg>wet mead </seg>
+                        <seg>to me <rhyme label="b">here,</rhyme></seg>
+                        <note anchored="true">Another tricky line, whose scansion here is made easier if you elide "Travelling" from 3 to 2 syllables.  That gives you two falling feet (dactyl, trochee), in keeping with the overall tilt of the poem's meter.  It's also legal to try this back in the nerve-wracking line 8, by reading "the original" as "th'original"; but it doesn't really help much there, where Hardy is going for broke and it seems wiser to let him be as strange as possible.  Generally 4B4V eschews elision, but here in line 10 it's the right thing to do.</note>
                     </l>
                     <l n="11" met="+--+--+--+--" real="+--+--+--+--">
                         <seg>You be<sb/>ing </seg>
@@ -87,11 +93,11 @@
                         <seg>solved to wan </seg>
                         <seg>wist<sb/>less<sb/><rhyme label="a">ness,</rhyme></seg>
                     </l>
-                    <l n="12" met="+--+--+--+--" real="+-+---+-+">
+                    <l n="12" met="+--+--+--+--" real="+-+--+-+">
                         <seg>Heard no </seg>
-                        <seg>more, a<sb/>gain </seg>
-                        <seg>far or </seg>
-                        <seg><rhyme label="b">near?</rhyme></seg>
+                        <seg>more, a<sb/></seg>
+                        <seg>gain far </seg>
+                        <seg>or <rhyme label="b">near?</rhyme></seg>
                     </l>
                 </lg>
                 <lg n="4" type="quatrain" met="+-(3/3/3/3)" rhyme="abab" org="uniform" sample="complete" part="N">
@@ -100,6 +106,9 @@
                         <caesura/>
                         <seg>fal<sb/>ter<sb/>ing </seg>
                         <seg>for<sb/><rhyme label="a">ward,</rhyme></seg>
+                        <note anchored="true">
+                            Another surprise: Hardy changes his tune for this final quatrain, cutting back from tetrameter to trimeter, grasping at straws, and leaving it up for grabs whether the prevailing meter is still dactylic or, as 4B4v more soberly judges, trochaic.  More important than choosing between these two metrical options is sensing their interplay in this stanza, torn as the speaker is between talking himself into and out of the belief that he is being haunted.
+                        </note>
                     </l>
                     <l n="14" met="+-+-+-" real="+-+-+-">
                         <seg>Leaves a<sb/></seg>
@@ -116,6 +125,9 @@
                         <seg>And the </seg>
                         <seg>wo<sb/>man </seg>
                         <seg>call<sb/><rhyme label="b">ing.</rhyme></seg>
+                        <note anchored="true">
+                            "And" is a particle that almost never takes stress.  Its doing so here is eloquent: Hardy concedes, in the spirit of stanza 3, that he must be imagining things; yet the "And" insists on the reality of what is faithfully imagined.  It's just the wind.  AND it's my dead wife.
+                        </note>
                     </l>
                 </lg>
             </body></text></TEI>
