@@ -41,26 +41,26 @@
                     </l>
                 </lg>
                 <lg n="2" type="quatrain" met="+--(4/4/4/4)" rhyme="abab" org="uniform" sample="complete" part="N">
-                    <l n="1" met="+--+--+--+--" real="+--+--+--+--">
+                    <l n="5" met="+--+--+--+--" real="+--+--+--+--">
                         <seg>Can it be </seg>
                         <seg>you that I </seg>
                         <seg>hear? <caesura/>Let me </seg>
                         <seg>view you, <rhyme label="a">then,</rhyme></seg>
                     </l>
-                    <l n="2" met="+--+--+--+--" real="+--+--+--+">
+                    <l n="6" met="+--+--+--+--" real="+--+--+--+">
                         <seg>Stand<sb/>ing as </seg>
                         <seg>when I drew </seg>
                         <seg>near to the </seg>
                         <seg><rhyme label="b">town</rhyme></seg>
                     </l>
-                    <l n="3" met="+--+--+--+--" real="+--+--+--+--">
+                    <l n="7" met="+--+--+--+--" real="+--+--+--+--">
                         <seg>Where you would </seg>
                         <seg>wait for me: </seg>
                         <caesura/>
                         <seg>yes, as I </seg>
                         <seg>knew you <rhyme label="a">then,</rhyme></seg>
                     </l>
-                    <l n="4" met="+--+--+--+--" real="+--+--+++">
+                    <l n="8" met="+--+--+--+--" real="+--+--+++">
                         <seg>Even to the </seg>
                         <seg>orig<sb/>in<sb/>al </seg>
                         <seg>air-<sb/>blue </seg>
@@ -68,26 +68,26 @@
                     </l>
                 </lg>
                 <lg n="3" type="quatrain" met="+--(4/4/4/4)" rhyme="abab" org="uniform" sample="complete" part="N">
-                    <l n="1" met="+--+--+--+--" real="+--+--+--+--">
+                    <l n="9" met="+--+--+--+--" real="+--+--+--+--">
                         <seg>Or is it </seg>
                         <seg>on<sb/>ly the </seg>
                         <seg>breeze, in its </seg>
                         <seg>list<sb/>lest<sb/><rhyme label="a">ness</rhyme></seg>
                     </l>
-                    <l n="2" met="+--+--+--+--" real="+--">
+                    <l n="10" met="+--+--+--+--" real="+--">
                         <seg>Trav<sb/>elling a<sb/></seg>
                         <seg>cross the wet </seg>
                         <seg>mead to me </seg>
                         <seg><rhyme label="b">here,</rhyme></seg>
                         <note>Note that "Travelling" has to be elided from 3 to 2 syllables in order to make this an honestly dactylic line.  Generally 4B4V eschews elision, but Hardy's fancy metric here leaves us no choice.</note>
                     </l>
-                    <l n="3" met="+--+--+--+--" real="+--+--+--+--">
+                    <l n="11" met="+--+--+--+--" real="+--+--+--+--">
                         <seg>You be<sb/>ing </seg>
                         <seg>e<sb/>ver dis<sb/></seg>
                         <seg>solved to wan </seg>
                         <seg>wist<sb/>less<sb/><rhyme label="a">ness,</rhyme></seg>
                     </l>
-                    <l n="4" met="+--+--+--+--" real="+-+---+-+">
+                    <l n="12" met="+--+--+--+--" real="+-+---+-+">
                         <seg>Heard no </seg>
                         <seg>more, a<sb/>gain </seg>
                         <seg>far or </seg>
@@ -95,24 +95,24 @@
                     </l>
                 </lg>
                 <lg n="4" type="quatrain" met="+-(3/3/3/3)" rhyme="abab" org="uniform" sample="complete" part="N">
-                    <l n="1" met="+-+-+-" real="+++--+-">
+                    <l n="13" met="+-+-+-" real="+++--+-">
                         <seg>Thus I; </seg>
                         <caesura/>
                         <seg>fal<sb/>ter<sb/>ing </seg>
                         <seg>for<sb/><rhyme label="a">ward,</rhyme></seg>
                     </l>
-                    <l n="2" met="+-+-+-" real="+-+-+-">
+                    <l n="14" met="+-+-+-" real="+-+-+-">
                         <seg>Leaves a<sb/></seg>
                         <seg>round me </seg>
                         <seg>fall<sb/><rhyme label="b">ing,</rhyme></seg>
                     </l>
-                    <l n="3" met="+-+-+-" real="+--+--+-+-">
+                    <l n="15" met="+-+-+-" real="+--+--+-+-">
                         <seg>Wind ooz<sb/>ing </seg>
                         <seg>thin through the </seg>
                         <seg>thorn from </seg>
                         <seg>nor<sb/><rhyme label="a">ward,</rhyme></seg>
                     </l>
-                    <l n="4" met="+-+-+-" real="+-+-+-">
+                    <l n="16" met="+-+-+-" real="+-+-+-">
                         <seg>And the </seg>
                         <seg>wo<sb/>man </seg>
                         <seg>call<sb/><rhyme label="b">ing.</rhyme></seg>
