@@ -53,35 +53,35 @@
                     </l>
                     </lg>
                 <lg n="2" type="quintet" met="-+(5/5/5/5/4)" rhyme="ababa" org="uniform" sample="complete" part="N">
-                    <l n="1" met="-+-+-+-+-+" real="+--+-+-+-+" part="N">
+                    <l n="6" met="-+-+-+-+-+" real="+--+-+-+-+" part="N">
                         <seg>Is it </seg>
                         <seg>no verse, </seg>
                         <seg>ex<sb/>cept </seg>
                         <seg>en<sb/>chant<sb/></seg>
                         <seg>ed <rhyme label="a">groves</rhyme></seg>
                     </l>
-                    <l n="2" met="-+-+-+-+-+" real="-+-+-+-+++" part="N">
+                    <l n="7" met="-+-+-+-+-+" real="-+-+-+-+++" part="N">
                         <seg>And sud<sb/></seg>
                         <seg>den ar<sb/></seg>
                         <seg>bors shad<sb/></seg>
                         <seg>ow coarse-<sb/></seg>
                         <seg>spun <rhyme label="b">lines?</rhyme></seg>
                     </l>
-                    <l n="3" met="-+-+-+-+-+" real="-+-+-+-+-+" part="N">
+                    <l n="8" met="-+-+-+-+-+" real="-+-+-+-+-+" part="N">
                         <seg>Must purl<sb/></seg>
                         <seg>ing streams </seg>
                         <seg>re<sb/>fresh </seg>
                         <seg>a lov<sb/></seg>
                         <seg>er's <rhyme label="a">loves?</rhyme></seg>
                     </l>
-                    <l n="4" met="-+-+-+-+-+" real="-+-+-+-+-+" part="N">
+                    <l n="9" met="-+-+-+-+-+" real="-+-+-+-+-+" part="N">
                         <seg>Must all </seg>
                         <seg>be veiled, </seg>
                         <seg>while he </seg>
                         <seg>that reads, </seg>
                         <seg>di<sb/><rhyme label="b">vines,</rhyme></seg>
                     </l>
-                    <l n="5" met="-+-+-+-+" real="+--+-+-+" part="N">
+                    <l n="10" met="-+-+-+-+" real="+--+-+-+" part="N">
                         <seg> Catch<sb/>ing </seg>
                         <seg>the sense </seg>
                         <seg>at two </seg>
@@ -89,35 +89,35 @@
                     </l>
                 </lg>
                 <lg n="3" type="quintet" met="-+(5/5/5/5/4)" rhyme="ababa" org="uniform" sample="complete" part="N">
-                    <l n="1" met="-+-+-+-+-+" real="+--+-+-+-+" part="N">
+                    <l n="11" met="-+-+-+-+-+" real="+--+-+-+-+" part="N">
                         <seg>Shep<sb/>herds </seg>
                         <seg>are hon<sb/></seg>
                         <seg>est peo<sb/></seg>
                         <seg>ple; <caesura/>let </seg>
                         <seg>them <rhyme label="a">sing:</rhyme></seg>
                     </l>
-                    <l n="2" met="-+-+-+-+-+" real="+--+-+-+-+" part="N">
+                    <l n="12" met="-+-+-+-+-+" real="+--+-+-+-+" part="N">
                         <seg>Rid<sb/>dle </seg>
                         <seg>who list, </seg>
                         <seg>for me, </seg>
                         <seg>and pull </seg>
                         <seg>for <rhyme label="b">Prime;</rhyme></seg>
                     </l>
-                    <l n="3" met="-+-+-+-+-+" real="-+-+-+-+-+" part="N">
+                    <l n="13" met="-+-+-+-+-+" real="-+-+-+-+-+" part="N">
                         <seg>I en<sb/></seg>
                         <seg>vy no </seg>
                         <seg>man's night<sb/></seg>
                         <seg>in<sb/>gale </seg>
                         <seg>or <rhyme label="a">spring;</rhyme></seg>
                     </l>
-                    <l n="4" met="-+-+-+-+-+" real="+--+-+-+-+" part="N">
+                    <l n="14" met="-+-+-+-+-+" real="+--+-+-+-+" part="N">
                         <seg>Nor let </seg>
                         <seg>them pun<sb/></seg>
                         <seg>ish me </seg>
                         <seg>with loss </seg>
                         <seg>of <rhyme label="b">rhyme,</rhyme></seg>
                     </l>
-                    <l n="5" met="-+-+-+-+" real="-+-+-+-+" part="N">
+                    <l n="15" met="-+-+-+-+" real="-+-+-+-+" part="N">
                         <seg> Who plain<sb/></seg>
                         <seg>ly say, </seg>
                         <seg>My God, </seg>
