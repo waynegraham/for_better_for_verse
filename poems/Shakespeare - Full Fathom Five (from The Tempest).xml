@@ -26,6 +26,9 @@
                             <seg>his bones </seg>
                             <seg>are cor<sb/></seg>
                             <seg>al <rhyme label="b">made;</rhyme></seg>
+                        <note anchored="true">
+                           This line, like the next five after it, is acephalous.  (See Glossary.)  Think of its initial stress as the business end of an iamb, whose partner is so slack that it hasn't even shown up for work.  Some prosodists represent the ghost syllable by a "u" in the margin, to register the pause most of us feel -- like a quick intake of breath -- just before the first voiced syllable.  Acephalous lines are common in folk poetry, art poetry that imitates the vernacular, and chants like this one that have the force of charms or spells.   
+                        </note>
                     </l>
                     <l n="3" met="-+-+-+-+" real="+-+-+-+" part="N">
                         <seg>Those </seg>
@@ -51,19 +54,22 @@
                         <seg>thing rich </seg>
                         <seg>and <rhyme label="c">strange.</rhyme></seg>
                     </l>
-                    <l n="7" met="-+-+-+-+" real="+-+-+-+" part="N">
+                    <l n="7" met="-+-+-+-+" real="+-+--+-+" part="N">
                         <seg>Sea </seg>
-                        <seg>nymphs hour<sb/></seg>
-                        <seg>ly ring </seg>
+                        <seg>nymphs ho<sb/></seg>
+                        <seg>ur<sb/>ly ring </seg>
                         <seg>his <rhyme label="d">knell:</rhyme></seg>
                     </l>
                     <l n="8" met="-+" real="++" part="N">
-                        <seg> Ding-dong.</seg>
+                        <seg> Ding-<sb/>dong.</seg>
+                        <note anchored="true">
+                            This resonant, onomatopoetic spondee is very long: as long, some might say, as the tetrameter lines above it.  If they were quarter notes, each syllable here would be a dotted half.  Of course composers of music for this lyric can time it however they like.  And they do. 
+                        </note>
                     </l>
                     <l n="9" met="-+-+-+-+" real="+--+-+++" part="N">
                         <seg>Hark! Now </seg>
                         <seg>I hear </seg>
-                        <seg>them -- <caesura/>Ding-<sb/></seg>
+                        <seg>them - <caesura/>Ding-<sb/></seg>
                         <seg>dong, <rhyme label="d">bell.</rhyme></seg>
                     </l>
                     
