@@ -176,16 +176,16 @@ function marker(real) {
     var mark = document.createElement("span");
     mark.setAttribute('class', 'prosody-marker');
     if (real.innerText) {
-        if (real.innerText.length > 1) {
+        //if (real.innerText.length > 1) {
             spacer = "\u00A0".times(Math.floor(real.innerText.length / 2));
             if (real.innerText.length > 3) {
             	mark.appendChild(document.createTextNode(spacer + "/" + spacer));
             } else {
             	mark.appendChild(document.createTextNode("/" + spacer));
             }
-        } else {
-            mark.appendChild(document.createTextNode("/"));
-        }
+        //} else {
+        //    mark.appendChild(document.createTextNode("/"));
+        //}
     } else {
         if (real.textContent.length > 3) {
             spacer = "\u00A0".times(Math.floor(real.textContent.length / 2));
@@ -199,33 +199,25 @@ function marker(real) {
 
 // returns an appropriate token element for use as a slack marker
 function slackmarker(real) {
-    //var mark = document.createElement("span");
-    //mark.setAttribute('class', 'prosody-marker');
-
-	var mark = new Element('span', {'class' : 'prosody-marker'});
-
+    var mark = document.createElement("span");
+    mark.setAttribute('class', 'prosody-marker');
     if (real.innerText) {
-        if (real.innerText.length > 1) {
+        //if (real.innerText.length > 1) {
             spacer = "\u00A0".times(Math.floor(real.innerText.length / 2));
             if (real.innerText.length > 3) {
-            	//mark.appendChild(document.createTextNode(spacer + "\u222a" + spacer));
-				mark.appendChild(document.createTextNode(spacer + "\u222a" + spacer));
+            	mark.appendChild(document.createTextNode(spacer + "\u222a" + spacer));
             } else {
-            	//mark.appendChild(document.createTextNode("\u222a" + spacer));
-				mark.update(document.createTextNode('\u222a' + spacer));
+            	mark.appendChild(document.createTextNode("\u222a" + spacer));
             }
-        } else {
-            //mark.appendChild(document.createTextNode("\u222a"));
-			mark.update(document.createTextNode("\u222a"));
-        }
+        //} else {
+        //    mark.appendChild(document.createTextNode("\u222a"));
+        //}
     } else {
         if (real.textContent.length > 3) {
             spacer = "\u00A0".times(Math.floor(real.textContent.length / 2));
-            //mark.appendChild(document.createTextNode(spacer + "\u222a" + spacer));
-        	mark.update(document.createTextNode(spacer + "\u222a" + spacer));
-		} else {
-            //mark.appendChild(document.createTextNode("\u222a"));
-			mark.update(document.createTextNode("\u222a"));
+            mark.appendChild(document.createTextNode(spacer + "\u222a" + spacer));
+        } else {
+            mark.appendChild(document.createTextNode("\u222a"));
         }
     }
     return mark;
@@ -233,29 +225,23 @@ function slackmarker(real) {
 
 //returns an appropriate placeholder element for use as a blank marker
 function footmarker() {
-    //var mark = document.createElement("span");
-    //mark.setAttribute('class', 'prosody-footmarker');
-    //mark.appendChild(document.createTextNode('|'));
-	var mark = new Element('span', {'class' : 'prosody-footmarker'});
-	mark.update(document.createTextNode('|'));
+    var mark = document.createElement("span");
+    mark.setAttribute('class', 'prosody-footmarker');
+    mark.appendChild(document.createTextNode('|'));
     return mark;
 }
 
 // returns an appropriate placeholder element for use as a blank marker
 function placeholder(real) {
-    //var mark = document.createElement("span");
-    //mark.setAttribute('class', 'prosody-placeholder');
-	var mark = new Element('span', {'class' : 'prosody-footmarker'});
+    var mark = document.createElement("span");
+    mark.setAttribute('class', 'prosody-placeholder');
     if (real.innerText) {
         spacer = "\u00A0".times(Math.floor(real.innerText.length));
     } else {
         spacer = "\u00A0".times(Math.floor(real.textContent.length));
     }
-
-    //mark.appendChild(document.createTextNode(spacer));
-    mark.update(document.createTextNode(spacer));
-	
-	return mark;
+    mark.appendChild(document.createTextNode(spacer));
+    return mark;
 }
 
 // changes the visibility of the stress markers
