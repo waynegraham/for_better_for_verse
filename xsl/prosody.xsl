@@ -43,7 +43,7 @@
                         
                         <link href="css/reset.css" rel="stylesheet" type="text/css" /> 
                         <link href="css/main.css" rel="stylesheet" type="text/css" />
-                        <link href="css/ie.css" rel="stylesheet" type="text/css" />
+   
                   </head>
                   <body>
                         <div id="main">
