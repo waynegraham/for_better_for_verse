@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+  PUBLIC "-//TEI P5//DTD Main Document Type//EN" "http://sds1.itc.virginia.edu:8080/prosody/poems/tei_all.dtd">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" version="5.0">
+        <teiHeader type="text">
+            <fileDesc>
+                <titleStmt>
+                    <title>The Tyger</title>
+                    <author>William Blake</author>
+                </titleStmt>
+                <publicationStmt><p/></publicationStmt>
+                <sourceDesc default="false"><p/></sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <lg n="1" type="quatrain" met="-+(4/4/4/4)" rhyme="aabb" org="uniform" sample="complete" part="N">
+                    <l n="1" met="-+-+-+-+" real="+-+-+-+">
+                        <seg>Ty<sb/></seg>
+                        <seg>ger! ty<sb/></seg>
+                        <seg>ger! burn<sb/></seg>
+                        <seg>ing <rhyme label="a">bright</rhyme></seg>
+                    </l>
+                    <l n="2" met="-+-+-+-+" real="+-+-+-+">
+                        <seg>In </seg>
+                        <seg>the for<sb/></seg>
+                        <seg>ests of </seg>
+                        <seg>the <rhyme label="a">night,</rhyme></seg>
+                    </l>
+                    <l n="3" met="-+-+-+-+" real="+-+-+-+">
+                        <seg>What </seg>
+                        <seg>im<sb/>mor<sb/></seg>
+                        <seg>tal hand </seg>
+                        <seg>or <rhyme label="b">eye</rhyme></seg>
+                    </l>
+                    <l n="4" met="-+-+-+-+" real="-+-+-+-+">
+                        <seg>Could frame </seg>
+                        <seg>thy fear<sb/></seg>
+                        <seg>ful sym<sb/></seg>
+                        <seg>me<sb/><rhyme label="b">try?</rhyme></seg>
+                    </l>
+                </lg>
+                <lg n="2" type="quatrain" met="-+(4/4/4/4)" rhyme="aabb" org="uniform" sample="complete" part="N">
+                    <l n="5" met="-+-+-+-+" real="-++-+-+">
+                        <seg>In </seg>
+                        <seg>what dis<sb/></seg>
+                        <seg>tant deeps </seg>
+                        <seg>or <rhyme label="a">skies</rhyme></seg>
+                    </l>
+                    <l n="6" met="-+-+-+-+" real="+-+-+-+">
+                        <seg>Burnt </seg>
+                        <seg>the fi<sb/></seg>
+                        <seg>re of </seg>
+                        <seg>thine <rhyme label="a">eyes?</rhyme></seg>
+                    </l>
+                    <l n="7" met="-+-+-+-+" real="-+++--+(-)">
+                        <seg>On </seg>
+                        <seg>what wings </seg>
+                        <seg>dare he </seg>
+                        <seg>a<sb/>spi<sb/><rhyme label="b">re?</rhyme></seg>
+                    </l>
+                    <l n="8" met="-+-+-+-+" real="+-+++-+(-)">
+                        <seg>What </seg>
+                        <seg>the hand </seg>
+                        <seg>dare seize </seg>
+                        <seg>the fi<sb/><rhyme label="b">re?</rhyme></seg>
+                    </l>
+                </lg>
+                <lg n="3" type="quatrain" met="-+(4/4/4/4)" rhyme="aabb" org="uniform" sample="complete" part="N">
+                    <l n="9" met="-+-+-+-+" real="-++--++">
+                        <seg>And </seg>
+                        <seg>what should<sb/></seg>
+                        <seg>er, and </seg>
+                        <seg>what <rhyme label="a">art,</rhyme></seg>
+                    </l>
+                    <l n="10" met="-+-+-+-+" real="-+-+-+-+">
+                        <seg>Could twist </seg>
+                        <seg>the sin<sb/></seg>
+                        <seg>ews of </seg>
+                        <seg>thy <rhyme label="a">heart?</rhyme></seg>
+                    </l>
+                    <l n="11" met="-+-+-+-+" real="-+-+-+-+">
+                        <seg>And when </seg>
+                        <seg>thy heart </seg>
+                        <seg>be<sb/>gan </seg>
+                        <seg>to <rhyme label="b">beat,</rhyme></seg>
+                    </l>
+                    <l n="12" met="-+-+-+-+" real="+++-+++">
+                        <seg>What </seg>
+                        <seg>dread hand? </seg>
+                        <caesura/>
+                        <seg>and what </seg>
+                        <seg>dread <rhyme label="b">feet?</rhyme></seg>
+                    </l>
+                </lg>
+                <lg n="4" type="quatrain" met="-+(4/4/4/4)" rhyme="aabb" org="uniform" sample="complete" part="N">
+                    <l n="13" met="-+-+-+-+" real="+-+-+-+">
+                        <seg>What </seg>
+                        <seg>the ham<sb/></seg>
+                        <seg>mer? <caesura/>what </seg>
+                        <seg>the <rhyme label="a">chain?</rhyme></seg>
+                    </l>
+                    <l n="14" met="-+-+-+-+" real="-++-+-+">
+                        <seg>In </seg>
+                        <seg>what fur<sb/></seg>
+                        <seg>nace was </seg>
+                        <seg>thy <rhyme label="a">brain?</rhyme></seg>
+                    </l>
+                    <l n="15" met="-+-+-+-+" real="+-+-+++">
+                        <seg>What </seg>
+                        <seg>the an<sb/></seg>
+                        <seg>vil? <caesura/>what </seg>
+                        <seg>dread <rhyme label="b">grasp</rhyme></seg>
+                    </l>
+                    <l n="16" met="-+-+-+-+" real="+-+-+-+">
+                        <seg>Dare </seg>
+                        <seg>its dead<sb/></seg>
+                        <seg>ly ter<sb/></seg>
+                        <seg>rors <rhyme label="b">clasp?</rhyme></seg>
+                    </l>
+                </lg>
+                <lg n="5" type="quatrain" met="-+(4/4/4/4)" rhyme="aabb" org="uniform" sample="complete" part="N">
+                    <l n="17" met="-+-+-+-+" real="+-+++-+">
+                        <seg>When </seg>
+                        <seg>the stars </seg>
+                        <seg>threw down </seg>
+                        <seg>their <rhyme label="a">spears,</rhyme></seg>
+                    </l>
+                    <l n="18" met="-+-+-+-+" real="-+-+-+-+">
+                        <seg>And wa<sb/></seg>
+                        <seg>tered heav<sb/></seg>
+                        <seg>en with </seg>
+                        <seg>their <rhyme label="a">tears,</rhyme></seg>
+                    </l>
+                    <l n="19" met="-+-+-+-+" real="+-+-+-+">
+                        <seg>Did </seg>
+                        <seg>he smile </seg>
+                        <seg>his work </seg>
+                        <seg>to <rhyme label="b">see?</rhyme></seg>
+                    </l>
+                    <l n="20" met="-+-+-+-+" real="-+-+-+-+">
+                        <seg>Did he </seg>
+                        <seg>who made </seg>
+                        <seg>the Lamb </seg>
+                        <seg>make <rhyme label="b">thee?</rhyme></seg>
+                    </l>
+                </lg>
+                <lg n="6" type="quatrain" met="-+(4/4/4/4)" rhyme="aabb" org="uniform" sample="complete" part="N">
+                    <l n="21" met="-+-+-+-+" real="+-+-+-+">
+                        <seg>Ty<sb/></seg>
+                        <seg>ger! ty<sb/></seg>
+                        <seg>ger! burn<sb/></seg>
+                        <seg>ing <rhyme label="a">bright</rhyme></seg>
+                    </l>
+                    <l n="22" met="-+-+-+-+" real="+-+-+-+">
+                        <seg>In </seg>
+                        <seg>the for<sb/></seg>
+                        <seg>ests of </seg>
+                        <seg>the <rhyme label="a">night,</rhyme></seg>
+                    </l>
+                    <l n="23" met="-+-+-+-+" real="+-+-+-+">
+                        <seg>What </seg>
+                        <seg>im<sb/>mor<sb/></seg>
+                        <seg>tal hand </seg>
+                        <seg>or <rhyme label="b">eye</rhyme></seg>
+                    </l>
+                    <l n="24" met="-+-+-+-+" real="-+-+-+-+">
+                        <seg>Dare frame </seg>
+                        <seg>thy fear<sb/></seg>
+                        <seg>ful sym<sb/></seg>
+                        <seg>me<sb/><rhyme label="b">try?</rhyme></seg>
+                    </l>
+                </lg>
+            </body></text></TEI>

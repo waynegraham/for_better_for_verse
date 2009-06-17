@@ -36,8 +36,8 @@
                         <seg>if to pleas<sb/></seg>
                         <seg>ure his <rhyme label="a">ear</rhyme></seg>
                     </l>
-                    <l n="4" met="--+--+" real="-+--+" part="N">
-                        <seg>  A roun<sb/></seg>
+                    <l n="4" met="--+--+" real="-+--+" rend="indent(2)">
+                        <seg>A roun<sb/></seg>
                         <seg>del is <rhyme label="b">wrought.</rhyme></seg>
                     </l>
                 </lg>
@@ -87,8 +87,8 @@
                         <seg>as a pearl </seg>
                         <seg>or <rhyme label="a">tear,</rhyme></seg>
                     </l>
-                    <l n="11" met="--+--+" real="-+--+" part="N">
-                        <seg>  A roun<sb/></seg>
+                    <l n="11" met="--+--+" real="-+--+" rend="indent(2)">
+                        <seg>A roun<sb/></seg>
                         <seg>del is <rhyme label="b">wrought.</rhyme></seg>
                     </l>
                 </lg></body></text></TEI>

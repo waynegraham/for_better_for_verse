@@ -1,94 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE TEI
-  PUBLIC "-//TEI P5//DTD Main Document Type//EN" "http://localhost:8080/prosody/poems/tei_all.dtd">
-<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" version="5.0"><teiHeader type="text"><fileDesc><titleStmt><title>"Bright Star, would I were stedfast as thou art"</title><author>John Keats</author></titleStmt><publicationStmt><date>1848</date></publicationStmt><sourceDesc default="false"><p/></sourceDesc></fileDesc></teiHeader><text><body><lg n="1" type="quatrain" met="-+(5)" rhyme="abab" org="uniform" sample="complete" part="N"><l n="1" part="N" met="-+-+-+-+-+" real="++-+-+--++">
-                    <seg met="-+" real="++" part="N">Bright star, </seg>
+  PUBLIC "-//TEI P5//DTD Main Document Type//EN" "http://sds1.itc.virginia.edu:8080/prosody/poems/tei_all.dtd">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" version="5.0">
+    <teiHeader type="text">
+        <fileDesc>
+            <titleStmt>
+                <title>"Bright Star, would I were stedfast as thou art"</title>
+                <author>John Keats</author>
+            </titleStmt>
+            <publicationStmt><date>1848</date></publicationStmt>
+            <sourceDesc default="false"><p/></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <lg n="1" type="sonnet" met="-+(5/5/5/5/5/5/5/5/5/5/5/5/5/5)" rhyme="ababcdcdefefgg" org="uniform" sample="complete">
+                <l n="1" met="-+-+-+-+-+" real="++-+-+--++">
+                    <seg>Bright star, </seg>
                     <caesura/>
-                    <seg met="-+" part="N">would I </seg>
-                    <seg met="-+" part="N">were stead<sb part="N"/></seg>
-                    <seg met="-+" real="--" part="N">fast as </seg>
-                    <seg met="-+" real="++" part="N">thou <rhyme label="a">art--</rhyme></seg>
+                    <seg>would I </seg>
+                    <seg>were stead<sb/></seg>
+                    <seg>fast as </seg>
+                    <seg>thou <rhyme label="a">art--</rhyme></seg>
     <note anchored="true">
         Although ordinarily personal pronouns go unstressed, here we stress "I" and "thou" because Keats has built the entire sonnet on articulating the relation, and the difference, between the two (himself and the star).  Lines 2-8 elaborate one way of being "steadfast," attractive yet declined finally in favor of the way described in the rest of the poem.  The distinctly emphasized pronouns of line 1 set the whole contrast up.
         </note>
-                </l><space/><l n="2" part="N" met="-+-+-+-+-+" real="+-++-+-+-+">
-                    <seg met="-+" real="+-" part="N">Not in </seg>
-                    <seg met="-+" real="++" part="N">lone splen<sb part="N"/></seg>
-                    <seg met="-+" part="N">dour hung </seg>
-                    <seg met="-+" part="N">a<sb part="N"/>loft </seg>
-                    <seg met="-+" part="N">the <rhyme label="b">night</rhyme></seg>
-                </l><l n="3" part="N" met="-+-+-+-+-+" real="-+-+-+-+-+">
-                    <seg met="-+" part="N">And watch<sb part="N"/></seg>
-                    <seg met="-+" part="N">ing, with </seg>
-                    <seg met="-+" part="N">e<sb part="N"/>ter<sb part="N"/></seg>
-                    <seg met="-+" part="N">nal lids </seg>
-                    <seg met="-+" part="N">a<sb part="N"/><rhyme label="a">part,</rhyme></seg>
-                </l><space/><l n="4" part="N" met="-+-+-+-+-+" real="-+-+-+-+-+">
-                    <seg met="-+" part="N">Like na<sb part="N"/></seg>
-                    <seg met="-+" part="N">ture's pa<sb part="N"/></seg>
-                    <seg met="-+" part="N">tient, sleep<sb part="N"/></seg>
-                    <seg met="-+" part="N">less Er<sb part="N"/></seg>
-                    <seg met="-+" part="N">e<sb part="N"/><rhyme label="b">mite,</rhyme></seg>
-                </l></lg><lg n="2" type="quatrain" met="-+(5)" rhyme="cdcd" org="uniform" sample="complete" part="N"><l n="5" part="N" met="-+-+-+-+-+" real="-+-+-+-+-+">
-                    <seg met="-+" part="N">The mov<sb part="N"/></seg>
-                    <seg met="-+" part="N">ing wa<sb part="N"/></seg>
-                    <seg met="-+" part="N">ters at </seg>
-                    <seg met="-+" part="N">their priest<sb part="N"/></seg>
-                    <seg met="-+" part="N">like <rhyme label="c">task</rhyme></seg>
-                </l><space/><l n="6" part="N" met="-+-+-+-+-+" real="-+-+-+++-+">
-                    <seg met="-+" part="N">Of pure </seg>
-                    <seg met="-+" part="N">ab<sb part="N"/>lu<sb part="N"/></seg>
-                    <seg met="-+" part="N">tion round </seg>
-                    <seg met="-+" real="++" part="N">earth's hu<sb part="N"/></seg>
-                    <seg met="-+" part="N">man <rhyme label="d">shores,</rhyme></seg>
-                </l><l n="7" part="N" met="-+-+-+-+-+" real="-+---+++-+">
-                    <seg met="-+" part="N">Or gaz<sb part="N"/></seg>
-                    <seg met="-+" real="--" part="N">ing on </seg>
-                    <seg met="-+" part="N">the new </seg>
-                    <seg met="-+" real="++" part="N">soft-<sb part="N"/>fall<sb part="N"/></seg>
-                    <seg met="-+" part="N">en <rhyme label="c">mask</rhyme></seg>
-                </l><space/><l n="8" part="N" met="-+-+-+-+-+" real="-+-+-+-+-+">
-                    <seg met="-+" part="N">Of snow </seg>
-                    <seg met="-+" part="N">up<sb part="N"/>on </seg>
-                    <seg met="-+" part="N">the moun<sb part="N"/></seg>
-                    <seg met="-+" part="N">tains and </seg>
-                    <seg met="-+" part="N">the <rhyme label="d">moors--</rhyme></seg>
-                </l></lg><lg n="3" type="quatrain" met="-+(5)" rhyme="efef" org="uniform" sample="complete" part="N"><l n="9" part="N" met="-+-+-+-+-+" real="+-++-+-+-+">
-                    <seg met="-+" real="+-" part="N">No--<caesura/>yet </seg>
-                    <seg met="-+" real="++" part="N">still stead<sb part="N"/></seg>
-                    <seg met="-+" part="N">fast, <caesura/> still </seg>
-                    <seg met="-+" part="N">un<sb part="N"/>change<sb part="N"/></seg>
-                    <seg met="-+" part="N">a<sb part="N"/><rhyme label="e">ble,</rhyme></seg>
-                </l><space/><l n="10" part="N" met="-+-+-+-+-+" real="+--+-+++--+">
-                    <seg met="-+" real="+-" part="N">Pil<sb part="N"/>low'd </seg>
-                    <seg met="-+" part="N">up<sb part="N"/>on </seg>
-                    <seg met="-+" part="N">my fair </seg>
-                    <seg met="-+" real="++" part="N">love's rip<sb part="N"/></seg>
-                    <seg met="-+" real="--+" part="N">en<sb part="N"/>ing <rhyme label="f">breast,</rhyme></seg>
-                </l><l n="11" part="N" met="-+-+-+-+-+" real="-+-+--++-+">
-                    <seg met="-+" part="N">To feel </seg>
-                    <seg met="-+" part="N">for ev<sb part="N"/></seg>
-                    <seg met="-+" real="--" part="N">er its </seg>
-                    <seg met="-+" real="++" part="N">soft fall </seg>
-                    <seg met="-+" part="N">and <rhyme label="e">swell,</rhyme></seg>
-                </l><space/><l n="12" part="N" met="-+-+-+-+-+" real="-+-+---+++">
-                    <seg met="-+" part="N">A<sb part="N"/>wake </seg>
-                    <seg met="-+" part="N">for ev<sb part="N"/></seg>
-                    <seg met="-+" real="--" part="N">er in </seg>
-                    <seg met="-+" part="N">a sweet </seg>
-                    <seg met="-+" real="++" part="N">un<sb part="N"/><rhyme label="f">rest,</rhyme></seg>
-                </l></lg><lg n="4" type="couplet" met="-+(5)" rhyme="gg" org="uniform" sample="complete" part="N"><l n="13" part="N" met="-+-+-+-+-+" real="++-+-+-+-+">
-                    <seg met="-+" real="++" part="N">Still, still </seg>
-                    <seg met="-+" part="N">to hear </seg>
-                    <seg met="-+" part="N">her ten<sb part="N"/></seg>
-                    <seg met="-+" part="N">der-tak<sb part="N"/></seg>
-                    <seg met="-+" part="N">en <rhyme label="g">breath,</rhyme></seg>
-                </l><space/><l n="14" part="N" met="-+-+-+-+-+" real="-+++---+-+">
-                    <seg met="-+" part="N">And so </seg>
-                    <seg met="-+" real="++" part="N">live ev<sb part="N"/></seg>
-                    <seg met="-+" real="--" part="N">er--<caesura/>or </seg>
-                    <seg met="-+" part="N">else swoon </seg>
-                    <seg met="-+" part="N">to <rhyme label="g">death.</rhyme></seg>
+                </l><l n="2" met="-+-+-+-+-+" real="+-++-+-+-+" rend="indent(1)">
+                    <seg>Not in </seg>
+                    <seg>lone splen<sb/></seg>
+                    <seg>dour hung </seg>
+                    <seg>a<sb/>loft </seg>
+                    <seg>the <rhyme label="b">night</rhyme></seg>
+                </l><l n="3" met="-+-+-+-+-+" real="-+-+-+-+-+">
+                    <seg>And watch<sb/></seg>
+                    <seg>ing, with </seg>
+                    <seg>e<sb/>ter<sb/></seg>
+                    <seg>nal lids </seg>
+                    <seg>a<sb/><rhyme label="a">part,</rhyme></seg>
+                </l><l n="4" met="-+-+-+-+-+" real="-+-+-+-+-+" rend="indent(1)">
+                    <seg>Like na<sb/></seg>
+                    <seg>ture's pa<sb/></seg>
+                    <seg>tient, sleep<sb/></seg>
+                    <seg>less Er<sb/></seg>
+                    <seg>e<sb/><rhyme label="b">mite,</rhyme></seg>
+                </l><l n="5" met="-+-+-+-+-+" real="-+-+-+-+-+">
+                    <seg>The mov<sb/></seg>
+                    <seg>ing wa<sb/></seg>
+                    <seg>ters at </seg>
+                    <seg>their priest<sb/></seg>
+                    <seg>like <rhyme label="c">task</rhyme></seg>
+                </l><l n="6" part="N" met="-+-+-+-+-+" real="-+-+-+++-+" rend="indent(1)">
+                    <seg>Of pure </seg>
+                    <seg>ab<sb/>lu<sb/></seg>
+                    <seg>tion round </seg>
+                    <seg>earth's hu<sb/></seg>
+                    <seg>man <rhyme label="d">shores,</rhyme></seg>
+                </l><l n="7" met="-+-+-+-+-+" real="-+---+++-+">
+                    <seg>Or gaz<sb/></seg>
+                    <seg>ing on </seg>
+                    <seg>the new </seg>
+                    <seg>soft-<sb/>fall<sb/></seg>
+                    <seg>en <rhyme label="c">mask</rhyme></seg>
+                </l><l n="8" met="-+-+-+-+-+" real="-+-+-+-+-+" rend="indent(1)">
+                    <seg>Of snow </seg>
+                    <seg>up<sb/>on </seg>
+                    <seg>the moun<sb/></seg>
+                    <seg>tains and </seg>
+                    <seg>the <rhyme label="d">moors--</rhyme></seg>
+                </l><l n="9" met="-+-+-+-+-+" real="+-++-+-+-+">
+                    <seg>No--<caesura/><sb/>yet </seg>
+                    <seg>still stead<sb/></seg>
+                    <seg>fast, <caesura/>still </seg>
+                    <seg>un<sb/>change<sb/></seg>
+                    <seg>a<sb/><rhyme label="e">ble,</rhyme></seg>
+                </l><l n="10" met="-+-+-+-+-+" real="+--+-+++--+" rend="indent(1)">
+                    <seg>Pil<sb/>low'd </seg>
+                    <seg>up<sb/>on </seg>
+                    <seg>my fair </seg>
+                    <seg>love's rip<sb/></seg>
+                    <seg>en<sb/>ing <rhyme label="f">breast,</rhyme></seg>
+                </l><l n="11" met="-+-+-+-+-+" real="-+-+--++-+">
+                    <seg>To feel </seg>
+                    <seg>for ev<sb/></seg>
+                    <seg>er its </seg>
+                    <seg>soft fall </seg>
+                    <seg>and <rhyme label="e">swell,</rhyme></seg>
+                </l><l n="12" met="-+-+-+-+-+" real="-+-+---+++" rend="indent(1)">
+                    <seg>A<sb/>wake </seg>
+                    <seg>for ev<sb/></seg>
+                    <seg>er in </seg>
+                    <seg>a sweet </seg>
+                    <seg>un<sb/><rhyme label="f">rest,</rhyme></seg>
+                </l><l n="13" met="-+-+-+-+-+" real="++-+-+-+-+">
+                    <seg>Still, still </seg>
+                    <seg>to hear </seg>
+                    <seg>her ten<sb/></seg>
+                    <seg>der-<sb/>tak<sb/></seg>
+                    <seg>en <rhyme label="g">breath,</rhyme></seg>
+                </l><l n="14" met="-+-+-+-+-+" real="-+++---+-+">
+                    <seg>And so </seg>
+                    <seg>live ev<sb/></seg>
+                    <seg>er--<caesura/>or </seg>
+                    <seg>else swoon </seg>
+                    <seg>to <rhyme label="g">death.</rhyme></seg>
                     <note anchored="true">
                         This line may be scanned several different ways, with stress e. g. on "else" or even "or" (though not both!).  The scansion preferred here highlights the swooniness of the death wish -- a second-best alternative that Keats snatches at as doubts about immortality assail him at the caesura after "live ever."  A little melodramatic, perhaps; but in keeping with the poem's manifest preference for sensation over detached, dispassionate intellection.
                     </note>
