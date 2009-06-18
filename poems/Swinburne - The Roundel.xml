@@ -15,7 +15,7 @@
         <text>
             <body>
                 <lg n="1" type="roundel" met="--+(5/5/5/2)" rhyme="abab" org="uniform" sample="complete" part="N">
-                    <l n="1" met="--+--+--+--+--+" real="-+--+--+--+-+" part="N">
+                    <l n="1" met="--+--+--+--+--+" real="-+--+--+--+++" part="N">
                    <seg>A roun<sb/></seg>
                    <seg>del is wrought </seg>
                    <seg>as a ring </seg>
@@ -71,6 +71,9 @@
                         <caesura/>
                         <seg>and the hearts </seg>
                         <seg>in us <rhyme label="a">hear</rhyme></seg>
+                        <note anchored="true">
+                            Since line 1, Swinburne has here and there swapped in spondees to take up, in a single extra stress, the twinned slack of his poem's anapestic meter.  This line carries that principle of substitution to a virtuoso extreme.  If you can feel the triple anapest running in the background, while you hear the beat of the five consecutive stresses, you get the prosodic equivalent of what the line is talking about: a sort of quadraphonic migration across an acoustic surround.
+                        </note>
                     </l>
                     <l n="9" met="--+--+--+--+--+" real="++--+--+-+++" part="N">
                         <seg>Pause an<sb/></seg>
