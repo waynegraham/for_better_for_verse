@@ -40,6 +40,7 @@
                     <seg met="-+">ness, <caesura/>like </seg>
                     <seg met="-+">the ooze </seg>
                     <seg met="-+">of <rhyme label="b">oil</rhyme></seg>
+                    <note>Now you can see why this poem is presented as a Special Challenge.  If anything this line is more evidently a hexameter than line 1 was a tetrameter.  Yet - take it on faith for now - the sonnet's meter is pentameter; so the prosodist sweeps all those slacks into a second foot of 4 syllables and calls it a paeonic (technically a "fourth paeonic" because thefoot's one stress falls in fourth place).  Scan it thus and, for your trouble, get the dividend of a heightened sense of swift inevitable "gathering" in the sudden grandeurs of a divinely charged world.  Line 12 seems to remember this accelerando, though there Hopkins obtains it by legal means.  He became so fond of rhythmical suppleness that many of his best poems jettison accentual-syllabic metrics altogether, in favor of what he called Sprung Rhythm. This poem springs that way but doesn't quite obtain escape velocity.</note>
                 </l>
                 <l n="4" met="-+-+-+-+-+" real="++-+-+-+-+">
                     <seg>Crushed. <caesura/> Why </seg>
@@ -73,7 +74,7 @@
                     <caesura/>
                     <seg>the <rhyme label="b">soil</rhyme></seg>
                 </l>
-                <l n="8" met="-+-+-+-+-+" real="-+-+-+++-+">
+                <l n="8" met="-+-+-+-+-+" real="-+-+-++--+">
                     <seg>Is bare </seg>
                     <seg>now, <caesura/>nor </seg>
                     <seg>can foot </seg>
