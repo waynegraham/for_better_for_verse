@@ -70,7 +70,7 @@
                     <l n="9" met="-+-+-+-+" real="-++--++">
                         <seg>And </seg>
                         <seg>what should<sb/></seg>
-                        <seg>er, and </seg>
+                        <seg>er, &amp; </seg>
                         <seg>what <rhyme label="a">art,</rhyme></seg>
                     </l>
                     <l n="10" met="-+-+-+-+" real="-+-+-+-+">
@@ -89,7 +89,7 @@
                         <seg>What </seg>
                         <seg>dread hand? </seg>
                         <caesura/>
-                        <seg>and what </seg>
+                        <seg>&amp; what </seg>
                         <seg>dread <rhyme label="b">feet?</rhyme></seg>
                     </l>
                 </lg>
