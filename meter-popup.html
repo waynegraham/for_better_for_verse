@@ -12,7 +12,7 @@
         function init() {
             var linenumber = window.location.search.substring(1).split('&')[0].split('=')[1];
             var linegroupindex = window.location.search.substring(1).split('&')[1].split('=')[1];
-            var fullanswer = window.opener.$("prosody:real:" + linenumber).select("span[answer]")[0].getAttribute('answer');    
+            var fullanswer = window.opener.$("prosody-real-" + linenumber).select("span[answer]")[0].getAttribute('answer');    
             var foottype = fullanswer.split("(")[0];
             var numberfeet = fullanswer.split("(")[1].split(")")[0].split("/")[linegroupindex-1];
             document.forms[0].answer.value = foottype + numberfeet;
