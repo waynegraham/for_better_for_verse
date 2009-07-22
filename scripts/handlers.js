@@ -1,3 +1,7 @@
+/**
+ * $Id$
+ */
+
 var prosodyUtils = {
 	removeAllChildren: function (element) {
         element = $(element);
