@@ -1,33 +1,39 @@
+var prosodyUtils = {
+	removeAllChildren: function (element) {
+        element = $(element);
+        
+        return element.update();
+    },
+
+    getInnerText: function(element) {
+        element = $(element);
+        return element.innerText && !window.opera ? element.innerText
+            : element.innerHTML.stripScripts().unescapeHTML().replace(/[\n\r\s]+/g, ' ');
+    },
+	
+	pullText: function (element) {
+    	
+        element = $(element);
+
+        if (element !== undefined && element !== null) {
+        	if (element.innerText) {
+        		return element.innerText;
+        	}
+        	
+			return element.textContent;
+        }
+		return '';       
+    }
+}
+
+// symbols used;
+var space = '\u00A0';
+var cup = '\u222a';
+var backslash = '';
+
+Element.addMethods(prosodyUtils);
+
 function init() {
-    
-    // utility methods for all elements
-    Element.addMethods({
-        removeAllChildren: function (element) {
-            element = $(element);
-            if (element !== undefined && element !== null) {
-                while (element.hasChildNodes()) {
-                    element.removeChild(element.firstChild);
-                }
-            }
-            return element;
-        }
-    });
-    
-    Element.addMethods({
-        pullText: function (element) {
-	    	var t;
-	        element = $(element);
-	        if (element !== undefined && element !== null) {
-	        	if (element.innerText) {
-	        		t = element.innerText;
-	        	}
-	        	else {
-	        		t = element.textContent
-	        	}
-	        }
-	        return t;
-        }
-    });
     
     // now we set 'stress' to be empty on all the real syllables
     $$('span[real]').collect(function (node) {
@@ -84,22 +90,28 @@ function switchstress(shadowspan) {
 function checkstress(linenumber) {
     // called to submit an answer to the scansion-checking servlet, returns the
     // answer
-    debug("Entering checkstress(" + linenumber + ")");
+    debug("Entering checkstress line (" + linenumber + ")");
     // first we assemble the answer from the "stress" members of the appropriate
     // line
-    
-    var answer = $("prosody:real:" + linenumber).select("span[real]").pluck(
+
+    var answer = $("prosody:real:" + linenumber).select("[real]").pluck(
     "stress").collect(function (s) {
         return s.replace(/\u222a/, '-')
     }).join('');
-    debug("past var answer");
+    debug("Answer set to: " + answer);
+
+    //var met = $('prosody:shadow:' + linenumber).select('[met]');
+    //var met = $('prosody:met:' + linenumber).innerHTML;
+    //var exp = $('prosody:expected:' + linenumber).innerHTML;
+
     // now we check to see that this is a complete answer. if not, we alert and
     // return
     
-    if (answer.length != $("prosody:real:" + linenumber).select("span[real]").length) {
+    if (answer.length != $("prosody:real:" + linenumber).select("[real]").length) {
         alert("An answer must be complete to be submitted. Please fill in a symbol over each syllable in this line.");
         return;
     }
+
     debug("past if(answer.length)");
     // now we use Prototype's Ajax Updater convenience type to update the
     // checking signal/control
@@ -171,60 +183,56 @@ function checkmeter(linenumber, linegroupindex) {
 
 }
 
-// returns an appropriate token element for use as a stress marker
-function marker(real) {
-    var mark = document.createElement("span");
-    mark.setAttribute('class', 'prosody-marker');
-    if (real.innerText) {
-        //if (real.innerText.length > 1) {
-            spacer = "\u00A0".times(Math.floor(real.innerText.length / 2));
-            if (real.innerText.length > 3) {
-            	mark.appendChild(document.createTextNode(spacer + "/" + spacer));
-            } else {
-            	mark.appendChild(document.createTextNode("/" + spacer));
-            }
-        //} else {
-        //    mark.appendChild(document.createTextNode("/"));
-        //}
-    } else {
-        if (real.textContent.length > 3) {
-            spacer = "\u00A0".times(Math.floor(real.textContent.length / 2));
-            mark.appendChild(document.createTextNode(spacer + "/" + spacer));
-        } else {
-            mark.appendChild(document.createTextNode("/"));
-        }
+function grabText(real){
+
+    if(real.innerText){
+        return real.innerText;
     }
-    return mark;
+    return real.textContent;
+}
+
+/**
+ *
+ */
+function addMarker(real, symbol){
+   var mark = new Element('span', {'class' : 'prosody-marker'});
+
+   // get the text node from the real
+   var text = grabText(real);
+   
+   var tLen = text.length; // text length
+   var tMid = Math.floor(tLen / 2);
+
+   var tMod = tLen % 2;
+   spacer = "\u00A0".times(Math.floor(text.length / 2));
+
+	//TODO: Explain logic
+
+   if (tMod === 0) {
+       lspacer = "\u00A0".times(Math.floor((text.length / 2) - 1));
+       mark.update(lspacer + symbol + lspacer);
+   } else {
+
+       mark.update(spacer + symbol + spacer);
+   }
+   return mark;
+}
+
+// returns an appropriate token element for use as a stress markehttp://localhost:8080/prosody/exercise.jsp?poem=test2.xmlr
+function marker(real) {
+    return addMarker(real, "/");
 }
 
 // returns an appropriate token element for use as a slack marker
 function slackmarker(real) {
-    var mark = document.createElement("span");
-    mark.setAttribute('class', 'prosody-marker');
-    if (real.innerText) {
-        //if (real.innerText.length > 1) {
-            spacer = "\u00A0".times(Math.floor(real.innerText.length / 2));
-            if (real.innerText.length > 3) {
-            	mark.appendChild(document.createTextNode(spacer + "\u222a" + spacer));
-            } else {
-            	mark.appendChild(document.createTextNode("\u222a" + spacer));
-            }
-        //} else {
-        //    mark.appendChild(document.createTextNode("\u222a"));
-        //}
-    } else {
-        if (real.textContent.length > 3) {
-            spacer = "\u00A0".times(Math.floor(real.textContent.length / 2));
-            mark.appendChild(document.createTextNode(spacer + "\u222a" + spacer));
-        } else {
-            mark.appendChild(document.createTextNode("\u222a"));
-        }
-    }
-    return mark;
+    return addMarker(real, "\u222a");
 }
 
 //returns an appropriate placeholder element for use as a blank marker
 function footmarker() {
+	
+	//var mark = new Element('a', {'class': 'prosody-footmarker'}).update('|');
+	//return mark;
     var mark = document.createElement("span");
     mark.setAttribute('class', 'prosody-footmarker');
     mark.appendChild(document.createTextNode('|'));
@@ -232,26 +240,14 @@ function footmarker() {
 }
 
 // returns an appropriate placeholder element for use as a blank marker
-function placeholder(real) {
-    var mark = document.createElement("span");
-    mark.setAttribute('class', 'prosody-placeholder');
-    if (real.innerText) {
-        spacer = "\u00A0".times(Math.floor(real.innerText.length));
-    } else {
-        spacer = "\u00A0".times(Math.floor(real.textContent.length));
-    }
-    mark.appendChild(document.createTextNode(spacer));
-    return mark;
+function placeholder(real) {  
+    return addMarker(real, " ");
 }
 
 // changes the visibility of the stress markers
 function togglestress() {
     $$('.prosody-marker').invoke("toggle");
 }
-
-
-
-
 
 // this function highlights those syllables in which real="" and met=""
 // scansions are different.
@@ -272,8 +268,10 @@ function toggledifferences(e) {
 function updatehintbutton(id) {
     debug("Entering updatehintbutton(" + id + ")");
     e = $("displaynotebutton" + id);
-    debug("	e = " + $("displaynotebutton" + id));
-    debug(" e.firstDescendant() = " + $(e).firstDescendant());
+    debug("	e = " + e);
+    if($(e).firstDescendant()){
+        debug(" e.firstDescendant() = " + $(e).firstDescendant());
+    }
     if ($$("#checkstress" + id + " span[allowdis]").length > 0) {
         debug("	Passed test.");
         // if the stress button has an acceptable state
@@ -282,14 +280,21 @@ function updatehintbutton(id) {
         e.removeChild($(e).firstDescendant());
         e.appendChild(clickablehintimage());
         // and clickability
-        e.setAttribute('onclick', "pophint(this)");
+        if (e.addEventListener) 
+			e.addEventListener('click',pophint,false); //everything else    
+		else if (e.attachEvent)
+    		e.attachEvent('onclick',pophint);  //IE only
+
+        //e.setAttribute('onclick', "pophint(this)");
+        debug("	e.onclick = " + e.onclick);
         //}
     }
 }
 
 function clickablehintimage() {
     debug("Entering clickablehintimage()");
-    img = document.createElement("img");
+    //var img = new Element('img', {'src': 'images/unclickablehint.png'}).update();
+	img = document.createElement("img");
     img.setAttribute('src', 'images/unclickablehint.png');
     debug("img = ");
     debug(img);
@@ -297,15 +302,27 @@ function clickablehintimage() {
 }
 
 function pophint(e) {
-    linenumber = e.id.substring(17);
+	debug("Entering pophint()");
+	// more IE crap
+	if (e.srcElement) // stupid IE
+		linenumber = e.srcElement.id.substring(17);
+	else if (e.target) // normal browsers
+    	linenumber = e.target.id.substring(17);
     hintp = $("hintfor" + linenumber);
     //pop = window.open("", "Hint for line " + linenumber,"menubar=no,scrollbars=yes,height=300,width=400");
-	pop=window.open("","","menubar=no,scrollbars=yes,height=300,width=400");
-    pop.document.body.setAttribute("style", "background:#222;color:#fff;font-size:14px;font-family:arial;");
-    pop.document.body.appendChild(pop.document.importNode(hintp, true));
+	pop=window.open("popupbodyforie.html","Hint" + linenumber,"menubar=no,scrollbars=yes,height=300,width=400");
+	//debug(pop.document);
+	debug("Popup opened");
+   // pop.document.body.setAttribute("style", "background:#222;color:#fff;font-size:14px;font-family:arial;");
+	if (pop.document.body.importNode) // DOM Level 2 capable browsers
+		setTimeout("pop.document.body.appendChild(pop.document.importNode(hintp, true))",500);
+	else // more MS crap
+		debug("hintp nodetype = " + hintp.nodetype);
+		setTimeout(function() { pop.document.body.appendChild(hintp) },500);
 }
 
 function debug(s) {
-    if (debugflag)
-    console.log(s);
+    if (debugflag){
+        console.log(s);
+    }
 }

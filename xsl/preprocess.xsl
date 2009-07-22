@@ -116,7 +116,7 @@
                         </button>
                         <p class="prosody-note" id="hintfor{$line-number}">
                             <span>Note on line number <xsl:value-of select="$line-number"/>:</span>
-                            <xsl:copy-of select="TEI:note"/>
+                            <xsl:value-of select="TEI:note"/>
                         </p>
                     </span>
                 </xsl:if>

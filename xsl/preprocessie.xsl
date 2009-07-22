@@ -113,7 +113,7 @@
 
                 <div class="buttons">
                     <xsl:if test="TEI:note">
-                        <span class="button">
+                        <td class="button">
                             <button class="prosody-note-button" id="displaynotebutton{$line-number}"
                                 name="Note about this line" onclick="">
                                 <img src="images/blank.gif"/>
@@ -121,9 +121,9 @@
                             <p class="prosody-note" id="hintfor{$line-number}">
                                 <span>Note on line number <xsl:value-of select="$line-number"
                                     />:</span>
-                                <xsl:copy-of select="TEI:note"/>
+                                <xsl:value-of select="TEI:note"/>
                             </p>
-                        </span>
+                        </td>
                     </xsl:if>
                     <td class="button">
                         <button class="prosody-checkstress" id="checkstress{$line-number}"
