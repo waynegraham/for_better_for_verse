@@ -1,4 +1,4 @@
-#main #poem span {
+/** #main #poem span {
 	font-family: monospace;
 	word-spacing: 0em;
 	letter-spacing: 0em;
@@ -8,3 +8,11 @@
 	margin: 0;
 	padding: 0;
 	}
+	*/
+.prosody-footmarker {
+	color: #DEB887;
+	font-weight: bold;
+	vertical-align: bottom;
+	padding: .1em;
+	margin: auto !important;
+}
