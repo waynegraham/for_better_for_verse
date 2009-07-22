@@ -41,7 +41,7 @@
         
         <div class="prosody:line">
             <!-- first cycle through the segments, constructing shadow syllables -->
-            <div class="prosody-shadowline" id="prosody:shadow:{$line-number}">
+            <div class="prosody-shadowline" id="prosody-shadow-{$line-number}">
                 <xsl:copy-of select="@*"/>
                 <xsl:for-each select="TEI:seg">
                     
@@ -53,7 +53,7 @@
                         <xsl:for-each select="tokenize(string(.),' ')">
                             <xsl:if test="string(.)">
                                 <span class="prosody-shadowsyllable" shadow=""
-                                    id="prosody:shadow:{$line-number}:{$seg-position}:{$foot-position}:{position()}"
+                                    id="prosody-shadow-{$line-number}-{$seg-position}-{$foot-position}-{position()}"
                                     onclick="switchstress(this);">
                                     <span class="prosody-placeholder">
                                         <xsl:copy-of select="string(.)"/>
@@ -65,7 +65,7 @@
                 </xsl:for-each>
             </div>
             
-            <div class="TEI-l" id="prosody:real:{$line-number}">
+            <div class="TEI-l" id="prosody-real-{$line-number}">
                 
                 <xsl:copy-of select="@*"/>
                 
@@ -88,8 +88,8 @@
                         <xsl:for-each select="tokenize(.,' ')">
                             <xsl:if test="string(.)">
                                 <span class="prosody-syllable" real=""
-                                    id="prosody:real:{$line-number}:{$seg-position}:{$foot-position}:{position()}"
-                                    onclick="switchfoot('prosody:real:{$line-number}:{$seg-position}:{$foot-position}:{position()}');">
+                                    id="prosody-real-{$line-number}-{$seg-position}-{$foot-position}-{position()}"
+                                    onclick="switchfoot('prosody-real-{$line-number}-{$seg-position}-{$foot-position}-{position()}');">
                                     <xsl:if test="$discrepant-flag">
                                         <xsl:attribute name="discrepant"/>
                                     </xsl:if>
