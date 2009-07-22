@@ -1,6 +1,6 @@
-/**
+/** 
  * $Id$
- */
+ */ 
 
 var prosodyUtils = {
 	removeAllChildren: function (element) {
@@ -49,7 +49,7 @@ function init() {
 
 function switchstress(shadowspan) {
     // called when a syllable's stress is changed
-    realsyllable = $("prosody:real:" + shadowspan.id.substring(15));
+    realsyllable = $("prosody-real-" + shadowspan.id.substring(15));
     if (realsyllable.stress == "-" || realsyllable.stress == "") {
         new Effect.Opacity($(shadowspan), {
             from: 0,
@@ -98,7 +98,7 @@ function checkstress(linenumber) {
     // first we assemble the answer from the "stress" members of the appropriate
     // line
 
-    var answer = $("prosody:real:" + linenumber).select("[real]").pluck(
+    var answer = $("prosody-real-" + linenumber).select("span[real]").pluck(
     "stress").collect(function (s) {
         return s.replace(/\u222a/, '-')
     }).join('');
@@ -111,7 +111,7 @@ function checkstress(linenumber) {
     // now we check to see that this is a complete answer. if not, we alert and
     // return
     
-    if (answer.length != $("prosody:real:" + linenumber).select("[real]").length) {
+    if (answer.length != $("prosody-real-" + linenumber).select("span[real]").length) {
         alert("An answer must be complete to be submitted. Please fill in a symbol over each syllable in this line.");
         return;
     }
@@ -142,6 +142,10 @@ function checkstress(linenumber) {
 }
 
 function switchfoot(coords) {
+	debug("Switching foot on element: " );
+	debug($(coords));
+	debug("Which contains .select('span') of: ");
+	debug($(coords).select("span"));
     if ($(coords).select("span").length > 0) {
         $(coords).select("span")[0].remove();
     } else {
@@ -155,7 +159,7 @@ function checkfeet(linenumber) {
     
     // first we assemble the answer from the "stress" members of the appropriate
     // line
-    var answer = $("prosody:real:" + linenumber).select("span[real]").invoke(
+    var answer = $("prosody-real-" + linenumber).select("span[real]").invoke(
     "pullText").join('');
     /* console.log(answer); */
     
@@ -240,7 +244,9 @@ function footmarker() {
     var mark = document.createElement("span");
     mark.setAttribute('class', 'prosody-footmarker');
     mark.appendChild(document.createTextNode('|'));
+    debug("Created footmarker " + mark);
     return mark;
+    
 }
 
 // returns an appropriate placeholder element for use as a blank marker
