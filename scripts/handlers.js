@@ -28,7 +28,7 @@ var prosodyUtils = {
         }
 		return '';       
     }
-}
+};
 
 // symbols used;
 var space = '\u00A0';
@@ -41,7 +41,7 @@ function init() {
     
     // now we set 'stress' to be empty on all the real syllables
     $$('span[real]').collect(function (node) {
-        node.stress = ""
+        node.stress = "";
     });
     
     $("toggle-discrepancies").toggle();
@@ -50,7 +50,7 @@ function init() {
 function switchstress(shadowspan) {
     // called when a syllable's stress is changed
     realsyllable = $("prosody-real-" + shadowspan.id.substring(15));
-    if (realsyllable.stress == "-" || realsyllable.stress == "") {
+    if (realsyllable.stress.value === "-" || realsyllable.stress.value === "") {
         new Effect.Opacity($(shadowspan), {
             from: 0,
             to: 1,
