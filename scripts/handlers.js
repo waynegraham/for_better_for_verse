@@ -149,7 +149,7 @@ function switchfoot(coords) {
     if ($(coords).select("span").length > 0) {
         $(coords).select("span")[0].remove();
     } else {
-        $(coords).appendChild(footmarker());;
+        $(coords).insert("<span class='prosody-footmarker'>|</span>");;
     }
 }
 

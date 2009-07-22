@@ -99,7 +99,7 @@
                                     <xsl:if test="not(position()=last())">
                                         <xsl:text> </xsl:text>
                                     </xsl:if>
-
+                                    <!-- <span class="prosody-footmarker">|</span> -->
                                 </span>
                             </xsl:if>
                         </xsl:for-each>

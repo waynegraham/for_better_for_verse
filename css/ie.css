@@ -9,10 +9,9 @@
 	padding: 0;
 	}
 	*/
-.prosody-footmarker {
+span.prosody-footmarker {
 	color: #DEB887;
 	font-weight: bold;
 	vertical-align: bottom;
-	padding: .1em;
-	margin: auto !important;
+	padding: 0.5em;
 }

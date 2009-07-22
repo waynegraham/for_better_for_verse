@@ -15,7 +15,12 @@
 	<jsp:scriptlet>
 		String ua = request.getHeader( "User-Agent" );
 		boolean isFirefox = ( ua.indexOf( "Firefox/" ) != -1 );
-		boolean isMSIE = ( ua.indexOf( "MSIE" ) != -1 );
+		boolean isIE7orless = false;
+		if ( ua.indexOf( "MSIE" ) != -1 ) {
+			String ieversion = ua.split( "MSIE" )[1].split(" ")[1].substring(0,3);
+			isIE7orless = ( Float.valueOf(ieversion) &lt; 8 );
+		}
+		
 		response.setHeader( "Vary", "User-Agent" );
 	</jsp:scriptlet>
 	
@@ -26,7 +31,9 @@
 			<c:out value="${param.poem}" />
 		</title>
 		<link href="css/main.css" rel="stylesheet" title="Basic TEI style" type="text/css" />
-		<!--[if lt IE 8]> <link href="css/ie.css" rel="stylesheet" title="Basic TEI style" type="text/css" /><![endif]-->
+		<jsp:scriptlet>if ( isIE7orless ) { </jsp:scriptlet>
+			<link href="css/ie.css" rel="stylesheet" title="IE junk" type="text/css" />
+		<jsp:scriptlet>}</jsp:scriptlet>
 		<script type="text/javascript">debugflag=false;</script>
 		<script type="text/javascript" src="http://jqueryjs.googlecode.com/files/jquery-1.3.2.js"><!--this--></script>
 		<script type="text/javascript" src="http://www.prototypejs.org/assets/2009/6/16/prototype.js"><!--this--></script>

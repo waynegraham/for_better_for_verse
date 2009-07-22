@@ -46,6 +46,14 @@ span.prosody-marker {
     visibility:visible;
     white-space:pre;
 }
+span.prosody-footmarker {
+
+	color: #DEB887;
+	font-weight: bold;
+	vertical-align: bottom;
+	padding: 0.2em;
+
+}
 span.prosody-placeholder {
     visibility:hidden;
     white-space:pre;
@@ -137,8 +145,9 @@ label {
 #meter-select button:hover {
 	background: #858575;
 	}
-#poem .prosody-syllable span.prosody-footmarker {
+/*#poem .prosody-syllable span.prosody-footmarker {
 	color: #DEB887;
 	font-weight: bold;
 	vertical-align: bottom;
 	}
+	*/
