@@ -50,7 +50,7 @@ function init() {
 function switchstress(shadowspan) {
     // called when a syllable's stress is changed
     realsyllable = $("prosody-real-" + shadowspan.id.substring(15));
-    if (realsyllable.stress.value === "-" || realsyllable.stress.value === "") {
+    if (realsyllable.stress == "-" || realsyllable.stress == "") {
         new Effect.Opacity($(shadowspan), {
             from: 0,
             to: 1,
