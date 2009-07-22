@@ -98,7 +98,7 @@ function checkstress(linenumber) {
     // first we assemble the answer from the "stress" members of the appropriate
     // line
 
-    var answer = $("prosody-real-" + linenumber).select("span[real]").pluck(
+    var answer = $("prosody-real-" + linenumber).select("[real]").pluck(
     "stress").collect(function (s) {
         return s.replace(/\u222a/, '-')
     }).join('');
@@ -111,7 +111,7 @@ function checkstress(linenumber) {
     // now we check to see that this is a complete answer. if not, we alert and
     // return
     
-    if (answer.length != $("prosody-real-" + linenumber).select("span[real]").length) {
+    if (answer.length != $("prosody-real-" + linenumber).select("[real]").length) {
         alert("An answer must be complete to be submitted. Please fill in a symbol over each syllable in this line.");
         return;
     }
