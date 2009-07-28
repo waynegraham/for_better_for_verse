@@ -313,13 +313,14 @@ function clickablehintimage() {
 
 function pophint(e) {
 	debug("Entering pophint()");
+	
 	// more IE crap
 	if (e.srcElement) // stupid IE
 		linenumber = e.srcElement.id.substring(17);
 	else if (e.target) // normal browsers
     	linenumber = e.target.id.substring(17);
     //hintp = $("hintfor" + linenumber).className = 'note';
-
+	debug(linenumber);
 	
 
 	debug("create window object");

@@ -38,7 +38,7 @@
 			<link href="css/ie.css" rel="stylesheet" title="IE junk" type="text/css" />
 		<jsp:scriptlet>}</jsp:scriptlet>
 		
-		<script type="text/javascript">debugflag=false;</script>
+		<script type="text/javascript">debugflag=true;</script>
 		<script type="text/javascript" src="http://jqueryjs.googlecode.com/files/jquery-1.3.2.js"><!--this--></script>
 		<script type="text/javascript" src="http://www.prototypejs.org/assets/2009/6/16/prototype.js"><!--this--></script>
 		<script type="text/javascript" id="scriptaculous" src="scripts/effects.js"><!--this--></script>
