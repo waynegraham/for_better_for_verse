@@ -31,13 +31,17 @@
 			<c:out value="${param.poem}" />
 		</title>
 		<link href="css/main.css" rel="stylesheet" title="Basic TEI style" type="text/css" />
+		<link href="css/themes/default.css" type="text/css" />
+		
 		<jsp:scriptlet>if ( isIE7orless ) { </jsp:scriptlet>
 			<link href="css/ie.css" rel="stylesheet" title="IE junk" type="text/css" />
 		<jsp:scriptlet>}</jsp:scriptlet>
+		
 		<script type="text/javascript">debugflag=false;</script>
 		<script type="text/javascript" src="http://jqueryjs.googlecode.com/files/jquery-1.3.2.js"><!--this--></script>
 		<script type="text/javascript" src="http://www.prototypejs.org/assets/2009/6/16/prototype.js"><!--this--></script>
 		<script type="text/javascript" id="scriptaculous" src="scripts/effects.js"><!--this--></script>
+		<script type="text/javascript" id="window" src="scripts/window.js"><!--this--></script>
 		<script type="text/javascript" src="scripts/handlers.js"><!--this--></script>
 		
 	</head>
