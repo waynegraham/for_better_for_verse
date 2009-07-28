@@ -317,7 +317,8 @@ function pophint(e) {
 	// more IE crap
 	if (e.srcElement) {// stupid IE
 		linenumber = e.srcElement.id.substring(17);
-		debug('getting the line for IE');
+		
+		debug('getting the line for IE' + e.srcElement.id);
 	}
 	else if (e.target) {// normal browsers
     	linenumber = e.target.id.substring(17);
