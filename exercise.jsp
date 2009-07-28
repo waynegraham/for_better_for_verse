@@ -31,8 +31,8 @@
 			<c:out value="${param.poem}" />
 		</title>
 		<link href="css/main.css" rel="stylesheet" title="Basic TEI style" type="text/css" />
-		<link href="css/themes/default.css" type="text/css" />
-		<link href="css/themes/mac_os_x.css" type="text/css" />
+		<link href="css/themes/default.css" rel="stylesheet" type="text/css" />
+		<link href="css/themes/mac_os_x.css" rel="stylesheet" type="text/css" />
 		
 		<jsp:scriptlet>if ( isIE7orless ) { </jsp:scriptlet>
 			<link href="css/ie.css" rel="stylesheet" title="IE junk" type="text/css" />

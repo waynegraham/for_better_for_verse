@@ -321,7 +321,7 @@ function pophint(e) {
     hintp = $("hintfor" + linenumber);
 
 	debug("create window object");
-	var win = new Window({className: "dialog", width:350, height:400, zIndex: 100, resizable: true, title: "Hint for line " + linenumber, showEffect:Effect.BlindDown, hideEffect: Effect.SwitchOff, draggable:true, wiredDrag: true});
+	var win = new Window({className: "mac_os_x", width:400, height:300, zIndex: 100, resizable: true, title: "Hint for line " + linenumber, showEffect:Effect.BlindDown, hideEffect: Effect.SwitchOff, draggable:true, wiredDrag: true});
 	
 	win.setContent('hintfor' + linenumber);
 	win.setStatusBar("Scansion hint");
@@ -330,7 +330,7 @@ function pophint(e) {
     //pop = window.open("", "Hint for line " + linenumber,"menubar=no,scrollbars=yes,height=300,width=400");
 	//pop=window.open("popupbodyforie.html","Hint" + linenumber,"menubar=no,scrollbars=yes,height=300,width=400");
 	//debug(pop.document);
-	debug("Popup opened");
+	//debug("Popup opened");
    // pop.document.body.setAttribute("style", "background:#222;color:#fff;font-size:14px;font-family:arial;");
 	//if (pop.document.body.importNode) // DOM Level 2 capable browsers
 	//	setTimeout("pop.document.body.appendChild(pop.document.importNode(hintp, true))",500);
