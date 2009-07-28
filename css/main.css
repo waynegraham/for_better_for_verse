@@ -66,8 +66,7 @@ span.prosody-checkfeet {
 }
 
 p.prosody-note {
-    /**display:none;*/
-	margin-left: -9999px;
+    display:none;
 }
 button.prosody-note-button {
 }
