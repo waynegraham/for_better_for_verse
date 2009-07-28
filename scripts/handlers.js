@@ -314,7 +314,7 @@ function clickablehintimage() {
 function pophint(e) {
 	debug("Entering pophint()");
 	
-	debug("E: " + Event.element(e).tagName);
+	debug("E: " + Event.element(e).identify);
 	
 	
 	// more IE crap
