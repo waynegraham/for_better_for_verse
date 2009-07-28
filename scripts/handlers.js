@@ -319,16 +319,24 @@ function pophint(e) {
 	else if (e.target) // normal browsers
     	linenumber = e.target.id.substring(17);
     hintp = $("hintfor" + linenumber);
+
+	debug("create window object");
+	var win = new Window({className: "dialog", width:350, height:400, zIndex: 100, resizable: true, title: "Hint for line " + linenumber, showEffect:Effect.BlindDown, hideEffect: Effect.SwitchOff, draggable:true, wiredDrag: true});
+	
+	win.getContent().innerHTML = hintp;
+	win.setStatusBar("Scansion hint");
+	win.showCenter();
+
     //pop = window.open("", "Hint for line " + linenumber,"menubar=no,scrollbars=yes,height=300,width=400");
-	pop=window.open("popupbodyforie.html","Hint" + linenumber,"menubar=no,scrollbars=yes,height=300,width=400");
+	//pop=window.open("popupbodyforie.html","Hint" + linenumber,"menubar=no,scrollbars=yes,height=300,width=400");
 	//debug(pop.document);
 	debug("Popup opened");
    // pop.document.body.setAttribute("style", "background:#222;color:#fff;font-size:14px;font-family:arial;");
-	if (pop.document.body.importNode) // DOM Level 2 capable browsers
-		setTimeout("pop.document.body.appendChild(pop.document.importNode(hintp, true))",500);
-	else // more MS crap
-		debug("hintp nodetype = " + hintp.nodetype);
-		setTimeout(function() { pop.document.body.appendChild(hintp) },500);
+	//if (pop.document.body.importNode) // DOM Level 2 capable browsers
+	//	setTimeout("pop.document.body.appendChild(pop.document.importNode(hintp, true))",500);
+	//else // more MS crap
+	//	debug("hintp nodetype = " + hintp.nodetype);
+	//	setTimeout(function() { pop.document.body.appendChild(hintp) },500);
 }
 
 function debug(s) {
