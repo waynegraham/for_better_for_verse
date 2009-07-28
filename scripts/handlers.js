@@ -46,7 +46,7 @@ function init() {
     
     $("toggle-discrepancies").toggle();
 
-	$('prosody-note').hide();
+	$$('prosody-note').hide();
 }
 
 function switchstress(shadowspan) {
