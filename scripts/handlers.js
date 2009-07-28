@@ -290,11 +290,20 @@ function updatehintbutton(id) {
         e.removeChild($(e).firstDescendant());
         e.appendChild(clickablehintimage());
         // and clickability
-        if (e.addEventListener) 
+		
+		Event.observe(e, 'click', function(){
+			var win = new Window({className: "mac_os_x", width:400, height:300, zIndex: 100, resizable: true, title: "Hint for line " + id, showEffect:Effect.BlindDown, hideEffect: Effect.SwitchOff, draggable:true, wiredDrag: true});
+
+			win.setContent('hintfor' + id, 'prosody-note-show');
+			win.setStatusBar("Scansion hint");
+			win.showCenter();
+		});
+
+       /** if (e.addEventListener) 
 			e.addEventListener('click',pophint,false); //everything else    
 		else if (e.attachEvent)
     		e.attachEvent('onclick',pophint);  //IE only
-
+*/
         //e.setAttribute('onclick', "pophint(this)");
         debug("	e.onclick = " + e.onclick);
         //}
@@ -315,7 +324,6 @@ function pophint(e) {
 	debug("Entering pophint()");
 	
 	debug("E: " + Event.element(e).identify());
-	
 	
 	// more IE crap
 	if (e.target) {// stupid IE
