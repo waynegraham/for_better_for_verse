@@ -316,10 +316,10 @@ function pophint(e) {
 	
 	// more IE crap
 	if (e.target) {// stupid IE
-		linenumber = e.srcElement.id.substring(17);
+		linenumber = e.target.id.substring(17);
 	}
 	else if (e.srcElement) {// normal browsers
-    	linenumber = e.target.id.substring(17);
+    	linenumber = e.srcElement.id.substring(17);
 		debug('getting the line for other');
 	}
     //hintp = $("hintfor" + linenumber).className = 'note';
