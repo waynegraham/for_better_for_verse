@@ -315,12 +315,16 @@ function pophint(e) {
 	debug("Entering pophint()");
 	
 	// more IE crap
-	if (e.srcElement) // stupid IE
+	if (e.srcElement) {// stupid IE
 		linenumber = e.srcElement.id.substring(17);
-	else if (e.target) // normal browsers
+		debug('getting the line for IE');
+	}
+	else if (e.target) {// normal browsers
     	linenumber = e.target.id.substring(17);
+		debug('getting the line for other');
+	}
     //hintp = $("hintfor" + linenumber).className = 'note';
-	debug(linenumber);
+	debug('line number ' : linenumber);
 	
 
 	debug("create window object");
