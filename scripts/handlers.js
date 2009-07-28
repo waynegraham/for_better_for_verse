@@ -45,6 +45,8 @@ function init() {
     });
     
     $("toggle-discrepancies").toggle();
+
+	$('prosody-note').hide();
 }
 
 function switchstress(shadowspan) {
@@ -318,14 +320,14 @@ function pophint(e) {
 		linenumber = e.srcElement.id.substring(17);
 	else if (e.target) // normal browsers
     	linenumber = e.target.id.substring(17);
-    hintp = $("hintfor" + linenumber).className = 'note';
+    .hintp = $("hintfor" + linenumber).className = 'note';
 
 	
 
 	debug("create window object");
 	var win = new Window({className: "mac_os_x", width:400, height:300, zIndex: 100, resizable: true, title: "Hint for line " + linenumber, showEffect:Effect.BlindDown, hideEffect: Effect.SwitchOff, draggable:true, wiredDrag: true});
 	
-	win.setContent(hintp);
+	win.setContent('hintfor' + linenumber);
 	win.setStatusBar("Scansion hint");
 	win.showCenter();
 
