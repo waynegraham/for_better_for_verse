@@ -255,7 +255,7 @@ Window.prototype = {
     var p = null;
 
 	if(newClass){
-		d = Element.className = newClass;
+		element.className = newClass;
 	}
 
     if (autoresize) 
