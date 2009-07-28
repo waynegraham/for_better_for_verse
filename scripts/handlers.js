@@ -323,7 +323,7 @@ function pophint(e) {
 	debug("create window object");
 	var win = new Window({className: "dialog", width:350, height:400, zIndex: 100, resizable: true, title: "Hint for line " + linenumber, showEffect:Effect.BlindDown, hideEffect: Effect.SwitchOff, draggable:true, wiredDrag: true});
 	
-	win.getContent().innerHTML = hintp;
+	win.setContent('hintfor' + linenumber);
 	win.setStatusBar("Scansion hint");
 	win.showCenter();
 
