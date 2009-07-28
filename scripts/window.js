@@ -246,13 +246,17 @@ Window.prototype = {
   },
   
   // Sets the content with an element id
-  setContent: function(id, autoresize, autoposition) {
+  setContent: function(id, newClass, autoresize, autoposition) {
     var element = $(id);
     if (null == element) throw "Unable to find element '" + id + "' in DOM";
     this._oldParent = element.parentNode;
 
     var d = null;
     var p = null;
+
+	if(newClass){
+		d = Element.className = newClass;
+	}
 
     if (autoresize) 
       d = Element.getDimensions(element);

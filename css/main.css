@@ -66,9 +66,13 @@ span.prosody-checkfeet {
 }
 
 p.prosody-note {
-   /** display:none;*/
+   display:none;
+}
+
+p.prosody-note-show {
 	color: #000;
 }
+
 button.prosody-note-button {
 }
 
