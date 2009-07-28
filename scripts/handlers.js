@@ -314,6 +314,9 @@ function clickablehintimage() {
 function pophint(e) {
 	debug("Entering pophint()");
 	
+	debug("E: " + e);
+	
+	
 	// more IE crap
 	if (e.target) {// stupid IE
 		linenumber = e.target.id.substring(17);
