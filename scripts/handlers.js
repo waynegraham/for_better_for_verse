@@ -324,7 +324,7 @@ function pophint(e) {
 		debug('getting the line for other');
 	}
     //hintp = $("hintfor" + linenumber).className = 'note';
-	debug('line number ' : linenumber);
+	debug('line number ' + linenumber);
 	
 
 	debug("create window object");
