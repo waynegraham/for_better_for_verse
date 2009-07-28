@@ -318,7 +318,7 @@ function pophint(e) {
 		linenumber = e.srcElement.id.substring(17);
 	else if (e.target) // normal browsers
     	linenumber = e.target.id.substring(17);
-    .hintp = $("hintfor" + linenumber).className = 'note';
+    //hintp = $("hintfor" + linenumber).className = 'note';
 
 	
 
