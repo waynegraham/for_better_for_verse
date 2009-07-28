@@ -325,7 +325,7 @@ function pophint(e) {
 	debug("create window object");
 	var win = new Window({className: "mac_os_x", width:400, height:300, zIndex: 100, resizable: true, title: "Hint for line " + linenumber, showEffect:Effect.BlindDown, hideEffect: Effect.SwitchOff, draggable:true, wiredDrag: true});
 	
-	win.setContent('hintfor' + linenumber);
+	win.setContent(hintp);
 	win.setStatusBar("Scansion hint");
 	win.showCenter();
 
