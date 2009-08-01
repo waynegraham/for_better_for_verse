@@ -15,3 +15,7 @@ span.prosody-footmarker {
 	vertical-align: bottom;
 	padding: 0.5em;
 }
+
+#poem .prosody-shadowline span, #poem .TEI-l span {
+	margin: 0;
+}
