@@ -35,12 +35,11 @@ span.prosody-shadowsyllable {
     color: #DEB887;
 	vertical-align: bottom;
 }
-span.prosody-syllable 
-{
-white-space:pre;
+span.prosody-syllable {
+	white-space:pre;
     display:table-cell;
     /* padding-right:1em; */
-    	vertical-align: bottom;
+    vertical-align: bottom;
 }
 span.prosody-marker {
     visibility:visible;
@@ -88,8 +87,9 @@ button.prosody-note-button {
     }
     
 #poem .prosody-shadowline span, #poem .TEI-l span {
-	margin: 0 -2px;
+	/** margin: 0 -2px; */
 }
+
 #poem #title {
     margin: 10px 0 15px 0;
 }
