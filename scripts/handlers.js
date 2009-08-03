@@ -292,7 +292,7 @@ function updatehintbutton(id) {
         // and clickability
 		
 		Event.observe(e, 'click', function(){
-			var win = new Window({className: "mac_os_x", width:400, height:300, zIndex: 100, resizable: true, title: "Hint for line " + id, showEffect:Effect.BlindDown, hideEffect: Effect.SwitchOff, draggable:true, wiredDrag: true});
+			var win = new Window({className: "mac_os_x", width:400, height:300, zIndex: 100, resizable: true, title: "Hint for line " + id, draggable:true, wiredDrag: true});
 
 			win.setContent('hintfor' + id, 'prosody-note-show');
 			win.setStatusBar("Scansion hint");
