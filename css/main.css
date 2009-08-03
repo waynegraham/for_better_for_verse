@@ -11,10 +11,10 @@ body {
 	line-height: 1em;
 }
 
-div.prosody-line {
-    display:table-row-group;
+/* div.prosody-line {
+    display:block;
     width: 600px;
-}
+} */
 div.prosody-shadowline {
     display:table-row;
     height: 18px;
@@ -69,7 +69,6 @@ p.prosody-note {
 }
 
 p.prosody-note-show {
-	color: #000;
 	font-size: 12px;
 	margin: 15px;
 }

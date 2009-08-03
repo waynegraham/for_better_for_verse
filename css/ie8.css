@@ -1,3 +1,9 @@
 /**
  * Fixes for IE 
  */
+
+#poem span {
+	letter-spacing: 0 !important;
+	word-spacing: 0 !important;
+	overflow: hidden;
+}

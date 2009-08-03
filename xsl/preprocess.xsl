@@ -39,7 +39,7 @@
         <xsl:param name="linegroupindex"/>
         <xsl:variable name="line-number" select="@n"/>
         
-        <div class="prosody:line">
+        <div class="prosody-line">
             <!-- first cycle through the segments, constructing shadow syllables -->
             <div class="prosody-shadowline" id="prosody-shadow-{$line-number}">
                 <xsl:copy-of select="@*"/>

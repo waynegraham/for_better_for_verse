@@ -7,47 +7,47 @@
 }
 
 .mac_os_x_nw {
-  background: #676767 no-repeat 0 0;			
+	background: transparent url(mac_os_x/TL_Main.png) no-repeat 0 0;			
   width:24px;
-  height:20px;
+  height:30px;
 }
 
 .mac_os_x_n {
-  background: #676767 repeat-x 0 0;			
-  height:20px;
+  background: transparent url(mac_os_x/T_Main.png) repeat-x 0 0;			
+  height:30px;
 }
 
 .mac_os_x_ne {
-  background: #676767 no-repeat 0 0;			
+  background: transparent url(mac_os_x/TR_Main.png) no-repeat 0 0;			
   width:31px;	  
-  height:20px;
+  height:30px;
 }
 
 .mac_os_x_w {
-  background: #676767 repeat-y top left;			
+  background: transparent url(mac_os_x/L_Main.png) repeat-y top left;			
   width:16px;
 }
 
 .mac_os_x_e {
-  background: #676767 repeat-y top right;			
+  background: transparent url(mac_os_x/R_Main.png) repeat-y top right;			
   width:16px;	  
 }
 
 .mac_os_x_sw {
-  background: #676767 no-repeat 0 0;			
+  background: transparent url(mac_os_x/BL_Main.png) no-repeat 0 0;			
   width:31px;
-  height:20px;
+  height:40px;
 }
 
 .mac_os_x_s {
-  background: #676767 repeat-x 0 0;			
-  height:20px;
+  background: transparent url(mac_os_x/B_Main.png) repeat-x 0 0;			
+  height:40px;
 }
 
 .mac_os_x_se, .mac_os_x_sizer {
-  background: #676767 no-repeat 0 0;			
+  background: transparent url(mac_os_x/BR_Main.png) no-repeat 0 0;			
   width:31px;
-  height:20px;
+  height:40px;
 }
 
 .mac_os_x_sizer {
@@ -55,30 +55,34 @@
 }
 
 .mac_os_x_close {
-	width: 24px;
-	height: 24px;
-	background: transparent url(dark/close.png) no-repeat 0 0;			
+	width: 19px;
+	height: 19px;
+	background: transparent url(mac_os_x/close.gif) no-repeat 0 0;			
 	position:absolute;
+	top:12px;
+	left:25px;
 	cursor:pointer;
 	z-index:1000;
 }
 
 .mac_os_x_minimize {
-	width: 24px;
-	height: 24px;
-	background: transparent url(dark/minimize.png) no-repeat 0 0;			
+	width: 19px;
+	height: 19px;
+	background: transparent url(mac_os_x/minimize.gif) no-repeat 0 0;			
 	position:absolute;
-	left:20px;
+	top:12px;
+	left:45px;
 	cursor:pointer;
 	z-index:1000;
 }
 
 .mac_os_x_maximize {
-	width: 24px;
-	height: 24px;
-	background: transparent url(dark/maximize.png) no-repeat 0 0;			
+	width: 19px;
+	height: 19px;
+	background: transparent url(mac_os_x/maximize.gif) no-repeat 0 0;			
 	position:absolute;
-	left:40px;
+	top:12px;
+	left:65px;
 	cursor:pointer;
 	z-index:1000;
 }
@@ -86,21 +90,23 @@
 .mac_os_x_title {
 	float:left;
 	height:14px;
-	font-family: Arial, sans-serif;
+	font-family: Tahoma, Arial, sans-serif;
 	font-size:12px;
 	text-align:center;
-	margin-top:5px;
-	margin-bottom: 5px;
+	margin-top:8px;
 	width:100%;
-	color:#FFF;
+	color:#000;
 }
 
 .mac_os_x_content {
 	overflow:auto;
-	color: #FFF;
-	font-family: Arial, sans-serif;
+	color: #222;
+	font-family: Tahoma, Arial, sans-serif;
 	font-size: 10px;
-	background:#222;
+	background:#FFF;
+}
+.mac_os_x_s .status_bar {
+  padding-bottom:24px;
 }
 
 /* FOR IE */
@@ -168,47 +174,47 @@
 }
 
 .blur_os_x_nw {
-	background: #676767 no-repeat 0 0;			
+	background: transparent url(mac_os_x/TL.png) no-repeat 0 0;			
   width:24px;
-  height:20px;
+  height:30px;
 }
 
 .blur_os_x_n {
-  background: #676767 repeat-x 0 0;			
-  height:20px;
+  background: transparent url(mac_os_x/T.png) repeat-x 0 0;			
+  height:30px;
 }
 
 .blur_os_x_ne {
-  background: #676767 no-repeat 0 0;			
+  background: transparent url(mac_os_x/TR.png) no-repeat 0 0;			
   width:31px;	  
-  height:20px;
+  height:30px;
 }
 
 .blur_os_x_w {
-  background: #676767 repeat-y top left;			
+  background: transparent url(mac_os_x/L.png) repeat-y top left;			
   width:16px;
 }
 
 .blur_os_x_e {
-  background: #676767 repeat-y top right;			
+  background: transparent url(mac_os_x/R.png) repeat-y top right;			
   width:16px;	  
 }
 
 .blur_os_x_sw {
-  background: #676767 no-repeat 0 0;			
+  background: transparent url(mac_os_x/BL.png) no-repeat 0 0;			
   width:31px;
-  height:20px;
+  height:40px;
 }
 
 .blur_os_x_s {
-  background: #676767 repeat-x 0 0;			
-  height:20px;
+  background: transparent url(mac_os_x/B.png) repeat-x 0 0;			
+  height:40px;
 }
 
 .blur_os_x_se, .blur_os_x_sizer {
-  background: #676767 no-repeat 0 0;			
+  background: transparent url(mac_os_x/BR.png) no-repeat 0 0;			
   width:31px;
-  height:20px;
+  height:40px;
 }
 
 .blur_os_x_sizer {
@@ -216,30 +222,34 @@
 }
 
 .blur_os_x_close {
-	width: 24px;
-	height: 24px;
-	background: transparent url(dark/close.png) no-repeat 0 0;			
+	width: 19px;
+	height: 19px;
+	background: transparent url(mac_os_x/close.gif) no-repeat 0 0;			
 	position:absolute;
+	top:12px;
+	left:25px;
 	cursor:pointer;
 	z-index:1000;
 }
 
 .blur_os_x_minimize {
-	width: 24px;
-	height: 24px;
-	background: transparent url(dark/minimize.png) no-repeat 0 0;			
+	width: 19px;
+	height: 19px;
+	background: transparent url(mac_os_x/minimize.gif) no-repeat 0 0;			
 	position:absolute;
-	left:20px;
+	top:12px;
+	left:45px;
 	cursor:pointer;
 	z-index:1000;
 }
 
 .blur_os_x_maximize {
-	width: 24px;
-	height: 24px;
-	background: transparent url(dark/close.png) no-repeat 0 0;			
+	width: 19px;
+	height: 19px;
+	background: transparent url(mac_os_x/maximize.gif) no-repeat 0 0;			
 	position:absolute;
-	left:40px;
+	top:12px;
+	left:65px;
 	cursor:pointer;
 	z-index:1000;
 }
@@ -247,21 +257,23 @@
 .blur_os_x_title {
 	float:left;
 	height:14px;
-	font-family: Arial, sans-serif;
+	font-family: Tahoma, Arial, sans-serif;
 	font-size:12px;
 	text-align:center;
-	margin-top:5px;
-	margin-bottom: 5px;
+	margin-top:8px;
 	width:100%;
-	color:#FFF;
+	color:#000;
 }
 
 .blur_os_x_content {
 	overflow:auto;
-	color: #FFF;
-	font-family: Arial, sans-serif;
+	color: #222;
+	font-family: Tahoma, Arial, sans-serif;
 	font-size: 10px;
-	background:#222;
+	background:#FFF;
+}
+.blur_os_x_s .status_bar {
+  padding-bottom:24px;
 }
 
 /* FOR IE */
