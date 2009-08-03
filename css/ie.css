@@ -11,11 +11,12 @@
 	*/
 span.prosody-footmarker {
 	color: #DEB887;
-	font-weight: bold;
 	vertical-align: bottom;
-	padding: 0.5em;
+	padding: 0;
 }
 
-#poem .prosody-shadowline span, #poem .TEI-l span {
-	margin: 0;
+
+#poem span {
+	word-spacing: 0;
+	letter-spacing: 0;
 }

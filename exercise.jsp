@@ -16,9 +16,12 @@
 		String ua = request.getHeader( "User-Agent" );
 		boolean isFirefox = ( ua.indexOf( "Firefox/" ) != -1 );
 		boolean isIE7orless = false;
+		boolean isIE8 = false;
+		
 		if ( ua.indexOf( "MSIE" ) != -1 ) {
 			String ieversion = ua.split( "MSIE" )[1].split(" ")[1].substring(0,3);
 			isIE7orless = ( Float.valueOf(ieversion) &lt; 8 );
+			isIE8 = ( Float.valueOf(ieversion).longValue() == 8);
 		}
 		
 		response.setHeader( "Vary", "User-Agent" );
@@ -35,12 +38,12 @@
 		<link href="css/themes/mac_os_x.css" rel="stylesheet" type="text/css" />
 		
 		<jsp:scriptlet>if ( isIE7orless ) { </jsp:scriptlet>
-			<link href="css/ie.css" rel="stylesheet" title="IE junk" type="text/css" />
+			<link href="css/ie7.css" rel="stylesheet" title="IE7 junk" type="text/css" />
+		<jsp:scriptlet>}</jsp:scriptlet>
+		<jsp:scriptlet>if ( isIE8 ) { </jsp:scriptlet>
+			<link href="css/ie8.css" rel="stylesheet" title="IE8 junk" type="text/css" />
 		<jsp:scriptlet>}</jsp:scriptlet>
 		
-		<!--[if IE]>
-		<link href="css/ie.css" rel="stylesheet" title="IE junk" type="text/css" />
-		<![endif]-->
 		
 		<script type="text/javascript">debugflag=false;</script>
 		<script type="text/javascript" src="http://jqueryjs.googlecode.com/files/jquery-1.3.2.js"><!--this--></script>

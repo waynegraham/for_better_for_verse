@@ -71,6 +71,7 @@ p.prosody-note {
 p.prosody-note-show {
 	color: #000;
 	font-size: 12px;
+	margin: 15px;
 }
 
 button.prosody-note-button {
