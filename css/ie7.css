@@ -2,12 +2,7 @@
  * Fixes for IE 7
  */
 #poem span {
-	word-spacing: 0.03em
-	letter-spacing: 0.4em;
-}
-
-span.prosody-placeholder {
-	visibility: hidden;
-	white-space: pre;
-	float: left;
+	word-spacing: 0 !important;
+	letter-spacing: 0 !important;
+	overflow: hidden;
 }
