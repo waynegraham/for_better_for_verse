@@ -36,12 +36,17 @@
 		<link href="css/main.css" rel="stylesheet" title="Basic TEI style" type="text/css" />
 		<link href="css/themes/default.css" rel="stylesheet" type="text/css" />
 		<link href="css/themes/mac_os_x.css" rel="stylesheet" type="text/css" />
-		
+
+		<jsp:scriptlet>if ( isFirefox ) { </jsp:scriptlet>
+			<style type="text/css">
+			  @import "css/ff.css";
+			</style>
+		<jsp:scriptlet>}</jsp:scriptlet>
 		<jsp:scriptlet>if ( isIE7orless ) { </jsp:scriptlet>
-			<link href="css/ie7.css" rel="stylesheet" title="IE7 junk" type="text/css" />
+			<link href="css/ie7.css" rel="stylesheet" title="IE7 CSS" type="text/css" />
 		<jsp:scriptlet>}</jsp:scriptlet>
 		<jsp:scriptlet>if ( isIE8 ) { </jsp:scriptlet>
-			<link href="css/ie8.css" rel="stylesheet" title="IE8 junk" type="text/css" />
+			<link href="css/ie8.css" rel="stylesheet" title="IE8 CSS" type="text/css" />
 		<jsp:scriptlet>}</jsp:scriptlet>
 		
 		

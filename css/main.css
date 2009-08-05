@@ -81,10 +81,10 @@ button.prosody-note-button {
     padding: 20px;
 }
 
-#poem span {
+/* #poem span {
     word-spacing: .4em;
     letter-spacing: .03em;
-    }
+    } */
     
 #poem .prosody-shadowline span, #poem .TEI-l span {
 	/** margin: 0 -2px; */

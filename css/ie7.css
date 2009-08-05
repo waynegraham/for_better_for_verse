@@ -1,8 +1,39 @@
 /**
  * Fixes for IE 7
  */
+#poem {
+	font-family: monospace !important;
+	line-height: 1.2em;
+}
+
+#poem #title {
+	font-family: arial,verdana,helvetica,sans-serif !important;
+}
 #poem span {
 	word-spacing: 0 !important;
 	letter-spacing: 0 !important;
 	overflow: hidden;
+	display: block;
+	float: left;
+}
+
+#poem div.prosody-shadowline, #poem div.TEI-l {
+	clear: both;
+	display: block;
+}
+
+#poem .prosody-shadowline span, #poem .TEI-l span {
+	display:block;
+	float:left;
+}
+
+#poem span.prosody-footmarker {
+	display:inline;
+	float:none;
+	padding: 0;
+	margin: 0;
+}
+
+.buttons {
+	margin-top: 0;
 }

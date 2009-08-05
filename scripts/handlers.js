@@ -146,6 +146,7 @@ function switchfoot(coords) {
 	debug($(coords));
 	debug("Which contains .select('span') of: ");
 	debug($(coords).select("span"));
+	debug($(coords).identify().gsub('prosody-real',''));
     if ($(coords).select("span").length > 0) {
         $(coords).select("span")[0].remove();
     } else {
@@ -218,7 +219,7 @@ function addMarker(real, symbol){
 
    if (tMod === 0) {
        lspacer = "\u00A0".times(Math.floor((text.length / 2) - 1));
-       mark.update(lspacer + symbol + lspacer);
+       mark.update(lspacer + symbol + lspacer + "\u00A0");
    } else {
 
        mark.update(spacer + symbol + spacer);
@@ -233,7 +234,13 @@ function marker(real) {
 
 // returns an appropriate token element for use as a slack marker
 function slackmarker(real) {
-    return addMarker(real, "\u222a");
+	Prototype.Browser.IE6 = Prototype.Browser.IE && parseInt(navigator.userAgent.substring(navigator.userAgent.indexOf("MSIE")+5)) == 6;
+	Prototype.Browser.IE7 = Prototype.Browser.IE && parseInt(navigator.userAgent.substring(navigator.userAgent.indexOf("MSIE")+5)) == 7;
+	if(Prototype.Browser.IE6 || Prototype.Browser.IE7) {
+		return addMarker(real, "-");	
+	} else {
+		return addMarker(real, "\u222A");	
+	}
 }
 
 //returns an appropriate placeholder element for use as a blank marker
@@ -338,7 +345,7 @@ function pophint(e) {
 	
 
 	debug("create window object");
-	var win = new Window({className: "mac_os_x", width:400, height:300, zIndex: 100, resizable: true, title: "Hint for line " + linenumber, showEffect:Effect.BlindDown, hideEffect: Effect.SwitchOff, draggable:true, wiredDrag: true});
+	var win = new Window({className: "mac_os_x", width:400, height:300, zIndex: 100, resizable: true, title: "Hint for line " + linenumber, draggable:true, wiredDrag: true});
 	
 	win.setContent('hintfor' + linenumber, 'prosody-note-show');
 	win.setStatusBar("Scansion hint");
