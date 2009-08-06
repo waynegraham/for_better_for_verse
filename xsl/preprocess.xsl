@@ -57,6 +57,9 @@
                                     onclick="switchstress(this);">
                                     <span class="prosody-placeholder">
                                         <xsl:copy-of select="string(.)"/>
+										<xsl:if test="not(position()=last())">
+	                                        <xsl:text> </xsl:text>
+	                                    </xsl:if>
                                     </span>
                                 </span>
                             </xsl:if>

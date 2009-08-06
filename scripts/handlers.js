@@ -146,10 +146,21 @@ function switchfoot(coords) {
 	debug($(coords));
 	debug("Which contains .select('span') of: ");
 	debug($(coords).select("span"));
-	debug($(coords).identify().gsub('prosody-real',''));
+
+	Prototype.Browser.IE6 = Prototype.Browser.IE && parseInt(navigator.userAgent.substring(navigator.userAgent.indexOf("MSIE")+5)) == 6;
+	Prototype.Browser.IE7 = Prototype.Browser.IE && parseInt(navigator.userAgent.substring(navigator.userAgent.indexOf("MSIE")+5)) == 7;
+	
     if ($(coords).select("span").length > 0) {
         $(coords).select("span")[0].remove();
+		if(Prototype.Browser.IE6 || Prototype.Browser.IE7) {
+			var target_syll = "prosody-shadow" + $(coords).identify().gsub('prosody-real','');
+			$(target_syll).select('em')[0].remove();
+		}
     } else {
+		if(Prototype.Browser.IE6 || Prototype.Browser.IE7) {
+			var target_syll = "prosody-shadow" + $(coords).identify().gsub('prosody-real','');
+			$(target_syll).firstDescendant().insert('<em>\u00A0</em>')
+		}
         $(coords).insert("<span class='prosody-footmarker'>|</span>");;
     }
 }
