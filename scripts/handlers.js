@@ -197,10 +197,12 @@ function checkfeet(linenumber) {
 function checkmeter(linenumber, linegroupindex) {
 	// creates a popup window with popup menus to offer a choice of meters
 	// the user is told whether the answer is correct or not
-	var popup = window.open("meter-popup.html?line=" + linenumber
-			+ "&linegroupindex=" + linegroupindex, "",
-			"resizable=no,scrollbars=no,status=no,width=300,height=200");
 
+	debug("create window object");
+	var pop_url = "meter-popup.html?line=" + linenumber	+ "&linegroupindex=" + linegroupindex;
+	var win = new Window({className: "mac_os_x", url:pop_url, width:300, height:200, zIndex: 100, resizable:true, title:"Meter", draggable:true, wiredDrag:true, effectOptions:{duration:0.2}});
+
+	win.showCenter();
 }
 
 function grabText(real){
@@ -356,7 +358,7 @@ function pophint(e) {
 	
 
 	debug("create window object");
-	var win = new Window({className: "mac_os_x", width:400, height:300, zIndex: 100, resizable: true, title: "Hint for line " + linenumber, draggable:true, wiredDrag: true});
+	var win = new Window({className: "mac_os_x", width:400, height:300, zIndex:100, resizable:true, title:"Hint for line " + linenumber, draggable:true, wiredDrag:true, effectOptions:{duration:0.2}});
 	
 	win.setContent('hintfor' + linenumber, 'prosody-note-show');
 	win.setStatusBar("Scansion hint");

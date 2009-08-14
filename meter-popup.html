@@ -12,7 +12,7 @@
         function init() {
             var linenumber = window.location.search.substring(1).split('&')[0].split('=')[1];
             var linegroupindex = window.location.search.substring(1).split('&')[1].split('=')[1];
-            var fullanswer = window.opener.$("prosody-real-" + linenumber).select("span[answer]")[0].getAttribute('answer');    
+            var fullanswer = window.parent.$("prosody-real-" + linenumber).select("span[answer]")[0].getAttribute('answer');    
             var foottype = fullanswer.split("(")[0];
             var numberfeet = fullanswer.split("(")[1].split(")")[0].split("/")[linegroupindex-1];
             document.forms[0].answer.value = foottype + numberfeet;
@@ -26,14 +26,14 @@
                 
             // now, test it and respond
               if (answer == document.forms[0].answer.value ) {
-              	var meter_target = opener.document.getElementById("checkmeter" + linenumber);
+              	var meter_target = window.parent.document.getElementById("checkmeter" + linenumber);
               	meter_target.innerHTML = "<img src='images/correct.png'/>";
             }
             else {
-              	var meter_target = opener.document.getElementById("checkmeter" + linenumber);
+              	var meter_target = window.parent.document.getElementById("checkmeter" + linenumber);
               	meter_target.innerHTML = "<img src='images/incorrect.png'/>";
             } 
-            self.close();
+            window.parent.Windows.closeAll();
         }
         
     </script></head>
