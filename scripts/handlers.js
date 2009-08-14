@@ -199,10 +199,16 @@ function checkmeter(linenumber, linegroupindex) {
 	// the user is told whether the answer is correct or not
 
 	debug("create window object");
-	var pop_url = "meter-popup.html?line=" + linenumber	+ "&linegroupindex=" + linegroupindex;
-	var win = new Window({className: "mac_os_x", url:pop_url, width:300, height:200, zIndex: 100, resizable:true, title:"Meter", draggable:true, wiredDrag:true, effectOptions:{duration:0.2}});
 
-	win.showCenter();
+	Prototype.Browser.IE6 = Prototype.Browser.IE && parseInt(navigator.userAgent.substring(navigator.userAgent.indexOf("MSIE")+5)) == 6;
+	Prototype.Browser.IE7 = Prototype.Browser.IE && parseInt(navigator.userAgent.substring(navigator.userAgent.indexOf("MSIE")+5)) == 7;
+	if(Prototype.Browser.IE6 || Prototype.Browser.IE7) {
+		var popup = window.open("meter-popup-ie.html?line=" + linenumber + "&linegroupindex=" + linegroupindex, "", "resizable=no,scrollbars=no,status=no,width=300,height=200");
+	} else {
+		var pop_url = "meter-popup.html?line=" + linenumber	+ "&linegroupindex=" + linegroupindex;
+		var win = new Window({className: "mac_os_x", url:pop_url, width:300, height:200, zIndex: 100, resizable:true, title:"Meter", draggable:true, wiredDrag:true, effectOptions:{duration:0.2}});
+		win.showCenter();
+	}
 }
 
 function grabText(real){
