@@ -30,7 +30,7 @@
 	<html >
 	<head>
 		<meta http-equiv="Content-Type" content="text/html" />
-		<title id="title">
+		<title id="main_title">
 			<c:out value="${param.poem}" />
 		</title>
 		<link href="css/main.css" rel="stylesheet" title="Basic TEI style" type="text/css" />
@@ -56,11 +56,11 @@
 		<script type="text/javascript" id="scriptaculous" src="scripts/effects.js"><!--this--></script>
 		<script type="text/javascript" id="window" src="scripts/window.js"><!--this--></script>
 		<script type="text/javascript" src="scripts/handlers.js"><!--this--></script>
-		
 	</head>
 
 
 	<body onload="init()">
+		<script type="text/javascript" src="scripts/wz_tooltip.js"><!--this--></script>
 		<div id="main">
 		
 			<c:import url="xsl/preprocess.xsl" var="preprocessxsl" />

@@ -88,7 +88,6 @@ button.prosody-note-button {
     
 #poem .prosody-shadowline span, #poem .TEI-l span {
 	/** margin: 0 -2px; */
-	min-width: 1.1em;
 }
 
 #poem #title {

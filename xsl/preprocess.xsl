@@ -125,19 +125,19 @@
                 </xsl:if>
                 <span class="button">
                     <button class="prosody-checkstress" id="checkstress{$line-number}"
-                        name="Check stress" onclick="checkstress({$line-number})">
+                        name="Check stress" onclick="checkstress({$line-number})" onmouseover="Tip('Check stress', BGCOLOR, '#676767', BORDERWIDTH, 0, FONTCOLOR, '#FFF')" onmouseout="UnTip()">
                         <img src="images/stress-default.png"/>
                     </button>
                 </span>
                 <span class="button">
                     <button class="prosody-checkfeet" id="checkfeet{$line-number}" name="Check feet"
-                        onclick="checkfeet({$line-number})">
+                        onclick="checkfeet({$line-number})" onmouseover="Tip('Check feet', BGCOLOR, '#676767', BORDERWIDTH, 0, FONTCOLOR, '#FFF')" onmouseout="UnTip()">
                         <img src="images/feet-default.png"/>
                     </button>
                 </span>
                 <span class="button">
                     <button class="prosody-meter" id="checkmeter{$line-number}" name="Check meter"
-                        onclick="checkmeter({$line-number},{$linegroupindex})">
+                        onclick="checkmeter({$line-number},{$linegroupindex})" onmouseover="Tip('Check meter', BGCOLOR, '#676767', BORDERWIDTH, 0, FONTCOLOR, '#FFF')" onmouseout="UnTip()">
                         <img src="images/meter-default.png"/>
                     </button>
                 </span>
