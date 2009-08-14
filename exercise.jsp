@@ -30,7 +30,7 @@
 	<html >
 	<head>
 		<meta http-equiv="Content-Type" content="text/html" />
-		<title id="main_title">
+		<title id="title">
 			<c:out value="${param.poem}" />
 		</title>
 		<link href="css/main.css" rel="stylesheet" title="Basic TEI style" type="text/css" />
