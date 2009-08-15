@@ -1,0 +1,797 @@
+/*  
+Theme Name: Cat4 Baseline Theme
+Theme URI: http://www.category4.com
+Description: A baseline theme for Category 4 projects
+Version: 1.0
+Author: Category 4
+Author URI: http://www.category4.com/
+*/
+
+
+/* 
+TABLE OF CONTENTS
+
+  HTML Elements
+  Page Structure
+  Navigation
+  Headings
+  Content Styles
+  Clear
+  Footer
+  Thickbox
+
+
+
+/* ---------- @ HTML Elements -----------*/
+
+* { 
+	margin: 0;
+	padding: 0;
+	} 
+
+body, html {
+	min-height:101%;
+	}
+	
+body {	
+	color:#fff;
+	background: #232323 url(/images/bg.jpg) repeat-x;;
+	}
+	
+body, select, textarea, input {	
+	font: 100% Arial, Verdana, Helvetica, sans-serif;
+	}
+
+p {	
+	margin: 15px 0;
+	line-height:150%;
+	}
+		
+a, a:visited {	
+	color: #A1A1A3;
+	text-decoration:underline 
+	}
+
+a:hover, a:active {	
+	color:#c99a73;
+	}
+
+*:focus { 
+	outline: none;
+	}
+
+ol {
+	margin: 15px;
+	}
+
+ol ol {
+	margin: 5px;
+	}
+
+ol li {
+	margin-left:25px;
+	}
+
+blockquote {
+	background:#242424 url(/images/quote.gif) no-repeat 10px 22px;
+	font: italic 1.5em Georgia, "Times New Roman", Times, serif;
+	padding:22px 22px 22px 85px;
+	margin: 15px 0 15px 20px;
+	width: 400px;
+	border: 1px solid #1c1c1c;
+	border-width: 0 0 1px 3px;
+}
+
+cite {
+	display:block;
+	text-transform:uppercase;
+	font-style:normal;
+	font:0.6em Georgia, "Times New Roman", Times, serif;
+	padding:4px 0 4px 35px;
+}
+
+blockquote p {
+	margin: 0 0 15px;	
+}
+
+table {
+	border-collapse:collapse;
+	margin:15px 1px;
+	width: 90%;
+	}
+
+td, th {
+	border-bottom:1px solid #141417;
+	padding:8px;
+	vertical-align: top;
+	}
+
+th {
+	color: #A1A1A3;
+	font: .9em Georgia, "Times New Roman", Times, serif;
+	text-transform: uppercase;
+	text-align:left;
+	background: #19191B;
+	letter-spacing: .05em;
+	}
+	
+td {
+	background: #222222;
+	border-bottom: 1px solid #1a1a1a;
+}
+
+dl {
+	margin: 10px 0 20px;
+	overflow: hidden;
+	width: 590px;
+}
+
+dl.media {
+	padding-bottom: 20px;
+	border-bottom: 1px solid #222224;
+}
+
+dt {
+	width: 130px;
+	float: left;
+	padding: 25px 20px 25px 0;
+	border-top: 1px solid #222224;
+	text-align: right;
+	clear: both;
+	color: #A1A1A3;
+	font: 1em Georgia, "Times New Roman", Times, serif;
+	text-transform: uppercase;
+}
+
+dl.media dt {
+	padding: 15px 20px 15px 0; 
+}
+
+dd {
+	float: left;
+	width: 400px;
+	padding: 10px 20px;
+	border-top: 1px solid #222224;
+	overflow: hidden;
+}
+
+dl.media dd {
+	padding: 0 20px;
+}
+
+dt.first, dd.first,
+dl.media dt, dl.media dd {
+	border-top: none;
+}
+
+iframe {
+	border: none;
+}
+
+hr {
+	clear: both;
+	background: #222224; 
+	color: #222224;
+	width:100%; 
+	height:1px; 
+	margin:15px 0; 
+ 	border:none;
+	display:block
+}
+
+	
+		
+	
+
+/* ---------- @ Page Structure -----------*/
+
+
+.wrapper {
+	margin: 0 auto;
+	font-size: 0.75em;
+	width: 928px;
+	padding: 0 47px;
+	overflow: hidden;
+	}
+	   
+#masthead {
+	background: url(/images/bg_wrapper.jpg) right no-repeat;
+	height: 185px;
+	margin-top: 22px;
+	}
+
+#main {
+	background: #2d2d2f;
+	border-top: 1px solid #444446;
+	padding: 40px 0 50px;
+	z-index: 1;
+	overflow: visible;
+}
+
+#widecolumn {
+	overflow: hidden;
+}
+	
+#content {
+	width:650px;
+	float:left;
+	overflow: hidden;
+	}
+
+.page-content {
+	width: 625px !important;
+	padding-right: 25px;
+}
+	
+#sidebar {
+	width:265px;
+	float:right;
+	overflow: hidden;
+	}
+
+.left {	
+	float:left;
+	}
+
+.right {	
+	float:right;
+	}
+
+.hidden {
+	display:none;
+	}
+
+
+/* ---------- @ Navigation -----------*/
+
+#nav {
+	height:39px;
+	padding-top: 13px;
+	font-size: .9em;
+	overflow: visible;
+	}
+	
+#nav li {
+	list-style:none;
+	float:left;
+	height: 37px;
+	}
+
+#nav li a, #nav li a:visited {
+	height: 25px;
+	margin: 0 15px 0 0;
+	display:block;
+	float: left;
+	padding: 10px 20px 6px;
+	text-decoration: none;
+	color: #a1a0a0;
+	z-index: 1000;
+	}
+
+#nav li a:hover, #nav li a:focus,
+#nav li.current_page_item a, #nav li.current_page_item a:visited,
+#nav li.current_page_ancestor a, #nav li.current_page_ancestor a:visited,
+#nav li.ui-tabs-selected a, #nav li.ui-tabs-selected a:visited  {
+	background: #2d2d2f url(/images/bg_nav.gif) repeat-x;
+	color: #fff;
+}
+
+#subnav-wrapper {
+	width:650px;
+	overflow: hidden;
+	border: 1px solid #3F3F41;
+	border-width: 1px 0;
+}
+
+#subnav {
+	overflow: hidden;
+	float: right;
+}
+
+#subnav li {
+	list-style:none;
+	float:left;
+	height: 37px;
+}
+
+#subnav li a, #subnav li a:visited {
+	height: 25px;
+	margin: 0 15px 0 0;
+	display:block;
+	float: left;
+	padding: 10px 20px 6px 0;
+	text-decoration: none;
+	color: #a1a0a0;
+	}
+
+#subnav li a:hover, #subnav li a:focus,
+#subnav li.current_page_item a, #subnav li.current_page_item a:visited,
+#subnav li.current_page_ancestor a, #subnav li.current_page_ancestor a:visited  {
+	color: #fff;
+}
+
+
+/* Poem Nav */
+
+#poem_sorting {
+	position: relative;
+}
+
+.poem-results {
+	background-color: #000;
+	overflow: hidden;
+	padding: 10px 10px 15px 15px;
+	font-size: .9em;
+}
+
+.poem-results ul {
+	margin-top: -1px;
+	overflow: auto;
+	max-height: 350px;
+}
+
+.poem-results ul li {
+	list-style: none;
+	padding: 15px 2px;
+	text-transform: uppercase;
+	color: #666;
+}
+
+.poem-results ul li ul {
+	margin: 5px 0 10px;
+	border-top: 1px solid #19191b;
+}
+
+.poem-results ul.titles li {
+	background: url(/images/dashes.gif) bottom repeat-x;
+	text-transform: none;
+	color: #fff;
+}
+
+.poem-results ul.titles li a:link, .poem-results ul.titles li a:visited {
+	text-decoration: none;
+}
+
+	
+		
+/* ---------- @ Headings -----------*/
+
+		   
+h1#logo,
+h1#logo a, h1#logo a:visited {
+	float: left;
+	width: 463px;
+	height: 80px;
+	}
+
+h1#logo a, h1#logo a:visited {
+	background: url(/images/logo.gif) no-repeat;
+	text-indent:-9000px;
+	display:block;
+	margin-top: 50px;
+	}
+
+div#logo {
+	float: left;
+	width: 463px;
+	height: 80px;
+	margin-top: 50px;
+}
+
+div#logo img {
+	display: block;	
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {	
+	font: 2.4em Georgia, "Times New Roman", Times, serif;
+	background: url(/images/bg_hdr.gif) left 8px no-repeat;
+	letter-spacing: .05em;
+	padding: 14px 0 10px;
+	}
+
+h2#tagline {
+	background: none;
+	padding: 0;
+}
+
+h2#tagline a, h2#tagline a:visited {
+	text-indent:-9000px;
+	display: block;
+	height: 50px;
+	width: 265px;
+	background: url(/images/tagline.gif) no-repeat;
+	margin-top: 30px;
+	padding: 0;
+}
+
+h3 {	
+	font: 1.7em Georgia, "Times New Roman", Times, serif;
+	letter-spacing: .05em;
+	margin: 20px 0 -5px;
+	}
+	
+#sidebar h3 {	
+	font: 1.9em Georgia, "Times New Roman", Times, serif;
+	background: url(/images/bg_hdr_sidebar.gif) 90px top no-repeat;
+	text-align: right;
+	margin: 0;
+	padding: 20px 0 14px;
+	}
+	
+h4 {	
+	font: 1.4em Georgia, "Times New Roman", Times, serif;
+	letter-spacing: .05em;
+	margin: 20px 0 -5px;
+	}
+
+dd h4 {
+	margin: 15px 0;
+}
+
+h4.poem-sort-method {
+	display: block;
+	height: 40px;
+	background: #19191b url(/images/icon_plus.gif) 248px 16px no-repeat;
+	border-bottom: 1px solid #0b0b0d;
+	padding: 0 24px;
+	text-align: right;
+	line-height: 40px;
+	font-weight: normal;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	text-decoration: none;
+	outline: none;
+	cursor: pointer !important;
+	margin: 0;
+}
+
+h4.selected {
+	background-image: url(/images/icon_minus.gif);
+	cursor: pointer !important;
+}
+
+h5 {	
+	color: #A1A1A3;
+	font: 1em Georgia, "Times New Roman", Times, serif;
+	text-transform: uppercase;
+	margin: 15px 0 -5px;
+	}
+
+
+
+/* ---------- @ Content Styles -----------*/
+
+/*General*/
+	
+#masthead #intro {
+	float: right;
+	width: 265px;
+	height: 100px;
+	margin-top: 30px;
+	font-size: .95em;
+}
+
+#masthead #intro p {
+	display: inline;
+}
+
+#masthead #intro a, #masthead #intro a:visited {
+	color: #fff;
+}
+
+#masthead #intro a:hover, #masthead #intro a:active {
+	color:#c99a73;
+}
+
+.entry {
+	overflow: hidden;	
+}
+
+.excerpt blockquote {
+	margin: 10px 0 20px;	
+}
+
+.entry ul, .entry ol {
+	padding:0 15px 10px 10px;
+	margin:15px 0;
+	}		
+
+.entry ul li {
+	list-style-type: square;
+	margin:4px 0 4px 45px;
+	padding:4px 0;
+	}
+
+.entry ol li {
+	margin-left:15px;
+	padding:3px 0;
+	}			
+
+.entry img {
+	margin:5px 14px 6px 0;
+	border: 2px solid #363636;
+	padding: 1px;
+	}
+
+.entry a:hover img {
+	border-color: #A1A1A3;
+}
+
+.entry img.alignleft,
+.entry div.alignleft {
+	float:left;
+}
+
+.entry img.alignright,
+.entry div.alignright,
+.entry img.ngg-right {
+	float:right;
+}
+
+.entry img.alignright {
+	margin:5px 0 6px 14px;
+}
+
+.entry .wp-caption {
+	margin: 5px 14px 6px;
+	font-size: .9em;
+	font-style: italic;
+	background: #363636;
+	padding:4px;
+}
+
+.entry .wp-caption img {
+	border: none;
+	padding: 0;
+	display: block;
+	margin: 5px auto;
+}
+
+.entry .wp-caption p.wp-caption-text {
+	margin: 5px auto;
+	text-align: center;
+}
+
+.entry code {
+	font: 1em "Courier New", Courier, monospace;
+	overflow:auto;
+	padding:14px;
+	background:#efe9df;
+	display:block;
+	}
+
+.pagination {
+	margin: 20px 0;	
+}
+
+a.download {
+	background: url(/images/icon_download.gif) no-repeat;
+	padding: 2px 20px 0;
+}
+
+#app {
+	width: 600px;
+	height: 654px;
+	background: #666;
+	padding: 12px 15px;
+}
+
+
+/* Tabs */
+
+.ui-tabs-hide {
+	display: none; !important
+}
+
+.poem-content {
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #222224;
+}
+
+.ui-tabs-panel {
+	border-bottom: none !important;	
+}
+
+	
+
+/* ---------- @ Float Clearing -----------*/
+
+.clearfloat:after {
+	display:block;
+	visibility:hidden;
+	clear:both;
+	height:0;
+	content:".";
+	}
+	
+.clearfloat {
+	display:inline-block;
+	}
+
+.clearfloat {
+	display:block;
+	}
+
+
+/* ---------- @ Footer -----------*/
+
+#footer {
+	height: 118px;
+	padding-top: 50px;
+	background: url(/images/bg_footer.gif) repeat-x;
+	text-align: center;
+	}
+
+#footer p {
+	margin-top: 0;
+}
+
+
+
+/* ---------- @ Thickbox -----------*/
+
+
+/* ----------------------------------------------------------------------------------------------------------------*/
+/* ---------->>> thickbox specific link and font settings <<<------------------------------------------------------*/
+/* ----------------------------------------------------------------------------------------------------------------*/
+#TB_window {
+	font: 12px Arial, Helvetica, sans-serif;
+	color: #333333;
+}
+
+#TB_secondLine {
+	font: 10px Arial, Helvetica, sans-serif;
+	color:#666666;
+}
+
+#TB_window a:link {color: #666666;}
+#TB_window a:visited {color: #666666;}
+#TB_window a:hover {color: #000;}
+#TB_window a:active {color: #666666;}
+#TB_window a:focus{color: #666666;}
+
+/* ----------------------------------------------------------------------------------------------------------------*/
+/* ---------->>> thickbox settings <<<-----------------------------------------------------------------------------*/
+/* ----------------------------------------------------------------------------------------------------------------*/
+#TB_overlay {
+	position: fixed;
+	z-index:100;
+	top: 0px;
+	left: 0px;
+	height:100%;
+	width:100%;
+}
+
+.TB_overlayMacFFBGHack {background: url(/images/macFFBgHack.png) repeat;}
+.TB_overlayBG {
+	background-color:#000;
+	filter:alpha(opacity=75);
+	-moz-opacity: 0.75;
+	opacity: 0.75;
+}
+
+* html #TB_overlay { /* ie6 hack */
+     position: absolute;
+     height: expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight + 'px');
+}
+
+#TB_window {
+	position: fixed;
+	background: #ffffff;
+	z-index: 102;
+	color:#000000;
+	display:none;
+	border: 4px solid #525252;
+	text-align:left;
+	top:50%;
+	left:50%;
+}
+
+* html #TB_window { /* ie6 hack */
+position: absolute;
+margin-top: expression(0 - parseInt(this.offsetHeight / 2) + (TBWindowMargin = document.documentElement && document.documentElement.scrollTop || document.body.scrollTop) + 'px');
+}
+
+#TB_window img#TB_Image {
+	display:block;
+	margin: 15px 0 0 15px;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #666;
+	border-left: 1px solid #666;
+}
+
+#TB_caption{
+	height:25px;
+	padding:7px 30px 10px 25px;
+	float:left;
+}
+
+#TB_closeWindow{
+	height:25px;
+	padding:11px 25px 10px 0;
+	float:right;
+}
+
+#TB_closeAjaxWindow{
+	padding:7px 10px 5px 0;
+	margin-bottom:1px;
+	text-align:right;
+	float:right;
+}
+
+#TB_ajaxWindowTitle{
+	float:left;
+	padding:7px 0 5px 10px;
+	margin-bottom:1px;
+}
+
+#TB_title{
+	background-color:#e8e8e8;
+	height:27px;
+}
+
+#TB_ajaxContent{
+	clear:both;
+	padding:2px 15px 15px 15px;
+	overflow:auto;
+	text-align:left;
+	line-height:1.4em;
+}
+
+#TB_ajaxContent.TB_modal{
+	padding:15px;
+}
+
+#TB_ajaxContent p{
+	padding:5px 0px 5px 0px;
+}
+
+#TB_load{
+	position: fixed;
+	display:none;
+	height:13px;
+	width:208px;
+	z-index:103;
+	top: 50%;
+	left: 50%;
+	margin: -6px 0 0 -104px; /* -height/2 0 0 -width/2 */
+}
+
+* html #TB_load { /* ie6 hack */
+position: absolute;
+margin-top: expression(0 - parseInt(this.offsetHeight / 2) + (TBWindowMargin = document.documentElement && document.documentElement.scrollTop || document.body.scrollTop) + 'px');
+}
+
+#TB_HideSelect{
+	z-index:99;
+	position:fixed;
+	top: 0;
+	left: 0;
+	background-color:#fff;
+	border:none;
+	filter:alpha(opacity=0);
+	-moz-opacity: 0;
+	opacity: 0;
+	height:100%;
+	width:100%;
+}
+
+* html #TB_HideSelect { /* ie6 hack */
+     position: absolute;
+     height: expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight + 'px');
+}
+
+#TB_iframeContent{
+	clear:both;
+	border:none;
+	margin-bottom:-1px;
+	margin-top:1px;
+	_margin-bottom:1px;
+}
+
+

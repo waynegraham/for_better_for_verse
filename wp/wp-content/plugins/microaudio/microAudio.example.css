@@ -1,0 +1,72 @@
+/*
+ *	microAudio Wordpress Plugin
+ *	(c) 2008-9 Christopher O'Connell
+ *	Dual Licensed under the MIT and GPL licenses
+ *  See license.txt, included with this package for more
+ *
+ *	microAudio.example.css
+ *  Release 0.6.2, March 2009
+ */
+.microAudio-bg {
+	color: #3366FF;
+	}
+
+.microAudio-leftbg {
+	color: #33CCFF;
+	}
+
+.microAudio-lefticon {
+	color: #33FFCC;
+	}
+
+.microAudio-voltrack {
+	color: #33FF66;
+	}
+
+.microAudio-volslider {
+	color: #6633FF;
+	}
+
+.microAudio-rightbg {
+	color: #003DF5;
+	}
+
+.microAudio-rightbghover {
+	color: #B80000;
+	}
+
+.microAudio-righticon {
+	color: #66FF33;
+	}
+
+.microAudio-righticonhover {
+	color: #CC33FF;
+	}
+
+.microAudio-skip {
+	color: #002EB8;
+	}
+
+.microAudio-text {
+	color: #F5B800;
+	}
+
+.microAudio-track {
+	color: #CCFF33;
+	}
+
+.microAudio-border {
+	color: #FF33CC;
+	}
+
+.microAudio-loader {
+	color: #FF0000;
+	}
+
+.microAudio-tracker {
+	color: #FF0000;
+	}
+
+.mAp, .adplr {
+	width: 300px;
+	}
