@@ -124,6 +124,7 @@ else { ?>
 		});
      });
 </script>
+<script language="javascript" type="text/javascript" src="http://quickribbon.com/ribbon/2009/08/f0f453b84d41af92386e2c549487ca35.js"></script>
 <?php } ?>
 
 <link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS Feed" href="<?php bloginfo('rss2_url'); ?>" />
