@@ -5,7 +5,7 @@
 
 body {
     font-family: arial, verdana, helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 13px;
     background: #222222;
     color: #FFFFFF;
 	line-height: 1em;
@@ -31,7 +31,7 @@ span.prosody-shadowsyllable {
     empty-cells: show;
     /*padding-right:1em;*/
     text-align:center;
-    font-size: 14px;
+    font-size: 13px;
     color: #DEB887;
 	vertical-align: bottom;
 }
@@ -133,7 +133,11 @@ label {
 	word-spacing: 0;
 	letter-spacing: 0;
 	}
-	
+
+#poem .button button {
+	width: 18px;
+}
+
 #meter-select {
 	margin: 10px;
 }

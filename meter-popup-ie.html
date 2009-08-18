@@ -1,0 +1,73 @@
+<!DOCTYPE html SYSTEM "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head><title>Check your knowledge of meter, friend!</title>
+    <link href="css/main.css" rel="stylesheet" title="Basic TEI style" type="text/css" />
+    <style type="text/css">
+	body {
+	font-family: Arial, sans-serif !important;
+	}
+    </style>
+    <script type="text/javascript">
+
+        function init() {
+            var linenumber = window.location.search.substring(1).split('&')[0].split('=')[1];
+            var linegroupindex = window.location.search.substring(1).split('&')[1].split('=')[1];
+            var fullanswer = window.opener.$("prosody-real-" + linenumber).select("span[answer]")[0].getAttribute('answer');    
+            var foottype = fullanswer.split("(")[0];
+            var numberfeet = fullanswer.split("(")[1].split(")")[0].split("/")[linegroupindex-1];
+            document.forms[0].answer.value = foottype + numberfeet;
+        }
+        
+        function check() {
+        	var linenumber = window.location.search.substring(1).split('&')[0].split('=')[1];
+            
+            // first, assemble the user's proposed answer
+            var answer = document.forms[0].foot.value + document.forms[0].number.value ;
+                
+            // now, test it and respond
+              if (answer == document.forms[0].answer.value ) {
+              	var meter_target = opener.document.getElementById("checkmeter" + linenumber);
+              	meter_target.innerHTML = "<img src='images/correct.png'/>";
+            }
+            else {
+              	var meter_target = opener.document.getElementById("checkmeter" + linenumber);
+              	meter_target.innerHTML = "<img src='images/incorrect.png'/>";
+            } 
+            self.close();
+        }
+        
+    </script></head>
+    <body onload="init();">
+    	<div id="meter-select">
+        <form action="" title="Checking the meter" name="meterform" id="meterform">
+        	<label for="foot-select">Please describe the rhythm of the line</label><br/>
+            <select id="foot-select" name="foot" title="Name of foot">
+                <option value="++">spondaic</option>
+                <option value="+-">trochic</option>
+                <option value="-+">iambic</option>
+                <option value="--">pyrrhic</option>
+                <option value="---">tribrachic</option>
+                <option value="+--">dactylic</option>
+                <option value="-+-">amphibrachic</option>
+                <option value="--+">anapestic</option>
+                <option value="-++">bacchic</option>
+                <option value="++-">antibacchic</option>
+                <option value="+-+">cretic</option>
+                <option value="+++">molossic</option>
+            </select><br/><br/>
+       		<label for="number-select">Please describe the number of feet</label><br/>
+            <select id="number-select" name="number" title="Number of feet">
+                <option value="1">monometer</option>
+                <option value="2">dimeter</option>
+                <option value="3">trimeter</option>
+                <option value="4">tetrameter</option>
+                <option value="5">pentameter</option>
+                <option value="6">hexameter</option>
+            </select><br/><br/>
+            <input type="hidden" name="answer" id="answer" title="The answer"/>
+        </form>        
+        <button id="check-answer" title="Check answer" onclick="check()" />
+        <label for="check-answer">Submit</label>
+        </div>
+    </body>
+</html>
