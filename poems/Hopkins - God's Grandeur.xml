@@ -40,10 +40,10 @@
                     <seg met="-+">ness, <caesura/>like </seg>
                     <seg met="-+">the ooze </seg>
                     <seg met="-+">of <rhyme label="b">oil</rhyme></seg>
-                    <note anchored="true">Now you can see why this poem is presented as a Special Challenge.  If anything line 3 is more evidently a hexameter than line 1 was a tetrameter.  Yet - take it on faith for now - the sonnet's meter is pentameter; so the prosodist sweeps all those slacks into a second foot of 4 syllables and calls it a paeonic (technically a "fourth paeonic" because the foot's one stress falls in fourth place).  Scan it thus and, for your trouble, enjoy the dividend of a heightened sense of swift inevitable "gathering" in the sudden grandeurs of a divinely charged world.  Line 12 seems to remember this accelerando, though there Hopkins will obtain it by legal means.  He became so fond of such rhythmical suppleness that many of his best poems jettison accentual-syllabic metrics altogether, in favor of what he called Sprung Rhythm. This poem springs that way, but it doesn't quite obtain escape velocity.
+                    <note anchored="true">Now you can see why this poem is presented as a Special Challenge.  If anything line 3 is more evidently a hexameter than line 1 was a tetrameter.  Yet - take it on faith for now - the sonnet's meter is pentameter; so the prosodist sweeps all those slacks into a second foot of 4 syllables and calls it a paeonic (technically a "fourth paeonic" because the foot's one stress falls in fourth place).  Scan it thus and, for your trouble, enjoy the dividend of a heightened sense of swift inevitable "gathering" in the sudden grandeurs of a divinely charged world.  Line 12 seems to remember this accelerando, though there Hopkins will obtain it by legal means.  He became so fond of such rhythmical suppleness that many of his best poems jettison accentual-syllabic metrics altogether, in favor of what he called Sprung Rhythm. This poem springs that way, but it doesn't quite reach escape velocity.
                     </note>
                 </l>
-                <l n="4" met="-+-+-+-+-+" real="++-+-+-+-+">
+                <l n="4" met="-+-+-+-+-+" real="++---+-+-+">
                     <seg>Crushed. <caesura/> Why </seg>
                     <seg>do men </seg>
                     <seg>then now </seg>
@@ -128,7 +128,7 @@
                     <caesura/>
                     <seg>bright <rhyme label="d">wings.</rhyme></seg>
                     <note anchored="true">
-                        Here's verbal comfort food.  Two double-stresses alliterated on the heavily vocal consonants "w" and "br" lead -- with a magician's surprised, gratified "ah!" -- to a third double-stress that reverses the alliteration and also reverberates with "brink" and "springs" two lines above it.  The line recapitulates the sense of rescue that informs this sonnet's whole movement from threat to reassurance, bad news to good.  The conspicuous enjambment of line 13 hovers precariously between the world's sinful fallenness and the tender care of the Holy Ghost.
+                        Here's verbal comfort food.  "World broods," "warm breast": two double-stresses alliterated on the heavily vocal consonants "w" and "br" lead -- with a magician's wondering "ah!" -- to a third double-stress ("bright wings") that reverses the alliteration and also reverberates with "brink" and "springs" two lines above it.  The line recapitulates the sense of rescue that informs this sonnet's whole movement from threat to reassurance, bad news to good.  The conspicuous enjambment of line 13 hovers precariously between the world's fallenness and the tender care of the Holy Ghost.
                     </note>
                 </l>
             </lg>
