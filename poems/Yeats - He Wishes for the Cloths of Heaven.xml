@@ -50,9 +50,12 @@
                     <seg met="-+" part="N">my dreams </seg>
                     <seg met="-+" real="+-" part="N">un<sb part="N"/>der </seg>
                     <seg met="-+" part="N">your <rhyme label="c">feet;</rhyme></seg>
-                </l><l n="8" met="-+-+-+-+" real="++--+-+--+" part="N">
+                </l><l n="8" met="-+-+-+-+" real="++--+-+--+|++----+--+" part="N">
                     <seg met="-+" real="++" part="N">Tread soft<sb part="N"/></seg>
                     <seg met="-+" real="--+" part="N">ly be<sb part="N"/>cause </seg>
                     <seg met="-+" part="N">you tread </seg>
                     <seg met="-+" real="--+" part="N">on my <rhyme label="d">dreams.</rhyme></seg>
+                    <note anchored="true">
+                        This beautiful closing line, with its metapoetic pun on what is "under your feet," may also be scanned more trippingly than our conservative official answer allows.  Try it this way: spondee, pyrrhic, anapest, anapest.  That gives, remarkably, a run of four consecutive slacks, as if the texture of the poet's dreams must be skimmed if it is not to break.  One good reason to retain the terminology of "feet" is that great lines dance.
+                    </note>
                 </l></lg></body></text></TEI>
