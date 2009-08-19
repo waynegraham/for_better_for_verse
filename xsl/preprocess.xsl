@@ -118,7 +118,7 @@
                             <img src="images/blank.gif"/>
                         </button>
                         <p class="prosody-note" id="hintfor{$line-number}">
-                            <span>Note on line number <xsl:value-of select="$line-number"/>:</span>
+                            <span>Note on line <xsl:value-of select="$line-number"/>:</span>
                             <xsl:value-of select="TEI:note"/>
                         </p>
                     </span>

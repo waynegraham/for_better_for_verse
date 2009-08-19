@@ -318,10 +318,10 @@ function updatehintbutton(id) {
         // and clickability
 		
 		Event.observe(e, 'click', function(){
-			var win = new Window({className: "mac_os_x", width:400, height:300, zIndex: 100, resizable: true, title: "Hint for line " + id, draggable:true, wiredDrag: true});
+			debug("popping win1");
+			var win = new Window({className: "mac_os_x", width:400, height:300, zIndex: 100, resizable: true, title: "Note on line " + id, draggable:true, wiredDrag: true});
 
 			win.setContent('hintfor' + id, 'prosody-note-show');
-			win.setStatusBar("Scansion hint");
 			win.showCenter();
 		});
 
@@ -345,7 +345,7 @@ function clickablehintimage() {
     debug(img);
     return img;
 }
-
+/*
 function pophint(e) {
 	debug("Entering pophint()");
 	
@@ -364,10 +364,10 @@ function pophint(e) {
 	
 
 	debug("create window object");
-	var win = new Window({className: "mac_os_x", width:400, height:300, zIndex:100, resizable:true, title:"Hint for line " + linenumber, draggable:true, wiredDrag:true, effectOptions:{duration:0.2}});
+	debug("popping win2");
+	var win = new Window({className: "mac_os_x", width:400, height:300, zIndex:100, resizable:true, title:"Note on line " + linenumber, draggable:true, wiredDrag:true, effectOptions:{duration:0.2}});
 	
 	win.setContent('hintfor' + linenumber, 'prosody-note-show');
-	win.setStatusBar("Scansion hint");
 	win.showCenter();
 
     //pop = window.open("", "Hint for line " + linenumber,"menubar=no,scrollbars=yes,height=300,width=400");
@@ -380,7 +380,7 @@ function pophint(e) {
 	//else // more MS crap
 	//	debug("hintp nodetype = " + hintp.nodetype);
 	//	setTimeout(function() { pop.document.body.appendChild(hintp) },500);
-}
+} */
 
 function debug(s) {
     if (debugflag){
