@@ -53,7 +53,7 @@
                     </l>
                     </lg>
                 <lg n="2" type="quintet" met="-+(5/5/5/5/4)" rhyme="ababa" org="uniform" sample="complete" part="N">
-                    <l n="6" met="-+-+-+-+-+" real="+--+-+-+-+" part="N">
+                    <l n="6" met="-+-+-+-+-+" real="+-++-+-+-+|--++-+-+-+" part="N">
                         <seg>Is it </seg>
                         <seg>no verse, </seg>
                         <seg>ex<sb/>cept </seg>
@@ -103,12 +103,15 @@
                         <seg>and pull </seg>
                         <seg>for <rhyme label="b">Prime;</rhyme></seg>
                     </l>
-                    <l n="13" met="-+-+-+-+-+" real="-+-+-+-+-+" part="N">
+                    <l n="13" met="-+-+-+-+-+" real="-+-+-+-+-+|-+-+++---+" part="N">
                         <seg>I en<sb/></seg>
                         <seg>vy no </seg>
                         <seg>man's night<sb/></seg>
                         <seg>in<sb/>gale </seg>
                         <seg>or <rhyme label="a">spring;</rhyme></seg>
+                        <note anchored="true">
+                            A delicate point, whether to stress "man."  In Herbert's time "no man" was synonymous with "no one," so you may want to stress just the first word of the phrase.  Still, if you do hear stress on "man," put it in.  But then notice what happens to "nightingale" right after it in our pentameter line.  The word loses the promoted stress (see Glossary) that a straight iambic scansion would give its slack final syllable.  It all comes down to a decision about tone.  If you think Herbert is putting scare quotes around "nightingale" and "spring" -- pet terms among the conventional secular poets of his day -- then you want that promoted stress and should leave "man" slack.  If you think on the other hand that he's being concessive -- Look, it's fine with me if they want to devote their art to mere celebration of this world, every man to his own taste and vocation -- then go ahead, stress "man," and let "nightingale" fizzle out into a pyrrhic. Each distribution of the five beats activates a different attitude.
+                        </note>
                     </l>
                     <l n="14" met="-+-+-+-+-+" real="+--+-+-+-+" part="N">
                         <seg>Nor let </seg>
