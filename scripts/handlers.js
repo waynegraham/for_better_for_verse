@@ -320,9 +320,8 @@ function updatehintbutton(id) {
 		Event.observe(e, 'click', function(){
 			debug("popping win1");
 			var win = new Window({className: "mac_os_x", width:400, height:300, zIndex: 100, resizable: true, title: "Note on line " + id, draggable:true, wiredDrag: true});
-
-			win.setContent('hintfor' + id, 'prosody-note-show');
 			win.showCenter();
+			win.setContent('hintfor' + id, 'prosody-note-show');
 		});
 
        /** if (e.addEventListener) 
@@ -331,7 +330,7 @@ function updatehintbutton(id) {
     		e.attachEvent('onclick',pophint);  //IE only
 */
         //e.setAttribute('onclick', "pophint(this)");
-        debug("	e.onclick = " + e.onclick);
+        //debug("	e.onclick = " + e.onclick);
         //}
     }
 }
