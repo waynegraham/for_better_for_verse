@@ -15,7 +15,7 @@
         <text>
             <body>
                 <lg n="1" type="quintet" met="-+(5/5/5/5/4)" rhyme="ababa" org="uniform" sample="complete" part="N">
-                    <l n="1" met="-+-+-+-+-+" real="++-+-+--++" part="N">
+                    <l n="1" met="-+-+-+-+-+" real="++-+-+--++|-+-+-+--++" part="N">
                    <seg>Who says </seg>
                    <seg>that fic<sb/></seg>
                    <seg>tions on<sb/></seg>
