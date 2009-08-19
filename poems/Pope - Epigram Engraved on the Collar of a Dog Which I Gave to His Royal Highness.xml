@@ -26,9 +26,7 @@
                     <caesura/>
                     <seg met="-+" real="+-">whose dog </seg>
                     <seg met="-+">are <rhyme label="a">you?</rhyme></seg>
-                    <note anchored="true">
-                        For brief discussion of what's wagging in the 3rd foot, see the tail end of the 4B4V Overview.
-                    </note>
+                    <note anchored="true">For brief discussion of what's wagging in the 3rd foot, see the tail end of the 4B4V Overview.</note>
                 </l>
             </lg>
         </body>
