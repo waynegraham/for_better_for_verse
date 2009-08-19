@@ -63,13 +63,13 @@
                     <l n="8" met="++" real="++" part="N">
                         <seg> Ding-<sb/>dong.</seg>
                         <note anchored="true">
-                            This resonant, onomatopoetic spondee is very long: as long by the stopwatch, some might say, as the tetrameter lines above it.  If they were quarter notes, each syllable here would be a dotted half note.  Of course composers of music for this lyric can time it however they like.  In fact they do. 
+                            This resonant, onomatopoetic spondee is very long: as long by the stopwatch, some might say, as the tetrameter lines above it.  If so, and if the syllables of those lines were eighth notes, each syllable here would be a half note.  Of course composers of music for this lyric time it however they like. Good ones respect the retard in the final line where "ding-dong" comes back in fainter, swifter echo. 
                         </note>
                     </l>
                     <l n="9" met="-+-+-+-+" real="+--+-+++" part="N">
                         <seg>Hark! Now </seg>
                         <seg>I hear </seg>
-                        <seg>them - <caesura/>Ding-<sb/></seg>
+                        <seg>them-<caesura/>Ding-<sb/></seg>
                         <seg>dong, <rhyme label="d">bell.</rhyme></seg>
                     </l>
                     
