@@ -124,7 +124,7 @@ else { ?>
 		});
      });
 </script>
-<script language="javascript" type="text/javascript" src="http://quickribbon.com/ribbon/2009/08/c2c42bcd5e6ac20775272a3154634b55.js"></script>
+<script language="javascript" type="text/javascript" src="http://quickribbon.com/ribbon/2009/08/f0f453b84d41af92386e2c549487ca35.js"></script>
 <?php } ?>
 
 <link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS Feed" href="<?php bloginfo('rss2_url'); ?>" />
@@ -134,7 +134,11 @@ else { ?>
 <link rel="shortcut icon" href="/favicon.ico" />
 
 <?php wp_head(); ?>
-
+<script type="text/javascript">
+	jQuery(document).ready(function(){
+		$('#home > a:first').attr("href","mailto:prosody@collab.itc.virginia.edu?subject=For Better For Verse feedback");
+     });
+</script>
 </head>
 
 <body <?php if (is_home()) { ?>id="home"<?php } else { ?>class="page-<?php echo $post->post_name; ?>" id="interior"<?php } ?>>
