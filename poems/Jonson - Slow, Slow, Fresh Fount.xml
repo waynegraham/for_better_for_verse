@@ -46,13 +46,11 @@
                         <seg>she <rhyme label="b">sings.</rhyme></seg>
                     </l>
                     <l n="5" met="-+-+" real="++-+(-)" part="N">
-                        <seg> Droop herbs </seg>
-                        
+                        <seg> Droop herbs </seg>                        
                         <seg>and flow<sb/><rhyme label="c">ers;</rhyme></seg>
                     </l>
                     <l n="6" met="-+-+" real="++-+(-)" part="N">
-                        <seg> Fall grief </seg>
-                        
+                        <seg> Fall grief </seg>                        
                         <seg>in show<sb/><rhyme label="c">ers;</rhyme></seg>
                     </l>
                     <l n="7" met="-+-+-+-+-+" real="-+--++(-)+--+" part="N">
@@ -71,8 +69,7 @@
                         <seg>gy <rhyme label="d">hill,</rhyme></seg>
                     </l>
                     <l n="9" met="-+-+" real="++++" part="N">
-                        <seg> Drop, drop, </seg>
-                        
+                        <seg> Drop, drop,</seg>
                         <seg>drop, <sb/><rhyme label="x">drop,</rhyme></seg>
                     </l>
                     <l n="10" met="-+-+-+-+-+-+" real="-+-+-+-+-+-+" part="N">
