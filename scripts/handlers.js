@@ -89,6 +89,10 @@ function switchstress(shadowspan) {
         },
         150);
     }
+	var stressimg=$("checkstress" + shadowspan.id.substring(15,16)).firstDescendant().firstDescendant();
+	if(stressimg && stressimg.readAttribute("src")!="images/stress-default.png"){
+		stressimg.writeAttribute("src","images/stress-default.png");
+	}
 }
 
 function checkstress(linenumber) {
@@ -163,6 +167,11 @@ function switchfoot(coords) {
 		}
         $(coords).insert("<span class='prosody-footmarker'>|</span>");;
     }
+
+	var feetimg=$("checkfeet" + coords.substring(13,14)).firstDescendant().firstDescendant();
+	if(feetimg && feetimg.readAttribute("src")!="images/feet-default.png"){
+		feetimg.writeAttribute("src","images/feet-default.png");
+	}
 }
 
 function checkfeet(linenumber) {
@@ -285,6 +294,10 @@ function togglestress() {
     $$('.prosody-marker').invoke("toggle");
 }
 
+function togglefeet() {
+    $$('.prosody-footmarker').invoke("toggle");
+}
+
 // this function highlights those syllables in which real="" and met=""
 // scansions are different.
 // it assumes that any syllable featuring a @real attribute will have also a
@@ -292,11 +305,12 @@ function togglestress() {
 // they are different.
 function toggledifferences(e) {
     if (e.value == "off") {
-        document.styleSheets[0].insertRule('span[discrepant] { color: #F0F055; }',
-        0);
+        //document.styleSheets[0].insertRule('span[discrepant] { color: #F0F055; }', 0);
+		$$("span[discrepant]").invoke('addClassName', 'discrep');
         e.value = "on";
     } else if (e.value == "on") {
-        document.styleSheets[0].deleteRule(0);
+        //document.styleSheets[0].deleteRule(0);
+		$$("span[discrepant]").invoke('removeClassName', 'discrep');
         e.value = "off"
     }
 }

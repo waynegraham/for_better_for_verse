@@ -22,8 +22,6 @@
             </div>
             <xsl:apply-templates select="TEI:TEI/TEI:text/TEI:body/*"/>
         </div>
-        <button id="toggle-discrepancies" value="off" onclick="toggledifferences(this)">Toggle
-            metrical discrepancies</button>
     </xsl:template>
     
     <xsl:template match="TEI:lg">

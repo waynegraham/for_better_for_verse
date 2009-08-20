@@ -69,8 +69,8 @@
 			<x:transform doc="${poemxml}" xslt="${preprocessxsl}" />
 		</div>
 		<div id="utils">
-			<button id="togglestress" class="on" onclick="togglestress();">Hide/show stresses</button>
-			</div>
+			<button id="togglestress" class="on" onclick="togglestress();">Hide/show stresses</button> | <button id="togglefeet" class="on" onclick="togglefeet();">Hide/show feet markers</button> <button id="toggle-discrepancies" value="off" onclick="toggledifferences(this)">| Toggle metrical discrepancies</button>
+		</div>
 	</body>
 	</html>
 </jsp:root>

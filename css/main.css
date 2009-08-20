@@ -160,6 +160,17 @@ label {
 #meter-select button:hover {
 	background: #858575;
 	}
+	
+#utils {
+	position: static;
+	bottom: 0px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.discrep {
+	color: #F0F055 !important;
+}
 /*#poem .prosody-syllable span.prosody-footmarker {
 	color: #DEB887;
 	font-weight: bold;
