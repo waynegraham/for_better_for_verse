@@ -69,8 +69,8 @@
                         <seg>gy <rhyme label="d">hill,</rhyme></seg>
                     </l>
                     <l n="9" met="-+-+" real="++++" part="N">
-                        <seg> Drop, drop,</seg>
-                        <seg>drop, <sb/><rhyme label="x">drop,</rhyme></seg>
+                        <seg> Drop, drop, </seg>
+                        <seg>drop, <rhyme label="x">drop,</rhyme></seg>
                     </l>
                     <l n="10" met="-+-+-+-+-+-+" real="-+-+-+-+-+-+" part="N">
                         <seg>Since na<sb/></seg>
