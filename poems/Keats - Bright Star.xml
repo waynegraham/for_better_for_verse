@@ -5,7 +5,7 @@
     <teiHeader type="text">
         <fileDesc>
             <titleStmt>
-                <title>"Bright Star, would I were stedfast as thou art"</title>
+                <title>"Bright Star"</title>
                 <author>John Keats</author>
             </titleStmt>
             <publicationStmt><date>1848</date></publicationStmt>
@@ -55,7 +55,7 @@
                     <seg>tion round </seg>
                     <seg>earth's hu<sb/></seg>
                     <seg>man <rhyme label="d">shores,</rhyme></seg>
-                </l><l n="7" met="-+-+-+-+-+" real="-+---+++-+">
+                </l><l n="7" met="-+-+-+-+-+" real="-+---+++-+|-+-+-+++-+">
                     <seg>Or gaz<sb/></seg>
                     <seg>ing on </seg>
                     <seg>the new </seg>
