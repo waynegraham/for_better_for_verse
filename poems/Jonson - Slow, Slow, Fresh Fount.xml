@@ -45,16 +45,16 @@
                         <seg>sion when </seg>
                         <seg>she <rhyme label="b">sings.</rhyme></seg>
                     </l>
-                    <l n="5" met="-+-+" real="++-+(-)" part="N">
+                    <l n="5" met="-+-+" real="++-+-" part="N">
                         <seg> Droop herbs </seg>                        
                         <seg>and flow<sb/><rhyme label="c">ers;</rhyme></seg>
                     </l>
-                    <l n="6" met="-+-+" real="++-+(-)" part="N">
+                    <l n="6" met="-+-+" real="++-+-" part="N">
                         <seg> Fall grief </seg>                        
                         <seg>in show<sb/><rhyme label="c">ers;</rhyme></seg>
                     </l>
-                    <l n="7" met="-+-+-+-+-+" real="-+--++(-)+--+" part="N">
-                        <seg>Our beau<sb/></seg>
+                    <l n="7" met="-+-+-+-+-+" real="--+--++-+--+" part="N">
+                        <seg>O<sb/>ur beau<sb/></seg>
                         <seg>ties are </seg>
                         <seg>not o<sb/>urs.  </seg>
                         <caesura/>
