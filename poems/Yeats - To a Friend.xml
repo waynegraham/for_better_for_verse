@@ -23,7 +23,7 @@
                     <l n="2" met="-+-+-+" real="-+--+-+">
                         <seg>Be sec<sb/></seg>
                         <seg>ret and take </seg>
-                        <seg>de<sb/><rhyme label="b">feat </rhyme></seg>
+                        <seg>de<sb/><rhyme label="b">feat</rhyme></seg>
                     </l>
                     <l n="3" met="-+-+-+" real="-+-+-+">
                         <seg>From an<sb/></seg>
@@ -37,8 +37,8 @@
                     </l>
                     <l n="5" met="-+-+-+" real="--+-+-+">
                         <seg>Be<sb/>ing hon<sb/></seg>
-                        <seg>our bred,</seg>
-                        <seg>with <rhyme label="c">one </rhyme></seg>
+                        <seg>our bred, </seg>
+                        <seg>with <rhyme label="c">one</rhyme></seg>
                     </l>
                     <l n="6" met="-+-+-+" real="+--+-+|-+-+-+">
                         <seg>Who, were </seg>
@@ -48,10 +48,10 @@
                     <l n="7" met="-+-+-+" real="-+-+--+">
                         <seg>Were nei<sb/></seg>
                         <seg>ther shamed </seg>
-                        <seg>in his <rhyme label="c">own </rhyme></seg>
+                        <seg>in his <rhyme label="c">own</rhyme></seg>
                     </l>
                     <l n="8" met="-+-+-+" real="+--+-+">
-                        <seg>Nor in</seg>
+                        <seg>Nor in </seg>
                         <seg>his neigh<sb/></seg>
                         <seg>bours' <rhyme label="d">eyes?</rhyme></seg>
                         <note anchored="true">
@@ -66,21 +66,21 @@
                     <l n="10" met="-+-+-+" real="-+-+-+">
                         <seg>Than Tri<sb/></seg>
                         <seg>umph, <caesura/>turn </seg>
-                        <seg>a<sb/> <rhyme label="f">way </rhyme></seg>
+                        <seg>a<sb/><rhyme label="f">way</rhyme></seg>
                     </l>
                     <l n="11" met="-+-+-+" real="-+-+-+">
                         <seg>And like </seg>
                         <seg>a laugh<sb/></seg>
-                        <seg>ing <rhyme label="e">string </rhyme></seg>
+                        <seg>ing <rhyme label="e">string</rhyme></seg>
                     </l>
                     <l n="12" met="-+-+-+" real="--++-+|-+++-+">
-                        <seg>Whereon </seg>
+                        <seg>Where<sb/>on </seg>
                         <seg>mad fing<sb/></seg>
-                        <seg>ers <rhyme label="f">play </rhyme></seg>
+                        <seg>ers <rhyme label="f">play</rhyme></seg>
                     </l>
                 
                     <l n="13" met="-+-+-+" real="-+-+-+">
-                        <seg>Amid </seg>
+                        <seg>A<sb/>mid </seg>
                         <seg>a place </seg>
                         <seg>of <rhyme label="c">stone,</rhyme></seg>
                     </l>
@@ -90,9 +90,9 @@
                         <seg>ex<sb/><rhyme label="g">ult,</rhyme></seg>
                     </l>
                     <l n="15" met="-+-+-+" real="-+-+++">
-                        <seg>Because <sb/></seg>
+                        <seg>Be<sb/>cause <sb/></seg>
                         <seg>of all </seg>
-                        <seg>things <rhyme label="c">known </rhyme></seg>
+                        <seg>things <rhyme label="c">known</rhyme></seg>
                     </l>
                     <l n="16" met="-+-+-+" real="+-++-+|+--+-+">
                         <seg>That is </seg>
