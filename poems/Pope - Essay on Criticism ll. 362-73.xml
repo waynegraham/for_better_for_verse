@@ -19,7 +19,7 @@
                     <seg met="-+" real="++" part="N">True Ease </seg> 
                     <seg met="-+" part="N">in Writ<sb part="N"/></seg>
                     <seg met="-+" part="N">ing comes </seg> 
-                    <seg met="-+" part="N">from Art,</seg>
+                    <seg met="-+" part="N">from Art, </seg>
                     <caesura/>
                     <seg met="-+" part="N">not <rhyme label="a">Chance,</rhyme></seg>
                 </l>
@@ -58,7 +58,7 @@
                     <caesura/>
                     <seg met="-+" part="N">in smooth<sb part="N"/></seg>
                     <seg met="-+" part="N">er Num<sb part="N"/></seg>
-                    <seg met="-+" part="N">ers <rhyme label="c">flows;</rhyme></seg>
+                    <seg met="-+" part="N">bers <rhyme label="c">flows;</rhyme></seg>
         </l>
         <l n="368" part="N" met="-+-+-+-+-+" real="--++-+-+-+">
                     <seg met="-+" real="--" part="N">But when </seg>
@@ -98,7 +98,7 @@
         </l>
         <l n="373" part="N" met="-+-+-+-+-+-+" real="+--+-+-+-+-+">
                     <seg met="-+" real="+-" part="N">Flies o'er </seg>
-                    <seg met="-+" real="`-+" part="N">th' un<sb part="N"/>bend<sb part="N"/></seg>
+                    <seg met="-+" real="`-+" part="N">th'un<sb part="N"/>bend<sb part="N"/></seg>
                     <seg met="-+" part="N">ing Corn, </seg>
                     <caesura/>
                     <seg met="-+" part="N">and skims </seg>
