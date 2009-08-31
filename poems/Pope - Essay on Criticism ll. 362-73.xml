@@ -50,7 +50,7 @@
                     <caesura/>
                     <seg met="-+" part="N">when Zeph<sb part="N"/></seg>
                     <seg met="-+" part="N">yr gen<sb part="N"/></seg>
-                    <seg met="-+" part="N">tly <rhyme label="c">blows.</rhyme></seg>
+                    <seg met="-+" part="N">tly <rhyme label="c">blows,</rhyme></seg>
         </l>
         <l n="367" part="N" met="-+-+-+-+-+" real="--++-+-+-+">
                     <seg met="-+" real="--" part="N">And the </seg>
@@ -65,7 +65,7 @@
                     <seg met="-+" real="++" part="N">loud Surg<sb part="N"/></seg>
                     <seg met="-+" part="N">es lash </seg>
                     <seg met="-+" part="N">the sound<sb part="N"/></seg>
-                    <seg met="-+" part="N">ing <rhyme label="d">Shore.</rhyme></seg>
+                    <seg met="-+" part="N">ing <rhyme label="d">Shore,</rhyme></seg>
         </l>
         <l n="369" part="N" met="-+-+-+-+-+" real="-+++-+-+-+">
                     <seg met="-+" part="N">The hoarse, </seg>
@@ -80,7 +80,7 @@
                     <seg met="-+" part="N">jax strives </seg>
                     <seg met="-+" part="N">some Rock's </seg>
                     <seg met="-+" real="++" part="N">vast Weight </seg>
-                    <seg met="-+" part="N">to <rhyme label="e">throw.</rhyme></seg>
+                    <seg met="-+" part="N">to <rhyme label="e">throw,</rhyme></seg>
         </l>
         <l n="371" part="N" met="-+-+-+-+-+" real="-+++---+++">
                     <seg met="-+" part="N">The Line </seg>
