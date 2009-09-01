@@ -835,7 +835,7 @@ margin-top: expression(0 - parseInt(this.offsetHeight / 2) + (TBWindowMargin = d
 }
 
 #util_container {
-	width: 200px;
+	width: 300px;
 	display: block;
 	float: right;
 	padding-right: 10px;
