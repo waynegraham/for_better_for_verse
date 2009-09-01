@@ -35,11 +35,11 @@
 	<h4 class="poem-sort-method">By Type</h4>
 	<div class="poem-results">
 		<ul>
-<?php $type_categories = get_categories('child_of=12&orderby=name&order=asc'); ?>
+<?php $type_categories = get_categories('child_of=12&orderby=name&order=asc&showposts=-1'); ?>
 <?php foreach ($type_categories as $cat) : ?>
 	
 	<li><?php echo $cat->cat_name; ?>
-	<?php $posts = get_posts('cat='.$cat->cat_ID.'&orderby=title&order=asc'); ?>
+	<?php $posts = get_posts('cat='.$cat->cat_ID.'&orderby=title&order=asc&showposts=-1'); ?>
 	<?php if( $posts ) : ?>
 	<ul class="titles">
 	<?php foreach( $posts as $post ) : setup_postdata( $post ); ?>
