@@ -15,11 +15,11 @@
 	<h4 class="poem-sort-method">By Difficulty</h4>
 	<div class="poem-results">
 		<ul>
-<?php $difficulty_categories = get_categories('child_of=11&orderby=ID&order=asc'); ?>
+<?php $difficulty_categories = get_categories('child_of=11&orderby=ID&order=asc&showposts=-1'); ?>
 <?php foreach ($difficulty_categories as $cat) : ?>
 	
 	<li><?php echo $cat->cat_name; ?>
-	<?php $posts = get_posts('cat='.$cat->cat_ID.'&orderby=title&order=asc'); ?>
+	<?php $posts = get_posts('cat='.$cat->cat_ID.'&orderby=title&order=asc&showposts=-1'); ?>
 	<?php if( $posts ) : ?>
 	<ul class="titles">
 	<?php foreach( $posts as $post ) : setup_postdata( $post ); ?>
