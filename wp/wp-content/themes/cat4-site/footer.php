@@ -10,7 +10,8 @@
 		</div>
 		<div id="util_container">
 			<div class="addr">University of Virginia Department of English</div>
-			<div class="addr">219 Bryan Hall, PO Box 400121, Charlottesville, VA 22904-4121</div>
+			<div class="addr">219 Bryan Hall, PO Box 400121</div>
+			<div class="addr">Charlottesville, VA 22904-4121</div>
 			<div class="addr">Fax: 434.924.1478 | TDD: 434.982.HEAR</div>
 		</div>
 		<div id="author_container">

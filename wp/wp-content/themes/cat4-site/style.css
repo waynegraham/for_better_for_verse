@@ -811,18 +811,16 @@ margin-top: expression(0 - parseInt(this.offsetHeight / 2) + (TBWindowMargin = d
 	background-image: url('/images/footer_background.gif');
 	background-repeat: repeat-x;
 	padding-top: 18px;
-	color: #333132;
-	height: 100px;
+	height: 125px;
 	font-size: 12px;
 }
 
 #ft a, #ft a:visited {
-	color: #333132;
-	text-decoration: none;
+	color: #AFAFAF;
 }
 
-#ft a:hover {
-	color: #535152;
+#ft p {
+	margin: none;
 }
 
 #author_container {
@@ -845,7 +843,7 @@ margin-top: expression(0 - parseInt(this.offsetHeight / 2) + (TBWindowMargin = d
 }
 
 #ft_wrap {
-	width: 740px;
+	width: 928px;
 	margin: auto !important;
 	padding-top: 20px;
 }
@@ -853,7 +851,7 @@ margin-top: expression(0 - parseInt(this.offsetHeight / 2) + (TBWindowMargin = d
 .scholars_lab_logo {
 	display: block;
 	float: right;
-	height: 60px;
+	height: 76px;
 	padding-left: 10px;
 	border-left: 1px dotted #333132;
 }
@@ -861,6 +859,7 @@ margin-top: expression(0 - parseInt(this.offsetHeight / 2) + (TBWindowMargin = d
 .scholars_lab_logo img {
 	height: 30px;
 	padding-top: 15px;
+	border: none;
 }
 
 #ft .addr {
