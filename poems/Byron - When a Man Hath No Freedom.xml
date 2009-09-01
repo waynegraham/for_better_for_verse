@@ -21,7 +21,7 @@
                    <seg>dom to fight </seg>
                    <seg>for at <rhyme label="a">home,</rhyme></seg>
                     </l>
-                    <l n="2" met="--+--+--+--+" real="--+--+--+(-)" rend="indent(1)">
+                    <l n="2" met="--+--+--+--+" real="--+--+--+-" rend="indent(1)">
                         <seg>Let him com<sb/></seg>
                         <seg>bat for that </seg>
                         <seg>of his neigh<sb/><rhyme label="b">bours;</rhyme></seg>
@@ -33,7 +33,7 @@
                         <seg>ies of Greece </seg>
                         <seg>and of <rhyme label="a">Rome,</rhyme></seg>
                     </l>
-                    <l n="4" met="--+--+--+--+" real="--+--+--+(-)" rend="indent(1)">
+                    <l n="4" met="--+--+--+--+" real="--+--+--+-" rend="indent(1)">
                         <seg>And get knocked </seg>
                         <seg>on the head </seg>
                         <seg>for his la<rhyme label="b">bours,</rhyme></seg>
@@ -46,7 +46,7 @@
                         <seg>is the chiv<sb/></seg>
                         <seg>al<sb/>rous <rhyme label="a">plan,</rhyme></seg>
                     </l>
-                    <l n="6" met="--+--+--+--+" real="--+--+--+(-)" rend="indent(1)">
+                    <l n="6" met="--+--+--+--+" real="--+--+--+-" rend="indent(1)">
                         <seg>And is al<sb/></seg>
                         <seg>ways as no<sb/></seg>
                         <seg>bly re<sb/>quit<sb/><rhyme label="b">ed;</rhyme></seg>
