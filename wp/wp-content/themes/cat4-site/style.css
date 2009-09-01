@@ -853,7 +853,7 @@ margin-top: expression(0 - parseInt(this.offsetHeight / 2) + (TBWindowMargin = d
 	float: right;
 	height: 76px;
 	padding-left: 10px;
-	border-left: 1px dotted #333132;
+	border-left: 1px dotted #676767;
 }
 
 .scholars_lab_logo img {
