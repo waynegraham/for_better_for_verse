@@ -858,7 +858,7 @@ margin-top: expression(0 - parseInt(this.offsetHeight / 2) + (TBWindowMargin = d
 
 .scholars_lab_logo img {
 	height: 30px;
-	padding-top: 15px;
+	padding-top: 23px;
 	border: none;
 }
 
