@@ -14,14 +14,14 @@
         </teiHeader>
         <text>
             <body>
-                <lg n="1" type="quatrain" met="--+(4/4/4/4)" rhyme="abab" org="uniform" sample="complete" part="N">
+                <lg n="1" type="quatrain" met="--+(4/3/4/3)" rhyme="abab" org="uniform" sample="complete" part="N">
                     <l n="1" met="--+--+--+--+" real="--+--+--+--+" part="N">
                    <seg>When a man </seg>
                    <seg>hath no free<sb/></seg>
                    <seg>dom to fight </seg>
                    <seg>for at <rhyme label="a">home,</rhyme></seg>
                     </l>
-                    <l n="2" met="--+--+--+--+" real="--+--+--+-" rend="indent(1)">
+                    <l n="2" met="--+--+--+" real="--+--+--+-" rend="indent(1)">
                         <seg>Let him com<sb/></seg>
                         <seg>bat for that </seg>
                         <seg>of his neigh<sb/><rhyme label="b">bours;</rhyme></seg>
@@ -33,20 +33,20 @@
                         <seg>ies of Greece </seg>
                         <seg>and of <rhyme label="a">Rome,</rhyme></seg>
                     </l>
-                    <l n="4" met="--+--+--+--+" real="--+--+--+-" rend="indent(1)">
+                    <l n="4" met="--+--+--+" real="--+--+--+-" rend="indent(1)">
                         <seg>And get knocked </seg>
                         <seg>on the head </seg>
                         <seg>for his la<rhyme label="b">bours,</rhyme></seg>
                     </l>
                 </lg>
-                <lg n="2" type="quatrain" met="--+(4/4/4/4)" rhyme="abab" org="uniform" sample="complete" part="N">
+                <lg n="2" type="quatrain" met="--+(4/3/4/3)" rhyme="abab" org="uniform" sample="complete" part="N">
                     <l n="5" met="--+--+--+--+" real="--+--+--+--+" part="N">
                         <seg>To do good </seg>
                         <seg>to man<sb/>kind </seg>
                         <seg>is the chiv<sb/></seg>
                         <seg>al<sb/>rous <rhyme label="a">plan,</rhyme></seg>
                     </l>
-                    <l n="6" met="--+--+--+--+" real="--+--+--+-" rend="indent(1)">
+                    <l n="6" met="--+--+--+" real="--+--+--+-" rend="indent(1)">
                         <seg>And is al<sb/></seg>
                         <seg>ways as no<sb/></seg>
                         <seg>bly re<sb/>quit<sb/><rhyme label="b">ed;</rhyme></seg>
@@ -57,7 +57,7 @@
                         <seg>dom wher<sb/>e<sb/></seg>
                         <seg>ver you <rhyme label="a">can,</rhyme></seg>
                     </l>
-                    <l n="4" met="--+--+--+--+" real="--+--+--+(-)" rend="indent(1)">
+                    <l n="8" met="--+--+--+" real="--+--+--+-" rend="indent(1)">
                         <seg>And if not </seg>
                         <seg>shot or hanged </seg>
                         <seg>you'll get knight<sb/><rhyme label="b">ed.</rhyme></seg>
