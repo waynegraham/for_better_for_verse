@@ -16,15 +16,15 @@
             <body>
                 <lg n="1" type="quatrain" met="-+(4/3/4/3)" rhyme="abxb" org="uniform" sample="complete" part="N">
                     <l n="1" met="-+-+-+-+" real="-+-+-+-+">
-                        <seg>The Brain -- </seg>
+                        <seg>The Brain--</seg>
                         <seg>is wid<sb/></seg>
                         <seg>er than </seg>
                         <seg>the <rhyme label="a">Sky</rhyme></seg>
                     </l>
                     <l n="2" met="-+-+-+" real="-+-+-+">
-                        <seg>For -- <caesura/>put </seg>
+                        <seg>For-- <caesura/>put </seg>
                         <seg>them side </seg>
-                        <seg>by <rhyme label="b">side --</rhyme></seg>
+                        <seg>by <rhyme label="b">side--</rhyme></seg>
                     </l>
                     <l n="3" met="-+-+-+-+" real="-+-+-+-+">
                         <seg>The one </seg>
@@ -33,10 +33,10 @@
                         <seg>con<sb/>tain</seg>
                     </l>
                     <l n="4" met="-+-+-+" real="-+-+-+">
-                        <seg>With ease -- </seg>
+                        <seg>With ease-- </seg>
                         <caesura/>
-                        <seg>and You -- </seg>
-                        <seg>be<sb/><rhyme label="b">side --</rhyme></seg>
+                        <seg>and You--</seg>
+                        <seg>be<sb/><rhyme label="b">side--</rhyme></seg>
                     </l>
                 </lg>
                 <lg n="2" type="quatrain" met="-+(4/3/4/3)" rhyme="abxb" org="uniform" sample="complete" part="N">
@@ -44,23 +44,23 @@
                         <seg>The Brain </seg>
                         <seg>is deep<sb/></seg>
                         <seg>er than </seg>
-                        <seg>the <rhyme label="a">sky --</rhyme></seg>
+                        <seg>the <rhyme label="a">sky--</rhyme></seg>
                     </l>
                     <l n="2" met="-+-+-+" real="-+-+-+">
-                        <seg>For -- <caesura/>hold </seg>
-                        <seg>them -- <caesura/>Blue </seg>
-                        <seg>to <rhyme label="b">Blue --</rhyme></seg>
+                        <seg>For-- <caesura/>hold </seg>
+                        <seg>them-- <caesura/>Blue </seg>
+                        <seg>to <rhyme label="b">Blue--</rhyme></seg>
                     </l>
                     <l n="3" met="-+-+-+-+" real="-+-+-+-+">
                         <seg>The one </seg>
                         <seg>the oth<sb/></seg>
                         <seg>er will </seg>
-                        <seg>ab<sb/>sorb --</seg>
+                        <seg>ab<sb/>sorb--</seg>
                     </l>
                     <l n="4" met="-+-+-+" real="-+-+-+">
                         <seg>As spong<sb/></seg>
-                        <seg>es -- <caesura/>buck<sb/></seg>
-                        <seg>ets -- <rhyme label="b">do --</rhyme></seg>
+                        <seg>es-- <caesura/>buck<sb/></seg>
+                        <seg>ets-- <rhyme label="b">do--</rhyme></seg>
                     </l>
                 </lg>
                 <lg n="1" type="quatrain" met="-+(4/3/4/3)" rhyme="abxb" org="uniform" sample="complete" part="N">
@@ -68,23 +68,23 @@
                         <seg>The Brain </seg>
                         <seg>is just </seg>
                         <seg>the weight </seg>
-                        <seg>of <rhyme label="a">God --</rhyme></seg>
+                        <seg>of <rhyme label="a">God--</rhyme></seg>
                     </l>
                     <l n="2" met="-+-+-+" real="-+-+-+">
-                        <seg>For -- <caesura/>Heft </seg>
-                        <seg>them -- <caesura/>Pound </seg>
-                        <seg>for <rhyme label="b">Pound --</rhyme></seg>
+                        <seg>For-- <caesura/>Heft </seg>
+                        <seg>them-- <caesura/>Pound </seg>
+                        <seg>for <rhyme label="b">Pound--</rhyme></seg>
                     </l>
                     <l n="3" met="-+-+-+-+" real="-+-+-+-+">
                         <seg>And they </seg>
                         <seg>will dif<sb/></seg>
-                        <seg>fer -- <caesura/>if </seg>
-                        <seg>they do --</seg>
+                        <seg>fer-- <caesura/>if </seg>
+                        <seg>they do--</seg>
                     </l>
                     <l n="4" met="-+-+-+" real="-+-+-+">
                         <seg>As Syl<sb/></seg>
                         <seg>lab<sb/>ble </seg>
-                        <seg>from <rhyme label="b">Sound --</rhyme></seg>
+                        <seg>from <rhyme label="b">Sound--</rhyme></seg>
                         <note anchored="true">
                             Dickinson's poem exemplifies that rarity, a sophisticated lyric whose rhythm is identical, line for line and foot for foot, with its meter.  The complexity of thinking here belies any impression of simple-mindedness; at the same time, the exact convergence of rhythm with meter does impart a persuasive simplicity to Dickinson's often arresting assertions.  At the end, as you ponder just what it is that distinguishes "syllable" from "sound," don't fail to notice how the established trimeter entailed by the poet's hymn-based measure makes sure that the last syllable of "syllable" is not swallowed up but gets its full due.
                         </note>
