@@ -33,19 +33,22 @@
                     </l>
                     </lg>
                 <lg n="2" type="quatrain" met="--+(2/2/2/2)" rhyme="abxb" org="uniform" sample="complete" part="N">
-                    <l n="1" met="--+--+" real="-+--+" part="N">
+                    <l n="5" met="--+--+" real="-+--+" part="N">
                         <seg>Has found </seg>
                         <seg>out thy <rhyme label="a">bed</rhyme></seg>
                     </l>
-                    <l n="2" met="--+--+" real="-+-+" part="N">
+                    <l n="6" met="--+--+" real="-+-+" part="N">
                         <seg>Of crim<sb/></seg>
                         <seg>son <rhyme label="b">joy,</rhyme></seg>
+                        <note anchored="true">
+                            Everybody feels the rich erotics of this line.  Its creamy iambs will be even sweeter to an ear that has been hearing the meter of Blake's song, as 4B4V prefers, anapestically.  (To scan it iambically is to find more lines than not abnormal, which seems needless in a poem that is already plenty strange.)  Riding an anapestic meter, "crimson" tends to swell to "ca-rimson," and the voiced "n" and "j" to feel a little like vowels.   
+                        </note>
                     </l>
-                    <l n="3" met="--+--+" real="--+--+" part="N">
+                    <l n="7" met="--+--+" real="--+--+" part="N">
                         <seg>And his dark </seg>
                         <seg>se<sb/>cret <rhyme label="x">love</rhyme></seg>
                     </l>
-                    <l n="4" met="--+--+" real="--+-+" part="N">
+                    <l n="8" met="--+--+" real="--+-+" part="N">
                         <seg>Does thy life </seg>
                         <seg>de<sb/><rhyme label="b">stroy.</rhyme></seg>
                     </l>

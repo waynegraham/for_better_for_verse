@@ -20,7 +20,7 @@
                    <seg met="-+">the long </seg>
                    <seg met="-+">black <rhyme label="a">land;</rhyme></seg>
                </l>
-                <l n="2" met="-+-+-+-+" real="--+-+-+-+">
+                <l n="2" met="-+-+-+-+" real="--+-+-+-+|--+-+++-+">
                     <seg met="-+" real="--+">And the yel<sb/></seg>
                     <seg met="-+">low half-<sb/></seg>
                     <seg met="-+">moon large </seg>
@@ -49,40 +49,43 @@
                     <seg met="-+">its speed </seg>
                     <seg met="-+" real="--+">i' the slush<sb/></seg>
                     <seg met="-+">y <rhyme label="a">sand.</rhyme></seg>
+                    <note anchored="true">
+                        Browning is trying hard here, by Victorian lights, for a breathless colloquial effect, and for his "i' the" he reaches back to typesetting conventions from Shakespeare's day.  4B4V scans the result as anapestic, though the poet was squeezing it towards iambic.  Maybe the most important thing to hear is how the contracted phrase suits the mashed consonance of "quench" and "slushy" nearby. 
+                    </note>
                 </l>
             </lg>
             <lg n="2" type="sestet" met="-+(4/4/4/4/4/4)" rhyme="abccba">
-                <l n="1" met="-+-+-+-+" real="--+-++--+">
+                <l n="7" met="-+-+-+-+" real="--+-++--+">
                     <seg met="-+" real="--+">Then a mile </seg>
                     <seg met="-+">of warm </seg>
                     <seg met="-+" real="+-">sea scent<sb/></seg>
                     <seg met="-+">ed <rhyme label="a">beach;</rhyme></seg>
                 </l>
-                <l n="2" met="-+-+-+-+" real="++-+--+-+">
+                <l n="8" met="-+-+-+-+" real="++-+--+-+">
                     <seg met="-+" real="++">Three fields </seg>
                     <seg met="-+">to cross </seg>
                     <seg met="-+" real="--+">till a farm </seg>
                     <seg met="-+">ap<sb/><rhyme label="b">pears;</rhyme></seg>
                 </l>
-                <l n="3" met="-+-+-+-+" real="-+--+-+++">
+                <l n="9" met="-+-+-+-+" real="-+--+-+++">
                     <seg met="-+">A tap </seg>
                     <seg met="-+" real="--+">at the pane, </seg>
                     <seg met="-+">the quick </seg>
                     <seg met="-+" real="++">sharp <rhyme label="c">scratch</rhyme></seg>
                 </l>
-                <l n="4" met="-+-+-+-+" real="-++--+-+">
+                <l n="10" met="-+-+-+-+" real="-++--+-+">
                     <seg met="-+">And blue </seg>
                     <seg met="-+" real="+-">spurt of </seg>
                     <seg met="-+">a light<sb/></seg>
                     <seg met="-+">ed <rhyme label="c">match,</rhyme></seg>
                 </l>
-                <l n="5" met="-+-+-+-+" real="--+-+--+-+">
+                <l n="11" met="-+-+-+-+" real="--+-+--+-+|--+++--+-+">
                     <seg met="-+" real="--+">And a voice </seg>
                     <seg met="-+">less loud, </seg>
                     <seg met="-+" real="--+">thro' its joys </seg>
                     <seg met="-+">and <rhyme label="b">fears,</rhyme></seg>
                 </l>
-                <l n="6" met="-+-+-+-+" real="--+++--+-+">
+                <l n="12" met="-+-+-+-+" real="--+++-+-+">
                     <seg met="-+" real="--+">Than the two </seg>
                     <seg met="-+" real="++">hearts beat<sb/></seg>
                     <seg met="-+">ing each </seg>
