@@ -50,7 +50,7 @@
                     <seg met="-+" real="--+">i' the slush<sb/></seg>
                     <seg met="-+">y <rhyme label="a">sand.</rhyme></seg>
                     <note anchored="true">
-                        Browning is trying hard here, by Victorian lights, for a breathless colloquial effect, and for his "i' the" he reaches back to typesetting conventions from Shakespeare's day.  4B4V scans the result as anapestic, though the poet was squeezing it towards iambic.  Maybe the most important thing to hear is how the contracted phrase suits the mashed consonance of "quench" and "slushy" nearby. 
+                        Browning is trying hard here, by Victorian lights, for a breathless colloquial effect, and his "i' the" harks back to typesetting practices from Shakespeare's day.  4B4V scans the result as anapestic, though the poet was squeezing it towards iambic.  Maybe the most important thing to hear is how the contracted phrase suits the mashed consonance of "quench" and "slushy" nearby. 
                     </note>
                 </l>
             </lg>
@@ -58,8 +58,11 @@
                 <l n="7" met="-+-+-+-+" real="--+-++--+">
                     <seg met="-+" real="--+">Then a mile </seg>
                     <seg met="-+">of warm </seg>
-                    <seg met="-+" real="+-">sea scent<sb/></seg>
+                    <seg met="-+" real="+-">sea-scent<sb/></seg>
                     <seg met="-+">ed <rhyme label="a">beach;</rhyme></seg>
+                    <note anchored="true">
+                        Although it may seem natural to stress the first syllable of "scented," there is a good reason not to.  The compound "sea-scented" belongs with phrases like "ham-fisted," "house-broken, "wall-papered," where English throws stress on the noun up front and leaves the trailing adjective a double slack.  Another issue that arises with this line is where to place the foot divisions.  Why not, e. g., pyrrhic, trochee, spondee, anapest?  It's a perfectly legal alternative grouping of the same stress pattern.  Still, it's less good, because more needlessly erratic, than the scansion 4B4V endorses.  Remember that the meter here is iambic; so where iambs can be identified, all other things being more or less equal, go for them.
+                    </note>
                 </l>
                 <l n="8" met="-+-+-+-+" real="++-+--+-+">
                     <seg met="-+" real="++">Three fields </seg>
