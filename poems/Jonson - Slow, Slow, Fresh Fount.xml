@@ -38,7 +38,7 @@
                         <seg>the mu<sb/></seg>
                         <seg>sic <rhyme label="a">bears,</rhyme></seg>
                     </l>
-                    <l n="4" met="-+-+-+-+-+" real="+++--+-+-+" part="N">
+                    <l n="4" met="-+-+-+-+-+" real="+++--+-+-+|+++--+---+" part="N">
                         <seg>Woe weeps </seg>
                         <seg>out her </seg>
                         <seg>di<sb/>vi<sb/></seg>
@@ -57,13 +57,13 @@
                         <seg>O<sb/>ur beau<sb/></seg>
                         <seg>ties are </seg>
                         <seg>not o<sb/></seg>
-                        <seg>urs.<caesura/>  O, </seg>
+                        <seg>urs. <caesura/>O, </seg>
                         <seg>I could <rhyme label="d">still,</rhyme></seg>
                     <note anchored="true"> Once the stresses and slacks are in place for this line,
                         it seems an open question how to divide them into feet. Two anapests, two
-                        trochees, and a closing iamb would do it. But 4B4V prefers rising feet where they are available, as they are within our chosen pattern of anapest, pyrrhic, spondee, iamb, anapest -- which may claim the further advantage of bringing out the pathos of "not ours" mid-line.</note>
+                        trochees, and a closing iamb would do it. But 4B4V prefers rising feet where they are available, as they are within our chosen pattern of anapest, pyrrhic, spondee, iamb, anapest -- which may claim the further advantage of bringing out the pathos with which at mid-line "not ours" concedes an existential defeat.</note>
                     </l>
-                    <l n="8" met="-+-+-+-+-+" real="-+-+-+-+-+" part="N">
+                    <l n="8" met="-+-+-+-+-+" real="-+-+-+-+-+|-+-+--++-+" part="N">
                         <seg>Like melt<sb/></seg>
                         <seg>ing snow </seg>
                         <seg>up<sb/>on </seg>
