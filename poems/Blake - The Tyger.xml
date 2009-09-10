@@ -21,7 +21,7 @@
                         <seg>ger! burn<sb/></seg>
                         <seg>ing <rhyme label="a">bright</rhyme></seg>
                         <note anchored="true">
-                            This line, and the majority of those that follow it, exemplifies a metrical ambiguity that comes with the territory of folk poetry in English.  Seven syllables of militantly alternating stress and slack add up without question to tetrameter.  But are the feet iambs or trochees?  Or in other (Glossary-defined) words, while the line is obviously catalectic, is it an acephalous line or a case of terminal truncation?  4B4V reflects a prosodic consensus (not unanimity!) in favoring iambic scansion for such a line, on the principle that meters in English verse tend to rising (stress-ended) feet.  Join this consensus and by the time you reach line 4 you'll be glad you did.
+                            This line, like the majority of those that follow it, exemplifies a metrical ambiguity that comes with the territory of folk (-based) poetry in English.  Seven syllables of militantly alternating stress and slack add up without question to tetrameter.  But are the feet iambs or trochees?  Or in other (Glossary-defined) words, while the line is obviously catalectic, is it an acephalous line or a case of terminal truncation?  4B4V reflects a prosodic consensus (not unanimity!) in favoring iambic scansion for such a line, on the principle that meters in English verse tend to rising (stress-ended) feet.  Join this consensus and by the time you reach line 4 you'll be glad you did.
                         </note>
                     </l>
                     <l n="2" met="-+-+-+-+" real="+-+-+-+">
@@ -30,7 +30,7 @@
                         <seg>ests of </seg>
                         <seg>the <rhyme label="a">night,</rhyme></seg>
                         <note anchored="true">
-                            This line, and the several others like it that draw stress on initial prepositions or conjunctions that would ordinarily go slack, is a lot easier to scan once you have read the whole poem out, and out loud, and thereby have been affected, maybe infected, by its obsessiveness.  The drum-thumping chant of the increasingly frenzied speaker overrides pronunciational business as usual
+                            Why not a nice, balladic trimeter here comprising an anapest, an iamb, and an iamb?  Because, as the poem taken whole will show, the four-line stanzas are tetrameter quatrains and not ballad stanzas.  Line 2 and several others that follow put stress on initial prepositions or conjunctions that would ordinarily lie slack.  This phenomenon is a lot easier to handle and scan once you have read the whole poem out, and out loud.  Doing so will put you in close quarters with the obsessiveness of its frenzied speaker, whose insatiable appetite for moral thrills overrides pronunciational business as usual.
                         </note>
                     </l>
                     <l n="3" met="-+-+-+-+" real="+-+-+-+">
@@ -64,9 +64,6 @@
                         <seg>what wings </seg>
                         <seg>dare he </seg>
                         <seg>a<sb/>spi<sb/><rhyme label="b">re?</rhyme></seg>
-                        <note anchored="true">
-                            This line and the next may prompt you to resign from the rising-foot consensus urged in the note to line 1.  But, before quitting, consider the likelihood that in Blake's English "aspire" was a disyllable, "fire" a monosyllable.  In any case stanza 3, we predict, will send you back from trochaism into the iambic fold.
-                        </note>
                     </l>
                     <l n="8" met="-+-+-+-+" real="+-+++-+-">
                         <seg>What </seg>
@@ -109,7 +106,7 @@
                         <seg>mer? <caesura/>what </seg>
                         <seg>the <rhyme label="a">chain?</rhyme></seg>
                     </l>
-                    <l n="14" met="-+-+-+-+" real="+++-+-+">
+                    <l n="14" met="-+-+-+-+" real="+-+-+-+">
                         <seg>In </seg>
                         <seg>what fur<sb/></seg>
                         <seg>nace was </seg>
