@@ -9,7 +9,7 @@
             <lg n="1" type="stanza" met="-+(4/4/4/3)" rhyme="abab" org="uniform" sample="complete" part="N">
                 <l n="1" part="N" met="-+-+-+-+" real="-+-+-+-+">
                     <seg>'Twas bril<sb/></seg>
-                    <seg>lig,<caesura/> and </seg>
+                    <seg>lig, <caesura/>and </seg>
                     <seg>the slith<sb/></seg>
                     <seg>y <rhyme label="a">toves</rhyme></seg>
                 </l><space/>
@@ -149,7 +149,7 @@
                 </l></lg>
            <lg n="6" type="stanza" met="-+(4/4/4/3)" rhyme="abab" org="uniform" sample="complete" part="N"><l n="25" part="N" met="-+-+-+-+" real="-+-+-+-+">
                     '<seg>'Twas bril<sb/></seg>
-                    <seg>lig, <caesura/> and </seg>
+                    <seg>lig, <caesura/>and </seg>
                     <seg>the slith<sb/></seg>
                     <seg>y <rhyme label="a">toves</rhyme></seg>
                 </l><space/><l n="26" part="N" met="-+-+-+-+" real="-+-+-+-+">
