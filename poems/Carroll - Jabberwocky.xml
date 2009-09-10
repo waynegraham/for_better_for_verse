@@ -135,13 +135,16 @@
                     <caesura/>
                     <seg>my beam<sb/></seg>
                     <seg>ish <rhyme>boy!</rhyme></seg>
-                </l><l n="23" part="N" met="-+-+-+-+" real="-+-+-+-+">
+                </l><l n="23" part="N" met="-+-+-+-+" real="-+-+-+-+|++-+-+-+">
                     <seg>O frab<sb/></seg>
                     <seg>jous day! </seg>
                     <caesura/>
                     <seg>Cal<sb/>looh! </seg>
                     <caesura/>
                     <seg>Cal<sb/><rhyme label="o">lay!"</rhyme></seg>
+                    <note anchored="true">
+                        Although a spondee is permissible in the first foot of this line, the iamb is much to be preferred.  Why not stress the oh-so eligible "O"?  Because the quality of cartoonish, pantomime emotion it expresses can't stand up to the tyranny of the ballad meter as it galumphs its way along. It is as if the quoted speaker knows s/he is being quoted and is performing the emotion to the hilt, with a vivid sense of how rote the whole scene is. 
+                    </note>
                 </l><space/><space/><l n="24" part="N" met="-+-+-+" real="-+-+-+">
                     <seg>He chor<sb/></seg>
                     <seg>tled in </seg>
