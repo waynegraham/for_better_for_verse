@@ -62,9 +62,6 @@ else { ?>
 		autoHeight: false,
 		alwaysOpen: false
 	});
-	$('#glossary .read-more').click(function() {
-		$(this).next().toggle();
-	}).next().hide();
     $('#searchform').submit(function() {
 		$('#results').html('<img src="/images/ajax-loader.gif" style="border:none"/>');
 		var s_term;

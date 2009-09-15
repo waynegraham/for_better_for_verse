@@ -103,15 +103,7 @@ endif; //$query_tag ?>
 	$glossary_terms = get_posts('category_name=Glossary&orderby=title&showposts=-1&order=asc');
 	foreach($glossary_terms as $post) : setup_postdata( $post ); ?>
 		<dt<?php if($first_def == '') : ?> class="first"<?php endif; ?> id="reference_<?php echo $post->post_name; ?>"><?php the_title(); ?>:</dt>
-		<?php $more = 0; ?>
-		<dd<?php if($first_def == '') : ?> class="first"<?php endif; ?>><?php the_content('', FALSE, ''); ?>
-		<?php $more = 1; ?>
-		<?php $extended_content = get_the_content('', TRUE, ''); ?>		
-		<?php if(strlen($extended_content) > 0) : ?>
-			<a href="#more-<?php the_ID(); ?>" class="read-more">Show/Hide Expanded Definition</a>
-			<div id="more-<?php the_ID(); ?>" class="read-more-text"><?php the_content('', TRUE, ''); ?></div>
-		<?php endif; ?>
-		</dd>
+		<dd<?php if($first_def == '') : ?> class="first"<?php endif; ?>><?php the_content(); ?></dd>
 		<?php if($first_def == '') : $first_def = 'done'; endif;
 	endforeach;
 ?>
