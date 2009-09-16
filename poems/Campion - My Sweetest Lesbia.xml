@@ -53,7 +53,7 @@
                         <seg>our lit<sb/></seg>
                         <seg>tle <rhyme label="c">light,</rhyme></seg>
                     </l>
-                    <l n="6" met="-+-+-+-+-+" real="+--+++-+-+" part="N">
+                    <l n="6" met="-+-+-+-+-+" real="+--+++-+-+|+-++++-+-+" part="N">
                         <seg>Then must </seg>
                         <seg>we sleep </seg>
                         <seg>one e<sb/></seg>
@@ -63,42 +63,42 @@
                           
                 </lg>
                 <lg n="2" type="sestet" met="-+(5/5/5/5/5/5)" rhyme="aabbcc" org="uniform" sample="complete" part="N">
-                    <l n="1" met="-+-+-+-+-+" real="-+-+-+-+-+" part="N">
+                    <l n="7" met="-+-+-+-+-+" real="-+-+-+-+-+" part="N">
                         <seg>If all </seg>
                         <seg>would lead </seg>
                         <seg>their lives </seg>
                         <seg>in love </seg>
                         <seg>like <rhyme label="a">me,</rhyme></seg>
                     </l>
-                    <l n="2" met="-+-+-+-+-+" real="-+-+-+-+-+" part="N">
+                    <l n="8" met="-+-+-+-+-+" real="-+-+-+-+-+" part="N">
                         <seg>Then blood<sb/></seg>
                         <seg>y swords </seg>
                         <seg>and ar<sb/></seg>
                         <seg>mor should </seg>
                         <seg>not <rhyme label="a">be;</rhyme></seg>
                     </l>
-                    <l n="3" met="-+-+-+-+-+" real="-+-+-+-+-+|++-+-+-+-+" part="N">
+                    <l n="9" met="-+-+-+-+-+" real="-+-+-+-+-+|++-+-+-+-+" part="N">
                         <seg>No drum </seg>
                         <seg>nor trum<sb/></seg>
                         <seg>pet peace<sb/></seg>
                         <seg>ful sleeps </seg>
                         <seg>should <rhyme label="b">move,</rhyme></seg>
                     </l>
-                    <l n="4" met="-+-+-+-+-+" real="-+-++--+-+" part="N">
+                    <l n="10" met="-+-+-+-+-+" real="-+-++--+-+" part="N">
                         <seg>Un<sb/>less </seg>
                         <seg>a<sb/>larm </seg>
                         <seg>came from </seg>
                         <seg>the camp </seg>
                         <seg>of <rhyme label="b">love.</rhyme></seg>
                     </l>
-                    <l n="5" met="-+-+-+-+-+" real="-+-+-+-+-+" part="N">
+                    <l n="11" met="-+-+-+-+-+" real="-+-+-+-+-+" part="N">
                         <seg>But fools </seg>
                         <seg>do live </seg>
                         <seg>and waste </seg>
                         <seg>their lit<sb/></seg>
                         <seg>tle <rhyme label="c">light,</rhyme></seg>
                     </l>
-                    <l n="6" met="-+-+-+-+-+" real="-+-+-+-+-+" part="N">
+                    <l n="12" met="-+-+-+-+-+" real="-+-+-+-+-+" part="N">
                         <seg>And seek </seg>
                         <seg>with pain </seg>
                         <seg>their e<sb/></seg>
@@ -106,42 +106,42 @@
                         <seg>ing <rhyme label="c">night.</rhyme></seg>
                     </l></lg>
                 <lg n="3" type="sestet" met="-+(5/5/5/5/5/5)" rhyme="aabbcc" org="uniform" sample="complete" part="N">
-                    <l n="1" met="-+-+-+-+-+" real="-+-+-+-+-+" part="N">
+                    <l n="13" met="-+-+-+-+-+" real="-+-+-+-+-+" part="N">
                         <seg>When time<sb/></seg>
                         <seg>ly death </seg>
                         <seg>my life </seg>
                         <seg>and for<sb/></seg>
                         <seg>tune <rhyme label="a">ends,</rhyme></seg>
                     </l>
-                    <l n="2" met="-+-+-+-+-+" real="-+-+-+-+-+" part="N">
+                    <l n="14" met="-+-+-+-+-+" real="-+-+-+-+-+" part="N">
                         <seg>Let not </seg>
                         <seg>my hearse </seg>
                         <seg>be vexed </seg>
                         <seg>with mourn<sb/></seg>
                         <seg>ing <rhyme label="a">friends,</rhyme></seg>
                     </l>
-                    <l n="3" met="-+-+-+-+-+" real="-+++-+-+-+" part="N">
+                    <l n="15" met="-+-+-+-+-+" real="-+++-+-+-+" part="N">
                         <seg>But let </seg>
                         <seg>all lov<sb/></seg>
                         <seg>ers, rich </seg>
                         <seg>in tri<sb/></seg>
                         <seg>umph, <rhyme label="b">come</rhyme></seg>
                     </l>
-                    <l n="4" met="-+-+-+-+-+" real="--++-+-+-+" part="N">
+                    <l n="16" met="-+-+-+-+-+" real="--++-+-+-+" part="N">
                         <seg>And with </seg>
                         <seg>sweet pas<sb/></seg>
                         <seg>times grace </seg>
                         <seg>my hap<sb/></seg>
                         <seg>py <rhyme label="b">tomb;</rhyme></seg>
                     </l>
-                    <l n="5" met="-+-+-+-+-+" real="-+--+-+-+-+" part="N">
+                    <l n="17" met="-+-+-+-+-+" real="-+--+-+-+-+" part="N">
                         <seg>And Les<sb/></seg>
                         <seg>bi<sb/>a, close </seg>
                         <seg>up thou </seg>
                         <seg>my lit<sb/></seg>
                         <seg>tle <rhyme label="c">light,</rhyme></seg>
                     </l>
-                    <l n="6" met="-+-+-+-+-+" real="-+-+-+-+-+" part="N">
+                    <l n="18" met="-+-+-+-+-+" real="-+-+-+-+-+" part="N">
                         <seg>And crown </seg>
                         <seg>with love </seg>
                         <seg>my e<sb/></seg>

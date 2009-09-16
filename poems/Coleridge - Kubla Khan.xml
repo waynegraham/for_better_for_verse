@@ -61,7 +61,7 @@
                     <seg>were gar<sb/></seg>
                     <seg>dens bright </seg>
                     <seg>with sin<sb/></seg>
-                    <seg>uos <rhyme label="d">rills,</rhyme></seg>
+                    <seg>uous <rhyme label="d">rills,</rhyme></seg>
                 </l>
                 <l n="9" met="-+-+-+-+-+" real="-+-+--+-+-+">
                     <seg>Where blos<sb/></seg>
@@ -69,6 +69,9 @@
                     <seg>y an in<sb/></seg>
                     <seg>cense-<sb/>bear<sb/></seg>
                     <seg>ing <rhyme label="b">tree;</rhyme></seg>
+                    <note anchored="true">
+                        We scan with anapests the words in this and the preceding line that are made deliciously ambiguous on the palate by what the tongue does in pronouncing "sinuous" and "many an."  4B4V doesn't often pause to relish sheer phonemic music; but the reader who doesn't savor the saying of this line, or the poem's first line, is missing a lot.
+                    </note>
                 </l>
                 <l n="10" met="-+-+-+-+-+" real="-+-+-+-+-+">
                     <seg>And here </seg>
@@ -92,9 +95,9 @@
                     <seg>that deep </seg>
                     <seg>ro<sb/>man<sb/></seg>
                     <seg>tic chasm </seg>
-                    <seg>that slant<sb/><rhyme label="a">ed</rhyme></seg>
+                    <seg>which slant<sb/><rhyme label="a">ed</rhyme></seg>
                     <note anchored="true">
-                        Please pardon this interruption of one of the great enjambments in English poetry. which will survive our providing a quick reassurance that the brilliantly turbulent imagery and verse that follow abound in feminine endings.  Don't let them confound your scansion; do note their effect in unbalancing the classic symmetry that has prevailed in the first strophe of Coleridge's celebrated fragmentary ode.
+                        Please pardon this interruption of one of the great enjambments in English poetry.  The power of "slanted / Down" will survive our intruding to warn that the brilliantly turbulent verse that follows abounds in feminine endings like this one.  Don't let them confound your scansion; do note their effect in unbalancing the classic symmetry that has governed in the first strophe of this celebrated fragmentary ode.
                     </note>
                 </l>
                 <l n="13" met="-+-+-+-+-+" real="+-++-+-+-+-">
@@ -105,8 +108,8 @@
                     <seg>darn cov<sb/><rhyme label="b">er!</rhyme></seg>
                 </l>
                 <l n="14" met="-+-+-+-+-+" real="-+-+-+-+-+-">
-                    <seg>A  sav<sb/></seg>
-                    <seg>age place! </seg>
+                    <seg>A sav<sb/></seg>
+                    <seg>age place!</seg>
                     <caesura/>
                     <seg>as ho<sb/></seg>
                     <seg>ly and </seg>
@@ -176,7 +179,7 @@
                     <seg>at once </seg>
                     <seg>and ev<sb/><rhyme label="f">er</rhyme></seg>
                 </l>
-                <l n="24" met="-+-+-+-+-+" real="-+-+-+-+-+-">
+                <l n="24" met="-+-+-+-+-+" real="-+++---+-+-|-+-+-+-+-+-">
                     <seg>It flung </seg>
                     <seg>up mo<sb/></seg>
                     <seg>ment<sb/>ly </seg>
@@ -186,12 +189,12 @@
                 <l n="25" met="-+-+-+-+-+" real="++-+--+-+-+-|++-+----+-+-">
                     <seg>Five miles </seg>
                     <seg>me<sb/>an<sb/></seg>
-                    <seg>der<sb/>ing with</seg>
+                    <seg>der<sb/>ing with </seg>
                     <seg>a maz<sb/></seg>
                     <seg>y mo<sb/><rhyme label="g">tion</rhyme></seg>
                 </l>
                 <note anchored="true">
-                    Stress "with" here at mid-line if you must.  But there's more fun to be had, totally legal too, in exploiting the capital afforded by the spondee in foot 1, and shooting the rapids of four consecutive slacks produced by making feet 3 and 4 pyrrhic and anapestic respectively.  There's plenty of recovery time downstream in the quite regular lines that are coming up.
+                    Stress "with" here at mid-line if you must.  But there's more fun to be had, totally legal too, in exploiting the capital afforded by the spondee in foot 1, and shooting the rapids of four consecutive slacks produced by making feet 3 and 4 pyrrhic and anapestic respectively. (The line just above this one is nearly as impressive in the same vein: straight iambic scansion is okay there but rather tame. Try it again?) There's plenty of recovery time downstream in the quite regular lines that are coming up.
                 </note>
                 <l n="26" met="-+-+-+-+-+" real="-+-+-+-+-+">
                     <seg>Through wood </seg>
@@ -242,7 +245,7 @@
                     <seg>way on </seg>
                     <seg>the <rhyme label="k">waves;</rhyme></seg>
                     <note anchored="true">
-                        Our familiar nemesis the catalectic tetrameter rears its head.  By this point the iambic character of Coleridge's poem is so overwhelmingly established that the trochaic option that many shorter poems extend to such a line is simply a wrong choice here -- and in the several lines like this one that lie ahead. A trimeter scansion running trochee, spondee, anapest is tempting here.  But there's no other trimeter nearby to provide answering support, so it won't wash.  Be patient till the final strophe. 
+                        Our familiar nemesis the catalectic tetrameter rears its (acephalous) head again.  By this point the iambic character of Coleridge's poem is so overwhelmingly established that the trochaic option that many shorter poems extend to such a line is simply a wrong choice here -- and in the several lines like this one that lie ahead. A trimeter scansion running trochee, spondee, anapest may tempt you in this case.  But there's no other trimeter nearby to provide answering support, so it won't wash.  Be patient till the final strophe. 
                     </note>
                 </l>
                 <l n="33" met="-+-+-+-+" real="+-+-+-+-" rend="indent(5)">
@@ -278,6 +281,9 @@
                     <seg>sel with </seg>
                     <seg>a dul<sb/></seg>
                     <seg>ci<sb/><rhyme label="a">mer</rhyme></seg>
+                    <note anchored="true">
+                        Another magically musical line, with the consonants (and practically the vowels too) of "A damsel" redealt in "dulcimer."  That phonemic shuffle is one reason for putting stress on the final syllable.  The other, better reason is that the syllable will eventually mate in rhyme with lines 10 lines and more further down.  In other respects as well, this part of Coleridge's wonderful manifesto aims at long-range effects and distance learning.
+                    </note>
                 </l>
                 <l n="38" met="-+-+-+" real="--+-+-+" rend="indent(5)">
                     <seg>In a vi<sb/></seg>
@@ -300,7 +306,7 @@
                     <seg>Sing<sb/></seg>
                     <seg>ing of </seg>
                     <seg>Mount A<sb/></seg>
-                    <seg>bo<sb/><rhyme label="b">a.</rhyme></seg>
+                    <seg>bo<sb/><rhyme label="b">ra.</rhyme></seg>
                 </l>
                 <l n="42" met="-+-+-+" real="-+-+-+-" rend="indent(5)">
                     <seg>Could I </seg>
@@ -322,13 +328,16 @@
                     <seg>That </seg>
                     <seg>with mu<sb/></seg>
                     <seg>sic loud </seg>
-                    <seg>and <rhyme label="e">long, </rhyme></seg>
+                    <seg>and <rhyme label="e">long,</rhyme></seg>
                 </l>
                 <l n="46" met="-+-+-+-+" real="+-+-+-+">
                     <seg>I </seg>
                     <seg>would build </seg>
                     <seg>that dome </seg>
                     <seg>in <rhyme label="a">air,</rhyme></seg>
+                    <note anchored="true">
+                        You might ask why this and the line above it aren't identical trimeters scanned anapest, iamb, iamb.  You might even plead that "long" in the former line rhymes with "song" in a trimeter just two lines above it (line 43).  It's not an easy question to answer, but two considerations countervail: (1) coming right after the feminine ending "win me" in line 44, the double-slack of an anapest feels like an awkward stumble, just where Coleridge wants to build up a steady head of steam toward his finale; (2) in building up that head of steam, nothing can be apter than the driving force that catalectic tetrameter possesses in English (the people's voice!).  With the dulcimer-damsel as opening act, he is now bringing his rock-star poet out on stage and needs all the crowd surge he can get.
+                    </note>
                 </l>
                 <l n="47" met="-+-+-+-+" real="-+-+-+-+">
                     <seg>That sun<sb/></seg>
