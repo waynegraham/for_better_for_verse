@@ -25,7 +25,7 @@
                     <l n="2" met="-+-+-+-+-+" real="-+-+-+-+-+" part="N">
                         <seg>And though </seg>
                         <seg>the sag<sb/></seg>
-                        <seg>er sorts </seg>
+                        <seg>er sort </seg>
                         <seg>our deeds </seg>
                         <seg>re<sb/><rhyme label="a">prove,</rhyme></seg>
                     </l>
@@ -36,6 +36,9 @@
                         <seg>great lamps </seg>
                         <seg>do <rhyme label="b">dive</rhyme></seg>
                     </l>
+                    <note anchored="true">
+                        Getting this line to scan requires treating "Heaven's" as a monosyllable (as in the poetically elided "Heav'n" so dear to hymn writers).  Ordinarily 4B4V dislikes elision, but we have Campion's warrant for it here in the superfluous "do" he inserted before the final syllable.  Remove that "do," and the revised line will scan quite nicely with a disyllabic "Heaven's" and an iamb-spondee pair for the last two feet.  That effect was fully available to the poet, but evidently it's not what he wanted. 
+                    </note>
                     <l n="4" met="-+-+-+-+-+" real="+--+-+-+-+" part="N">
                         <seg>In<sb/>to </seg>
                         <seg>their west, </seg>
@@ -57,8 +60,7 @@
                         <seg>ver-<sb/>dur<sb/></seg>
                         <seg>ing <rhyme label="c">night.</rhyme></seg>
                     </l>
-                    
-                    
+                          
                 </lg>
                 <lg n="2" type="sestet" met="-+(5/5/5/5/5/5)" rhyme="aabbcc" org="uniform" sample="complete" part="N">
                     <l n="1" met="-+-+-+-+-+" real="-+-+-+-+-+" part="N">
@@ -75,14 +77,14 @@
                         <seg>mor should </seg>
                         <seg>not <rhyme label="a">be;</rhyme></seg>
                     </l>
-                    <l n="3" met="-+-+-+-+-+" real="-+-+-+-+-+" part="N">
+                    <l n="3" met="-+-+-+-+-+" real="-+-+-+-+-+|++-+-+-+-+" part="N">
                         <seg>No drum </seg>
                         <seg>nor trum<sb/></seg>
                         <seg>pet peace<sb/></seg>
                         <seg>ful sleeps </seg>
                         <seg>should <rhyme label="b">move,</rhyme></seg>
                     </l>
-                    <l n="4" met="-+-+-+-+-+" real="-+-+-+-+-+" part="N">
+                    <l n="4" met="-+-+-+-+-+" real="-+-++--+-+" part="N">
                         <seg>Un<sb/>less </seg>
                         <seg>a<sb/>larm </seg>
                         <seg>came from </seg>
