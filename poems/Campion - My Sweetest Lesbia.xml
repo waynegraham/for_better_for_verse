@@ -104,7 +104,8 @@
                         <seg>their e<sb/></seg>
                         <seg>ver-<sb/>dur<sb/></seg>
                         <seg>ing <rhyme label="c">night.</rhyme></seg>
-                    </l></lg>
+                    </l>
+                </lg>
                 <lg n="3" type="sestet" met="-+(5/5/5/5/5/5)" rhyme="aabbcc" org="uniform" sample="complete" part="N">
                     <l n="13" met="-+-+-+-+-+" real="-+-+-+-+-+" part="N">
                         <seg>When time<sb/></seg>
@@ -147,4 +148,5 @@
                         <seg>my e<sb/></seg>
                         <seg>ver-<sb/>dur<sb/></seg>
                         <seg>ing <rhyme label="c">night.</rhyme></seg>
-                    </l></lg></body></text></TEI>
+                    </l>
+                </lg></body></text></TEI>
