@@ -27,7 +27,7 @@
                         <seg>in sol<sb/></seg>
                         <seg>emn <rhyme label="a">sort.</rhyme></seg>
                         <note anchored="true">
-                            Why this master poet here presents a perfectly iambic tetrameter line as if it were trochaic is baffling; the reason must involve some subtle fusion (confusion?) in his mind between operative English stress and the long syllabic quantities that formed part of his education in the classical tongues.  We can, at least, hear what he means in the lingering protraction of "long" and "solemn": line 2 takes perceptibly more time to say than line 1, whose trotting mechanical briskness contrasts to the elastic swing that results here from the disparity in pronunciation length between slow stresses and rapid slacks. 
+                            Why this master poet here presents a perfectly iambic tetrameter line as if it were trochaic is baffling; the reason must involve some subtle fusion (confusion?) in his mind between operative English stress and the long syllabic quantities that formed part of his education in the classical tongues.  We can, at least, hear what he means in the lingering protraction of "long" and "solemn": line 2 takes perceptibly more time to say than line 1, whose trotting mechanical briskness contrasts to the elastic swing that results here from the disparity in pronunciation length between slow stresses and rapid slacks: "long to long."
                         </note>
                     </l>
                     <l n="3" met="-+-+-+-+" real="++-+++-+--" part="N">
@@ -53,6 +53,9 @@
                         <seg>and a bound </seg>
                         <seg>the swift An<sb/></seg>
                         <seg>a<sb/>pests <rhyme label="c">throng.</rhyme></seg>
+                        <note anchored="true">
+                            This line illustrates, on the very best authority, how triple meters (here anapests, but it's true of dactyls too) can override our rules of thumb.  In a less giddy line "swift," a monosyllabic adjective, would draw stress the same way it does in ordinary conversation.  But here the headlong meter so hijacks speech rhythm that "swift" acts more like "the" than it does like "throng," a word whose vowel-consonant ratio it otherwise closely resembles. 
+                        </note>
                     </l>
                     
                 </lg></body></text></TEI>
