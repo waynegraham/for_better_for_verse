@@ -13,7 +13,7 @@
     </teiHeader>
     <text>
         <body>
-            <lg n="1" type="quatrain" met="-+(5)" rhyme="abab" org="uniform" sample="complete" part="N"><l n="1" met="-+-+-+-+-+" part="N" real="+--++--+-+">
+            <lg n="1" type="quatrain" met="-+(5/5/5/5/5/5/5/5/5/5/5/5/5/5)" rhyme="abab" org="uniform" sample="complete" part="N"><l n="1" met="-+-+-+-+-+" part="N" real="+--++--+-+">
                     <seg met="-+" real="+-" part="N">Since there's </seg>
                     <seg met="-+" part="N">no help, </seg>
                     <caesura/>
