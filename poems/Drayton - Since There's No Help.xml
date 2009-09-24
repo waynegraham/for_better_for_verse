@@ -40,7 +40,7 @@
                     <seg met="-+" part="N">ly I </seg>
                     <seg met="-+" part="N">my<sb part="N"/>self </seg>
                     <seg met="-+" part="N">can <rhyme label="b">free;</rhyme></seg>
-                </l></lg><lg n="2" type="quatrain" met="-+(5)" rhyme="cdcd" org="uniform" sample="complete" part="N"><l n="5" met="-+-+-+-+-+" part="N" real="++-+-+-+-+">
+                </l></lg><lg n="2" type="quatrain" met="-+(5/5/5/5)" rhyme="cdcd" org="uniform" sample="complete" part="N"><l n="5" met="-+-+-+-+-+" part="N" real="++-+-+-+-+">
                     <seg met="-+" real="++" part="N">Shake hands </seg>
                     <seg met="-+" part="N">for<sb part="N"/>ev</seg>
                     <seg met="-+" part="N">er, <caesura/> can<sb part="N"/></seg>
@@ -66,7 +66,7 @@
                     <seg met="-+" part="N">of for<sb part="N"/></seg>
                     <seg met="-+" part="N">mer love </seg>
                     <seg met="-+" part="N">re<sb part="N"/><rhyme label="d">tain.</rhyme></seg>
-                </l></lg><lg n="3" type="quatrain" met="-+(5)" rhyme="efef" org="uniform" sample="complete" part="N"><l n="9" met="-+-+-+-+-+" part="N" real="+--++-++-+">
+                </l></lg><lg n="3" type="quatrain" met="-+(5/5/5/5)" rhyme="efef" org="uniform" sample="complete" part="N"><l n="9" met="-+-+-+-+-+" part="N" real="+--++-++-+">
                     <seg met="-+" real="+-" part="N">Now at </seg>
                     <seg met="-+" part="N">the last </seg>
                     <seg met="-+" real="+-" part="N">gasp of </seg>
@@ -90,7 +90,7 @@
                 <seg met="-+" part="N">is clos<sb part="N"/></seg>
                 <seg met="-+" part="N">ing up </seg>
                 <seg met="-+" part="N">his <rhyme label="f">eyes,</rhyme></seg>
-            </l></lg><lg n="4" type="couplet" met="-+(5)" rhyme="gg" org="uniform" sample="complete" part="N"><l n="13" met="-+-+-+-+-+" part="N" real="+--+-+-+--+^">
+            </l></lg><lg n="4" type="couplet" met="-+(5/5)" rhyme="gg" org="uniform" sample="complete" part="N"><l n="13" met="-+-+-+-+-+" part="N" real="+--+-+-+--+^">
                     <seg met="-+" real="+-" part="N">Now if </seg>
                     <seg met="-+" part="N">thou wouldst, </seg>
                     <caesura/>
