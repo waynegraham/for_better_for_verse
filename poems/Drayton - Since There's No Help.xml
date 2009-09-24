@@ -73,9 +73,9 @@
                     <seg met="-+" real="++" part="N">love's la<sb part="N"/></seg>
                     <seg met="-+" part="N">test <rhyme label="e">breath</rhyme></seg>
                 </l><l n="10" met="-+-+-+-+-+" part="N" real="+-++-+-+-+">
-                <seg met="-+" real="+-" part="N">When, <caesura/> his </seg>
+                <seg met="-+" real="+-" part="N">When, <caesura/>his </seg>
                 <seg met="-+" real="++" part="N">pulse fail<sb part="N"/></seg>
-                <seg met="-+" part="N">ing, <caesura/> Pas<sb part="N"/></seg>
+                <seg met="-+" part="N">ing, <caesura/>Pas<sb part="N"/></seg>
                 <seg met="-+" part="N">sion speech<sb part="N"/></seg>
                 <seg met="-+" part="N">less <rhyme label="f">lies,</rhyme></seg>
             </l><l n="11" met="-+-+-+-+-+" part="N" real="-+-+-+-+-+">
