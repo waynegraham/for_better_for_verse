@@ -21,12 +21,12 @@
                     <seg met="-+" part="N">us kiss </seg>
                     <seg met="-+" part="N">and <rhyme label="a">part;</rhyme></seg>
                 </l><l n="2" met="-+-+-+-+-+" part="N" real="+--+-+-+-+">
-                    <seg met="-+" real="+-" part="N">Nay, I</seg>
-                    <seg met="-+" part="N">have done,</seg>
+                    <seg met="-+" real="+-" part="N">Nay, I </seg>
+                    <seg met="-+" part="N">have done, </seg>
                     <caesura/>
                     <seg met="-+" part="N">you get </seg>
                     <seg met="-+" part="N">no more </seg>
-                    <seg met="-+" part="N">of <rhyme label="b">me</rhyme>,</seg>
+                    <seg met="-+" part="N">of <rhyme label="b">me,</rhyme></seg>
                 </l><l n="3" met="-+-+-+-+-+" part="N" real="-+-+++-+-+">
                     <seg met="-+" part="N">And I </seg>
                     <seg met="-+" part="N">am glad, </seg>
@@ -36,22 +36,22 @@
                     <seg met="-+" part="N">my <rhyme label="a">heart</rhyme></seg>
                 </l><l n="4" met="-+-+-+-+-+" part="N" real="-+-+-+-+-+">
                     <seg met="-+" part="N">That thus </seg>
-                    <seg met="-+" part="N">so clean <sb part="N"/></seg>
+                    <seg met="-+" part="N">so clean<sb part="N"/></seg>
                     <seg met="-+" part="N">ly I </seg>
                     <seg met="-+" part="N">my<sb part="N"/>self </seg>
-                    <seg met="-+" part="N">can <rhyme label="b">free</rhyme>;</seg>
+                    <seg met="-+" part="N">can <rhyme label="b">free;</rhyme></seg>
                 </l></lg><lg n="2" type="quatrain" met="-+(5)" rhyme="cdcd" org="uniform" sample="complete" part="N"><l n="5" met="-+-+-+-+-+" part="N" real="++-+-+-+-+">
                     <seg met="-+" real="++" part="N">Shake hands </seg>
-                    <seg met="-+" part="N">for<sb part="N"/>ev<sb part="N"/></seg>
-                    <seg met="-+" part="N">er, <caesura/> can <sb part="N"/></seg>
+                    <seg met="-+" part="N">for<sb part="N"/>ev</seg>
+                    <seg met="-+" part="N">er, <caesura/> can<sb part="N"/></seg>
                     <seg met="-+" part="N">cel all </seg>
-                    <seg met="-+" part="N">our <rhyme label="c">vows</rhyme>,</seg>
+                    <seg met="-+" part="N">our <rhyme label="c">vows,</rhyme></seg>
                 </l><l n="6" met="-+-+-+-+-+" part="N" real="-+-+-+-+-+">
                     <seg met="-+" part="N">And when </seg>
                     <seg met="-+" part="N">we meet </seg>
                     <seg met="-+" part="N">at an<sb part="N"/></seg>
                     <seg met="-+" part="N">y time </seg>
-                    <seg met="-+" part="N">a<sb part="N"/><rhyme label="d">gain</rhyme>,</seg>
+                    <seg met="-+" part="N">a<sb part="N"/><rhyme label="d">gain,</rhyme></seg>
                 </l><l n="7" met="-+-+-+-+-+" part="N" real="--++-+-+-+">
                     <seg met="-+" real="--" part="N">Be it </seg>
                     <seg met="-+" real="++" part="N">not seen </seg>
@@ -65,7 +65,7 @@
                     <caesura/>
                     <seg met="-+" part="N">of for<sb part="N"/></seg>
                     <seg met="-+" part="N">mer love </seg>
-                    <seg met="-+" part="N">re<sb part="N"/><rhyme label="d">tain</rhyme>.</seg>
+                    <seg met="-+" part="N">re<sb part="N"/><rhyme label="d">tain.</rhyme></seg>
                 </l></lg><lg n="3" type="quatrain" met="-+(5)" rhyme="efef" org="uniform" sample="complete" part="N"><l n="9" met="-+-+-+-+-+" part="N" real="+--++-++-+">
                     <seg met="-+" real="+-" part="N">Now at </seg>
                     <seg met="-+" part="N">the last </seg>
@@ -77,19 +77,19 @@
                 <seg met="-+" real="++" part="N">pulse fail<sb part="N"/></seg>
                 <seg met="-+" part="N">ing, <caesura/> Pas<sb part="N"/></seg>
                 <seg met="-+" part="N">sion speech<sb part="N"/></seg>
-                <seg met="-+" part="N">less <rhyme label="f">lies</rhyme>,</seg>
+                <seg met="-+" part="N">less <rhyme label="f">lies,</rhyme></seg>
             </l><l n="11" met="-+-+-+-+-+" part="N" real="-+-+-+-+-+">
                 <seg met="-+" part="N">When Faith </seg>
                 <seg met="-+" part="N">is kneel<sb part="N"/></seg>
                 <seg met="-+" part="N">ing by </seg>
                 <seg met="-+" part="N">his bed </seg>
-                <seg met="-+" part="N">of <rhyme label="e">death</rhyme>,</seg>
+                <seg met="-+" part="N">of <rhyme label="e">death,</rhyme></seg>
             </l><l n="12" met="-+-+-+-+-+" part="N" real="-+-+-+-+-+">
                 <seg met="-+" part="N">And In<sb part="N"/></seg>
                 <seg met="-+" part="N">no<sb part="N"/>cence </seg>
                 <seg met="-+" part="N">is clos<sb part="N"/></seg>
                 <seg met="-+" part="N">ing up </seg>
-                <seg met="-+" part="N">his <rhyme label="f">eyes</rhyme>,</seg>
+                <seg met="-+" part="N">his <rhyme label="f">eyes,</rhyme></seg>
             </l></lg><lg n="4" type="couplet" met="-+(5)" rhyme="gg" org="uniform" sample="complete" part="N"><l n="13" met="-+-+-+-+-+" part="N" real="+--+-+-+--+^">
                     <seg met="-+" real="+-" part="N">Now if </seg>
                     <seg met="-+" part="N">thou wouldst, </seg>
@@ -102,5 +102,5 @@
                     <seg met="-+" part="N">to life </seg>
                     <seg met="-+" part="N">thou mightst </seg>
                     <seg met="-+" part="N">him yet </seg>
-                    <seg met="-+" real="-+^" part="N">re<sb part="N"/><rhyme label="g">cov<sb part="N"/>er</rhyme>.</seg>
+                    <seg met="-+" real="-+^" part="N">re<sb part="N"/><rhyme label="g">cov<sb part="N"/>er.</rhyme></seg>
                 </l></lg></body></text></TEI>
