@@ -21,10 +21,10 @@
                     <seg met="-+" real="--+" part="N">to the way </seg>
                     <seg met="-+" part="N">we <rhyme label="a">took,</rhyme></seg>
                 </l><l n="2" met="-+-+-+-+" real="-+-+--+-+(-)" part="N">
-                    <seg met="-+" part="N">  As two </seg>
+                    <seg met="-+" part="N">As two </seg>
                     <seg met="-+" part="N">in whom </seg>
                     <caesura/>
-                    <seg met="-+" real="--+" part="N">they were proved</seg>
+                    <seg met="-+" real="--+" part="N">they were proved </seg>
                     <seg met="-+" real="-+(-)" part="N">mis<sb part="N"/>tak<sb part="N"/><rhyme label="b">en,</rhyme></seg>
                 </l><l n="3" met="-+-+-+-+" real="--+-+--+-+" part="N">
                     <seg met="-+" real="--+" part="N">That we sit </seg>
