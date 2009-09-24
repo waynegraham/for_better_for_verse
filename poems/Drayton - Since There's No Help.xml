@@ -90,17 +90,17 @@
                 <seg met="-+" part="N">is clos<sb part="N"/></seg>
                 <seg met="-+" part="N">ing up </seg>
                 <seg met="-+" part="N">his <rhyme label="f">eyes,</rhyme></seg>
-            </l></lg><lg n="4" type="couplet" met="-+(5/5)" rhyme="gg" org="uniform" sample="complete" part="N"><l n="13" met="-+-+-+-+-+" part="N" real="+--+-+-+--+^">
+            </l></lg><lg n="4" type="couplet" met="-+(5/5)" rhyme="gg" org="uniform" sample="complete" part="N"><l n="13" met="-+-+-+-+-+" part="N" real="+--+-+-+--+-">
                     <seg met="-+" real="+-" part="N">Now if </seg>
                     <seg met="-+" part="N">thou wouldst, </seg>
                     <caesura/>
                     <seg met="-+" part="N">when all </seg>
                     <seg met="-+" part="N">have giv<sb part="N"/></seg>
-                    <seg met="-+" real="--+^" part="N">en him <rhyme label="g">o<sb part="N"/>ver,</rhyme></seg>
-                </l><l n="14" met="-+-+-+-+-+" part="N" real="-+-+-+-+-+^">
+                    <seg met="-+" real="--+-" part="N">en him <rhyme label="g">o<sb part="N"/>ver,</rhyme></seg>
+                </l><l n="14" met="-+-+-+-+-+" part="N" real="-+-+-+-+-+-">
                     <seg met="-+" part="N">From death </seg>
                     <seg met="-+" part="N">to life </seg>
                     <seg met="-+" part="N">thou mightst </seg>
                     <seg met="-+" part="N">him yet </seg>
-                    <seg met="-+" real="-+^" part="N">re<sb part="N"/><rhyme label="g">cov<sb part="N"/>er.</rhyme></seg>
+                    <seg met="-+" real="-+-" part="N">re<sb part="N"/><rhyme label="g">cov<sb part="N"/>er.</rhyme></seg>
                 </l></lg></body></text></TEI>
