@@ -14,7 +14,7 @@
         </teiHeader>
         <text>
             <body>
-                <lg n="1" type="sestet" met="-+(4/4/4/4/4/4)" rhyme="aabbcc" org="uniform" sample="complete" part="N">
+                <lg n="1" type="sestet" met="(4/4/4/4/4/4)" rhyme="aabbcc" org="uniform" sample="complete" part="N">
                     <l n="1" met="+-+-+-+-" real="+-+-+-+" part="N">
                    <seg>Tro<sb/></seg>
                    <seg>chee trips </seg>
