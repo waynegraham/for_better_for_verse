@@ -30,7 +30,9 @@
                 <xsl:with-param name="linegroupindex" select="position()"/>
             </xsl:apply-templates>
         </xsl:for-each>
-        <br/>
+        <xsl:if test="not(./@rend='nobreak')">
+              <br/>
+        </xsl:if>
     </xsl:template>
     
     <xsl:template match="TEI:l">
