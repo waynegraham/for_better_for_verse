@@ -15,13 +15,16 @@
         <text>
             <body>
                 <lg n="1" type="sonnet" met="-+(5/5/5/5/5/5/5/5/5/5/5/5/5/5)" rhyme="abbaabbacdcdee" org="uniform" sample="complete" part="N">
-                    <l n="1" met="-+-+-+-+-+" real="+-+--+--++">
+                    <l n="1" met="-+-+-+-+-+" real="+-+---++-+">
                    <seg>Thou hast </seg>
                    <seg>made me, </seg>
                         <caesura/>
                    <seg>and shall </seg>
                    <seg>thy work </seg>
                    <seg>de<sb/><rhyme label="a">cay?</rhyme></seg>
+                   <note anchored="true">
+                       Ordinarily pronouns don't take much stress, but from the first this holy sonnet fixes on the "Thou" it prays to, even to the extent of stressing "thy" in the second half of the line.  Donne knows very well that he himself is quite a piece of work, but that nothing can save him from himself (or his enemy the devil) but the fact that the workmanship in him is God's.  
+                   </note>
                </l><l n="2" met="-+-+-+-+-+" real="-+-+-+-+-+">
                     <seg>Re<sb/>pair </seg>
                     <seg>me now, </seg>
@@ -48,11 +51,11 @@
                     <seg>ny <rhyme label="a">way,</rhyme></seg>
                 </l><l n="6" met="-+-+-+-+-+" real="-+-+-+-+-+">
                     <seg>De<sb/>spair </seg>
-                    <seg>be<sb/>hind, </seg>
+                    <seg>be<sb/>hind </seg>
                     <seg>and death </seg>
                     <seg>be<sb/>fore </seg>
                     <seg>doth <rhyme label="b">cast</rhyme></seg>
-                </l><l n="7" met="-+-+-+-+-+" real="-+-+-+-+-+">
+                </l><l n="7" met="-+-+-+-+-+" real="++---+-+-+">
                     <seg>Such ter<sb/></seg>
                     <seg>ror, <caesura/>and </seg>
                     <seg>my fee<sb/></seg>
@@ -72,7 +75,11 @@
                     <caesura/>
                     <seg>and when </seg>
                     <seg>to<sb/>wards <rhyme label="c">thee</rhyme></seg>
-                </l><l n="10" met="-+-+-+-+-+" real="-++--+-+-+">
+                </l>
+                    <note anchored="true">
+                        Like "into" and a very few other common prepositional disyllables, "toward(s)" can go without stress.  If this rubs you the wrong way, think of it here and in line 13 as the colloquial monosyllabic "t'wards"; but our software, unlike you, can't see it both ways, so 4B4V goes, true to form, for the anapest.
+                    </note>
+                    <l n="10" met="-+-+-+-+-+" real="-++--+-+-+">
                     <seg>By thy </seg>
                     <seg>leave I </seg>
                     <seg>can look, </seg>
@@ -85,7 +92,7 @@
                     <seg>tle foe </seg>
                     <seg>so tempt<sb/></seg>
                     <seg>eth <rhyme label="c">me</rhyme></seg>
-                </l><l n="12" met="-+-+-+-+-+" real="-+++-+-+-+">
+                </l><l n="12" met="-+-+-+-+-+" real="-+++-+---+">
                     <seg>That not </seg>
                     <seg>one hour </seg>
                     <seg>my<sb/>self </seg>
@@ -97,6 +104,9 @@
                     <seg>me to </seg>
                     <seg>pre<sb/>vent </seg>
                     <seg>his <rhyme label="e">art,</rhyme></seg>
+                    <note anchored="true">
+                        Again, exceptional stress on the second-person pronoun "Thy," to contrast God's power to the feebler wiles of Satan in the last foot of this line, and the total helplessness of the human "I" a line above it.
+                    </note>
                 </l><l n="14" met="-+-+-+-+-+" real="-+-+--+-+-+">
                     <seg>And thou </seg>
                     <seg>like ad<sb/></seg>
