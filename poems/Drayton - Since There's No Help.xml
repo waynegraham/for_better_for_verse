@@ -19,7 +19,7 @@
                     <seg met="-+" real="+-" part="N">come let </seg>
                     <seg met="-+" part="N">us kiss </seg>
                     <seg met="-+" part="N">and <rhyme label="a">part;</rhyme></seg>
-                </l><l n="2" met="-+-+-+-+-+" part="N" real="+--+-+-+-+">
+                </l><l n="2" met="-+-+-+-+-+" part="N" real="+--+-+-+-+|+--+--++-+">
                     <seg met="-+" real="+-" part="N">Nay, I </seg>
                     <seg met="-+" part="N">have done, </seg>
                     <caesura/>
@@ -51,14 +51,14 @@
                     <seg met="-+" part="N">at an<sb part="N"/></seg>
                     <seg met="-+" part="N">y time </seg>
                     <seg met="-+" part="N">a<sb part="N"/><rhyme label="d">gain,</rhyme></seg>
-                </l><l n="7" met="-+-+-+-+-+" part="N" real="--++-+-+-+">
+                </l><l n="7" met="-+-+-+-+-+" part="N" real="--++-+-+-+|+-++-+---+">
                     <seg met="-+" real="--" part="N">Be it </seg>
                     <seg met="-+" real="++" part="N">not seen </seg>
                     <caesura/>
                     <seg met="-+" part="N">in ei<sb part="N"/></seg>
                     <seg met="-+" part="N">ther of </seg>
                     <seg met="-+" part="N">our <rhyme label="c">brows</rhyme></seg>
-                </l><l n="8" met="-+-+-+-+-+" part="N" real="-+++-+-+-+">
+                </l><l n="8" met="-+-+-+-+-+" part="N" real="-+++-+-+-+|--++-+-+-+">
                     <seg met="-+" part="N">That we </seg>
                     <seg met="-+" real="++" part="N">one jot </seg>
                     <caesura/>

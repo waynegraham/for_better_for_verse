@@ -23,7 +23,7 @@
                    <seg>thy work </seg>
                    <seg>de<sb/><rhyme label="a">cay?</rhyme></seg>
                    <note anchored="true">
-                       Ordinarily pronouns don't take much stress, but from the first this holy sonnet fixes on the "Thou" it prays to, even to the extent of stressing "thy" in the second half of the line.  Donne knows very well that he himself is quite a piece of work, but that nothing can save him from himself (or his enemy the devil) but the fact that the workmanship in him is God's.  
+                       Ordinarily pronouns don't take much stress, but from the first this holy sonnet fixes on the "Thou" it prays to, even to the extent of stressing "thy" in the second half of line 1.  Donne knows very well that he himself is quite a piece of work, but that nothing can save him from himself (or his enemy the devil) but the fact that the workmanship in him is God's.  Hence the urgency of the stress on those second-person pronouns.
                    </note>
                </l><l n="2" met="-+-+-+-+-+" real="-+-+-+-+-+">
                     <seg>Re<sb/>pair </seg>
@@ -43,7 +43,7 @@
                     <seg>ures are </seg>
                     <seg>like yes<sb/></seg>
                     <seg>ter<sb/><rhyme label="a">day.</rhyme></seg>
-                </l><l n="5" met="-+-+-+-+-+" real="-+++-+++-+">
+                </l><l n="5" met="-+-+-+-+-+" real="-+++-+++-+|-+-+-+++-+">
                     <seg>I dare </seg>
                     <seg>not move </seg>
                     <seg>my dim </seg>
@@ -86,7 +86,7 @@
                     <caesura/>
                     <seg>I rise </seg>
                     <seg>a<sb/><rhyme label="d">gain;</rhyme></seg>
-                </l><l n="11" met="-+-+-+-+-+" real="-+++-+-+-+">
+                </l><l n="11" met="-+-+-+-+-+" real="--++-+-+-+|--++-+++-+">
                     <seg>But our </seg>
                     <seg>old sub<sb/></seg>
                     <seg>tle foe </seg>
