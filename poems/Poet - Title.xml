@@ -2,6 +2,7 @@
 <!DOCTYPE TEI
   PUBLIC "-//TEI P5//DTD Main Document Type//EN" "http://localhost:8080/prosody/poems/tei_all.dtd">
 <TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" version="5.0"><teiHeader type="text"><fileDesc><titleStmt><title>Upon Julia's Clothes</title><author>Robert Herrick</author></titleStmt><publicationStmt><p/></publicationStmt><sourceDesc default="false"><p/></sourceDesc></fileDesc></teiHeader><text><body><lg n="1" type="tercet" met="-+(4/4/4)" rhyme="aaa" org="uniform" sample="complete" part="N"><l n="1" real="-+-+-+-+" part="N" met="-+-+-+-+">
+<seg met="-+">What<sb part="N">evs</seg>
                     <seg met="-+" part="N">When<sb part="N"/>as </seg>
                     <seg met="-+" part="N">in silks </seg>
                     <seg met="-+" part="N">my Ju<sb part="N"/></seg>
