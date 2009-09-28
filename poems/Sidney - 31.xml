@@ -1,32 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE TEI
-  PUBLIC "-//TEI P5//DTD Main Document Type//EN" "http://localhost:8080/prosody/poems/tei_all.dtd">
-<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" version="5.0"><teiHeader type="text"><fileDesc><titleStmt><title>Astrophel and Stella: 31</title><author>Sir Philip Sidney</author></titleStmt><publicationStmt><date>1591</date></publicationStmt><sourceDesc default="false"><p/></sourceDesc></fileDesc></teiHeader><text><body><lg met="-+(5)" rhyme="abbaabbacdcdee" org="uniform" sample="complete" part="N"><l n="1" part="N" met="-+-+-+-+-+" real="-+++-+-+-+">
+  PUBLIC "-//TEI P5//DTD Main Document Type//EN" "http://sds1.itc.virginia.edu:8080/prosody/poems/tei_all.dtd">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" version="5.0">
+    <teiHeader type="text">
+        <fileDesc>
+            <titleStmt>
+    <title>Astrophel and Stella: 31</title><author>Sir Philip Sidney</author></titleStmt><publicationStmt><date>1591</date></publicationStmt><sourceDesc default="false"><p/></sourceDesc></fileDesc></teiHeader>
+    <text><body>
+        <lg met="-+(5)" rhyme="abbaabbacdcdee" org="uniform" sample="complete" part="N">
+            <l n="1" part="N" met="-+-+-+-+-+" real="-+++-+-+-+">
                     <seg met="-+" part="N">With how </seg>
                     <seg met="-+" real="++" part="N">sad steps, </seg>
                     <seg met="-+" part="N">O Moone, </seg>
                     <seg met="-+" part="N">thou climb'st </seg>
                     <seg met="-+" part="N">the <rhyme label="a">skies,</rhyme></seg>
-                    <note anchored="true">
-                        This line is almost regular with an spondee in the second foot.
-                    </note>
-                </l><l n="2" part="N" met="-+-+-+-+-+" real="-+----++-+">
+                </l><l n="2" part="N" met="-+-+-+-+-+" real="-+-+--++-+">
                     <seg met="-+" part="N">How si<sb part="N"/></seg>
                     <seg met="-+" real="--" part="N">lent<sb part="N"/>ly, </seg>
                     <caesura/>
                     <seg met="-+" real="--" part="N">and with </seg>
                     <seg met="-+" real="++" part="N">how wanne </seg>
                     <seg met="-+" part="N">a <rhyme label="b">face,</rhyme></seg>
-                    <note anchored="true">
-                        I read the second and third feet as pyrrhic but might be read as iambic.
-                    </note>
-                </l><l n="3" part="N" met="-+-+-+-+-+-+" real="+--+-+--+-+">
+                </l><l n="3" part="N" met="-+-+-+-+-+-+" real="+--+-+--+--+">
                     <seg met="-+" real="+-" part="N">What, <caesura/>may </seg>
                     <seg met="-+" part="N">it be </seg>
                     <seg met="-+" part="N">that e<sb part="N"/></seg>
-                    <seg met="-+" real="--" part="N">ven in </seg>
-                    <seg met="-+" real="+" part="N">heav'n<sb part="N"/></seg>
-                    <seg met="-+" part="N">ly <rhyme label="b">place</rhyme></seg>
+                    <seg met="-+" real="--" part="N">ven in heav<sb part="N"/></seg>
+                    <seg met="-+" real="+" part="N">en<sb/>ly</seg>sb> <rhyme label="b">place</rhyme></seg>
+                    <seg met="-+" part="N">
                 </l><l n="4" part="N" met="-+-+-+-+-+" real="-+-+--++-+">
                     <seg met="-+" part="N">That bus<sb part="N"/></seg>
                     <seg met="-+" part="N">ie arch<sb part="N"/></seg>
