@@ -23,7 +23,7 @@
                    <seg>thy work </seg>
                    <seg>de<sb/><rhyme label="a">cay?</rhyme></seg>
                    <note anchored="true">
-                       Ordinarily pronouns don't take much stress, but from the first this holy sonnet fixes on the "Thou" it prays to, even to the extent of stressing "thy" in the second half of line 1.  Donne knows very well that he himself is quite a piece of work, but that nothing can save him from himself (or his enemy the devil) but the fact that the workmanship in him is God's.  Hence the urgency of the stress on those second-person pronouns.
+                       Ordinarily pronouns don't take much stress, but from the first this holy sonnet fixes on the "Thou" it prays to, even to the extent of stressing "thy" in the second half of line 1.  Donne knows very well that he himself is quite a piece of work. He also knows, however, that nothing can save him from himself (or his enemy the devil) but the fact that the workmanship in him is God's.  Hence the urgency of the stress on second-person pronouns here and throughout this sonnet.
                    </note>
                </l><l n="2" met="-+-+-+-+-+" real="-+-+-+-+-+">
                     <seg>Re<sb/>pair </seg>
@@ -61,23 +61,23 @@
                     <seg>my fee<sb/></seg>
                     <seg>ble flesh </seg>
                     <seg>doth <rhyme label="b">waste</rhyme></seg>
-                </l><l n="8" met="-+-+-+-+-+" real="-+-+-+--+-+">
+                </l><l n="8" met="-+-+-+-+-+" real="-+-+-+-+-+">
                     <seg>By sin </seg>
                     <seg>in it, </seg>
                     <caesura/>
                     <seg>which it </seg>
-                    <seg>to<sb/>wards hell </seg>
+                    <seg>towards hell </seg>
                     <seg>doth <rhyme label="a">weigh.</rhyme></seg>
-                </l><l n="9" met="-+-+-+-+-+" real="+-+--+-+--+">
+                </l><l n="9" met="-+-+-+-+-+" real="+-+--+-+-+">
                     <seg>On<sb/>ly </seg>
                     <seg>thou art </seg>
                     <seg>a<sb/>bove, </seg>
                     <caesura/>
                     <seg>and when </seg>
-                    <seg>to<sb/>wards <rhyme label="c">thee</rhyme></seg>
+                    <seg>towards <rhyme label="c">thee</rhyme></seg>
                 </l>
                     <note anchored="true">
-                        Like "into" and a very few other common prepositional disyllables, "toward(s)" can go without stress.  If this rubs you the wrong way, think of it here and in line 13 as the colloquial monosyllabic "t'wards"; but our software, unlike you, can't see it both ways, so 4B4V goes, true to form, for the anapest.
+                        Making "towards" a monosyllable in this and the next line saves a lot of trouble. If this solution rubs you the wrong way, you may claim prosodic license and scan it as a double slack (as may be done, at need, with a handful of prepositional disyllables including "into" and "over").
                     </note>
                     <l n="10" met="-+-+-+-+-+" real="-++--+-+-+">
                     <seg>By thy </seg>
@@ -105,7 +105,7 @@
                     <seg>pre<sb/>vent </seg>
                     <seg>his <rhyme label="e">art,</rhyme></seg>
                     <note anchored="true">
-                        Again, exceptional stress on the second-person pronoun "Thy," to contrast God's power to the feebler wiles of Satan in the last foot of this line, and the total helplessness of the human "I" a line above it.
+                        Again, exceptional stress on the second-person pronoun "Thy," to contrast God's power to the feebler wiles of Satan in the last foot of this line, and the total helplessness of the human "I" in the line above.
                     </note>
                 </l><l n="14" met="-+-+-+-+-+" real="-+-+--+-+-+">
                     <seg>And thou </seg>

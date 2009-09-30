@@ -31,9 +31,9 @@
                     <seg met="-+" part="N">where late </seg>
                     <seg met="-+" part="N">the sweet </seg>
                     <seg met="-+" real="++" part="N">birds <rhyme label="b">sang</rhyme></seg>.
-                </l></lg><lg n="2" type="quatrain" met="-+(5)" rhyme="cdcd" org="uniform" sample="complete" part="N"><l n="5" part="N" met="-+-+-+-+-+" real="-+-+--+--++">
+                </l></lg><lg n="2" type="quatrain" met="-+(5)" rhyme="cdcd" org="uniform" sample="complete" part="N"><l n="5" part="N" met="-+-+-+-+-+" real="-+-+-+--++">
                     <seg met="-+" part="N">In me </seg>
-                    <seg met="-+" part="N">thou se<sb/>est </seg>
+                    <seg met="-+" part="N">thou seest </seg>
                     <seg met="-+" part="N">the twi<sb part="N"/></seg>
                     <seg met="-+" real="--" part="N">light of </seg>
                     <seg met="-+" real="++" part="N">such <rhyme label="c">day</rhyme></seg>
@@ -56,9 +56,12 @@
                     <seg met="-+" part="N">that seals </seg>
                     <seg met="-+" part="N">up all </seg>
                     <seg met="-+" part="N">in <rhyme label="d">rest.</rhyme></seg>
-                </l></lg><lg n="3" type="quatrain" met="-+(5)" rhyme="efef" org="uniform" sample="complete" part="N"><l n="9" part="N" met="-+-+-+-+-+" real="-+-+--+--++">
+                    <note anchored="true">
+                        There's a colloquial temptation to introduce into this line about death's second self a second spondee in the 4th foot by stressing "up."  4B4V declines that option, reckoning that the real money word here is "all": the poet enforces the universality of death but is feeling too old to get melodramatic about it.
+                    </note>
+                </l></lg><lg n="3" type="quatrain" met="-+(5)" rhyme="efef" org="uniform" sample="complete" part="N"><l n="9" part="N" met="-+-+-+-+-+" real="-+-+-+--++">
                     <seg met="-+" part="N">In me </seg>
-                    <seg met="-+" part="N">thou se<sb/>est </seg>
+                    <seg met="-+" part="N">thou seest </seg>
                     <seg met="-+" part="N">the glow<sb part="N"/></seg>
                     <seg met="-+" real="--" part="N">ing of </seg>
                     <seg met="-+" real="++" part="N">such <rhyme label="e">fire</rhyme>,</seg>
@@ -87,7 +90,10 @@
                     <seg met="-+" part="N">which makes </seg>
                     <seg met="-+" part="N">thy love </seg>
                     <seg met="-+" part="N">more <rhyme label="g">strong,</rhyme></seg>
-                </l><l n="14" part="N" met="-+-+-+-+-+" real="-+-+-+-+-+">
+                    <note anchored="true">
+                        In this sonnet Shakespeare employs only one initial trochaic inversion -- ordinarily a favorite device of his -- and this is definitely it.  What "this" is, the unstated truth about youth and age, vitality and mortality, that the three quatrain conceits of the foregoing lines have enacted, is the sphinxine riddle we are abruptly asked to solve.  And from this riddle hangs another: what "that" refers to in the line that comes next. 
+                    </note>
+                </l><l n="14" part="N" met="-+-+-+-+-+" real="-+-+-+-+-+|-+++-+-+-+">
                     <seg met="-+" part="N">To love </seg>
                     <seg met="-+" part="N">that well </seg>
                     <seg met="-+" part="N">which thou </seg>

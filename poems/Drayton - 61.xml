@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE TEI
-  PUBLIC "-//TEI P5//DTD Main Document Type//EN" "http://localhost:8080/prosody/poems/tei_all.dtd">
-<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" version="5.0"><teiHeader type="text"><fileDesc><titleStmt><title>Idea LXI</title><author>Michael Drayton</author></titleStmt><publicationStmt><date>1599</date></publicationStmt><sourceDesc default="false"><p/></sourceDesc></fileDesc></teiHeader><text><body><lg n="1" type="quatrain" met="-+(5)" rhyme="abab" org="uniform" sample="complete" part="N"><l n="1" met="-+-+-+-+-+" part="N" real="+--++--+-+">
+  PUBLIC "-//TEI P5//DTD Main Document Type//EN" "http://sds1.itc.virginia.edu:8080/prosody/poems/tei_all.dtd">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" version="5.0">
+    <teiHeader type="text">
+        <fileDesc>
+            <titleStmt>
+                <title>Since There's No Help</title><author>Michael Drayton</author></titleStmt><publicationStmt><date>1599</date></publicationStmt><sourceDesc default="false"><p/></sourceDesc></fileDesc></teiHeader><text><body><lg n="1" type="quatrain" met="-+(5)" rhyme="abab" org="uniform" sample="complete" part="N"><l n="1" met="-+-+-+-+-+" part="N" real="+--++--+-+">
                     <seg met="-+" real="+-" part="N">Since there's </seg>
                     <seg met="-+" part="N">no help, </seg>
                     <caesura/>
                     <seg met="-+" real="+-" part="N">come let </seg>
                     <seg met="-+" part="N">us kiss </seg>
                     <seg met="-+" part="N">and <rhyme label="a">part</rhyme>;</seg>
-                </l><l n="2" met="-+-+-+-+-+" part="N" real="+--+-+-+-+">
+                </l><l n="2" met="-+-+-+-+-+" part="N" real="+--+-+-+-+|+--+--++-+">
                     <seg met="-+" real="+-" part="N">Nay, I</seg>
                     <seg met="-+" part="N">have done,</seg>
                     <caesura/>
