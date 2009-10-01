@@ -122,7 +122,7 @@ else { ?>
      });
 </script>
 <?php } ?>
-<script language="javascript" type="text/javascript" src="http://quickribbon.com/ribbon/2009/08/f0f453b84d41af92386e2c549487ca35.js"></script>
+<a href="#TB_inline?height=300&width=300&inlineId=contactInfo" class="thickbox"><img src="http://quickribbon.com/ribbon/2009/08/f0f453b84d41af92386e2c549487ca35.gif" border="0" width="150" height="150" style="position:absolute; right:0px; top:0px; margin:0px; padding:0px" id="ribbon"/></a>
 
 <link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS Feed" href="<?php bloginfo('rss2_url'); ?>" />
 <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="<?php bloginfo('atom_url'); ?>" />
@@ -131,15 +131,11 @@ else { ?>
 <link rel="shortcut icon" href="/favicon.ico" />
 
 <?php wp_head(); ?>
-<script type="text/javascript">
-	jQuery(document).ready(function(){
-		$('#home > a:first').attr("href","mailto:prosody@collab.itc.virginia.edu?subject=For Better For Verse feedback");
-     });
-</script>
+
 </head>
 
 <body <?php if (is_home()) { ?>id="home"<?php } else { ?>class="page-<?php echo $post->post_name; ?>" id="interior"<?php } ?>>
-
+<div id="contactInfo" style="display:none">Questions or suggestions?  Please write to <a href="mailto:prosody@collab.itc.virginia.edu">prosody@collab.itc.virginia.edu</a>.</div>
 <div id="masthead" class="wrapper">
 	<?php if (is_home()) { ?>
 	<div id="logo"> 
