@@ -47,18 +47,17 @@
                     <seg>the fair<sb/></seg>
                     <seg>est thoughts </seg>
                     <seg>that <rhyme label="a">throng</rhyme></seg>
-                </l><l n="6" met="-+-+-+-+-+" real="-+-+-+-++--+">
+                </l><l n="6" met="-+-+-+-+-+" real="-+-+-+++--+">
                     <seg>This breast, </seg>
                     <seg>the thought </seg>
                     <seg>of thee </seg>
-                    <seg>a<sb/>waits, </seg>
+                    <seg>waits, hid<sb/></seg>
                     <caesura/>
-                    <seg>hid<sb/>den </seg>
-                    <seg>yet <rhyme label="b">bright; </rhyme></seg>
+                    <seg>den yet <rhyme label="b">bright;</rhyme></seg>
                 </l><l n="7" met="-+-+-+-+-+" real="-+-+-+-+-+">
                     <seg>But it </seg>
                     <seg>must nev<sb/></seg>
-                    <seg>er nev<sb/></seg>
+                    <seg>er, nev<sb/></seg>
                     <seg>er come </seg>
                     <seg>in <rhyme label="b">sight;</rhyme></seg>
                 </l><l n="8" met="-+-+-+-+-+" real="--++-+-+++">
