@@ -135,7 +135,7 @@ else { ?>
 </head>
 
 <body <?php if (is_home()) { ?>id="home"<?php } else { ?>class="page-<?php echo $post->post_name; ?>" id="interior"<?php } ?>>
-<div id="contactInfo" style="display:none">Questions or suggestions?  Please write to <a href="mailto:prosody@collab.itc.virginia.edu">prosody@collab.itc.virginia.edu</a>.</div>
+<div id="contactInfo" style="display:none"><p>Questions or suggestions?  Please write to <a href="mailto:prosody@collab.itc.virginia.edu">prosody@collab.itc.virginia.edu</a>.</p></div>
 <div id="masthead" class="wrapper">
 	<?php if (is_home()) { ?>
 	<div id="logo"> 
