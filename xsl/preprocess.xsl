@@ -78,7 +78,7 @@
                 <xsl:for-each select="TEI:seg">
                     <!-- if the following flag gets set, this indicates that there is a discrepancy in the line which must be later
                         highlighted -->
-                    <xsl:variable name="discrepant-flag" select="exists(@real) and exists(@met)"/>
+                    <xsl:variable name="discrepant-flag" select="exists(@real)"/>
 
                     <!-- if the following flag gets set, this indicates that there is a sb element in the line and the
                     segment ends with a space -->
