@@ -27,10 +27,10 @@
                     <seg>the thought </seg>
                     <seg>that lurks </seg>
                     <seg>in all </seg>
-                    <seg>de<sb/><rhyme label="b">light -</rhyme></seg>
-                </l><l n="3" met="-+-+-+-+-+" real="-+-+-+-+++">
+                    <seg>de<sb/><rhyme label="b">light--</rhyme></seg>
+                </l><l n="3" met="-+-+-+-+-+" real="-+-+-+-+++|-+-+---+++">
                     <seg>The thought </seg>
-                    <seg>of thee - </seg>
+                    <seg>of thee--</seg>
                     <caesura/>
                     <seg>and in </seg>
                     <seg>the blue </seg>
@@ -66,7 +66,7 @@
                     <seg>of thee </seg>
                     <seg>the whole </seg>
                     <seg>day <rhyme label="a">long.</rhyme></seg>
-                </l><l n="9" met="-+-+-+-+-+" real="-+++-+++--+">
+                </l><l n="9" met="-+-+-+-+-+" real="-+++-+++--+|--++-+++--+">
                     <seg>But when </seg>
                     <seg>sleep comes </seg>
                     <seg>to close </seg>
@@ -89,7 +89,7 @@
                     <seg>my will </seg>
                     <seg>as rai<sb/></seg>
                     <seg>ment laid </seg>
-                    <seg>a<sb/><rhyme label="c">way -</rhyme></seg>
+                    <seg>a<sb/><rhyme label="c">way--</rhyme></seg>
                 </l><l n="13" met="-+-+-+-+-+" real="--++-+--++">
                     <seg>With the </seg>
                     <seg>first dream </seg>

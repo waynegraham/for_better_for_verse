@@ -34,19 +34,19 @@
                     <seg>ent which </seg>
                     <seg>is death </seg>
                     <seg>to <rhyme label="b">hide</rhyme></seg>
-                </l><l n="4" met="-+-+-+-+-+" real="+--+-+-+++">
+                </l><l n="4" met="-+-+-+-+-+" real="+--+-+-+-+|+--+---+++">
                     <seg>Lodged with </seg>
                     <seg>me use<sb/></seg>
                     <seg>less, <caesura/>though </seg>
                     <seg>my soul </seg>
                     <seg>more <rhyme label="a">bent</rhyme></seg>
                 </l><l n="5" met="-+-+-+-+-+" real="-+-+-+-+-+">
-                    <seg>To serve  </seg>
+                    <seg>To serve </seg>
                     <seg>there<sb/>with </seg>
                     <seg>my Mak<sb/></seg>
-                    <seg>er, <caesura/>and</seg>
+                    <seg>er, <caesura/>and </seg>
                     <seg>pres<sb/><rhyme label="a">ent</rhyme></seg>
-                </l><l n="6" met="-+-+-+-+-+" real="-+-+-+-+-+">
+                </l><l n="6" met="-+-+-+-+-+" real="-+-+-+-+-+|-+-++--+-+">
                     <seg>My true </seg>
                     <seg>ac<sb/>count, </seg>
                     <caesura/>
@@ -61,7 +61,7 @@
                     <seg>de<sb/><rhyme label="b">nied?"</rhyme></seg>
                 </l><l n="8" met="-+-+-+-+-+" real="-+-+-+-+-+">
                     <seg>I fond<sb/></seg>
-                    <seg>ly ask </seg>
+                    <seg>ly ask; </seg>
                     <caesura/>
                     <seg>but pa<sb/></seg>
                     <seg>tience to </seg>
@@ -81,9 +81,9 @@
                     <caesura/>
                     <seg>who <rhyme label="d">best</rhyme></seg>
                     <note anchored="true">
-                        The congested bunching of stresses in this and the following line insists to the ear on what the remarkable enjambment of Milton's volta and sestet performs in anything more urgently: the copresence of latent with patent orders of being.  Rhythm jars against meter, as syntax overlaps lineation, to affirm the higher reality of what meets the mind, not the eye.
+                        The congested bunching of stresses in this and the following line insists to the ear on what the remarkable enjambment of Milton's volta and sestet performs even more urgently: the copresence of latent with patent orders of being.  Rhythm jars against meter, as syntax overlaps lineation, to affirm the higher reality of what meets the mind, not the eye.
                     </note>
-                </l><l n="11" met="-+-+-+-+-+" real="+-+++--+-+">
+                </l><l n="11" met="-+-+-+-+-+" real="+-++++-+-+">
                     <seg>Bear his </seg>
                     <seg>mild yoke, </seg>
                     <seg>they serve </seg>
@@ -109,6 +109,6 @@
                     <seg>ly stand </seg>
                     <seg>and <rhyme label="e">wait."</rhyme></seg>
                     <note anchored="true">
-                        Patience's simple reminder comes beautifully home here, after much turbulence, to rest on the plainness of straightforward diction, syntax, and calm metricality of rhythm.
+                        Patience's simple reminder comes beautifully home here, after much turbulence, to rest on the plainness of straightforward diction, syntax, and metrical calm.
                     </note>
                 </l></lg></body></text></TEI>
