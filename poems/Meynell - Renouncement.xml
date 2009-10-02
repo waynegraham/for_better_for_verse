@@ -64,17 +64,17 @@
                     <seg>er come </seg>
                     <seg>in <rhyme label="b">sight;</rhyme></seg>
                 </l><l n="8" met="-+-+-+-+-+" real="--++-+-+++">
-                    <seg>I must </seg>
+                    <seg real="--">I must </seg>
                     <seg real="++">stop short </seg>
                     <seg>of thee </seg>
                     <seg>the whole </seg>
                     <seg real="++">day <rhyme label="a">long.</rhyme></seg>
                 </l><l n="9" met="-+-+-+-+-+" real="-+++-+++--+|--++-+++--+">
                     <seg>But when </seg>
-                    <seg>sleep comes </seg>
+                    <seg real="++">sleep comes </seg>
                     <seg>to close </seg>
                     <seg>each dif<sb/></seg>
-                    <seg>fi<sb/>cult <rhyme label="c">day,</rhyme></seg>
+                    <seg real="--+">fi<sb/>cult <rhyme label="c">day,</rhyme></seg>
                 </l><l n="10" met="-+-+-+-+-+" real="-+++--++-+">
                     <seg>When night </seg>
                     <seg real="++">gives pause </seg>
@@ -94,10 +94,10 @@
                     <seg>ment laid </seg>
                     <seg>a<sb/><rhyme label="c">way--</rhyme></seg>
                 </l><l n="13" met="-+-+-+-+-+" real="--++-+--++">
-                    <seg>With the </seg>
+                    <seg real="--">With the </seg>
                     <seg real="++">first dream </seg>
                     <seg>that comes </seg>
-                    <seg>with the </seg>
+                    <seg real="--">with the </seg>
                     <seg real="++">first <rhyme label="d">sleep</rhyme></seg>
                 </l><l n="14" met="-+-+-+-+-+" real="-+-+--+-+-+">
                     <seg>I run, </seg>
