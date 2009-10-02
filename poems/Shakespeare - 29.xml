@@ -29,6 +29,8 @@
                     <caesura/>
                     <seg real="--+">with my boot<sb part="N"/></seg>
                     <seg met="-+" part="N">less <rhyme label="a">cries,</rhyme></seg>
+                    <note anchored="true">
+                        The mid-line trouble here may be trod, it's true, with a dactyl in the 3rd foot and an iamb in the 4th, where 4B4V specifies a trochee and an anapest.  Six of one, half a dozen of the other: OK.  But the dactyl is an exotic creature in English metrics; the trochee is the falling foot of choice, and should be preferred when all it costs is a cheap anapestic substitution.                    </note>
                 </l><l n="4" part="N" met="-+-+-+-+-+" real="-+-+-+-+-+">
                     <seg met="-+" part="N">And look </seg>
                     <seg met="-+" part="N">up<sb part="N"/>on </seg>
