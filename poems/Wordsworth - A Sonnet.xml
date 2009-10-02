@@ -1,93 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE TEI
-  PUBLIC "-//TEI P5//DTD Main Document Type//EN" "http://localhost:8080/prosody/poems/tei_all.dtd">
-<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" version="5.0"><teiHeader type="text"><fileDesc><titleStmt><title>The Sonnet</title><author>William Wordsworth</author></titleStmt><publicationStmt><p/></publicationStmt><sourceDesc default="false"><p/></sourceDesc></fileDesc></teiHeader><text><body><lg n="1" type="Italianate Sonnet" met="-+" rhyme="abbaabbacddccd" org="uniform" sample="complete" part="N"><l n="1" part="N" met="-+-+-+-+-+" real="++---+-+-+">
-                    <seg met="-+" real="++" part="N">Nuns fret </seg>
-                    <seg met="-+" real="--" part="N">not at </seg>
-                    <seg met="-+" part="N">their con<sb part="N"/></seg>
-                    <seg met="-+" part="N">vent's nar<sb part="N"/></seg>
-                    <seg met="-+" part="N">row <rhyme label="a">room</rhyme>,</seg>
+  PUBLIC "-//TEI P5//DTD Main Document Type//EN" "http://sds1.itc.virginia.edu:8080/prosody/poems/tei_all.dtd">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" version="5.0">
+    <teiHeader type="text">
+        <fileDesc>
+            <titleStmt>
+<title>The Sonnet</title><author>William Wordsworth</author></titleStmt><publicationStmt><p/></publicationStmt><sourceDesc default="false"><p/></sourceDesc></fileDesc></teiHeader>
+            <text><body><lg n="1" type="Italianate Sonnet" met="-+" rhyme="abbaabbacddccd" org="uniform" sample="complete" part="N">
+                <l n="1" part="N" met="-+-+-+-+-+" real="++---+-+-+">
+                    <seg real="++">Nuns fret </seg>
+                    <seg real="--">not at </seg>
+                    <seg>their con<sb part="N"/></seg>
+                    <seg>vent's nar<sb part="N"/></seg>
+                    <seg met="-+" part="N">row <rhyme label="a">room,</rhyme></seg>
                 </l><space/><l n="2" part="N" met="-+-+-+-+-+" real="-+-+-+-+-+">
-                    <seg met="-+" part="N">And her<sb part="N"/></seg>
-                    <seg met="-+" part="N">mits are </seg>
-                    <seg met="-+" part="N">con<sb part="N"/>tent<sb part="N"/></seg>
-                    <seg met="-+" part="N">ed with </seg>
-                    <seg met="-+" part="N">their <rhyme label="b">cells</rhyme>,</seg>
+                    <seg>And her<sb part="N"/></seg>
+                    <seg>mits are </seg>
+                    <seg>con<sb part="N"/>tent<sb part="N"/></seg>
+                    <seg>ed with </seg>
+                    <seg>their <rhyme label="b">cells,</rhyme></seg>
                 </l><space/><l n="3" part="N" met="-+-+-+-+-+" real="-+-+-+-+-+">
-                    <seg met="-+" part="N">And stu<sb part="N"/></seg>
-                    <seg met="-+" part="N">dents with </seg>
-                    <seg met="-+" part="N">their pen<sb part="N"/></seg>
-                    <seg met="-+" part="N">sive cit<sb part="N"/></seg>
-                    <seg met="-+" part="N">a<sb part="N"/><rhyme label="b">dels</rhyme>;</seg>
+                    <seg>And stu<sb part="N"/></seg>
+                    <seg>dents with </seg>
+                    <seg>their pen<sb part="N"/></seg>
+                    <seg>sive cit<sb part="N"/></seg>
+                    <seg>a<sb part="N"/><rhyme label="b">dels;</rhyme></seg>
                 </l><l n="4" part="N" met="-+-+-+-+-+" real="+--+-+-+-+">
-                    <seg met="-+" real="+-" part="N">Maids at </seg>
-                    <seg met="-+" part="N">the wheel,</seg>
+                    <seg real="+-">Maids at </seg>
+                    <seg>the wheel, </seg>
                     <caesura/>
-                    <seg met="-+" part="N">the weav<sb part="N"/></seg>
-                    <seg met="-+" part="N">er at </seg>
-                    <seg met="-+" part="N">his <rhyme label="a">loom</rhyme>,</seg>
+                    <seg>the weav<sb part="N"/></seg>
+                    <seg>er at </seg>
+                    <seg>his <rhyme label="a">loom,</rhyme></seg>
                 </l><l n="5" part="N" met="-+-+-+-+-+" real="++-+-+-+-+">
-                    <seg met="-+" real="++" part="N">Sit blithe </seg>
-                    <seg met="-+" part="N">and hap<sb part="N"/></seg>
-                    <seg met="-+" part="N">py; <caesura/> bees </seg>
-                    <seg met="-+" part="N">that soar </seg>
-                    <seg met="-+" part="N">for <rhyme label="a">bloom</rhyme>,</seg>
+                    <seg real="++">Sit blithe </seg>
+                    <seg>and hap<sb part="N"/></seg>
+                    <seg>py; <caesura/>bees </seg>
+                    <seg>that soar </seg>
+                    <seg>for <rhyme label="a">bloom,</rhyme></seg>
                 </l><space/><l n="6" part="N" met="-+-+-+-+-+" real="+--+-+-+-+">
-                    <seg met="-+" real="+-" part="N">High as </seg>
-                    <seg met="-+" part="N">the high<sb part="N"/></seg>
-                    <seg met="-+" part="N">est peak </seg>
-                    <seg met="-+" part="N">of Fur<sb part="N"/></seg>
-                    <seg met="-+" part="N">ness <rhyme label="b">fells</rhyme>,</seg>
+                    <seg real="+-">High as </seg>
+                    <seg>the high<sb part="N"/></seg>
+                    <seg>est peak </seg>
+                    <seg>of Fur<sb part="N"/></seg>
+                    <seg>ness <rhyme label="b">fells,</rhyme></seg>
                 </l><space/><l n="7" part="N" met="-+-+-+-+-+" real="-+-+-+-+-+">
-                    <seg met="-+" part="N">Will mur<sb part="N"/></seg>
-                    <seg met="-+" part="N">mur by </seg>
-                    <seg met="-+" part="N">the hour </seg>
-                    <seg met="-+" part="N">in fox<sb part="N"/></seg>
-                    <seg met="-+" part="N">glove <rhyme label="b">bells</rhyme>:</seg>
+                    <seg>Will mur<sb part="N"/></seg>
+                    <seg>mur by </seg>
+                    <seg>the hour </seg>
+                    <seg>in fox<sb part="N"/></seg>
+                    <seg>glove <rhyme label="b">bells:</rhyme></seg>
                 </l><l n="8" part="N" met="-+-+-+-+-+" real="-+-+-+-+-+">
-                    <seg met="-+" part="N">In truth </seg>
-                    <seg met="-+" part="N">the pris<sb part="N"/></seg>
-                    <seg met="-+" part="N">on un<sb part="N"/></seg>
-                    <seg met="-+" part="N">to which </seg>
-                    <seg met="-+" part="N">we <rhyme label="a">doom</rhyme></seg>
+                    <seg>In truth </seg>
+                    <seg>the pris<sb part="N"/></seg>
+                    <seg>on, un<sb part="N"/></seg>
+                    <seg>to which </seg>
+                    <seg>we <rhyme label="a">doom</rhyme></seg>
                 </l><l n="9" part="N" met="-+-+-+-+-+" real="-+-+-+-+-+">
-                    <seg met="-+" part="N">Our<sb part="N"/>selves </seg>
-                    <seg met="-+" part="N">no pris<sb part="N"/></seg>
-                    <seg met="-+" part="N">on is:</seg>
+                    <seg>Our<sb part="N"/>selves, </seg>
+                    <seg>no pris<sb part="N"/></seg>
+                    <seg>on is: </seg>
                     <caesura/>
-                    <seg met="-+" part="N">and hence </seg>
-                    <seg met="-+" part="N">for <rhyme label="c">me</rhyme>,</seg>
+                    <seg>and hence </seg>
+                    <seg>for <rhyme label="c">me,</rhyme></seg>
                 </l><space/><l n="10" part="N" met="-+-+-+-+-+" real="-+-+-+-+-+">
-                    <seg met="-+" part="N">In sun<sb part="N"/></seg>
-                    <seg met="-+" part="N">dry moods,</seg>
+                    <seg>In sun<sb part="N"/></seg>
+                    <seg>dry moods, </seg>
                     <caesura/>
-                    <seg met="-+" part="N">'twas pas<sb part="N"/></seg>
-                    <seg met="-+" part="N">time to </seg>
-                    <seg met="-+" part="N">be <rhyme label="d">bound</rhyme></seg>
+                    <seg>'twas pas<sb part="N"/></seg>
+                    <seg>time to </seg>
+                    <seg>be <rhyme label="d">bound</rhyme></seg>
                 </l><space/><l n="11" part="N" met="-+-+-+-+-+" real="-+-+-+-+-+">
-                    <seg met="-+" part="N">With<sb part="N"/>in </seg>
-                    <seg met="-+" part="N">the Son<sb part="N"/></seg>
-                    <seg met="-+" part="N">net's scan<sb part="N"/></seg>
-                    <seg met="-+" part="N">ty plot </seg>
-                    <seg met="-+" part="N">of <rhyme label="d">ground</rhyme>;</seg>
+                    <seg>With<sb part="N"/>in </seg>
+                    <seg>the Son<sb part="N"/></seg>
+                    <seg>net's scan<sb part="N"/></seg>
+                    <seg>ty plot </seg>
+                    <seg>of <rhyme label="d">ground;</rhyme></seg>
+                    <note anchored="true">
+                        Here ends a run, unusual in a poet of Wordsworth's sophistication, of five perfect pentameter lines.  But the steady rhythm forms just half of a prosodic story counterpointing this sonnet's thematic balance between confinement and freedom; the other half is told by a strategic enjambment, at the volta of line 8 and again at the end of line 10, that underwrites the poet's syntactic liberty to run on over line-ends as he sees fit.
+                    </note>
                 </l><l n="12" part="N" met="-+-+-+-+-+" real="+-++-+-+-+">
-                    <seg met="-+" real="+-" part="N">Pleased if </seg>
-                    <seg met="-+" real="++" part="N">some souls </seg>
+                    <seg real="+-">Pleased if </seg>
+                    <seg real="++">some souls </seg>
                     <caesura/>
-                    <seg met="-+" part="N">(for such </seg>
-                    <seg met="-+" part="N">there needs </seg>
-                    <seg met="-+" part="N">must <rhyme label="c">be</rhyme>)</seg>
+                    <seg>(for such </seg>
+                    <seg>there needs </seg>
+                    <seg>must <rhyme label="c">be)</rhyme></seg>
                 </l><l n="13" part="N" met="-+-+-+-+-+" real="--+-+-+++-+">
-                    <seg met="-+" real="--+" part="N">Who have felt </seg>
-                    <seg met="-+" part="N">the weight </seg>
-                    <seg met="-+" part="N">of too </seg>
-                    <seg met="-+" real="++" part="N">much li<sb part="N"/></seg>
-                    <seg met="-+" part="N">ber<sb part="N"/><rhyme label="c">ty</rhyme>,</seg>
+                    <seg real="--+">Who have felt </seg>
+                    <seg>the weight </seg>
+                    <seg>of too </seg>
+                    <seg real="++">much li<sb part="N"/></seg>
+                    <seg>ber<sb part="N"/><rhyme label="c">ty,</rhyme></seg>
                 </l><space/><l n="14" part="N" met="-+-+-+-+-+" real="-+++-+-+-+">
-                    <seg met="-+" part="N">Should find </seg>
-                    <seg met="-+" real="++" part="N">brief sol<sb part="N"/></seg>
-                    <seg met="-+" part="N">ace there,</seg>
+                    <seg>Should find </seg>
+                    <seg real="++">brief sol<sb part="N"/></seg>
+                    <seg>ace there,</seg>
                     <caesura/>
-                    <seg met="-+" part="N">as I </seg>
-                    <seg met="-+" part="N">have <rhyme label="d">found</rhyme>.</seg>
+                    <seg>as I </seg>
+                    <seg>have <rhyme label="d">found.</rhyme></seg>
                 </l></lg></body></text></TEI>

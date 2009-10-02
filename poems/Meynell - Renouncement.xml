@@ -70,10 +70,10 @@
                     <seg>the whole </seg>
                     <seg real="++">day <rhyme label="a">long.</rhyme></seg>
                 </l><l n="9" met="-+-+-+-+-+" real="-+++-+++--+|--++-+++--+">
-                    <seg>But when </seg>
+                    <seg real="--">But when </seg>
                     <seg real="++">sleep comes </seg>
                     <seg>to close </seg>
-                    <seg>each dif<sb/></seg>
+                    <seg real="++">each dif<sb/></seg>
                     <seg real="--+">fi<sb/>cult <rhyme label="c">day,</rhyme></seg>
                 </l><l n="10" met="-+-+-+-+-+" real="-+++--++-+">
                     <seg>When night </seg>
