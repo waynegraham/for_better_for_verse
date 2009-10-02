@@ -6,10 +6,12 @@
         <fileDesc>
             <titleStmt>
 <title>The Sonnet</title><author>William Wordsworth</author></titleStmt><publicationStmt><p/></publicationStmt><sourceDesc default="false"><p/></sourceDesc></fileDesc></teiHeader>
-            <text><body><lg n="1" type="Italianate Sonnet" met="-+" rhyme="abbaabbacddccd" org="uniform" sample="complete" part="N">
-                <l n="1" part="N" met="-+-+-+-+-+" real="++---+-+-+">
+    <text>
+        <body>
+            <lg n="1" type="sonnet" met="-+(5/5/5/5/5/5/5/5/5/5/5/5/5/5)" rhyme="abbaabbacddccd" org="uniform" sample="complete" part="N">
+                <l n="1" part="N" met="-+-+-+-+-+" real="+++--+-+-+">
                     <seg real="++">Nuns fret </seg>
-                    <seg real="--">not at </seg>
+                    <seg real="+-">not at </seg>
                     <seg>their con<sb part="N"/></seg>
                     <seg>vent's nar<sb part="N"/></seg>
                     <seg met="-+" part="N">row <rhyme label="a">room,</rhyme></seg>
@@ -50,6 +52,9 @@
                     <seg>the hour </seg>
                     <seg>in fox<sb part="N"/></seg>
                     <seg>glove <rhyme label="b">bells:</rhyme></seg>
+                    <note anchored="true">
+                        Before you insist on "hour" as a disyllable, listen again for the kind of buzz Wordsworth wants to impart here.  All the sleepy l's and m's are there to make the line purr, and a monosyllabic "hour" slips much more smoothly into the mood.  (A note to a later line will give another reason for keeping the rhythm of this line perfectly iambic.) 
+                    </note>
                 </l><l n="8" part="N" met="-+-+-+-+-+" real="-+-+-+-+-+">
                     <seg>In truth </seg>
                     <seg>the pris<sb part="N"/></seg>
@@ -77,7 +82,7 @@
                     <seg>ty plot </seg>
                     <seg>of <rhyme label="d">ground;</rhyme></seg>
                     <note anchored="true">
-                        Here ends a run, unusual in a poet of Wordsworth's sophistication, of five perfect pentameter lines.  But the steady rhythm forms just half of a prosodic story counterpointing this sonnet's thematic balance between confinement and freedom; the other half is told by a strategic enjambment, at the volta of line 8 and again at the end of line 10, that underwrites the poet's syntactic liberty to run on over line-ends as he sees fit.
+                        Here ends a run, unusual in a poet as sophisticated as Wordsworth, of five perfect pentameter lines.  But the steady rhythm forms just half of a prosodic story counterpointing this sonnet's message about striking a balance between constraint and freedom; the other half is told by strategic enjambment, at the volta of line 8 and again at the end of line 10, which underwrites the poet's syntactic liberty to overrun line-ends as he sees fit.
                     </note>
                 </l><l n="12" part="N" met="-+-+-+-+-+" real="+-++-+-+-+">
                     <seg real="+-">Pleased if </seg>
@@ -95,7 +100,7 @@
                 </l><space/><l n="14" part="N" met="-+-+-+-+-+" real="-+++-+-+-+">
                     <seg>Should find </seg>
                     <seg real="++">brief sol<sb part="N"/></seg>
-                    <seg>ace there,</seg>
+                    <seg>ace there, </seg>
                     <caesura/>
                     <seg>as I </seg>
                     <seg>have <rhyme label="d">found.</rhyme></seg>
