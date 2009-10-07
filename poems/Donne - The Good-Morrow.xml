@@ -14,7 +14,7 @@
         </teiHeader>
         <text>
             <body>
-                <lg n="1" type="seven-line stanza" met="-+(5/5/5/5/5/5/5)" rhyme="ababccc" org="uniform" sample="complete" part="N">
+                <lg n="1" met="-+(5/5/5/5/5/5/6)" rhyme="ababccc" org="uniform" sample="complete" part="N">
                     <l n="1" met="-+-+-+-+-+" real="-+-+-+-+-+" part="N">
                    <seg>I won<sb/></seg>
                    <seg>der, by </seg>
@@ -59,7 +59,7 @@
                         <seg>ty I </seg>
                         <seg>did <rhyme label="c">see,</rhyme></seg>
                     </l>
-                    <l n="7" met="-+-+-+-+-+" real="-+-+-+-+-+-+" part="N">
+                    <l n="7" met="-+-+-+-+-+-+" real="-+-+-+-+-+-+" part="N">
                         <seg>Which I </seg>
                         <seg>de<sb/>sired, </seg>
                         <seg>and got, </seg>
@@ -67,54 +67,53 @@
                         <seg>'twas but </seg>
                         <seg>a dream </seg>
                         <seg>of <rhyme label="c">thee.</rhyme></seg>
-                    </l>
-                    
-                    
+                    </l>                                       
                 </lg>
-                <lg n="1" type="seven-line stanza" met="-+(5/5/5/5/5/5/5)" rhyme="ababccc" org="uniform" sample="complete" part="N">
-                    <l n="1" met="-+-+-+-+-+" real="-+++-+-+-+" part="N">
+                <lg n="1" met="-+(5/5/5/5/5/5/6)" rhyme="ababccc" org="uniform" sample="complete" part="N">
+                    <l n="8" met="-+-+-+-+-+" real="-+-+-+-+-+" part="N">
                         <seg>And now </seg>
                         <seg>good-<sb/>mor<sb/></seg>
                         <seg>row to </seg>
                         <seg>our wak<sb/></seg>
                         <seg>ing <rhyme label="a">souls,</rhyme></seg>
                     </l>
-                    <l n="2" met="-+-+-+-+-+" real="-+-+-+-+-+" part="N">
+                    <l n="9" met="-+-+-+-+-+" real="-+-+-+-+-+" part="N">
                         <seg>Which watch </seg>
                         <seg>not one </seg>
                         <seg>an<sb/>oth<sb/></seg>
                         <seg>er out </seg>
                         <seg>of <rhyme label="b">fear;</rhyme></seg>
                     </l>
-                    <l n="3" met="-+-+-+-+-+" real="-+-+-+-+-+" part="N">
+                    <l n="10" met="-+-+-+-+-+" real="-+++-+-+-+" part="N">
                         <seg>For love, </seg>
+                        <caesura/>
                         <seg>all love </seg>
                         <seg>of oth<sb/></seg>
                         <seg>er sights </seg>
                         <seg>con<sb/><rhyme label="a">trols,</rhyme></seg>
                     </l>
-                    <l n="4" met="-+-+-+-+-+" real="-+++-+-+-+" part="N">
+                    <l n="11" met="-+-+-+-+-+" real="-+++-+-+-+" part="N">
                         <seg>And makes </seg>
                         <seg>one lit<sb/></seg>
                         <seg>tle room </seg>
                         <seg>an eve<sb/></seg>
                         <seg>ry<sb/><rhyme label="b">where.</rhyme></seg>
                     </l>
-                    <l n="5" met="-+-+-+-+-+" real="-+-+--++-+" part="N">
+                    <l n="12" met="-+-+-+-+-+" real="-+-+--++-+" part="N">
                         <seg>Let sea-<sb/></seg>
-                        <seg>dis<sb/>cove<sb></sb></seg>
-                        <seg>rers to </seg>
+                        <seg>dis<sb/>cover<sb></sb></seg>
+                        <seg>ers to </seg>
                         <seg>new worlds </seg>
                         <seg>have <rhyme label="c">gone,</rhyme></seg>
                     </l>
-                    <l n="6" met="-+-+-+-+-+" real="-+-+-+-+-+" part="N">
+                    <l n="13" met="-+-+-+-+-+" real="-+-+-+-+-+" part="N">
                         <seg>Let maps </seg>
                         <seg>to oth<sb/></seg>
                         <seg>ers, worlds </seg>
                         <seg>on worlds </seg>
                         <seg>have <rhyme label="c">shown,</rhyme></seg>
                     </l>
-                    <l n="7" met="-+-+-+-+-+" real="-+-+++-+--++" part="N">
+                    <l n="14" met="-+-+-+-+-+-+" real="-+-+++-+--++" part="N">
                         <seg>Let us </seg>
                         <seg>pos<sb/>sess </seg>
                         <seg>one world, </seg>
@@ -122,47 +121,46 @@
                         <seg>each hath </seg>
                         <seg>one, and </seg>
                         <seg>is <rhyme label="c">one.</rhyme></seg>
-                    </l>
-                    
-                    
-                </lg>
-                <lg n="3" type="seven-line stanza" met="-+(5/5/5/5/5/5/5)" rhyme="ababccc" org="uniform" sample="complete" part="N">
-                    <l n="1" met="-+-+-+-+-+" real="++-+-+-+-+" part="N">
+                    </l>              
+                  </lg>
+                <lg n="3" met="-+(5/5/5/5/5/5/5)" rhyme="ababccc" org="uniform" sample="complete" part="N">
+                    <l n="15" met="-+-+-+-+-+" real="++-+-+-+-+" part="N">
                         <seg>My face </seg>
                         <seg>in thine </seg>
                         <seg>eye, <caesura/>thine </seg>
                         <seg>in mine </seg>
                         <seg>ap<sb/><rhyme label="a">pears,</rhyme></seg>
                     </l>
-                    <l n="2" met="-+-+-+-+-+" real="-+++---+-+" part="N">
+                    <l n="16" met="-+-+-+-+-+" real="-+++---+-+" part="N">
                         <seg>And true </seg>
                         <seg>plain hearts </seg>
                         <seg>do in </seg>
                         <seg>the fac<sb/></seg>
                         <seg>es <rhyme label="b">rest;</rhyme></seg>
                     </l>
-                    <l n="3" met="-+-+-+-+-+" real="+--+++-+-+" part="N">
+                    <l n="17" met="-+-+-+-+-+" real="+--+++-+-+" part="N">
                         <seg>Where can </seg>
                         <seg>we find </seg>
                         <seg>two bet<sb/></seg>
                         <seg>ter hem<sb/></seg>
                         <seg>i<sb/><rhyme label="a">spheres,</rhyme></seg>
                     </l>
-                    <l n="4" met="-+-+-+-+-+" real="-+++-+-+-+" part="N">
+                    <l n="18" met="-+-+-+-+-+" real="-+++-+-+-+" part="N">
                         <seg>With<sb/>out </seg>
                         <seg>sharp north, </seg>
+                        <caesura/>
                         <seg>with<sb/>out </seg>
                         <seg>de<sb/>clin<sb/></seg>
                         <seg>ing <rhyme label="b">West?</rhyme></seg>
                     </l>
-                    <l n="5" met="-+-+-+-+-+" real="-+-+-+++-+" part="N">
+                    <l n="19" met="-+-+-+-+-+" real="-+-+-+++-+" part="N">
                         <seg>What<sb/>e<sb/></seg>
                         <seg>ver dies </seg>
                         <seg>was not </seg>
                         <seg>mixed e<sb/></seg>
                         <seg>qual<sb/><rhyme label="c">ly;</rhyme></seg>
                     </l>
-                    <l n="6" met="-+-+-+-+-+" real="-+++-+-+-+" part="N">
+                    <l n="20" met="-+-+-+-+-+" real="-+++-+-+-+" part="N">
                         <seg>If our </seg>
                         <seg>two loves </seg>
                         <seg>be one, </seg>
@@ -170,7 +168,7 @@
                         <seg>or thou </seg>
                         <seg>and <rhyme label="c">I</rhyme></seg>
                     </l>
-                    <l n="7" met="-+-+-+-+-+" real="++-+-+-+-+-+" part="N">
+                    <l n="21" met="-+-+-+-+-+-+" real="++-+-+-+-+-+" part="N">
                         <seg>Love so </seg>
                         <seg>a<sb/>like </seg>
                         <seg>that none </seg>
