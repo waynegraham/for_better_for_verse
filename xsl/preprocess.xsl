@@ -11,7 +11,9 @@
             <div id="title">
                 <h2>
                     <xsl:apply-templates
-                        select="/TEI:TEI/TEI:teiHeader/TEI:fileDesc/TEI:titleStmt/TEI:title"/>
+                        select="/TEI:TEI/TEI:teiHeader/TEI:fileDesc/TEI:titleStmt/TEI:title"/>										
+												<xsl:apply-templates
+		                        select="/TEI:TEI/TEI:teiHeader/TEI:fileDesc/TEI:publicationStmt/TEI:date"/>
                 </h2>
                 <xsl:if test="/TEI:TEI/TEI:teiHeader/TEI:fileDesc/TEI:titleStmt/TEI:author">
                     <h4>
@@ -23,6 +25,14 @@
             <xsl:apply-templates select="TEI:TEI/TEI:text/TEI:body/*"/>
         </div>
     </xsl:template>
+
+		<xsl:template match="TEI:date">
+			<small class="date">
+				<xsl:text>(</xsl:text>
+					<xsl:value-of select="."/>
+				<xsl:text>)</xsl:text>
+			</small>
+		</xsl:template>
     
     <xsl:template match="TEI:lg">
         <xsl:for-each select="TEI:l">
