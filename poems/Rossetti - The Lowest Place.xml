@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE TEI PUBLIC "-//TEI P5//DTD Main Document Type//EN" "http://sds3.itc.virginia.edu:8080/prosody/poems/tei_all.dtd">
-<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" version="5.0"><teiHeader type="text"><fileDesc><titleStmt><title>The Lowest Place</title><author>Christina Rossetti</author></titleStmt><publicationStmt><p/></publicationStmt><sourceDesc default="false"><p/></sourceDesc></fileDesc></teiHeader><text><body><lg n="1" type="quatrain" met="-+(5/5/3/3)" rhyme="abab" org="uniform" sample="complete" part="N"><l n="1" part="N" met="-+-+-+-+-+" real="+--+-++--+">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" version="5.0"><teiHeader type="text"><fileDesc><titleStmt><title>The Lowest Place</title><author>Christina Rossetti</author></titleStmt><publicationStmt><date>1866</date></publicationStmt><sourceDesc default="false"><p/></sourceDesc></fileDesc></teiHeader><text><body><lg n="1" type="quatrain" met="-+(5/5/3/3)" rhyme="abab" org="uniform" sample="complete" part="N"><l n="1" part="N" met="-+-+-+-+-+" real="+--+-++--+">
                     <seg met="-+" real="+-|-+" part="N">Give me </seg>
                     <seg met="-+" part="N">the low<sb part="N"/></seg>
                     <seg met="-+" part="N">est place: </seg>
