@@ -27,10 +27,13 @@
                     <seg met="-+" real="++" part="N">scythe whis<sb part="N"/></seg>
                     <seg met="-+" real="--+" part="N">per<sb part="N"/>ing to </seg>
                     <seg met="-+" part="N">the <rhyme label="b">ground.</rhyme></seg>
+                   <note anchored="true">
+                       It may have cost you some work already, as you limber up for this working sonnet, to find how liberally Frost relies on anapestic substitutions.  These little breaks in the earnest iambic progress stand, perhaps, for the by-play that forms part of most work worth doing.  Lest it all seem an easy dream, notice the symmetry of the feet in this line: iamb, anapest, spondee, anapest, iamb.
+                   </note>
                 </l><l n="3" met="-+-+-+-+-+" real="-+--+--+-+-+" part="N">
                     <seg met="-+" part="N">What was </seg>
                     <seg met="-+" real="--+" part="N">it it whis<sb part="N"/></seg>
-                    <seg met="-+" real="--+" part="N">pered? <caesura/> I knew </seg>
+                    <seg met="-+" real="--+" part="N">pered? <caesura/>I knew </seg>
                     <seg met="-+" part="N">not well </seg>
                     <seg met="-+" part="N">my<sb part="N"/><rhyme label="c">self;</rhyme></seg>
                 </l><l n="4" met="-+-+-+-+-+" real="-+--+--+-+--+" part="N">
@@ -44,7 +47,7 @@
                     <seg met="-+" part="N">per<sb part="N"/>haps, </seg>
                     <seg met="-+" part="N">a<sb part="N"/>bout </seg>
                     <seg met="-+" part="N">the lack </seg>
-                    <seg met="-+" part="N">of <rhyme label="b">sound --</rhyme></seg>
+                    <seg met="-+" part="N">of <rhyme label="b">sound--</rhyme></seg>
                 </l><l n="6" met="-+-+-+-+-+" real="-+-+-+--+-+" part="N">
                     <seg met="-+" part="N">And that </seg>
                     <seg met="-+" part="N">was why </seg>
@@ -75,7 +78,7 @@
                     <seg met="-+" part="N">that laid </seg>
                     <seg met="-+" part="N">the swale </seg>
                     <seg met="-+" part="N">in <rhyme label="f">rows,</rhyme></seg>
-                </l><l n="11" met="-+-+-+-+-+" real="+--+-+-+-+-" part="N">
+                </l><l n="11" met="-+-+-+-+-+" real="+-++-+-+-+-|+--+-+-+-+-" part="N">
                     <seg met="-+" real="+-" part="N">Not with<sb part="N"/></seg>
                     <seg met="--+" part="N">out fee<sb part="N"/></seg>
                     <seg met="-+" part="N">ble point<sb part="N"/></seg>
@@ -87,7 +90,7 @@
                     <caesura/>
                     <seg met="-+" part="N">and scared </seg>
                     <seg met="-+" part="N">a bright </seg>
-                    <seg met="-+" real="++" part="N">green <rhyme label="g">snake.</rhyme> -- </seg>
+                    <seg met="-+" real="++" part="N">green <rhyme label="g">snake.</rhyme>-- </seg>
                 </l><l n="13" met="-+-+-+-+-+" real="-+--+-+-+-+" part="N">
                     <seg met="-+" part="N">The fact </seg>
                     <seg met="-+" real="--+" part="N">is the sweet<sb part="N"/></seg>
@@ -97,7 +100,7 @@
                 </l><l n="14" met="-+-+-+-+-+" real="-+++--+-+-+" part="N">
                     <seg met="-+" part="N">My long </seg>
                     <seg met="-+" real="++" part="N">scythe whis<sb part="N"/></seg>
-                    <seg met="-+" real="--+" part="N">pered and left</seg>
+                    <seg met="-+" real="--+" part="N">pered and left </seg>
                     <seg met="-+" part="N">the hay </seg>
                     <seg met="-+" part="N">to <rhyme label="g">make.</rhyme></seg>
                 </l></lg></body></text></TEI>
