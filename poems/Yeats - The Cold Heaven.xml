@@ -30,13 +30,13 @@
                     <seg met="-+" part="N">and was </seg>
                     <seg met="-+" real="--" part="N">but the </seg>
                     <seg met="-+" real="++" part="N">more <sb part="N"/><rhyme label="b">ice,</rhyme></seg>
-                </l><l n="3" met="-+-+-+-+-+-+" real="-+-+-+-+--+-+(-)" part="N">
-                    <seg met="-+" part="N">And there<sb part="N"/></seg>
-                    <seg met="-+" part="N">up<sb part="N"/>on </seg>
-                    <seg met="-+" part="N">i<sb part="N"/>ma<sb part="N"/></seg>
-                    <seg met="-+" part="N">gin<sb part="N"/>a<sb part="N"/></seg>
-                    <seg met="-+" real="--+" part="N">tion and heart</seg>
-                    <seg met="-+" real="-+(-)" part="N">were driv<sb part="N"/><rhyme label="a">en</rhyme></seg>
+                </l><l n="3" met="-+-+-+-+-+-+" real="-+-+-+-+--+-+-" part="N">
+                    <seg>And there<sb/></seg>
+                    <seg>up<sb/>on </seg>
+                    <seg>i<sb/>ma<sb/></seg>
+                    <seg>gin<sb/>a<sb/></seg>
+                    <seg>tion and heart </seg>
+                    <seg>were driv<sb/><rhyme label="a">en</rhyme></seg>
                 </l><l n="4" met="-+-+-+-+-+-+" real="-+-+-+--+-+-+" part="N">
                     <seg met="-+" part="N">So wild</seg>
                     <seg met="-+" part="N">that eve<sb part="N"/></seg>
