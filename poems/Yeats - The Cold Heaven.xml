@@ -38,20 +38,20 @@
                     <seg>tion and heart </seg>
                     <seg>were driv<sb/><rhyme label="a">en</rhyme></seg>
                 </l><l n="4" met="-+-+-+-+-+-+" real="-+-+-+--+-+-+" part="N">
-                    <seg met="-+" part="N">So wild</seg>
-                    <seg met="-+" part="N">that eve<sb part="N"/></seg>
-                    <seg met="-+" part="N">ry cas<sb part="N"/></seg>
-                    <seg met="-+" real="--+" part="N">u<sb part="N"/>al thought </seg>
-                    <seg met="-+" part="N">of that </seg>
-                    <seg met="-+" part="N">and <sb part="N"/><rhyme label="b">this</rhyme></seg>
-                </l><l n="5" met="-+-+-+-+-+-+" real="+--+-+(--)-+-+-+(-)" part="N">
-                    <seg met="-+" real="+-" part="N">Van<sb part="N"/>ished, </seg>
-                    <seg met="-+" part="N">and left </seg>
-                    <seg met="-+" real="-+(--)" part="N">but me<sb part="N"/>mo<sb part="N"/>ries, </seg>
+                    <seg>So wild </seg>
+                    <seg>that eve<sb/></seg>
+                    <seg>ry cas<sb/></seg>
+                    <seg>u<sb/>al thought </seg>
+                    <seg>of that </seg>
+                    <seg>and <sb/><rhyme label="b">this</rhyme></seg>
+                </l><l n="5" met="-+-+-+-+-+-+" real="+--+-+---+-+-+-" part="N">
+                    <seg>Van<sb/>ished, </seg>
+                    <seg>and left </seg>
+                    <seg>but me<sb/>mo<sb/>ries, </seg>
                     <caesura/>
-                    <seg met="-+" part="N">that should </seg>
-                    <seg met="-+" part="N">be out </seg>
-                    <seg met="-+" real="-+(-)" part="N">of sea<sb part="N"/><rhyme label="c">son</rhyme></seg>
+                    <seg>that should </seg>
+                    <seg>be out </seg>
+                    <seg>of sea<sb/><rhyme label="c">son</rhyme></seg>
                 </l><l n="6" met="-+-+-+-+-+-+" real="--++-+-+++-+" part="N">
                     <seg met="-+" real="--" part="N">With the </seg>
                     <seg met="-+" real="++" part="N">hot blood </seg>
