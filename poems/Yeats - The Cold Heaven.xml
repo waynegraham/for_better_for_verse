@@ -18,10 +18,10 @@
                 <l n="1" met="-+-+-+-+-+-+" real="+---+-+-+-+-+-" part="N">
                    <seg>Sud<sb/>den<sb/></seg>
                    <seg>ly I saw </seg>
-                   <seg>the cold</seg>
-                   <seg>and rook-<sb/></seg>
+                   <seg>the cold </seg>
+                   <seg>and rook-</seg>
                    <seg>de<sb/>light<sb/></seg>
-                   <seg>ing heav<sb/><rhyme label="a">en</rhyme></seg>
+                   <seg>ing heav<sb/><rhyme label="a">en</rhyme><sb/></seg>
                </l><l n="2" met="-+-+-+-+-+-+" real="+--+++-+--++" part="N">
                     <seg met="-+" real="+-" part="N">That seemed </seg>
                     <seg met="-+" part="N">as though </seg>
