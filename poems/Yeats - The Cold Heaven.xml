@@ -15,13 +15,13 @@
     <text>
         <body>
             <lg n="1" type="???" met="-+(6/6/6/6/6/6/6/6/6/6/6)" rhyme="ababcdcdefef" org="uniform" sample="complete" part="N">
-                <l n="1" met="-+-+-+-+-+-+" real="+---+-+-+-+-+(-)" part="N">
-                   <seg met="-+" real="+-" part="N">Sud<sb part="N"/>den<sb part="N"/></seg>
-                   <seg met="-+" real="--+" part="N">ly I saw </seg>
-                   <seg met="-+" part="N">the cold</seg>
-                   <seg met="-+" part="N">and rook-<sb part="N"/></seg>
-                   <seg met="-+" part="N">de<sb part="N"/>light<sb part="N"/></seg>
-                   <seg met="-+" real="-+(-)" part="N">ing heav<sb part="N"/><rhyme label="a">en</rhyme></seg>
+                <l n="1" met="-+-+-+-+-+-+" real="+---+-+-+-+-+-" part="N">
+                   <seg>Sud<sb/>den<sb/></seg>
+                   <seg>ly I saw </seg>
+                   <seg>the cold</seg>
+                   <seg>and rook-<sb/></seg>
+                   <seg>de<sb/>light<sb/></seg>
+                   <seg>ing heav<sb/><rhyme label="a">en</rhyme></seg>
                </l><l n="2" met="-+-+-+-+-+-+" real="+--+++-+--++" part="N">
                     <seg met="-+" real="+-" part="N">That seemed </seg>
                     <seg met="-+" part="N">as though </seg>
