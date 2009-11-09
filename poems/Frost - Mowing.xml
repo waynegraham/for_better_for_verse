@@ -28,7 +28,7 @@
                     <seg met="-+" real="--+" part="N">per<sb part="N"/>ing to </seg>
                     <seg met="-+" part="N">the <rhyme label="b">ground.</rhyme></seg>
                    <note anchored="true">
-                       It may have cost you some work already, as you limber up for this working sonnet, to find how liberally Frost relies on anapestic substitutions.  These little breaks in the earnest iambic progress stand, perhaps, for the by-play that forms part of most work worth doing.  Lest it all seem an easy dream, notice the symmetry of the feet in this line: iamb, anapest, spondee, anapest, iamb.
+                       Limbering up for this working sonnet means discovering how liberally Frost relies on anapestic substitutions.  These little breaks in the earnest iambic progress stand, perhaps, for the by-play that forms part of most work worth doing.  Lest the studied casualness of it all seem too easy a dream, notice the symmetry of the feet in this line: iamb, anapest, spondee, anapest, iamb.
                    </note>
                 </l><l n="3" met="-+-+-+-+-+" real="-+--+--+-+-+" part="N">
                     <seg met="-+" part="N">What was </seg>
@@ -84,6 +84,9 @@
                     <seg met="-+" part="N">ble point<sb part="N"/></seg>
                     <seg met="-+" part="N">ed spikes </seg>
                     <seg met="-+" part="N">of flow<sb part="N"/><rhyme label="e">ers</rhyme></seg>
+                    <note anchored="true">
+                        Because 4B4V says a disyllable should take stress someplace, in this line a stressed second syllable of "without" wins approval.  But it goes down better as two slacks, which turns out to be permissible scansion for certain two-syllable prepositions like this one, or "over," or "into" -- especially when a poet plays duple against triple feet as consistently as Frost is doing here.  There's no anapest in this line, but the trochee-iamb junction of the first two feet probably ought to feel like one.
+                    </note>
                 </l><l n="12" met="-+-+-+-+-+" real="++---+-+++" part="N">
                     <seg met="-+" real="++" part="N">(Pale or<sb part="N"/></seg>
                     <seg met="-+" real="--" part="N">chis<sb part="N"/>es), </seg>
