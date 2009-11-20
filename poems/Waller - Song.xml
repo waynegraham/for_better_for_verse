@@ -27,13 +27,13 @@
                     </l>
                     <l n="3" met="-+-+" real="-+-+" part="N">
                         <seg>That now </seg>
-                        <seg>she <rhyme label="a">knows,</rhyme></seg>
+                        <seg>she <rhyme label="a">knows, </rhyme></seg>
                     </l>
                     <l n="4" met="-+-+-+-+" real="-+-+-+-+" part="N">
-                        <seg>When I</seg>
+                        <seg>When I </seg>
                         <seg>re<sb/>sem<sb/></seg>
                         <seg>ble her </seg>
-                        <seg>to <rhyme label="b">thee,</rhyme></seg>
+                        <seg>to <rhyme label="b">thee, </rhyme></seg>
                     </l>
                     <l n="5" met="-+-+-+-+" real="-+-+-+-+" part="N">
                         <seg>How sweet </seg>
