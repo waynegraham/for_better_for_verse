@@ -16,7 +16,7 @@
             <body>
                 <lg n="1" type="blank verse" met="-+(5/5/5/5/5/5/5/5/5/5/5/5/5/5)" org="uniform" sample="complete" part="N">
                     <l n="1" met="-+-+-+-+-+" real="-+-+-+-+-+">
-                   <seg>Nor less </seg>
+                   <seg>Nor less, </seg>
                    <seg>when spring </seg>
                    <seg>had warmed </seg>
                    <seg>the cul<sb/></seg>
@@ -99,7 +99,7 @@
                     <seg>seemed not </seg>
                     <seg>a sky</seg>
                 </l><l n="14" met="-+-+-+-+-+" real="-+--++-+-+">
-                    <seg>Of earth--</seg>
+                    <seg>Of earth -- </seg>
                     <caesura/>
                     <seg>and with </seg>
                     <seg>what mo<sb/></seg>
