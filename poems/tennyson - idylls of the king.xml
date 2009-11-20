@@ -22,7 +22,7 @@
                    <seg>the voice; </seg>
                    <seg>the face</seg>
                </l><l n="2" met="-+-+-+-+-+" real="++-+-+---+">
-                    <seg>Well<sb/>nigh </seg>
+                    <seg>Well <sb/>nigh </seg>
                     <seg>was hel<sb/></seg>
                     <seg>met-<sb/>hid<sb/></seg>
                    <seg>den, <caesura/>and </seg>
@@ -65,7 +65,7 @@
                     <seg>ing wave,</seg>
                 </l><l n="9" met="-+-+-+-+-+" real="+-++-+-+-+">
                     <seg>Heard in </seg>
-                    <seg>dead night</seg>
+                    <seg>dead night </seg>
                     <seg>a<sb/>long </seg>
                     <seg>that ta<sb/></seg>
                     <seg>ble-<sb/>shore,</seg>
@@ -101,7 +101,7 @@
                     <seg>who watched </seg>
                     <seg>him, roared</seg>
                 </l>
-                    <l n="15" met="-+-+-+-+-+" real="-+--++-+-+(-)">
+                    <l n="15" met="-+-+-+-+-+" real="-+--++-+-+-">
                         <seg>And shout<sb/></seg>
                         <seg>ed and </seg>
                         <seg>leapt down </seg>
