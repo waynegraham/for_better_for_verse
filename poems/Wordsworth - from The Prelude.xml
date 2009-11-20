@@ -27,23 +27,23 @@
                     <seg>der<sb/>ers where </seg>
                     <seg>the moth<sb/></seg>
                     <seg>er bird</seg>
-                </l><l n="3" met="-+-+-+-+-+" real="+-++-+-+-+">
+                </l><l n="3" met="-+-+-+-+-+" real="--++-+-+-+">
                     <seg>Had in </seg>
                     <seg>high plac<sb/></seg>
                     <seg>es built </seg>
                     <seg>her lodge; </seg>
                     <caesura/>
                     <seg>though mean</seg>
-                </l><l n="4" met="-+-+-+-+-+" real="-+-+-+-+-+">
+                </l><l n="4" met="-+-+-+-+-+" real="-+-+-+--+-+">
                     <seg>Our ob<sb/></seg>
                     <seg>ject and </seg>
                     <seg>in<sb/>glor<sb/></seg>
-                    <seg>ious, <caesura/>yet </seg>
+                    <seg>i<sb/>ous, <caesura/>yet </seg>
                     <seg>the end</seg>
                 </l><l n="5" met="-+-+-+-+-+" real="-+-+-+-+-+">
                     <seg>Was not </seg>
                     <seg>ig<sb/>no<sb/></seg>
-                    <seg>ble. <caesura/>Oh! </seg>
+                    <seg>ble. <caesura/>Oh!</seg>
                     <seg>when I </seg>
                     <seg>have hung</seg>
                 </l><l n="6" met="-+-+-+-+-+" real="-+-+-+-+-+">
@@ -66,12 +66,15 @@
                     <seg>and al<sb/></seg>
                     <seg>most (so </seg>
                     <seg>it seemed)</seg>
+                    <note anchored="true">
+                        The rock climber's poise between traction and slippage, rendered bodily into the verse of this and the former line, emerges with special mastery in the scansion of "almost": a word that can take stress on either the first or second syllable when it has to but that here, extraordinarily, earns stress on both.  (You might ask yourself why Wordsworth departs from this athletic interlock into the smoothness of the line that comes next.)
+                    </note>
                 </l><l n="9" met="-+-+-+-+-+" real="-+-+-+-+-+">
                     <seg>Sus<sb/>pend</seg>
                     <seg>ed by </seg>
                     <seg>the blast </seg>
                     <seg>that blew </seg>
-                    <seg>a<sb/>main, </seg>
+                    <seg>a<sb/>main,</seg>
                 </l><l n="10" met="-+-+-+-+-+" real="+---+-++-++">
                     <seg>Shoul<sb/>der<sb/></seg>
                     <seg>ing the na<sb/></seg>
