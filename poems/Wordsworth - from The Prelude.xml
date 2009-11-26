@@ -58,7 +58,7 @@
                     <seg>inch fis<sb/></seg>
                     <seg>sures in </seg>
                     <seg>the slip<sb/></seg>
-                    <seg>er<sb/>y rock</seg>
+                    <seg>per<sb/>y rock</seg>
                 </l><l n="8" met="-+-+-+-+-+" real="-+-+-++--+">
                     <seg>But ill </seg>
                     <seg>sus<sb/>tained, </seg>
@@ -67,7 +67,7 @@
                     <seg>most (so </seg>
                     <seg>it seemed)</seg>
                     <note anchored="true">
-                        The rock climber's poise between traction and slippage, rendered bodily into the verse of this and the former line, emerges with special mastery in the scansion of "almost": a word that can take stress on either the first or second syllable when it has to but that here, extraordinarily, earns stress on both.  (You might ask yourself why Wordsworth departs from this athletic interlock into the smoothness of the line that comes next.)
+                        The rock climber's poise between traction and slippage gets rendered physically into the verse of this and the former line.  Wordsworth's body English emerges with special mastery in the scansion of "almost": a word that can take stress on either the first or second syllable when it has to, but that here, extraordinarily, earns stress on both.  It's a good question why Wordsworth departs from this athletic interlock into the smoothness of the line that comes next.
                     </note>
                 </l><l n="9" met="-+-+-+-+-+" real="-+-+-+-+-+">
                     <seg>Sus<sb/>pend</seg>
@@ -88,12 +88,23 @@
                     <seg>il<sb/>ous ridge </seg>
                     <seg>I hung </seg>
                     <seg>a<sb/>lone,</seg>
-                </l><l n="12" met="-+-+-+-+-+" real="-+++--+-+++">
+                </l><l n="12" met="-+-+-+-+-+" real="-+++----+++">
                     <seg>With what </seg>
                     <seg>strange ut<sb/></seg>
-                    <seg>ter<sb/>ance did </seg>
-                    <seg>the loud </seg>
+                    <seg>ter<sb/>ance </seg>
+                    <seg>did the loud </seg>
                     <seg>dry wind</seg>
+                    <note anchored="true"> Two words in defense of this admittedly odd scansion.
+                        Yes, that's a very long line of slacks between the two big three-stress
+                        clumps; but, six stresses being already a lot in a pentameter line, isn't
+                        the extreme irregularity exhilarating?  (Still, if you want you may stress
+                        "did," making it the end of an anapestic third foot, and making "the loud"
+                        an iambic fourth foot, although a software technicality prevents 4B4V from
+                        recognizing that pattern as correct.) Stress on "what" in the first foot may
+                        seem excessive, in view of the spondee on its heels; but stressing it brings
+                        out the genuinely wondering question that is stowed away syntactically
+                        within Wordsworth's exclamation: I know the wind was telling me something, but
+                        what? </note>
                 </l><l n="13" met="-+-+-+-+-+" real="+--+-+-+-+">
                     <seg>Blow through </seg>
                     <seg>my ear! </seg>
