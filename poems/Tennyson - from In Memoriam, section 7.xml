@@ -16,9 +16,9 @@
             <body>
                 <lg n="1" type="quatrain" met="-+(4/4/4/4)" rhyme="abba" org="uniform" sample="complete" part="N">
                     <l n="1" met="-+-+-+-+" real="++--++-+">
-                   <seg>Dark  house, </seg>
+                   <seg>Dark house, </seg>
                    <caesura/>
-                   <seg>by which, </seg>
+                   <seg>by which </seg>
                    <seg>once more </seg>
                    <seg>I <rhyme label="a">stand</rhyme></seg>
                     </l>
