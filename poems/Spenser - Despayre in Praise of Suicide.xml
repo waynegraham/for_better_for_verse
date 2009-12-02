@@ -22,7 +22,7 @@
                         <seg>ie wan<sb/></seg>
                         <seg>dring <rhyme label="a">way,</rhyme></seg>
                     </l>
-                    <l n="2" met="-+-+-+-+-+" real="-+-+-+-+-+" rend="indent(1)">
+                    <l n="2" met="-+-+-+-+-+" real="-++--+-+-+" rend="indent(1)">
                         <seg>To come </seg>
                         <seg>vn<sb/>to </seg>
                         <seg>his wish<sb/></seg>
@@ -44,7 +44,7 @@
                         <seg>him ou<sb/></seg>
                         <seg>er <rhyme label="b">past,</rhyme></seg>
                     </l>
-                    <l n="5" met="-+-+-+-+-+" real="-+-+-+-+++" rend="indent(1)">
+                    <l n="5" met="-+-+-+-+-+" real="-+-+-+-+++|-+-+---+++" rend="indent(1)">
                         <seg>Or free </seg>
                         <seg>his feet, </seg>
                         <caesura/>
@@ -67,7 +67,7 @@
                         <seg>thou <rhyme label="b">hast,</rhyme></seg>
                     </l>
                     <l n="8" met="-+-+-+-+-+" real="+--+-+-+-+" rend="indent(1)">
-                        <seg>Why will </seg>
+                        <seg>Why wilt </seg>
                         <seg>not let </seg>
                         <seg>him pass, </seg>
                         <seg>that long </seg>
@@ -150,6 +150,12 @@
                         <seg>ter life </seg>
                         <seg>does great<sb/></seg>
                         <seg>ly <rhyme label="c">please.</rhyme></seg>
+                    <note anchored="true"> Despayre's attempt to persuade the weary Redcrosse Knight
+                        to kill himself is based on a seductive analogy between death and
+                        repose, which receives cunning prosodic reinforcement in these last two
+                        lines. After the mainly regular iambic lines that come before, a pattern of steady
+                        trochaic substitutions now makes death sound, to the drowsy mind, just like
+                        sleep, and port, and ease. </note>
                     </l>
                 </lg>
             </body></text></TEI>
