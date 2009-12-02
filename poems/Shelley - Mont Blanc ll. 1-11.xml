@@ -2,25 +2,25 @@
 <!DOCTYPE TEI
   PUBLIC "-//TEI P5//DTD Main Document Type//EN" "http://sds3.itc.virginia.edu:8080/prosody/poems/tei_all.dtd">
 <TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" version="5.0"><teiHeader type="text"><fileDesc><titleStmt><title>Mont Blanc ll. 1-11</title><author>Percy Bysshe Shelley</author></titleStmt><publicationStmt><date>1817</date></publicationStmt><sourceDesc default="false"><p/></sourceDesc></fileDesc></teiHeader><text><body><lg met="-+(5)" rhyme="abcaadcdeeb" org="uniform" sample="complete" part="N"><l n="1" part="N" met="-+-+-+-+-+" real="-+-+-+-+-+">
-                    <seg met="-+" part="N">The ev<sb part="N"/></seg>
-                    <seg met="-+" part="N">er<sb part="N"/>last<sb part="N"/></seg>
-                    <seg met="-+" part="N">ing u<sb part="N"/></seg>
-                    <seg met="-+" part="N">ni<sb part="N"/>verse </seg>
-                    <seg met="-+" part="N">of <rhyme label="a">things</rhyme></seg>
+                    <seg>The ev<sb/></seg>
+                    <seg>er<sb/>last<sb/></seg>
+                    <seg>ing u<sb/></seg>
+                    <seg>ni<sb/>verse </seg>
+                    <seg>of <rhyme label="a">things</rhyme></seg>
                 </l><l n="2" part="N" met="-+-+-+-+-+" real="+--+-+-+-+">
-                    <seg met="-+" real="+-" part="N">Flows through </seg>
-                    <seg met="-+" part="N">the mind, </seg>
+                    <seg>Flows through </seg>
+                    <seg>the mind, </seg>
                     <caesura/>
-                    <seg met="-+" part="N">and rolls </seg>
-                    <seg met="-+" part="N">its rap<sb part="N"/></seg>
-                    <seg met="-+" part="N">id <rhyme label="b">waves,</rhyme></seg>
+                    <seg>and rolls </seg>
+                    <seg>its rap<sb part="N"/></seg>
+                    <seg>id <rhyme label="b">waves,</rhyme></seg>
                 </l><l n="3" part="N" met="-+-+-+-+-+" real="-+-+--+-+-+">
-                    <seg met="-+" part="N">Now dark--</seg>
+                    <seg>Now dark--</seg>
                     <caesura/>
-                    <seg met="-+" part="N">now glit<sb part="N"/></seg>
-                    <seg met="-+" real="--+" part="N">ter<sb part="N"/>ing--<caesura/>now </seg>
-                    <seg met="-+" part="N">re<sb part="N"/>flect<sb part="N"/></seg>
-                    <seg met="-+" part="N">ing <rhyme label="c">gloom--</rhyme></seg>
+                    <seg>now glit<sb/></seg>
+                    <seg>ter<sb part="N"/>ing--<caesura/>now </seg>
+                    <seg>re<sb/>flect<sb/></seg>
+                    <seg>ing <rhyme label="c">gloom--</rhyme></seg>
                 </l><l n="4" part="N" met="-+-+-+-+-+" real="-+-+-+-+-+">
                     <seg met="-+" part="N">Now lend<sb part="N"/></seg>
                     <seg met="-+" part="N">ing splen<sb part="N"/></seg>
