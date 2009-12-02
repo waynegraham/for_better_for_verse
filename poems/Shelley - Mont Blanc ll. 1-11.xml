@@ -15,10 +15,10 @@
                     <seg met="-+" part="N">its rap<sb part="N"/></seg>
                     <seg met="-+" part="N">id <rhyme label="b">waves,</rhyme></seg>
                 </l><l n="3" part="N" met="-+-+-+-+-+" real="-+-+--+-+-+">
-                    <seg met="-+" part="N">Now dark-- </seg>
+                    <seg met="-+" part="N">Now dark--</seg>
                     <caesura/>
                     <seg met="-+" part="N">now glit<sb part="N"/></seg>
-                    <seg met="-+" real="--+" part="N">ter<sb part="N"/>ing-- <caesura/>now </seg>
+                    <seg met="-+" real="--+" part="N">ter<sb part="N"/>ing--<caesura/>now </seg>
                     <seg met="-+" part="N">re<sb part="N"/>flect<sb part="N"/></seg>
                     <seg met="-+" part="N">ing <rhyme label="c">gloom--</rhyme></seg>
                 </l><l n="4" part="N" met="-+-+-+-+-+" real="-+-+-+-+-+">
@@ -35,7 +35,7 @@
                     <seg met="-+" part="N">ute <rhyme label="a">brings</rhyme></seg>
                 </l><l n="6" part="N" met="-+-+-+-+-+" real="-+-+-+-+-+">
                     <seg met="-+" part="N">Of wa<sb part="N"/></seg>
-                    <seg met="-+" part="N">ters,-- <caesura/>with </seg>
+                    <seg met="-+" part="N">ters,--<caesura/>with </seg>
                     <seg met="-+" part="N">a sound </seg>
                     <seg met="-+" part="N">but half </seg>
                     <seg met="-+" part="N">its <rhyme label="d">own,</rhyme></seg>
@@ -51,21 +51,21 @@
                     <caesura/>
                     <seg met="-+" part="N">a<sb part="N"/>mong </seg>
                     <seg met="-+" part="N">the moun<sb part="N"/></seg>
-                    <seg met="-+" part="N">tains <rhyme label="d">lone</rhyme>,</seg>
-                </l><l n="9" part="N" met="-+-+-+-+-+" real="-+-+-+-+-+^">
+                    <seg met="-+" part="N">tains <rhyme label="d">lone,</rhyme></seg>
+                </l><l n="9" part="N" met="-+-+-+-+-+" real="-+-+-+-+-+-">
                     <seg met="-+" part="N">Where wa<sb part="N"/></seg>
                     <seg met="-+" part="N">ter<sb part="N"/>falls </seg>
                     <seg met="-+" part="N">a<sb part="N"/>round </seg>
                     <seg met="-+" part="N">it leap </seg>
                     <seg met="-+" real="-+^" part="N">for <rhyme label="e">ev<sb part="N"/>er,</rhyme></seg>
-                </l><l n="10" part="N" met="-+-+-+-+-+" real="-+-+-+--++^">
+                </l><l n="10" part="N" met="-+-+-+-+-+" real="-+-+-+--++-">
                     <seg met="-+" part="N">Where woods </seg>
                     <seg met="-+" part="N">and winds </seg>
                     <seg met="-+" part="N">con<sb part="N"/>tend, </seg>
                     <seg met="-+" real="--" part="N">and a </seg>
                     <seg met="-+" real="++^" part="N">vast <rhyme label="e">riv<sb part="N"/>er</rhyme></seg>
                 </l><l n="11" part="N" met="-+-+-+-+-+" real="+--++--+-+">
-                    <seg met="-+" real="+-" part="N">o<sb part="N"/>ver </seg>
+                    <seg met="-+" real="+-" part="N">O<sb part="N"/>ver </seg>
                     <seg met="-+" part="N">its rocks </seg>
                     <seg met="-+" real="+-" part="N">cease<sb part="N"/>less<sb part="N"/></seg>
                     <seg met="-+" part="N">ly bursts </seg>
