@@ -18,56 +18,56 @@
                     <seg>Now dark--</seg>
                     <caesura/>
                     <seg>now glit<sb/></seg>
-                    <seg>ter<sb part="N"/>ing--<caesura/>now </seg>
+                    <seg>ter<sb/>ing--<caesura/>now </seg>
                     <seg>re<sb/>flect<sb/></seg>
                     <seg>ing <rhyme label="c">gloom--</rhyme></seg>
                 </l><l n="4" part="N" met="-+-+-+-+-+" real="-+-+-+-+-+">
-                    <seg met="-+" part="N">Now lend<sb part="N"/></seg>
-                    <seg met="-+" part="N">ing splen<sb part="N"/></seg>
-                    <seg met="-+" part="N">dour, <caesura/>where </seg>
-                    <seg met="-+" part="N">from se<sb part="N"/></seg>
-                    <seg met="-+" part="N">cret <rhyme label="a">springs</rhyme></seg>
+                    <seg>Now lend<sb part="N"/></seg>
+                    <seg>ing splen<sb part="N"/></seg>
+                    <seg>dour, <caesura/>where </seg>
+                    <seg>from se<sb part="N"/></seg>
+                    <seg>cret <rhyme label="a">springs</rhyme></seg>
                 </l><l n="5" part="N" met="-+-+-+-+-+" real="-+-+-+-+-+">
-                    <seg met="-+" part="N">The source </seg>
-                    <seg met="-+" part="N">of hu<sb part="N"/></seg>
-                    <seg met="-+" part="N">man thought </seg>
-                    <seg met="-+" part="N">its trib<sb part="N"/></seg>
-                    <seg met="-+" part="N">ute <rhyme label="a">brings</rhyme></seg>
+                    <seg>The source </seg>
+                    <seg>of hu<sb part="N"/></seg>
+                    <seg>man thought </seg>
+                    <seg>its trib<sb part="N"/></seg>
+                    <seg>ute <rhyme label="a">brings</rhyme></seg>
                 </l><l n="6" part="N" met="-+-+-+-+-+" real="-+-+-+-+-+">
-                    <seg met="-+" part="N">Of wa<sb part="N"/></seg>
-                    <seg met="-+" part="N">ters,--<caesura/>with </seg>
-                    <seg met="-+" part="N">a sound </seg>
-                    <seg met="-+" part="N">but half </seg>
-                    <seg met="-+" part="N">its <rhyme label="d">own,</rhyme></seg>
+                    <seg>Of wa<sb part="N"/></seg>
+                    <seg>ters,--<caesura/>with </seg>
+                    <seg>a sound </seg>
+                    <seg>but half </seg>
+                    <seg>its <rhyme label="d">own,</rhyme></seg>
                 </l><l n="7" part="N" met="-+-+-+-+-+" real="+--+-+-+-+">
-                    <seg met="-+" real="+-" part="N">Such as </seg>
-                    <seg met="-+" part="N">a fee<sb part="N"/></seg>
-                    <seg met="-+" part="N">ble brook </seg>
-                    <seg met="-+" part="N">will oft </seg>
-                    <seg met="-+" part="N">as<sb part="N"/><rhyme label="c">sume</rhyme></seg>
+                    <seg>Such as </seg>
+                    <seg>a fee<sb part="N"/></seg>
+                    <seg>ble brook </seg>
+                    <seg>will oft </seg>
+                    <seg>as<sb part="N"/><rhyme label="c">sume</rhyme></seg>
                 </l><l n="8" part="N" met="-+-+-+-+-+" real="--++-+-+-+">
-                    <seg met="-+" real="--" part="N">In the </seg>
-                    <seg met="-+" real="++" part="N">wild woods, </seg>
+                    <seg>In the </seg>
+                    <seg>wild woods, </seg>
                     <caesura/>
-                    <seg met="-+" part="N">a<sb part="N"/>mong </seg>
-                    <seg met="-+" part="N">the moun<sb part="N"/></seg>
-                    <seg met="-+" part="N">tains <rhyme label="d">lone,</rhyme></seg>
+                    <seg>a<sb part="N"/>mong </seg>
+                    <seg>the moun<sb part="N"/></seg>
+                    <seg>tains <rhyme label="d">lone,</rhyme></seg>
                 </l><l n="9" part="N" met="-+-+-+-+-+" real="-+-+-+-+-+-">
-                    <seg met="-+" part="N">Where wa<sb part="N"/></seg>
-                    <seg met="-+" part="N">ter<sb part="N"/>falls </seg>
-                    <seg met="-+" part="N">a<sb part="N"/>round </seg>
-                    <seg met="-+" part="N">it leap </seg>
-                    <seg met="-+" real="-+^" part="N">for <rhyme label="e">ev<sb part="N"/>er,</rhyme></seg>
+                    <seg>Where wa<sb part="N"/></seg>
+                    <seg>ter<sb part="N"/>falls </seg>
+                    <seg>a<sb part="N"/>round </seg>
+                    <seg>it leap </seg>
+                    <seg>for <rhyme label="e">ev<sb part="N"/>er,</rhyme></seg>
                 </l><l n="10" part="N" met="-+-+-+-+-+" real="-+-+-+--++-">
-                    <seg met="-+" part="N">Where woods </seg>
-                    <seg met="-+" part="N">and winds </seg>
-                    <seg met="-+" part="N">con<sb part="N"/>tend, </seg>
-                    <seg met="-+" real="--" part="N">and a </seg>
-                    <seg met="-+" real="++^" part="N">vast <rhyme label="e">riv<sb part="N"/>er</rhyme></seg>
+                    <seg>Where woods </seg>
+                    <seg>and winds </seg>
+                    <seg>con<sb part="N"/>tend, </seg>
+                    <seg>and a </seg>
+                    <seg>vast <rhyme label="e">riv<sb part="N"/>er</rhyme></seg>
                 </l><l n="11" part="N" met="-+-+-+-+-+" real="+--++--+-+">
-                    <seg met="-+" real="+-" part="N">O<sb part="N"/>ver </seg>
-                    <seg met="-+" part="N">its rocks </seg>
-                    <seg met="-+" real="+-" part="N">cease<sb part="N"/>less<sb part="N"/></seg>
-                    <seg met="-+" part="N">ly bursts </seg>
-                    <seg met="-+" part="N">and <rhyme label="b">raves.</rhyme></seg>
+                    <seg>O<sb part="N"/>ver </seg>
+                    <seg>its rocks </seg>
+                    <seg>cease<sb part="N"/>less<sb part="N"/></seg>
+                    <seg>ly bursts </seg>
+                    <seg>and <rhyme label="b">raves.</rhyme></seg>
                 </l></lg></body></text></TEI>
