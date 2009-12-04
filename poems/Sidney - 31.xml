@@ -8,13 +8,19 @@
     <title>Astrophel and Stella: 31</title><author>Sir Philip Sidney</author></titleStmt><publicationStmt><date>1591</date></publicationStmt><sourceDesc default="false"><p/></sourceDesc></fileDesc></teiHeader>
     <text><body>
         <lg met="-+(5/5/5/5/5/5/5/5/5/5/5/5/5/5)" rhyme="abbaabbacdcdee" org="uniform" sample="complete" part="N">
-            <l n="1" part="N" met="-+-+-+-+-+" real="-+++-+-+-+">
+            <l n="1" part="N" met="-+-+-+-+-+" real="-+++-+-+-+|-+++++-+-+">
                     <seg>With how </seg>
                     <seg>sad steps, </seg>
                     <seg>O Moone, </seg>
                     <seg>thou climb'st </seg>
                     <seg>the <rhyme label="a">skies,</rhyme></seg>
-                </l><l n="2" part="N" met="-+-+-+-+-+" real="-+-+--++-+">
+                    <note anchored="true"> It's not easy to stop putting heavy stresses on the
+                        syllables of this slow-paced line about slow paces. 4B4V leaves it up to you
+                        whether to ease up at "O" or to go all out and, by leaning into it, deal out
+                        a full flush of five consecutive stresses. When "O Moon" recurs in line 9
+                        after the volta, it's probably better to back off: by that point Astrophel
+                        is no longer hailing the moon from a distance but speaking more confidentially. </note>
+                </l><l n="2" part="N" met="-+-+-+-+-+" real="++-+--++-+|++----++-+">
                     <seg>How si<sb part="N"/></seg>
                     <seg>lent<sb part="N"/>ly, </seg>
                     <caesura/>
@@ -39,16 +45,17 @@
                     <seg>with Love </seg>
                     <seg>ac<sb part="N"/>quaint<sb part="N"/></seg>
                     <seg>ed <rhyme label="a">eyes</rhyme></seg>
-                </l><l n="6" part="N" met="-+-+-+-+-+" real="-+-+-+-+-+">
+                </l><l n="6" part="N" met="-+-+-+-+-+" real="-+-+++-+-+">
                     <seg>Can judge </seg>
                     <seg>of Love, </seg>
                     <caesura/>
                     <seg>thou feel'st </seg>
                     <seg>a Lov<sb part="N"/></seg>
                     <seg>er's <rhyme label="b">case;</rhyme></seg>
-                    <note anchored="true">
-                        Hey, this one's completely regular!
-                    </note>
+                    <note anchored="true"> There's nothing wrong with a completely regular scansion
+                        of this line. 4B4V prefers, without insisting on, the dramatic accost that
+                        comes with stressing "thou": Other people might not get it, but surely YOU,
+                        O Moon, YOU know what I'm talking about. </note>
                 </l><l n="7" part="N" met="-+-+-+-+-+" real="-+-+-+-+-+">
                     <seg>I reade </seg>
                     <seg>it in </seg>
@@ -63,14 +70,14 @@
                     <caesura/>
                     <seg>thy state </seg>
                     <seg>de<sb part="N"/><rhyme label="a">scries.</rhyme></seg>
-                </l><l n="9" part="N" met="-+-+-+-+-+" real="-+-+-+-+++">
+                </l><l n="9" part="N" met="-+-+-+-+-+" real="-+-+---+++|-+-+-+-+++">
                     <seg>Then ev'n </seg>
                     <seg>of fel</seg>
                     <seg>low<sb part="N"/>ship, </seg>
                     <seg>O Moone, </seg>
                     <caesura/>
                     <seg met="-+" real="++" part="N">tell <rhyme label="c">me</rhyme></seg>
-                </l><l n="10" part="N" met="-+-+-+-+-+" real="-+-+-+-+-+">
+                </l><l n="10" part="N" met="-+-+-+-+-+" real="-+-+++-+-+">
                     <seg>Is con<sb part="N"/></seg>
                     <seg>stant Love </seg>
                     <seg>deem'd there </seg>
@@ -82,7 +89,7 @@
                     <seg>as proud </seg>
                     <seg>as here </seg>
                     <seg>they <rhyme label="c">be?</rhyme></seg>
-                </l><l n="12" part="N" met="-+-+-+-+-+" real="-+-+-+-+-+">
+                </l><l n="12" part="N" met="-+-+-+-+-+" real="-+-++--+-+">
                     <seg>Do they </seg>
                     <seg>a<sb part="N"/>bove </seg>
                     <seg>love to </seg>
