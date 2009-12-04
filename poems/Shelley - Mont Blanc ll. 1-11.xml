@@ -21,6 +21,11 @@
                     <seg>ter<sb/>ing--<caesura/>now </seg>
                     <seg>re<sb/>flect<sb/></seg>
                     <seg>ing <rhyme label="c">gloom--</rhyme></seg>
+                    <note anchored="true"> The word "now" occurs three times in this line, and again
+                        at the head of the next. You might stress it each time, and not just the once
+                        it acquires stress from the underlying iambic meter. But doing so would
+                        slow up with increasingly tired spondees a passage whose great wealth of
+                        sound is borne on a swiftness of motion that mimics the watercourse it describes.</note>
                 </l><l n="4" part="N" met="-+-+-+-+-+" real="-+-+-+-+-+">
                     <seg>Now lend<sb part="N"/></seg>
                     <seg>ing splen<sb part="N"/></seg>
@@ -70,4 +75,11 @@
                     <seg>cease<sb part="N"/>less<sb part="N"/></seg>
                     <seg>ly bursts </seg>
                     <seg>and <rhyme label="b">raves.</rhyme></seg>
+                    <note anchored="true"> This line, as splashy as anything in English poetry, gets
+                        terrific mileage out of just two trochaic substitutions. Among Shelley's
+                        secrets are the comparatively tame rhythm of the foregoing lines, the
+                        toboganning double bump he gets by spacing his trochees out with an iambic
+                        foot in between, and the reinforcement effected by all the slippage of s and
+                        v sounds in stressed positions, where they deflect the stream of a reader's
+                        breath yet make it feel unstoppable. </note>
                 </l></lg></body></text></TEI>
