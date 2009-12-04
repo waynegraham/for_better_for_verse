@@ -10,7 +10,7 @@
         <lg met="-+(5/5/5/5/5/5/5/5/5/5/5/5/5/5)" rhyme="abbaabbacdcdee" org="uniform" sample="complete" part="N">
             <l n="1" part="N" met="-+-+-+-+-+" real="-+++-+-+-+|-+++++-+-+">
                     <seg>With how </seg>
-                    <seg>sad steps, </seg>
+                    <seg met="-+" real="++" part="N">sad steps, </seg>
                     <seg>O Moone, </seg>
                     <seg>thou climb'st </seg>
                     <seg>the <rhyme label="a">skies,</rhyme></seg>
