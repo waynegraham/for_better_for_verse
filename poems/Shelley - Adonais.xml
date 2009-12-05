@@ -32,8 +32,8 @@
                     <l n="3" met="-+-+-+-+-+" real="-+-+-+--+-+" rend="indent(1)">
                         <seg>That Ben<sb/></seg>
                         <seg>e<sb/>dic<sb/></seg>
-                        <seg>tion which the </seg>
-                        <seg>e<sb/>clips<sb/></seg>
+                        <seg>tion which </seg>
+                        <seg>the e<sb/>clips<sb/></seg>
                         <seg>ing <rhyme label="a">curse</rhyme></seg>
                     </l>
                     <l n="4" met="-+-+-+-+-+" real="-+-++--+-+" rend="indent(1)">
@@ -57,21 +57,25 @@
                         <seg>and air </seg>
                         <seg>and <rhyme label="c">sea,</rhyme></seg>
                     </l>
-                    <l n="7" met="-+-+-+-+-+" real="-+-+-+-+-+" rend="indent(1)">
+                    <l n="7" met="-+-+-+-+-+" real="++-+-+-+-+" rend="indent(1)">
                         <seg>Burns bright </seg>
                         <seg>or dim </seg>
                         <seg>as each </seg>
                         <seg>are mir<sb/></seg>
                         <seg>rors <rhyme label="b">of</rhyme></seg>
                     </l>
-                    <l n="8" met="-+-+-+-+-+" real="-+--+++-+-+" rend="indent(1)">
+                    <l n="8" met="-+-+-+-+-+" real="-+--+++++-+|-+--+++-+-+" rend="indent(1)">
                         <seg>The fi<sb/></seg>
                         <seg>re for which </seg>
                         <seg>all thirst; </seg>
                         <caesura/>
                         <seg>now beams </seg>
                         <seg>on <rhyme label="c">me,</rhyme></seg>
-                        <note>A great moment, where the stanza's accumulated syntax, and the straight iambs that have run from line four like a power loom (enacting rhythmically the image of love woven throughout the creation), mount to a climactic caesura that thrusts the poet into the limelight, or laser beam, that ignites this poem's next, and last, stanza.</note>
+                    <note anchored="true">A great moment, where the stanza's accumulated syntax, and the steady
+                        iambs that have run since line four like a power loom (weaving Shelleyan
+                        love woven throughout the creation), mount to the climactic caesura here.  It
+                        thrusts the poet himself into the limelight, or laser beam, that is about to ignite
+                        his long poem's amazing final stanza.</note>
                     </l>
                     <l n="9" met="-+-+-+-+-+-+" real="-+--++-+-+-+">
                         <seg>Con<sb/>sum<sb/></seg>
@@ -105,6 +109,9 @@
                         <seg>far from </seg>
                         <seg>the trem<sb/></seg>
                         <seg>bl<sb/>ing <rhyme label="a">throng</rhyme></seg>
+                    <note anchored="true"> Maybe Shelley wrote "trembling" as a disyllable, but 4B4V
+                        doubts it. The whole line is a-tremble with holy awe, and a trisyllabic
+                        "trembling" gives the line its third shiver of consecutive slacks.</note>
                     </l>
                     <l n="13" met="-+-+-+-+-+" real="-+-+-+-+-+(-)" rend="indent(1)">
                         <seg>Whose sails </seg>
@@ -120,7 +127,7 @@
                         <seg>ed skies </seg>
                         <seg>are riv<sb/><rhyme label="b">en!</rhyme></seg>
                     </l>
-                    <l n="15" met="-+-+-+-+-+" real="+-++-+---+" rend="indent(1)">
+                    <l n="15" met="-+-+-+-+-+" real="+-++-+---+|--++-+-+-+" rend="indent(1)">
                         <seg>I am </seg>
                         <seg>borne dark<sb/></seg>
                         <seg>ly fear<sb/></seg>
@@ -139,8 +146,7 @@
                         <seg>of A<sb/></seg>
                         <seg>do<sb/>na<sb/></seg>
                         <seg>is, <caesura/>like </seg>
-                        <seg>a <rhyme label="c">star,</rhyme></seg>
-                        <note>The Spenserian stanza, for all the rigidity of its rhyme scheme, is a surprisingly flexible instrument.  Compare the adrenalin rush Shelley gets out of the form with its inventor Spenser's much gentler, narcotic manner elsewhere in this tutorial.</note>
+                        <seg>a <rhyme label="c">star,</rhyme></seg>                    
                     </l>
                     <l n="18" met="-+-+-+-+-+-+" real="+-+--++--+-+">
                         <seg>Bea<sb/>cons </seg>
@@ -149,6 +155,10 @@
                         <seg>where the </seg>
                         <seg>E<sb/>ter<sb/></seg>
                         <seg>nal <rhyme label="c">are.</rhyme></seg>
+                    <note anchored="true">The Spenserian stanza, for all the rigidity of its rhyme
+                        scheme, proves a surprisingly flexible instrument. Compare the adrenalin rush
+                        Shelley gets out of the form with its inventor Spenser's much gentler,
+                        narcotic manner elsewhere in this tutorial ("Despayre in Praise of Suicide").</note>
                     </l>
                 </lg>
             </body></text></TEI>

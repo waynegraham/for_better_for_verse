@@ -28,7 +28,7 @@
                         <seg>tween <rhyme label="b">them;</rhyme></seg>
                     </l>
                     <l n="3" met="+-+-+-+-" real="+-+-+-+-">
-                        <seg>And they </seg>
+                        <seg>And thy </seg>
                         <seg>smiles be<sb/></seg>
                         <seg>fore they </seg>
                         <seg>dwin<sb/><rhyme label="a">dle</rhyme></seg>
@@ -38,7 +38,15 @@
                         <seg>cold air </seg>
                         <seg>fire; <caesura/>then </seg>
                         <seg>screen <rhyme label="b">them</rhyme></seg>
-                        <note>Trochaic meters are not very common in the English tradition, and something of a stunt when pulled off.  The meter feels more insistently driven than its iambic opposite, and thus is suited here to the erotic drive of Shelley's love anthem.  This means that when the trochees are successfully resisted, as with the spondee that flames up in this line, the effect is more noteworthy than it would be in iambics.  Look for something of the same kind in the second line of stanza 4: use of rhythmic deceleration to spotlight an image.</note>
+                    <note>Trochaic meters are not very common in the English tradition, and
+                        something of a stunt when pulled off as here. The meter feels more
+                        insistently driven than its iambic opposite, and thus is suited  to the
+                        erotic drive of Shelley's love anthem, which comes at a climax in his
+                        visionary drama Prometheus Unbound. This means that when the trochees are
+                        successfully resisted, as with the spondee that flames up in this line, the
+                        effect is more noteworthy than it would be in iambics. Look for something of
+                        the same kind in the second line of stanza 4: use of rhythmic deceleration
+                        to hold an image in the spotlight.</note>
                     </l>
                     <l n="5" met="+-+-+-+-" real="+-+-+-+-">
                         <seg>In those </seg>
@@ -61,7 +69,7 @@
                         <seg>burn<sb/><rhyme label="a">ing</rhyme></seg>
                     </l>
                     <l n="8" met="+-+-+-+-" real="+-+-+-+-" rend="indent(1)">
-                        <seg>Th'ro the </seg>
+                        <seg>Thro' the </seg>
                         <seg>vest which </seg>
                         <seg>seems to </seg>
                         <seg>hide <rhyme label="b">them;</rhyme></seg>
@@ -71,6 +79,13 @@
                         <seg>ra<sb/>di<sb/>ant </seg>
                         <seg>lines of </seg>
                         <seg>morn<sb/><rhyme label="a">ing</rhyme></seg>
+                    <note anchored="true"> "Radiant" may be elided, to be sure, into a disyllable
+                        (thus making a regular trochee). Yet letting the middle syllable ripple the
+                        line out in dactylic substitution heightens the sense of a resistance
+                        overcome within the medium, whether clouds or clothes, through which
+                        Shelley's hot stuff burns. Not x-rated, exactly, but a sort of x-ray vision
+                        all the same. Decades before radiography was discovered, Shelley was a
+                        student of radiation already. </note>
                     </l>
                     <l n="10" met="+-+-+-+-" real="+-++--+-" rend="indent(1)">
                         <seg>Thro' the </seg>

@@ -14,13 +14,13 @@
                     <seg>O Moone, </seg>
                     <seg>thou climb'st </seg>
                     <seg>the <rhyme label="a">skies,</rhyme></seg>
-                    <note anchored="true"> It's not easy to stop putting heavy stresses on the
-                        syllables of this slow-paced line about slow paces. 4B4V leaves it up to you
-                        whether to ease up at "O" or to go all out and, by leaning into it, deal out
-                        a full flush of five consecutive stresses. When "O Moon" recurs in line 9
-                        after the volta, it's probably better to back off: by that point Astrophel
-                        is no longer hailing the moon from a distance but speaking more confidentially. </note>
-                </l><l n="2" part="N" met="-+-+-+-+-+" real="++-+--++-+|++----++-+">
+                    <note anchored="true"> It's hard to stop putting heavy stresses on the syllables
+                        of this slow-paced line about slow paces. 4B4V leaves it up to you whether
+                        to ease up at "O" or to go all the way and, leaning into it, deal out a
+                        straight flush of five consecutive stresses. When "O Moone" recurs in line
+                        9, though, it's probably better to back off: by that point Astrophel is no
+                        longer hailing the moon from afar but speaking quite confidentially. </note>
+                </l><l n="2" part="N" met="-+-+-+-+-+" real="-+-+--++-+|++----++-+">
                     <seg>How si<sb part="N"/></seg>
                     <seg>lent<sb part="N"/>ly, </seg>
                     <caesura/>
@@ -53,7 +53,7 @@
                     <seg>a Lov<sb part="N"/></seg>
                     <seg>er's <rhyme label="b">case;</rhyme></seg>
                     <note anchored="true"> There's nothing wrong with a completely regular scansion
-                        of this line. 4B4V prefers, without insisting on, the dramatic accost that
+                        of this line. 4B4V prefers, nevertheless, the dramatic accost that
                         comes with stressing "thou": Other people might not get it, but surely YOU,
                         O Moon, YOU know what I'm talking about. </note>
                 </l><l n="7" part="N" met="-+-+-+-+-+" real="-+-+-+-+-+">
