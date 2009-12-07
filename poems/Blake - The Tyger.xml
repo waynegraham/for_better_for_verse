@@ -20,18 +20,31 @@
                         <seg>ger! ty<sb/></seg>
                         <seg>ger! burn<sb/></seg>
                         <seg>ing <rhyme label="a">bright</rhyme></seg>
-                        <note anchored="true">
-                            This line, like the majority of those that follow it, exemplifies a metrical ambiguity that comes with the territory of folk (-based) poetry in English.  Seven syllables of militantly alternating stress and slack add up without question to tetrameter.  But are the feet iambs or trochees?  Or in other (Glossary-defined) words, while the line is obviously catalectic, is it an acephalous line or a case of terminal truncation?  4B4V reflects a prosodic consensus (not unanimity!) in favoring iambic scansion for such a line, on the principle that meters in English verse tend to rising (stress-ended) feet.  Join this consensus and by the time you reach line 4 you'll be glad you did.
-                        </note>
+                    <note anchored="true"> This line, like the majority of those that follow it,
+                        exemplifies a metrical ambiguity that comes with the territory of folk
+                        (-based) poetry in English. Seven syllables of militantly alternating stress
+                        and slack add up without question to tetrameter. But are the feet iambs or
+                        trochees? Or in other words, for which you may want to consult the Glossary:
+                        while the line is obviously catalectic, is it an acephalous line or a case
+                        of terminal truncation?  4B4V reflects a prosodic consensus (not unanimity!)
+                        in favoring iambic scansion for such a line, on the principle that meters in
+                        English verse tend to rising (stress-ended) feet. Join this consensus and by
+                        the time you reach line 4 you'll be glad you did. </note>
                     </l>
                     <l n="2" met="-+-+-+-+" real="+-+-+-+">
                         <seg>In </seg>
                         <seg>the for<sb/></seg>
                         <seg>ests of </seg>
                         <seg>the <rhyme label="a">night,</rhyme></seg>
-                        <note anchored="true">
-                            Why not a nice, balladic trimeter here comprising an anapest, an iamb, and an iamb?  Because, as the poem taken whole will show, the four-line stanzas are tetrameter quatrains and not ballad stanzas.  Line 2 and several others that follow put stress on initial prepositions or conjunctions that would ordinarily lie slack.  This phenomenon is a lot easier to handle and scan once you have read the whole poem out, and out loud.  Doing so will put you in close quarters with the obsessiveness of its frenzied speaker, whose insatiable appetite for moral thrills overrides pronunciational business as usual.
-                        </note>
+                    <note anchored="true"> Why not a nice, balladic trimeter here comprising an
+                        anapest, an iamb, and an iamb? Because, as the poem taken whole will show,
+                        the four-line stanzas are tetrameter quatrains and not ballad stanzas. Line
+                        2 and several others that follow put stress on initial prepositions or
+                        conjunctions that would ordinarily lie slack. This phenomenon is a lot
+                        easier to handle and scan once you have read the whole poem out, and out
+                        loud. Doing so will put you in close quarters with the obsessiveness of its
+                        frenzied speaker, whose insatiable appetite for moral thrills overrides
+                        pronunciational business as usual. </note>
                     </l>
                     <l n="3" met="-+-+-+-+" real="+-+-+-+">
                         <seg>What </seg>
