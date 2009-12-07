@@ -1,38 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE TEI
   PUBLIC "-//TEI P5//DTD Main Document Type//EN" "http://sds3.itc.virginia.edu:8080/prosody/poems/tei_all.dtd">
-<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" version="5.0"><teiHeader type="text"><fileDesc><titleStmt><title>Heaven-Haven: A Nun Takes the Veil</title><author>Gerard Manley Hopkins</author></titleStmt><publicationStmt><p/></publicationStmt><sourceDesc default="false"><p/></sourceDesc></fileDesc></teiHeader><text><body><lg n="1" type="stanza" met="-+(3/2/5/3)" rhyme="abba" org="uniform" sample="complete" part="N"><space/><l n="1" part="N" met="-+-+-+" real="+--+-+">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" version="5.0">
+    <teiHeader type="text">
+        <fileDesc>
+            <titleStmt>
+                <title>Heaven-Haven: A Nun Takes the Veil</title>
+                <author>Gerard Manley Hopkins</author>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc default="false">
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader><text><body>
+        <lg n="1" type="stanza" met="-+(3/2/5/3)" rhyme="abba" org="uniform" sample="complete" part="N"><space/>
+        <l n="1" part="N" met="-+-+-+" real="+--+--+">
                     <seg met="-+" real="+-" part="N">I have </seg>
-                    <seg met="-+" part="N">de<sb part="N"/>sired </seg>
-                    <seg met="-+" part="N">to <rhyme label="a">go</rhyme></seg>
-                </l><space/><space/><l n="2" part="N" met="-+-+" real="-+++">
+                    <seg met="-+" part="N">de<sb part="N"/>si</seg>
+                    <seg met="-+" real="--+" part="N">red to <rhyme label="a">go</rhyme></seg>
+        </l><space/><space/>
+        <l n="2" part="N" met="-+-+" real="-+++">
                     <seg met="-+" part="N">Where springs </seg>
-                    <seg met="-+" real="++" part="N">not <rhyme label="b">fail</rhyme>,</seg>
-                </l><l n="3" part="N" met="-+-+-+-+-+" real="-+-+-+-+-+">
+                    <seg met="-+" real="++" part="N">not <rhyme label="b">fail,</rhyme></seg>
+        </l>
+        <l n="3" part="N" met="-+-+-+-+-+" real="-+-+-+-+-+">
                     <seg met="-+" part="N">To fields </seg>
                     <seg met="-+" part="N">where flies </seg>
                     <seg met="-+" part="N">no sharp </seg>
                     <seg met="-+" part="N">and sid<sb part="N"/></seg>
                     <seg met="-+" part="N">ed <rhyme label="b">hail</rhyme></seg>
-                </l><space/><l n="4" part="N" met="-+-+-+" real="--++-+">
+        </l><space/>
+        <l n="4" part="N" met="-+-+-+" real="--++-+">
                     <seg met="-+" real="--" part="N">And a </seg>
                     <seg met="-+" real="++" part="N">few lil<sb part="N"/></seg>
-                    <seg met="-+" part="N">ies <rhyme label="a">blow</rhyme>.</seg>
-                </l></lg><lg n="2" type="stanza" met="-+(3/2/5/3)" rhyme="cddc" org="uniform" sample="complete" part="N"><space/><l n="5" part="N" met="-+-+-+" real="-+-+-+">
+                    <seg met="-+" part="N">ies <rhyme label="a">blow.</rhyme></seg>
+        </l></lg>
+        <lg n="2" type="stanza" met="-+(3/2/5/3)" rhyme="cddc" org="uniform" sample="complete" part="N"><space/>
+            <l n="5" part="N" met="-+-+-+" real="-+-+-+">
                     <seg met="-+" part="N">And I </seg>
                     <seg met="-+" part="N">have asked </seg>
                     <seg met="-+" part="N">to <rhyme label="c">be</rhyme></seg>
-                </l><space/><space/><l n="6" part="N" met="-+-+" real="-+++">
+            </l><space/><space/>
+         <l n="6" part="N" met="-+-+" real="-+++">
                     <seg met="-+" part="N">Where no </seg>
-                    <seg met="-+" real="++" part="N">storms <rhyme label="d">come</rhyme>,</seg>
-                </l><l n="7" part="N" met="-+-+-+-+-+" real="--++-+-+-+">
+                    <seg met="-+" real="++" part="N">storms <rhyme label="d">come,</rhyme></seg>
+         </l>
+         <l n="7" part="N" met="-+-+-+-+-+" real="--++-+-+-+">
                     <seg met="-+" real="--" part="N">Where the </seg>
                     <seg met="-+" real="++" part="N">green swell </seg>
                     <seg met="-+" part="N">is in </seg>
                     <seg met="-+" part="N">the ha<sb part="N"/></seg>
-                    <seg met="-+" part="N">vens <rhyme label="d">dumb</rhyme>,</seg>
-                </l><space/><l n="8" part="N" met="-+-+-+" real="-+--+--+">
+                    <seg met="-+" part="N">vens <rhyme label="d">dumb,</rhyme></seg>
+         </l><space/>
+         <l n="8" part="N" met="-+-+-+" real="-+--+--+">
                     <seg met="-+" part="N">And out </seg>
                     <seg met="-+" real="--+" part="N">of the swing </seg>
-                    <seg met="-+" real="--+" part="N">of the <rhyme label="c">sea</rhyme>.</seg>
+                    <seg met="-+" real="--+" part="N">of the <rhyme label="c">sea.</rhyme></seg>
                 </l></lg></body></text></TEI>
