@@ -24,15 +24,17 @@
                     <caesura/>
                     <seg met="-+" part="N">and twelve </seg>
                     <seg met="-+" real="--+" part="N">of the <rhyme label="a">clock.</rhyme></seg>
-                <note anchored="true"> The stressing of this line is pretty straightforward, but a
-                    question may arise how to divide it into feet. It might seem simplest to make
-                    three trochees followed by an iamb, yet this choice would be misleading, since
-                    later lines will establish the meter of the whole poem as iambic. Better
-                    acknowledge that rising rhythm from the very start, even at the initial
-                    inconvenience of postulating the catalexis of a one-syllable first foot.
-                    First-position trochees will be frequent in the coming lines, and at times even
-                    poignant in their underdog resistance to the iambic norm and what Hardy makes it
-                    stand for.  That's another reason for not letting them run rampant here. </note>
+                    <note anchored="true"> The stressing of this line is pretty straightforward, but
+                        it's not so clear how to divide up the feet. Given eight syllables, it might
+                        seem simplest to make three trochees followed by an iamb. This initially
+                        appealing choice, though, would be misleading, since later lines firmly
+                        establish the meter of the whole poem as iambic. Better acknowledge that
+                        rising rhythm from the very start, even at the inconvenient expense of
+                        catalexis, i.e. of a one-syllable first foot. Don't feel too bad about the
+                        missed trochaic opportunity here. First-position trochees will be frequent
+                        in the coming lines, at times even poignant in their underdog resistance
+                        to the iambic norm and what Hardy makes it stand for. That's another reason
+                        for not letting them run rampant here. </note>
                 </l>
              <l n="2" part="N" met="-+-+-+" real="+--+--+">
                     <seg met="-+" real="^+" part="N">"Now they </seg>
@@ -87,7 +89,7 @@
                 <note anchored="real"> The first three words of this line furnish a nice example
                         of how colloquial speech pattern trumps the prosodic rules of thumb. The
                         rules say that "years," a monosyllabic noun, should take stress, while the
-                        common adjective "these" should not.  But not this time.</note></l>
+                        common adjective "these" should not.  But not this time -- not if you're listening for the speaking voice.</note></l>
                 <l n="11" part="N" met="-+-+-+-+" real="-+-+-+-+">
                     <seg met="-+" part="N">If some<sb part="N"/></seg>
                     <seg met="-+" part="N">one said </seg>
@@ -98,12 +100,13 @@
                     "<seg met="-+" real="+-" part="N">"Come; <caesura/>see </seg>
                     <seg met="-+" part="N">the ox<sb part="N"/></seg>
                     <seg met="-+" part="N">en <rhyme label="f">kneel</rhyme></seg>            
-                <note anchored="true"> This homely line grows beautiful through the slightest of
-                    rhythmic departures from the iambics that have entirely governed stanza 3. A
-                    trochaic first foot lets this line skip back prosodically to resume the relaxed
-                    pattern of double-slacks that was so frequent in stanzas 1 and 2, back when
-                    belief came easy too. Hardy makes the poem do some complicated remembering, way
-                    down in its personal and cultural bones. </note></l>
+                    <note anchored="true"> This homely line grows beautiful through the slightest of
+                        rhythmic departures from the metrical norm. Iambics have totally governed
+                        stanza 3 to this point. But now a trochaic first foot lets this line skip
+                        back prosodically to resume the relaxed pattern of double-slacks that was so
+                        frequent in stanzas 1 and 2, which associate that pattern with good old days
+                        when belief came easy too. Hardy's complicated poetic act of personal
+                        remembering reaches deep down into the cultural bones. </note></l>
         </lg>
         <lg n="4" type="quatrain" met="-+(4/3/4/3)" rhyme="ghgh" org="uniform" sample="complete" part="N">
                 <l n="13" part="N" met="-+-+-+-+" real="--+-+--+-+">
@@ -120,12 +123,16 @@
                     <seg met="-+" part="N">go with </seg>
                     <seg met="-+" part="N">him in </seg>
                     <seg met="-+" part="N">the <rhyme label="g">gloom,</rhyme></seg>                
-                <note anchored="true"> The exquisite ambivalence that Hardy expresses here about the
-                    lost faith of his childhood opens several valid options for scanning this line.
-                    4B4V permits a trochee in the first foot and even the second.  But doesn't the
-                    whole finale read better if that stumbling effect is reserved for the line to
-                    come? Let line 15 be strictly iambic like line 14, figuring the willing trance, or
-                    suspension of disbelief, from which line 16 then awakens into mere but honest hope. </note>
+                    <note anchored="true"> The exquisite ambivalence that Hardy expresses about the
+                        lost faith of his childhood opens several valid options for scanning this
+                        line. 4B4V permits a trochee in the first foot and even the second: use
+                        them, and you get a rewarding sense of tentative mystery. Still, doesn't the
+                        poem as a whole read better if that stumbling effect is reserved for the
+                        line to come? If you let line 15 be strictly iambic like line 14, those two
+                        lines render the willed entrancement, the conscious suspension of disbelief,
+                        from which line 16 then awakens into mere but honest hopefulness. What matters most
+                        about line 15 the prosodically communicated sense of multiple possibility.
+                    </note>
                 </l>
             <space/><l n="16" part="N" met="-+-+-+" real="+--+-+">
                     <seg met="-+" real="+-" part="N">Hop<sb part="N"/>ing </seg>

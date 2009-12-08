@@ -25,6 +25,14 @@
         <l n="2" part="N" met="-+-+" real="-+++">
                     <seg met="-+" part="N">Where springs </seg>
                     <seg met="-+" real="++" part="N">not <rhyme label="b">fail,</rhyme></seg>
+                    <note anchored="true"> The strangest thing about this line is not prosodic but
+                        syntactic. What is it saying? Or, a bit more technically, what is its syntax
+                        of subject, verb, and object? Presumably "not" means "do not"; but then why
+                        not say that? Hopkins' broken English creates a chance to run the expected
+                        syntax in reverse, reading "springs" as a verb and "fail" as its subject --
+                        as if the desired place where springs don't fail is where failure doesn't
+                        wait in ambush to pounce on you either. A reader honoring this oddity will
+                        probably slow down and take the second foot as a spondee. </note>
         </l>
         <l n="3" part="N" met="-+-+-+-+-+" real="-+-+-+-+-+">
                     <seg met="-+" part="N">To fields </seg>
