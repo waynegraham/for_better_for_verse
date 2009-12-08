@@ -24,7 +24,6 @@
                     <caesura/>
                     <seg met="-+" part="N">and twelve </seg>
                     <seg met="-+" real="--+" part="N">of the <rhyme label="a">clock.</rhyme></seg>
-                </l>
                 <note anchored="true"> The stressing of this line is pretty straightforward, but a
                     question may arise how to divide it into feet. It might seem simplest to make
                     three trochees followed by an iamb, yet this choice would be misleading, since
@@ -34,7 +33,8 @@
                     First-position trochees will be frequent in the coming lines, and at times even
                     poignant in their underdog resistance to the iambic norm and what Hardy makes it
                     stand for.  That's another reason for not letting them run rampant here. </note>
-                <l n="2" part="N" met="-+-+-+" real="+--+--+">
+                </l>
+             <l n="2" part="N" met="-+-+-+" real="+--+--+">
                     <seg met="-+" real="^+" part="N">"Now they </seg>
                     <seg met="-+" real="--+" part="N">are all </seg>
                     <seg met="-+" real="--+" part="N">on their <rhyme label="b">knees,"</rhyme></seg>
@@ -83,11 +83,12 @@
                     <seg met="-+" part="N">In these </seg>
                     <seg met="-+" part="N">years! <caesura/> Yet, </seg>
                     <seg met="-+" part="N">I <rhyme label="f">feel,</rhyme></seg>
-                    <note anchored="real"> The first three words of this line furnish a nice example
+                
+                <note anchored="real"> The first three words of this line furnish a nice example
                         of how colloquial speech pattern trumps the prosodic rules of thumb. The
                         rules say that "years," a monosyllabic noun, should take stress, while the
-                        common adjective "these" should not.  But not this time.</note>
-                </l><l n="11" part="N" met="-+-+-+-+" real="-+-+-+-+">
+                        common adjective "these" should not.  But not this time.</note></l>
+                <l n="11" part="N" met="-+-+-+-+" real="-+-+-+-+">
                     <seg met="-+" part="N">If some<sb part="N"/></seg>
                     <seg met="-+" part="N">one said </seg>
                     <seg met="-+" part="N">on Christ<sb part="N"/></seg>
@@ -96,14 +97,13 @@
             <l n="12" part="N" met="-+-+-+" real="+--+-+">
                     "<seg met="-+" real="+-" part="N">"Come; <caesura/>see </seg>
                     <seg met="-+" part="N">the ox<sb part="N"/></seg>
-                    <seg met="-+" part="N">en <rhyme label="f">kneel</rhyme></seg>
-                </l>
+                    <seg met="-+" part="N">en <rhyme label="f">kneel</rhyme></seg>            
                 <note anchored="true"> This homely line grows beautiful through the slightest of
                     rhythmic departures from the iambics that have entirely governed stanza 3. A
                     trochaic first foot lets this line skip back prosodically to resume the relaxed
                     pattern of double-slacks that was so frequent in stanzas 1 and 2, back when
                     belief came easy too. Hardy makes the poem do some complicated remembering, way
-                    down in its personal and cultural bones. </note>
+                    down in its personal and cultural bones. </note></l>
         </lg>
         <lg n="4" type="quatrain" met="-+(4/3/4/3)" rhyme="ghgh" org="uniform" sample="complete" part="N">
                 <l n="13" part="N" met="-+-+-+-+" real="--+-+--+-+">
@@ -119,14 +119,14 @@
                     <seg met="-+" part="N">I should </seg>
                     <seg met="-+" part="N">go with </seg>
                     <seg met="-+" part="N">him in </seg>
-                    <seg met="-+" part="N">the <rhyme label="g">gloom,</rhyme></seg>
-                </l>
+                    <seg met="-+" part="N">the <rhyme label="g">gloom,</rhyme></seg>                
                 <note anchored="true"> The exquisite ambivalence that Hardy expresses here about the
                     lost faith of his childhood opens several valid options for scanning this line.
                     4B4V permits a trochee in the first foot and even the second.  But doesn't the
                     whole finale read better if that stumbling effect is reserved for the line to
                     come? Let line 15 be strictly iambic like line 14, figuring the willing trance, or
                     suspension of disbelief, from which line 16 then awakens into mere but honest hope. </note>
+                </l>
             <space/><l n="16" part="N" met="-+-+-+" real="+--+-+">
                     <seg met="-+" real="+-" part="N">Hop<sb part="N"/>ing </seg>
                     <seg met="-+" part="N">it might </seg>

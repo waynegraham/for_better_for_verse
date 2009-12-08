@@ -19,7 +19,7 @@
                         <seg>Ty<sb/></seg>
                         <seg>ger! ty<sb/></seg>
                         <seg>ger! burn<sb/></seg>
-                        <seg>ing <rhyme label="a">bright</rhyme></seg>
+                        <seg>ing <rhyme label="a">bright</rhyme></seg>                    
                     <note anchored="true"> This line, like the majority of those that follow it,
                         exemplifies a metrical ambiguity that comes with the territory of folk
                         (-based) poetry in English. Seven syllables of militantly alternating stress
@@ -35,7 +35,7 @@
                         <seg>In </seg>
                         <seg>the for<sb/></seg>
                         <seg>ests of </seg>
-                        <seg>the <rhyme label="a">night,</rhyme></seg>
+                        <seg>the <rhyme label="a">night,</rhyme></seg>                    
                     <note anchored="true"> Why not a nice, balladic trimeter here comprising an
                         anapest, an iamb, and an iamb? Because, as the poem taken whole will show,
                         the four-line stanzas are tetrameter quatrains and not ballad stanzas. Line
@@ -44,8 +44,7 @@
                         easier to handle and scan once you have read the whole poem out, and out
                         loud. Doing so will put you in close quarters with the obsessiveness of its
                         frenzied speaker, whose insatiable appetite for moral thrills overrides
-                        pronunciational business as usual. </note>
-                    </l>
+                        pronunciational business as usual. </note></l>
                     <l n="3" met="-+-+-+-+" real="+-+-+-+">
                         <seg>What </seg>
                         <seg>im<sb/>mor<sb/></seg>
