@@ -94,7 +94,7 @@
                         <seg>in<sb/>voked </seg>
                         <seg>in <rhyme label="a">song</rhyme></seg>
                     </l>
-                    <l n="11" met="-+-+-+-+-+" real="-+-+-+-+-+(-)" rend="indent(1)">
+                    <l n="11" met="-+-+-+-+-+" real="-+-+-+-+-+ -" rend="indent(1)">
                         <seg>De<sb/>scends </seg>
                         <seg>on me; </seg>
                         <caesura/>
@@ -113,14 +113,14 @@
                         doubts it. The whole line is a-tremble with holy awe, and a trisyllabic
                         "trembling" gives the line its third shiver of consecutive slacks.</note>
                     </l>
-                    <l n="13" met="-+-+-+-+-+" real="-+-+-+-+-+(-)" rend="indent(1)">
+                    <l n="13" met="-+-+-+-+-+" real="-+-+-+-+-+-" rend="indent(1)">
                         <seg>Whose sails </seg>
                         <seg>were nev<sb/></seg>
                         <seg>er to </seg>
                         <seg>the tem<sb/></seg>
                         <seg>pest giv<sb/><rhyme label="b">en;</rhyme></seg>
                     </l>
-                    <l n="14" met="-+-+-+-+-+" real="-+-+-+-+-+(-)" rend="indent(1)">
+                    <l n="14" met="-+-+-+-+-+" real="-+-+-+-+-+-" rend="indent(1)">
                         <seg>The mass<sb/></seg>
                         <seg>y earth </seg>
                         <seg>and spher<sb/></seg>
@@ -134,7 +134,7 @@
                         <seg>ful<sb/>ly, </seg>
                         <seg>a<sb/><rhyme label="c">far;</rhyme></seg>
                     </l>
-                    <l n="16" met="-+-+-+-+-+" real="++-+-+-+-+(-)" rend="indent(1)">
+                    <l n="16" met="-+-+-+-+-+" real="++-+-+-+-+-" rend="indent(1)">
                         <seg>Whilst, <caesura/>burn<sb/></seg>
                         <seg>ing through </seg>
                         <seg>the in<sb/></seg>
