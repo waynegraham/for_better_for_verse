@@ -71,11 +71,11 @@
                         <caesura/>
                         <seg>now beams </seg>
                         <seg>on <rhyme label="c">me,</rhyme></seg>
-                    <note anchored="true">A great moment, where the stanza's accumulated syntax, and the steady
-                        iambs that have run since line four like a power loom (weaving Shelleyan
-                        love woven throughout the creation), mount to the climactic caesura here.  It
-                        thrusts the poet himself into the limelight, or laser beam, that is about to ignite
-                        his long poem's amazing final stanza.</note>
+                    <note anchored="true">A great moment, where the stanza's accumulated syntax, and
+                        the steady iambs that have run since line four like a power loom (weaving
+                        Shelleyan love woven throughout the creation), mount to the climactic
+                        caesura. The poet himself is thereby thrust into the limelight, or laser
+                        beam, that is about to ignite his long elegy's amazing final stanza.</note>
                     </l>
                     <l n="9" met="-+-+-+-+-+-+" real="-+--++-+-+-+">
                         <seg>Con<sb/>sum<sb/></seg>
@@ -152,13 +152,19 @@
                         <seg>Bea<sb/>cons </seg>
                         <seg>from the </seg>
                         <seg>a<sb/>bode </seg>
-                        <seg>where the </seg>
+                        <caesura/>
+                        <seg>Where the </seg>
                         <seg>E<sb/>ter<sb/></seg>
                         <seg>nal <rhyme label="c">are.</rhyme></seg>
-                    <note anchored="true">The Spenserian stanza, for all the rigidity of its rhyme
-                        scheme, proves a surprisingly flexible instrument. Compare the adrenalin rush
-                        Shelley gets out of the form with its inventor Spenser's much gentler,
-                        narcotic manner elsewhere in this tutorial ("Despayre in Praise of Suicide").</note>
+                    <note anchored="true">With half of its six feet trochees, this may seem one of
+                        those alexandrines that Pope derisively likened to "a wounded snake." But in
+                        fact it's remarkably poised -- a coiled snake, if you like, about to spring
+                        out of this world -- thanks to the mirroring symmetry of stresses and
+                        slacks around its strict (if unpunctuated) medial caesura.  The Spenserian
+                        stanza, for all the rigidity of its rhyme scheme, proves a surprisingly
+                        flexible instrument. Compare the adrenalin rush Shelley gets out of the form
+                        with its inventor Spenser's much gentler, narcotic manner elsewhere in this
+                        tutorial ("Despayre in Praise of Suicide").</note>
                     </l>
                 </lg>
             </body></text></TEI>
