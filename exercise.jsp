@@ -62,14 +62,13 @@
 	<body onload="init()">
 		<script type="text/javascript" src="scripts/wz_tooltip.js"><!--this--></script>
 		<div id="main">
-		
-			<c:import url="xsl/preprocess.xsl" var="preprocessxsl" />
 			
+			<c:import url="xsl/preprocess.xsl" var="preprocessxsl" />
 		
 			<x:transform doc="${poemxml}" xslt="${preprocessxsl}" />
 		</div>
-		<div id="utils">
-			<button id="togglestress" class="on" onclick="togglestress();">Hide/show stresses</button> | <button id="togglefeet" class="on" onclick="togglefeet();">Hide/show feet markers</button> <button id="toggle-discrepancies" value="off" onclick="toggledifferences(this)">| Toggle metrical discrepancies</button>
+		<div id="utils" style="clear:both;display:none;">
+			<button id="togglestress" class="on" onclick="togglestress();">Toggle stresses</button> | <button id="togglefeet" class="on" onclick="togglefeet();">Toggle feet markers</button> <button id="toggle-caesura" value="off" onclick="togglecaesura()">| Toggle caesura</button> <button id="toggle-discrepancies" value="off" onclick="toggledifferences(this)" style="display:none">| Toggle metrical discrepancies</button>
 		</div>
 	</body>
 	</html>

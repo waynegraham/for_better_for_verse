@@ -5,8 +5,27 @@
     
     <xsl:output indent="no" method="xml" omit-xml-declaration="yes"/>
     <xsl:strip-space elements="*"/>
+    <xsl:variable name="scheme"><xsl:value-of select="//TEI:lg/@rhyme"/></xsl:variable>
     
     <xsl:template match="/">
+        <div id="rhyme" style="display:none;">
+            <div id="rhymespacer" style="height: 89px"><xsl:text> </xsl:text></div>
+            <form name="{$scheme}" id="rhymeform">
+            <xsl:for-each select="/TEI:TEI/TEI:text/TEI:body/TEI:lg">
+                <xsl:variable name="lgPos"><xsl:value-of select="position()"/></xsl:variable>
+                <br/>
+                <xsl:for-each select="TEI:l">
+                    <div class="lrhyme">
+                        <input size="1" maxlength="1" value="a" name="lrhyme-{$lgPos}-{position()}" type="text" onFocus="this.value=''"/>
+                    </div>
+                </xsl:for-each>
+            </xsl:for-each>
+                <div class="lrhyme check"><input type="submit" value="&#10003;" size="1" maxlength="1" id="rhymecheck"/></div>
+            </form>            
+        </div>
+        <div id="rhymebar">
+            <xsl:text> </xsl:text>
+        </div>
         <div id="poem">
             <div id="title">
                 <h2>
@@ -75,6 +94,9 @@
                             </xsl:if>
                         </xsl:for-each>
                     </xsl:for-each>
+                    <xsl:if test="name(following-sibling::*[1]) = 'caesura'">
+                        <span class="caesura" style="display:none">||</span>
+                    </xsl:if>
                 </xsl:for-each>
             </div>
             
@@ -117,6 +139,9 @@
                             </xsl:if>
                         </xsl:for-each>
                     </xsl:for-each>
+                    <xsl:if test="name(following-sibling::*[1]) = 'caesura'">
+                        <span class="caesura" style="display:none">||</span>
+                    </xsl:if>
                 </xsl:for-each>
                 
             </div>

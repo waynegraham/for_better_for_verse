@@ -43,8 +43,33 @@ function init() {
     $$('span[real]').collect(function (node) {
         node.stress = "";
     });
-    
-    $("toggle-discrepancies").toggle();
+    var poemheight = $("poem").getHeight();
+    $('rhymebar').setStyle({height: poemheight + 20 + 'px'});
+    $('rhyme').setStyle({height: poemheight + 20 + 'px'});
+    $('utils').toggle();
+    $('rhymebar').observe('click', function(event){
+        $('rhyme').toggle();
+        //Effect.toggle('rhyme','appear',{duration: 0.5});
+    });
+    Event.observe('rhymeform','submit', function(event){
+        var scheme = $('rhymeform').readAttribute('name').replace(/\s/g, "");
+        var ans = '';
+        $('rhymeform').getInputs('text').each(function(item) {
+            ans += item.getValue();
+        });
+        checkrhyme(scheme, ans);
+        Event.stop(event);
+    });
+}
+
+function checkrhyme(scheme, answer){
+    if(scheme == answer) {
+        $('rhymecheck').addClassName('right');
+        $('rhymecheck').removeClassName('wrong');
+    } else {
+        $('rhymecheck').addClassName('wrong');
+        $('rhymecheck').removeClassName('right');
+    }
 }
 
 function switchstress(shadowspan) {
@@ -296,6 +321,10 @@ function togglestress() {
 
 function togglefeet() {
     $$('.prosody-footmarker').invoke("toggle");
+}
+
+function togglecaesura() {
+    $$('.caesura').invoke("toggle");
 }
 
 // this function highlights those syllables in which real="" and met=""
