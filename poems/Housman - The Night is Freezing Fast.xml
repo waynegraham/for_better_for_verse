@@ -10,7 +10,7 @@
                     <seg met="-+" part="N">is freez<sb part="N"/></seg>
                     <seg met="-+" part="N">ing fast,</seg>
                 </l><l n="2" part="N" met="-+-+-+" real="-+-+-+-">
-                    <seg met="-+" part="N">To-<sb/>mor<sb part="N"/></seg>
+                    <seg met="-+" part="N">To<sb/>mor<sb part="N"/></seg>
                     <seg met="-+" part="N">row comes </seg>
                     <seg met="-+" real="-+-" part="N">De<sb part="N"/>cem<sb part="N"/>ber;</seg>
                 </l><l n="3" part="N" met="-+-+-+" real="-+-+-+">
@@ -37,7 +37,7 @@
                 </l><l n="8" part="N" met="-+-+-+" real="++-+-+-">
                     <seg met="-+" real="++" part="N">Prompt hand </seg>
                     <seg met="-+" part="N">and head<sb part="N"/></seg>
-                    <seg met="-+" real="-+-" part="N">piece clever,</seg>
+                    <seg met="-+" real="-+-" part="N">piece clev<sb/>er,</seg>
                 </l><l n="9" part="N" met="-+-+-+" real="-+--+-+">
                     <seg met="-+" part="N">Has wo<sb part="N"/></seg>
                     <seg met="-+" real="--+" part="N">ven a win<sb part="N"/></seg>

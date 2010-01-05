@@ -32,10 +32,10 @@
                 </l><l n="6" part="N" met="-+-+-+-+-+" real="-+-+-++--+|-+-+-++-++">
                     <seg met="-+" part="N">That low<sb part="N"/></seg>
                     <seg met="-+" part="N">est place </seg>
-                    <seg met="-+" real="++" part="N">too high, </seg>
+                    <seg met="-+" part="N">too high, </seg>
                     <caesura/>
                     <seg met="-+" real="+-" part="N">make one </seg>
-                    <seg met="-+" part="N">more <rhyme label="b">low</rhyme></seg>
+                    <seg met="-+" real="++" part="N">more <rhyme label="b">low</rhyme></seg>
                 </l><l n="7" part="N" met="-+-+-+" real="-+-+-+">
                     <seg met="-+" part="N">Where I </seg>
                     <seg met="-+" part="N">may sit </seg>
@@ -44,4 +44,15 @@
                     <seg met="-+" part="N">My God </seg>
                     <seg met="-+" part="N">and love </seg>
                     <seg met="-+" part="N">Thee <rhyme label="b">so.</rhyme></seg>
+                    <note anchored="true"> In this lucid poem the paradox of petitionary prayer --
+                        where after all the speaker is, notwithstanding her undoubted humility,
+                        telling God how to arrange things -- may be figured in the peculiarity of
+                        its stanzaic shape. Rossetti might have grouped exactly the same order of
+                        words into tetrameter quatrains of the common measure typical in hymns. (Try
+                        it, and see how readily that more ordinary pattern appears.) But that's not
+                        what Rossetti was after. Instead she lengthened some lines into deliberative
+                        pentameter and crowded the others into intimate trimeter. It is a bonus of
+                        this configuration -- a triumph of positioning, in a poem about "place" --
+                        to enjamb every single line, expressing an urgency of speculation that
+                        wouldn't be there in the foursquare scheme. </note>
                 </l></lg></body></text></TEI>

@@ -9,7 +9,7 @@
 		    <seg met="-+" part="N">it <rhyme label="a">seal;</rhyme></seg>
         </l>
         <l n="2" part="N" met="-+-+-+" real="--++-+|-+-+-+">
-                    <seg met="-+" part="N">I had </seg>
+                    <seg met="-+" real="--" part="N">I had </seg>
                     <seg met="-+" real="++" part="N">no hu<sb part="N"/></seg>
                     <seg met="-+" part="N">man <rhyme label="b">fears:</rhyme></seg>
             <note anchored="true">
