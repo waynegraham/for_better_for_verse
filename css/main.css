@@ -93,7 +93,7 @@ button.prosody-note-button {
 }
 
 #poem {
-    width: 548px;
+    width: 540px;
     padding: 15px;
     float:left;
 }
@@ -216,7 +216,6 @@ small.date {
     float:left; 
     width: 7px;
     cursor: pointer;
-    margin-right: 10px;
     border-right: 1px solid #CFCFCF;
 }
 
@@ -226,7 +225,7 @@ small.date {
 
 #rhyme {
     height: 0px;
-    width: 25px;
+    width: 23px;
     float:left;
     background: #444;
 }
@@ -241,13 +240,14 @@ small.date {
 }
 
 #rhyme input {
-    width: 8px;
+    width: 9px;
     background: #656565;
     height: 16px;
     margin: 0;
     padding: 0 2px;
     border: none;
     color: #fff;
+    font-size: 11px;
 }
 #rhyme input:hover {
     background: #888;
@@ -276,7 +276,7 @@ small.date {
     background:#999;
     border-right:1px solid #CFCFCF;
     color:#444;
-    padding:2px;
+    padding:1px;
     cursor:pointer;
     font-size:9px;
 }
