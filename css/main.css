@@ -34,6 +34,7 @@ span.prosody-shadowsyllable {
     font-size: 13px;
     color: #DEB887;
 	vertical-align: bottom;
+	height: 18px;
 }
 span.prosody-syllable {
 	white-space:pre;
@@ -46,7 +47,6 @@ span.prosody-marker {
     white-space:pre;
 }
 span.prosody-footmarker {
-
 	color: #DEB887;
 	font-weight: bold;
 	vertical-align: bottom;
@@ -67,11 +67,17 @@ span.prosody-checkfeet {
 .caesura {
     color: #aa55aa;
     font-weight: bold;
-    padding: 0 1ex 0 0;    
+    padding: 0 1ex 0 0; 
+    vertical-align: bottom;
+    font-size: 13px;
+    display:table-cell;
+    empty-cells:show;
+    text-align:center;
 }
 
 .prosody-shadowline .caesura {
     visibility: hidden;
+    height: 18px;
 }
 
 p.prosody-note {
@@ -172,10 +178,19 @@ label {
 	}
 	
 #utils {
-	position: static;
+	position: fixed;
+	background:#444;
+	color:#fff;
+	width:400px;
+	margin: 5px auto 0;
+	padding:5px;
+	float:right;
 	bottom: 0px;
-	padding-top: 2px;
-	padding-bottom: 2px;
+	right: 0px;
+}
+
+#utils button {
+    margin: 0 auto;
 }
 
 .discrep {
@@ -210,7 +225,7 @@ small.date {
 
 #rhyme {
     height: 0px;
-    width: 20px;
+    width: 25px;
     float:left;
     background: #444;
 }
@@ -248,8 +263,21 @@ small.date {
     background: #ddd;
    }
 #rhyme input#rhymecheck.right {
-    background: limegreen;
+    background: #32CD32;
 }
 #rhyme input#rhymecheck.wrong {
-    background: firebrick;
+    background: #B22222;
+}
+#rhymeflag {
+    clear:both;
+    width:28px;
+    background:#999;
+    border-right:1px solid #fff;
+    color:#444;
+    padding:1px 2px;
+    cursor:pointer;
+    font-size:9px;
+}
+#rhymeflag:hover {
+    background: #fff;
 }
