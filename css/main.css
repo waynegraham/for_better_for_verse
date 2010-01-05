@@ -269,12 +269,15 @@ small.date {
     background: #B22222;
 }
 #rhymeflag {
-    clear:both;
-    width:28px;
+    position:fixed;
+    float:left;
+    bottom:0;
+    left:0;
+    /*width:28px;*/
     background:#999;
     border-right:1px solid #fff;
     color:#444;
-    padding:1px 2px;
+    padding:2px;
     cursor:pointer;
     font-size:9px;
 }
