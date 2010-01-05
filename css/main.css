@@ -272,7 +272,7 @@ small.date {
 #rhymeflag {
     clear:both;
     float:left;
-    /*width:28px;*/
+    width:28px;
     background:#999;
     border-right:1px solid #CFCFCF;
     color:#444;

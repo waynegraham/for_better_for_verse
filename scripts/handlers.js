@@ -49,7 +49,7 @@ function init() {
     $('rhyme').setStyle({height: poemheight + 20 + 'px'});
     
     var titledim=$('poemtitle').getDimensions();
-    $('rhymespacer').setStyle({height: titledim.height + 45 + 'px'});
+    $('rhymespacer').setStyle({height: titledim.height + 44 + 'px'});
     
     $('rhymebar').observe('click', function(event){
         $('rhyme').toggle();
