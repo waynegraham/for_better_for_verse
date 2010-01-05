@@ -67,8 +67,12 @@
 		
 			<x:transform doc="${poemxml}" xslt="${preprocessxsl}" />
 		</div>
-		<div id="utils" style="clear:both;display:none;">
-			<button id="togglestress" class="on" onclick="togglestress();">Toggle stresses</button> | <button id="togglefeet" class="on" onclick="togglefeet();">Toggle feet markers</button> <button id="toggle-caesura" value="off" onclick="togglecaesura()">| Toggle caesura</button> <button id="toggle-discrepancies" value="off" onclick="toggledifferences(this)" style="display:none">| Toggle metrical discrepancies</button>
+		<div id="utils" style="display:none;">
+			Show: 
+			<span>Stresses <input id="togglestress" class="on" onclick="togglestress();" name="togglestress" value="on" type="checkbox" checked="checked"/></span> 
+			<span> | Feet Markers <input id="togglefeet" class="on" onclick="togglefeet();" name="togglefeet" value="on" type="checkbox" checked="checked"/></span> 
+			<span> | Caesura <input id="togglecaesura" class="on" onclick="togglecaesura();" name="togglecaesura" value="on" type="checkbox"/></span> 
+			<span id="toggle-discrepancies" style="display:none"> | Discrepancies <input id="togglediscrepancies" onclick="toggledifferences(this)" name="togglediscrepancies" value="off" type="checkbox"/></span>
 		</div>
 	</body>
 	</html>

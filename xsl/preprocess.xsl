@@ -43,6 +43,7 @@
             </div>
             <xsl:apply-templates select="TEI:TEI/TEI:text/TEI:body/*"/>
         </div>
+        <div id="rhymeflag">Rhyme</div>
     </xsl:template>
 
 		<xsl:template match="TEI:date">

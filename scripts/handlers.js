@@ -51,6 +51,10 @@ function init() {
         $('rhyme').toggle();
         //Effect.toggle('rhyme','appear',{duration: 0.5});
     });
+    $('rhymeflag').observe('click', function(event){
+        $('rhyme').toggle();
+        //Effect.toggle('rhyme','appear',{duration: 0.5});
+    });
     Event.observe('rhymeform','submit', function(event){
         var scheme = $('rhymeform').readAttribute('name').replace(/\s/g, "");
         var ans = '';
@@ -162,7 +166,7 @@ function checkstress(linenumber) {
             // here we update the visibility of the "Show Discrepancies
             // control"
             if ($$("button.prosody-checkstress span[allowdis]").length == $$("button.prosody-checkstress").length) {
-                $("toggle-discrepancies").toggle();
+                $("toggle-discrepancies").show();
             }
             // and here we update any hint buttons
             updatehintbutton(linenumber);
@@ -316,15 +320,34 @@ function placeholder(real) {
 
 // changes the visibility of the stress markers
 function togglestress() {
-    $$('.prosody-marker').invoke("toggle");
+    //if marks visible (value isn't null), hide marks, if marks hidden, show marks
+    $$('.prosody-marker').each(function(el){
+        if($('togglestress').getValue()) {
+            el.show();
+        } else {
+            el.hide();
+        }
+    });
 }
 
 function togglefeet() {
-    $$('.prosody-footmarker').invoke("toggle");
+    $$('.prosody-footmarker').each(function(el){
+        if($('togglefeet').getValue()) {
+            el.show();
+        } else {
+            el.hide();
+        }
+    });
 }
 
 function togglecaesura() {
-    $$('.caesura').invoke("toggle");
+    $$('.caesura').each(function(el){
+        if($('togglecaesura').getValue()) {
+            el.show();
+        } else {
+            el.hide();
+        }
+    });
 }
 
 // this function highlights those syllables in which real="" and met=""
