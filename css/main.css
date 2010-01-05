@@ -95,6 +95,7 @@ button.prosody-note-button {
 #poem {
     width: 548px;
     padding: 15px;
+    float:left;
 }
 
 /* #poem span {
@@ -210,13 +211,13 @@ small.date {
 }
 
 #rhymebar {
-    height: 614px; 
+    height: 0px; 
     background:#999; 
     float:left; 
     width: 7px;
     cursor: pointer;
     margin-right: 10px;
-    border-right: 1px solid #FFF;
+    border-right: 1px solid #CFCFCF;
 }
 
 #rhymebar:hover {
@@ -224,7 +225,7 @@ small.date {
 }
 
 #rhyme {
-    height: 614px;
+    height: 0px;
     width: 25px;
     float:left;
     background: #444;
@@ -269,13 +270,11 @@ small.date {
     background: #B22222;
 }
 #rhymeflag {
-    position:fixed;
+    clear:both;
     float:left;
-    bottom:0;
-    left:0;
     /*width:28px;*/
     background:#999;
-    border-right:1px solid #fff;
+    border-right:1px solid #CFCFCF;
     color:#444;
     padding:2px;
     cursor:pointer;

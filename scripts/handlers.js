@@ -44,6 +44,10 @@ function init() {
         node.stress = "";
     });
     
+    var poemheight = $("poem").getHeight();
+    $('rhymebar').setStyle({height: poemheight + 20 + 'px'});
+    $('rhyme').setStyle({height: poemheight + 20 + 'px'});
+    
     var titledim=$('poemtitle').getDimensions();
     $('rhymespacer').setStyle({height: titledim.height + 45 + 'px'});
     
