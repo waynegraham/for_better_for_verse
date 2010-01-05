@@ -43,10 +43,6 @@ function init() {
     $$('span[real]').collect(function (node) {
         node.stress = "";
     });
-    var poemheight = $("poem").getHeight();
-    $('rhymebar').setStyle({height: poemheight + 20 + 'px'});
-    $('rhyme').setStyle({height: poemheight + 20 + 'px'});
-    $('utils').toggle();
     $('rhymebar').observe('click', function(event){
         $('rhyme').toggle();
         //Effect.toggle('rhyme','appear',{duration: 0.5});

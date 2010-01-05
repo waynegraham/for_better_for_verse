@@ -67,7 +67,7 @@
 		
 			<x:transform doc="${poemxml}" xslt="${preprocessxsl}" />
 		</div>
-		<div id="utils" style="display:none;">
+		<div id="utils">
 			Show: 
 			<span>Stresses <input id="togglestress" class="on" onclick="togglestress();" name="togglestress" value="on" type="checkbox" checked="checked"/></span> 
 			<span> | Feet Markers <input id="togglefeet" class="on" onclick="togglefeet();" name="togglefeet" value="on" type="checkbox" checked="checked"/></span> 

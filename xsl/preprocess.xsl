@@ -96,7 +96,7 @@
                         </xsl:for-each>
                     </xsl:for-each>
                     <xsl:if test="name(following-sibling::*[1]) = 'caesura'">
-                        <span class="caesura" style="display:none">||</span>
+                        <span class="caesura" style="display:none">//</span>
                     </xsl:if>
                 </xsl:for-each>
             </div>
@@ -141,7 +141,7 @@
                         </xsl:for-each>
                     </xsl:for-each>
                     <xsl:if test="name(following-sibling::*[1]) = 'caesura'">
-                        <span class="caesura" style="display:none">||</span>
+                        <span class="caesura" style="display:none">//</span>
                     </xsl:if>
                 </xsl:for-each>
                 
