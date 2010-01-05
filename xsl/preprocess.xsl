@@ -9,7 +9,7 @@
     
     <xsl:template match="/">
         <div id="rhyme" style="display:none;">
-            <div id="rhymespacer" style="height: 89px"><xsl:text> </xsl:text></div>
+            <div id="rhymespacer"><xsl:text> </xsl:text></div>
             <form name="{$scheme}" id="rhymeform">
             <xsl:for-each select="/TEI:TEI/TEI:text/TEI:body/TEI:lg">
                 <xsl:variable name="lgPos"><xsl:value-of select="position()"/></xsl:variable>
@@ -27,7 +27,7 @@
             <xsl:text> </xsl:text>
         </div>
         <div id="poem">
-            <div id="title">
+            <div id="poemtitle">
                 <h2>
                     <xsl:apply-templates
                         select="/TEI:TEI/TEI:teiHeader/TEI:fileDesc/TEI:titleStmt/TEI:title"/>										

@@ -43,6 +43,10 @@ function init() {
     $$('span[real]').collect(function (node) {
         node.stress = "";
     });
+    
+    var titledim=$('poemtitle').getDimensions();
+    $('rhymespacer').setStyle({height: titledim.height + 45 + 'px'});
+    
     $('rhymebar').observe('click', function(event){
         $('rhyme').toggle();
         //Effect.toggle('rhyme','appear',{duration: 0.5});

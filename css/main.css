@@ -106,11 +106,11 @@ button.prosody-note-button {
 	/** margin: 0 -2px; */
 }
 
-#poem #title {
+#poem #poemtitle {
     margin: 10px 0 15px 0;
 }
 
-#poem #title h2 {
+#poem #poemtitle h2 {
 	padding-bottom: 10px;
 	line-height: 1em;
 }
