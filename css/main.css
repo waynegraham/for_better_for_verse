@@ -269,17 +269,14 @@ small.date {
     background: #B22222;
 }
 #rhymeflag {
-    position:fixed;
-    float:left;
-    bottom:0;
-    left:0;
-    /*width:28px;*/
+    clear:both;
+    width:28px;
     background:#999;
     border-right:1px solid #fff;
     color:#444;
-    padding:3px 4px;
+    padding:1px 2px;
     cursor:pointer;
-    font-size:13px;
+    font-size:9px;
 }
 #rhymeflag:hover {
     background: #fff;
