@@ -3,7 +3,7 @@
   PUBLIC "-//TEI P5//DTD Main Document Type//EN" "http://sds3.itc.virginia.edu:8080/prosody/poems/tei_all.dtd">
 <TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" version="5.0"><teiHeader type="text">
     <fileDesc><titleStmt><title>The Night is Freezing Fast</title><author>A. E. Housman</author></titleStmt><publicationStmt><date>1922</date></publicationStmt><sourceDesc default="false"><p/></sourceDesc></fileDesc></teiHeader><text><body>
-        <lg met="-+-+-+" rhyme="abcabc" org="uniform" sample="complete" part="N">
+        <lg met="-+(3/3/3/3/3/3)" rhyme="abcabc" org="uniform" sample="complete" part="N">
                 <l n="1" part="N" met="-+-+-+" real="-+-+-+">
                     <seg met="-+" part="N">The night </seg>
                     <seg met="-+" part="N">is freez<sb part="N"/></seg>
@@ -29,7 +29,7 @@
                     <seg met="-+" part="N">would hate </seg>
                     <seg met="-+" part="N">the <rhyme label="c"></rhyme>cold.</seg>
                 </l>
-        </lg><lg met="-+-+-+" rhyme="abcaabc" org="uniform" sample="complete" part="N">
+        </lg><lg met="-+(3/3/3/3/3/3)" rhyme="abcaabc" org="uniform" sample="complete" part="N">
                 <l n="7" part="N" met="-+-+-+" real="++-+-+">
                     <seg met="-+" real="++" part="N">Fall, win<sb part="N"/></seg>
                     <seg met="-+" part="N">ter, fall; </seg>
