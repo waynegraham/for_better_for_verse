@@ -59,9 +59,14 @@
                         <seg>not o<sb/></seg>
                         <seg>urs. <caesura/>O, </seg>
                         <seg>I could <rhyme label="d">still,</rhyme></seg>
-                    <note anchored="true"> Once the stresses and slacks are in place for this line,
-                        it seems an open question how to divide them into feet. Two anapests, two
-                        trochees, and a closing iamb would do it. But 4B4V prefers rising feet where they are available, as they are within our chosen pattern of anapest, pyrrhic, spondee, iamb, anapest -- which may claim the further advantage of bringing out the pathos with which at mid-line "not ours" concedes an existential defeat.</note>
+                    <note anchored="true"> Once the stresses and slacks are in place for this
+                        admittedly stubborn line, it seems an open question how to divide them into
+                        feet. Two anapests, two trochees, and a closing iamb would do it. But 4B4V
+                        prefers rising feet where they are available, and they are available here to
+                        form a pattern of anapest, pyrrhic, spondee, iamb, anapest. This pattern has
+                        the further advantage of bringing out the pathos with which at mid-line "not
+                        ours" concedes an existential defeat: You don't know what you have until you
+                        lose it.</note>
                     </l>
                     <l n="8" met="-+-+-+-+-+" real="-+-+-+-+-+|-+-+--++-+" part="N">
                         <seg>Like melt<sb/></seg>
@@ -73,6 +78,10 @@
                     <l n="9" met="-+-+" real="++++" part="N">
                         <seg>Drop, drop, </seg>
                         <seg>drop, <rhyme label="x">drop,</rhyme></seg>
+                    <note anchored="true"> This line has no place in the rhyme scheme, so we mark it
+                        "x." Rhyming only, and obsessively, with itself, the line's refusal to chime
+                        in harmony with others seems an emblem of the perfect involution -- and
+                        perverse self-delight? -- of sheer grief. </note>
                     </l>
                     <l n="10" met="-+-+-+-+-+-+" real="-+-+-+-+-+-+" part="N">
                         <seg>Since na<sb/></seg>
