@@ -385,14 +385,15 @@ function updatehintbutton(id) {
         // and the feet button as well, then change visual state
         e.removeChild($(e).firstDescendant());
         e.appendChild(clickablehintimage());
+        e.setAttribute('onclick', 'pophint("'+id+'");');
         // and clickability
 		
-		Event.observe(e, 'click', function(){
+		/*Event.observe(e, 'click', function(){
 			debug("popping win1");
 			var win = new Window({className: "mac_os_x", width:400, height:300, zIndex: 100, resizable: true, title: "Note on line " + id, draggable:true, wiredDrag: true});
 			win.showCenter();
 			win.setContent('hintfor' + id, 'prosody-note-show');
-		});
+		}); */
 
        /** if (e.addEventListener) 
 			e.addEventListener('click',pophint,false); //everything else    
@@ -403,6 +404,14 @@ function updatehintbutton(id) {
         //debug("	e.onclick = " + e.onclick);
         //}
     }
+}
+
+function pophint(id){
+    debug("popping win1");
+    Windows.closeAll();
+	var win = new Window({className: "mac_os_x", width:400, height:300, zIndex: 100, resizable: true, title: "Note on line " + id, draggable:true, wiredDrag: true});
+	win.showCenter();
+    win.setContent('hintfor' + id, 'prosody-note-show');
 }
 
 function clickablehintimage() {
