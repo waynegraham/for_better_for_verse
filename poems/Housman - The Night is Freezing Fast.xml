@@ -29,7 +29,7 @@
                     <seg met="-+" part="N">would hate </seg>
                     <seg met="-+" part="N">the <rhyme label="c"></rhyme>cold.</seg>
                 </l>
-        </lg><lg met="-+(3/3/3/3/3/3)" rhyme="abcaabc" org="uniform" sample="complete" part="N">
+        </lg><lg met="-+(3/3/3/3/3/3)" rhyme="abcabc" org="uniform" sample="complete" part="N">
                 <l n="7" part="N" met="-+-+-+" real="++-+-+">
                     <seg met="-+" real="++" part="N">Fall, win<sb part="N"/></seg>
                     <seg met="-+" part="N">ter, fall; </seg>
