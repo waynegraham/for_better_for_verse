@@ -24,6 +24,11 @@
                     <seg>that wastes </seg>
                     <seg>her time </seg>
                     <seg>and <rhyme label="b">me</rhyme></seg>
+                    <note anchored="true"> "Her" needs stress at this early point in order to orient
+                        the reader: the rose is being pressed into service as a messenger to a
+                        certain nameless she, whom the speaker accuses of trifling with him in the
+                        "that" clause immediately following. The message proper begins with the
+                        "That" of line 3.</note>
                     </l>
                     <l n="3" met="-+-+" real="-+-+" part="N">
                     <seg>That now </seg>
@@ -131,6 +136,7 @@
                     <seg met="-+" real="--">That are </seg>
                     <seg met="-+" real="++">so won<sb/></seg>
                     <seg>drous sweet </seg>
+                    <seg>and <rhyme label="b">fair!</rhyme></seg>   
                     <note anchored="true"> This last line may be scanned iambically like the two
                         that precede it. But with a a pyrrhic-spondee combination in the first two
                         feet we pause, as it were, to smell the roses: to savor what is passing
