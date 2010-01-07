@@ -16,11 +16,11 @@
             <body>
                 <lg n="1" type="quintet" met="-+(2/4/2/4/4)" rhyme="ababb" org="uniform" sample="complete" part="N">
                     <l n="1" met="-+-+" real="++-+" part="N">
-                    <seg>Go, <caesura/>love<sb/></seg>
+                    <seg met="-+" real="++">Go, <caesura/>love<sb/></seg>
                     <seg>ly <rhyme label="a">rose!</rhyme></seg>
                     </l>
                     <l n="2" met="-+-+-+-+" real="++-+-+-+" part="N">
-                    <seg>Tell her </seg>
+                    <seg met="-+" real="++">Tell her </seg>
                     <seg>that wastes </seg>
                     <seg>her time </seg>
                     <seg>and <rhyme label="b">me</rhyme></seg>
@@ -44,7 +44,7 @@
                     </lg>
                 <lg n="2" type="quintet" met="-+(2/4/2/4/4)" rhyme="ababb" org="uniform" sample="complete" part="N">
                     <l n="6" met="-+-+" real="++-+" part="N">
-                    <seg>Tell her </seg>
+                    <seg met="-+" real="++">Tell her </seg>
                     <seg>that's <rhyme label="a">young</rhyme></seg>
                     </l>
                     <l n="7" met="-+-+-+-+" real="-+-+-+-+" part="N">
@@ -59,15 +59,15 @@
                     </l>
                     <l n="9" met="-+-+-+-+" real="-+--++-+" part="N">
                     <seg>In des<sb/></seg>
-                    <seg>erts, <caesura/>where </seg>
-                    <seg>no men </seg>
+                    <seg met="-+" real="--">erts, <caesura/>where </seg>
+                    <seg met="-+" real="++">no men </seg>
                     <seg>a<sb/><rhyme label="b">bide,</rhyme></seg>
                     <note anchored="true"> Plain iambic scansion of this line does no harm. It
                         doesn't do much good, though, either. It tends to emasculate "no men" in the
                         third foot, as if all Waller meant were life-without-people. But, of course,
                         what he means is life-without-sex. That the speaker is a man, the intended
                         addressee a "she," is the whole point of his pretended address to the
-                        flower; and scansion choices are among the ways to draw its innuendo out.
+                        flower; and scansion choices are good ways to draw its innuendo out.
                         Keep your eye, and ear, on "blush" in the stanza ahead. </note>
                     </l>
                     <l n="10" met="-+-+-+-+" real="-+-+-+-+" part="N">
@@ -79,35 +79,35 @@
                 </lg>
                 <lg n="3" type="quintet" met="-+(2/4/2/4/4)" rhyme="ababb" org="uniform" sample="complete" part="N">
                     <l n="11" met="-+-+" real="+--+" part="N">
-                        <seg>Small is </seg>
+                        <seg met="-+" real="+-">Small is </seg>
                         <seg>the <rhyme label="a">worth</rhyme></seg>
                     </l>
                     <l n="12" met="-+-+-+-+" real="-+-+-+-+-" part="N">
                     <seg>Of beau<sb/></seg>
                     <seg>ty from </seg>
                     <seg>the light </seg>
-                    <seg>re<sb/>ti<sb/><rhyme label="b">red;</rhyme></seg>
+                    <seg met="-+" real="-+-">re<sb/>ti<sb/><rhyme label="b">red;</rhyme></seg>
                     </l>
                     <l n="13" met="-+-+" real="+--+|+-++" part="N">
-                    <seg>Bid her </seg>
-                    <seg>come <rhyme label="a">forth,</rhyme></seg>
+                    <seg met="-+" real="+-">Bid her </seg>
+                    <seg met="-+" real="++">come <rhyme label="a">forth,</rhyme></seg>
                     </l>
                     <l n="14" met="-+-+-+-+" real="+--+-+-+-" part="N">
-                    <seg>Suf<sb/>fer </seg>
+                    <seg met="-+" real="+-">Suf<sb/>fer </seg>
                     <seg>her<sb/>self </seg>
                     <seg>to be </seg>
-                    <seg>de<sb/>si<sb/><rhyme label="b">red,</rhyme></seg>
+                    <seg met="-+" real="-+-">de<sb/>si<sb/><rhyme label="b">red,</rhyme></seg>
                     </l>
                     <l n="15" met="-+-+-+-+" real="-+++-+-+-|--++-+-+-" part="N">
                     <seg>And not </seg>
-                    <seg>blush so </seg>
+                    <seg met="-+" real="++">blush so </seg>
                     <seg>to be </seg>
-                    <seg>ad<sb/>mi<sb/><rhyme label="b">red.</rhyme></seg>
+                    <seg met="-+" real="-+-">ad<sb/>mi<sb/><rhyme label="b">red.</rhyme></seg>
                     </l>
                 </lg>
                 <lg n="1" type="quintet" met="-+(2/4/2/4/4)" rhyme="ababb" org="uniform" sample="complete" part="N">
                     <l n="16" met="-+-+" real="++-+" part="N">
-                    <seg>Then die! </seg>
+                    <seg met="-+" real="++">Then die! </seg>
                     <caesura/>
                     <seg>that <rhyme label="a">she</rhyme></seg>
                     </l>
@@ -115,7 +115,7 @@
                     <seg>The com<sb/></seg>
                     <seg>mon fate </seg>
                     <seg>of all </seg>
-                    <seg>things <rhyme label="b">rare</rhyme></seg>
+                    <seg met="-+" real="++">things <rhyme label="b">rare</rhyme></seg>
                     </l>
                     <l n="18" met="-+-+" real="-+-+" part="N">
                     <seg>May read </seg>
@@ -127,9 +127,9 @@
                     <seg>of time </seg>
                     <seg>they <rhyme label="b">share</rhyme></seg>
                     </l>
-                    <l n="20" met="-+-+-+-+" real="--++-+-+|-+-+-+-+" part="N">
-                    <seg>That are </seg>
-                    <seg>so won<sb/></seg>
+                    <l n="20" met="-+-+-+-+" real="--++-+-+" part="N">
+                    <seg met="-+" real="--">That are </seg>
+                    <seg met="-+" real="++">so won<sb/></seg>
                     <seg>drous sweet </seg>
                     <note anchored="true"> This last line may be scanned iambically like the two
                         that precede it. But with a a pyrrhic-spondee combination in the first two

@@ -17,7 +17,7 @@
                 <lg n="1" type="octave" met="-+(4/4/4/4/4/4/4/4)" rhyme="aabbccdd" org="uniform" sample="complete" part="N">
                     <l n="1" met="-+-+-+-+" real="-+-+-+-+" part="N">
                    <seg>Though I </seg>
-                   <seg>am young,</seg>
+                   <seg>am young, </seg>
                    <seg>and can<sb/></seg>
                    <seg>not <rhyme label="a">tell</rhyme></seg>
                     </l>
@@ -39,7 +39,7 @@
                         <seg>at hu<sb/></seg>
                         <seg>man <rhyme label="b">hearts.</rhyme></seg>
                     </l>
-                    <l n="5" met="-+-+-+-+" real="-+-+-+-+|-+-++--+" part="N">
+                    <l n="5" met="-+-+-+-+" real="-+-++--+" part="N">
                         <seg>And then </seg>
                         <seg>a<sb/>gain, </seg>
                         <seg met="-+" real="+-">I have </seg>
@@ -65,8 +65,8 @@
                     </l>
                 </lg>
                 <lg n="1" type="octave" met="-+(4/4/4/4/4/4/4/4)" rhyme="aabbccdd" org="uniform" sample="complete" part="N">
-                    <l n="9" met="-+-+-+-+" real="-+-+-+-+" part="N">
-                        <seg>As in </seg>
+                    <l n="9" met="-+-+-+-+" real="-+-+-+-+|+--+-+-+" part="N">
+                        <seg met="-+" real="+-">As in </seg>
                         <seg>a ru<sb/></seg>
                         <seg>in we </seg>
                         <seg>it <rhyme label="a">call</rhyme></seg>
@@ -77,9 +77,9 @@
                         <seg>blown up, </seg>
                         <seg>or <rhyme label="a">fall;</rhyme></seg>
                     </l>
-                    <l n="11" met="-+-+-+-+" real="-+-+++-+" part="N">
+                    <l n="11" met="-+-+-+-+" real="-+--+++-+" part="N">
                         <seg>Or to </seg>
-                        <seg>our end </seg>
+                        <seg met="-+" real="--+">o<sb/>ur end </seg>
                         <seg met="-+" real="++">like way </seg>
                         <seg>may <rhyme label="b">have</rhyme></seg>
                     </l>
@@ -103,8 +103,8 @@
                     </l>
                     <l n="15" met="-+-+-+-+" real="-+++-+-+" part="N">
                         <seg>Ex<sb/>cept </seg>
-                        <seg met="-+" real="++">Love's fires </seg>
-                        <seg>the vir<sb/></seg>
+                        <seg met="-+" real="++">Love's fi<sb/></seg>
+                        <seg met="-+" real="--+">res the vir<sb/></seg>
                         <seg>tue <rhyme label="d">have</rhyme></seg>
                     </l>
                     <l n="16" met="-+-+-+-+" real="-+-++--+" part="N">
