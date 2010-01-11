@@ -1,3 +1,7 @@
+# Updated the max_file_size to 8M
+php_value upload_max_filesize 81388608
+
+
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteBase /
