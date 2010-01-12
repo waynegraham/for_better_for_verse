@@ -8,7 +8,7 @@
                     <title>When a Man Hath No Freedom</title>
                     <author>George Gordon, Lord Byron</author>
                 </titleStmt>
-                <publicationStmt><p/></publicationStmt>
+                <publicationStmt><date>1820</date></publicationStmt>
                 <sourceDesc default="false"><p/></sourceDesc>
             </fileDesc>
         </teiHeader>
@@ -25,7 +25,15 @@
                         <seg>Let him com<sb/></seg>
                         <seg>bat for that </seg>
                         <seg>of his neigh<sb/><rhyme label="b">bours;</rhyme></seg>
-                        <note>Even if you didn't know that until recently the verb "combat" took stress on the first syllable (like the noun), the place it finds in Byron's anapests would tell you so.  Triple rhythms, as you get into the imperious swing of them, prove much bossier than double ones.  Thus you don't stress "Let" at the head of this line; and by line 8 you should find yourself conceding a slack on "shot" without a fight, as in an iambic poem you never would.</note>
+                    <note>Even if you didn't know that until recently the verb "combat" took stress
+                        on the first syllable (like the noun), the place it finds in Byron's
+                        anapests would tell you so. Triple rhythms, as you get into the imperious
+                        swing of them, prove much bossier than double ones. Thus you don't stress
+                        "Let" at the head of this line; and by line 8 you should find yourself
+                        conceding a slack on "shot" without a fight, as in an iambic poem you never
+                        would. This poem also shows, by the way, that triple meter welcomes feminine
+                        endings: u u / u may looks ungainly in the final foot, but it's quite
+                        acceptable and not uncommon.</note>
                     </l>
                     <l n="3" met="--+--+--+--+" real="--+--+--+--+" part="N">
                         <seg>Let him think </seg>
