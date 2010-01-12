@@ -38,10 +38,11 @@
                     <l n="5" met="-+-+-+" real="--+-+-+">
                         <seg>Be<sb/>ing hon<sb/></seg>
                         <seg>our bred, </seg>
+                        <caesura/>
                         <seg>with <rhyme label="c">one</rhyme></seg>
                     </l>
                     <l n="6" met="-+-+-+" real="+--+-+|-+-+-+">
-                        <seg>Who, were </seg>
+                        <seg>Who, <caesura/>were </seg>
                         <seg>it proved </seg>
                         <seg>he <rhyme label="d">lies,</rhyme></seg>
                     </l>
@@ -54,9 +55,15 @@
                         <seg>Nor in </seg>
                         <seg>his neigh<sb/></seg>
                         <seg>bours' <rhyme label="d">eyes?</rhyme></seg>
-                        <note anchored="true">
-                            While it's acceptable to scan this line as straight iambic trimeter, a couple of reasons conspire to make a trochee the better bet in the first foot.  "Nor" attracts stress from its partner "neither" one line above.  Besides, "in" isn't stressed in that line, so why stress it here?  Furthermore, Yeats has set up a nice undercurrent of variable double-slacks across the middle lines of the  poem, whether by anapestic substitution or, as here, by putting a trochee before an iamb.  The resulting skip livens things up and helps keep the poem from turning into a heavy scold. 
-                        </note>
+                    <note anchored="true"> While it's acceptable to scan this line as straight
+                        iambic trimeter, a couple of reasons conspire to make a trochee the better
+                        bet in the first foot. "Nor" attracts stress from its partner "neither" one
+                        line above. Besides, "in" isn't stressed in that line, so why stress it
+                        here? Furthermore, Yeats has set up a nice undercurrent of variable
+                        double-slacks across the middle lines of the poem, whether by anapestic
+                        substitution or, as here, by putting a trochee before an iamb. The resulting
+                        skip livens things up and helps keep the poem from turning into a heavy
+                        scold. </note>
                     </l>
                     <l n="9" met="-+-+-+" real="+--+-+">
                         <seg>Bred to </seg>
@@ -98,8 +105,15 @@
                         <seg>That is </seg>
                         <seg>most dif<sb/></seg>
                         <seg>fi<sb/><rhyme label="g">cult.</rhyme></seg>
-                        <note anchored="true">
-                            It seems right that this line asserting difficulty should be the most difficult in the poem to scan.  The sense of obstacles overcome is heightened when the initial trochee here follows the spondaic ending of the line before it: four consecutive stressed syllables, in a poem as short and taut as this one, amount to something!  And then there's the almost reluctant perseverance of the stress on the poem's final syllable, obligated by rhyme.  Though in ordinary parlance it might wind down into a mutter, the syllable as Yeats has set it up requires a final push to the end: tired but proud, a bit spitefully spat out.   </note>
+                    <note anchored="true"> It seems right that this line asserting difficulty should
+                        be the most difficult in the poem to scan. The sense of obstacles overcome
+                        is heightened when the initial trochee here follows the spondaic ending of
+                        the line before it: four consecutive stressed syllables, in a poem as short
+                        and taut as this one, amount to something! And then there's the almost
+                        reluctant perseverance of the stress on the poem's final syllable, obligated
+                        by rhyme. Though in ordinary parlance it might wind down into a mutter, the
+                        syllable as Yeats has set it up requires a final push to the end: tired but
+                        proud, a bit spitefully spat out. </note>
                     </l>
                 </lg>
             </body></text></TEI>
