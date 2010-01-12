@@ -237,6 +237,7 @@ small.date {
 
 #rhyme .check {
     padding: 0 3px !important;
+	font-weight: bold;
 }
 
 #rhyme input {

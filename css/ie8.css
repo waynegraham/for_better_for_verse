@@ -8,6 +8,6 @@
 	overflow: hidden;
 }
 
-#rhyme {
-	font-family: "Arial Unicode MS", "MS Mincho", Helvetica, sans-serif !important;
+#rhyme .check {
+	font-family: "MS Mincho", "Arial Unicode MS", Helvetica, sans-serif !important;
 }
