@@ -74,7 +74,7 @@ function checkrhyme(scheme, answer){
     if(scheme == answer) {
         $('rhymecheck').addClassName('right');
         $('rhymecheck').removeClassName('wrong');
-		$('rhymecheck').setValue('✓');
+		$('rhymecheck').setValue('√');
     } else {
         $('rhymecheck').addClassName('wrong');
         $('rhymecheck').removeClassName('right');
