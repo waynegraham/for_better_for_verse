@@ -1,6 +1,9 @@
 /**
  * Fixes for IE 7
  */
+#main {
+	font-family: "Arial Unicode MS",Arial,Helvetica,sans-serif;
+}
 #poem {
 	font-family: monospace !important;
 	line-height: 1.2em;

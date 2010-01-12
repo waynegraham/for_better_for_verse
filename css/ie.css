@@ -9,6 +9,9 @@
 	padding: 0;
 	}
 	*/
+body #main {
+	font-family: "Arial Unicode MS",Arial,Helvetica,sans-serif;
+
 span.prosody-footmarker {
 	color: #DEB887;
 	vertical-align: bottom;
