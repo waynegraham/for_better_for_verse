@@ -77,7 +77,10 @@
                     
                     <xsl:variable name="seg-position" select="position()"/>
                     
-                    <xsl:for-each select="text()|*/text()">
+                    <xsl:for-each select="text()|*/text()|TEI:caesura">
+                    	<xsl:if test="name(.)='caesura'">
+                        	<span class="caesura" style="display:none">//</span>
+                        </xsl:if>	
                         <xsl:variable name="foot-position" select="position()"/>
                         <xsl:variable name="foot-last" select="last()"/>
                         <xsl:for-each select="tokenize(string(.),' ')">
@@ -117,8 +120,10 @@
                     segment ends with a space -->
                    
                     <xsl:variable name="seg-position" select="position()"/>
-
-                    <xsl:for-each select="text()|*/text()">
+			<xsl:for-each select="text()|*/text()|TEI:caesura">
+			<xsl:if test="name(.)='caesura'">
+				<span class="caesura" style="display:none">//</span>
+			</xsl:if>
                         <xsl:variable name="foot-position" select="position()"/>
                         <xsl:variable name="foot-last" select="last()"/>
                         <xsl:for-each select="tokenize(.,' ')">
@@ -140,7 +145,7 @@
                             </xsl:if>
                         </xsl:for-each>
                     </xsl:for-each>
-                    <xsl:if test="name(following-sibling::*[1]) = 'caesura'">
+                    <xsl:if test="(name(following-sibling::*[1]) = 'caesura')">
                         <span class="caesura" style="display:none">//</span>
                     </xsl:if>
                 </xsl:for-each>
@@ -181,7 +186,4 @@
             
         </div>
     </xsl:template>
-    
-    <xsl:template match="caesura"/>
-    
 </xsl:stylesheet>
