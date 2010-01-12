@@ -7,3 +7,7 @@
 	word-spacing: 0 !important;
 	overflow: hidden;
 }
+
+#rhyme {
+	font-family: "Arial Unicode MS", Helvetica, sans-serif;
+}
