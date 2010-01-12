@@ -20,7 +20,7 @@
                     </div>
                 </xsl:for-each>
             </xsl:for-each>
-                <div class="lrhyme check"><input type="submit" value="&#10004;" size="1" maxlength="1" id="rhymecheck"/></div>
+                <div class="lrhyme check"><input type="submit" value="&#x2713;" size="1" maxlength="1" id="rhymecheck"/></div>
             </form>            
         </div>
         <div id="rhymebar">
