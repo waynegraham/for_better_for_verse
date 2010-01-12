@@ -16,7 +16,7 @@
                 <br/>
                 <xsl:for-each select="TEI:l">
                     <div class="lrhyme">
-                        <input size="1" maxlength="1" value="a" name="lrhyme-{$lgPos}-{position()}" type="text" onFocus="this.value=''"/>
+                        <input size="1" maxlength="1" value="a" name="lrhyme-{$lgPos}-{position()}" type="text" onFocus="this.value='';this.style['color'] = '#44FFFF';"/>
                     </div>
                 </xsl:for-each>
             </xsl:for-each>
