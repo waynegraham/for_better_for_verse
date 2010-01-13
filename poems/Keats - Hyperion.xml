@@ -63,7 +63,7 @@
                     <seg>his head</seg>
                 </l><l n="7" met="-+-+-+-+-+" real="-+-+++-+-+">
                     <seg>Like cloud </seg>
-                    <seg>on cloud.  </seg>
+                    <seg>on cloud. </seg>
                     <caesura/>
                     <seg met="-+" real= "++">No stir </seg>
                     <seg>of air </seg>
@@ -76,21 +76,22 @@
                     <seg>mer's day</seg>
                 </l><l n="9" met="-+-+-+-+-+" real="+++++--+-+">
                     <seg met="-+" real= "++">Robs not </seg>
-                    <seg met="-+" real= "++">one light</seg>
+                    <seg met="-+" real= "++">one light </seg>
                     <seg met="-+" real= "+-">seed from </seg>
                     <seg>the fea<sb/></seg>
                     <seg>ther'd grass,</seg>
-                    <note>Five consecutive stresses -- half the decasyllabic line -- seems unlikely,
-                        yet this is not the only line in Keats that pulls the trick off. There has
-                        to be a slack in that series somewhere, we say; but where, exactly?
-                        Remarkably, here the effect is not ponderous, as spondee-jams like the one
-                        in lines 3-4 above tend to be, but the reverse: weightless, suspended;
-                        indeed suspenseful, yet without a hint of resolution. This may be the place
-                        to note Keats's care to show by typography how many syllables an ambiguous
-                        participle like "feather'd" should have. When he wants the opposite effect
-                        in a later line of this same poem and writes, "Tall oaks, branch-charmed by
-                        the earnest stars," we know from the absence of apostrophe to give "charmed"
-                        two syllables and so fill the pentameter out.</note>
+                    <note>The run of five consecutive stresses -- engrossing fully half the
+                        decasyllabic line -- seems unlikely, yet this is not the only line in Keats
+                        that pulls the trick off. There has to be a slack in that series somewhere,
+                        we say; but where? It's impossible to say. Remarkably, here the effect is
+                        not ponderous, as spondee-jams like the one in lines 3-4 above tend to be.
+                        It's the reverse: weightless, suspended; indeed suspenseful, yet without a
+                        hint of resolution. This may be the place to note Keats's care to show by
+                        typography how many syllables an ambiguous participle like "feather'd"
+                        should have. When he wants the opposite effect in a later line of this same
+                        poem and writes, "Tall oaks, branch-charmed by the earnest stars," we know
+                        from the absence of apostrophe to give "charmed" two syllables and so fill
+                        the pentameter out.</note>
                 </l><l n="10" met="-+-+-+-+-+" real="-+-++++--+">
                     <seg>But where </seg>
                     <seg>the dead </seg>
@@ -118,11 +119,18 @@
                     <seg>the Nai<sb/></seg>
                     <seg>ad mid </seg>
                     <seg>her reeds</seg>
-                </l><l n="14" met="-+-+-+-+-+" real="+-++-+-+-+">
+                </l><l n="14" met="-+-+-+-+-+" real="+-++-+-+-+|+-++-+---+">
                     <seg met="-+" real= "+-">Press'd her </seg>
                     <seg met="-+" real= "++">cold fin<sb/></seg>
                     <seg>ger clos<sb/></seg>
-                    <seg>er to </seg>
+                    <seg met="-+" real="--">er to </seg>
                     <seg>her lips.</seg>
+                    <note anchored="true"> A final point about this sstunning passage concerns verse
+                        beginnings. A majority of the lines begin with a stressed syllable and not
+                        the iambically normal slack. Toggle the Syncopation button once your
+                        complete scansion is correct, and see for yourself how often it happens
+                        here. This habit of descriptive impetus Keats learned from his master in
+                        epic versification Milton. Compare the two poets' practice by going to our 4B4V
+                        sample from Paradise Lost (titled Eden First Seen). </note>
                 </l>
                     </lg></body></text></TEI>
