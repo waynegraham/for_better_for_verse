@@ -23,7 +23,7 @@
                    <seg>er large,</seg>
                </l><l n="2" met="-+-+-+-+-+" real="-+-+-+-+-+">
                     <seg>Nor chang'd </seg>
-                    <seg>his course, </seg>
+                    <seg>his course, </seg>                   
                     <seg>but through </seg>
                     <seg>the shag<sb/></seg>
                     <seg>gy hill</seg>
@@ -55,12 +55,19 @@
                 </l><l n="7" met="-+-+-+-+-+" real="+-++-+-+--+|+-++---+--+">
                     <seg>Rose a </seg>
                     <seg>fresh foun<sb/></seg>
-                    <seg>tain, and </seg>
+                    <seg>tain, <caesura/>and </seg>
                     <seg>with man<sb/></seg>
                     <seg>y a rill</seg>
-                    <note anchored="true">
-                        Anyone who has gotten this far in 4B4V will take the trochaic and spondaic substitutions of feet 1 and 2 in stride, and will find feet 4 and 5 unproblematic.  The third foot, though, should prompt hesitation: iamb (reinforced by the comma before "and") or pyrrhic (holding the line to 5 stresses, and taking it easy after the thump of the spondee just before)?  It depends how you visualize, or with the blind Milton feel, the hydraulic flow of the waters the line describes.  Regular like a pump, or scattered like a cascade?  (Coleridge wondered about this too, when dreaming up his own sacred river in "Kubla Khan.")  This passage will confront you with similar choices later, e.g. in line 11.
-                    </note>
+                    <note anchored="true"> Anyone who has gotten this far in 4B4V will take the
+                        trochaic and spondaic substitutions of feet 1 and 2 in stride, and will find
+                        feet 4 and 5 unproblematic. The third foot, though, should prompt
+                        hesitation: iamb (reinforced by the comma before "and") or pyrrhic (holding
+                        the line to 5 stresses, and taking it easy after the thump of the spondee
+                        just before)? It depends how you visualize, or with the blind Milton feel,
+                        the hydraulic flow of the waters the line describes. Regular like a pump, or
+                        scattered like a cascade? (Coleridge wondered about this too, when dreaming
+                        up his own sacred river in "Kubla Khan.") This passage will confront you
+                        with similar choices later, e.g. in line 11. </note>
                 </l><l n="8" met="-+-+-+-+-+" real="+--+-+-+-+">
                     <seg>Wa<sb/>ter'd </seg>
                     <seg>the Gar<sb/></seg>
@@ -100,6 +107,15 @@
                     <seg>of here </seg>
                     <seg>needs no </seg>
                     <seg>ac<sb/>count,</seg>
+                    <note anchored="true"> Alternative scansions are certainly possible here. Our
+                        rules after all say to stress "needs," a monosyllabic verb; and in deference
+                        to that stress "no" might be a slack and the shadowy term "whereof" might go
+                        unstressed entirely. But then the resulting scansion, with its pyrrhic
+                        second foot and trochaic fourth foot, would be so irregular as to call
+                        attention to just what Milton means to dismiss. 4B4V proposes straight
+                        iambics instead, which serenely bypass those unnamed "famous Realms" and
+                        fasten the imagination instead on Paradise, a realm made by God not man, and
+                        infinitely more beautiful. </note>
                 </l><l n="14" met="-+-+-+-+-+" real="-+--++-+-+">
                     <seg>But rath<sb/></seg>
                     <seg>er to </seg>
@@ -133,6 +149,15 @@
                         <seg>each plant, </seg>
                         <caesura/>
                         <seg>and fed</seg>
+                    <note anchored="true"> The double caesura assigned to this line is admittedly
+                        debatable, especially where the clearly punctuated lines 2 and 9 get no
+                        caesura at all. As with most subtleties of metrical calibration, these all
+                        bespeak a reader's judgment as to how a given line should sound, which is
+                        entwined with judgment as to what a line is saying and doing. Line 18 here
+                        is (like the river) paying visits, taking its sweet attentive time. In
+                        contrast lines 2 and 9 are (like the river) moving right along: their commas
+                        mark a syntactic division rather than a pause in the flow, so there 4B4V
+                        prefers to skip the caesura and step it up. </note>
                     </l><l n="19" met="-+-+-+-+-+" real="++--+-+-+++">
                         <seg>Flow'rs worth<sb/></seg>
                         <seg>y of Par<sb/></seg>
