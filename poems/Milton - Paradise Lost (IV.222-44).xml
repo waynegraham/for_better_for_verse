@@ -27,7 +27,7 @@
                     <seg>but through </seg>
                     <seg>the shag<sb/></seg>
                     <seg>gy hill</seg>
-                </l><l n="3" met="-+-+-+-+-+" real="+--+-+-+-+">
+                </l><l n="3" met="-+-+-+-+-+" real="+--+-+-+-+|++-+-+-+-+">
                     <seg>Pass'd un<sb/></seg>
                     <seg>der<sb/>neath </seg>
                     <seg>in<sb/>gulft, </seg>
@@ -98,9 +98,10 @@
                     <seg>d'ring man<sb/></seg>
                     <seg>y a fa<sb/></seg>
                     <seg>mous Realm</seg>
-                    <note anchored="true">
-                        "Diverse": Milton probably stressed the first syllable; you probably stress the second.  This seems a good spot to admit some diversity, so long as we all agree the iambic pentameter runs into a little dam just here.
-                    </note>
+                    <note anchored="true"> "Diverse": Milton probably stressed the first syllable;
+                        you probably stress the second. This seems a good spot to admit some
+                        diversity, so long as we all agree the iambic pentameter runs into a little
+                        dam just here. </note>
                 </l><l n="13" met="-+-+-+-+-+" real="-+-+-+-+-+">
                     <seg>And coun<sb/></seg>
                     <seg>try where<sb/></seg>
