@@ -15,12 +15,12 @@
         <text>
             <body>
                 <lg n="1" type="sonnet" met="-+(5/5/5/5/5/5/5/5/5/5/5/5/5/5)" rhyme="abbaabbacdecde" org="uniform" sample="complete" part="N">
-                    <l n="1" met="-+-+-+-+-+" real="-+-+-+-+-+">
+                    <l n="1" met="-+-+-+-+-+" real="-+-+-+-+--+">
                    <seg>I must </seg>
                    <seg>not think </seg>
                    <seg>of thee; </seg>
                    <caesura/>
-                   <seg>and, <caesura/>tired </seg>
+                   <seg>and, <caesura/><sb>ti</sb>red </seg>
                    <seg>yet <rhyme label="a">strong,</rhyme></seg>
                </l><l n="2" met="-+-+-+-+-+" real="-+-+-+-+-+">
                     <seg>I shun </seg>
