@@ -49,6 +49,7 @@
                 </l><space/><l n="6" part="N" met="-+-+-+-+" real="-+-+-+-+">
                     <seg>The jaws </seg>
                     <seg>that bite, </seg>
+                    <caesura/>
                     <seg>the claws </seg>
                     <seg>that <rhyme label="b">catch!</rhyme></seg>
                 </l><l n="7" part="N" met="-+-+-+-+" real="-+-+-+-+">
@@ -96,6 +97,7 @@
                 </l><space/><l n="14" part="N" met="-+-+-+-+" real="-+-+-+-+">
                     <seg>The Jab<sb/></seg>
                     <seg>ber<sb/>wock, </seg>
+                    <caesura/>
                     <seg>with eyes </seg>
                     <seg>of <rhyme label="b">flame,</rhyme></seg>
                 </l><l n="15" part="N" met="-+-+-+-+" real="-+-+-+-+">
@@ -141,8 +143,7 @@
                     <seg>ber<sb/><rhyme label="a">wock?</rhyme></seg>
                 </l><space/><l n="22" part="N" met="-+-+-+-+" real="+--+-+-+">
                     <seg met="-+" real="+-">Come to </seg>
-                    <seg>my arms, </seg>
-                    <caesura/>
+                    <seg>my arms, </seg>                   
                     <seg>my beam<sb/></seg>
                     <seg>ish <rhyme label="b">boy!</rhyme></seg>
                 </l><l n="23" part="N" met="-+-+-+-+" real="-+-+-+-+|++-+-+-+">
