@@ -22,7 +22,7 @@
                     <seg met="-+" real="++">All mim<sb/></seg>
                     <seg>sy were </seg>
                     <seg>the bo<sb/></seg>
-                    <seg>ro<sb/><rhyme>goves,</rhyme></seg>
+                    <seg>ro<sb/><rhyme label="a">goves,</rhyme></seg>
                 </l><space/><space/><l n="4" part="N" met="-+-+-+" real="--++-+">
                     <seg met="-+" real="--">And the </seg>
                     <seg met="-+" real="++">mome raths </seg>
@@ -122,7 +122,14 @@
                     <seg>it dead, </seg>
                     <caesura/>
                     <seg>and with </seg>
-                    <seg>its <rhyme label="l">head</rhyme></seg>
+                    <seg>its <rhyme label="x">head</rhyme></seg>
+                    <note anchored="true"> It's easy to miss what happens at this point to the abab
+                        balladic rhyme scheme. Line 3 of this stanza does not rhyme, as it should,
+                        with line 1. (It's therefore marked x in our Rhyme column on the left.) The
+                        reason one tends not to notice is that the line rhymes internally, and
+                        thanks to the caesura quite vociferously, with itself, "dead" with "head."
+                        Carroll indulges this effect in the next stanza too, only to snap out of his
+                        mock-heroic rapture with the reprise of abab at the close of the poem.</note>
                 </l><space/><space/><l n="20" part="N" met="-+-+-+" real="-+-+-+">
                     <seg>He went </seg>
                     <seg>ga<sb/>lumph<sb/></seg>
@@ -152,14 +159,7 @@
                         expresses can't stand up to the gait of the ballad meter galumphing its way
                         along. It's as if the quoted speaker knows s/he is being quoted and is
                         performing the emotion to the hilt, with a vivid sense of how rote the whole
-                        scene is. </note>
-                    <note anchored="true"> And here's another thing about this line. It's easy to
-                        miss what has happened here to the abab balladic rhyme scheme. Line 3 of
-                        this stanza does not rhyme, as it should, with line 1. (It's marked x to
-                        acknowledged this.) We tend not to notice, because the line rhymes
-                        internally, and so vociferously, with itself: "day!" and "Callay!" (whatever
-                        that means). The effect sneaks up on us in the former stanza, where the a
-                        rhyme is thus redoubled twice.</note>
+                        scene is. </note>                    
                 </l><space/><space/><l n="24" part="N" met="-+-+-+" real="-+-+-+">
                     <seg>He chor<sb/></seg>
                     <seg>tled in </seg>
