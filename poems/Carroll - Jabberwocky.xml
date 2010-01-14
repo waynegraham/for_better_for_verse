@@ -138,7 +138,7 @@
                     <seg>my arms, </seg>
                     <caesura/>
                     <seg>my beam<sb/></seg>
-                    <seg>ish <rhyme>boy!</rhyme></seg>
+                    <seg>ish <rhyme label="b">boy!</rhyme></seg>
                 </l><l n="23" part="N" met="-+-+-+-+" real="-+-+-+-+|++-+-+-+">
                     <seg>O frab<sb/></seg>
                     <seg>jous day! </seg>
@@ -153,12 +153,13 @@
                         along. It's as if the quoted speaker knows s/he is being quoted and is
                         performing the emotion to the hilt, with a vivid sense of how rote the whole
                         scene is. </note>
-                    <note anchored="true"> It's easy to miss what has happened here to the abab
-                        balladic rhyme scheme. Line 3 of this stanza does not rhyme, as it should,
-                        with line 1. (It's marked x to acknowledged this.) We tend not to notice,
-                        because the line rhymes internally, and so vociferously, with itself: "day!"
-                        and "Callay!" (whatever that means). The effect sneaks up on us in the
-                        former stanza, where the a rhyme is thus redoubled twice.</note>
+                    <note anchored="true"> And here's another thing about this line. It's easy to
+                        miss what has happened here to the abab balladic rhyme scheme. Line 3 of
+                        this stanza does not rhyme, as it should, with line 1. (It's marked x to
+                        acknowledged this.) We tend not to notice, because the line rhymes
+                        internally, and so vociferously, with itself: "day!" and "Callay!" (whatever
+                        that means). The effect sneaks up on us in the former stanza, where the a
+                        rhyme is thus redoubled twice.</note>
                 </l><space/><space/><l n="24" part="N" met="-+-+-+" real="-+-+-+">
                     <seg>He chor<sb/></seg>
                     <seg>tled in </seg>
