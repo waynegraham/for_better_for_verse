@@ -20,8 +20,8 @@
                    <seg>not think </seg>
                    <seg>of thee; </seg>
                    <caesura/>
-                   <seg>and, <caesura/><sb>ti</sb>red </seg>
-                   <seg>yet <rhyme label="a">strong,</rhyme></seg>
+                   <seg>and, <caesura/><sb>ti</sb></seg>
+                   <seg>red yet <rhyme label="a">strong,</rhyme></seg>
                </l><l n="2" met="-+-+-+-+-+" real="-+-+-+-+-+">
                     <seg>I shun </seg>
                     <seg>the thought </seg>
@@ -66,10 +66,10 @@
                     <seg>er, nev<sb/></seg>
                     <seg>er come </seg>
                     <seg>in <rhyme label="b">sight;</rhyme></seg>
-                </l><l n="8" met="-+-+-+-+-+" real="--++-+-+++">
+                </l><l n="8" met="-+-+-+-+-+" real="--++---+++">
                     <seg real="--">I must </seg>
                     <seg met="-+" real="++">stop short </seg>
-                    <seg>of thee </seg>
+                    <seg met="-+" real="--">of thee </seg>
                     <seg>the whole </seg>
                     <seg met="-+" real="++">day <rhyme label="a">long.</rhyme></seg>
                 </l><l n="9" met="-+-+-+-+-+" real="--++-+++--+">
@@ -81,8 +81,8 @@
                     <note anchored="true"> Prosody makes life's hardship into poetry's opportunity:
                         here, the opportunity to write a line that earns its keep by tough going:
                         four different kinds of foot in one pentameter line about difficulty. The
-                        line above this one, incidentally, is nearly as impressive for the way it
-                        makes the first spondee an impediment underfoot, the second a load on the
+                        line just above this one, incidentally, is nearly as impressive for the way it
+                        makes the first spondee a stumbling block, the second a load on the
                         heart. </note>
                 </l><l n="10" met="-+-+-+-+-+" real="-+++--++-+">
                     <seg>When night </seg>
