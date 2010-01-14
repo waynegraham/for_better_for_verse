@@ -40,7 +40,7 @@
                         nice closing thump that he likes so well he brings it back for a reprise in
                         the poem's last line, where we hail it as an old friend. </note>
                 </l></lg>
-             <lg n="2" type="stanza" met="-+(4/4/4/3)" rhyme="cdcd" org="uniform" sample="complete" part="N">
+             <lg n="2" type="stanza" met="-+(4/4/4/3)" rhyme="abab" org="uniform" sample="complete" part="N">
                   <l n="5" part="N" met="-+-+-+-+" real="-+-+-+-+">
                     <seg>"Be<sb/>ware </seg>
                     <seg>the Jab<sb/></seg>
@@ -61,7 +61,7 @@
                     <seg met="-+" real="--+">mi<sb/>ous Ban<sb/></seg>
                     <seg>der<sb/><rhyme label="b">snatch!"</rhyme></seg>
                 </l></lg>
-             <lg n="3" type="stanza" met="-+(4/4/4/3)" rhyme="efgf" org="uniform" sample="complete" part="N"><l n="9" part="N" met="-+-+-+-+" real="-+-+-+-+">
+             <lg n="3" type="stanza" met="-+(4/4/4/3)" rhyme="abxb" org="uniform" sample="complete" part="N"><l n="9" part="N" met="-+-+-+-+" real="-+-+-+-+">
                     <seg>He took </seg>
                     <seg>his vor<sb/></seg>
                     <seg>pal sword </seg>
@@ -88,7 +88,7 @@
                     <seg>a<sb/>while </seg>
                     <seg>in <rhyme label="b">thought.</rhyme></seg>
                 </l></lg>
-           <lg n="4" type="stanza" met="-+(4/4/4/3)" rhyme="hihi" org="uniform" sample="complete" part="N"><l n="13" part="N" met="-+-+-+-+" real="-+-+-+-+">
+           <lg n="4" type="stanza" met="-+(4/4/4/3)" rhyme="abab" org="uniform" sample="complete" part="N"><l n="13" part="N" met="-+-+-+-+" real="-+-+-+-+">
                     <seg>And as </seg>
                     <seg>in uf<sb/></seg>
                     <seg>fish thought </seg>
@@ -108,7 +108,7 @@
                     <seg>bled as </seg>
                     <seg>it <rhyme label="b">came!</rhyme></seg>
                 </l></lg>
-           <lg n="5" type="stanza" met="-+(4/4/4/3)" rhyme="jklk" org="uniform" sample="complete" part="N"><l n="17" part="N" met="-+-+-+-+" real="-+-+-+-+|++++-+-+">
+           <lg n="5" type="stanza" met="-+(4/4/4/3)" rhyme="abxb" org="uniform" sample="complete" part="N"><l n="17" part="N" met="-+-+-+-+" real="-+-+-+-+|++++-+-+">
                     <seg>One, two! </seg>
                     <seg>One, two! </seg>
                     <caesura/>
@@ -134,7 +134,7 @@
                     <seg>ga<sb/>lumph<sb/></seg>
                     <seg>ing <rhyme label="b">back.</rhyme></seg>
                 </l></lg>
-          <lg n="5" type="stanza" real="-+(4/4/4/3)" rhyme="mnon" org="uniform" sample="complete" part="N"><l n="21" part="N" met="-+-+-+-+" real="-+-+-+-+">
+          <lg n="5" type="stanza" real="-+(4/4/4/3)" rhyme="abxb" org="uniform" sample="complete" part="N"><l n="21" part="N" met="-+-+-+-+" real="-+-+-+-+">
                     <seg>"And hast </seg>
                     <seg>thou slain </seg>
                     <seg>the Jab<sb/></seg>
