@@ -73,10 +73,16 @@
                     <seg>he <rhyme label="b">sought-</rhyme></seg>
                 </l><l n="11" part="N" met="-+-+-+-+" real="-+-+--+-+">
                     <seg>So rest<sb/></seg>
-                    <seg>ed he </seg>
-                    <caesura/>
+                    <seg>ed he </seg>                  
                     <seg>by the Tum<sb/></seg>
-                    <seg>tum <rhyme label="a">tree,</rhyme></seg>
+                    <seg>tum <rhyme label="x">tree,</rhyme></seg>
+                    <note anchored="true"> It's easy to miss what happens at this point to the abab
+                        balladic rhyme scheme. Line 3 of this stanza does not rhyme, as it should,
+                        with line 1. (It's therefore marked x in our Rhyme column on the left.) The
+                        reason one tends not to notice is that the line rhymes internally with
+                        itself, "he" with "tree." Carroll indulges this effect in several ensuing
+                        stanzas, only to snap out of his mock-heroic rapture with the reprise of
+                        abab at the close of the poem.</note>
                 </l><space/><space/><l n="12" part="N" met="-+-+-+" real="-+-+-+">
                     <seg>And stood </seg>
                     <seg>a<sb/>while </seg>
@@ -122,14 +128,7 @@
                     <seg>it dead, </seg>
                     <caesura/>
                     <seg>and with </seg>
-                    <seg>its <rhyme label="x">head</rhyme></seg>
-                    <note anchored="true"> It's easy to miss what happens at this point to the abab
-                        balladic rhyme scheme. Line 3 of this stanza does not rhyme, as it should,
-                        with line 1. (It's therefore marked x in our Rhyme column on the left.) The
-                        reason one tends not to notice is that the line rhymes internally, and
-                        thanks to the caesura quite vociferously, with itself, "dead" with "head."
-                        Carroll indulges this effect in the next stanza too, only to snap out of his
-                        mock-heroic rapture with the reprise of abab at the close of the poem.</note>
+                    <seg>its <rhyme label="x">head</rhyme></seg>                    
                 </l><space/><space/><l n="20" part="N" met="-+-+-+" real="-+-+-+">
                     <seg>He went </seg>
                     <seg>ga<sb/>lumph<sb/></seg>
