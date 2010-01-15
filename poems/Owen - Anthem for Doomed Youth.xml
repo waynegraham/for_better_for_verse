@@ -22,7 +22,7 @@
                    <seg>who die </seg>
                    <seg met="-+" real="-+-">as cat<sb/><rhyme label="a">tle?</rhyme></seg>
                </l><l n="2" met="-+-+-+-+-+" real="+--+-+-+-+">
-                   <seg met="-+" real="+-">-- On<sb/>ly </seg>
+                   <seg met="-+" real="+-">On<sb/>ly </seg>
                     <seg>the mon<sb/></seg>
                     <seg>strous an<sb/></seg>
                     <seg>ger of </seg>
@@ -31,7 +31,7 @@
                     <seg met="-+" real="+-">On<sb/>ly </seg>
                     <seg>the stut<sb/></seg>
                     <seg met="-+" real="--+">ter<sb/>ing ri<sb/></seg>
-                    <seg>fles ra<sb/></seg>
+                    <seg>fles' ra<sb/></seg>
                     <seg met="-+" real="-+-">pid rat<sb/><rhyme label="a">tle</rhyme></seg>
                     <note anchored="true"> Rat-a-tat-tat. Every reader's ear will catch the guttural
                         assonance here, and be caught by the way "stuttering" reverberates through
@@ -56,7 +56,7 @@
                     <seg>y voice </seg>
                     <seg>of mourn<sb/></seg>
                     <seg >ing save </seg>
-                    <seg met="-+" real="-+-">the cho<sb/><rhyme label="d">irs, --</rhyme></seg>
+                    <seg met="-+" real="-+-">the cho<sb/><rhyme label="d">irs,--</rhyme></seg>
                 </l><l n="7" met="-+-+-+-+-+" real="-+-+-+--+-+">
                     <seg>The shrill, </seg>
                     <seg>de<sb/>ment<sb/></seg>
@@ -71,9 +71,9 @@
                     <seg met="-+" real="++-">sad shi<sb/><rhyme label="d">res.</rhyme></seg></l>
                 </lg>
                 <lg n="2" type="sonnet" met="-+(5/5/5/5/5/5)" rhyme="effegg" org="uniform" sample="complete" part="N">
-                    <l n="9" met="-+-+-+-+-+" real="-+-+-+-+-+">
-                    <seg>What can<sb/></seg>
-                    <seg>dles may </seg>
+                    <l n="9" met="-+-+-+-+-+" real="-+-+-+-+-+|++---+-+-+">
+                    <seg met="-+" real="++">What can<sb/></seg>
+                    <seg met="-+" real="--">dles may </seg>
                     <seg>be held </seg>
                     <seg>to speed </seg>
                     <seg>them <rhyme label="e">all?</rhyme></seg>
