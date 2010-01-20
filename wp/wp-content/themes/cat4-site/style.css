@@ -352,6 +352,7 @@ hr {
 .poem-results ul li ul {
 	margin: 5px 0 10px;
 	border-top: 1px solid #19191b;
+	max-height: 9999px;
 }
 
 .poem-results ul.titles li {
