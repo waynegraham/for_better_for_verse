@@ -809,7 +809,7 @@ margin-top: expression(0 - parseInt(this.offsetHeight / 2) + (TBWindowMargin = d
 
 /* Footer styles */
 #ft {
-	background-image: url('/images/footer_background.gif');
+	background-image: url('/images/bg_footer.gif');
 	background-repeat: repeat-x;
 	padding-top: 18px;
 	height: 125px;
