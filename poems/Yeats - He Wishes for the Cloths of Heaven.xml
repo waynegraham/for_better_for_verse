@@ -19,7 +19,7 @@
                    <seg met="-+" part="N">Had I </seg>
                    <seg met="-+" part="N">the heav<sb part="N"/></seg>
                    <seg met="-+" real="--+" part="N">ens' em<sb part="N"/>broi<sb part="N"/></seg>
-                   <seg met="-+" part="N">dered <rhyme label="a">cloths,</rhyme></seg>
+                   <seg met="-+" part="N">dered <rhyme label="a">cloths,</rhyme></seg>                        
                </l><l n="2" met="-+-+-+-+" real="-+-+--+-+" part="N">
                     <seg met="-+" part="N">En<sb part="N"/>wrought </seg>
                     <seg met="-+" part="N">with gold<sb part="N"/></seg>
@@ -30,6 +30,10 @@
                     <seg met="-+" real="--+" part="N">and the dim </seg>
                     <seg met="-+" real="--" part="N">and the </seg>
                     <seg met="-+" real="++" part="N">dark <rhyme label="a">cloths</rhyme></seg>
+                    <note anchored="true"> Yes, "cloths" rhymes with itself from line 1, setting up
+                        a rare pattern of identical rhyming that the poem maintains throughout, for
+                        reasons best known to Yeats. Perhaps it has something to do with this
+                        superb, spare lyric's atmosphere of entranced sobriety. </note>
                 </l><l n="4" met="-+-+-+-+" real="-+-+--++" part="N">
                     <seg met="-+" part="N">Of night </seg>
                     <seg met="-+" part="N">and light </seg>
