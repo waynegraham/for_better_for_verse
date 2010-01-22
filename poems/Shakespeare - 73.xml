@@ -6,7 +6,7 @@
         <fileDesc>
             <titleStmt>
     <title>Sonnet 73</title><author>William Shakespeare</author></titleStmt><publicationStmt><date>1609</date></publicationStmt><sourceDesc default="false"><p/></sourceDesc></fileDesc></teiHeader><text><body>
-        <lg n="1" type="quatrain" met="-+-+-+-+-+" rhyme="abab" org="uniform" sample="complete" part="N">
+        <lg n="1" type="quatrain" met="-+(5/5/5/5)" rhyme="abab" org="uniform" sample="complete" part="N">
             <l n="1" part="N" met="-+-+-+-+-+" real="-+-+-+-+-+">
                     <seg met="-+" part="N">That time </seg>
                     <seg met="-+" part="N">of year </seg>
@@ -31,7 +31,7 @@
                     <seg met="-+" real="--+" part="N">irs, <caesura/>where late </seg>
                     <seg met="-+" part="N">the sweet </seg>
                     <seg met="-+" real="++" part="N">birds <rhyme label="b">sang.</rhyme></seg>
-                </l></lg><lg n="2" type="quatrain" met="-+(5)" rhyme="cdcd" org="uniform" sample="complete" part="N">
+                </l></lg><lg n="2" type="quatrain" met="-+(5/5/5/5)" rhyme="cdcd" org="uniform" sample="complete" part="N">
                     <l n="5" part="N" met="-+-+-+-+-+" real="-+-+-+--++">
                     <seg met="-+" part="N">In me </seg>
                     <seg met="-+" part="N">thou seest </seg>
@@ -62,7 +62,7 @@
                         "up." 4B4V declines that option, reckoning that the real money word here is
                         "all": the poet enforces the universality of death but is feeling too old to
                         get melodramatic about it. </note>
-                </l></lg><lg n="3" type="quatrain" met="-+(5)" rhyme="efef" org="uniform" sample="complete" part="N">
+                </l></lg><lg n="3" type="quatrain" met="-+(5/5/5/5)" rhyme="efef" org="uniform" sample="complete" part="N">
                     <l n="9" part="N" met="-+-+-+-+-+" real="-+-+-+--++-">
                     <seg met="-+" part="N">In me </seg>
                     <seg met="-+" part="N">thou seest </seg>
@@ -87,7 +87,7 @@
                     <seg met="-+" part="N">which it </seg>
                     <seg met="-+" part="N">was nour<sb part="N"/></seg>
                     <seg met="-+" part="N">ished <rhyme label="f">by.</rhyme></seg>
-                </l></lg><lg n="4" type="couplet" met="-+(5)" rhyme="gg" org="uniform" sample="complete" part="N">
+                </l></lg><lg n="4" type="couplet" met="-+(5/5)" rhyme="gg" org="uniform" sample="complete" part="N">
                     <l n="13" part="N" met="-+-+-+-+-+" real="+--+-+-+-+">
                     <seg met="-+" real="+-" part="N">This thou </seg>
                     <seg met="-+" part="N">per<sb part="N"/>ceiv'st, </seg>
