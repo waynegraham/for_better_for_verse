@@ -22,9 +22,12 @@
                    <seg>with the </seg>
                    <seg>gran<sb/>deur </seg>
                    <seg>of <rhyme label="a">God.</rhyme></seg>
-                   <note anchored="true">
-                       Most readers will hear this line as a tetrameter, 2 iambs plus 2 anapests.  But the rest of the sonnet is so manifestly written in pentameter that a prosodic pedant will return to line 1 and suppose that Hopkins, wanting to make his title word "grandeur" as spacious and dignified as he could, brought out its French-import quality and flourished it as a spondee.
-                   </note>
+                    <note anchored="true"> Most readers will hear this line as a tetrameter, 2 iambs
+                        plus 2 anapests. But the rest of the sonnet is so manifestly written in
+                        pentameter that a prosodic pedant will return to line 1 and suppose that
+                        Hopkins, wanting to make his title word "grandeur" as spacious and dignified
+                        as he could, brought out its French-import quality and flourished it as a
+                        spondee. </note>
                </l>
                 <l n="2" met="-+-+-+-+-+" real="--++-+--++">
                     <seg>It will </seg>
@@ -70,7 +73,7 @@
                 <l n="7" met="-+-+-+-+-+" real="-+++-+++-+">
                     <seg>And wears </seg>
                     <seg>man's smudge </seg>
-                    <seg>and share's </seg>
+                    <seg>and shares </seg>
                     <seg>man's smell: </seg>
                     <caesura/>
                     <seg>the <rhyme label="b">soil</rhyme></seg>
