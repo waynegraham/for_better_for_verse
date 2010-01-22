@@ -12,7 +12,7 @@
                     <seg met="-+" part="N">mer's <rhyme label="a">day</rhyme>?</seg>
                 </l><l n="2" part="N" met="-+-+-+-+-+" real="--++--++-+">
                     <seg met="-+" real="--" part="N">Thou art </seg>
-                    <seg met="-+" real="++" part="N">more love <sb part="N"/></seg>
+                    <seg met="-+" real="++" part="N">more love<sb part="N"/></seg>
                     <seg met="-+" real="--" part="N">ly and </seg>
                     <seg met="-+" real="++" part="N">more tem<sb part="N"/></seg>
                     <seg met="-+" real="-+" part="N">per<sb part="N"/><rhyme label="b">ate</rhyme>:</seg>                 
