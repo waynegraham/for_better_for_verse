@@ -6,7 +6,7 @@
         <fileDesc>
             <titleStmt>
     <title>Sonnet 73</title><author>William Shakespeare</author></titleStmt><publicationStmt><date>1609</date></publicationStmt><sourceDesc default="false"><p/></sourceDesc></fileDesc></teiHeader><text><body>
-        <lg n="1" type="quatrain" met="-+(5)" rhyme="abab" org="uniform" sample="complete" part="N">
+        <lg n="1" type="quatrain" met="-+-+-+-+-+" rhyme="abab" org="uniform" sample="complete" part="N">
             <l n="1" part="N" met="-+-+-+-+-+" real="-+-+-+-+-+">
                     <seg met="-+" part="N">That time </seg>
                     <seg met="-+" part="N">of year </seg>
@@ -15,9 +15,9 @@
                     <seg met="-+" part="N">be<sb part="N"/><rhyme label="a">hold</rhyme></seg>
                 </l><l n="2" part="N" met="-+-+-+-+-+" real="-+-+-+-+-+">
                     <seg met="-+" part="N">When yel<sb part="N"/></seg>
-                    <seg met="-+" part="N">low leaves, </seg>
-                    <seg met="-+" part="N">or none, </seg>
-                    <seg met="-+" part="N">or few, </seg>
+                    <seg met="-+" part="N">low leaves, <caesura/></seg>
+                    <seg met="-+" part="N">or none, <caesura/></seg>
+                    <seg met="-+" part="N">or few, <caesura/></seg>
                     <seg met="-+" part="N">do <rhyme label="b">hang</rhyme></seg>
                 </l><l n="3" part="N" met="-+-+-+-+-+" real="-+-+-+-+-+">
                     <seg met="-+" part="N">Up<sb/>on </seg>
@@ -28,7 +28,7 @@
                 </l><l n="4" part="N" met="-+-+-+-+-+" real="++-+--+-+++">
                     <seg met="-+" real="++" part="N">Bare ru<sb part="N"/></seg>
                     <seg met="-+" part="N">ined cho</seg>                    
-                    <seg met="-+" real="--+" part="N">irs,<caesura/> where late </seg>
+                    <seg met="-+" real="--+" part="N">irs, <caesura/>where late </seg>
                     <seg met="-+" part="N">the sweet </seg>
                     <seg met="-+" real="++" part="N">birds <rhyme label="b">sang.</rhyme></seg>
                 </l></lg><lg n="2" type="quatrain" met="-+(5)" rhyme="cdcd" org="uniform" sample="complete" part="N">
