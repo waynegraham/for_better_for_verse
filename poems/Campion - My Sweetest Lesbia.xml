@@ -29,16 +29,20 @@
                         <seg>our deeds </seg>
                         <seg>re<sb/><rhyme label="a">prove,</rhyme></seg>
                     </l>
-                    <l n="3" met="-+-+-+-+-+" real="+--+-+++-+" part="N">
+                    <l n="3" met="-+-+-+-+-+" real="+--+-+++-+|-+-+-+++-+" part="N">
                         <seg>Let us </seg>
                         <seg>not weigh </seg>
                         <seg>them. <caesura/>Heaven's </seg>
                         <seg>great lamps </seg>
                         <seg>do <rhyme label="b">dive</rhyme></seg>
                     </l>
-                    <note anchored="true">
-                        Getting this line to scan requires treating "Heaven's" as a monosyllable (as in the poetically elided "Heav'n" so dear to hymn writers).  Ordinarily 4B4V dislikes elision, but we have Campion's warrant for it here in the superfluous "do" he inserted before the final syllable.  Remove that "do," and the revised line will scan quite nicely with a disyllabic "Heaven's" and an iamb-spondee pair for the last two feet.  That effect was fully available to the poet, but evidently it's not what he wanted. 
-                    </note>
+                <note anchored="true"> Getting this line to scan requires treating "Heaven's" as a
+                    monosyllable (as in the poetically elided "Heav'n" so dear to hymn writers).
+                    Ordinarily 4B4V dislikes elision, but we have Campion's warrant for it here in
+                    the superfluous "do" he inserted before the final syllable. Remove that "do,"
+                    and the revised line will scan quite nicely with a disyllabic "Heaven's" and an
+                    iamb-spondee pair for the last two feet. That effect was fully available to the
+                    poet, but evidently it's not what he wanted. </note>
                     <l n="4" met="-+-+-+-+-+" real="+--+-+-+-+" part="N">
                         <seg>In<sb/>to </seg>
                         <seg>their west, </seg>

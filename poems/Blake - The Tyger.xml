@@ -29,7 +29,7 @@
                         of terminal truncation?  4B4V reflects a prosodic consensus (not unanimity!)
                         in favoring iambic scansion for such a line, on the principle that meters in
                         English verse tend to rising (stress-ended) feet. Join this consensus and by
-                        the time you reach line 4 you'll be glad you did. </note>
+                        the time you reach line 4, and line 11, you'll be glad you did. </note>
                     </l>
                     <l n="2" met="-+-+-+-+" real="+-+-+-+">
                         <seg>In </seg>
@@ -85,7 +85,7 @@
                     </l>
                 </lg>
                 <lg n="3" type="quatrain" met="-+(4/4/4/4)" rhyme="aabb" org="uniform" sample="complete" part="N">
-                    <l n="9" met="-+-+-+-+" real="+++--++">
+                    <l n="9" met="-+-+-+-+" real="+++--++|+-+-+-+">
                         <seg>And </seg>
                         <seg>what should<sb/></seg>
                         <seg>er, &amp; </seg>
