@@ -15,7 +15,7 @@
                     <seg met="-+" real="++" part="N">more love<sb part="N"/></seg>
                     <seg met="-+" real="--" part="N">ly and </seg>
                     <seg met="-+" real="++" part="N">more tem<sb part="N"/></seg>
-                    <seg met="-+" real="-+" part="N">per<sb part="N"/><rhyme label="b">ate:</rhyme></seg>                 
+                    <seg met="-+" part="N">per<sb part="N"/><rhyme label="b">ate:</rhyme></seg>                 
                 </l><l n="3" part="N" met="-+-+-+-+-+" real="++-+-+-+-+">
                     <seg met="-+" real="++" part="N">Rough winds </seg>
                     <seg met="-+" part="N">do shake </seg>
@@ -58,8 +58,8 @@
                     <seg met="-+" part="N">But thy </seg>
                     <seg met="-+" part="N">e<sb part="N"/>ter<sb part="N"/></seg>
                     <seg met="-+" part="N">nal sum<sb part="N"/></seg>
-                    <seg met="-+" real="--|-+" part="N">mer shall </seg>
-                    <seg met="-+" real="++|-+" part="N">not <rhyme label="e">fade,</rhyme></seg>
+                    <seg met="-+" real="--" part="N">mer shall </seg>
+                    <seg met="-+" real="++" part="N">not <rhyme label="e">fade,</rhyme></seg>
                 </l><l n="10" part="N" met="-+-+-+-+-+" real="-+-+-+-+-+">
                     <seg met="-+" part="N">Nor lose </seg>
                     <seg met="-+" part="N">pos<sb part="N"/>ses<sb part="N"/></seg>
