@@ -25,7 +25,7 @@
                         <seg>Say<sb/>ing that </seg>
                         <seg>now you are </seg>
                         <seg>not as you </seg>
-                        <seg met="+--" real="+"> <rhyme label="b">were</rhyme></seg>
+                        <seg met="+--" real="+"><rhyme label="b">were</rhyme></seg>
                     <note anchored="true"> This line, like each even-numbered line in the first
                         three stanzas, keeps basic faith with the dactylic tetrameter but exhibits
                         double catalexis in the last foot (two slack syllables missing but implied,
@@ -81,15 +81,15 @@
                         elision wherever possible, but here it's just not possible. A sloppy dactyl
                         can be made out of all those early syllables by means of two elisions:
                         "Ev'n" for "even," and "th' " for "the." These changes turn five syllables
-                        into three and yield two feet: EV'n to th'or |IG in al. That leaves half a
+                        into three and yield two feet: EV'n to th'or | IG in al. That leaves half a
                         line to go: a strongly syncopated but still legal spondee in the 3rd foot,
                         and a (by this point ordinary) terminally truncated catalectic 4th. Be proud
-                        if you got this one even as soon as your third try; 4B4V didn't! Consider,
-                        finally, how a remarried old man's airbrushed memory of his first wife, long
-                        estranged and since dead, might represent something of a third try, too;
-                        also how the line bears up under the freight of emotion and memory, its
-                        elided slack syllables hurrying up to the great spondaic billow of the image
-                        at the end of the line. </note>
+                        if you got this one even as soon as your third try; it has taken 4B4V that
+                        long at least! Consider, finally, how a remarried old man's airbrushed
+                        memory of his first wife, long estranged and since dead, might represent
+                        something of a third try, too; also how the line bears up under the freight
+                        of emotion and memory, its elided slack syllables hurrying up to the great
+                        spondaic billow of the image at the end of the line. </note>
                     </l>
                 </lg>
                 <lg n="3" type="quatrain" met="+--(4/4/4/4)" rhyme="abab" org="uniform" sample="complete" part="N">
@@ -118,7 +118,7 @@
                     <l n="12" met="+--+--+--+--" real="+-+--+-+">
                         <seg met="+--" real="+-" >Heard no </seg>
                         <seg>more a<sb/>gain </seg>
-                        <seg met="+--" real="+-">far or</seg>
+                        <seg met="+--" real="+-">far or </seg>
                         <seg met="+--" real="+"><rhyme label="b">near?</rhyme></seg>
                     </l>
                 </lg>
