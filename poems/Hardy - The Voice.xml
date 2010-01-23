@@ -24,14 +24,17 @@
                     <l n="2" met="+--+--+--+--" real="+--+--+--+">
                         <seg>Say<sb/>ing that </seg>
                         <seg>now you are </seg>
-                        <seg>not as </seg>
-                        <seg>you <rhyme label="b">were</rhyme></seg>
-                    <note anchored="true"> Another prosodist might reasonably scan this, and the
-                        even-numbered lines that follow, as four straight dactyls the fourth of
-                        which has double catalexis (two slack syllables missing but implied). 4B4V,
-                        however, hears at these line-ends a more substantial pause -- even though it
-                        may go, as here, unpunctuated -- where the speaker's voice catches breath in
-                        a way the iamb helps underscore. </note>
+                        <seg>not as you </seg>
+                        <seg met="+--" real="+"> <rhyme label="b">were</rhyme></seg>
+                    <note anchored="true"> This line, like each even-numbered line in the first
+                        three stanzas, keeps basic faith with the dactylic tetrameter but exhibits
+                        double catalexis in the last foot (two slack syllables missing but implied,
+                        leaving just the stressed syllable as a toe-hold). The ghostly presence of
+                        these absent slackers is attested by the way a reader pauses at the end of
+                        the line -- even when, as here, there's no retarding punctuation to insist
+                        on it. The slowdown is more notable still in line 4, where the 3rd-foot
+                        trochee marks time by stretching its one slack to cover the interval of the
+                        expected two. </note>
                     </l>
                     <l n="3" met="+--+--+--+--" real="+--+--+--+--">
                         <seg>When you had </seg>
@@ -41,9 +44,9 @@
                     </l>
                     <l n="4" met="+--+--+--+--" real="+--+--+-+">
                         <seg>But as at </seg>
-                        <seg>first, when </seg>
-                        <seg>our day </seg>
-                        <seg><rhyme label="b">was fair.</rhyme></seg>
+                        <seg>first, when our </seg>
+                        <seg met="+--" real="+-">day was </seg>
+                        <seg met="+--" real="+"><rhyme label="b">fair.</rhyme></seg>
                     </l>
                 </lg>
                 <lg n="2" type="quatrain" met="+--(4/4/4/4)" rhyme="abab" org="uniform" sample="complete" part="N">
@@ -56,8 +59,8 @@
                     <l n="6" met="+--+--+--+--" real="+--+--+--+">
                         <seg>Stand<sb/>ing as </seg>
                         <seg>when I drew </seg>
-                        <seg>near to </seg>
-                        <seg><rhyme label="b">the town</rhyme></seg>
+                        <seg>near to the </seg>
+                        <seg met="+--" real="+"><rhyme label="b">town</rhyme></seg>
                     </l>
                     <l n="7" met="+--+--+--+--" real="+--+--+--+--">
                         <seg>Where you would </seg>
@@ -67,19 +70,26 @@
                         <seg>knew you <rhyme label="a">then,</rhyme></seg>
                     </l>
                     <l n="8" met="+--+--+--+--" real="+----+--+++">
-                        <seg>E<sb/>ven to </seg>
-                        <seg>the or<sb/>ig<sb/></seg>
-                        <seg>in<sb/>al air-<sb/></seg>
-                        <seg>blue <rhyme label="b">gown!</rhyme></seg>
-                    <note anchored="true"> This may be the hardest line in all of 4B4V: a line in
-                        dactylic tetrameter that actually scans dactyl, anapest, anapest, spondee.
-                        Be proud if you got this one even as early as your third try. You might
-                        linger to think how a remarried old man's airbrushed memory of his first
-                        wife, long estranged and since dead, might represent something of a third
-                        try, too; also how the line bears up under the freight of emotion and
-                        memory, its slack syllables hurrying up to the great spondaic billow of the
-                        image at the end of the line. (See the note to line 10 below on
-                        possibilities for elision here.) </note>
+                        <seg met="+--" real="+----">E<sb/>ven to the or<sb/></seg>
+                        <seg>ig<sb/>in<sb/>al </seg>
+                        <seg met="+--" real="++">air-<sb/>blue </seg>
+                        <seg met="+--" real="+"><rhyme label="b">gown!</rhyme></seg>
+                    <note anchored="true"> Let's hope this is the hardest line in all of 4B4V. The
+                        temptation to abandon dactylic tetrameter here and head for the territories
+                        is powerful; the key to resisting that temptation is the prosodist's shady
+                        friend elision. By preference and also for programming reasons, 4B4V avoids
+                        elision wherever possible, but here it's just not possible. A sloppy dactyl
+                        can be made out of all those early syllables by means of two elisions:
+                        "Ev'n" for "even," and "th' " for "the." These changes turn five syllables
+                        into three and yield two feet: EV'n to th'or |IG in al. That leaves half a
+                        line to go: a strongly syncopated but still legal spondee in the 3rd foot,
+                        and a (by this point ordinary) terminally truncated catalectic 4th. Be proud
+                        if you got this one even as soon as your third try; 4B4V didn't! Consider,
+                        finally, how a remarried old man's airbrushed memory of his first wife, long
+                        estranged and since dead, might represent something of a third try, too;
+                        also how the line bears up under the freight of emotion and memory, its
+                        elided slack syllables hurrying up to the great spondaic billow of the image
+                        at the end of the line. </note>
                     </l>
                 </lg>
                 <lg n="3" type="quatrain" met="+--(4/4/4/4)" rhyme="abab" org="uniform" sample="complete" part="N">
@@ -89,19 +99,15 @@
                         <seg>breeze, in its </seg>
                         <seg>list<sb/>less<sb/><rhyme label="a">ness</rhyme></seg>
                     </l>
-                    <l n="10" met="+--+--+--+--" real="+--+-++--+">
+                    <l n="10" met="+--+--+--+--" real="+--+--+--+">
                         <seg>Trav<sb/>elling a<sb/></seg>
-                        <seg>cross the </seg>
-                        <seg>wet mead </seg>
-                        <seg>to me <rhyme label="b">here,</rhyme></seg>
-                    <note anchored="true">Another tricky line, whose scansion here is made easier if
+                        <seg>cross the wet </seg>
+                        <seg>mead to me </seg>
+                        <seg met="+--" real="+"><rhyme label="b">here,</rhyme></seg>
+                    <note anchored="true">Another tricky line, where again scansion is enabled if
                         you elide "Travelling" from 3 to 2 syllables ("Trav'ling"). That gives you
                         two falling feet (dactyl, trochee), in keeping with the overall tilt of the
-                        poem's meter. It's also legal to try this expedient back in the
-                        nerve-wracking line 8, by reading "Even" as "Ev'n" and/or "the original" as
-                        "th'original"; but it doesn't really help much there, where Hardy is going
-                        for broke and it seems wiser to let him be as strange as possible. Generally
-                        4B4V eschews elision, but here in line 10 it's the right thing to do.</note>
+                        poem's faltering-forward meter. </note>
                     </l>
                     <l n="11" met="+--+--+--+--" real="+--+--+--+--">
                         <seg>You be<sb/>ing </seg>
@@ -110,41 +116,42 @@
                         <seg>wist<sb/>less<sb/><rhyme label="a">ness,</rhyme></seg>
                     </l>
                     <l n="12" met="+--+--+--+--" real="+-+--+-+">
-                        <seg>Heard no </seg>
-                        <seg>more a<sb/></seg>
-                        <seg>gain far </seg>
-                        <seg>or <rhyme label="b">near?</rhyme></seg>
+                        <seg met="+--" real="+-" >Heard no </seg>
+                        <seg>more a<sb/>gain </seg>
+                        <seg met="+--" real="+-">far or</seg>
+                        <seg met="+--" real="+"><rhyme label="b">near?</rhyme></seg>
                     </l>
                 </lg>
-                <lg n="4" type="quatrain" met="+-(3/3/4/3)" rhyme="abab" org="uniform" sample="complete" part="N">
-                    <l n="13" met="+-+-+-" real="+++--+-">
-                        <seg>Thus I; </seg>
+                <lg n="4" type="quatrain" met="+--(3/3/4/3)" rhyme="abab" org="uniform" sample="complete" part="N">
+                    <l n="13" met="+--+--+--" real="+++--+-">
+                        <seg met="+-" real="++" >Thus I; </seg>
                         <caesura/>
                         <seg>fal<sb/>ter<sb/>ing </seg>
-                        <seg>for<sb/><rhyme label="a">ward,</rhyme></seg>
-                    <note anchored="true"> Another surprise: Hardy changes his tune for this final
+                        <seg met="+--" real="+-">for<sb/><rhyme label="a">ward,</rhyme></seg>
+                    <note anchored="true"> Another surprise: Hardy changes his tune for the final
                         quatrain, reeling between trimeter and tetrameter, grasping at straws, and
-                        leaving it up for grabs whether the prevailing meter is still dactylic or,
-                        as 4B4V more soberly judges, trochaic. More important than choosing between
-                        the metrical options is sensing the complex rhythmic interplay they enable, torn
-                        as the speaker is between talking himself out of the belief that he's
-                        haunted and talking himself back into it. </note>
+                        leaving it up for grabs whether the prevailing meter in these last four
+                        lines is still dactylic, as 4B4V conservatively supposes, or retrenches
+                        instead to plainer trochaic. More important than choosing between metrical
+                        options is sensing the complex rhythmic interplay they enable, torn as the
+                        speaker is between talking himself out of the belief that he's haunted and
+                        talking himself back into it. </note>
                     </l>
-                    <l n="14" met="+-+-+-" real="+-+-+-">
-                        <seg>Leaves a<sb/></seg>
-                        <seg>round me </seg>
-                        <seg>fall<sb/><rhyme label="b">ing,</rhyme></seg>
+                    <l n="14" met="+--+--+--" real="+-+-+-">
+                        <seg met="+--" real="+-">Leaves a<sb/></seg>
+                        <seg met="+--" real="+-">round me </seg>
+                        <seg met="+--" real="+-">fall<sb/><rhyme label="b">ing,</rhyme></seg>
                     </l>
-                    <l n="15" met="+-+-+-+-" real="+--+--+-+-">
+                    <l n="15" met="+--+--+--+--" real="+--+--+-+-">
                         <seg>Wind ooz<sb/>ing </seg>
                         <seg>thin through the </seg>
-                        <seg>thorn from </seg>
-                        <seg>nor<sb/><rhyme label="a">ward,</rhyme></seg>
+                        <seg met="+--" real="+-">thorn from </seg>
+                        <seg met="+--" real="+-">nor<sb/><rhyme label="a">ward,</rhyme></seg>
                     </l>
-                    <l n="16" met="+-+-+-" real="+-+-+-">
-                        <seg>And the </seg>
-                        <seg>wo<sb/>man </seg>
-                        <seg>call<sb/><rhyme label="b">ing.</rhyme></seg>
+                    <l n="16" met="+--+--+--" real="+-+-+-">
+                        <seg met="+--" real="+-">And the </seg>
+                        <seg met="+--" real="+-">wo<sb/>man </seg>
+                        <seg met="+--" real="+-">call<sb/><rhyme label="b">ing.</rhyme></seg>
                     <note anchored="true"> "And" is a particle that almost never takes stress. Its
                         doing so here is eloquent: Hardy concedes, in the spirit of stanza 3, that
                         he must be imagining things; yet the "And" insists on the reality of what is
