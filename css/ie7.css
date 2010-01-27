@@ -5,7 +5,7 @@
 	font-family: "Arial Unicode MS",Arial,Helvetica,sans-serif;
 }
 #poem {
-	font-family: monospace !important;
+	font-family: consolas, monospace !important;
 	line-height: 1.2em;
 }
 
