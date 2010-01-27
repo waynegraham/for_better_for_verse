@@ -3,6 +3,6 @@
  */
 
 #poem span {
-    word-spacing: .4em;
-    letter-spacing: .03em;
+    word-spacing: 0.25em;
+    letter-spacing: 0.05em;
     }
