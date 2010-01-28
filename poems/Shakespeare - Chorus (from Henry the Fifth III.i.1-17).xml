@@ -92,11 +92,11 @@
                     <seg>ing wind,</seg>
                     <note anchored="true"> In the second foot, enforcing a systemic preference for
                         explicitness, 4B4V would rather spell out the trisyllabic anapest than elide
-                        it into regularity as an iamb: "th' invis-." Still, here and again in line
-                        15 below, you may find elision more expressive of the motion of wind and
-                        tide; that option, unfortunately, is one our system can't technically
+                        it into regularity as the iambic "th'inVIS." Still, here and again in line
+                        15 below, you may find elision more expressive of the analog motion of wind and
+                        tide; that option, unfortunately, is one our digital system can't technically
                         accommodate.</note>
-                </l><l n="12" met="-+-+-+-+-+" real="+-++-+-+-+">
+                </l><l n="12" met="-+-+-+-+-+" real="+-++-+-+-+|+-++---+-+">
                     <seg met="-+" real="+-">Draw the </seg>
                     <seg met="-+" real="++">huge bot<sb/></seg>
                     <seg>toms through </seg>
