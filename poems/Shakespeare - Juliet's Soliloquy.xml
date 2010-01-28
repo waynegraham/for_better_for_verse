@@ -15,14 +15,14 @@
         <text>
             <body>
                 <lg n="1" type="blank verse" met="-+(5/5/5/5/5/5/5/5/5/5/5/5/5/5/5/5/5/5/5/5/5/5/5/5/5)" org="uniform" sample="complete" part="N">
-                    <l n="1" met="-+-+-+-+-+" real="+--+-+-+-+">
+                    <l n="1" met="-+-+-+-+-+" real="+--+-+--+-+">
                    <seg met="-+" real="+-">Gal<sb/>lop </seg>
                    <seg>a<sb/>pace, </seg>
-                   <seg>you fier<sb/></seg>
+                   <seg>you fi<sb/>er<sb/></seg>
                    <seg>y-<sb/>foot<sb/></seg>
                    <seg>ed steeds,</seg>
                </l><l n="2" met="-+-+-+-+-+" real="--+-+-+-+-+">
-                   <seg met="-+" real="--+">Towards Phoeb<sb/></seg>
+                   <seg met="-+" real="--+">To<sb/>wards Phoeb<sb/></seg>
                     <seg>us' lodg<sb/></seg>
                     <seg>ing! <caesura/>Such </seg>
                    <seg>a wag<sb/></seg>
@@ -39,6 +39,9 @@
                     <seg>y night </seg>
                     <seg>im<sb/>med<sb/></seg>
                     <seg met="-+" real="--+">i<sb/>ate<sb/>ly.</seg>
+                    <note anchored="true"> Note how often, as Juliet imagines the horse-drawn
+                        chariot of the sun, her prosodic feet beat into impatient anapestic hooves.
+                    </note>
                 </l><l n="5" met="-+-+-+-+-+" real="+-++-+-+-+">
                     <seg met="-+" real="+-">Spread thy </seg>
                     <seg met="-+" real="++">close cur<sb/></seg>
@@ -59,13 +62,13 @@
                     <seg>un<sb/>talked </seg>
                     <seg>of and </seg>
                     <seg>un<sb/>seen.</seg> 
-                    <note anchored="true">Our basic, invigorating principle that scansion varies
-                        with vocal performance holds especially true for a speech like this, which
-                        was written with a view to interpretation on stage. For this line 4B4V
-                        proposes a rather chaste option, conceding that an actress might well throw
-                        stress on the first syllable of "untalked," "unseen," or both. (Ditto
-                        "unmanned" in line 14 below.) As will appear, the actress we have in mind
-                        will be emoting shamelessly before the soliloquy is over.</note>    </l>
+                    <note anchored="true">The principle that scansion varies with vocal performance
+                        holds especially true for a speech that was written, as here, with a view
+                        to interpretation on stage. For this line 4B4V proposes a rather chaste
+                        option, while acknowledging that an actress might well throw stress on the
+                        first syllable of "untalked," "unseen," or both. (Ditto "unmanned" in line
+                        14 below.) As will appear, the actress we have in mind will be emoting
+                        shamelessly before her soliloquy is done.</note>    </l>
                     <l n="8" met="-+-+-+-+-+" real="+--+-+-+--+">
                     <seg met="-+" real="+-">Lov<sb/>ers </seg>
                     <seg>can see </seg>
@@ -81,9 +84,9 @@
                 </l><l n="10" met="-+-+-+-+-+" real="-+-+-+++-+">
                     <seg>It best </seg>
                     <seg>a<sb/>grees </seg>
-                    <seg>with night.  </seg>
+                    <seg>with night.</seg>
                     <caesura/>
-                    <seg met="-+" real="++">Come, civ<sb/></seg>
+                    <seg met="-+" real="++"> Come, civ<sb/></seg>
                     <seg>il night,</seg>
                 </l><l n="11" met="-+-+-+-+-+" real="-+-+-+-+-+">
                     <seg>Thou so<sb/></seg>
@@ -106,7 +109,7 @@
                 </l><l n="14" met="-+-+-+-+-+" real="+--+++---+">
                     <seg met="-+" real="+-">Hood my </seg>
                     <seg>un<sb/>manned </seg>
-                    <seg met="-+" real="++">blood, <caesura/> bat<sb/></seg>
+                    <seg met="-+" real="++">blood,<caesura/> bat<sb/></seg>
                     <seg>ing in </seg>
                     <seg>my cheeks,</seg>
                 </l>
@@ -122,13 +125,14 @@
                         <seg>ed sim<sb/></seg>
                         <seg>ple mod<sb/></seg>
                         <seg>es<sb/>ty.</seg>
-                    <note anchored="true"> Yes, that's an awful lot of spondees in these two lines,
-                        and the reader must gird for more in the line that follows. "Grow" may be
-                        left slack in the last foot of line 15, and "Think" at the head of line 16.
-                        Yet these are monosyllabic main verbs and have some prescriptive right to
-                        stress. 4B4V prefers to grant that right, and to register the prosodic
-                        tumescence here - Juliet was just feeling the blood in her cheeks 3 lines
-                        ago - as fore-tremors rehearsing one of literature's most famous couplings.</note>
+                    <note anchored="true"> Yes, that's an awful lot of consecutive spondees in these
+                        two lines, and the reader must gird for even more in the line that follows.
+                        "Grow" may be left slack in the last foot of line 15, and "Think" at the
+                        head of line 16. Yet these are monosyllabic main verbs and as such have a
+                        firm right to stress. 4B4V prefers to grant that right, and to register the
+                        prosodic throbs here - remember, Juliet was just feeling the blood in her
+                        cheeks 3 lines ago - as fore-tremors rehearsing one of the most famous
+                        couplings in literature.</note>
                     </l><l n="17" met="-+-+-+-+-+" real="++++--+-+-+">
                         <seg met="-+" real="++">Come, night; </seg>
                         <caesura/>
@@ -148,6 +152,9 @@
                         <seg met="-+" real="+-">snow up<sb/></seg>
                         <seg met="-+" real="--+">on a Ra<sb/></seg>
                         <seg>ven's back.</seg>
+                    <note anchored="true"> A hard line, but most fair. Its irregularity, after the
+                        perfectly regular line before it, brings out the wizardly rightness of the
+                        fine simile the two lines deliver. </note>
                     </l><l n="20" met="-+-+-+-+-+" real="++-+++-+++">
                         <seg met="-+" real="++">Come, gen<sb/></seg>
                         <seg>tle night; </seg>
