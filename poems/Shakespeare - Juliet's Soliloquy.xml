@@ -18,8 +18,8 @@
                     <l n="1" met="-+-+-+-+-+" real="+--+-+--+-+">
                    <seg met="-+" real="+-">Gal<sb/>lop </seg>
                    <seg>a<sb/>pace, </seg>
-                   <seg>you fi<sb/>er<sb/></seg>
-                   <seg>y-<sb/>foot<sb/></seg>
+                   <seg>you fi<sb/></seg>
+                   <seg met="-+" real="--+">er<sb/>y-<sb/>foot<sb/></seg>
                    <seg>ed steeds,</seg>
                </l><l n="2" met="-+-+-+-+-+" real="--+-+-+-+-+">
                    <seg met="-+" real="--+">To<sb/>wards Phoeb<sb/></seg>
@@ -74,7 +74,7 @@
                     <seg>can see </seg>
                     <seg>to do </seg>
                     <seg>their a<sb/></seg>
-                        <seg met="-+" real="--+">mor<sb/>ous rites</seg>
+                    <seg met="-+" real="--+">mor<sb/>ous rites</seg>
                 </l><l n="9" met="-+-+-+-+-+" real="--++-+-+-+">
                     <seg met="-+" real="--">By their </seg>
                     <seg met="-+" real="++">own beau<sb/></seg>
@@ -84,9 +84,9 @@
                 </l><l n="10" met="-+-+-+-+-+" real="-+-+-+++-+">
                     <seg>It best </seg>
                     <seg>a<sb/>grees </seg>
-                    <seg>with night.</seg>
+                    <seg>with night. </seg>
                     <caesura/>
-                    <seg met="-+" real="++"> Come, civ<sb/></seg>
+                    <seg met="-+" real="++">Come, civ<sb/></seg>
                     <seg>il night,</seg>
                 </l><l n="11" met="-+-+-+-+-+" real="-+-+-+-+-+">
                     <seg>Thou so<sb/></seg>
@@ -110,7 +110,7 @@
                     <seg met="-+" real="+-">Hood my </seg>
                     <seg>un<sb/>manned </seg>
                     <seg met="-+" real="++">blood,<caesura/> bat<sb/></seg>
-                    <seg>ing in </seg>
+                    <seg met="-+" real="--">ing in </seg>
                     <seg>my cheeks,</seg>
                 </l>
                     <l n="15" met="-+-+-+-+-+" real="--++--++++">
