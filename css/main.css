@@ -75,6 +75,10 @@ span.prosody-checkfeet {
     text-align:center;
 }
 
+span.caesura:hover {
+	background: transparent;
+}
+
 .prosody-shadowline .caesura {
     visibility: hidden;
     height: 18px;
