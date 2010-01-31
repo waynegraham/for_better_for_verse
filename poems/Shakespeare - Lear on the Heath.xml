@@ -16,58 +16,70 @@
             <body>
                 <lg n="1" type="blank verse" met="-+(5/5/5/5/5/5/5/5/3)" org="uniform" sample="complete" part="N">
                     <l n="1" met="-+-+-+-+-+" real="++-+-+++">
-                   <seg>Blow, winds, </seg>
+                   <seg met="-+" real="++">Blow, winds, </seg>
                    <seg>and crack </seg>
-                   <seg>your cheeks.  </seg>
-                        <caesura/>
-                   <seg>Rage, blow.</seg>
+                   <seg>your cheeks. </seg>
+                   <caesura/>
+                   <seg met="-+" real="++">Rage, blow.</seg>
                </l><l n="2" met="-+-+-+-+-+" real="-+-+-+-+-+">
-                    <seg>Your cat<sb/></seg>
+                    <seg>You cat<sb/></seg>
                     <seg>a<sb/>racts </seg>
                     <seg>and hur<sb/></seg>
                    <seg>ri<sb/>ca<sb/></seg>
-                    <seg>noes, <caesura/>sprout</seg>
+                    <seg>noes, <caesura/>spout</seg>
                 </l><l n="3" met="-+-+-+-+-+" real="+--+-+-+-+">
                     <seg>Till you </seg>
                     <seg>have drenched </seg>
                     <seg>our stee<sb/></seg>
                     <seg>ples, drowned </seg>
                     <seg>the cocks.</seg>
-                </l><l n="4" met="-+-+-+-+-+" real="-+--++-+-+(-)">
+                </l><l n="4" met="-+-+-+-+-+" real="-+--++-+-+-">
                     <seg>You sul<sb/></seg>
-                    <seg>ph'rous and </seg>
-                    <seg>thought-<sb/>ex<sb/></seg>
+                    <seg met="-+" real="--">ph'rous and </seg>
+                    <seg met="-+" real="++">thought-<sb/>ex<sb/></seg>
                     <seg>e<sb/>cut<sb/></seg>
-                    <seg>ing fi<sb/>res,</seg>
+                    <seg met="-+" real="-+-">ing fi<sb/>res,</seg>
                 </l><l n="5" met="-+-+-+-+-+" real="++--++-+-+">
-                    <seg>Vaunt-<sb/>cou<sb/></seg>
-                    <seg>riers of </seg>
-                    <seg>oak-<sb/>cleav<sb/></seg>
+                    <seg met="-+" real="++">Vaunt-<sb/>cou<sb/></seg>
+                    <seg met="-+" real="--">riers of </seg>
+                    <seg met="-+" real="++">oak-<sb/>cleav<sb/></seg>
                     <seg>ing thun<sb/></seg>
                     <seg>der<sb/>bolts,</seg>
-                </l><l n="6" met="-+-+-+-+-+" real="+-++-+++-+(-)">
-                    <seg>Singe my </seg>
-                    <seg>white head.  </seg>
+                    <note anchored="true"> The second foot of this line, as more obviously of the
+                        one above it, exemplifies the pyrrhic victory of elision. 4B4V embraces
+                        elision here as the lesser of two evils, the greater being a bathetic
+                        anapest that mounts through two slacks to throw feeble pseudo-stress on a
+                        particle that can't really sustain the weight. Try, all the same, to feel
+                        the elided third syllable in both "sulphurous" and "courier" as a little
+                        rumble heralding the big spondaic thunderclap that comes next.</note>
+                </l><l n="6" met="-+-+-+-+-+" real="+-++-+++-+-">
+                    <seg met="-+" real="+-">Singe my </seg>
+                    <seg met="-+" real="++">white head. </seg>
                     <caesura/>
                     <seg>And thou, </seg>
-                    <seg>all-<sb/>shak<sb/></seg>
-                    <seg>ing thun<sb/>der,</seg>
+                    <seg met="-+" real="++">all-<sb/>shak<sb/></seg>
+                    <seg met="-+" real="-+-">ing thun<sb/>der,</seg>
                 </l><l n="7" met="-+-+-+-+-+" real="++-+-+--+-+">
-                    <seg>Strike flat </seg>
+                    <seg met="-+" real="++">Strike flat </seg>
                     <seg>the thick </seg>
                     <seg>ro<sb/>tun<sb/></seg>
-                    <seg>di<sb/>ty of </seg>
+                    <seg met="-+" real="--+">di<sb/>ty of </seg>
                     <seg>the world,</seg>
-                </l><l n="8" met="-+-+-+-+-+" real="++-+++-+-+">
-                    <seg>Crack Na<sb/></seg>
+                    <note anchored="true"> PS to former note: here the fourth foot is indeed an
+                        anapest, wobbly but still holding its ground, for the decisive reason that
+                        "of" takes more stress than the ensuing "the." That's not what happens in
+                        lines 4 and 5 above.</note>
+                </l>
+                <l n="8" met="-+-+-+-+-+" real="++-+++-+-+">
+                    <seg met="-+" real="++">Crack Na<sb/></seg>
                     <seg>ture's moulds, </seg>
                     <caesura/>
-                    <seg>all ger<sb/></seg>
+                    <seg met="-+" real="++">all ger<sb/></seg>
                     <seg>mains spill </seg>
                     <seg>at once,</seg>
                 </l><l n="9" met="-+-+-+" real="-+-+-+">
                     <seg>That makes </seg>
                     <seg>in<sb/>grate<sb/></seg>
-                    <seg>ful man. </seg>
+                    <seg>ful man.</seg>
                 </l>
                    </lg></body></text></TEI>
