@@ -101,7 +101,7 @@
                     <caesura/>
                     <seg met="-+" part="N">and scared </seg>
                     <seg met="-+" part="N">a bright </seg>
-                    <seg met="-+" real="++" part="N">green <rhyme label="g">snake.--</rhyme></seg>
+                    <seg met="-+" real="++" part="N">green <rhyme label="g">snake.-</rhyme></seg>
                 </l><l n="13" met="-+-+-+-+-+" real="-+--+-+-+-+" part="N">
                     <seg met="-+" part="N">The fact </seg>
                     <seg met="-+" real="--+" part="N">is the sweet<sb part="N"/></seg>
