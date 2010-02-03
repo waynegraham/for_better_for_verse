@@ -36,13 +36,12 @@
                         be, and put the stress instead on an iambic third foot. Stress on "were" lets
                         Prospero say I-told-you-so (a role he's fond of elsewhere in the play) and
                         twit the audience for having believed in his magic despite their advance
-                        knowledge that it was all a trick.  No sensible actor will attempt both these
-                        options at once: five stresses only, please.</note>
-                </l><l n="3" met="-+-+-+-+-+" real="-+---+--++">
+                        knowledge that it was all a trick.  A sensible actor, limiting himself to five stresses, will attempt either of these
+                        options but not both at once.</note>
+                </l><l n="3" met="-+-+-+-+-+" real="-+-+-+--++">
                     <seg>Are melt<sb/></seg>
                     <seg met="-+" real="--">ed in<sb/></seg>
-                    <seg>to air, </seg>
-                    <caesura/>
+                    <seg>to air, <caesura/></seg>
                     <seg>in<sb/>to </seg>
                     <seg met="-+" real="++">thin air;</seg>
                 </l><l n="4" met="-+-+-+-+-+" real="-+-+-+-+-+-">
@@ -64,12 +63,17 @@
                     <seg met="-+" real="--">ples, <caesura/>the </seg>
                     <seg met="-+" real="++">great globe </seg>
                     <seg>it<sb/>self,</seg>
-                </l><l n="7" met="-+-+-+-+-+" real="++-+-+---+">
+                </l><l n="7" met="-+-+-+-+-+" real="++-+-+---+|++---+-+-+">
                     <seg met="-+" real="++">Yea, all </seg>
-                    <seg>which it </seg>
+                    <seg met="-+" real="-+|--">which it </seg>
                     <seg>in<sb/>her<sb/></seg>
-                    <seg met="-+" real="--">it, <caesura/>shall </seg>
+                    <seg met="-+" real="--|-+">it, <caesura/>shall </seg>
                     <seg>dis<sb/>solve,</seg>
+                    <note anchored="true"> As in line 2 above (see former note), either "it" in the
+                        second foot or "shall" in the fourth foot might draw stress, but probably
+                        not both syllables at once. The latter option lets Prospero wave again
+                        the wand of his believe-it-or-not clairvoyance -- secured now, to be sure,
+                        by that other magic book, Revelation in the Bible.</note>
                 </l><l n="8" met="-+-+-+-+-+" real="-+-+-+-+-+-">
                     <seg>And, like </seg>
                     <seg>this in<sb/></seg>
@@ -82,7 +86,7 @@
                     <seg>be<sb/>hind. </seg>
                     <caesura/>
                     <seg met="-+" real="+-">We are </seg>
-                    <seg met="-+" real="++|-+">such stuff </seg>
+                    <seg met="-+" real="++|-+">such stuff</seg>
                 </l><l n="10" met="-+-+-+-+-+" real="-+-+-+-+-+">
                     <seg>As dreams </seg>
                     <seg>are made </seg>
@@ -93,12 +97,12 @@
                     <l n="11" met="-+-+-+-+-+" real="-+-+-++--+">
                         <seg>Is round<sb/></seg>
                         <seg>ed with </seg>
-                        <seg>a sleep.  </seg>
+                        <seg>a sleep. </seg>
                         <caesura/>
                         <seg met="-+" real="+-">Sir, I </seg>
                         <seg>am vexed.</seg>
                     </l>
-                    <l n="12" met="-+-+-+-+-+" real="+--+--++-+(-)">
+                    <l n="12" met="-+-+-+-+-+" real="+--+--++-+-">
                         <seg met="-+" real="+-">Bear with </seg>
                         <seg>my weak<sb/></seg>
                         <seg met="-+" real="--">ness: <caesura/>my </seg>
@@ -130,7 +134,7 @@
                     </l>
                     <l n="16" met="-+-+-+" real="-+-+-+">
                         <seg>To still </seg>
-                        <seg>my beat<sb/> </seg>
+                        <seg>my beat<sb/></seg>
                         <seg>ing mind.</seg>
                     </l>
                     
