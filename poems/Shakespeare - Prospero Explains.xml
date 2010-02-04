@@ -15,7 +15,7 @@
         <text>
             <body>
                 <lg n="1" type="blank verse" met="-+(5/5/5/5/5/5/5/5/5/5/5/5/5/5/5/3)" org="uniform" sample="complete" part="N">
-                    <l n="1" met="-+-+-+-+-+" real="-+-+-+-+-+-">
+                    <l n="1" met="-+-+-+-+-+-" real="-+-+-+-+-+-">
                    <seg>Our rev<sb/></seg>
                    <seg>els now </seg>
                    <seg>are end<sb/></seg>
@@ -45,17 +45,16 @@
                     <seg>to air, <caesura/></seg>
                     <seg>in<sb/>to </seg>
                     <seg met="-+" real="++">thin air;</seg>
-                </l><l n="4" met="-+-+-+-+-+" real="-+-+-+-+-+-">
+                </l><l n="4" met="-+-+-+-+-+-" real="-+-+-+-+-+-">
                     <seg>And, like </seg>
                     <seg>the base<sb/></seg>
                     <seg>less fab<sb/></seg>
                     <seg>ric of </seg>
                     <seg met="-+" real="-+-">this vi<sb/>sion,</seg>
-                </l><l n="5" met="-+-+-+-+-+" real="-+++-+-+-+">
+                </l><l n="5" met="-+-+-+-+-+" real="-+++--+-+-+">
                     <seg>The cloud-<sb/></seg>
-                    <seg met="-+" real="++">capped towers, </seg>
-                    <caesura/>
-                    <seg>the gor<sb/></seg>
+                    <seg met="-+" real="++">capped tow<sb/></seg>
+                    <seg met="-+" real="--+">ers, <caesura/>the gor<sb/></seg>
                     <seg>geous pal<sb/></seg>
                     <seg>ac<sb/>es</seg>
                 </l><l n="6" met="-+-+-+-+-+" real="-+-+--++-+">
@@ -75,7 +74,7 @@
                         not both syllables at once. The latter option lets Prospero wave again
                         the wand of his believe-it-or-not clairvoyance -- secured now, to be sure,
                         by that other magic book, Revelation in the Bible.</note>
-                </l><l n="8" met="-+-+-+-+-+" real="-+-+-+-+-+-">
+                </l><l n="8" met="-+-+-+-+-+-" real="-+-+-+-+-+-">
                     <seg>And, like </seg>
                     <seg>this in<sb/></seg>
                     <seg>sub<sb/>stan<sb/></seg>
@@ -103,7 +102,7 @@
                         <seg met="-+" real="+-">Sir, I </seg>
                         <seg>am vexed.</seg>
                     </l>
-                    <l n="12" met="-+-+-+-+-+" real="+--+--++-+-">
+                    <l n="12" met="-+-+-+-+-+-" real="+--+--++-+-">
                         <seg met="-+" real="+-">Bear with </seg>
                         <seg>my weak<sb/></seg>
                         <seg met="-+" real="--">ness: <caesura/>my </seg>
