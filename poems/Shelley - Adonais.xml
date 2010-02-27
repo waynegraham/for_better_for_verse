@@ -65,15 +65,15 @@
                         <seg met="-+" real="-+">rors <rhyme label="b">of</rhyme></seg>
                     </l>
                     <l n="8" met="-+-+-+-+-+" real="-+--+++++-+|-+--+++-+-+" rend="indent(1)">
-                        <seg met="-+" real="-+|-+">The fi<sb/></seg>
+                        <seg>The fi<sb/></seg>
                         <seg met="-+" real="--+|--+">re for which </seg>
                         <seg met="-+" real="++|++">all thirst; </seg>
                         <caesura/>
                         <seg met="-+" real="++|-+">now beams </seg>
-                        <seg met="-+" real="-+|-+">on <rhyme label="c">me,</rhyme></seg>
+                        <seg>on <rhyme label="c">me,</rhyme></seg>
                     <note anchored="true">A great moment, where the stanza's accumulated syntax, and
                         the steady iambs that have run since line four like a power loom (weaving
-                        Shelleyan love woven throughout the creation), mount to the climactic
+                        Shelleyan love throughout the creation), mount to the climactic
                         caesura. The poet himself is thereby thrust into the limelight, or laser
                         beam, that is about to ignite his long elegy's amazing final stanza.</note>
                     </l>
@@ -110,7 +110,7 @@
                         <seg met="-+" real="-+">the trem<sb/></seg>
                         <seg met="-+" real="--+">bl<sb/>ing <rhyme label="a">throng</rhyme></seg>
                     <note anchored="true"> Maybe Shelley wrote "trembling" as a disyllable, but 4B4V
-                        doubts it. The whole line is a-tremble with holy awe, and a trisyllabic
+                        doubts it. The whole line is quaking with holy awe, and a trisyllabic
                         "trembling" gives the line its third shiver of consecutive slacks.</note>
                     </l>
                     <l n="13" met="-+-+-+-+-+" real="-+-+-+-+-+-" rend="indent(1)">
@@ -127,8 +127,8 @@
                         <seg met="-+" real="-+">ed skies </seg>
                         <seg met="-+" real="-+-">are riv<sb/><rhyme label="b">en!</rhyme></seg>
                     </l>
-                    <l n="15" met="-+-+-+-+-+" real="+-++-+---+|--++-+-+-+" rend="indent(1)">
-                        <seg met="-+" real="+-|--">I am </seg>
+                    <l n="15" met="-+-+-+-+-+" real="--++-+-+-+" rend="indent(1)">
+                        <seg met="-+" real="--">I am </seg>
                         <seg met="-+" real="++|++">borne dark<sb/></seg>
                         <seg met="-+" real="-+|-+">ly fear<sb/></seg>
                         <seg met="-+" real="--|-+">ful<sb/>ly, </seg>
