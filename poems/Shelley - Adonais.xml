@@ -16,32 +16,32 @@
             <body>
                 <lg n="1" type="Spenserian stanza" met="-+(5/5/5/5/5/5/5/5/6)" rhyme="ababbcbcc" org="uniform" sample="complete" part="N">
                     <l n="1" met="-+-+-+-+-+" real="-+-++--+-+" rend="indent(1)">
-                        <seg met="-+" real="-+">That light </seg>
-                        <seg met="-+" real="-+">whose smile </seg>
+                        <seg>That light </seg>
+                        <seg>whose smile </seg>
                         <seg met="-+" real="+-">kin<sb/>dles </seg>
-                        <seg met="-+" real="-+">the U<sb/></seg>
-                        <seg met="-+" real="-+">ni<sb/><rhyme label="a">verse,</rhyme></seg>
+                        <seg>the U<sb/></seg>
+                        <seg>ni<sb/><rhyme label="a">verse,</rhyme></seg>
                     </l>
                     <l n="2" met="-+-+-+-+-+" real="-+---+++-+" rend="indent(1)">
-                        <seg met="-+" real="-+">That Beau<sb/></seg>
+                        <seg>That Beau<sb/></seg>
                         <seg met="-+" real="--">ty in </seg>
-                        <seg met="-+" real="-+">which all </seg>
+                        <seg>which all </seg>
                         <seg met="-+" real="++">things work </seg>
-                        <seg met="-+" real="-+">and <rhyme label="b">move,</rhyme></seg>
+                        <seg>and <rhyme label="b">move,</rhyme></seg>
                     </l>
                     <l n="3" met="-+-+-+-+-+" real="-+-+-+--+-+" rend="indent(1)">
-                        <seg met="-+" real="-+">That Ben<sb/></seg>
-                        <seg met="-+" real="-+">e<sb/>dic<sb/></seg>
-                        <seg met="-+" real="-+">tion which </seg>
+                        <seg>That Ben<sb/></seg>
+                        <seg>e<sb/>dic<sb/></seg>
+                        <seg>tion which </seg>
                         <seg met="-+" real="--+">the e<sb/>clips<sb/></seg>
-                        <seg met="-+" real="-+">ing <rhyme label="a">curse</rhyme></seg>
+                        <seg>ing <rhyme label="a">curse</rhyme></seg>
                     </l>
                     <l n="4" met="-+-+-+-+-+" real="-+-++--+-+" rend="indent(1)">
-                        <seg met="-+" real="-+">Of birth </seg>
-                        <seg met="-+" real="-+">can quench </seg>
+                        <seg>Of birth </seg>
+                        <seg>can quench </seg>
                         <seg met="-+" real="+-">not, <caesura/>that </seg>
-                        <seg met="-+" real="-+">sus<sb/>tain<sb/></seg>
-                        <seg met="-+" real="-+">ing <rhyme label="b">Love</rhyme></seg>
+                        <seg>sus<sb/>tain<sb/></seg>
+                        <seg>ing <rhyme label="b">Love</rhyme></seg>
                     </l>
                     <l n="5" met="-+-+-+-+-+" real="-+-+-+-+-+" rend="indent(1)">
                         <seg>Which through </seg>
@@ -59,10 +59,10 @@
                     </l>
                     <l n="7" met="-+-+-+-+-+" real="++-+-+-+-+" rend="indent(1)">
                         <seg met="-+" real="++">Burns bright </seg>
-                        <seg met="-+" real="-+">or dim </seg>
-                        <seg met="-+" real="-+">as each </seg>
-                        <seg met="-+" real="-+">are mir<sb/></seg>
-                        <seg met="-+" real="-+">rors <rhyme label="b">of</rhyme></seg>
+                        <seg>or dim </seg>
+                        <seg>as each </seg>
+                        <seg>are mir<sb/></seg>
+                        <seg>rors <rhyme label="b">of</rhyme></seg>
                     </l>
                     <l n="8" met="-+-+-+-+-+" real="-+--+++++-+|-+--+++-+-+" rend="indent(1)">
                         <seg>The fi<sb/></seg>
@@ -78,12 +78,12 @@
                         beam, that is about to ignite his long elegy's amazing final stanza.</note>
                     </l>
                     <l n="9" met="-+-+-+-+-+-+" real="-+--++-+-+-+">
-                        <seg met="-+" real="-+">Con<sb/>sum<sb/></seg>
+                        <seg>Con<sb/>sum<sb/></seg>
                         <seg met="-+" real="--">ing the </seg>
                         <seg met="-+" real="++">last clouds </seg>
-                        <seg met="-+" real="-+">of cold </seg>
-                        <seg met="-+" real="-+">mor<sb/>tal<sb/></seg>
-                        <seg met="-+" real="-+">i<sb/><rhyme label="c">ty.</rhyme></seg>
+                        <seg>of cold </seg>
+                        <seg>mor<sb/>tal<sb/></seg>
+                        <seg>i<sb/><rhyme label="c">ty.</rhyme></seg>
                     </l>
                 </lg>
                 <lg n="2" type="Spenserian stanza" met="-+(5/5/5/5/5/5/5/5/6)" rhyme="ababbcbcc" org="uniform" sample="complete" part="N">
@@ -95,50 +95,50 @@
                         <seg>in <rhyme label="a">song</rhyme></seg>
                     </l>
                     <l n="11" met="-+-+-+-+-+" real="-+-+-+-+-+-" rend="indent(1)">
-                        <seg met="-+" real="-+">De<sb/>scends </seg>
-                        <seg met="-+" real="-+">on me; </seg>
+                        <seg>De<sb/>scends </seg>
+                        <seg>on me; </seg>
                         <caesura/>
-                        <seg met="-+" real="-+">my spir<sb/></seg>
-                        <seg met="-+" real="-+">it's bark </seg>
+                        <seg>my spir<sb/></seg>
+                        <seg>it's bark </seg>
                         <seg met="-+" real="-+-">is driv<sb/><rhyme label="b">en</rhyme></seg>
                     </l>
                     <l n="12" met="-+-+-+-+-+" real="+--++--+--+" rend="indent(1)">
                         <seg met="-+" real="+-">Far from </seg>
-                        <seg met="-+" real="-+">the shore, </seg>
+                        <seg>the shore, </seg>
                         <caesura/>
                         <seg met="-+" real="+-">far from </seg>
-                        <seg met="-+" real="-+">the trem<sb/></seg>
+                        <seg>the trem<sb/></seg>
                         <seg met="-+" real="--+">bl<sb/>ing <rhyme label="a">throng</rhyme></seg>
                     <note anchored="true"> Maybe Shelley wrote "trembling" as a disyllable, but 4B4V
                         doubts it. The whole line is quaking with holy awe, and a trisyllabic
                         "trembling" gives the line its third shiver of consecutive slacks.</note>
                     </l>
                     <l n="13" met="-+-+-+-+-+" real="-+-+-+-+-+-" rend="indent(1)">
-                        <seg met="-+" real="-+">Whose sails </seg>
-                        <seg met="-+" real="-+">were nev<sb/></seg>
-                        <seg met="-+" real="-+">er to </seg>
-                        <seg met="-+" real="-+">the tem<sb/></seg>
+                        <seg>Whose sails </seg>
+                        <seg>were nev<sb/></seg>
+                        <seg>er to </seg>
+                        <seg>the tem<sb/></seg>
                         <seg met="-+" real="-+-">pest giv<sb/><rhyme label="b">en;</rhyme></seg>
                     </l>
                     <l n="14" met="-+-+-+-+-+" real="-+-+-+-+-+-" rend="indent(1)">
-                        <seg met="-+" real="-+">The mass<sb/></seg>
-                        <seg met="-+" real="-+">y earth </seg>
-                        <seg met="-+" real="-+">and spher<sb/></seg>
-                        <seg met="-+" real="-+">ed skies </seg>
+                        <seg>The mass<sb/></seg>
+                        <seg>y earth </seg>
+                        <seg>and spher<sb/></seg>
+                        <seg>ed skies </seg>
                         <seg met="-+" real="-+-">are riv<sb/><rhyme label="b">en!</rhyme></seg>
                     </l>
                     <l n="15" met="-+-+-+-+-+" real="--++-+-+-+" rend="indent(1)">
                         <seg met="-+" real="--">I am </seg>
-                        <seg met="-+" real="++|++">borne dark<sb/></seg>
-                        <seg met="-+" real="-+|-+">ly, fear<sb/></seg>
-                        <seg met="-+" real="--|-+">ful<sb/>ly, </seg>
-                        <seg met="-+" real="-+|-+">a<sb/><rhyme label="c">far;</rhyme></seg>
+                        <seg met="-+" real="++">borne dark<sb/></seg>
+                        <seg>ly, fear<sb/></seg>
+                        <seg>ful<sb/>ly, </seg>
+                        <seg>a<sb/><rhyme label="c">far;</rhyme></seg>
                     </l>
                     <l n="16" met="-+-+-+-+-+" real="++-+-+-+-+-" rend="indent(1)">
                         <seg met="-+" real="++">Whilst, burn<sb/></seg>
-                        <seg met="-+" real="-+">ing through </seg>
-                        <seg met="-+" real="-+">the in<sb/></seg>
-                        <seg met="-+" real="-+">most veil </seg>
+                        <seg>ing through </seg>
+                        <seg>the in<sb/></seg>
+                        <seg>most veil </seg>
                         <seg met="-+" real="-+-">of Heav<sb/><rhyme label="b">en,</rhyme></seg>
                     </l>
                     <l n="17" met="-+-+-+-+-+" real="-+-+-+-+-+" rend="indent(1)">
@@ -151,11 +151,11 @@
                     <l n="18" met="-+-+-+-+-+-+" real="+-+--++--+-+">
                         <seg met="-+" real="+-">Bea<sb/>cons </seg>
                         <seg met="-+" real="+-">from the </seg>
-                        <seg met="-+" real="-+">a<sb/>bode </seg>
+                        <seg>a<sb/>bode </seg>
                         <caesura/>
                         <seg met="-+" real="+-">where the </seg>
-                        <seg met="-+" real="-+">E<sb/>ter<sb/></seg>
-                        <seg met="-+" real="-+">nal <rhyme label="c">are.</rhyme></seg>
+                        <seg>E<sb/>ter<sb/></seg>
+                        <seg>nal <rhyme label="c">are.</rhyme></seg>
                     <note anchored="true">With half of its six feet trochees, this may seem one of
                         those alexandrines that Pope derisively likened to "a wounded snake." But in
                         fact it's remarkably poised -- a coiled snake, if you like, about to spring
