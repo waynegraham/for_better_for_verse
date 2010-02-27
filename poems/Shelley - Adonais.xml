@@ -87,12 +87,12 @@
                     </l>
                 </lg>
                 <lg n="2" type="Spenserian stanza" met="-+(5/5/5/5/5/5/5/5/6)" rhyme="ababbcbcc" org="uniform" sample="complete" part="N">
-                    <l n="10" met="-+-+-+-+-+" real="-+++---+-+" rend="indent(1)">
-                        <seg met="-+" real="-+">The breath </seg>
-                        <seg met="-+" real="++">whose might </seg>
-                        <seg met="-+" real="--">I have </seg>
-                        <seg met="-+" real="-+">in<sb/>voked </seg>
-                        <seg met="-+" real="-+">in <rhyme label="a">song</rhyme></seg>
+                    <l n="10" met="-+-+-+-+-+" real="-+-+-+-+-+" rend="indent(1)">
+                        <seg>The breath </seg>
+                        <seg>whose might </seg>
+                        <seg>I have </seg>
+                        <seg>in<sb/>voked </seg>
+                        <seg>in <rhyme label="a">song</rhyme></seg>
                     </l>
                     <l n="11" met="-+-+-+-+-+" real="-+-+-+-+-+-" rend="indent(1)">
                         <seg met="-+" real="-+">De<sb/>scends </seg>
@@ -130,12 +130,12 @@
                     <l n="15" met="-+-+-+-+-+" real="--++-+-+-+" rend="indent(1)">
                         <seg met="-+" real="--">I am </seg>
                         <seg met="-+" real="++|++">borne dark<sb/></seg>
-                        <seg met="-+" real="-+|-+">ly fear<sb/></seg>
+                        <seg met="-+" real="-+|-+">ly, fear<sb/></seg>
                         <seg met="-+" real="--|-+">ful<sb/>ly, </seg>
                         <seg met="-+" real="-+|-+">a<sb/><rhyme label="c">far;</rhyme></seg>
                     </l>
                     <l n="16" met="-+-+-+-+-+" real="++-+-+-+-+-" rend="indent(1)">
-                        <seg met="-+" real="++">Whilst, <caesura/>burn<sb/></seg>
+                        <seg met="-+" real="++">Whilst, burn<sb/></seg>
                         <seg met="-+" real="-+">ing through </seg>
                         <seg met="-+" real="-+">the in<sb/></seg>
                         <seg met="-+" real="-+">most veil </seg>
@@ -153,7 +153,7 @@
                         <seg met="-+" real="+-">from the </seg>
                         <seg met="-+" real="-+">a<sb/>bode </seg>
                         <caesura/>
-                        <seg met="-+" real="+-">Where the </seg>
+                        <seg met="-+" real="+-">where the </seg>
                         <seg met="-+" real="-+">E<sb/>ter<sb/></seg>
                         <seg met="-+" real="-+">nal <rhyme label="c">are.</rhyme></seg>
                     <note anchored="true">With half of its six feet trochees, this may seem one of
