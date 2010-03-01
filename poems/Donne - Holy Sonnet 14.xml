@@ -34,14 +34,21 @@
                     <seg>and stand, </seg>
                     <seg>o'er<sb/>throw </seg>
                     <seg>me and <rhyme label="b">bend</rhyme></seg>
+                    <note anchored="true"> Editions of this poem often print subscript elision marks
+                        indicating an iambic scansion of foot 5 here, and of numerous other feet
+                        in lines ahead.  While this may have been Donne's preference -- or just his
+                        posthumous printer's in 1633 -- for pedagogical purposes 4B4V prefers to let
+                        evident anapests be anapests wherever possible, dispensing with elision's shock
+                        absorber and giving the washboard effect full play.</note>
                 </l><l n="4" met="-+-+-+-+-+" real="-+-+++-+-+">
                     <seg>Your force </seg>
                     <seg>to break, </seg>
                     <seg>blow, burn, </seg>
                     <seg>and make </seg>
                     <seg>me <rhyme label="a">new.</rhyme></seg>
-                    <note anchored="true">
-                        Rhythmically identical to the irregular line 2 above it, line 4 sets its centrally stressed verbs in a one-for-one correspondence to their counterparts in the earlier line, with alliteration for extra punch.
+                    <note anchored="true"> Rhythmically identical to the irregular line 2 above it,
+                        line 4 sets its centrally stressed verbs in a one-for-one correspondence to
+                        their counterparts in the earlier line, with alliteration for extra punch.
                     </note>
                 </l><l n="5" met="-+-+-+-+-+" real="+---++--+-+">
                     <seg>I, like </seg>
@@ -61,9 +68,15 @@
                     <seg>roy in me, </seg>
                     <seg>me should </seg>
                     <seg>de<sb/><rhyme label="b">fend,</rhyme></seg>
-                    <note anchored="true">
-                        "Donne, for not keeping of accent, deserved hanging."  So said his prosodically better-behaved contemporary Ben Jonson, and at a moment like this it's hard not to concur.  Syllables 6 through 9 in this line might each arguably be either stressed or slack, in a variety of possible combinations reflecting eligible postures a reader might activate and throw the voice into.  Much turns on what importance is vested in "me" as histrionic focus of this outrageous if holy poem.  Quite a lot, 4B4V thinks; but others will sound it differently.  Warning: the next line is not much easier.
-                    </note>
+                    <note anchored="true"> "Donne, for not keeping of accent, deserved hanging." So
+                        said his prosodically better-behaved contemporary Ben Jonson, and at a
+                        moment like this it's hard not to concur. Syllables 6 through 9 in this line
+                        might each arguably be either stressed or slack, in a variety of possible
+                        combinations reflecting eligible postures a reader might activate and throw
+                        the voice into. Much turns on what importance is vested in "me" as
+                        histrionic focus of this outrageous if holy poem. Quite a lot, 4B4V thinks;
+                        but others will sound it differently. Warning: the next line is not much
+                        easier. </note>
                 </l><l n="8" met="-+-+-+-+-+" real="-++--++--+|+-+--++--+">
                     <seg>But is </seg>
                     <seg>cap<sb/>tived, </seg>
