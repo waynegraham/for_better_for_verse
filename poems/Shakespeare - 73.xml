@@ -68,7 +68,13 @@
                     <seg met="-+" part="N">thou seest </seg>
                     <seg met="-+" part="N">the glow<sb part="N"/></seg>
                     <seg met="-+" real="--" part="N">ing of </seg>
-                    <seg met="-+" real="++-" part="N">such <rhyme label="e">fire</rhyme>,</seg>
+                    <seg met="-+" real="++-" part="N">such <rhyme label="e">fi<sb/>re</rhyme>,</seg>
+                    <note anchored="true"> As usual we treat "fire" as a disyllable, thus creating a
+                        feminine ending for this and the rhyming line to come. A Stratford actor
+                        today might make it a monosyllable. Nobody can be sure how Shakespeare
+                        pronounced it -- or for that matter the verb "seest" earlier in the line --
+                        four centuries ago. Consistency in usage is the most we can strive for
+                        here.</note>
                 </l><l n="10" part="N" met="-+-+-+-+-+" real="-+-+-+-+-+">
                     <seg met="-+" part="N">That on </seg>
                     <seg met="-+" part="N">the ash<sb part="N"/></seg>
@@ -80,7 +86,7 @@
                     <seg met="-+" real="++" part="N">death<sb part="N"/>bed </seg>
                     <seg met="-+" part="N">where<sb part="N"/>on </seg>
                     <seg met="-+" part="N">it must </seg>
-                    <seg met="-+" real="-+-" part="N">ex<sb part="N"/><rhyme label="e">pire,</rhyme></seg>
+                    <seg met="-+" real="-+-" part="N">ex<sb part="N"/><rhyme label="e">pi<sb/>re,</rhyme></seg>
                 </l><l n="12" part="N" met="-+-+-+-+-+" real="-+-+-+-+-+">
                     <seg met="-+" part="N">Con<sb part="N"/>sumed </seg>
                     <seg met="-+" part="N">with that </seg>

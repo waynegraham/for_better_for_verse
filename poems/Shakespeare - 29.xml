@@ -45,12 +45,12 @@
                     <seg met="-+" real="++">more rich </seg>
                     <seg met="-+" part="N">in <rhyme label="c">hope,</rhyme></seg>
                 </l><l n="6" part="N" met="-+-+-+-+-+" real="+--+-+-+-+">
-                    <seg real="+-" part="N">Fea<sb part="N"/>tured </seg>
-                    <seg met="-+" part="N">like him, </seg>
+                    <seg met="-+" real="+-">Fea<sb/>tured </seg>
+                    <seg>like him, </seg>
                     <caesura/>
-                    <seg met="-+" part="N">like him </seg>
-                    <seg met="-+" part="N">with friends </seg>
-                    <seg met="-+" part="N"> pos<sb part="N"/><rhyme label="d">sessed,</rhyme></seg>
+                    <seg>like him </seg>
+                    <seg>with friends </seg>
+                    <seg>pos<sb part="N"/><rhyme label="d">sessed,</rhyme></seg>
                 </l><l n="7" part="N" met="-+-+-+-+-+" real="-+-+-+-+-+">
                     <seg met="-+" part="N">De<sb part="N"/>sir<sb part="N"/></seg>
                     <seg met="-+" part="N">ing this </seg>

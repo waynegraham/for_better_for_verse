@@ -16,9 +16,10 @@
         <body>
             <lg type="quatrain" met="-+(4/3/4/3)" rhyme="abcb" org="uniform" sample="complete" part="N">
                 <l n="1" met="-+-+-+-+" real="+-++--+">
-                    <seg>West<sb/>ron </seg>
-                    <seg>wynde when </seg>
-                    <seg>wyll thow <rhyme label="a">blow</rhyme></seg>
+                    <seg met="-+" real="+">West<sb/></seg>
+                    <seg>ron wynde</seg>
+                    <seg met="-+" real="+-">when wyll</seg>
+                    <seg>thow <rhyme label="a">blow</rhyme></seg>
                 </l><l n="2" met="-+-+-+" real="-+++-+">
                     <seg>The smalle </seg>
                     <seg>rayne downe </seg>
@@ -28,7 +29,7 @@
                     <seg>my love </seg>
                     <seg>wer in </seg>
                     <seg>my <rhyme label="x">armes</rhyme></seg>
-                    <note anchored="true"> Don't be alarmed that lines 1 and 3 don't rhyme the way lines 2
+                    <note anchored="true"> Don't worry that lines 1 and 3 don't rhyme the way lines 2
                         and 4 do. It's an accepted pattern in balladic poetry like this, and you'll
                         encounter it again here and there in 4B4V. The conventional way of marking
                         such a rhyme scheme is abxb. This acknowledges, with its a, the expectation
@@ -38,7 +39,12 @@
                     <seg>And I </seg>
                     <seg>yn my bed </seg>
                     <seg>a<sb/><rhyme label="b">gayne</rhyme></seg>
-                    <note anchored="true">
-                        Hauntingly suggestive, yet self-sufficient too, this pensive little complaint takes amplitude from the changes it rings on the common-measure stanza.  No two lines scan the same; nor is any line straight iambic.  On so miniature a scale the spondee in line 2 lets the "small rain" seem to have seeped into everything, while the way slack pairs (u u) migrate to a different position in each of the other lines helps instill into the whole lyric - now half a millennium after it was written down - a surprising conviction of alertness.
-                    </note>
+                    <note anchored="true"> Hauntingly suggestive, yet self-sufficient too, this
+                        pensive little complaint takes amplitude from the changes it rings on the
+                        ballad stanza. No two lines scan the same; nor is any line straight iambic.
+                        On so miniature a scale the spondee in line 2 lets the "small rain" seem to
+                        have seeped into everything, while the way slack pairs (u u) migrate to a
+                        different position in each of the other lines helps instill into the whole
+                        lyric - now half a millennium after it was written down - a surprising
+                        conviction of attentiveness. </note>
                  </l></lg></body></text></TEI>

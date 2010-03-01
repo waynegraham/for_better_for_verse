@@ -15,13 +15,13 @@
         <text>
             <body>
                 <lg n="1" type="sonnet" met="-+(5/5/5/5/5/5/5/5/5/5/5/5/5/5)" rhyme="ababacdcedefef" org="uniform" sample="complete" part="N">
-                    <l n="1" met="-+-+-+-+-+" real="-+-+--+--++">
+                    <l n="1" met="-+-+-+-+-+" real="-+-+--+--++|-+-+--+-+-+">
                    <seg>I met </seg>
                    <seg>a trav<sb/></seg>
-                   <seg>el<sb/>ler from </seg>
-                   <seg>an an<sb/></seg>
-                   <seg>tique <rhyme label="a">land,</rhyme></seg>
-                    <note anchored="true"> 4B4V posits a modern pronunciation of "antique," but
+                   <seg met="-+" real="--+">el<sb/>ler from </seg>
+                   <seg met="-+" real="--">an an<sb/></seg>
+                   <seg met="-+" real="++">tique <rhyme label="a">land,</rhyme></seg>
+                    <note anchored="true"> 4B4V accepts a modern pronunciation of "antique," but
                         Shelley probably put stress on the word's first syllable, where we still
                         find it in a surviving cousin, "antic." </note>
                </l><l n="2" met="-+-+-+-+-+" real="-+++-+-+-+">
