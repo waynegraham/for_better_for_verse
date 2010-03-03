@@ -8,7 +8,7 @@
                  <title>Westron Wynde</title>
                  <author>Anonymous</author>
              </titleStmt>
-             <publicationStmt><date>1500</date></publicationStmt>
+             <publicationStmt><date>1500?</date></publicationStmt>
              <sourceDesc default="false"><p/></sourceDesc>
          </fileDesc>
      </teiHeader>
@@ -18,14 +18,15 @@
                 <l n="1" met="-+-+-+-+" real="+-++--+">
                     <seg met="-+" real="+">West<sb/></seg>
                     <seg>ron wynde </seg>
+                    <caesura/>
                     <seg met="-+" real="+-">when wyll </seg>
                     <seg>thow <rhyme label="a">blow</rhyme></seg>
                 </l><l n="2" met="-+-+-+" real="-+++-+">
                     <seg>The smalle </seg>
-                    <seg>rayne downe </seg>
+                    <seg met="-+" real="++">rayne downe </seg>
                     <seg>can <rhyme label="b">rayne</rhyme></seg>
                 </l><l n="3" met="-+-+-+-+" real="+--+-+-+">
-                    <seg>Chryst yf </seg>
+                    <seg met="-+" real="+-">Chryst yf </seg>
                     <seg>my love </seg>
                     <seg>wer in </seg>
                     <seg>my <rhyme label="x">armes</rhyme></seg>
@@ -37,7 +38,7 @@
                         of that expectation. </note>
                 </l><l n="4" met="-+-+-+" real="-+--+-+">
                     <seg>And I </seg>
-                    <seg>yn my bed </seg>
+                    <seg met="-+" real="--+">yn my bed </seg>
                     <seg>a<sb/><rhyme label="b">gayne</rhyme></seg>
                     <note anchored="true"> Hauntingly suggestive, yet self-sufficient too, this
                         pensive little complaint takes amplitude from the changes it rings on the
