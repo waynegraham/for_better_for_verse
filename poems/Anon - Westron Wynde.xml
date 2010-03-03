@@ -17,8 +17,8 @@
             <lg type="quatrain" met="-+(4/3/4/3)" rhyme="abcb" org="uniform" sample="complete" part="N">
                 <l n="1" met="-+-+-+-+" real="+-++--+">
                     <seg met="-+" real="+">West<sb/></seg>
-                    <seg>ron wynde</seg>
-                    <seg met="-+" real="+-">when wyll</seg>
+                    <seg>ron wynde </seg>
+                    <seg met="-+" real="+-">when wyll </seg>
                     <seg>thow <rhyme label="a">blow</rhyme></seg>
                 </l><l n="2" met="-+-+-+" real="-+++-+">
                     <seg>The smalle </seg>
