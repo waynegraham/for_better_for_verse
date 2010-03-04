@@ -24,7 +24,7 @@
                     </l>
                     <l n="2" met="-+-+-+-+-+" real="-++--+-+-+" rend="indent(1)">
                         <seg>To come </seg>
-                        <seg>vn<sb/>to </seg>
+                        <seg met="-+" real="+-">vn<sb/>to </seg>
                         <seg>his wish<sb/></seg>
                         <seg>ed home </seg>
                         <seg>in <rhyme label="b">haste,</rhyme></seg>
@@ -39,7 +39,7 @@
                     </l>
                     <l n="4" met="-+-+-+-+-+" real="-+++-+-+-+" rend="indent(1)">
                         <seg>Is not </seg>
-                        <seg>great grace </seg>
+                        <seg met="-+" real="++">great grace </seg>
                         <seg>to helpe </seg>
                         <seg>him ou<sb/></seg>
                         <seg>er <rhyme label="b">past,</rhyme></seg>
@@ -48,14 +48,14 @@
                         <seg>Or free </seg>
                         <seg>his feet, </seg>
                         <caesura/>
-                        <seg>that in </seg>
+                        <seg met="-+" real="-+|--" >that in </seg>
                         <seg>the myre </seg>
-                        <seg>sticke <rhyme label="b">fast?</rhyme></seg>
+                        <seg met="-+" real="++">sticke <rhyme label="b">fast?</rhyme></seg>
                     </l>
                     <l n="6" met="-+-+-+-+-+" real="++--+-+-+-+" rend="indent(1)">
-                        <seg>Most en<sb/></seg>
-                        <seg>ui<sb/>ous man, </seg>
-                        <seg>that grieues </seg>
+                        <seg met="-+" real="++">Most en<sb/></seg>
+                        <seg met="-+" real="--+" >ui<sb/>ous man, </seg>
+                        <seg >that grieues </seg>
                         <seg>at neigh<sb/></seg>
                         <seg>bours <rhyme label="c">good,</rhyme></seg>
                     </l>
@@ -67,7 +67,7 @@
                         <seg>thou <rhyme label="b">hast,</rhyme></seg>
                     </l>
                     <l n="8" met="-+-+-+-+-+" real="+--+-+-+-+" rend="indent(1)">
-                        <seg>Why wilt </seg>
+                        <seg met="-+" real="+-">Why wilt </seg>
                         <seg>not let </seg>
                         <seg>him pass, </seg>
                         <seg>that long </seg>
@@ -79,7 +79,7 @@
                         <caesura/>
                         <seg>yet wilt </seg>
                         <seg>thy selfe </seg>
-                        <seg>not passe </seg>
+                        <seg met="-+" real="++">not passe </seg>
                         <seg>the <rhyme label="c">flood?</rhyme></seg>
                     </l>
                 </lg>
@@ -115,17 +115,17 @@
                     </l>
                     <l n="14" met="-+-+-+-+-+" real="-+++-+-+-+" rend="indent(1)">
                         <seg>That makes </seg>
-                        <seg>fraile flesh </seg>
+                        <seg met="-+" real="++">fraile flesh </seg>
                         <seg>to feare </seg>
                         <seg>the bit<sb/></seg>
                         <seg>ter <rhyme label="b">waue?</rhyme></seg>
                     </l>
                     <l n="15" met="-+-+-+-+-+" real="--++++-+++" rend="indent(1)">
-                        <seg>Is not </seg>
-                        <seg>short paine </seg>
-                        <seg>well borne, </seg>
+                        <seg met="-+" real="--">Is not </seg>
+                        <seg met="-+" real="++">short paine </seg>
+                        <seg met="-+" real="++" >well borne, </seg>
                         <seg>that brings </seg>
-                        <seg>long <rhyme label="c">ease,</rhyme></seg>
+                        <seg met="-+" real="++" >long <rhyme label="c">ease,</rhyme></seg>
                     </l>
                     <l n="16" met="-+-+-+-+-+" real="-+-+-+-+-+" rend="indent(1)">
                         <seg>And layes </seg>
@@ -135,18 +135,18 @@
                         <seg>et <rhyme label="b">graue?</rhyme></seg>
                     </l>
                     <l n="17" met="-+-+-+-+-+" real="+--++--+-+" rend="indent(1)">
-                        <seg>Sleepe af<sb/></seg>
+                        <seg met="-+" real="+-">Sleepe af<sb/></seg>
                         <seg>ter toyle, </seg>
                         <caesura/>
-                        <seg>port af<sb/></seg>
+                        <seg met="-+" real="+-">port af<sb/></seg>
                         <seg>ter storm<sb/></seg>
                         <seg>y <rhyme label="c">seas,</rhyme></seg>
                     </l>
                     <l n="18" met="-+-+-+-+-+" real="+--++--+-+-+">
-                        <seg>Ease af<sb/></seg>
+                        <seg met="-+" real="+-">Ease af<sb/></seg>
                         <seg>ter warre, </seg>
                         <caesura/>
-                        <seg>death af<sb/></seg>
+                        <seg met="-+" real="+-">death af<sb/></seg>
                         <seg>ter life </seg>
                         <seg>does great<sb/></seg>
                         <seg>ly <rhyme label="c">please.</rhyme></seg>
