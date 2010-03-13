@@ -16,11 +16,11 @@
             <body>
                 <lg n="1" type="sonnet" met="-+(5/5/5/5/5/5/5/5/5/5/5/5/5/5)" rhyme="abbaabbacdcdee" org="uniform" sample="complete" part="N">
                     <l n="1" met="-+-+-+-+-+" real="+-+---++-+">
-                   <seg>Thou hast </seg>
-                   <seg>made me, </seg>
+                   <seg met="-+" real="+-">Thou hast </seg>
+                   <seg met="-+" real="+-">made me, </seg>
                         <caesura/>
-                   <seg>and shall </seg>
-                   <seg>thy work </seg>
+                   <seg met="-+" real="--">and shall </seg>
+                   <seg met="-+" real="++">thy work </seg>
                    <seg>de<sb/><rhyme label="a">cay?</rhyme></seg>
                    <note anchored="true">
                        Ordinarily pronouns don't take much stress, but from the first this holy sonnet fixes on the "Thou" it prays to, even to the extent of stressing "thy" in the second half of line 1.  Donne knows very well that he himself is quite a piece of work. He also knows, however, that nothing can save him from himself (or his enemy the devil) but the fact that the workmanship in him is God's.  Hence the urgency of the stress on second-person pronouns here and throughout this sonnet.
@@ -35,19 +35,19 @@
                     <seg>I run </seg>
                     <seg>to death, </seg>
                     <seg>and death </seg>
-                    <seg>meets me </seg>
+                    <seg met="-+" real="++">meets me </seg>
                     <seg>as <rhyme label="b">fast,</rhyme></seg>
                 </l><l n="4" met="-+-+-+-+-+" real="-+-+--++-+">
                     <seg>And all </seg>
                     <seg>my pleas<sb/></seg>
-                    <seg>ures are </seg>
-                    <seg>like yes<sb/></seg>
+                    <seg met="-+" real="--">ures are </seg>
+                    <seg met="-+" real="++">like yes<sb/></seg>
                     <seg>ter<sb/><rhyme label="a">day.</rhyme></seg>
                 </l><l n="5" met="-+-+-+-+-+" real="-+++-+++-+|-+-+-+++-+">
                     <seg>I dare </seg>
-                    <seg>not move </seg>
+                    <seg met="-+" real="++|-+">not move </seg>
                     <seg>my dim </seg>
-                    <seg>eyes a<sb/></seg>
+                    <seg met="-+" real="++">eyes a<sb/></seg>
                     <seg>ny <rhyme label="a">way,</rhyme></seg>
                 </l><l n="6" met="-+-+-+-+-+" real="-+-+-+-+-+">
                     <seg>De<sb/>spair </seg>
@@ -56,8 +56,8 @@
                     <seg>be<sb/>fore </seg>
                     <seg>doth <rhyme label="b">cast</rhyme></seg>
                 </l><l n="7" met="-+-+-+-+-+" real="++---+-+-+">
-                    <seg>Such ter<sb/></seg>
-                    <seg>ror, <caesura/>and </seg>
+                    <seg met="-+" real="++">Such ter<sb/></seg>
+                    <seg met="-+" real="--">ror, <caesura/>and </seg>
                     <seg>my fee<sb/></seg>
                     <seg>ble flesh </seg>
                     <seg>doth <rhyme label="b">waste</rhyme></seg>
@@ -69,8 +69,8 @@
                     <seg>towards hell </seg>
                     <seg>doth <rhyme label="a">weigh.</rhyme></seg>
                 </l><l n="9" met="-+-+-+-+-+" real="+-+--+-+-+">
-                    <seg>On<sb/>ly </seg>
-                    <seg>thou art </seg>
+                    <seg met="-+" real="+-">On<sb/>ly </seg>
+                    <seg met="-+" real="+-">thou art </seg>
                     <seg>a<sb/>bove, </seg>
                     <caesura/>
                     <seg>and when </seg>
@@ -81,27 +81,27 @@
                     </note>
                     <l n="10" met="-+-+-+-+-+" real="-++--+-+-+">
                     <seg>By thy </seg>
-                    <seg>leave I </seg>
+                    <seg met="-+" real="+-">leave I </seg>
                     <seg>can look, </seg>
                     <caesura/>
                     <seg>I rise </seg>
                     <seg>a<sb/><rhyme label="d">gain;</rhyme></seg>
                 </l><l n="11" met="-+-+-+-+-+" real="--++-+-+-+|--++-+++-+">
-                    <seg>But our </seg>
-                    <seg>old sub<sb/></seg>
+                    <seg met="-+" real="--">But our </seg>
+                    <seg met="-+" real="++">old sub<sb/></seg>
                     <seg>tle foe </seg>
-                    <seg>so tempt<sb/></seg>
+                    <seg met="-+" real="-+|++">so tempt<sb/></seg>
                     <seg>eth <rhyme label="c">me</rhyme></seg>
                 </l><l n="12" met="-+-+-+-+-+" real="-+++-+---+">
                     <seg>That not </seg>
-                    <seg>one hour </seg>
+                    <seg met="-+" real="++">one hour </seg>
                     <seg>my<sb/>self </seg>
-                    <seg>I can </seg>
+                    <seg met="-+" real="--">I can </seg>
                     <seg>sus<sb/><rhyme label="d">tain.</rhyme></seg>
                 </l><l n="13" met="-+-+-+-+-+" real="++-+---+-+">
-                    <seg>Thy grace </seg>
+                    <seg met="-+" real="++">Thy grace </seg>
                     <seg>may wing </seg>
-                    <seg>me to </seg>
+                    <seg met="-+" real="--">me to </seg>
                     <seg>pre<sb/>vent </seg>
                     <seg>his <rhyme label="e">art,</rhyme></seg>
                     <note anchored="true">
@@ -110,7 +110,7 @@
                 </l><l n="14" met="-+-+-+-+-+" real="-+-+--+-+-+">
                     <seg>And thou </seg>
                     <seg>like ad<sb/></seg>
-                    <seg>a<sb/>mant draw </seg>
+                    <seg met="-+" real="--+">a<sb/>mant draw </seg>
                     <seg>mine i<sb/></seg>
                     <seg>ron <rhyme label="e">heart.</rhyme></seg>
                 </l></lg></body></text></TEI>

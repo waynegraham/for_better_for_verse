@@ -40,13 +40,13 @@
                     <seg>to <rhyme label="a">man</rhyme></seg>
                 </l>
                 <l n="5" met="-+-+-+" real="+--+-+" rend="indent(5)">
-                    <seg>Down to </seg>
+                    <seg met="-+" real="+-">Down to </seg>
                     <seg>a sun<sb/></seg>
                     <seg>less <rhyme label="b">sea.</rhyme></seg>
                 </l>
                 <l n="6" met="-+-+-+-+" real="-+++-+-+">
                     <seg>So twice </seg>
-                    <seg>five miles </seg>
+                    <seg met="-+" real="++">five miles </seg>
                     <seg>of fer<sb/></seg>
                     <seg>tile <rhyme label="c">ground</rhyme></seg>
                 </l>
@@ -61,12 +61,12 @@
                     <seg>were gar<sb/></seg>
                     <seg>dens bright </seg>
                     <seg>with sin<sb/></seg>
-                    <seg>u<sb/>ous <rhyme label="d">rills,</rhyme></seg>
+                    <seg met="-+" real="--+">u<sb/>ous <rhyme label="d">rills,</rhyme></seg>
                 </l>
                 <l n="9" met="-+-+-+-+-+" real="-+-+--+-+-+">
                     <seg>Where blos<sb/></seg>
                     <seg>somed man<sb/></seg>
-                    <seg>y an in<sb/></seg>
+                    <seg met="-+" real="--+">y an in<sb/></seg>
                     <seg>cense-<sb/>bear<sb/></seg>
                     <seg>ing <rhyme label="b">tree;</rhyme></seg>
                     <note anchored="true">
@@ -95,17 +95,17 @@
                     <seg>that deep </seg>
                     <seg>ro<sb/>man<sb/></seg>
                     <seg>tic chasm </seg>
-                    <seg>which slant<sb/><rhyme label="a">ed</rhyme></seg>
+                    <seg met="-+" real="-+-">which slant<sb/><rhyme label="a">ed</rhyme></seg>
                     <note anchored="true">
                         The great, enjambed power of "slanted / Down" will survive this pedestrian interruption, which is just to give notice that the brilliantly turbulent verse of the following passage abounds in feminine endings like this one.  Don't let them throw your scansion off; do note their effect in unbalancing the classic symmetry that has governed the first strophe of this celebrated fragmentary ode.
                     </note>
                 </l>
                 <l n="13" met="-+-+-+-+-+" real="+-++-+-+-+-">
-                    <seg>Down the </seg>
-                    <seg>green hill </seg>
+                    <seg met="-+" real="+-">Down the </seg>
+                    <seg met="-+" real="++">green hill </seg>
                     <seg>a<sb/>thwart </seg>
                     <seg>a ce<sb/></seg>
-                    <seg>darn cov<sb/><rhyme label="b">er!</rhyme></seg>
+                    <seg met="-+" real="-+-">darn cov<sb/><rhyme label="b">er!</rhyme></seg>
                 </l>
                 <l n="14" met="-+-+-+-+-+" real="-+-+-+-+-+-">
                     <seg>A sav<sb/></seg>
@@ -113,21 +113,21 @@
                     <caesura/>
                     <seg>as ho<sb/></seg>
                     <seg>ly and </seg>
-                    <seg>en<sb/>chant<sb/><rhyme label="a">ed</rhyme></seg>
+                    <seg met="-+" real="-+-">en<sb/>chant<sb/><rhyme label="a">ed</rhyme></seg>
                 </l>
                 <l n="15" met="-+-+-+-+-+" real="-+-+-+-+-+-">
                     <seg>As e'er </seg>
                     <seg>be<sb/>neath </seg>
                     <seg>a wan<sb/></seg>
                     <seg>ing moon </seg>
-                    <seg>was haunt<sb/><rhyme label="a">ed</rhyme></seg>
+                    <seg met="-+" real="-+-">was haunt<sb/><rhyme label="a">ed</rhyme></seg>
                 </l>
                 <l n="16" met="-+-+-+-+-+" real="-+-+-+-+-+-">
                     <seg>By wo<sb/></seg>
                     <seg>man wail<sb/></seg>
                     <seg>ing for </seg>
                     <seg>her de<sb/></seg>
-                    <seg>mon-<sb/>lov<sb/><rhyme label="b">er!</rhyme></seg>
+                    <seg met="-+" real="-+-">mon-<sb/>lov<sb/><rhyme label="b">er!</rhyme></seg>
                 </l>
                 <l n="17" met="-+-+-+-+-+" real="-+-+-+-+-+-">
                     <seg>And from </seg>
@@ -135,14 +135,14 @@
                     <caesura/>
                     <seg>with cease<sb/></seg>
                     <seg>less tur<sb/></seg>
-                    <seg>moil seeth<sb/><rhyme label="c">ing,</rhyme></seg>
+                    <seg met="-+" real="-+-">moil seeth<sb/><rhyme label="c">ing,</rhyme></seg>
                 </l>
                 <l n="18" met="-+-+-+-+-+" real="-+-+-+++-+-">
                     <seg>As if </seg>
                     <seg>this earth </seg>
                     <seg>in fast </seg>
-                    <seg>thick pants </seg>
-                    <seg>were breath<sb/><rhyme label="c">ing,</rhyme></seg>
+                    <seg met="-+" real="++">thick pants </seg>
+                    <seg met="-+" real="-+-">were breath<sb/><rhyme label="c">ing,</rhyme></seg>
                 </l>
                 <l n="19" met="-+-+-+-+-+" real="-+-+-+-+-+">
                     <seg>A might<sb/></seg>
@@ -154,14 +154,14 @@
                 <l n="20" met="-+-+-+-+-+" real="-+-++--+-+">
                     <seg>A<sb/>mid </seg>
                     <seg>whose swift </seg>
-                    <seg>half-<sb/>in<sb/></seg>
+                    <seg met="-+" real="+-">half-<sb/>in<sb/></seg>
                     <seg>ter<sb/>mit<sb/></seg>
                     <seg>ted <rhyme label="d">burst</rhyme></seg>
                 </l>
                 <l n="21" met="-+-+-+-+-+" real="++-+---+-+|++-+-+-+-+">
-                    <seg>Huge frag<sb/></seg>
+                    <seg met="-+" real="++">Huge frag<sb/></seg>
                     <seg>ments vault<sb/></seg>
-                    <seg>ed like </seg>
+                    <seg met="-+" real="--|-+">ed like </seg>
                     <seg>re<sb/>bound<sb/></seg>
                     <seg>ing <rhyme label="e">hail,</rhyme></seg>
                 </l>
@@ -177,21 +177,21 @@
                     <seg>these danc<sb/></seg>
                     <seg>ing rocks, </seg>
                     <seg>at once </seg>
-                    <seg>and ev<sb/><rhyme label="f">er</rhyme></seg>
+                    <seg met="-+" real="-+-">and ev<sb/><rhyme label="f">er</rhyme></seg>
                 </l>
                 <l n="24" met="-+-+-+-+-+" real="-+++---+-+-|-+-+-+-+-+-">
                     <seg>It flung </seg>
-                    <seg>up mo<sb/></seg>
-                    <seg>ment<sb/>ly </seg>
+                    <seg met="-+" real="++|-+">up mo<sb/></seg>
+                    <seg met="-+" real="--|-+">ment<sb/>ly </seg>
                     <seg>the sa<sb/></seg>
-                    <seg>cred riv<sb/><rhyme label="f">er.</rhyme></seg>
+                    <seg met="-+" real="-+-">cred riv<sb/><rhyme label="f">er.</rhyme></seg>
                 </l>
                 <l n="25" met="-+-+-+-+-+" real="++-+--+-+-+-|++-+----+-+-">
-                    <seg>Five miles </seg>
+                    <seg met="-+" real="++">Five miles </seg>
                     <seg>me<sb/>an<sb/></seg>
-                    <seg>der<sb/>ing with </seg>
+                    <seg met="-+" real="--+|---">der<sb/>ing with </seg>
                     <seg>a maz<sb/></seg>
-                    <seg>y mo<sb/><rhyme label="g">tion</rhyme></seg>
+                    <seg met="-+" real="-+-">y mo<sb/><rhyme label="g">tion</rhyme></seg>
                 </l>
                 <note anchored="true">
                     Stress "with" here at mid-line if you must.  But there's more fun to be had, totally legal too, in exploiting the capital afforded by the spondee in foot 1, and shooting the rapids of four consecutive slacks produced by making feet 3 and 4 pyrrhic and anapestic respectively. (The line just above this one is nearly as impressive in the same vein: straight iambic scansion is okay there but rather tame. Try it again?) There's plenty of recovery time downstream in the quite regular lines that are coming up.
@@ -215,7 +215,7 @@
                     <seg>in tu<sb/></seg>
                     <seg>mult to </seg>
                     <seg>a life<sb/></seg>
-                    <seg>less o<sb/><rhyme label="g">cean:</rhyme></seg>
+                    <seg met="-+" real="-+-">less o<sb/><rhyme label="g">cean:</rhyme></seg>
                 </l>
                 <l n="29" met="-+-+-+-+-+" real="-+-+-+-+-+">
                     <seg>And 'mid </seg>
@@ -237,10 +237,10 @@
                     <seg>The shad<sb/></seg>
                     <seg>ow of </seg>
                     <seg>the dome </seg>
-                    <seg>of pleas<sb/><rhyme label="j">ure</rhyme></seg>
+                    <seg met="-+" real="-+-">of pleas<sb/><rhyme label="j">ure</rhyme></seg>
                 </l>
                 <l n="32" met="-+-+-+-+" real="+-+-+-+" rend="indent(5)">
-                    <seg>Float<sb/></seg>
+                    <seg met="-+" real="+">Float<sb/></seg>
                     <seg>ed mid<sb/></seg>
                     <seg>way on </seg>
                     <seg>the <rhyme label="k">waves;</rhyme></seg>
@@ -249,13 +249,13 @@
                     </note>
                 </l>
                 <l n="33" met="-+-+-+-+" real="+-+-+-+-" rend="indent(5)">
-                    <seg>Where </seg>
+                    <seg met="-+" real="+">Where </seg>
                     <seg>was heard </seg>
                     <seg>the min<sb/></seg>
-                    <seg>gled meas<sb/><rhyme label="j">ure</rhyme></seg>
+                    <seg met="-+" real="-+-">gled meas<sb/><rhyme label="j">ure</rhyme></seg>
                 </l>
                 <l n="34" met="-+-+-+-+" real="+-+-+-+" rend="indent(5)">
-                    <seg>From </seg>
+                    <seg met="-+" real="+">From </seg>
                     <seg>the foun<sb/></seg>
                     <seg>tain and </seg>
                     <seg>the <rhyme label="k">caves.</rhyme></seg>
@@ -286,7 +286,7 @@
                     </note>
                 </l>
                 <l n="38" met="-+-+-+" real="--+-+-+" rend="indent(5)">
-                    <seg>In a vi<sb/></seg>
+                    <seg met="-+" real="--+">In a vi<sb/></seg>
                     <seg>sion once </seg>
                     <seg>I <rhyme label="b">saw:</rhyme></seg>
                 </l>
@@ -294,7 +294,7 @@
                     <seg>It was </seg>
                     <seg>an Ab<sb/></seg>
                     <seg>ys<sb/>sin<sb/></seg>
-                    <seg>i<sb/>an <rhyme label="c">maid,</rhyme></seg>
+                    <seg met="-+" real="--+">i<sb/>an <rhyme label="c">maid,</rhyme></seg>
                 </l>
                 <l n="40" met="-+-+-+-+" real="-+-+-+-+" rend="indent(5)">
                     <seg>And on </seg>
@@ -303,7 +303,7 @@
                     <seg>she <rhyme label="c">played,</rhyme></seg>
                 </l>
                 <l n="41" met="-+-+-+-+" real="+-+-+-+" rend="indent(5)">
-                    <seg>Sing<sb/></seg>
+                    <seg met="-+" real="+">Sing<sb/></seg>
                     <seg>ing of </seg>
                     <seg>Mount A<sb/></seg>
                     <seg>bo<sb/><rhyme label="b">ra.</rhyme></seg>
@@ -311,7 +311,7 @@
                 <l n="42" met="-+-+-+" real="-+-+-+-" rend="indent(5)">
                     <seg>Could I </seg>
                     <seg>re<sb/>vive </seg>
-                    <seg>with<sb/>in <rhyme label="d">me</rhyme></seg>
+                    <seg met="-+" real="-+-">with<sb/>in <rhyme label="d">me</rhyme></seg>
                 </l>
                 <l n="43" met="-+-+-+" real="-+-+-+" rend="indent(5)">
                     <seg>Her sym<sb/></seg>
@@ -322,16 +322,16 @@
                     <seg>To such </seg>
                     <seg>a deep </seg>
                     <seg>de<sb/>light </seg>
-                    <seg>'twould win <rhyme label="d">me,</rhyme></seg>
+                    <seg met="-+" real="-+-">'twould win <rhyme label="d">me,</rhyme></seg>
                 </l>
                 <l n="45" met="-+-+-+-+" real="+-+-+-+">
-                    <seg>That </seg>
+                    <seg met="-+" real="+">That </seg>
                     <seg>with mu<sb/></seg>
                     <seg>sic loud </seg>
                     <seg>and <rhyme label="e">long,</rhyme></seg>
                 </l>
                 <l n="46" met="-+-+-+-+" real="+-+-+-+">
-                    <seg>I </seg>
+                    <seg met="-+" real="+">I </seg>
                     <seg>would build </seg>
                     <seg>that dome </seg>
                     <seg>in <rhyme label="a">air,</rhyme></seg>
@@ -367,7 +367,7 @@
                     <seg>ing <rhyme label="a">hair!</rhyme></seg>
                 </l>
                 <l n="51" met="-+-+-+-+" real="+-+-+-+">
-                    <seg>Weave </seg>
+                    <seg met="-+" real="+">Weave </seg>
                     <seg>a cir<sb/></seg>
                     <seg>cle round </seg>
                     <seg>him <rhyme label="f">thrice,</rhyme></seg>

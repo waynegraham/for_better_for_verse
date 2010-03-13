@@ -16,24 +16,24 @@
             <body>
                 <lg n="1" type="sonnet" met="-+(5/5/5/5/5/5/5/5/5/5/5/5/5/5)" rhyme="abbaabbacdcdee" org="uniform" sample="complete" part="N">
                     <l n="1" met="-+-+-+-+-+" real="+--+++-+-+">
-                   <seg>Bat<sb/>ter </seg>
+                   <seg met="-+" real="+-">Bat<sb/>ter </seg>
                    <seg>my heart, </seg>
-                   <seg>three-<sb/>per<sb/></seg>
+                   <seg met="-+" real="++">three-<sb/>per<sb/></seg>
                    <seg>soned God; </seg>
                         <caesura/>
                    <seg>for <rhyme label="a">you</rhyme></seg>
                </l><l n="2" met="-+-+-+-+-+" real="-+-+++-+-+">
                     <seg>As yet </seg>
                     <seg>but knock, </seg>
-                    <seg>breathe, shine, </seg>
+                    <seg met="-+" real="++">breathe, shine, </seg>
                     <seg>and seek </seg>
                     <seg>to <rhyme label="b">mend;</rhyme></seg>
                 </l><l n="3" met="-+-+-+-+-+" real="-+-+-+++--+">
                     <seg>That I </seg>
                     <seg>may rise </seg>
                     <seg>and stand, </seg>
-                    <seg>o'er<sb/>throw </seg>
-                    <seg>me and <rhyme label="b">bend</rhyme></seg>
+                    <seg met="-+" real="++">o'er<sb/>throw </seg>
+                    <seg met="-+" real="--+">me and <rhyme label="b">bend</rhyme></seg>
                     <note anchored="true"> Editions of this poem often print subscript elision marks
                         indicating an iambic scansion of foot 5 here, and of numerous other feet
                         in lines ahead.  While this may have been Donne's preference -- or just his
@@ -43,7 +43,7 @@
                 </l><l n="4" met="-+-+-+-+-+" real="-+-+++-+-+">
                     <seg>Your force </seg>
                     <seg>to break, </seg>
-                    <seg>blow, burn, </seg>
+                    <seg met="-+" real="++">blow, burn, </seg>
                     <seg>and make </seg>
                     <seg>me <rhyme label="a">new.</rhyme></seg>
                     <note anchored="true"> Rhythmically identical to the irregular line 2 above it,
@@ -51,22 +51,22 @@
                         their counterparts in the earlier line, with alliteration for extra punch.
                     </note>
                 </l><l n="5" met="-+-+-+-+-+" real="+---++--+-+">
-                    <seg>I, like </seg>
-                    <seg>an u<sb/></seg>
-                    <seg>surped town, </seg>
-                    <seg>to an<sb/>oth<sb/></seg>
+                    <seg met="-+" real="+-">I, like </seg>
+                    <seg met="-+" real="--">an u<sb/></seg>
+                    <seg met="-+" real="++">surped town, </seg>
+                    <seg met="-+" real="--+">to an<sb/>oth<sb/></seg>
                     <seg>er <rhyme label="a">due,</rhyme></seg>
                 </l><l n="6" met="-+-+-+-+-+" real="+---+--+-++">
-                    <seg>La<sb/>bor </seg>
-                    <seg>to ad<sb/>mit </seg>
-                    <seg>you, but </seg>
-                    <seg>O, to </seg>
-                    <seg>no <rhyme label="b">end;</rhyme></seg>
+                    <seg met="-+" real="+-">La<sb/>bor </seg>
+                    <seg met="-+" real="--+">to ad<sb/>mit </seg>
+                    <seg met="-+" real="--">you, but </seg>
+                    <seg met="-+" real="+-">O, to </seg>
+                    <seg met="-+" real="++">no <rhyme label="b">end;</rhyme></seg>
                 </l><l n="7" met="-+-+-+-+-+" real="+--+--++--+">
-                    <seg>Rea<sb/>son, </seg>
+                    <seg met="-+" real="+-">Rea<sb/>son, </seg>
                     <seg>your vice<sb/></seg>
-                    <seg>roy in me, </seg>
-                    <seg>me should </seg>
+                    <seg met="--+" real="--+">roy in me, </seg>
+                    <seg met="-+" real="+-">me should </seg>
                     <seg>de<sb/><rhyme label="b">fend,</rhyme></seg>
                     <note anchored="true"> "Donne, for not keeping of accent, deserved hanging." So
                         said his prosodically better-behaved contemporary Ben Jonson, and at a
@@ -78,32 +78,32 @@
                         but others will sound it differently. Warning: the next line is not much
                         easier. </note>
                 </l><l n="8" met="-+-+-+-+-+" real="-++--++--+|+-+--++--+">
-                    <seg>But is </seg>
-                    <seg>cap<sb/>tived, </seg>
+                    <seg met="-+" real="-+|+-">But is </seg>
+                    <seg met="-+" real="+-">cap<sb/>tived, </seg>
                     <seg>and proves </seg>
-                    <seg>weak or </seg>
+                    <seg met="-+" real="+-">weak or </seg>
                     <seg>un<sb/><rhyme label="a">true.</rhyme></seg>
                 </l><l n="9" met="-+-+-+-+-+" real="-+--+--+-+-+">
                     <seg>Yet dear<sb/></seg>
-                    <seg>ly I love </seg>
-                    <seg>you, and would </seg>
+                    <seg met="-+" real="--+">ly I love </seg>
+                    <seg met="-+" real="--+">you, and would </seg>
                     <seg>be lov<sb/></seg>
                     <seg>&#232;d <rhyme label="c">fain,</rhyme></seg>
                 </l><l n="10" met="-+-+-+-+-+" real="-+-++--+-+">
                     <seg>But am </seg>
                     <seg>be<sb/>trothed </seg>
-                    <seg>un<sb/>to </seg>
+                    <seg met="-+" real="+-">un<sb/>to </seg>
                     <seg>your en<sb/></seg>
                     <seg>e<sb/><rhyme label="d">my.</rhyme></seg>
                 </l><l n="11" met="-+-+-+-+-+" real="-+--+-+++-+|-+--+-+-+-+">
                     <seg>Di<sb/>vorce </seg>
-                    <seg>me, <caesura/>un<sb/>tie </seg>
+                    <seg met="-+" real="--+">me, <caesura/>un<sb/>tie </seg>
                     <seg>or break </seg>
-                    <seg>that knot </seg>
+                    <seg met="-+" real="++|-+">that knot </seg>
                     <seg>a<sb/><rhyme label="c">gain;</rhyme></seg>
                 </l><l n="12" met="-+-+-+-+-+" real="+-+--+-+-+|+--+-+-+-+">
-                    <seg>Take me </seg>
-                    <seg>to you, </seg>
+                    <seg met="-+" real="+-">Take me </seg>
+                    <seg met="-+" real="+-|-+">to you, </seg>
                     <seg>im<sb/>pris<sb/></seg>
                     <seg>on me, </seg>
                     <caesura/>
@@ -113,7 +113,7 @@
                     </note>
                 </l><l n="13" met="-+-+-+-+-+" real="-+--+-+-+-+">
                     <seg>Ex<sb/>cept </seg>
-                    <seg>you en<sb/>thrall </seg>
+                    <seg met="-+" real="--+">you en<sb/>thrall </seg>
                     <seg>me, <caesura/>nev<sb/></seg>
                     <seg>er shall </seg>
                     <seg>be <rhyme label="e">free,</rhyme></seg>
