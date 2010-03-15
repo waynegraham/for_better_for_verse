@@ -8,7 +8,7 @@
                     <title>My Sweetest Lesbia</title>
                     <author>Thomas Campion</author>
                 </titleStmt>
-                <publicationStmt>1601</publicationStmt>
+                <publicationStmt><date>1601</date></publicationStmt>
                 <sourceDesc default="false"><p/></sourceDesc>
             </fileDesc>
         </teiHeader>
@@ -18,7 +18,7 @@
                     <l n="1" met="-+-+-+-+-+" real="-+-+--+-+-+" part="N">
                    <seg>My sweet<sb/></seg>
                    <seg>est Les<sb/></seg>
-                   <seg>bi<sb/>a, let </seg>
+                   <seg met="-+" real="--+">bi<sb/>a, let </seg>
                    <seg>us live </seg>
                    <seg>and <rhyme label="a">love,</rhyme></seg>
                     </l>
@@ -30,10 +30,10 @@
                         <seg>re<sb/><rhyme label="a">prove,</rhyme></seg>
                     </l>
                     <l n="3" met="-+-+-+-+-+" real="+--+-+++-+|-+-+-+++-+" part="N">
-                        <seg>Let us </seg>
+                        <seg met="-+" real="+-|-+">Let us </seg>
                         <seg>not weigh </seg>
                         <seg>them. <caesura/>Heaven's </seg>
-                        <seg>great lamps </seg>
+                        <seg met="-+" real="++">great lamps </seg>
                         <seg>do <rhyme label="b">dive</rhyme></seg>
                     </l>
                 <note anchored="true"> Getting this line to scan requires treating "Heaven's" as a
@@ -44,7 +44,7 @@
                     iamb-spondee pair for the last two feet. That effect was fully available to the
                     poet, but evidently it's not what he wanted. </note>
                     <l n="4" met="-+-+-+-+-+" real="+--+-+-+-+" part="N">
-                        <seg>In<sb/>to </seg>
+                        <seg met="-+" real="+-">In<sb/>to </seg>
                         <seg>their west, </seg>
                         <seg>and straight </seg>
                         <seg>a<sb/>gain </seg>
@@ -53,14 +53,14 @@
                     <l n="5" met="-+-+-+-+-+" real="-+-++-++-+" part="N">
                         <seg>But soon </seg>
                         <seg>as once </seg>
-                        <seg>set is </seg>
-                        <seg>our lit<sb/></seg>
+                        <seg met="-+" real="+-">set is </seg>
+                        <seg met="-+" real="++">our lit<sb/></seg>
                         <seg>tle <rhyme label="c">light,</rhyme></seg>
                     </l>
                     <l n="6" met="-+-+-+-+-+" real="+--+++-+-+|+-++++-+-+" part="N">
-                        <seg>Then must </seg>
-                        <seg>we sleep </seg>
-                        <seg>one e<sb/></seg>
+                        <seg met="-+" real="+-">Then must </seg>
+                        <seg met="-+" real="-+|++">we sleep </seg>
+                        <seg met="-+" real="++">one e<sb/></seg>
                         <seg>ver-<sb/>dur<sb/></seg>
                         <seg>ing <rhyme label="c">night.</rhyme></seg>
                     </l>
@@ -82,7 +82,7 @@
                         <seg>not <rhyme label="a">be;</rhyme></seg>
                     </l>
                     <l n="9" met="-+-+-+-+-+" real="-+-+-+-+-+|++-+-+-+-+" part="N">
-                        <seg>No drum </seg>
+                        <seg met="-+" real="-+|++">No drum </seg>
                         <seg>nor trum<sb/></seg>
                         <seg>pet peace<sb/></seg>
                         <seg>ful sleeps </seg>
@@ -91,7 +91,7 @@
                     <l n="10" met="-+-+-+-+-+" real="-+-++--+-+" part="N">
                         <seg>Un<sb/>less </seg>
                         <seg>a<sb/>larm </seg>
-                        <seg>came from </seg>
+                        <seg met="-+" real="+-">came from </seg>
                         <seg>the camp </seg>
                         <seg>of <rhyme label="b">love.</rhyme></seg>
                     </l>
@@ -127,21 +127,21 @@
                     </l>
                     <l n="15" met="-+-+-+-+-+" real="-+++-+-+-+" part="N">
                         <seg>But let </seg>
-                        <seg>all lov<sb/></seg>
+                        <seg met="-+" real="++">all lov<sb/></seg>
                         <seg>ers, rich </seg>
                         <seg>in tri<sb/></seg>
                         <seg>umph, <rhyme label="b">come</rhyme></seg>
                     </l>
                     <l n="16" met="-+-+-+-+-+" real="--++-+-+-+" part="N">
-                        <seg>And with </seg>
-                        <seg>sweet pas<sb/></seg>
+                        <seg met="-+" real="--">And with </seg>
+                        <seg met="-+" real="++">sweet pas<sb/></seg>
                         <seg>times grace </seg>
                         <seg>my hap<sb/></seg>
                         <seg>py <rhyme label="b">tomb;</rhyme></seg>
                     </l>
                     <l n="17" met="-+-+-+-+-+" real="-+--+-+-+-+" part="N">
                         <seg>And Les<sb/></seg>
-                        <seg>bi<sb/>a, close </seg>
+                        <seg met="-+" real="--+">bi<sb/>a, close </seg>
                         <seg>up thou </seg>
                         <seg>my lit<sb/></seg>
                         <seg>tle <rhyme label="c">light,</rhyme></seg>

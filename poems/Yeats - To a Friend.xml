@@ -22,7 +22,7 @@
                     </l>
                     <l n="2" met="-+-+-+" real="-+--+-+">
                         <seg>Be sec<sb/></seg>
-                        <seg>ret and take </seg>
+                        <seg met="-+" real="--+">ret and take </seg>
                         <seg>de<sb/><rhyme label="b">feat</rhyme></seg>
                     </l>
                     <l n="3" met="-+-+-+" real="-+-+-+">
@@ -36,23 +36,23 @@
                         <seg>com<sb/><rhyme label="b">pete,</rhyme></seg>
                     </l>
                     <l n="5" met="-+-+-+" real="--+-+-+">
-                        <seg>Be<sb/>ing hon<sb/></seg>
+                        <seg met="-+" real="--+">Be<sb/>ing hon<sb/></seg>
                         <seg>our bred, </seg>
                         <caesura/>
                         <seg>with <rhyme label="c">one</rhyme></seg>
                     </l>
                     <l n="6" met="-+-+-+" real="+--+-+|-+-+-+">
-                        <seg>Who, <caesura/>were </seg>
+                        <seg met="-+" real="+-|-+">Who, <caesura/>were </seg>
                         <seg>it proved </seg>
                         <seg>he <rhyme label="d">lies,</rhyme></seg>
                     </l>
                     <l n="7" met="-+-+-+" real="-+-+--+">
                         <seg>Were nei<sb/></seg>
                         <seg>ther shamed </seg>
-                        <seg>in his <rhyme label="c">own</rhyme></seg>
+                        <seg met="-+" real="--+">in his <rhyme label="c">own</rhyme></seg>
                     </l>
                     <l n="8" met="-+-+-+" real="+--+-+">
-                        <seg>Nor in </seg>
+                        <seg met="-+" real="+-">Nor in </seg>
                         <seg>his neigh<sb/></seg>
                         <seg>bours' <rhyme label="d">eyes?</rhyme></seg>
                     <note anchored="true"> While it's acceptable to scan this line as straight
@@ -66,7 +66,7 @@
                         scold. </note>
                     </l>
                     <l n="9" met="-+-+-+" real="+--+-+">
-                        <seg>Bred to </seg>
+                        <seg met="-+" real="+-">Bred to </seg>
                         <seg>a hard<sb/></seg>
                         <seg>er <rhyme label="e">thing</rhyme></seg>
                     </l>
@@ -81,8 +81,8 @@
                         <seg>ing <rhyme label="e">string</rhyme></seg>
                     </l>
                     <l n="12" met="-+-+-+" real="--++-+|-+++-+">
-                        <seg>Where<sb/>on </seg>
-                        <seg>mad fing<sb/></seg>
+                        <seg met="-+" real="--|-+">Where<sb/>on </seg>
+                        <seg met="-+" real="++">mad fing<sb/></seg>
                         <seg>ers <rhyme label="f">play</rhyme></seg>
                     </l>
                 
@@ -91,7 +91,7 @@
                         <seg>a place </seg>
                         <seg>of <rhyme label="c">stone,</rhyme></seg>
                     </l>
-                    <l n="14" met="+-+-+-" real="-+-+-+">
+                    <l n="14" met="-+-+-+" real="-+-+-+">
                         <seg>Be sec<sb/></seg>
                         <seg>ret and </seg>
                         <seg>ex<sb/><rhyme label="g">ult,</rhyme></seg>
@@ -99,11 +99,11 @@
                     <l n="15" met="-+-+-+" real="-+-+++">
                         <seg>Be<sb/>cause <sb/></seg>
                         <seg>of all </seg>
-                        <seg>things <rhyme label="c">known</rhyme></seg>
+                        <seg met="-+" real="++">things <rhyme label="c">known</rhyme></seg>
                     </l>
                     <l n="16" met="-+-+-+" real="+-++-+|+--+-+">
-                        <seg>That is </seg>
-                        <seg>most dif<sb/></seg>
+                        <seg met="-+" real="+-">That is </seg>
+                        <seg met="-+" real="++|-+">most dif<sb/></seg>
                         <seg>fi<sb/><rhyme label="g">cult.</rhyme></seg>
                     <note anchored="true"> It seems right that this line asserting difficulty should
                         be the most difficult in the poem to scan. The sense of obstacles overcome

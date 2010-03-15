@@ -16,7 +16,7 @@
             <body>
                 <lg n="1" type="quatrain" met="-+(4/4/4/4)" rhyme="aabb" org="uniform" sample="complete" part="N">
                     <l n="1" met="-+-+-+-+" real="+-+-+-+">
-                        <seg>Ty<sb/></seg>
+                        <seg met="-+" real="+">Ty<sb/></seg>
                         <seg>ger! ty<sb/></seg>
                         <seg>ger! burn<sb/></seg>
                         <seg>ing <rhyme label="a">bright</rhyme></seg>                    
@@ -32,7 +32,7 @@
                         the time you reach line 4, and line 11, you'll be glad you did. </note>
                     </l>
                     <l n="2" met="-+-+-+-+" real="+-+-+-+">
-                        <seg>In </seg>
+                        <seg met="-+" real="+">In </seg>
                         <seg>the for<sb/></seg>
                         <seg>ests of </seg>
                         <seg>the <rhyme label="a">night,</rhyme></seg>                    
@@ -46,7 +46,7 @@
                         frenzied speaker, whose insatiable appetite for moral thrills overrides
                         pronunciational business as usual. </note></l>
                     <l n="3" met="-+-+-+-+" real="+-+-+-+">
-                        <seg>What </seg>
+                        <seg met="-+" real="+">What </seg>
                         <seg>im<sb/>mor<sb/></seg>
                         <seg>tal hand </seg>
                         <seg>or <rhyme label="b">eye</rhyme></seg>
@@ -60,36 +60,36 @@
                 </lg>
                 <lg n="2" type="quatrain" met="-+(4/4/4/4)" rhyme="aabb" org="uniform" sample="complete" part="N">
                     <l n="5" met="-+-+-+-+" real="+-+-+-+">
-                        <seg>In </seg>
+                        <seg met="-+" real="+">In </seg>
                         <seg>what dis<sb/></seg>
                         <seg>tant deeps </seg>
                         <seg>or <rhyme label="a">skies</rhyme></seg>
                     </l>
                     <l n="6" met="-+-+-+-+" real="+-+-+-+">
-                        <seg>Burnt </seg>
+                        <seg met="-+" real="+">Burnt </seg>
                         <seg>the fi<sb/></seg>
                         <seg>re of </seg>
                         <seg>thine <rhyme label="a">eyes?</rhyme></seg>
                     </l>
                     <l n="7" met="-+-+-+-+" real="+-++--+-">
-                        <seg>On </seg>
+                        <seg met="-+" real="+">On </seg>
                         <seg>what wings </seg>
-                        <seg>dare he </seg>
-                        <seg>a<sb/>spi<sb/><rhyme label="b">re?</rhyme></seg>
+                        <seg met="-+" real="+-">dare he </seg>
+                        <seg met="-+" real="-+-">a<sb/>spi<sb/><rhyme label="b">re?</rhyme></seg>
                     </l>
                     <l n="8" met="-+-+-+-+" real="+-+++-+-">
-                        <seg>What </seg>
+                        <seg met="-+" real="+">What </seg>
                         <seg>the hand </seg>
-                        <seg>dare seize </seg>
-                        <seg>the fi<sb/><rhyme label="b">re?</rhyme></seg>
+                        <seg met="-+" real="++">dare seize </seg>
+                        <seg met="-+" real="-+-">the fi<sb/><rhyme label="b">re?</rhyme></seg>
                     </l>
                 </lg>
                 <lg n="3" type="quatrain" met="-+(4/4/4/4)" rhyme="aabb" org="uniform" sample="complete" part="N">
                     <l n="9" met="-+-+-+-+" real="+++--++|+-+-+-+">
-                        <seg>And </seg>
-                        <seg>what should<sb/></seg>
-                        <seg>er, &amp; </seg>
-                        <seg>what <rhyme label="a">art,</rhyme></seg>
+                        <seg met="-+" real="+">And </seg>
+                        <seg met="-+" real="++|-+">what should<sb/></seg>
+                        <seg met="-+" real="--|-+">er, &amp; </seg>
+                        <seg met="-+" real="++|-+">what <rhyme label="a">art,</rhyme></seg>
                     </l>
                     <l n="10" met="-+-+-+-+" real="-+-+-+-+">
                         <seg>Could twist </seg>
@@ -104,34 +104,34 @@
                         <seg>to <rhyme label="b">beat,</rhyme></seg>
                     </l>
                     <l n="12" met="-+-+-+-+" real="+++-+++">
-                        <seg>What </seg>
-                        <seg>dread hand? </seg>
+                        <seg met="-+" real="+">What </seg>
+                        <seg met="-+" real="++">dread hand? </seg>
                         <caesura/>
                         <seg>&amp; what </seg>
-                        <seg>dread <rhyme label="b">feet?</rhyme></seg>
+                        <seg met="-+" real="++">dread <rhyme label="b">feet?</rhyme></seg>
                     </l>
                 </lg>
                 <lg n="4" type="quatrain" met="-+(4/4/4/4)" rhyme="aabb" org="uniform" sample="complete" part="N">
                     <l n="13" met="-+-+-+-+" real="+-+-+-+">
-                        <seg>What </seg>
+                        <seg met="-+" real="+">What </seg>
                         <seg>the ham<sb/></seg>
                         <seg>mer? <caesura/>what </seg>
                         <seg>the <rhyme label="a">chain?</rhyme></seg>
                     </l>
                     <l n="14" met="-+-+-+-+" real="+-+-+-+">
-                        <seg>In </seg>
+                        <seg met="-+" real="+">In </seg>
                         <seg>what fur<sb/></seg>
                         <seg>nace was </seg>
                         <seg>thy <rhyme label="a">brain?</rhyme></seg>
                     </l>
                     <l n="15" met="-+-+-+-+" real="+-+-+++">
-                        <seg>What </seg>
+                        <seg met="-+" real="+">What </seg>
                         <seg>the an<sb/></seg>
                         <seg>vil? <caesura/>what </seg>
-                        <seg>dread <rhyme label="b">grasp</rhyme></seg>
+                        <seg met="-+" real="++">dread <rhyme label="b">grasp</rhyme></seg>
                     </l>
                     <l n="16" met="-+-+-+-+" real="+-+-+-+">
-                        <seg>Dare </seg>
+                        <seg met="-+" real="+">Dare </seg>
                         <seg>its dead<sb/></seg>
                         <seg>ly ter<sb/></seg>
                         <seg>rors <rhyme label="b">clasp?</rhyme></seg>
@@ -139,9 +139,9 @@
                 </lg>
                 <lg n="5" type="quatrain" met="-+(4/4/4/4)" rhyme="aabb" org="uniform" sample="complete" part="N">
                     <l n="17" met="-+-+-+-+" real="+-+++-+">
-                        <seg>When </seg>
+                        <seg met="-+" real="+">When </seg>
                         <seg>the stars </seg>
-                        <seg>threw down </seg>
+                        <seg met="-+" real="++">threw down </seg>
                         <seg>their <rhyme label="a">spears,</rhyme></seg>
                     </l>
                     <l n="18" met="-+-+-+-+" real="-+-+-+-+">
@@ -151,7 +151,7 @@
                         <seg>their <rhyme label="a">tears,</rhyme></seg>
                     </l>
                     <l n="19" met="-+-+-+-+" real="+-+-+-+">
-                        <seg>Did </seg>
+                        <seg met="-+" real="+">Did </seg>
                         <seg>he smile </seg>
                         <seg>his work </seg>
                         <seg>to <rhyme label="b">see?</rhyme></seg>
@@ -165,25 +165,25 @@
                 </lg>
                 <lg n="6" type="quatrain" met="-+(4/4/4/4)" rhyme="aabb" org="uniform" sample="complete" part="N">
                     <l n="21" met="-+-+-+-+" real="+-+-+-+">
-                        <seg>Ty<sb/></seg>
+                        <seg met="-+" real="+">Ty<sb/></seg>
                         <seg>ger! ty<sb/></seg>
                         <seg>ger! burn<sb/></seg>
                         <seg>ing <rhyme label="a">bright</rhyme></seg>
                     </l>
                     <l n="22" met="-+-+-+-+" real="+-+-+-+">
-                        <seg>In </seg>
+                        <seg met="-+" real="+">In </seg>
                         <seg>the for<sb/></seg>
                         <seg>ests of </seg>
                         <seg>the <rhyme label="a">night,</rhyme></seg>
                     </l>
                     <l n="23" met="-+-+-+-+" real="+-+-+-+">
-                        <seg>What </seg>
+                        <seg met="-+" real="+">What </seg>
                         <seg>im<sb/>mor<sb/></seg>
                         <seg>tal hand </seg>
                         <seg>or <rhyme label="b">eye</rhyme></seg>
                     </l>
                     <l n="24" met="-+-+-+-+" real="++-+-+-+">
-                        <seg>Dare frame </seg>
+                        <seg met="-+" real="++">Dare frame </seg>
                         <seg>thy fear<sb/></seg>
                         <seg>ful sym<sb/></seg>
                         <seg>me<sb/><rhyme label="b">try?</rhyme></seg>

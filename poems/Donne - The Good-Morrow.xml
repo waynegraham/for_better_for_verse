@@ -23,10 +23,10 @@
                    <seg>and <rhyme label="a">I</rhyme></seg>
                     </l>
                     <l n="2" met="-+-+-+-+-+" real="+--++--+-+" part="N">
-                        <seg>Did, till </seg>
+                        <seg met="-+" real="+-">Did, till </seg>
                         <seg>we loved: </seg>
                         <caesura/>
-                        <seg>Were we </seg>
+                        <seg met="-+" real="+-">Were we </seg>
                         <seg>not weaned </seg>
                         <seg>till <rhyme label="b">then?</rhyme></seg>
                         <note anchored="true">
@@ -43,7 +43,7 @@
                     <l n="4" met="-+-+-+-+-+" real="-+-+--+-+-+" part="N">
                         <seg>Or snort<sb/></seg>
                         <seg>ed we </seg>
-                        <seg>in the Sev<sb/></seg>
+                        <seg met="-+" real="--+">in the Sev<sb/></seg>
                         <seg>en Sleep<sb/></seg>
                         <seg>ers' <rhyme label="b">den?</rhyme></seg>
                     </l>
@@ -51,7 +51,7 @@
                         <seg>'Twas so; </seg>
                         <caesura/>
                         <seg>but this, </seg>
-                        <seg>all pleas<sb/></seg>
+                        <seg met="-+" real="++">all pleas<sb/></seg>
                         <seg>ures fan<sb/></seg>
                         <seg>cies <rhyme label="c">be.</rhyme></seg>
                     </l>
@@ -67,7 +67,7 @@
                         <seg>de<sb/>sired, </seg>
                         <seg>and got, </seg>
                         <caesura/>
-                        <seg>'twas but </seg>
+                        <seg met="-+" real="+-">'twas but </seg>
                         <seg>a dream </seg>
                         <seg>of <rhyme label="c">thee.</rhyme></seg>
                     </l>                                       
@@ -75,8 +75,8 @@
                 <lg n="1" met="-+(5/5/5/5/5/5/6)" rhyme="ababccc" org="uniform" sample="complete" part="N">
                     <l n="8" met="-+-+-+-+-+" real="-+++---+-+" part="N">
                         <seg>And now </seg>
-                        <seg>good-<sb/>mor<sb/></seg>
-                        <seg>row to </seg>
+                        <seg met="-+" real="++">good-<sb/>mor<sb/></seg>
+                        <seg met="-+" real="--">row to </seg>
                         <seg>our wak<sb/></seg>
                         <seg>ing <rhyme label="a">souls,</rhyme></seg>
                     </l>
@@ -93,14 +93,14 @@
                     <l n="10" met="-+-+-+-+-+" real="-+++-+-+-+" part="N">
                         <seg>For love, </seg>
                         <caesura/>
-                        <seg>all love </seg>
+                        <seg met="-+" real="++">all love </seg>
                         <seg>of oth<sb/></seg>
                         <seg>er sights </seg>
                         <seg>con<sb/><rhyme label="a">trols,</rhyme></seg>
                     </l>
                     <l n="11" met="-+-+-+-+-+" real="-+++-+-+-+" part="N">
                         <seg>And makes </seg>
-                        <seg>one lit<sb/></seg>
+                        <seg met="-+" real="++">one lit<sb/></seg>
                         <seg>tle room </seg>
                         <seg>an eve<sb/></seg>
                         <seg>ry<sb/><rhyme label="b">where.</rhyme></seg>
@@ -108,8 +108,8 @@
                     <l n="12" met="-+-+-+-+-+" real="-+-+--++-+" part="N">
                         <seg>Let sea-<sb/></seg>
                         <seg>dis<sb/>cover<sb></sb></seg>
-                        <seg>ers to </seg>
-                        <seg>new worlds </seg>
+                        <seg met="-+" real="--">ers to </seg>
+                        <seg met="-+" real="++">new worlds </seg>
                         <seg>have <rhyme label="c">gone,</rhyme></seg>
                         <note anchored="true">
                             Scan "discoverers" as four syllables if you like.  But realize this choice will commit you to an anapest in the second foot, where promoted stress on little "to" then chimes pretentiously with "new" in the following spondee.  4B4V deems elision ("discov'rers") the path of virtue this time.  
@@ -125,16 +125,16 @@
                     <l n="14" met="-+-+-+-+-+-+" real="-+-+++-+--++" part="N">
                         <seg>Let us </seg>
                         <seg>pos<sb/>sess </seg>
-                        <seg>one world, </seg>
+                        <seg met="-+" real="++">one world, </seg>
                         <caesura/>
                         <seg>each hath </seg>
-                        <seg>one, and </seg>
-                        <seg>is <rhyme label="c">one.</rhyme></seg>
+                        <seg met="-+" real="--">one, and </seg>
+                        <seg met="-+" real="++">is <rhyme label="c">one.</rhyme></seg>
                     </l>              
                   </lg>
                 <lg n="3" met="-+(5/5/5/5/5/5/5)" rhyme="ababccc" org="uniform" sample="complete" part="N">
                     <l n="15" met="-+-+-+-+-+" real="++-+-+-+-+|+--+-+-+-+" part="N">
-                        <seg>My face </seg>
+                        <seg met="-+" real="++|+-">My face </seg>
                         <seg>in thine </seg>
                         <seg>eye, <caesura/>thine </seg>
                         <seg>in mine </seg>
@@ -142,21 +142,21 @@
                     </l>
                     <l n="16" met="-+-+-+-+-+" real="-+++---+-+" part="N">
                         <seg>And true </seg>
-                        <seg>plain hearts </seg>
-                        <seg>do in </seg>
+                        <seg met="-+" real="++">plain hearts </seg>
+                        <seg met="-+" real="--">do in </seg>
                         <seg>the fac<sb/></seg>
                         <seg>es <rhyme label="b">rest;</rhyme></seg>
                     </l>
                     <l n="17" met="-+-+-+-+-+" real="+--+++-+-+" part="N">
-                        <seg>Where can </seg>
+                        <seg met="-+" real="+-">Where can </seg>
                         <seg>we find </seg>
-                        <seg>two bet<sb/></seg>
+                        <seg met="-+" real="++">two bet<sb/></seg>
                         <seg>ter hem<sb/></seg>
                         <seg>i<sb/><rhyme label="a">spheres,</rhyme></seg>
                     </l>
                     <l n="18" met="-+-+-+-+-+" real="-+++-+-+-+" part="N">
                         <seg>With<sb/>out </seg>
-                        <seg>sharp north, </seg>
+                        <seg met="-+" real="++">sharp north, </seg>
                         <caesura/>
                         <seg>with<sb/>out </seg>
                         <seg>de<sb/>clin<sb/></seg>
@@ -166,19 +166,19 @@
                         <seg>What<sb/>e<sb/></seg>
                         <seg>ver dies </seg>
                         <seg>was not </seg>
-                        <seg>mixed e<sb/></seg>
+                        <seg met="-+" real="++">mixed e<sb/></seg>
                         <seg>qual<sb/><rhyme label="c">ly;</rhyme></seg>
                     </l>
                     <l n="20" met="-+-+-+-+-+" real="-+++-+-+-+" part="N">
                         <seg>If our </seg>
-                        <seg>two loves </seg>
+                        <seg met="-+" real="++">two loves </seg>
                         <seg>be one, </seg>
                         <caesura/>
                         <seg>or thou </seg>
                         <seg>and <rhyme label="c">I</rhyme></seg>
                     </l>
                     <l n="21" met="-+-+-+-+-+-+" real="+--+-+-+-+-+" part="N">
-                        <seg>Love so </seg>
+                        <seg met="-+" real="+-">Love so </seg>
                         <seg>a<sb/>like </seg>
                         <seg>that none </seg>
                         <seg>do slack<sb/></seg>

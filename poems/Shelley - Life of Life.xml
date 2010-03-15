@@ -35,8 +35,8 @@
                     </l>
                     <l n="4" met="+-+-+-+-" real="+-+++--+-" rend="indent(1)">
                         <seg>Make the </seg>
-                        <seg>cold air </seg>
-                        <seg>fi<sb/>re; <caesura/>then </seg>
+                        <seg met="+-" real="++">cold air </seg>
+                        <seg met="+-" real="+--">fi<sb/>re; <caesura/>then </seg>
                         <seg>screen <rhyme label="b">them</rhyme></seg>
                     <note>Trochaic meters are not very common in the English tradition, and
                         something of a stunt when pulled off as here. The meter feels more
@@ -76,7 +76,7 @@
                     </l>
                     <l n="9" met="+-+-+-+-" real="+-+--+-+-">
                         <seg>As the </seg>
-                        <seg>ra<sb/>di<sb/>ant </seg>
+                        <seg met="+-" real="+--">ra<sb/>di<sb/>ant </seg>
                         <seg>lines of </seg>
                         <seg>morn<sb/><rhyme label="a">ing</rhyme></seg>
                     <note anchored="true"> "Radiant" may be elided, to be sure, into a disyllable
@@ -89,8 +89,8 @@
                     </l>
                     <l n="10" met="+-+-+-+-" real="+-++--+-" rend="indent(1)">
                         <seg>Thro' the </seg>
-                        <seg>clouds ere </seg>
-                        <seg>they div<sb/></seg>
+                        <seg met="+-" real="++">clouds ere </seg>
+                        <seg met="+-" real="--">they div<sb/></seg>
                         <seg>ide <rhyme label="b">them;</rhyme></seg>
                     </l>
                     <l n="11" met="+-+-+-+-" real="+-+-+-+-">
@@ -133,14 +133,14 @@
                         <seg>splen<sb/><rhyme label="b">dour,</rhyme></seg>
                     </l>
                     <l n="17" met="+-+-+-+-" real="-++-+-+-">
-                        <seg>And all </seg>
+                        <seg met="+-" real="-+">And all </seg>
                         <seg>feel, <caesura/>yet </seg>
                         <seg>see thee </seg>
                         <seg>nev<sb/><rhyme label="c">er,</rhyme></seg>
                     </l>
                     <l n="18" met="+-+-+-+-" real="-+-++-+-">
-                        <seg>As I </seg>
-                        <seg>feel now, </seg>
+                        <seg met="+-" real="-+">As I </seg>
+                        <seg met="+-" real="-+">feel now, </seg>
                         <caesura/>
                         <seg>lost for<sb/></seg>
                         <seg>e<sb/><rhyme label="c">ver!</rhyme></seg>
@@ -154,7 +154,7 @@
                         <seg>mov<sb/><rhyme label="a">est</rhyme></seg>
                     </l>
                     <l n="20" met="+-+-+-+-" real="-++-+-+-" rend="indent(1)">
-                        <seg>Its dim </seg>
+                        <seg met="+-" real="-+">Its dim </seg>
                         <seg>shapes are </seg>
                         <seg>clad with </seg>
                         <seg>bright<sb/><rhyme label="b">ness</rhyme></seg>

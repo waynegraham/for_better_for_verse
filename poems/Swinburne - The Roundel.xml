@@ -16,18 +16,18 @@
             <body>
                 <lg n="1" type="roundel" met="--+(5/5/5/2)" rhyme="abab" org="uniform" sample="complete" part="N">
                     <l n="1" met="--+--+--+--+--+" real="-+--+--+--+++" part="N">
-                   <seg>A roun<sb/></seg>
+                   <seg met="--+" real="-+">A roun<sb/></seg>
                    <seg>del is wrought </seg>
                    <seg>as a ring </seg>
                    <seg>or a star<sb/></seg>
-                   <seg>bright <rhyme label="a">sphere,</rhyme></seg>
+                   <seg met="--+" real="++">bright <rhyme label="a">sphere,</rhyme></seg>
                     </l>
                     <l n="2" met="--+--+--+--+--+" real="-+--+--+--+-+" part="N">
-                        <seg>With craft </seg>
+                        <seg met="--+" real="-+">With craft </seg>
                         <seg>of de<sb/>light </seg>
                         <seg>and with cun<sb/></seg>
                         <seg>ning of sound </seg>
-                        <seg>un<sb/><rhyme label="b">sought,</rhyme></seg>
+                        <seg met="--+" real="-+">un<sb/><rhyme label="b">sought,</rhyme></seg>
                     </l>
                     <l n="3" met="--+--+--+--+--+" real="--+--+--+--+--+" part="N">
                         <seg>That the heart </seg>
@@ -37,37 +37,37 @@
                         <seg>ure his <rhyme label="a">ear</rhyme></seg>
                     </l>
                     <l n="4" met="--+--+" real="-+--+" rend="indent(2)">
-                        <seg>A roun<sb/></seg>
+                        <seg met="--+" real="-+">A roun<sb/></seg>
                         <seg>del is <rhyme label="b">wrought.</rhyme></seg>
                     </l>
                 </lg>
                 <lg n="2" type="roundel" met="--+(5/5/5)" rhyme="bab" org="uniform" sample="complete" part="N">
                     <l n="5" met="--+--+--+--+--+" real="-+--+--+--+--+" part="N">
-                        <seg>Its jew<sb/></seg>
+                        <seg met="--+" real="-+">Its jew<sb/></seg>
                         <seg>el of mu<sb/></seg>
                         <seg>sic is carv<sb/></seg>
                         <seg>en of all </seg>
                         <seg>or of <rhyme label="b">aught--</rhyme></seg>
                     </l>
                     <l n="6" met="--+--+--+--+--+" real="++--+--+--+--+" part="N">
-                        <seg>Love, laugh<sb/></seg>
+                        <seg met="--+" real="++">Love, laugh<sb/></seg>
                         <seg>ter, or mourn<sb/></seg>
                         <seg>ing--<caesura/>re<sb/>mem<sb/></seg>
                         <seg>brance of rap<sb/></seg>
                         <seg>ture or <rhyme label="a">fear--</rhyme></seg>
                     </l>
                     <l n="7" met="--+--+--+--+--+" real="-+--+--+--+-+" part="N">
-                        <seg>That fan<sb/></seg>
+                        <seg met="--+" real="-+">That fan<sb/></seg>
                         <seg>cy may fash<sb/></seg>
                         <seg>ion to hang </seg>
                         <seg>in the ear </seg>
-                        <seg>of <rhyme label="b">thought.</rhyme></seg>
+                        <seg met="--+" real="-+">of <rhyme label="b">thought.</rhyme></seg>
                     </l></lg>
                 <lg n="3" type="roundel" met="--+(5/5/5/2)" rhyme="abab" org="uniform" sample="complete" part="N">
                     <l n="8" met="--+--+--+--+--+" real="--+++++--+--+" part="N">
                         <seg>As a bird's </seg>
-                        <seg>quick song </seg>
-                        <seg>runs round, </seg>
+                        <seg met="--+" real="++">quick song </seg>
+                        <seg met="--+" real="++">runs round, </seg>
                         <caesura/>
                         <seg>and the hearts </seg>
                         <seg>in us <rhyme label="a">hear</rhyme></seg>
@@ -76,22 +76,22 @@
                         </note>
                     </l>
                     <l n="9" met="--+--+--+--+--+" real="++--+--+-+++" part="N">
-                        <seg>Pause an<sb/></seg>
+                        <seg met="--+" real="++">Pause an<sb/></seg>
                         <seg>swer to pause, </seg>
                         <caesura/>
                         <seg>and a<sb/>gain </seg>
-                        <seg>the same </seg>
-                        <seg>strain <rhyme label="b">caught,</rhyme></seg>
+                        <seg met="--+" real="-+">the same </seg>
+                        <seg met="--+" real="++">strain <rhyme label="b">caught,</rhyme></seg>
                     </l>
                     <l n="10" met="--+--+--+--+--+" real="-+--+-+--+-+" part="N">
-                        <seg>So moves </seg>
+                        <seg met="--+" real="-+">So moves </seg>
                         <seg>the de<sb/>vice </seg>
-                        <seg>whence, <caesura/>round </seg>
+                        <seg met="--+" real="-+">whence, <caesura/>round </seg>
                         <seg>as a pearl </seg>
-                        <seg>or <rhyme label="a">tear,</rhyme></seg>
+                        <seg met="--+" real="-+">or <rhyme label="a">tear,</rhyme></seg>
                     </l>
                     <l n="11" met="--+--+" real="-+--+" rend="indent(2)">
-                        <seg>A roun<sb/></seg>
+                        <seg met="--+" real="-+">A roun<sb/></seg>
                         <seg>del is <rhyme label="b">wrought.</rhyme></seg>
                     </l>
                 </lg></body></text></TEI>
