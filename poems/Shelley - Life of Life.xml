@@ -114,9 +114,9 @@
                         <seg>none be<sb/></seg>
                         <seg>holds <rhyme label="a">thee,</rhyme></seg>
                     </l>
-                    <l n="14" met="+-+-+-+-" real="+-+-+-+-" rend="indent(1)">
+                    <l n="14" met="+-+-+-+-" real="+-+++-+-" rend="indent(1)">
                         <seg>But thy </seg>
-                        <seg>voice sounds </seg>
+                        <seg met="+-" real="++">voice sounds </seg>
                         <seg>low and </seg>
                         <seg>ten<sb/><rhyme label="b">der</rhyme></seg>
                     </l>
@@ -138,9 +138,9 @@
                         <seg>see thee </seg>
                         <seg>nev<sb/><rhyme label="c">er,</rhyme></seg>
                     </l>
-                    <l n="18" met="+-+-+-+-" real="-+-++-+-">
+                    <l n="18" met="+-+-+-+-" real="-+-++-+-|-++++-+-">
                         <seg met="+-" real="-+">As I </seg>
-                        <seg met="+-" real="-+">feel now, </seg>
+                        <seg met="+-" real="-+|++">feel now, </seg>
                         <caesura/>
                         <seg>lost for<sb/></seg>
                         <seg>e<sb/><rhyme label="c">ver!</rhyme></seg>

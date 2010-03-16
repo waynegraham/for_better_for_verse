@@ -161,10 +161,10 @@
                         contrast lines 2 and 9 are (like the river) moving right along: their commas
                         mark a syntactic division rather than a pause in the flow, so there 4B4V
                         prefers to skip the caesura and step it up. </note>
-                    </l><l n="19" met="-+-+-+-+-+" real="++--+---+++">
+                    </l><l n="19" met="-+-+-+-+-+" real="++--+---+++|++--+-+-+++">
                         <seg met="-+" real="++">Flow'rs worth<sb/></seg>
                         <seg met="-+" real="--+">y of Par<sb/></seg>
-                        <seg met="-+" real="--">a<sb/>dise, </seg>
+                        <seg met="-+" real="--|-+">a<sb/>dise, </seg>
                         <caesura/>
                         <seg>which not </seg>
                         <seg met="-+" real="++">nice Art</seg>

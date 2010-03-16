@@ -22,9 +22,13 @@
                    <seg met="-+" real="--">and shall </seg>
                    <seg met="-+" real="++">thy work </seg>
                    <seg>de<sb/><rhyme label="a">cay?</rhyme></seg>
-                   <note anchored="true">
-                       Ordinarily pronouns don't take much stress, but from the first this holy sonnet fixes on the "Thou" it prays to, even to the extent of stressing "thy" in the second half of line 1.  Donne knows very well that he himself is quite a piece of work. He also knows, however, that nothing can save him from himself (or his enemy the devil) but the fact that the workmanship in him is God's.  Hence the urgency of the stress on second-person pronouns here and throughout this sonnet.
-                   </note>
+                    <note anchored="true"> Ordinarily pronouns don't take much stress, but from the
+                        first this holy sonnet fixes on the "Thou" it prays to, even to the extent
+                        of stressing "thy" in the second half of line 1. Donne knows very well that
+                        he himself is quite a piece of work. He also knows, however, that nothing
+                        can save him from himself (or his enemy the devil) but the fact that the
+                        workmanship in him is God's. Hence the urgency of the stress on
+                        second-person pronouns here and throughout this sonnet. </note>
                </l><l n="2" met="-+-+-+-+-+" real="-+-+-+-+-+">
                     <seg>Re<sb/>pair </seg>
                     <seg>me now, </seg>
@@ -68,7 +72,13 @@
                     <seg>which it </seg>
                     <seg>towards hell </seg>
                     <seg>doth <rhyme label="a">weigh.</rhyme></seg>
-                </l><l n="9" met="-+-+-+-+-+" real="+-+--+-+-+">
+                </l>
+                <note anchored="true"> Making "towards" a monosyllable in this and the next line
+                    saves a lot of trouble. But if that rubs you the wrong way, claim prosodic
+                    license and scan it as a double slack (as may be done at need, throughout 4B4V,
+                    with a handful of prepositional disyllables including "into" and "over").
+                </note>
+                    <l n="9" met="-+-+-+-+-+" real="+-+--+-+-+">
                     <seg met="-+" real="+-">On<sb/>ly </seg>
                     <seg met="-+" real="+-">thou art </seg>
                     <seg>a<sb/>bove, </seg>
@@ -76,10 +86,7 @@
                     <seg>and when </seg>
                     <seg>towards <rhyme label="c">thee</rhyme></seg>
                 </l>
-                    <note anchored="true">
-                        Making "towards" a monosyllable in this and the next line saves a lot of trouble. If this solution rubs you the wrong way, you may claim prosodic license and scan it as a double slack (as may be done, at need, with a handful of prepositional disyllables including "into" and "over").
-                    </note>
-                    <l n="10" met="-+-+-+-+-+" real="-++--+-+-+">
+                <l n="10" met="-+-+-+-+-+" real="-++--+-+-+">
                     <seg>By thy </seg>
                     <seg met="-+" real="+-">leave I </seg>
                     <seg>can look, </seg>
@@ -104,9 +111,10 @@
                     <seg met="-+" real="--">me to </seg>
                     <seg>pre<sb/>vent </seg>
                     <seg>his <rhyme label="e">art,</rhyme></seg>
-                    <note anchored="true">
-                        Again, exceptional stress on the second-person pronoun "Thy," to contrast God's power to the feebler wiles of Satan in the last foot of this line, and the total helplessness of the human "I" in the line above.
-                    </note>
+                    <note anchored="true"> Again, exceptional stress on the second-person pronoun
+                        "Thy," to contrast God's power to the feebler wiles of Satan in the last
+                        foot of this line, and the total helplessness of the human "I" in the line
+                        above. </note>
                 </l><l n="14" met="-+-+-+-+-+" real="-+-+--+-+-+">
                     <seg>And thou </seg>
                     <seg>like ad<sb/></seg>

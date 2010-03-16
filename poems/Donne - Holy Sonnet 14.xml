@@ -28,11 +28,11 @@
                     <seg met="-+" real="++">breathe, shine, </seg>
                     <seg>and seek </seg>
                     <seg>to <rhyme label="b">mend;</rhyme></seg>
-                </l><l n="3" met="-+-+-+-+-+" real="-+-+-+++--+">
+                </l><l n="3" met="-+-+-+-+-+" real="-+-+-+++--+|-+-+-+-+--+">
                     <seg>That I </seg>
                     <seg>may rise </seg>
                     <seg>and stand, </seg>
-                    <seg met="-+" real="++">o'er<sb/>throw </seg>
+                    <seg met="-+" real="++|-+">o'er<sb/>throw </seg>
                     <seg met="-+" real="--+">me and <rhyme label="b">bend</rhyme></seg>
                     <note anchored="true"> Editions of this poem often print subscript elision marks
                         indicating an iambic scansion of foot 5 here, and of numerous other feet
@@ -108,9 +108,15 @@
                     <seg>on me, </seg>
                     <caesura/>
                     <seg>for <rhyme label="d">I,</rhyme></seg>
-                    <note anchored="true">
-                        Admittedly there are only three indisputable stresses in this line: syllables 1, 6, and 10.  Still, reconciling it to the pentameter is not a thankless task.  "Me" in foot 4 is an obvious choice for stress, and a right one.  But it is a nice question whether to make the second foot trochaic like the foot before or iambic like the foot that after.  Donne is entreating the Lord to ravish him: stress on "to" brings out the physicality of this spiritual rape, stress on "you" the contrast between the bold rescuing lover God and the cold litigious enemy Satan.  4B4V knows which lover to prefer, but not which reading. 
-                    </note>
+                    <note anchored="true"> Admittedly there are only three indisputable stresses in
+                        this line: syllables 1, 6, and 10. Still, reconciling it to the pentameter
+                        is not a thankless task. "Me" in foot 4 is an obvious choice for stress, and
+                        a right one. But it is a nice question whether to make the second foot
+                        trochaic like the foot before or iambic like the foot after. Donne is
+                        entreating the Lord to ravish him: stress on "to" brings out the physicality
+                        of this spiritual rape, stress on "you" the contrast between the bold
+                        rescuing lover God and the cold litigious enemy Satan. 4B4V knows which
+                        lover to prefer, but not which reading. </note>
                 </l><l n="13" met="-+-+-+-+-+" real="-+--+-+-+-+">
                     <seg>Ex<sb/>cept </seg>
                     <seg met="-+" real="--+">you en<sb/>thrall </seg>
