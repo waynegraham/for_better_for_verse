@@ -20,7 +20,7 @@
                    <seg>not think </seg>
                    <seg>of thee; </seg>
                    <caesura/>
-                   <seg>and, <caesura/><sb>ti</sb></seg>
+                   <seg>and, <sb>ti</sb></seg>
                    <seg met="-+" real="--+">red yet <rhyme label="a">strong,</rhyme></seg>
                </l><l n="2" met="-+-+-+-+-+" real="-+-+-+-+-+">
                     <seg>I shun </seg>
@@ -66,9 +66,9 @@
                     <seg>er, nev<sb/></seg>
                     <seg>er come </seg>
                     <seg>in <rhyme label="b">sight;</rhyme></seg>
-                </l><l n="8" met="-+-+-+-+-+" real="--++---+++">
+                </l><l n="8" met="-+-+-+-+-+" real="--++---+++|--++-+-+++">
                     <seg met="-+" real="--">I must </seg>
-                    <seg met="-+" real="++">stop short </seg>
+                    <seg met="-+" real="++|-+">stop short </seg>
                     <seg met="-+" real="--">of thee </seg>
                     <seg>the whole </seg>
                     <seg met="-+" real="++">day <rhyme label="a">long.</rhyme></seg>

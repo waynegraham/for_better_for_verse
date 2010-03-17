@@ -34,8 +34,7 @@
                         <seg>not weigh </seg>
                         <seg>them. <caesura/>Heaven's </seg>
                         <seg met="-+" real="++">great lamps </seg>
-                        <seg>do <rhyme label="b">dive</rhyme></seg>
-                    </l>
+                        <seg>do <rhyme label="b">dive</rhyme></seg>                    
                 <note anchored="true"> Getting this line to scan requires treating "Heaven's" as a
                     monosyllable (as in the poetically elided "Heav'n" so dear to hymn writers).
                     Ordinarily 4B4V dislikes elision, but we have Campion's warrant for it here in
@@ -43,7 +42,7 @@
                     and the revised line will scan quite nicely with a disyllabic "Heaven's" and an
                     iamb-spondee pair for the last two feet. That effect was fully available to the
                     poet, but evidently it's not what he wanted. </note>
-                    <l n="4" met="-+-+-+-+-+" real="+--+-+-+-+" part="N">
+                    </l><l n="4" met="-+-+-+-+-+" real="+--+-+-+-+" part="N">
                         <seg met="-+" real="+-">In<sb/>to </seg>
                         <seg>their west, </seg>
                         <seg>and straight </seg>
@@ -54,8 +53,19 @@
                         <seg>But soon </seg>
                         <seg>as once </seg>
                         <seg met="-+" real="+-">set is </seg>
-                        <seg met="-+" real="++">our lit<sb/></seg>
+                        <seg met="-+" real="++|+-">our lit<sb/></seg>
                         <seg>tle <rhyme label="c">light,</rhyme></seg>
+                    <note anchored="true"> A hard line to scan, and deliberately so it seems.
+                        Rewrite it by transposing the words in the 3rd foot to read "is set," and
+                        all will come out smoothly iambic. In this carpe-diem poem, however, Campion
+                        seems to have wanted to jump-stop the clock of the individual mortal life,
+                        so as to jump-start the compensatory flow of eros. This rhythmic nudge to
+                        the metrical system then gets reinforced by stressed contrast between "our"
+                        puny energies and those of the celestial bodies from line 3. If you hit that
+                        stress hard enough you may even override our rule about the stressing of
+                        adjectives, and let "little" scurry in under the metrical radar as a couple
+                        of slacks. The word will get its own back with subsequent iterations of the
+                        refrain in stanzas to come.</note>
                     </l>
                     <l n="6" met="-+-+-+-+-+" real="+--+++-+-+|+-++++-+-+" part="N">
                         <seg met="-+" real="+-">Then must </seg>
@@ -118,8 +128,8 @@
                         <seg>and for<sb/></seg>
                         <seg>tune <rhyme label="a">ends,</rhyme></seg>
                     </l>
-                    <l n="14" met="-+-+-+-+-+" real="-+-+-+-+-+" part="N">
-                        <seg>Let not </seg>
+                    <l n="14" met="-+-+-+-+-+" real="-+-+-+-+-+|+--+-+-+-+" part="N">
+                        <seg met="-+" real="+-">Let not </seg>
                         <seg>my hearse </seg>
                         <seg>be vexed </seg>
                         <seg>with mourn<sb/></seg>
