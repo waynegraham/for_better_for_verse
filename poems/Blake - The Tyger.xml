@@ -37,10 +37,10 @@
                         <seg>ests of </seg>
                         <seg>the <rhyme label="a">night,</rhyme></seg>                    
                     <note anchored="true"> Why not a nice, balladic trimeter here comprising an
-                        anapest, an iamb, and an iamb? Because, as the poem taken whole will show,
+                        anapest, an iamb, and an iamb?  Because, as the poem taken whole will show,
                         the four-line stanzas are tetrameter quatrains and not ballad stanzas. Line
                         2 and several others that follow put stress on initial prepositions or
-                        conjunctions that would ordinarily lie slack. This phenomenon is a lot
+                        conjunctions that would ordinarily lie slack.  This phenomenon is a lot
                         easier to handle and scan once you have read the whole poem out, and out
                         loud. Doing so will put you in close quarters with the obsessiveness of its
                         frenzied speaker, whose insatiable appetite for moral thrills overrides
@@ -118,10 +118,10 @@
                         <seg>mer? <caesura/>what </seg>
                         <seg>the <rhyme label="a">chain?</rhyme></seg>
                     </l>
-                    <l n="14" met="-+-+-+-+" real="+-+-+-+">
+                    <l n="14" met="-+-+-+-+" real="+-+-+-+|+++---+">
                         <seg met="-+" real="+">In </seg>
-                        <seg>what fur<sb/></seg>
-                        <seg>nace was </seg>
+                        <seg met="-+" real="++">what fur<sb/></seg>
+                        <seg met="-+" real="--">nace was </seg>
                         <seg>thy <rhyme label="a">brain?</rhyme></seg>
                     </l>
                     <l n="15" met="-+-+-+-+" real="+-+-+++">
@@ -156,11 +156,11 @@
                         <seg>his work </seg>
                         <seg>to <rhyme label="b">see?</rhyme></seg>
                     </l>
-                    <l n="20" met="-+-+-+-+" real="-+-+-+-+">
+                    <l n="20" met="-+-+-+-+" real="-+-+-+-+|-+-+-+++">
                         <seg>Did he </seg>
                         <seg>who made </seg>
                         <seg>the Lamb </seg>
-                        <seg>make <rhyme label="b">thee?</rhyme></seg>
+                        <seg met="-+" real="++">make <rhyme label="b">thee?</rhyme></seg>
                     </l>
                 </lg>
                 <lg n="6" type="quatrain" met="-+(4/4/4/4)" rhyme="aabb" org="uniform" sample="complete" part="N">

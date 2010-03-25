@@ -71,9 +71,14 @@
                         <caesura/>
                         <seg>and the hearts </seg>
                         <seg>in us <rhyme label="a">hear</rhyme></seg>
-                        <note anchored="true">
-                            Since line 1, Swinburne has here and there swapped in spondees to take up, in a single extra stress, the twinned slack of his poem's anapestic meter.  This line carries that principle of substitution to a virtuoso extreme.  If you can feel the triple anapest running in the background, while you hear the beat of the five consecutive stresses, you get the prosodic equivalent of what the line is talking about: a sort of quadraphonic migration across an acoustic surround.
-                        </note>
+                    <note anchored="true"> Since line 1, Swinburne has here and there swapped in
+                        spondees to take up, in a single extra stress, the twinned slack of his
+                        poem's anapestic meter. This line carries that principle of substitution to
+                        a virtuoso extreme. If you can feel the triple anapest running in the
+                        background, while you hear the beat of the five consecutive stresses, you
+                        get the prosodic equivalent of what the line is talking about: a sort of
+                        quadraphonic migration across an acoustic surround, which is then further
+                        answered in the echoing spondees of the line that follows this one.</note>
                     </l>
                     <l n="9" met="--+--+--+--+--+" real="++--+--+-+++" part="N">
                         <seg met="--+" real="++">Pause an<sb/></seg>
