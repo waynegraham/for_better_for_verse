@@ -125,7 +125,7 @@ function switchstress(shadowspan) {
         150);
     }
 	var stressimg=$("checkstress" + shadowspan.id.substring(15,16)).firstDescendant().firstDescendant();
-	alert(shadowspan.id.substring(15,16));
+	alert(shadowspan.id.substring(15);
 	if(stressimg && stressimg.readAttribute("src")!="images/stress-default.png"){
 		stressimg.writeAttribute("src","images/stress-default.png");
 	}
