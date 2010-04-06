@@ -134,8 +134,8 @@
                         <seg>ful<sb/>ly, </seg>
                         <seg>a<sb/><rhyme label="c">far;</rhyme></seg>
                     </l>
-                    <l n="16" met="-+-+-+-+-+" real="++-+-+-+-+-" rend="indent(1)">
-                        <seg met="-+" real="++">Whilst, burn<sb/></seg>
+                    <l n="16" met="-+-+-+-+-+-" real="-+-+-+-+-+-" rend="indent(1)">
+                        <seg>Whilst, burn<sb/></seg>
                         <seg>ing through </seg>
                         <seg>the in<sb/></seg>
                         <seg>most veil </seg>
