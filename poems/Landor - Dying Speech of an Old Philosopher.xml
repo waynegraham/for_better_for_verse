@@ -21,12 +21,23 @@
                     <seg met="-+" part="N">be<sb part="N"/>fore </seg>
                     <seg met="-+" part="N">the fire </seg>
                     <seg met="-+" part="N">of <rhyme label="a">Life;</rhyme></seg>
-                </l><l n="4" part="N" met="-+-+-+-+-+" real="-+-+-+-+-+">
-                    <seg met="-+" part="N">It sinks; </seg>
+                </l><l n="4" part="N" met="-+-+-+-+-+" real="-+-+-+-+-+|++-+-+---+">
+                    <seg met="-+" real="++" part="N">It sinks; </seg>
                     <caesura/>
                     <seg met="-+" part="N">and I </seg>
                     <seg met="-+" part="N">am read<sb part="N"/></seg>
-                    <seg met="-+" part="N">y to </seg>
+                    <seg met="-+" real="--" part="N">y to </seg>
                     <seg met="-+" part="N">de<sb part="N"/><rhyme>part.</rhyme></seg>
-                    <note anchored="true">The noble stoicism of our speaker here is enriched rhythmically by just a hint of reluctance to accept the limits of mortality in which his philosophy has trained him.  Two hints, really.  First, feel how the spondee in line 3 pauses, for a heartbeat, over what remains for him the memory of a creature comfort when life was still warm to him.  Then drop down to the disappointment that flickers in the very strong caesura after the first foot of line 4.  He's ready, all right, but staying ready takes all his energy at this point.</note>
+                    <note anchored="true">The noble stoicism of our speaker is enriched rhythmically
+                        by just a hint of reluctance to accept the limits of mortality in which his
+                        philosophy has trained him. Two hints, really. First, feel how the spondee
+                        in line 3 pauses, for a heartbeat, over what remains for him the memory of a
+                        creature comfort when life still felt warm. Then drop down in line 4 to the
+                        disappointment that flickers in the very strong caesura after the first
+                        foot. He's ready, all right, but staying ready takes all his energy at this
+                        point. 4B4V prefers straight, durable iambs in this last line. But a reader
+                        who wants to prolong the pathos of leave-taking, or to bring out the hint in
+                        the title that the old philosopher's words constitute a form of prosodically
+                        "dying speech," might well scan the first foot as a spondee, the fourth as a
+                        pyrrhic.</note>
                 </l></lg></body></text></TEI>
