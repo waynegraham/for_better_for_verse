@@ -8,8 +8,7 @@
                 <title>Heaven-Haven: A Nun Takes the Veil</title>
                 <author>Gerard Manley Hopkins</author>
             </titleStmt>
-            <publicationStmt>
-                <p/>
+            <publicationStmt><date>1864</date>
             </publicationStmt>
             <sourceDesc default="false">
                 <p/>
@@ -50,23 +49,23 @@
             <l n="5" part="N" met="-+-+-+" real="-+-+-+">
                     <seg met="-+" part="N">And I </seg>
                     <seg met="-+" part="N">have asked </seg>
-                    <seg met="-+" part="N">to <rhyme label="c">be</rhyme></seg>
+                    <seg met="-+" part="N">to <rhyme label="a">be<rhyme></seg>
             </l><space/><space/>
          <l n="6" part="N" met="-+-+" real="-+++">
                     <seg met="-+" part="N">Where no </seg>
-                    <seg met="-+" real="++" part="N">storms <rhyme label="d">come,</rhyme></seg>
+                    <seg met="-+" real="++" part="N">storms <rhyme label="b">come,</rhyme></seg>
          </l>
          <l n="7" part="N" met="-+-+-+-+-+" real="--++-+-+-+">
                     <seg met="-+" real="--" part="N">Where the </seg>
                     <seg met="-+" real="++" part="N">green swell </seg>
                     <seg met="-+" part="N">is in </seg>
                     <seg met="-+" part="N">the ha<sb part="N"/></seg>
-                    <seg met="-+" part="N">vens <rhyme label="d">dumb,</rhyme></seg>
+                    <seg met="-+" part="N">vens <rhyme label="b">dumb,</rhyme></seg>
          </l><space/>
          <l n="8" part="N" met="-+-+-+" real="-+--+--+">
                     <seg met="-+" part="N">And out </seg>
                     <seg met="-+" real="--+" part="N">of the swing </seg>
-                    <seg met="-+" real="--+" part="N">of the <rhyme label="c">sea.</rhyme></seg>         
+                    <seg met="-+" real="--+" part="N">of the <rhyme label="a">sea.</rhyme></seg>         
                 <note anchored="true"> The "green swell" may be "dumb," but the versification isn't.
                     The way the final line flutters and bobs raises a doubt about how heartily the
                     sister who speaks this poem means to renounce the world's intensity and flux. Is
