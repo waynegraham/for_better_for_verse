@@ -49,7 +49,7 @@
             <l n="5" part="N" met="-+-+-+" real="-+-+-+">
                     <seg met="-+" part="N">And I </seg>
                     <seg met="-+" part="N">have asked </seg>
-                    <seg met="-+" part="N">to <rhyme label="a">be<rhyme></seg>
+                    <seg met="-+" part="N">to <rhyme label="a">be</rhyme></seg>
             </l><space/><space/>
          <l n="6" part="N" met="-+-+" real="-+++">
                     <seg met="-+" part="N">Where no </seg>
