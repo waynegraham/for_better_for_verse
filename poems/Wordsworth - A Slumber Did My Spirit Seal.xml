@@ -8,7 +8,7 @@
                     <seg met="-+" part="N">my spir<sb part="N"/></seg>
 		    <seg met="-+" part="N">it <rhyme label="a">seal;</rhyme></seg>
         </l>
-        <l n="2" part="N" met="-+-+-+" real="--++-+|-+-+-+">
+                <l n="2" part="N" met="-+-+-+" real="--++-+|-+-+-+" rend="indent">
                     <seg met="-+" real="--" part="N">I had </seg>
                     <seg met="-+" real="++" part="N">no hu<sb part="N"/></seg>
                     <seg met="-+" part="N">man <rhyme label="b">fears:</rhyme></seg>
@@ -22,7 +22,7 @@
                     <seg met="-+" part="N">that could </seg>
                     <seg met="-+" part="N">not <rhyme label="a">feel</rhyme></seg>
         </l>
-        <l n="4" part="N" met="-+-+-+" real="-+-+-+">
+                <l n="4" part="N" met="-+-+-+" real="-+-+-+" rend="indent">
                     <seg met="-+" part="N">The touch </seg>
                     <seg met="-+" part="N">of earth<sb part="N"/></seg>
                     <seg met="-+" part="N">ly <rhyme label="b">years.</rhyme></seg>
@@ -50,7 +50,7 @@
                                                   that point what was being stressed was the false
                                                   security of that former state of denial. </note>
         </l>
-        <l n="6" part="N" met="-+-+-+" real="-+-+-+">
+                <l n="6" part="N" met="-+-+-+" real="-+-+-+" rend="indent">
                     <seg met="-+" part="N">She nei<sb part="N"/></seg>
                     <seg met="-+" part="N">ther hears </seg>
                     <seg met="-+" part="N">nor <rhyme label="b">sees;</rhyme></seg>
@@ -61,7 +61,7 @@
                     <seg met="-+" part="N">di<sb part="N"/>ur<sb part="N"/></seg>
                     <seg met="-+" part="N">nal <rhyme label="a">course,</rhyme></seg>
         </l>
-        <l n="8" part="N" met="-+-+-+" real="-+-+-+">
+                <l n="8" part="N" met="-+-+-+" real="-+-+-+" rend="indent">
                     <seg met="-+" part="N">With rocks </seg>,
                     <caesura/>
                     <seg met="-+" part="N">and stones </seg>,
