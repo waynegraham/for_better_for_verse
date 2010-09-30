@@ -45,7 +45,7 @@
                     <seg met="-+" real="++" part="N">few lil<sb part="N"/></seg>
                     <seg met="-+" part="N">ies <rhyme label="a">blow.</rhyme></seg>
         </l></lg>
-        <lg n="2" type="stanza" met="-+(3/2/5/3)" rhyme="cddc" org="uniform" sample="complete" part="N"><space/>
+        <lg n="2" type="stanza" met="-+(3/2/5/3)" rhyme="abba" org="uniform" sample="complete" part="N"><space/>
             <l n="5" part="N" met="-+-+-+" real="-+-+-+">
                     <seg met="-+" part="N">And I </seg>
                     <seg met="-+" part="N">have asked </seg>
