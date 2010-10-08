@@ -3,9 +3,9 @@
   PUBLIC "-//TEI P5//DTD Main Document Type//EN" "http://sds3.itc.virginia.edu:8080/prosody/poems/tei_all.dtd">
 <TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" version="5.0">
     <teiHeader type="text"><fileDesc><titleStmt><title>I Look Into My Glass</title><author>Thomas Hardy</author></titleStmt><publicationStmt><date>1898</date></publicationStmt><sourceDesc default="false"><p/></sourceDesc></fileDesc></teiHeader><text><body>
-    <lg n="1" type="quatrain" met="-+(3/3/4/3)" rhyme="abab" org="uniform" sample="complete" part="N"><l n="1" part="N" met="-+-+-+" real="-+-+-+">
+    <lg n="1" type="quatrain" met="-+(3/3/4/3)" rhyme="abab" org="uniform" sample="complete" part="N"><l n="1" part="N" met="-+-+-+" real="-++--+|-+-+-+">
         <seg met="-+" part="N">I look </seg>
-        <seg met="-+" real="+-" part="N">in<sb part="N"/>to </seg>
+        <seg met="-+" real="+-|-+" part="N">in<sb part="N"/>to </seg>
                     <seg met="-+" part="N">my <rhyme label="a">glass,</rhyme></seg>
                 </l><space/><l n="2" part="N" met="-+-+-+" real="-+-+-+">
                     <seg met="-+" part="N">And view </seg>
