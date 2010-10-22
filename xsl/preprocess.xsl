@@ -109,7 +109,7 @@
                 </xsl:for-each>
             </div>
             
-            <div class="TEI-l" id="prosody-real-{$line-number}">
+            <div class="TEI-l {$indent}" id="prosody-real-{$line-number}">
                 
                 <xsl:copy-of select="@*"/>
                 
