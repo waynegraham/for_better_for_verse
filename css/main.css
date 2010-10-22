@@ -287,3 +287,7 @@ small.date {
 #rhymeflag:hover {
     background: #fff;
 }
+
+.indent {
+	padding-left: 2em;
+}

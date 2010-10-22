@@ -74,9 +74,9 @@
         <xsl:variable name="line-number" select="@n"/>
         <xsl:variable name="indent" select="@rend" />
         
-        <div class="prosody-line">
+        <div class="prosody-line {$indent}">
             <!-- first cycle through the segments, constructing shadow syllables -->
-            <div class="prosody-shadowline {$indent}" id="prosody-shadow-{$line-number}">
+            <div class="prosody-shadowline" id="prosody-shadow-{$line-number}">
                 <xsl:copy-of select="@*"/>
                 <xsl:for-each select="TEI:seg">
                     
@@ -109,7 +109,7 @@
                 </xsl:for-each>
             </div>
             
-            <div class="TEI-l {$indent}" id="prosody-real-{$line-number}">
+            <div class="TEI-l" id="prosody-real-{$line-number}">
                 
                 <xsl:copy-of select="@*"/>
                 
