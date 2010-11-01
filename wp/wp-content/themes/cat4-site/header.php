@@ -60,7 +60,8 @@ else { ?>
 		active: false,
 		header: '.poem-sort-method',
 		autoHeight: false,
-		alwaysOpen: false
+		alwaysOpen: false,
+		navigation: true
 	});
     $('#searchform').submit(function() {
 		$('#results').html('<img src="/images/ajax-loader.gif" style="border:none"/>');
