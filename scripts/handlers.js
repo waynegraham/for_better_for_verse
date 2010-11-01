@@ -218,7 +218,12 @@ function checkfeet(linenumber) {
     var answer = $("prosody-real-" + linenumber).select("span[real]").invoke(
     "pullText").join('');
     /* console.log(answer); */
-    
+
+    // strip trailing foot marker, if present
+    if(answer.substring(answer.length - 1) === '|') {
+        answer = answer.substring(0, answer.length - 1);
+    }
+        
     // now we use Prototype's Ajax Updater convenience type to update the
     // checking signal/control
     new Ajax.Updater({
