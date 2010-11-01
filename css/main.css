@@ -289,5 +289,9 @@ small.date {
 }
 
 .indent {
+	padding-left: 1em;
+}
+
+.indent2 {
 	padding-left: 2em;
 }
