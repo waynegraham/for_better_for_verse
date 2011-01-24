@@ -56,28 +56,28 @@
                 </l>
             </lg>
             <lg n="2" type="cinquain" met="-+(3/4/4/2/5)" rhyme="ababa">
-                <l n="1" met="-+-+-+" real="+--+-+">
+                <l n="6" met="-+-+-+" real="+--+-+">
                     <seg met="-+" real="+-">You have </seg>
                     <seg met="-+">been mine </seg>
                     <seg met="-+">be<sb/><rhyme label="a">fore, --</rhyme></seg>
                 </l>
-                <l n="2" met="-+-+-+-+" real="-+-+-+-+">
+                <l n="7" met="-+-+-+-+" real="-+-+-+-+">
                     <seg met="-+">How long </seg>
                     <seg met="-+">a<sb/>go </seg>
                     <seg met="-+">I may </seg>
                     <seg met="-+">not <rhyme label="b">know:</rhyme></seg>
                 </l>
-                <l n="3" met="-+-+-+-+" real="-++--+-+">
+                <l n="8" met="-+-+-+-+" real="-++--+-+">
                     <seg met="-+">But just </seg>
                     <seg met="-+" real="+-">when at </seg>
                     <seg met="-+">that swal<sb/></seg>
                     <seg met="-+">low's <rhyme label="a">soar</rhyme></seg>
                 </l>
-                <l n="4" met="-+-+" real="-+++">
+                <l n="9" met="-+-+" real="-+++">
                     <seg met="-+">Your neck </seg>
                     <seg met="-+" real="++">turned <rhyme label="b">so, </rhyme></seg>
                 </l>
-                <l n="5" met="-+-+-+-+-+" real="-+-+-+-+-+|++-+-+-+-+">
+                <l n="10" met="-+-+-+-+-+" real="-+-+-+-+-+|++-+-+-+-+">
                     <seg met="-+">Some veil </seg>
                     <seg met="-+">did fall, -- </seg>
                     <caesura/>
@@ -87,19 +87,19 @@
                 </l>
             </lg>
             <lg n="3" type="cinquain" met="-+(3/4/4/2/5)" rhyme="ababa">
-                <l n="1" met="-+-+-+" real="++-+-+">
+                <l n="11" met="-+-+-+" real="++-+-+">
                     <seg met="-+" real="++">Then, now, -- </seg>
                     <caesura/>
                     <seg met="-+">per<sb/>chance </seg>
                     <seg met="-+">a<sb/><rhyme label="a">gain!</rhyme></seg>
                 </l>
-                <l n="2" met="-+-+-+-+" real="-+-+-+-+|++-+-+-+">
+                <l n="12" met="-+-+-+-+" real="-+-+-+-+|++-+-+-+">
                     <seg met="-+" real="-+|++">O round </seg>
                     <seg met="-+">mine eyes </seg>
                     <seg met="-+">your tress<sb/></seg>
                     <seg met="-+">es <rhyme label="b">shake!</rhyme></seg>
                 </l>
-                <l n="3" met="-+-+-+-+" real="-+-+-+-+|+--+-+-+|--++--++|+-++--++">
+                <l n="13" met="-+-+-+-+" real="-+-+-+-+|+--+-+-+|--++--++|+-++--++">
                     <seg met="-+" real="-+|+-|--">Shall we </seg>
                     <seg met="-+" real="-+|++">not lie </seg>
                     <seg met="-+" real="-+|--">as we </seg>
@@ -112,11 +112,11 @@
                         the present, indeed here in the future. (It will also link up nicely with
                         the spondaic slowdown in the line that follows.) </note>
                 </l>
-                <l n="4" met="-+-+" real="+-++">
+                <l n="14" met="-+-+" real="+-++">
                     <seg met="-+" real="+-">Thus for </seg>
                     <seg met="-+" real="++">Love's <rhyme label="b">sake,</rhyme></seg>
                 </l>
-                <l n="5" met="-+-+-+-+-+" real="-+-+-+-+-+">
+                <l n="15" met="-+-+-+-+-+" real="-+-+-+-+-+">
                     <seg met="-+">And sleep, </seg>
                     <seg met="-+">and wake, </seg>
                     <caesura/>
