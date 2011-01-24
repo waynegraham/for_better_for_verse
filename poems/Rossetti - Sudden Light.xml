@@ -13,7 +13,7 @@
     </teiHeader>
     <text>
         <body>
-            <lg n="1" type="quintain" met="-+(3/4/4/2/5)" rhyme="ababa">
+            <lg n="1" type="cinquain" met="-+(3/4/4/2/5)" rhyme="ababa">
                <l n="1" met="-+-+-+" real="+--+-+|+-+--+|-+-+-+|-++--+|--++-+">
                    <seg met="-+" real="-+|+-|--">I have </seg>
                    <seg met="-+" real="-+|+-|++">been here </seg>
@@ -55,7 +55,7 @@
                     <seg met="-+">the <rhyme label="a">shore.</rhyme></seg>
                 </l>
             </lg>
-            <lg n="2" type="quintain" met="-+(3/4/4/2/5)" rhyme="ababa">
+            <lg n="2" type="cinquain" met="-+(3/4/4/2/5)" rhyme="ababa">
                 <l n="1" met="-+-+-+" real="+--+-+">
                     <seg met="-+" real="+-">You have </seg>
                     <seg met="-+">been mine </seg>
@@ -86,7 +86,7 @@
                     <seg met="-+">of <rhyme label="a">yore.</rhyme></seg>
                 </l>
             </lg>
-            <lg n="3" type="quintain" met="-+(3/4/4/2/5)" rhyme="ababa">
+            <lg n="3" type="cinquain" met="-+(3/4/4/2/5)" rhyme="ababa">
                 <l n="1" met="-+-+-+" real="++-+-+">
                     <seg met="-+" real="++">Then, now, -- </seg>
                     <caesura/>
@@ -105,7 +105,7 @@
                     <seg met="-+" real="-+|--">as we </seg>
                     <seg met="-+" real="-+|++">have <rhyme label="a">lain </rhyme></seg>
                     <note anchored="true"> This line is nearly as rich in possibilities as line 1
-                        above. A recitation that simply conforms to the iambic meter will defensibly
+                        above. A recitation that conforms to the iambic meter will defensibly
                         voice an hypnotic automatism, well suited to the deja-vu spell entrancing
                         the whole poem. Alternatively, double spondaic emphasis in feet 2 and 4 will
                         bring out what deja vu denotes: the uncanny recurrence of a bygone affect in
