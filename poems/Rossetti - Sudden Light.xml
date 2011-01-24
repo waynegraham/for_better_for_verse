@@ -14,10 +14,21 @@
     <text>
         <body>
             <lg n="1" type="quintain" met="-+(3/4/4/2/5)" rhyme="ababa">
-               <l n="1" met="-+-+-+" real="+--+-+|--++-+|-+-+-+">
-                   <seg met="-+" real="+-">I have </seg>
-                   <seg met="-+">been here </seg>
+               <l n="1" met="-+-+-+" real="+--+-+|+-+--+|-+-+-+|-++--+|--++-+">
+                   <seg met="-+" real="-+|+-|--">I have </seg>
+                   <seg met="-+" real="-+|+-|++">been here </seg>
                    <seg met="-+">be<sb/><rhyme label="a">fore,</rhyme></seg>
+                    <note anchored="true">This cryptically simple opener can be sounded so many ways
+                        that 4B4V gives the green light to an unprecedented 5 different readings.
+                        (We've never been here before!) Only the disyllable "before" is securely
+                        fixed; how to say the preceding monosyllables seems quite up for grabs. Try
+                        their combinations out, with an ear for the subtly various contexts they
+                        imply. One additionally plausible option that can be ruled out is anapestic
+                        dimeter: scroll down to the first line of Rossetti's second stanza to see
+                        why line 1 here, in order to make the stanzas match, must be a trimeter like
+                        line 6. Considerations of symmetry likewise urge that lines 1 and 6 be
+                        scanned the same, probably but not surely in a trochee-iamb-iamb
+                        pattern.</note>
                </l>
                 <l n="2" met="-+-+-+-+" real="-+-+-+-+">
                     <seg met="-+">But when </seg>
@@ -82,17 +93,24 @@
                     <seg met="-+">per<sb/>chance </seg>
                     <seg met="-+">a<sb/><rhyme label="a">gain!</rhyme></seg>
                 </l>
-                <l n="2" met="-+-+-+-+" real="-+-+-+-+">
-                    <seg met="-+">O round </seg>
+                <l n="2" met="-+-+-+-+" real="-+-+-+-+|++-+-+-+">
+                    <seg met="-+" real="-+|++">O round </seg>
                     <seg met="-+">mine eyes </seg>
                     <seg met="-+">your tress<sb/></seg>
                     <seg met="-+">es <rhyme label="b">shake!</rhyme></seg>
                 </l>
-                <l n="3" met="-+-+-+-+" real="-+-+-+-+">
-                    <seg met="-+">Shall we </seg>
-                    <seg met="-+">not lie </seg>
-                    <seg met="-+">as we </seg>
-                    <seg met="-+">have <rhyme label="a">lain </rhyme></seg>
+                <l n="3" met="-+-+-+-+" real="-+-+-+-+|+--+-+-+|--++--++|+-++--++">
+                    <seg met="-+" real="-+|+-|--">Shall we </seg>
+                    <seg met="-+" real="-+|++">not lie </seg>
+                    <seg met="-+" real="-+|--">as we </seg>
+                    <seg met="-+" real="-+|++">have <rhyme label="a">lain </rhyme></seg>
+                    <note anchored="true"> This line is nearly as rich in possibilities as line 1
+                        above. A recitation that simply conforms to the iambic meter will defensibly
+                        voice the hypnotic automatism of the deja-vu spell that entrances the whole
+                        poem. Alternatively, double spondaic emphasis in feet 2 and 4 will bring out
+                        what deja vu denotes: the uncanny recurrence of a bygone affect in the
+                        present, indeed here the future. (It will also link up nicely with the spondee in the line that follows.)
+                    </note>
                 </l>
                 <l n="4" met="-+-+" real="+-++">
                     <seg met="-+" real="+-">Thus for </seg>
