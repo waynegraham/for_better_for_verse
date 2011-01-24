@@ -23,7 +23,7 @@
                         (We've never been here before!) Only the disyllable "before" is securely
                         fixed; how to say the preceding monosyllables seems quite up for grabs. Try
                         their combinations out, with an ear for the subtly various contexts they
-                        imply. One additionally plausible option that can be ruled out is anapestic
+                        imply. One initially plausible option that can be ruled out is anapestic
                         dimeter: scroll down to the first line of Rossetti's second stanza to see
                         why line 1 here, in order to make the stanzas match, must be a trimeter like
                         line 6. Considerations of symmetry likewise urge that lines 1 and 6 be
@@ -106,11 +106,11 @@
                     <seg met="-+" real="-+|++">have <rhyme label="a">lain </rhyme></seg>
                     <note anchored="true"> This line is nearly as rich in possibilities as line 1
                         above. A recitation that simply conforms to the iambic meter will defensibly
-                        voice the hypnotic automatism of the deja-vu spell that entrances the whole
-                        poem. Alternatively, double spondaic emphasis in feet 2 and 4 will bring out
-                        what deja vu denotes: the uncanny recurrence of a bygone affect in the
-                        present, indeed here the future. (It will also link up nicely with the spondee in the line that follows.)
-                    </note>
+                        voice an hypnotic automatism, well suited to the deja-vu spell entrancing
+                        the whole poem. Alternatively, double spondaic emphasis in feet 2 and 4 will
+                        bring out what deja vu denotes: the uncanny recurrence of a bygone affect in
+                        the present, indeed here in the future. (It will also link up nicely with
+                        the spondaic slowdown in the line that follows.) </note>
                 </l>
                 <l n="4" met="-+-+" real="+-++">
                     <seg met="-+" real="+-">Thus for </seg>
