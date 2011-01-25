@@ -5,7 +5,8 @@
     <teiHeader type="text">
         <fileDesc>
             <titleStmt>
-                <title>Jabberwocky</title><author>Lewis Carroll</author></titleStmt><publicationStmt><date>1855</date></publicationStmt><sourceDesc default="false"><p/></sourceDesc></fileDesc></teiHeader><text><body>
+                <title>Jabberwocky</title>
+                <author>Lewis Carroll</author></titleStmt><publicationStmt><date>1855</date></publicationStmt><sourceDesc default="false"><p/></sourceDesc></fileDesc></teiHeader><text><body>
             <lg n="1" type="stanza" met="-+(4/4/4/3)" rhyme="abab" org="uniform" sample="complete" part="N">
                 <l n="1" part="N" met="-+-+-+-+" real="-+-+-+-+">
                     <seg>'Twas bril<sb/></seg>
