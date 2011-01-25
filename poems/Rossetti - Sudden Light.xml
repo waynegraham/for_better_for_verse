@@ -40,11 +40,11 @@
                     <seg met="-+">I know </seg>
                     <seg met="-+">the grass </seg>
                     <seg met="-+">be<sb/>yond </seg>
-                    <seg met="-+">the <rhyme label="a">door, </rhyme></seg>
+                    <seg met="-+">the <rhyme label="a">door,</rhyme></seg>
                 </l>
                 <l n="4" met="-+-+" real="-+++">
                     <seg met="-+">The sweet </seg>
-                    <seg met="-+" real="++">keen <rhyme label="b">smell, </rhyme></seg>
+                    <seg met="-+" real="++">keen <rhyme label="b">smell,</rhyme></seg>
                 </l>
                 <l n="5" met="-+-+-+-+-+" real="-+-+-+-+-+">
                     <seg met="-+">The sigh<sb/></seg>
@@ -59,7 +59,7 @@
                 <l n="6" met="-+-+-+" real="+--+-+">
                     <seg met="-+" real="+-">You have </seg>
                     <seg met="-+">been mine </seg>
-                    <seg met="-+">be<sb/><rhyme label="a">fore, --</rhyme></seg>
+                    <seg met="-+">be<sb/><rhyme label="a">fore,--</rhyme></seg>
                 </l>
                 <l n="7" met="-+-+-+-+" real="-+-+-+-+">
                     <seg met="-+">How long </seg>
@@ -75,11 +75,11 @@
                 </l>
                 <l n="9" met="-+-+" real="-+++">
                     <seg met="-+">Your neck </seg>
-                    <seg met="-+" real="++">turned <rhyme label="b">so, </rhyme></seg>
+                    <seg met="-+" real="++">turned <rhyme label="b">so,</rhyme></seg>
                 </l>
                 <l n="10" met="-+-+-+-+-+" real="-+-+-+-+-+|++-+-+-+-+">
                     <seg met="-+">Some veil </seg>
-                    <seg met="-+">did fall, -- </seg>
+                    <seg met="-+">did fall,--</seg>
                     <caesura/>
                     <seg met="-+">I knew </seg>
                     <seg met="-+">it all </seg>
@@ -88,7 +88,7 @@
             </lg>
             <lg n="3" type="cinquain" met="-+(3/4/4/2/5)" rhyme="ababa">
                 <l n="11" met="-+-+-+" real="++-+-+">
-                    <seg met="-+" real="++">Then, now, -- </seg>
+                    <seg met="-+" real="++">Then, now,--</seg>
                     <caesura/>
                     <seg met="-+">per<sb/>chance </seg>
                     <seg met="-+">a<sb/><rhyme label="a">gain!</rhyme></seg>
@@ -103,7 +103,7 @@
                     <seg met="-+" real="-+|+-|--">Shall we </seg>
                     <seg met="-+" real="-+|++">not lie </seg>
                     <seg met="-+" real="-+|--">as we </seg>
-                    <seg met="-+" real="-+|++">have <rhyme label="a">lain </rhyme></seg>
+                    <seg met="-+" real="-+|++">have <rhyme label="a">lain</rhyme></seg>
                     <note anchored="true"> This line is nearly as rich in possibilities as line 1
                         above. A recitation that conforms to the iambic meter will defensibly
                         voice an hypnotic automatism, well suited to the deja-vu spell entrancing
