@@ -69,8 +69,11 @@
                     <seg met="-+" real="--+">y an in<sb/></seg>
                     <seg>cense-<sb/>bear<sb/></seg>
                     <seg>ing <rhyme label="b">tree;</rhyme></seg>
-                    <note anchored="true">
-                        In this and the preceding line, we scan with anapests words that are made deliciously ambiguous on the palate by what the tongue does in pronouncing "sinuous" and "many an."  4B4V doesn't often pause to relish sheer word sound; but the reader who fails to savor the saying of this line, or line 1 above, is missing much of what the poem has to offer.
+                    <note anchored="true"> In this and the preceding line, we scan with anapests
+                        words that are made deliciously ambiguous on the palate by what the tongue
+                        does in pronouncing "sinuous" and "many an." 4B4V doesn't often pause to
+                        relish sheer word sound; but the reader who fails to savor the saying of
+                        this line, or line 1 above, is missing much of what the poem has to offer.
                     </note>
                 </l>
                 <l n="10" met="-+-+-+-+-+" real="-+-+-+-+-+">
@@ -96,9 +99,12 @@
                     <seg>ro<sb/>man<sb/></seg>
                     <seg>tic chasm </seg>
                     <seg met="-+" real="-+-">which slant<sb/><rhyme label="a">ed</rhyme></seg>
-                    <note anchored="true">
-                        The great, enjambed power of "slanted / Down" will survive this pedestrian interruption, which is just to give notice that the brilliantly turbulent verse of the following passage abounds in feminine endings like this one.  Don't let them throw your scansion off; do note their effect in unbalancing the classic symmetry that has governed the first strophe of this celebrated fragmentary ode.
-                    </note>
+                    <note anchored="true"> The great, enjambed power of "slanted / Down" will
+                        survive this pedestrian interruption, which is just to give notice that the
+                        brilliantly turbulent verse of the following passage abounds in feminine
+                        endings like this one. Don't let them throw your scansion off; do note their
+                        effect in unbalancing the classic symmetry that has governed the first
+                        strophe of this celebrated fragmentary ode. </note>
                 </l>
                 <l n="13" met="-+-+-+-+-+" real="+-++-+-+-+-">
                     <seg met="-+" real="+-">Down the </seg>
@@ -193,9 +199,16 @@
                     <seg>a maz<sb/></seg>
                     <seg met="-+" real="-+-">y mo<sb/><rhyme label="g">tion</rhyme></seg>
                 </l>
-                <note anchored="true">
-                    Stress "with" here at mid-line if you must.  But there's more fun to be had, totally legal too, in exploiting the capital afforded by the spondee in foot 1, and shooting the rapids of four consecutive slacks produced by making feet 3 and 4 pyrrhic and anapestic respectively. (The line just above this one is nearly as impressive in the same vein: straight iambic scansion is okay there but rather tame. Try it again?) There's plenty of recovery time downstream in the quite regular lines that are coming up.
-                </note>
+                <note anchored="true"> Stress "with" here at mid-line if you must. But there's more
+                    fun to be had, legal too, in exploiting the capital afforded by the
+                    spondee in foot 1, and shooting the rapids of four consecutive slacks mid-line.
+                    (Best practice, in this case, would make feet 3 and 4 a pyrrhic and an anapest,
+                    respectively; alas, the coding behind 4B4V won't permit both that and the safer
+                    anapest-iamb combo for those feet, so grit your teeth and scan the middle foot
+                    as 3 slacks, a super-pyrrhic.).  The line just above this one is nearly as
+                    impressive in the same vein: straight iambic scansion is okay there but rather
+                    feeble from a hydraulic standpoint.  (Try it again?) There's plenty of recovery time
+                    downstream in the quite regular lines that are coming up. </note>
                 <l n="26" met="-+-+-+-+-+" real="-+-+-+-+-+">
                     <seg>Through wood </seg>
                     <seg>and dale </seg>
@@ -244,9 +257,14 @@
                     <seg>ed mid<sb/></seg>
                     <seg>way on </seg>
                     <seg>the <rhyme label="k">waves;</rhyme></seg>
-                    <note anchored="true">
-                        Our familiar nemesis the catalectic tetrameter rears its (acephalous) head again.  By this point the iambic character of Coleridge's poem is so overwhelmingly established that the trochaic option that many shorter poems extend to such a line is simply a wrong choice here -- and in the several lines like this one that lie ahead. A trimeter scansion running trochee, spondee, anapest may tempt you in this case.  But there's no other trimeter nearby to provide answering support, so it won't wash.  Be patient till the final strophe. 
-                    </note>
+                    <note anchored="true"> Our familiar nemesis the catalectic tetrameter rears its
+                        (acephalous) head again. By this point the iambic character of Coleridge's
+                        poem is so overwhelmingly established that the trochaic option that many
+                        shorter poems extend to such a line is simply a wrong choice here -- and also in
+                        the several lines like this one that lie ahead. A trimeter scansion running
+                        trochee, spondee, anapest may tempt you in this case. But there's no other
+                        trimeter nearby to provide answering support, so it won't wash. Be patient
+                        till the final strophe. </note>
                 </l>
                 <l n="33" met="-+-+-+-+" real="+-+-+-+-" rend="indent(5)">
                     <seg met="-+" real="+">Where </seg>
@@ -281,9 +299,13 @@
                     <seg>sel with </seg>
                     <seg>a dul<sb/></seg>
                     <seg>ci<sb/><rhyme label="a">mer</rhyme></seg>
-                    <note anchored="true">
-                        Another magically musical line, with the consonants (and practically the vowels too) of "A damsel" redealt in "dulcimer."  That phonemic shuffle is one reason for putting stress on the final syllable.  Another, better reason is that the syllable will eventually mate in rhyme with lines 10 lines further down.  (Long-range effects and distance learning are what this final phase of Coleridge's wonderful manifesto is all about.)
-                    </note>
+                    <note anchored="true"> Another magically musical line, with the consonants (and
+                        practically the vowels too) of "A damsel" redealt in "dulcimer." That
+                        phonemic shuffle is one reason for putting stress on the final syllable.
+                        Another, better reason is that the syllable will eventually find a set of
+                        partners-in-rhyme 10 lines further down. (Long-range effects and distance
+                        learning are what this final phase of Coleridge's wonderful Romantic
+                        manifesto is all about.) </note>
                 </l>
                 <l n="38" met="-+-+-+" real="--+-+-+" rend="indent(5)">
                     <seg met="-+" real="--+">In a vi<sb/></seg>
@@ -335,9 +357,18 @@
                     <seg>would build </seg>
                     <seg>that dome </seg>
                     <seg>in <rhyme label="a">air,</rhyme></seg>
-                    <note anchored="true">
-                        You might ask why this and the line above it aren't identical trimeters scanned anapest, iamb, iamb.  You might even plead that "long" in the former line rhymes with "song" in a trimeter just two lines above it (line 43).  It's not an easy question to answer, but two considerations countervail: (1) coming right after the feminine ending "win me" in line 44, the double-slack of an anapest feels like an awkward stumble, just where Coleridge wants to build up a steady head of steam toward his finale; (2) in building up that head of steam, nothing can be apter than the driving force that catalectic tetrameter possesses in English (the people's voice!).  With the dulcimer-damsel as opening act, he is now bringing his rock-star poet out on stage and needs all the crowd surge he can get.
-                    </note>
+                    <note anchored="true"> You might ask why this and the line above it aren't
+                        identical trimeters scanned anapest, iamb, iamb. You might even plead that
+                        "long" in the former line rhymes with "song" in a trimeter just two lines
+                        above it (line 43). It's not an easy question to answer, but two
+                        considerations countervail: (1) coming right after the feminine ending "win
+                        me" in line 44, the double-slack of an anapest feels like an awkward
+                        stumble, just where Coleridge wants to build up a steady head of steam
+                        toward his finale; (2) in building up that head of steam, nothing can be
+                        apter than the driving force that catalectic tetrameter possesses in English
+                        (the people's voice!). With the dulcimer-damsel as opening act, he is now
+                        bringing his rock-star poet out on stage and needs all the crowd surge he
+                        can get. </note>
                 </l>
                 <l n="47" met="-+-+-+-+" real="-+-+-+-+">
                     <seg>That sun<sb/></seg>
@@ -389,9 +420,10 @@
                     <seg>the milk </seg>
                     <seg>of Par<sb/></seg>
                     <seg>a<sb/><rhyme label="f">dise.</rhyme></seg>
-                    <note anchored="true ">
-                        The utter regularity of iambic rhythm here bends the poem back towards its almost equally regular beginning strophe.  But where that was Classic architecture, this (for better and for worse) is Romantic incantation.  Turn on the spell checker: there's magic in the web.
-                    </note>
+                    <note anchored="true "> The utter regularity of iambic rhythm here bends the
+                        poem back towards its almost equally regular beginning strophe. But where
+                        that was Classic architecture, this (for better and for worse) is Romantic
+                        incantation. Turn on the spell checker: there's magic in the web. </note>
                 </l>
             </lg>
         </body></text></TEI>
