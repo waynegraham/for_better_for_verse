@@ -198,7 +198,6 @@
                     <seg met="-+" real="--+|---">der<sb/>ing with </seg>
                     <seg>a maz<sb/></seg>
                     <seg met="-+" real="-+-">y mo<sb/><rhyme label="g">tion</rhyme></seg>
-                </l>
                 <note anchored="true"> Stress "with" here at mid-line if you must. But there's more
                     fun to be had, legal too, in exploiting the capital afforded by the
                     spondee in foot 1, and shooting the rapids of four consecutive slacks mid-line.
@@ -209,6 +208,7 @@
                     impressive in the same vein: straight iambic scansion is okay there but rather
                     feeble from a hydraulic standpoint.  (Try it again?) There's plenty of recovery time
                     downstream in the quite regular lines that are coming up. </note>
+                </l>
                 <l n="26" met="-+-+-+-+-+" real="-+-+-+-+-+">
                     <seg>Through wood </seg>
                     <seg>and dale </seg>
@@ -305,7 +305,7 @@
                         Another, better reason is that the syllable will eventually find a set of
                         partners-in-rhyme 10 lines further down. (Long-range effects and distance
                         learning are what this final phase of Coleridge's wonderful Romantic
-                        manifesto is all about.) </note>
+                        manifesto is all about.)</note>
                 </l>
                 <l n="38" met="-+-+-+" real="--+-+-+" rend="indent(5)">
                     <seg met="-+" real="--+">In a vi<sb/></seg>
@@ -368,7 +368,7 @@
                         apter than the driving force that catalectic tetrameter possesses in English
                         (the people's voice!). With the dulcimer-damsel as opening act, he is now
                         bringing his rock-star poet out on stage and needs all the crowd surge he
-                        can get. </note>
+                        can get.</note>
                 </l>
                 <l n="47" met="-+-+-+-+" real="-+-+-+-+">
                     <seg>That sun<sb/></seg>
