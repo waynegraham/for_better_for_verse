@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE TEI
-  PUBLIC "-//TEI P5//DTD Main Document Type//EN" "http://sds3.itc.virginia.edu:8080/prosody/poems/tei_all.dtd">
+  PUBLIC "-//TEI P5//DTD Main Document Type//EN" "http://prosody.lib.virginia.edu:8080/prosody/poems/tei_all.dtd">
 <TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" version="5.0"><teiHeader type="text"><fileDesc><titleStmt><title>Astrophel and Stella: 31</title><author>Sir Philip Sidney</author></titleStmt><publicationStmt><date>1591</date></publicationStmt><sourceDesc default="false"><p/></sourceDesc></fileDesc></teiHeader><text><body><lg met="-+(5)" rhyme="abbaabbacdcdee" org="uniform" sample="complete" part="N"><l n="1" part="N" met="-+-+-+-+-+" real="-+++-+-+-+">
                     <seg met="-+" part="N">With how </seg>
                     <seg met="-+" real="++" part="N">sad steps, </seg>
