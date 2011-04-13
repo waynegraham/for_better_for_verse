@@ -22,8 +22,11 @@
 
 
 <?php wp_footer(); ?>
-  <script>
-   var _gaq = [['_setAccount', 'UA-19270688-1'], ['_trackPageview']];
+
+
+
+<script>
+   var _gaq = [['_setAccount', 'UA-19425148-1'], ['_trackPageview']];
    (function(d, t) {
     var g = d.createElement(t),
         s = d.getElementsByTagName(t)[0];
