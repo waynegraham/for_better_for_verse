@@ -26,6 +26,12 @@ span:hover {
     background:#444;
 } 
 
+/* Handles the spacing for poems */
+span.space_1 { margin-left: 1em;}
+span.space_2 { margin-left: 2em;}
+span.space_3 { margin-left: 3em;}
+span.space_4 { margin-left: 4em;}
+
 span.prosody-shadowsyllable {
     display:table-cell;
     empty-cells: show;

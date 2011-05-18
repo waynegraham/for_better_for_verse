@@ -47,7 +47,7 @@
                     <seg met="-+" real="--+" part="N">as we sat </seg>
                     <seg met="-+" real="--+" part="N">in a <rhyme label="a">flock</rhyme></seg>
                 </l>
-                <space/>
+                <space quantity="1"/>
                 <l n="4" part="N" met="-+-+-+" real="--+--+-+">
                     <seg met="-+" real="--+" part="N">By the em<sb part="N"/></seg>
                     <seg met="-+" real="--+" part="N">bers in hearth<sb part="N"/></seg>
@@ -69,7 +69,7 @@
                     <seg met="-+" real="--+" part="N">it oc<sb part="N"/>cur </seg>
                     <seg>to one </seg>
                     <seg met="-+" real="--+" part="N">of us <rhyme label="c">there</rhyme></seg>
-                </l><space/><l n="8" part="N" met="-+-+-+" real="-+--+-+">
+                </l><space quantity="1"/><l n="8" part="N" met="-+-+-+" real="-+--+-+">
                     <seg>To doubt </seg>
                     <seg met="-+" real="--+" part="N">they were kneel<sb part="N"/></seg>
                     <seg>ing <rhyme label="d">then.</rhyme></seg>
@@ -95,7 +95,7 @@
                     <seg>one said </seg>
                     <seg>on Christ<sb part="N"/></seg>
                     <seg>mas <rhyme label="e">Eve,</rhyme></seg>
-                </l><space/>
+                </l><space quantity="1"/>
             <l n="12" part="N" met="-+-+-+" real="+--+-+">
                     <seg met="-+" real="+-" part="N">"Come; <caesura/>see </seg>
                     <seg>the ox<sb part="N"/></seg>
@@ -134,7 +134,7 @@
                         about line 15 is the prosodically communicated sense of multiple possibility.
                     </note>
                 </l>
-            <space/><l n="16" part="N" met="-+-+-+" real="+--+-+">
+            <space quantity="1"/><l n="16" part="N" met="-+-+-+" real="+--+-+">
                     <seg met="-+" real="+-" part="N">Hop<sb part="N"/>ing </seg>
                     <seg>it might </seg>
                     <seg>be <rhyme label="h">so.</rhyme></seg>

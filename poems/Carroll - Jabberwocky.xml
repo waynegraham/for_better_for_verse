@@ -13,7 +13,7 @@
                     <seg>lig, <caesura/>and </seg>
                     <seg>the slith<sb/></seg>
                     <seg>y <rhyme label="a">toves</rhyme></seg>
-                </l><space/>
+                </l><space quantity="1"/>
                     <l n="2" part="N" met="-+-+-+-+" real="-+-+-+-+">
                     <seg>Did gyre </seg>
                     <seg>and gim<sb/></seg>
@@ -24,7 +24,7 @@
                     <seg>sy were </seg>
                     <seg>the bo<sb/></seg>
                     <seg>ro<sb/><rhyme label="a">goves,</rhyme></seg>
-                </l><space/><space/><l n="4" part="N" met="-+-+-+" real="--++-+">
+                </l><space quantity="2"/><l n="4" part="N" met="-+-+-+" real="--++-+">
                     <seg met="-+" real="--">And the </seg>
                     <seg met="-+" real="++">mome raths </seg>
                     <seg>out<sb/><rhyme label="b">grabe.</rhyme></seg>
@@ -47,7 +47,7 @@
                     <seg>the Jab<sb/></seg>
                     <seg>ber<sb/>wock, </seg>
                     <seg>my <rhyme label="a">son!</rhyme></seg>
-                </l><space/><l n="6" part="N" met="-+-+-+-+" real="-+-+-+-+">
+                </l><space quantity="1"/><l n="6" part="N" met="-+-+-+-+" real="-+-+-+-+">
                     <seg>The jaws </seg>
                     <seg>that bite, </seg>
                     <caesura/>
@@ -58,7 +58,7 @@
                     <seg>the Jub<sb/></seg>
                     <seg>jub bird, </seg>
                     <seg>and <rhyme label="a">shun</rhyme></seg>
-                </l><space/><space/><l n="8" part="N" met="-+-+-+" real="-+--+-+">
+                </l><space quantity="2"/><l n="8" part="N" met="-+-+-+" real="-+--+-+">
                     <seg>The fru<sb/></seg>
                     <seg met="-+" real="--+">mi<sb/>ous Ban<sb/></seg>
                     <seg>der<sb/><rhyme label="b">snatch!"</rhyme></seg>
@@ -68,7 +68,7 @@
                     <seg>his vor<sb/></seg>
                     <seg>pal sword </seg>
                     <seg>in <rhyme label="a">hand:</rhyme></seg>
-                </l><space/><l n="10" part="N" met="-+-+-+-+" real="++-+-+-+">
+             </l><space quantity="1"/><l n="10" part="N" met="-+-+-+-+" real="++-+-+-+">
                     <seg met="-+" real="++">Long time </seg>
                     <seg>the man<sb/></seg>
                     <seg>xome foe </seg>
@@ -85,7 +85,7 @@
                         itself, "he" with "tree." Carroll indulges this effect in several ensuing
                         stanzas, only to snap out of his mock-heroic rapture with the reprise of
                         abab at the close of the poem.</note>
-                </l><space/><space/><l n="12" part="N" met="-+-+-+" real="-+-+-+">
+                </l><space quantity="2"/><l n="12" part="N" met="-+-+-+" real="-+-+-+">
                     <seg>And stood </seg>
                     <seg>a<sb/>while </seg>
                     <seg>in <rhyme label="b">thought.</rhyme></seg>
@@ -95,7 +95,7 @@
                     <seg>in uf<sb/></seg>
                     <seg>fish thought </seg>
                     <seg>he <rhyme label="a">stood,</rhyme></seg>
-                </l><space/><l n="14" part="N" met="-+-+-+-+" real="-+-+-+-+">
+           </l><space quantity="1"/><l n="14" part="N" met="-+-+-+-+" real="-+-+-+-+">
                     <seg>The Jab<sb/></seg>
                     <seg>ber<sb/>wock, </seg>
                     <caesura/>
@@ -106,7 +106,7 @@
                     <seg>fling through </seg>
                     <seg>the tul<sb/></seg>
                     <seg>gey <rhyme label="a">wood,</rhyme></seg>
-                </l><space/><space/><l n="16" part="N" met="-+-+-+" real="-+-+-+">
+                </l><space quantity="2"/><l n="16" part="N" met="-+-+-+" real="-+-+-+">
                     <seg>And bur<sb/></seg>
                     <seg>bled as </seg>
                     <seg>it <rhyme label="b">came!</rhyme></seg>
@@ -121,7 +121,7 @@
                         ahead and use spondees in the first two feet. 4B4V prefers iambs here, to
                         make the deed feel easy. It's all in the wrist. And in the internal rhyming
                         of "two" with "through." </note>
-                </l><space/><l n="18" part="N" met="-+-+-+-+" real="-+-+-+-+">
+           </l><space quantity="1"/><l n="18" part="N" met="-+-+-+-+" real="-+-+-+-+">
                     <seg>The vor<sb/></seg>
                     <seg>pal blade </seg>
                     <seg>went snick<sb/></seg>
@@ -132,7 +132,7 @@
                     <caesura/>
                     <seg>and with </seg>
                     <seg>its <rhyme label="x">head</rhyme></seg>                    
-                </l><space/><space/><l n="20" part="N" met="-+-+-+" real="-+-+-+">
+                </l><space quantity="2"/><l n="20" part="N" met="-+-+-+" real="-+-+-+">
                     <seg>He went </seg>
                     <seg>ga<sb/>lumph<sb/></seg>
                     <seg>ing <rhyme label="b">back.</rhyme></seg>
@@ -142,7 +142,7 @@
                     <seg>thou slain </seg>
                     <seg>the Jab<sb/></seg>
                     <seg>ber<sb/><rhyme label="a">wock?</rhyme></seg>
-                </l><space/><l n="22" part="N" met="-+-+-+-+" real="+--+-+-+">
+          </l><space quantity="2"/><l n="22" part="N" met="-+-+-+-+" real="+--+-+-+">
                     <seg met="-+" real="+-">Come to </seg>
                     <seg>my arms, </seg>                   
                     <seg>my beam<sb/></seg>
@@ -161,7 +161,7 @@
                         along. It's as if the quoted speaker knows s/he is being quoted and is
                         performing the emotion to the hilt, with a vivid sense of how rote the whole
                         scene is. </note>                    
-                </l><space/><space/><l n="24" part="N" met="-+-+-+" real="-+-+-+">
+                </l><space quantity="2"/><l n="24" part="N" met="-+-+-+" real="-+-+-+">
                     <seg>He chor<sb/></seg>
                     <seg>tled in </seg>
                     <seg>his <rhyme label="b">joy.</rhyme></seg>
@@ -171,7 +171,7 @@
                     <seg>lig, <caesura/>and </seg>
                     <seg>the slith<sb/></seg>
                     <seg>y <rhyme label="a">toves</rhyme></seg>
-                </l><space/><l n="26" part="N" met="-+-+-+-+" real="-+-+-+-+">
+           </l><space quantity="1"/><l n="26" part="N" met="-+-+-+-+" real="-+-+-+-+">
                     <seg>Did gyre </seg>
                     <seg>and gim<sb/></seg>
                     <seg>ble in </seg>
@@ -181,7 +181,7 @@
                     <seg>sy were </seg>
                     <seg>the bo<sb/></seg>
                     <seg>ro<sb/><rhyme label="a">goves,</rhyme></seg>
-                </l><space/><space/><l n="28" part="N" met="-+-+-+" real="--++-+">
+                </l><space quantity="2"/><l n="28" part="N" met="-+-+-+" real="--++-+">
                     <seg met="-+" real="--">And the </seg>
                     <seg met="-+" real="++">mome raths </seg>
                     <seg>out<sb/><rhyme label="b">grabe.</rhyme></seg>

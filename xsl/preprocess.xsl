@@ -49,6 +49,10 @@
         	<div id="rhymeflag">Rhyme</div>
 				</xsl:if>
     </xsl:template>
+    
+    <xsl:template match="TEI:space">
+        <span class="space_{@quantity}" >Word up</span>
+    </xsl:template>
 
 		<xsl:template match="TEI:date">
 			<small class="date">
@@ -59,6 +63,7 @@
 		</xsl:template>
     
     <xsl:template match="TEI:lg">
+        <xsl:apply-templates select="TEI:space" />
         <xsl:for-each select="TEI:l">
             <xsl:apply-templates select=".">
                 <xsl:with-param name="linegroupindex" select="position()"/>
@@ -68,6 +73,8 @@
               <br/>
         </xsl:if>
     </xsl:template>
+    
+   
     
     <xsl:template match="TEI:l">
         <xsl:param name="linegroupindex"/>

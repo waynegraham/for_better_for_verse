@@ -25,7 +25,7 @@
                     <seg met="-+" part="N">lence of </seg>
                     <seg met="-+" part="N">the <rhyme label="a">night</rhyme>;</seg>
                 </l>
-                <space/>
+                <space quantity="1"/>
                 <l n="2" part="N" met="-+-+-+-+-+" real="+--+-+-+-+">
                     <seg met="-+" real="+-" part="N">Come in </seg>
                     <seg met="-+" part="N">the speak<sb part="N"/></seg>
@@ -40,14 +40,14 @@
                     <seg met="-+" part="N">and eyes </seg>
                     <seg met="-+" part="N">as <rhyme label="a">bright</rhyme></seg>
                 </l>
-                <space/>
+                <space quantity="1"/>
                 <l n="4" part="N" met="-+-+-+" real="-+-+-+">
                     <seg met="-+" part="N">As sun<sb part="N"/></seg>
                     <seg met="-+" part="N">light on </seg>
                     <seg met="-+" part="N">a <rhyme label="b">stream</rhyme>;</seg>
                 </l>
-                <space/>
-                <space/>
+                <space quantity="1"/>
+                <space quantity="1"/>
                 <l n="5" part="N" met="-+-+" real="-+-+">
                     <seg met="-+" part="N">Come back </seg>
                     <seg met="-+" part="N">in <rhyme label="c">tears</rhyme>,</seg>
@@ -74,7 +74,7 @@
                         every syllable in this lingering, cherishing line. Should one, or shouldn't
                         one? What does this obsessive poem think of its arcane indulgences? </note>
                 </l>
-                <space/>
+                <space quantity="1"/>
                 <l n="8" part="N" met="-+-+-+-+-+" real="-+--+-+-+-+">
                     <seg met="-+" part="N">Whose wak<sb part="N"/></seg>
                     <seg met="-+" real="--+" part="N">en<sb part="N"/>ing should </seg>
@@ -89,14 +89,14 @@
                     <seg met="-+" part="N">a<sb part="N"/>bide </seg>
                     <seg met="-+" part="N">and <rhyme label="a">meet</rhyme>;</seg>
                 </l>
-                <space/>
+                <space quantity="1"/>
                 <l n="10" part="N" met="-+-+-+" real="-+-+-+">
                     <seg met="-+" part="N">Where thirst<sb part="N"/></seg>
                     <seg met="-+" part="N">ing long<sb part="N"/></seg>
                     <seg met="-+" part="N">ing <rhyme label="b">eyes</rhyme></seg>
                 </l>
-                <space/>
-                <space/>
+                <space quantity="1"/>
+                <space quantity="1"/>
                 <l n="11" part="N" met="-+-+" real="+-++">
                     <seg met="-+" real="+-" part="N">Watch the </seg>
                     <seg met="-+" real="++" part="N">slow <rhyme label="c">door</rhyme></seg>
@@ -117,7 +117,7 @@
                     <caesura/>
                     <seg met="-+" part="N">that I </seg>
                     <seg met="-+" part="N">may <rhyme label="a">live</rhyme></seg>
-                </l><space/><l n="14" part="N" met="-+-+-+-+-+" real="-+-+-+-+-+">
+                </l><space quantity="1"/><l n="14" part="N" met="-+-+-+-+-+" real="-+-+-+-+-+">
                     <seg met="-+" part="N">My ver<sb part="N"/></seg>
                     <seg met="-+" part="N">y life </seg>
                     <seg met="-+" part="N">a<sb part="N"/>gain </seg>
@@ -129,7 +129,7 @@
                     <seg met="-+" part="N">in dreams, </seg>
                     <seg met="-+" part="N">that I </seg>
                     <seg met="-+" part="N">may <rhyme label="a">give</rhyme></seg>
-                </l><space/><l n="16" part="N" met="-+-+-+" real="+-++-+">
+                </l><space quantity="1"/><l n="16" part="N" met="-+-+-+" real="+-++-+">
                     <seg met="-+" real="+-" part="N">Pulse for </seg>
                     <seg met="-+" real="++" part="N">pulse, <caesura/> breath </seg>
                     <seg met="-+" part="N">for <rhyme label="b">breath</rhyme>:</seg>
@@ -142,7 +142,7 @@
                         should be noted that the subject of its verbs might again be either "I" or
                         "you." Both lines owe much to the framing metrical regularity of the rest of
                         this stanza.</note>
-                </l><space/><space/><l n="17" part="N" met="-+-+" real="++++">
+                </l><space quantity="2"/><l n="17" part="N" met="-+-+" real="++++">
                     <seg met="-+" real="++" part="N">Speak low, </seg>
                     <caesura/>
                     <seg met="-+" real="++" part="N">lean <rhyme label="c">low</rhyme>,</seg>
