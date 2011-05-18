@@ -51,7 +51,7 @@
     </xsl:template>
     
     <xsl:template match="TEI:space">
-        <span class="space_{@quantity}" >Word up</span>
+        <span class="space_{@quantity}" />
     </xsl:template>
 
 		<xsl:template match="TEI:date">
