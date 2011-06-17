@@ -314,11 +314,11 @@ hr {
 	color: #fff;
 }
 
-.ui-tabs-nav #subnav li.current_page_item a, .ui-tabs-nav #subnav li.current_page_item a:visited {
+#subnav.ui-tabs-nav li.current_page_item a, #subnav.ui-tabs-nav li.current_page_item a:visited {
 	color: #a1a0a0;	
 }
 
-.ui-tabs-nav #subnav li.ui-tabs-selected a, .ui-tabs-nav #subnav li.ui-tabs-selected a:visited {
+#subnav.ui-tabs-nav li.ui-tabs-selected a, #subnav.ui-tabs-nav li.ui-tabs-selected a:visited {
 	color: #fff;
 }
 

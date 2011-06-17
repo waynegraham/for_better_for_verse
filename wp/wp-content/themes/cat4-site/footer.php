@@ -2,6 +2,7 @@
 
 </div><!--/main-->
 
+</div><!--//poem-tabs-->
 
 <div id="ft">
 	<div id="ft_wrap">

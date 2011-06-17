@@ -49,27 +49,33 @@ else { ?>
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
 <link rel='stylesheet' type='text/css' media='all' href='/scripts/thickbox.css' />
 
-<script language="javascript" type="text/javascript" src="/scripts/jquery-1.3.1.min.js"></script>
-<script language="javascript" type="text/javascript" src="/scripts/jquery-ui-personalized-1.5.3.js"></script>
+<script language="javascript" type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery-1.3.2.min.js"></script>
+<script language="javascript" type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery-ui-1.7.3.custom.min.js"></script>
+<script language="javascript" type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.cookie.js"></script>
 <script language="javascript" type="text/javascript" src="/scripts/thickbox-compressed.js"></script>
 <script language="javascript" type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/popup.js"></script>
 
 <script type="text/javascript">
   $(document).ready(function(){
-    $("#poem_sorting").accordion({ 
-		active: false,
-		header: '.poem-sort-method',
+    var cookieName = 'stickyAccordion';
+
+	$("#poem_sorting").accordion({ 
+		active: ( $.cookies.get( cookieName ) || 0 ),
+		header: 'h4',
 		autoHeight: false,
 		alwaysOpen: false,
-		navigation: true
-	});
+		change: function( e, ui ) {
+			$.cookies.set( cookieName, $( this ).find( 'h4' ).index ( ui.newHeader[0] ) );
+		}
+	} );
+
     $('#searchform').submit(function() {
-		$('#results').html('<img src="/images/ajax-loader.gif" style="border:none"/>');
+		$('#results').html('<img src="/images/ajax-loader.gif" alt="Loading" style="border:none" />');
 		var s_term;
 		if($('#s').val() == ""){
 			s_term = "/materials/category/glossary/";
 		} else {
-			s_term = '/?s='+$('#s').val()+'&cat=6';
+			s_term = '/?s='+$('#s').val()+'&amp;cat=6';
 		}
 				$('#results').load(s_term+' #results');
 		return false;
@@ -80,7 +86,7 @@ else { ?>
 <?php if(!is_page()) { ?>
 <script type="text/javascript">
   $(document).ready(function(){
-	$('#interior > ul#nav').tabs({
+	$('#poem-tabs').tabs({
 		load: function(event, ui) {
 			$('a', ui.panel).click(function() {
 				$(ui.panel).load(this.href);
@@ -96,11 +102,12 @@ else { ?>
 			});
 		}
 	});
+	
   });
 </script>
 <?php } ?>
 
-<?php if (is_home() ) { ?>
+<?php if (is_front_page() ) { ?>
 <script type="text/javascript" src="/scripts/jquery.cycle.min.js"></script>
 <script type="text/javascript">
 	jQuery(document).ready(function(){
@@ -112,14 +119,7 @@ else { ?>
 			delay:    -100,
 			nowrap:  1
 		});
-		$('#home > ul#nav').tabs({
-			load: function(event, ui) {
-				$('a', ui.panel).click(function() {
-					$(ui.panel).load(this.href);
-					return false;
-				});
-			}
-		});
+		$('#poem-tabs').tabs();
      });
 </script>
 <?php } ?>
@@ -162,3 +162,4 @@ else { ?>
 <div id="main" class="clearfloat">
 <div class="wrapper">
 <?php endif; ?>
+<div id="poem-tabs">
