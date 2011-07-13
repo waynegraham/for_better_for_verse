@@ -255,7 +255,7 @@ function checkmeter(linenumber, linegroupindex) {
 		var popup = window.open("meter-popup-ie.html?line=" + linenumber + "&linegroupindex=" + linegroupindex, "", "resizable=no,scrollbars=no,status=no,width=300,height=200");
 	} else {
 		var pop_url = "meter-popup.html?line=" + linenumber	+ "&linegroupindex=" + linegroupindex;
-		var win = new Window({className: "mac_os_x", url:pop_url, width:300, height:200, zIndex: 100, resizable:true, title:"Meter", draggable:true, wiredDrag:true, effectOptions:{duration:0.2}});
+		var win = new Window({maximizable: false, resizable: false, className: "mac_os_x", url:pop_url, width:300, height:200, zIndex: 100, resizable:true, title:"Meter", draggable:true, wiredDrag:true, effectOptions:{duration:0.2}});
 		win.showCenter();
 	}
 }

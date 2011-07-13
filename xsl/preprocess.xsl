@@ -117,6 +117,9 @@
             </div>
             
             <div class="TEI-l" id="prosody-real-{$line-number}">
+                <xsl:if test="exists(TEI:space)">
+                    <xsl:apply-templates select="TEI:space" />
+                </xsl:if>
                 
                 <xsl:copy-of select="@*"/>
                 
