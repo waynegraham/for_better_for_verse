@@ -25,7 +25,7 @@
     <note anchored="true">
         Although ordinarily personal pronouns go unstressed, here we stress "I" and "thou" because Keats has built the entire sonnet on articulating the relation, and the difference, between the two (himself and the star).  Lines 2-8 elaborate one way of being "steadfast," attractive yet declined finally in favor of the way described in the rest of the poem.  The distinctly emphasized pronouns of line 1 set the whole contrast up.
         </note>
-                </l><l n="2" met="-+-+-+-+-+" real="+-++-+-+-+" rend="indent(1)">
+                </l><l n="2" met="-+-+-+-+-+" real="+-++-+-+-+" rend="indent">
                     <seg met="-+" real="+-">Not in </seg>
                     <seg met="-+" real="++">lone splen<sb/></seg>
                     <seg>dour hung </seg>
@@ -37,7 +37,7 @@
                     <seg>e<sb/>ter<sb/></seg>
                     <seg>nal lids </seg>
                     <seg>a<sb/><rhyme label="a">part,</rhyme></seg>
-                </l><l n="4" met="-+-+-+-+-+" real="-+-+-+-+-+" rend="indent(1)">
+                </l><l n="4" met="-+-+-+-+-+" real="-+-+-+-+-+" rend="indent">
                     <seg>Like na<sb/></seg>
                     <seg>ture's pa<sb/></seg>
                     <seg>tient, sleep<sb/></seg>
@@ -49,7 +49,7 @@
                     <seg>ters at </seg>
                     <seg>their priest<sb/></seg>
                     <seg>like <rhyme label="c">task</rhyme></seg>
-                </l><l n="6" part="N" met="-+-+-+-+-+" real="-+-+-+++-+" rend="indent(1)">
+                </l><l n="6" part="N" met="-+-+-+-+-+" real="-+-+-+++-+" rend="indent">
                     <seg>Of pure </seg>
                     <seg>ab<sb/>lu<sb/></seg>
                     <seg>tion round </seg>
@@ -61,7 +61,7 @@
                     <seg>the new </seg>
                     <seg met="-+" real="++">soft-<sb/>fall<sb/></seg>
                     <seg>en <rhyme label="c">mask</rhyme></seg>
-                </l><l n="8" met="-+-+-+-+-+" real="-+-+-+-+-+" rend="indent(1)">
+                </l><l n="8" met="-+-+-+-+-+" real="-+-+-+-+-+" rend="indent">
                     <seg>Of snow </seg>
                     <seg>up<sb/>on </seg>
                     <seg>the moun<sb/></seg>
@@ -73,7 +73,7 @@
                     <seg>fast, <caesura/>still </seg>
                     <seg>un<sb/>change<sb/></seg>
                     <seg>a<sb/><rhyme label="e">ble,</rhyme></seg>
-                </l><l n="10" met="-+-+-+-+-+" real="+--+-+++--+" rend="indent(1)">
+                </l><l n="10" met="-+-+-+-+-+" real="+--+-+++--+" rend="indent">
                     <seg met="-+" real="+-">Pil<sb/>low'd </seg>
                     <seg>up<sb/>on </seg>
                     <seg>my fair </seg>
@@ -85,7 +85,7 @@
                     <seg met="-+" real="--">er its </seg>
                     <seg met="-+" real="++">soft fall </seg>
                     <seg>and <rhyme label="e">swell,</rhyme></seg>
-                </l><l n="12" met="-+-+-+-+-+" real="-+-+---+++" rend="indent(1)">
+                </l><l n="12" met="-+-+-+-+-+" real="-+-+---+++" rend="indent">
                     <seg>A<sb/>wake </seg>
                     <seg>for ev<sb/></seg>
                     <seg met="-+" real="--">er in </seg>
