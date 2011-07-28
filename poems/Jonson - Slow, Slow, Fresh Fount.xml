@@ -75,7 +75,7 @@
                         <seg met="-+" real="++">some crag<sb/></seg>
                         <seg met="-+">gy <rhyme label="d">hill,</rhyme></seg>
                     </l>
-                    <l n="9" met="-+-+" real="++++" part="N" rend="indent2">
+                    <l n="9" met="-+-+" real="++++" part="N" rend="indent3">
                         <seg met="-+" real="++">Drop, drop, </seg>
                         <seg met="-+" real="++">drop, <rhyme label="x">drop,</rhyme></seg>
                     <note anchored="true"> This line has no place in the rhyme scheme, so we mark it
