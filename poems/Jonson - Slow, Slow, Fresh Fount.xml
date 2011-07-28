@@ -68,14 +68,14 @@
                         ours" concedes an existential defeat: You don't know what you have until you
                         lose it.</note>
                     </l>
-                    <l n="8" met="-+-+-+-+-+" real="-+-+-+-+-+|-+-+--++-+" part="N" rend="indent4">
+                    <l n="8" met="-+-+-+-+-+" real="-+-+-+-+-+|-+-+--++-+" part="N" rend="indent3">
                         <seg met="-+">Like melt<sb/></seg>
                         <seg met="-+">ing snow </seg>
                         <seg met="-+" real="--">up<sb/>on </seg>
                         <seg met="-+" real="++">some crag<sb/></seg>
                         <seg met="-+">gy <rhyme label="d">hill,</rhyme></seg>
                     </l>
-                    <l n="9" met="-+-+" real="++++" part="N" rend="indent3">
+                    <l n="9" met="-+-+" real="++++" part="N" rend="indent2">
                         <seg met="-+" real="++">Drop, drop, </seg>
                         <seg met="-+" real="++">drop, <rhyme label="x">drop,</rhyme></seg>
                     <note anchored="true"> This line has no place in the rhyme scheme, so we mark it
