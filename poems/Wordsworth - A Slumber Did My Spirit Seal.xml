@@ -28,7 +28,7 @@
                     <seg met="-+" part="N">ly <rhyme label="b">years.</rhyme></seg>
         </l></lg>
     <lg n="2" type="quatrain" met="-+(4/3/4/3)" rhyme="abab" org="uniform" sample="complete" part="N">
-        <l n="5" part="N" met="-+-+-+-+" real="++---+++|-+-+-+++">
+        <l n="5" part="N" met="-+-+-+-+" real="++---+++|-+-+-+++|++-+-+++">
                     <seg met="-+" real="++|-+" part="N">No mo<sb part="N"/></seg>
                     <seg met="-+" real="--|-+" part="N">tion has </seg>
                     <seg met="-+" part="N">she now, </seg>
