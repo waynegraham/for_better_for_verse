@@ -7,20 +7,15 @@
  */
 
 /**
- * Display list of the available widgets, either all or matching search.
+ * Display list of the available widgets.
  *
- * The search parameter are search terms separated by spaces.
- *
- * @since unknown
- *
- * @param string $show Optional, default is all. What to display, can be 'all', 'unused', or 'used'.
- * @param string $_search Optional. Search for widgets. Should be unsanitized.
+ * @since 2.5.0
  */
 function wp_list_widgets() {
 	global $wp_registered_widgets, $sidebars_widgets, $wp_registered_widget_controls;
 
 	$sort = $wp_registered_widgets;
-	usort( $sort, create_function( '$a, $b', 'return strnatcasecmp( $a["name"], $b["name"] );' ) );
+	usort( $sort, '_sort_name_callback' );
 	$done = array();
 
 	foreach ( $sort as $widget ) {
@@ -52,24 +47,44 @@ function wp_list_widgets() {
 }
 
 /**
- * {@internal Missing Short Description}}
+ * Callback to sort array by a 'name' key.
  *
- * @since unknown
+ * @since 3.1.0
+ * @access private
+ */
+function _sort_name_callback( $a, $b ) {
+	return strnatcasecmp( $a['name'], $b['name'] );
+}
+
+/**
+ * Show the widgets and their settings for a sidebar.
+ * Used in the admin widget config screen.
  *
- * @param string $sidebar
+ * @since 2.5.0
+ *
+ * @param string $sidebar id slug of the sidebar
  */
 function wp_list_widget_controls( $sidebar ) {
 	add_filter( 'dynamic_sidebar_params', 'wp_list_widget_controls_dynamic_sidebar' );
 
-	echo "\t<div id='$sidebar' class='widgets-sortables'>\n";
+	echo "<div id='$sidebar' class='widgets-sortables'>\n";
+
+	$description = wp_sidebar_description( $sidebar );
+
+	if ( !empty( $description ) ) {
+		echo "<div class='sidebar-description'>\n";
+		echo "\t<p class='description'>$description</p>";
+		echo "</div>\n";
+	}
+
 	dynamic_sidebar( $sidebar );
-	echo "\t</div>\n";
+	echo "</div>\n";
 }
 
 /**
  * {@internal Missing Short Description}}
  *
- * @since unknown
+ * @since 2.5.0
  *
  * @param array $params
  * @return array
@@ -83,7 +98,7 @@ function wp_list_widget_controls_dynamic_sidebar( $params ) {
 	$id = isset($params[0]['_temp_id']) ? $params[0]['_temp_id'] : $widget_id;
 	$hidden = isset($params[0]['_hide']) ? ' style="display:none;"' : '';
 
-	$params[0]['before_widget'] = "<div id='widget-${i}_$id' class='widget'$hidden>";
+	$params[0]['before_widget'] = "<div id='widget-{$i}_{$id}' class='widget'$hidden>";
 	$params[0]['after_widget'] = "</div>";
 	$params[0]['before_title'] = "%BEG_OF_TITLE%"; // deprecated
 	$params[0]['after_title'] = "%END_OF_TITLE%"; // deprecated
@@ -113,7 +128,7 @@ function next_widget_id_number($id_base) {
  *
  * Called from dynamic_sidebar().
  *
- * @since unknown
+ * @since 2.5.0
  *
  * @param array $sidebar_args
  * @return array
@@ -145,7 +160,7 @@ function wp_widget_control( $sidebar_args ) {
 		$query_arg['key'] = $key;
 	}
 
-	// We aren't showing a widget control, we're outputing a template for a mult-widget control
+	// We aren't showing a widget control, we're outputting a template for a multi-widget control
 	if ( isset($sidebar_args['_display']) && 'template' == $sidebar_args['_display'] && $widget_number ) {
 		// number == -1 implies a template where id numbers are replaced by a generic '__i__'
 		$control['params'][0]['number'] = -1;
@@ -164,7 +179,11 @@ function wp_widget_control( $sidebar_args ) {
 	<div class="widget-top">
 	<div class="widget-title-action">
 		<a class="widget-action hide-if-no-js" href="#available-widgets"></a>
-		<a class="widget-control-edit hide-if-js" href="<?php echo esc_url( add_query_arg( $query_arg ) ); ?>"><span class="edit"><?php _e('Edit'); ?></span><span class="add"><?php _e('Add'); ?></span></a>
+		<a class="widget-control-edit hide-if-js" href="<?php echo esc_url( add_query_arg( $query_arg ) ); ?>">
+			<span class="edit"><?php _ex( 'Edit', 'widget' ); ?></span>
+			<span class="add"><?php _ex( 'Add', 'widget' ); ?></span>
+			<span class="screen-reader-text"><?php echo $widget_title; ?></span>
+		</a>
 	</div>
 	<div class="widget-title"><h4><?php echo $widget_title ?><span class="in-widget-title"></span></h4></div>
 	</div>
@@ -180,20 +199,20 @@ function wp_widget_control( $sidebar_args ) {
 	</div>
 	<input type="hidden" name="widget-id" class="widget-id" value="<?php echo esc_attr($id_format); ?>" />
 	<input type="hidden" name="id_base" class="id_base" value="<?php echo esc_attr($id_base); ?>" />
-	<input type="hidden" name="widget-width" class="widget-width" value="<?php echo esc_attr($control['width']); ?>" />
-	<input type="hidden" name="widget-height" class="widget-height" value="<?php echo esc_attr($control['height']); ?>" />
+	<input type="hidden" name="widget-width" class="widget-width" value="<?php if (isset( $control['width'] )) echo esc_attr($control['width']); ?>" />
+	<input type="hidden" name="widget-height" class="widget-height" value="<?php if (isset( $control['height'] )) echo esc_attr($control['height']); ?>" />
 	<input type="hidden" name="widget_number" class="widget_number" value="<?php echo esc_attr($widget_number); ?>" />
 	<input type="hidden" name="multi_number" class="multi_number" value="<?php echo esc_attr($multi_number); ?>" />
 	<input type="hidden" name="add_new" class="add_new" value="<?php echo esc_attr($add_new); ?>" />
 
 	<div class="widget-control-actions">
 		<div class="alignleft">
-		<a class="widget-control-remove" href="#remove"><?php _e('Remove'); ?></a> |
+		<a class="widget-control-remove" href="#remove"><?php _e('Delete'); ?></a> |
 		<a class="widget-control-close" href="#close"><?php _e('Close'); ?></a>
 		</div>
 		<div class="alignright<?php if ( 'noform' === $has_form ) echo ' widget-control-noform'; ?>">
-		<img src="images/wpspin_light.gif" class="ajax-feedback " title="" alt="" />
-		<input type="submit" name="savewidget" class="button-primary widget-control-save" value="<?php esc_attr_e('Save'); ?>" />
+			<?php submit_button( __( 'Save' ), 'button-primary widget-control-save right', 'savewidget', false, array( 'id' => 'widget-' . esc_attr( $id_format ) . '-savewidget' ) ); ?>
+			<span class="spinner"></span>
 		</div>
 		<br class="clear" />
 	</div>
@@ -207,4 +226,3 @@ function wp_widget_control( $sidebar_args ) {
 	echo $sidebar_args['after_widget'];
 	return $sidebar_args;
 }
-

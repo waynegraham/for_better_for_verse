@@ -7,13 +7,13 @@
 
 if (empty($wp)) {
 	require_once('./wp-load.php');
-	wp('tb=1');
+	wp( array( 'tb' => '1' ) );
 }
 
 /**
- * trackback_response() - Respond with error or success XML message
+ * trackback_response() - Respond with an error or success XML message
  *
- * @param int|bool $error Whether there was an error or not
+ * @param int|bool $error Whether there was an error
  * @param string $error_message Error message if an error occurred
  */
 function trackback_response($error = 0, $error_message = '') {
@@ -36,21 +36,21 @@ function trackback_response($error = 0, $error_message = '') {
 // trackback is done by a POST
 $request_array = 'HTTP_POST_VARS';
 
-if ( !$_GET['tb_id'] ) {
+if ( !isset($_GET['tb_id']) || !$_GET['tb_id'] ) {
 	$tb_id = explode('/', $_SERVER['REQUEST_URI']);
 	$tb_id = intval( $tb_id[ count($tb_id) - 1 ] );
 }
 
-$tb_url  = $_POST['url'];
-$charset = $_POST['charset'];
+$tb_url  = isset($_POST['url'])     ? $_POST['url']     : '';
+$charset = isset($_POST['charset']) ? $_POST['charset'] : '';
 
 // These three are stripslashed here so that they can be properly escaped after mb_convert_encoding()
-$title     = stripslashes($_POST['title']);
-$excerpt   = stripslashes($_POST['excerpt']);
-$blog_name = stripslashes($_POST['blog_name']);
+$title     = isset($_POST['title'])     ? wp_unslash($_POST['title'])      : '';
+$excerpt   = isset($_POST['excerpt'])   ? wp_unslash($_POST['excerpt'])    : '';
+$blog_name = isset($_POST['blog_name']) ? wp_unslash($_POST['blog_name'])  : '';
 
 if ($charset)
-	$charset = strtoupper( trim($charset) );
+	$charset = str_replace( array(',', ' '), '', strtoupper( trim($charset) ) );
 else
 	$charset = 'ASCII, UTF-8, ISO-8859-1, JIS, EUC-JP, SJIS';
 
@@ -65,14 +65,14 @@ if ( function_exists('mb_convert_encoding') ) { // For international trackbacks
 }
 
 // Now that mb_convert_encoding() has been given a swing, we need to escape these three
-$title     = $wpdb->escape($title);
-$excerpt   = $wpdb->escape($excerpt);
-$blog_name = $wpdb->escape($blog_name);
+$title     = wp_slash($title);
+$excerpt   = wp_slash($excerpt);
+$blog_name = wp_slash($blog_name);
 
 if ( is_single() || is_page() )
 	$tb_id = $posts[0]->ID;
 
-if ( !intval( $tb_id ) )
+if ( !isset($tb_id) || !intval( $tb_id ) )
 	trackback_response(1, 'I really need an ID for this to work.');
 
 if (empty($title) && empty($tb_url) && empty($blog_name)) {
@@ -87,8 +87,8 @@ if ( !empty($tb_url) && !empty($title) ) {
 	if ( !pings_open($tb_id) )
 		trackback_response(1, 'Sorry, trackbacks are closed for this item.');
 
-	$title =  wp_html_excerpt( $title, 250 ).'...';
-	$excerpt = wp_html_excerpt( $excerpt, 252 ).'...';
+	$title =  wp_html_excerpt( $title, 250, '&#8230;' );
+	$excerpt = wp_html_excerpt( $excerpt, 252, '&#8230;' );
 
 	$comment_post_ID = (int) $tb_id;
 	$comment_author = $blog_name;
@@ -108,4 +108,3 @@ if ( !empty($tb_url) && !empty($title) ) {
 	do_action('trackback_post', $wpdb->insert_id);
 	trackback_response(0);
 }
-?>

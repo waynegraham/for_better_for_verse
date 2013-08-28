@@ -1,1 +1,16 @@
-function GetElementsWithClassName(a,c){var d=document.getElementsByTagName(a),e=new Array(),b;for(b=0;b<d.length;b++){if(d[b].className==c){e[e.length]=d[b]}}return e}function meChecked(){var b,a=document.getElementById("me");if(a==b){return false}else{return a.checked}}function upit(){var b=meChecked(),e=GetElementsWithClassName("input","valinp"),d=document.getElementById("link_rel"),a="",c;for(c=0;c<e.length;c++){e[c].disabled=b;e[c].parentNode.className=b?"disabled":"";if(!b&&e[c].checked&&e[c].value!=""){a+=e[c].value+" "}}a=a.substr(0,a.length-1);if(b){a="me"}d.value=a}function blurry(){if(!document.getElementById){return}var b=document.getElementsByTagName("input"),a;for(a=0;a<b.length;a++){b[a].onclick=b[a].onkeyup=upit}}addLoadEvent(blurry);
+jQuery(document).ready( function($) {
+	$('#link_rel').prop('readonly', true);
+	$('#linkxfndiv input').bind('click keyup', function() {
+		var isMe = $('#me').is(':checked'), inputs = '';
+		$('input.valinp').each( function() {
+			if (isMe) {
+				$(this).prop('disabled', true).parent().addClass('disabled');
+			} else {
+				$(this).removeAttr('disabled').parent().removeClass('disabled');
+				if ( $(this).is(':checked') && $(this).val() != '')
+					inputs += $(this).val() + ' ';
+			}
+		});
+		$('#link_rel').val( (isMe) ? 'me' : inputs.substr(0,inputs.length - 1) );
+	});
+});

@@ -6,10 +6,8 @@
  * The original PHP version of this code was written by Geoffrey T. Dairiki
  * <dairiki@dairiki.org>, and is used/adapted with his permission.
  *
- * $Horde: framework/Text_Diff/Diff.php,v 1.26 2008/01/04 10:07:49 jan Exp $
- *
  * Copyright 2004 Geoffrey T. Dairiki <dairiki@dairiki.org>
- * Copyright 2004-2008 The Horde Project (http://www.horde.org/)
+ * Copyright 2004-2010 The Horde Project (http://www.horde.org/)
  *
  * See the enclosed file COPYING for license information (LGPL). If you did
  * not receive this file, see http://opensource.org/licenses/lgpl-license.php.
@@ -63,6 +61,44 @@ class Text_Diff {
     function getDiff()
     {
         return $this->_edits;
+    }
+
+    /**
+     * returns the number of new (added) lines in a given diff.
+     *
+     * @since Text_Diff 1.1.0
+     *
+     * @return integer The number of new lines
+     */
+    function countAddedLines()
+    {
+        $count = 0;
+        foreach ($this->_edits as $edit) {
+            if (is_a($edit, 'Text_Diff_Op_add') ||
+                is_a($edit, 'Text_Diff_Op_change')) {
+                $count += $edit->nfinal();
+            }
+        }
+        return $count;
+    }
+
+    /**
+     * Returns the number of deleted (removed) lines in a given diff.
+     *
+     * @since Text_Diff 1.1.0
+     *
+     * @return integer The number of deleted lines
+     */
+    function countDeletedLines()
+    {
+        $count = 0;
+        foreach ($this->_edits as $edit) {
+            if (is_a($edit, 'Text_Diff_Op_delete') ||
+                is_a($edit, 'Text_Diff_Op_change')) {
+                $count += $edit->norig();
+            }
+        }
+        return $count;
     }
 
     /**
@@ -169,7 +205,7 @@ class Text_Diff {
      * @param string $line  The line to trim.
      * @param integer $key  The index of the line in the array. Not used.
      */
-    function trimNewlines(&$line, $key)
+    static function trimNewlines(&$line, $key)
     {
         $line = str_replace(array("\n", "\r"), '', $line);
     }
@@ -341,7 +377,7 @@ class Text_Diff_Op_copy extends Text_Diff_Op {
 
     function &reverse()
     {
-        $reverse = &new Text_Diff_Op_copy($this->final, $this->orig);
+        $reverse = new Text_Diff_Op_copy($this->final, $this->orig);
         return $reverse;
     }
 
@@ -363,7 +399,7 @@ class Text_Diff_Op_delete extends Text_Diff_Op {
 
     function &reverse()
     {
-        $reverse = &new Text_Diff_Op_add($this->orig);
+        $reverse = new Text_Diff_Op_add($this->orig);
         return $reverse;
     }
 
@@ -385,7 +421,7 @@ class Text_Diff_Op_add extends Text_Diff_Op {
 
     function &reverse()
     {
-        $reverse = &new Text_Diff_Op_delete($this->final);
+        $reverse = new Text_Diff_Op_delete($this->final);
         return $reverse;
     }
 
@@ -407,7 +443,7 @@ class Text_Diff_Op_change extends Text_Diff_Op {
 
     function &reverse()
     {
-        $reverse = &new Text_Diff_Op_change($this->final, $this->orig);
+        $reverse = new Text_Diff_Op_change($this->final, $this->orig);
         return $reverse;
     }
 

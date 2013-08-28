@@ -2,7 +2,7 @@
 /**
  * Class for working with PO files
  *
- * @version $Id: po.php 123 2009-05-13 19:35:43Z nbachiyski $
+ * @version $Id: po.php 718 2012-10-31 00:32:02Z nbachiyski $
  * @package pomo
  * @subpackage po
  */
@@ -16,8 +16,10 @@ ini_set('auto_detect_line_endings', 1);
 /**
  * Routines for working with PO files
  */
+if ( !class_exists( 'PO' ) ):
 class PO extends Gettext_Translations {
-	
+
+	var $comments_before_headers = '';
 
 	/**
 	 * Exports headers to a PO entry
@@ -30,7 +32,11 @@ class PO extends Gettext_Translations {
 			$header_string.= "$header: $value\n";
 		}
 		$poified = PO::poify($header_string);
-		return rtrim("msgid \"\"\nmsgstr $poified");
+		if ($this->comments_before_headers)
+			$before_headers = $this->prepend_each_line(rtrim($this->comments_before_headers)."\n", '# ');
+		else
+			$before_headers = '';
+		return rtrim("{$before_headers}msgid \"\"\nmsgstr $poified");
 	}
 
 	/**
@@ -76,6 +82,15 @@ class PO extends Gettext_Translations {
 	}
 
 	/**
+	 * Text to include as a comment before the start of the PO contents
+	 *
+	 * Doesn't need to include # in the beginning of lines, these are added automatically
+	 */
+	function set_comment_before_headers( $text ) {
+		$this->comments_before_headers = $text;
+	}
+
+	/**
 	 * Formats a string in PO-style
 	 *
 	 * @static
@@ -105,10 +120,10 @@ class PO extends Gettext_Translations {
 		$po = str_replace("$newline$quote$quote", '', $po);
 		return $po;
 	}
-	
+
 	/**
 	 * Gives back the original string from a PO-formatted string
-	 * 
+	 *
 	 * @static
 	 * @param string $string PO-formatted string
 	 * @return string enascaped string
@@ -138,7 +153,7 @@ class PO extends Gettext_Translations {
 	}
 
 	/**
-	 * Inserts $with in the beginning of every new line of $string and 
+	 * Inserts $with in the beginning of every new line of $string and
 	 * returns the modified string
 	 *
 	 * @static
@@ -214,9 +229,15 @@ class PO extends Gettext_Translations {
 			}
 		}
 		PO::read_line($f, 'clear');
-		return $res !== false;
+		if ( false === $res ) {
+			return false;
+		}
+		if ( ! $this->headers && ! $this->entries ) {
+			return false;
+		}
+		return true;
 	}
-	
+
 	function read_entry($f, $lineno = 0) {
 		$entry = new Translation_Entry();
 		// where were we in the last step
@@ -316,10 +337,12 @@ class PO extends Gettext_Translations {
 				return false;
 			}
 		}
-		if (array() == array_filter($entry->translations)) $entry->translations = array();
+		if (array() == array_filter($entry->translations, create_function('$t', 'return $t || "0" === $t;'))) {
+			$entry->translations = array();
+		}
 		return array('entry' => $entry, 'lineno' => $lineno);
 	}
-	
+
 	function read_line($f, $action = 'read') {
 		static $last_line = '';
 		static $use_last_line = false;
@@ -332,11 +355,12 @@ class PO extends Gettext_Translations {
 			return true;
 		}
 		$line = $use_last_line? $last_line : fgets($f);
+		$line = ( "\r\n" == substr( $line, -2 ) ) ? rtrim( $line, "\r\n" ) . "\n" : $line;
 		$last_line = $line;
 		$use_last_line = false;
 		return $line;
 	}
-	
+
 	function add_comment_to_entry(&$entry, $po_comment_line) {
 		$first_two = substr($po_comment_line, 0, 2);
 		$comment = trim(substr($po_comment_line, 2));
@@ -350,11 +374,11 @@ class PO extends Gettext_Translations {
 			$entry->translator_comments = trim($entry->translator_comments . "\n" . $comment);
 		}
 	}
-	
+
 	function trim_quotes($s) {
 		if ( substr($s, 0, 1) == '"') $s = substr($s, 1);
 		if ( substr($s, -1, 1) == '"') $s = substr($s, 0, -1);
 		return $s;
 	}
 }
-?>
+endif;
