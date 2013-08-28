@@ -2,8 +2,8 @@
 Contributors: Viper007Bond
 Donate link: http://www.viper007bond.com/donate/
 Tags: video, quicktags, wysiwyg, tinymce, youtube, google video, dailymotion, vimeo, veoh, viddler, metacafe, blip.tv, flickr, ifilm, myspace, flv, quicktime
-Requires at least: 2.7.1
-Tested up to: 2.8
+Requires at least: 2.8
+Tested up to: 3.5
 Stable tag: trunk
 
 Allows easy and XHTML valid posting of videos from various websites such as YouTube, DailyMotion, Vimeo, and more.
@@ -65,7 +65,7 @@ To configure this plugin, visit it's settings page. It can be found under the "S
 
 = The videos won't show up. Only a YouTube image or a link to the video does. =
 
-Your theme lacks the `<?php wp_head(); ?>` hook. Please add it.
+Your theme lacks the `<?php wp_head(); ?>` hook. Please add it right before `</head>` in your theme's `header.php` file.
 
 = I have the plugin running, but I have some questions about how to use it. =
 
@@ -98,6 +98,123 @@ Sure! I do this in my free time and I appreciate all donations that I get. It ma
 2. DailyMotion configuration page with Farbtastic color picker showing.
 
 == Changelog ==
+
+= v6.4.5 =
+
+* **Security:** Better sanitization and validation of shortcode attributes to prevent low-access users from doing naughty things. Props Jacek. PS: This plugin badly needs a rewrite from scratch.
+* **General:** Only output SWFObject JavaScript if it's actually needed.
+
+= v6.4.4 =
+
+* **General:** Updates to support new version of jQuery UI that is included in WordPress 3.5. Fixes dialog box not opening.
+
+= v6.4.3 =
+
+* **Quicktime:** Control the background color via a new parameter (`bgcolor`) per request.
+* **Quicktime:** Rewrite of the Quicktime parameter functionality. Also a new filter for other plugins to be able to control these parameters.
+
+= July 23rd, 2012 (no version bump) ==
+
+* **Localization:** Updated Italian translation thanks to Gianni Diurno.
+
+= v6.4.2 =
+
+* **General:** Support SSL (`https://`) video URLs. Props [Tyrel Kelsey](http://ninnypants.com/) for the bug report.
+
+= v6.4.1 =
+
+* **FLV:** Don't disable the checkbox so that it can be unchecked to hide the message.
+* **FLV:** Only show the admin notice to administrators. It's unlikely anyone else can do anything about it.
+
+= v6.4.0 =
+
+The "I should have done this a long time ago but have been neglecting this plugin" release.
+
+* **FLV:** Don't bundle JW FLV Player with this plugin. It isn't GPL compatible. You'll now need to install it on your own. See [this blog post](http://v007.me/9a4) for details.
+* **YouTube:** youtu.be short URL support.
+* **General:** Move SWFObject calls to the footer so `<!--nextpage-->` doesn't break this plugin.
+* **Localization:** Added Romanian translation thanks to Web Hosting Geeks.
+
+= v6.3.4 =
+
+* **DailyMotion:** Fix incorrect fallback URL. A slash was missing. Props [Sutherland Boswell](http://sutherlandboswell.com/) for [findind the bug]((http://wordpress.org/support/topic/plugin-video-thumbnails-thumnail-not-found-for-dailymotion-videos).
+
+= v6.3.3 =
+
+* **General:** A couple CSS tweaks and Javascript improvements thanks to Andrew Ozz (azaozz).
+
+= v6.3.2 =
+
+* **YouTube:** Fix for YouTube playlists. See [forum thread](http://wordpress.org/support/topic/plugin-vipers-video-quicktags-youtube-playlists-do-not-work) for details.
+* **General:** Fix buttons in HTML editor for WordPress 3.3.
+
+= October 13th, 2011 (no version bump) ==
+
+* **Localization:** Added Norwegian translation thanks to [Kristoffer Risanger](http://kristofferr.com/).
+
+= v6.3.1 =
+
+* **General:** Remove usage of deprecated functions. Thanks ninnypants for reminding me.
+
+= v6.3.0 =
+
+* **Vimeo:** Implement their new `iframe`-based embed since they seem to have broken my previous embed method.
+
+= v6.2.19 =
+
+* **General:** Remove potentially buggy SWFObject registration.
+
+= v6.2.18 =
+
+* **VideoPress:** If the [official VideoPress plugin](http://wordpress.org/extend/plugins/video/) is installed, don't take over it's shortcode.
+
+= v6.2.17 =
+
+* **TinyMCE:** Re-enable the third button row as not everyone was having issues with it. Default to the first row though.
+
+= v6.2.16 =
+
+* Default to less buttons being enabled by default due to not being able to put them on their own line anymore.
+
+= v6.2.15 =
+
+* **TinyMCE:** Trying to inject the buttons onto the third button line completely breaks TinyMCE. Only allow them to be added to the first or second line, and even then they may not show up even then. I have no idea why (I hate TinyMCE) and I frankly don't care at this point (they're going away in v7.0).
+
+= v6.2.14 =
+
+* **FLV:** Fix automatic images and make them work better.
+
+= v6.2.13 =
+
+* **FLV:** Make MP3's stream properly by not setting the image value to the MP3. Props [tranified](http://wordpress.org/support/topic/327598).
+
+= v6.2.12 =
+
+* **VideoPress:** Width/height parameter improvements.
+
+= v6.2.11 =
+
+* **FLV:** Allow periods in Flashvar names. See [http://wordpress.org/support/topic/316159](http://wordpress.org/support/topic/316159).
+
+= v6.2.10 =
+
+* **General:** Change default feed link text. Always wrap in paragraph tags regardless. Props [andrewpaulbiss](http://wordpress.org/support/topic/314764).
+* **General:** Fiddle with how settings are created.
+
+= v6.2.9 =
+
+* **General:** SWFObject issue was likely WordPress version related. I'm tired of dealing with older versions of WordPress anyway, not to mention they're insecure. Make VVQ only support WordPress 2.8+. It's for their own good.
+
+= v6.2.8 =
+
+* **General:** Revert SWFObject enqueue hack as it's failing for some users.
+
+= v6.2.7 =
+
+* **General:** Update SWFObject to version 2.2.
+* **General:** Update JW Player to version 4.5.
+* **Localization:** Added Chinese translation thanks to [Dreamcolor](http://dreamcolor.net/).
+* **Localization:** Added Spanish translation thanks to [Omi](http://equipajedemano.info/).
 
 = v6.2.6 =
 
@@ -415,3 +532,8 @@ This is a hotfix version to address WordPress 2.5 plus some bugfixes and such. A
 = v1.0.0 =
 
 * Inital release.
+
+== Upgrade Notice ==
+
+= 6.4.5 =
+**Security:** Better sanitization and validation of shortcode attributes to prevent low-access users from doing naughty things. Props Jacek.
