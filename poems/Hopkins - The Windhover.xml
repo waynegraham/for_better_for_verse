@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+  PUBLIC "-//TEI P5//DTD Main Document Type//EN" "http://prosody.lib.virginia.edu:8080/prosody/poems/tei_all.dtd">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" version="5.0">
+        <teiHeader type="text">
+            <fileDesc>
+                <titleStmt>
+                    <title>The Windhover</title>
+                    <author>Gerard Manley Hopkins</author>
+                </titleStmt>
+                <publicationStmt><date>1877</date></publicationStmt>
+                <sourceDesc default="false"><p/></sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <lg n="1" type="sonnet" met="-+(5/5/5/5/5/5/5/5/5/5/5/5/5/5)" rhyme="abbaabbacdcdee" org="uniform" sample="complete" part="N">
+                    <l n="1" met="-+-+-+-+-+" real="-+-+-+-+-+">
+                   <seg met="-+" real="-+">I caught </seg>
+                   <seg>this mor</seg>
+                   <seg>ning mor</seg>
+                   <seg>ning's min</seg>
+                   <seg>ion, <rhyme label="a">king-</rhyme></seg>
+               </l><l n="2" met="-+-+-+-+-+" real="--+-+---+-+---+-">
+                   <seg met="-+" real="--+">dom of day</seg>
+                    <seg>light's dau</seg>
+                    <seg met="-+" real="---+">phin, dapple-dawn-</seg>
+                    <seg>drawn Fal</seg>
+                   <seg met="-+" real="---+-">con, in his <rhyme label="b">riding</rhyme></seg>
+                </l><l n="3" met="-+-+-+-+-+" real="--+-----+-+-+-+-|-+-+-+-+--+">
+                    <seg met="-+" real="--+">Of the rol</seg>
+                    <seg met="-+" real="-----+">ling level underneath </seg>
+                    <seg>him stead</seg>
+                    <seg>y air,</seg>
+                    <seg met="-+" real="-+-">and <rhyme label="b">striding</rhyme></seg>
+                </l><l n="4" met="-+-+-+-+-+" real="+---+---+--+-+">
+                    <seg met="-+" real="+-">High there, </seg>
+                    <seg met="-+" real="--+">how he rung </seg>
+                    <seg met="-+" real="---+">upon the rein </seg>
+                    <seg met="-+" real="--+" >of a wim</seg>
+                    <seg>pling <rhyme label="a">wing</rhyme></seg>
+                </l><l n="5" met="-+-+-+-+-+" real="--+---+++-+">
+                    <seg met="-+" real="--+">In his ec</seg>
+                    <seg met="-+" real="--">stasy! <sb/></seg>
+                    <seg met="-+" real="-+">then off, </seg>
+                    <seg met="-+" real="++">off forth </seg>
+                    <seg>on <rhyme label="a">swing,</rhyme></seg>
+                </l></lg></body></text></TEI>
