@@ -41,7 +41,14 @@ function wp_initial_constants() {
 	// set memory limits.
 	if ( function_exists( 'memory_get_usage' ) ) {
 		$current_limit = @ini_get( 'memory_limit' );
-		if ( -1 != $current_limit && ( -1 == WP_MEMORY_LIMIT || ( intval( $current_limit ) < abs( intval( WP_MEMORY_LIMIT ) ) ) ) )
+		$current_limit_int = intval( $current_limit );
+		if ( false !== strpos( $current_limit, 'G' ) )
+			$current_limit_int *= 1024;
+		$wp_limit_int = intval( WP_MEMORY_LIMIT );
+		if ( false !== strpos( WP_MEMORY_LIMIT, 'G' ) )
+			$wp_limit_int *= 1024;
+
+		if ( -1 != $current_limit && ( -1 == WP_MEMORY_LIMIT || $current_limit_int < $wp_limit_int ) )
 			@ini_set( 'memory_limit', WP_MEMORY_LIMIT );
 	}
 
@@ -153,7 +160,8 @@ function wp_plugin_directory_constants() {
 function wp_cookie_constants() {
 	/**
 	 * Used to guarantee unique hash cookies
-	 * @since 1.5
+	 *
+	 * @since 1.5.0
 	 */
 	if ( !defined( 'COOKIEHASH' ) ) {
 		$siteurl = get_site_option( 'siteurl' );
@@ -239,16 +247,22 @@ function wp_ssl_constants() {
 	/**
 	 * @since 2.6.0
 	 */
-	if ( !defined('FORCE_SSL_ADMIN') )
-		define('FORCE_SSL_ADMIN', false);
-	force_ssl_admin(FORCE_SSL_ADMIN);
+	if ( !defined( 'FORCE_SSL_ADMIN' ) ) {
+		if ( 'https' === parse_url( get_option( 'siteurl' ), PHP_URL_SCHEME ) ) {
+			define( 'FORCE_SSL_ADMIN', true );
+		} else {
+			define( 'FORCE_SSL_ADMIN', false );
+		}
+	}
+	force_ssl_admin( FORCE_SSL_ADMIN );
 
 	/**
 	 * @since 2.6.0
+	 * @deprecated 4.0.0
 	 */
-	if ( !defined('FORCE_SSL_LOGIN') )
-		define('FORCE_SSL_LOGIN', false);
-	force_ssl_login(FORCE_SSL_LOGIN);
+	if ( defined( 'FORCE_SSL_LOGIN' ) && FORCE_SSL_LOGIN ) {
+		force_ssl_admin( true );
+	}
 }
 
 /**
@@ -304,6 +318,6 @@ function wp_templating_constants() {
 	 * @since 3.0.0
 	 */
 	if ( !defined('WP_DEFAULT_THEME') )
-		define( 'WP_DEFAULT_THEME', 'twentythirteen' );
+		define( 'WP_DEFAULT_THEME', 'twentyfifteen' );
 
 }

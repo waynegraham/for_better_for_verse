@@ -7,7 +7,7 @@
  */
 
 /** WordPress Administration Bootstrap */
-require_once('./admin.php');
+require_once( dirname( __FILE__ ) . '/admin.php' );
 
 if ( is_multisite() && ! is_network_admin() ) {
 	wp_redirect( network_admin_url( 'theme-editor.php' ) );
@@ -30,7 +30,7 @@ get_current_screen()->add_help_tab( array(
 	<p id="newcontent-description">' . __('In the editing area the Tab key enters a tab character. To move below this area by pressing Tab, press the Esc key followed by the Tab key.') . '</p>
 	<p>' . __('After typing in your edits, click Update File.') . '</p>
 	<p>' . __('<strong>Advice:</strong> think very carefully about your site crashing if you are live-editing the theme currently in use.') . '</p>
-	<p>' . __('Upgrading to a newer version of the same theme will override changes made here. To avoid this, consider creating a <a href="http://codex.wordpress.org/Child_Themes" target="_blank">child theme</a> instead.') . '</p>' .
+	<p>' . sprintf( __('Upgrading to a newer version of the same theme will override changes made here. To avoid this, consider creating a <a href="%s" target="_blank">child theme</a> instead.'), __('http://codex.wordpress.org/Child_Themes') ) . '</p>' .
 	( is_network_admin() ? '<p>' . __('Any edits to files from this screen will be reflected on all sites in the network.') . '</p>' : '' )
 ) );
 
@@ -40,7 +40,7 @@ get_current_screen()->set_help_sidebar(
 	'<p>' . __('<a href="http://codex.wordpress.org/Using_Themes" target="_blank">Documentation on Using Themes</a>') . '</p>' .
 	'<p>' . __('<a href="http://codex.wordpress.org/Editing_Files" target="_blank">Documentation on Editing Files</a>') . '</p>' .
 	'<p>' . __('<a href="http://codex.wordpress.org/Template_Tags" target="_blank">Documentation on Template Tags</a>') . '</p>' .
-	'<p>' . __('<a href="http://wordpress.org/support/" target="_blank">Support Forums</a>') . '</p>'
+	'<p>' . __('<a href="https://wordpress.org/support/" target="_blank">Support Forums</a>') . '</p>'
 );
 
 wp_reset_vars( array( 'action', 'error', 'file', 'theme' ) );
@@ -81,7 +81,7 @@ case 'update':
 	$newcontent = wp_unslash( $_POST['newcontent'] );
 	$location = 'theme-editor.php?file=' . urlencode( $relative_file ) . '&theme=' . urlencode( $stylesheet ) . '&scrollto=' . $scrollto;
 	if ( is_writeable( $file ) ) {
-		//is_writable() not always reliable, check return value. see comments @ http://uk.php.net/is_writable
+		// is_writable() not always reliable, check return value. see comments @ http://uk.php.net/is_writable
 		$f = fopen( $file, 'w+' );
 		if ( $f !== false ) {
 			fwrite( $f, $newcontent );
@@ -92,7 +92,6 @@ case 'update':
 	}
 	wp_redirect( $location );
 	exit;
-break;
 
 default:
 
@@ -122,8 +121,7 @@ default:
 		$content = esc_textarea( $content );
 	}
 
-	?>
-<?php if ( isset( $_GET['updated'] ) ) : ?>
+	if ( isset( $_GET['updated'] ) ) : ?>
  <div id="message" class="updated"><p><?php _e( 'File edited successfully.' ) ?></p></div>
 <?php endif;
 
@@ -133,7 +131,6 @@ if ( $description != $file_show )
 	$description .= ' <span>(' . $file_show . ')</span>';
 ?>
 <div class="wrap">
-<?php screen_icon(); ?>
 <h2><?php echo esc_html( $title ); ?></h2>
 
 <div class="fileedit-sub">
