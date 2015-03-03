@@ -65,7 +65,7 @@ _deprecated_file( sprintf( __( 'Theme without %1$s' ), basename(__FILE__) ), '3.
 <p><?php printf(__('You must be <a href="%s">logged in</a> to post a comment.'), wp_login_url( get_permalink() )); ?></p>
 <?php else : ?>
 
-<form action="<?php echo get_option('siteurl'); ?>/wp-comments-post.php" method="post" id="commentform">
+<form action="<?php echo site_url(); ?>/wp-comments-post.php" method="post" id="commentform">
 
 <?php if ( is_user_logged_in() ) : ?>
 
@@ -91,7 +91,10 @@ _deprecated_file( sprintf( __( 'Theme without %1$s' ), basename(__FILE__) ), '3.
 <p><input name="submit" type="submit" id="submit" tabindex="5" value="<?php esc_attr_e('Submit Comment'); ?>" />
 <?php comment_id_fields(); ?>
 </p>
-<?php do_action('comment_form', $post->ID); ?>
+<?php
+/** This filter is documented in wp-includes/comment-template.php */
+do_action( 'comment_form', $post->ID );
+?>
 
 </form>
 

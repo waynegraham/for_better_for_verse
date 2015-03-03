@@ -10,6 +10,7 @@
  *
  * @package External
  * @subpackage MagpieRSS
+ * @deprecated 3.0.0 Use SimplePie instead.
  */
 
 /**
@@ -17,10 +18,13 @@
  */
 _deprecated_file( basename( __FILE__ ), '3.0', WPINC . '/class-simplepie.php' );
 
-/*
- * Hook to use another RSS object instead of MagpieRSS
+/**
+ * Fires before MagpieRSS is loaded, to optionally replace it.
+ *
+ * @since 2.3.0
+ * @deprecated 3.0.0
  */
-do_action('load_feed_engine');
+do_action( 'load_feed_engine' );
 
 /** RSS feed constant. */
 define('RSS', 'RSS');
@@ -243,7 +247,7 @@ class MagpieRSS {
 		}
 		elseif ($this->feed_type == ATOM and $this->incontent  ) {
 			// balance tags properly
-			// note:  i don't think this is actually neccessary
+			// note: This may not actually be necessary
 			if ( $this->stack[0] == $el )
 			{
 				$this->append_content("</$el>");
@@ -575,8 +579,8 @@ function _fetch_remote_file($url, $headers = "" ) {
  * @package External
  * @subpackage MagpieRSS
  *
- * @param unknown_type $resp
- * @return unknown
+ * @param array $resp
+ * @return MagpieRSS|bool
  */
 function _response_to_rss ($resp) {
 	$rss = new MagpieRSS( $resp->results );
@@ -720,7 +724,7 @@ class RSSCache {
 	Function:	set
 	Purpose:	add an item to the cache, keyed on url
 	Input:		url from wich the rss file was fetched
-	Output:		true on sucess
+	Output:		true on success
 \*=======================================================================*/
 	function set ($url, $rss) {
 		$cache_option = 'rss_' . $this->file_name( $url );

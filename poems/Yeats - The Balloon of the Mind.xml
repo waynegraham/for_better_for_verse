@@ -6,6 +6,7 @@
         <lg met="-+(3/3/3/3)" rhyme="abba" org="uniform" sample="complete" part="N">
                 <l n="1" part="N" met="-+-+-+" real="++--+">
                     <seg met="-+" real="+" part="N">Hands, </seg>
+                    <caesura/>
                     <seg met="-+" real="+-" part="N">do what <sb part="N"/></seg>
                     <seg met="-+" part="N">you're <rhyme label="a">bid:</rhyme></seg>
                 </l><l n="2" part="N" met="-+-+-+" real="-+-+-+-">
