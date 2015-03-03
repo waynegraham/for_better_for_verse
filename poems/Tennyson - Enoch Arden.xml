@@ -43,7 +43,7 @@
                     <seg>A long </seg>
                     <seg>street climbs </seg>
                     <seg>to one </seg>
-                    <seg>tall-tow<sb/></seg>
+                    <seg>tall-<sb/>tow<sb/></seg>
                     <seg>ered mill;</seg>
                     </l><l n="6" met="-+-+-+-+-+" real="-+-+--+--++">
                     <seg>And high </seg>
@@ -54,7 +54,7 @@
                     </l><l n="7" met="-+-+-+-+-+" real="-+-+-+-+-+">
                     <seg>With Dan<sb/></seg>
                     <seg>ish bar<sb/></seg>
-                    <seg>rows; <caesura/> and</seg>
+                    <seg>rows; <caesura/> and </seg>
                     <seg>a haz<sb/></seg>
                     <seg>el<sb/> wood,</seg>
                     </l><l n="8" met="-+-+-+-+-+" real="-+-+-+-+-+">
@@ -63,7 +63,7 @@
                     <seg>ters haun<sb/></seg>
                     <seg>ted, flour<sb/></seg>
                     <seg>ish<sb/>es</seg>
-                    </l><l n="9" met="-+-+-+-+-+" real="+--+++---+ | +--+-+-+-+">
+                    </l><l n="9" met="-+-+-+-+-+" real="+--+++---+|+--+-+-+-+">
                     <seg>Green in </seg>
                     <seg>a cup<sb/></seg>
                     <seg>like hol<sb/></seg>
