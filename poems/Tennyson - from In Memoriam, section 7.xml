@@ -15,7 +15,7 @@
         <text>
             <body>
                 <lg n="1" type="quatrain" met="-+(4/4/4/4)" rhyme="abba" org="uniform" sample="complete" part="N">
-                    <l n="1" met="-+-+-+-+" real="++--++-+">
+                    <l n="1" met="-+-+-+-+" real="++--++-+ | ++-+-+-+">
                    <seg>Dark house, </seg>
                    <caesura/>
                    <seg>by which </seg>
@@ -34,7 +34,7 @@
                     <seg>was used </seg>
                     <seg>to <rhyme label="b">beat</rhyme></seg>
                     </l>
-                    <l n="4" met="-+-+-+-+" real="++-+---+">
+                    <l n="4" met="-+-+-+-+" real="++-+---+ | -+-+-+-+">
                     <seg>So quick<sb/></seg>
                     <seg>ly, wait<sb/></seg>
                     <seg>ing for </seg>
@@ -42,7 +42,7 @@
                     </l>
                 </lg>
                 <lg n="2" type="quatrain" met="-+(4/4/4/4)" rhyme="abba" org="uniform" sample="complete" part="N">
-                    <l n="5" met="-+-+-+-+" real="-+-+-+++">
+                    <l n="5" met="-+-+-+-+" real="-+---+++ | -+-+-+++">
                         <seg>A hand </seg>
                         <seg>that can </seg>
                         <seg>be clasped </seg>
@@ -65,7 +65,7 @@
                     </l>
                 </lg>
                 <lg n="3" type="quatrain" met="-+(4/4/4/4)" rhyme="abba" org="uniform" sample="complete" part="N">
-                    <l n="9" met="-+-+-+-+" real="-+-+-+-+">
+                    <l n="9" met="-+-+-+-+" real="-+-+-+-+ | --++-+-+ | +--+-+-+">
                         <seg>He is </seg>
                         <seg>not here; </seg>
                         <caesura/>

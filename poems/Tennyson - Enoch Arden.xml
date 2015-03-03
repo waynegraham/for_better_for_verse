@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+  PUBLIC "-//TEI P5//DTD Main Document Type//EN" "http://prosody.lib.virginia.edu:8080/prosody/poems/tei_all.dtd">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" version="5.0">
+        <teiHeader type="text">
+            <fileDesc>
+                <titleStmt>
+                    <title>Enoch Arden (X.454-76)</title>
+                    <author>Alfred Tennyson</author>
+                </titleStmt>
+                <publicationStmt><date>1859</date></publicationStmt>
+                <sourceDesc default="false"><p/></sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <lg n="1" type="blank verse" met="-+(5/5/5/5/5/5/5/5/5/5/5/5/5/5/5/5/5/5/5/5/5/5/5)" org="uniform" sample="complete" part="N">
+                    <l n="1" met="-+-+-+-+-+" real="++-++--+-+-">
+                   <seg>Long lines <sb/></seg>
+                   <seg>of cliff </seg>
+                   <seg>break<sb/>ing </seg>
+                   <seg>have left </seg>
+                   <seg>a chas<sb/>m;</seg>
+                    </l><l n="2" met="-+-+-+-+-+" real="-+-+--+-+-+">
+                    <seg>And in </seg>
+                    <seg>the chas<sb/></seg>
+                    <seg>m are foam </seg>
+                   <seg>and yel<sb/></seg>
+                    <seg>low sands;</seg>
+                    </l><l n="3" met="-+-+-+-+-+" real="-+++-+-+-+">
+                    <seg>Be<sb/>yond </seg>
+                    <seg>red roofs </seg>
+                    <seg>a<sb/>bout </seg>
+                    <seg>a nar<sb/></seg>
+                    <seg>row wharf</seg>
+                    </l><l n="4" met="-+-+-+-+-+" real="-+-+-+-+-+-">
+                    <seg>In clus<sb/></seg>
+                    <seg>ter; <caesura/>then </seg>
+                    <seg>a moul<sb/></seg>
+                    <seg>dered church; </seg>
+                    <seg>and high<sb/>er</seg>
+                    </l><l n="5" met="-+-+-+-+-+" real="-+++-+++-+">
+                    <seg>A long </seg>
+                    <seg>street climbs </seg>
+                    <seg>to one </seg>
+                    <seg>tall-tow<sb/></seg>
+                    <seg>ered mill;</seg>
+                    </l><l n="6" met="-+-+-+-+-+" real="-+-+--+--++">
+                    <seg>And high </seg>
+                    <seg>in hea<sb/></seg>
+                    <seg>ven be<sb/>hind </seg>
+                    <seg>it a </seg>
+                    <seg>gray down</seg>
+                    </l><l n="7" met="-+-+-+-+-+" real="-+-+-+-+-+">
+                    <seg>With Dan<sb/></seg>
+                    <seg>ish bar<sb/></seg>
+                    <seg>rows; <caesura/> and</seg>
+                    <seg>a haz<sb/></seg>
+                    <seg>el<sb/> wood,</seg>
+                    </l><l n="8" met="-+-+-+-+-+" real="-+-+-+-+-+">
+                    <seg>By aut<sb/></seg>
+                    <seg>umn nut<sb/></seg>
+                    <seg>ters haun<sb/></seg>
+                    <seg>ted, flour<sb/></seg>
+                    <seg>ish<sb/>es</seg>
+                    </l><l n="9" met="-+-+-+-+-+" real="+--+++---+ | +--+-+-+-+">
+                    <seg>Green in </seg>
+                    <seg>a cup<sb/></seg>
+                    <seg>like hol<sb/></seg>
+                    <seg>low of </seg>
+                    <seg>the down.</seg>
+                    </l></lg></body></text></TEI>
