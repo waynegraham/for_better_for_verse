@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI
+  PUBLIC "-//TEI P5//DTD Main Document Type//EN" "http://prosody.lib.virginia.edu:8080/prosody/poems/tei_all.dtd">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" version="5.0">
+        <teiHeader type="text">
+            <fileDesc>
+                <titleStmt>
+                    <title>The Wood-Pile</title>
+                    <author>Robert Frost</author>
+                </titleStmt>
+                <publicationStmt><date>1914</date></publicationStmt>
+                <sourceDesc default="false"><p/></sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <lg n="1" type="blank verse" met="-+(5/5/5/5/5/5/5/5/5/5/5/5/5/5/5/5/5/5/5/5/5/5/5)" org="uniform" sample="complete" part="N">
+                    <l n="1" met="-+-+-+-+-+" real="-+---+-+--+">
+                   <seg>Out walk<sb/></seg>
+                   <seg>ing in </seg>
+                   <seg>the fro<sb/></seg>
+                   <seg>zen swamp </seg>
+                   <seg>one gray day,</seg>
+                    </l><l n="2" met="-+-+-+-+-+" real="-+-++--+-+">
+                    <seg>I paused </seg>
+                    <seg>and said, <caesura/></seg>
+                    <seg>'I will </seg>
+                   <seg>turn back </seg>
+                    <seg>from here.</seg>
+                    </l><l n="3" met="-+-+-+-+-+" real="+--+-+--+-+">
+                    <seg>No, I </seg>
+                    <seg>will go </seg>
+                    <seg>on far<sb/></seg>
+                    <seg>ther<caesura/>--and we </seg>
+                    <seg>shall see.'</seg>
+                    </l><l n="4" met="-+-+-+-+-+" real="-+++-+-+-+">
+                    <seg>The hard </seg>
+                    <seg>snow held </seg>
+                    <seg>me, save </seg>
+                    <seg>where now </seg>
+                    <seg>and then</seg>
+                    </l><l n="5" met="-+-+-+-+-+" real="++---+-+-+">
+                    <seg>One foot </seg>
+                    <seg>went through. <caesura/></seg>
+                    <seg>The view </seg>
+                    <seg>was all </seg>
+                    <seg>in lines</seg>
+                    </l><l n="6" met="-+-+-+-+-+" real="++-+-+++">
+                    <seg>Straight up </seg>
+                    <seg>and down </seg>
+                    <seg>of tall </seg>
+                    <seg>slim </seg>
+                    <seg>trees</seg>
+                    </l><l n="7" met="-+-+-+-+-+" real="-+-+-+-+-+-|+--+-+-+-+-">
+                    <seg>Too much </seg>
+                    <seg>a<sb/>like </seg>
+                    <seg>to mark </seg>
+                    <seg>or name </seg>
+                    <seg>a place by </seg>
+                    </l><l n="8" met="-+-+-+-+-+" real="+--+-+-+-+">
+                    <seg>So as</seg>
+                    <seg>to say </seg>
+                    <seg>for cer<sb/></seg>
+                    <seg>tain I </seg>
+                    <seg>was here </seg>
+                    </l><l n="9" met="-+-+-+-+-+" real="-+-++--+-+">
+                    <seg>Or some<sb/></seg>
+                    <seg>where else: <caesura/></seg>
+                    <seg>I was </seg>
+                    <seg>just far </seg>
+                    <seg>from home.</seg>
+                    </l><l n="10" met="-+-+-+-+-+" real="-+++-+-+-+-">
+                    <seg>A small </seg>
+                    <seg>bird flew </seg>
+                    <seg>be<sb/>fore me. <caesura/></seg>
+                    <seg>He was </seg>
+                    <seg>careful </seg>
+                    </l><l n="11" met="-+-+-+-+-+" real="-+-+-+-+-+-">
+                    <seg>To put </seg>
+                    <seg>a tree </seg>
+                    <seg>be<sb/>tween </seg>
+                    <seg>us when </seg>
+                    <seg>he ligh<sb/>ted,</seg>
+                    </l><l n="12" met="-+-+-+-+-+" real="-+++-+---+">
+                    <seg>And say </seg>
+                    <seg>no word </seg>
+                    <seg>to tell </seg>
+                    <seg>me who </seg>
+                    <seg>he was</seg>
+                    </l><l n="13" met="-+-+-+-+-+" real="--++-+-+-+-|+-++---+-+-">
+                    <seg>Who was </seg>
+                    <seg>so foo<sb/></seg>
+                    <seg>lish as </seg>
+                    <seg>to think </seg>
+                    <seg>what he thought.</seg>
+                    </l><l n="14" met="-+-+-+-+-+" real="+--+-+--+-+-">
+                    <seg>He thought </seg>
+                    <seg>that I </seg>
+                    <seg>was a<sb/></seg>
+                    <seg>fter him for </seg>
+                    <seg>a feath<sb/>er--</seg>
+                    </l><l n="15" met="-+-+-+-+-+" real="-+-+-+-+-+">
+                    <seg>The white </seg>
+                    <seg>one in </seg>
+                    <seg>his tail; <caesura/></seg>
+                    <seg>like one </seg>
+                    <seg>who takes</seg>
+                    </l><l n="16" met="-+-+-+-+-+" real="+--+-+--+-+">
+                    <seg>Ever<sb/>y<sb/></seg>
+                    <seg>thing said </seg>
+                    <seg>as per<sb/></seg>
+                    <seg>son<sb/>al to </seg>
+                    <seg>him<sb/>self.</seg>
+                    </l><l n="17" met="-+-+-+-+-+" real="++-+---+-+-">
+                    <seg>One flight </seg>
+                    <seg>out side<sb/></seg>
+                    <seg>ways would </seg>
+                    <seg>have un<sb/></seg>
+                    <seg>de<sb/>ceived him.</seg>
+                    </l><l n="18" met="-+-+-+-+-+" real="-+-+-+-+-+">
+                    <seg>And then </seg>
+                    <seg>there was </seg>
+                    <seg>a pile </seg>
+                    <seg>of wood </seg>
+                    <seg>for which </seg>
+                    </l><l n="19" met="-+-+-+-+-+" real="+-+--+-+-+">
+                    <seg>I for<sb/></seg>
+                    <seg>got him </seg>
+                    <seg>and let </seg>
+                    <seg>his li<sb/></seg>
+                    <seg>ttle fear</seg>
+                    </l><l n="20" met="-+-+-+-+-+" real="+--+-+-+-+">
+                    <seg>Car<sb/>ry </seg>
+                    <seg>him off </seg>
+                    <seg>the way </seg>
+                    <seg>I might </seg>
+                    <seg>have gone,</seg>
+                    </l><l n="21" met="-+-+-+-+-+" real="-+-+-+-+-+">
+                    <seg>With<sb/>out </seg>
+                    <seg>so much </seg>
+                    <seg>as wish<sb/></seg>
+                    <seg>ing him </seg>
+                    <seg>good-<sb/>night.</seg>
+                    </l><l n="22" met="-+-+-+-+-+" real="-+-+--+-++">
+                    <seg>He went </seg>
+                    <seg>be<sb/>hind </seg>
+                    <seg>it to </seg>
+                    <seg>make his </seg>
+                    <seg>last stand.</seg>
+                    </l><l n="23" met="-+-+-+-+-+" real="+--+-+-+-+">
+                    <seg>It was </seg>
+                    <seg>a cord </seg>
+                    <seg>of ma<sb/>ple, <caesura/></seg>
+                    <seg>cut </seg>
+                    <seg>and split</seg>
+                    </l><l n="24" met="-+-+-+-+-+" real="-+-+-+-+-+">
+                    <seg>And piled--<caesura/></seg>
+                    <seg>and mea<sb/>sured, <caesura/></seg>
+                    <seg>four </seg>
+                    <seg>by four </seg>
+                    <seg>by eight.</seg>
+                    </l><l n="25" met="-+-+-+-+-+" real="-+-+-+-+-+">
+                    <seg>And not </seg>
+                    <seg>a<sb/>no<sb/></seg>
+                    <seg>ther like </seg>
+                    <seg>it could </seg>
+                    <seg>I see.</seg>
+                    </l><l n="26" met="-+-+-+-+-+" real="-+-+-+--++-">
+                    <seg>No run<sb/></seg>
+                    <seg>ner tracks </seg>
+                    <seg>in this </seg>
+                    <seg>year's snow looped </seg>
+                    <seg>near it.</seg>
+                    </l><l n="27" met="-+-+-+-+-+" real="-+-+-+-+-+-">
+                    <seg>And it </seg>
+                    <seg>was ol<sb/></seg>
+                    <seg>der sure </seg>
+                    <seg>than this </seg>
+                    <seg>year's cut<sb/>ting,</seg>
+                    </l><l n="28" met="-+-+-+-+-+" real="-+-++--+-+">
+                    <seg>Or e<sb/></seg>
+                    <seg>ven last </seg>
+                    <seg>year's or </seg>
+                    <seg>the year's </seg>
+                    <seg>be<sb/>fore.</seg>
+                    </l><l n="29" met="-+-+-+-+-+" real="-+-+--++-+-">
+                    <seg>The wood </seg>
+                    <seg>was gray </seg>
+                    <seg>and the </seg>
+                    <seg>bark warp<sb/></seg>
+                    <seg>ing off it</seg>
+                    </l><l n="30" met="-+-+-+-+-+" real="--++-+-+-+">
+                    <seg>And the </seg>
+                    <seg>pile some<sb/></seg>
+                    <seg>what sun<sb/>ken. <caesura/></seg>
+                    <seg>Cle<sb/></seg>
+                    <seg>ma<sb/>tis</seg>
+                    </l><l n="31" met="-+-+-+-+-+" real="-+++-+---+-">
+                    <seg>Had wound </seg>
+                    <seg>strings round </seg>
+                    <seg>and round </seg>
+                    <seg>it like </seg>
+                    <seg>a bun<sb/>dle.</seg>
+                    </l><l n="32" met="-+-+-+-+-+" real="-+-+-++--+">
+                    <seg>What held </seg>
+                    <seg>it though </seg>
+                    <seg>on one </seg>
+                    <seg>side was </seg>
+                    <seg>a tree</seg>
+                    </l><l n="33" met="-+-+-+-+-+" real="++---+-+-+">
+                    <seg>Still grow<sb/></seg>
+                    <seg>ing, <caesura/> and </seg>
+                    <seg>on one </seg>
+                    <seg>a stake </seg>
+                    <seg>and prop,</seg>
+                    </l><l n="34" met="-+-+-+-+-+" real="-+--+-+-+-+-">
+                    <seg>These la<sb/></seg>
+                    <seg>tter a<sb/>bout </seg>
+                    <seg>to fall. <caesura/></seg>
+                    <seg>I thought </seg>
+                    <seg>that on<sb/>ly</seg>
+                    </l><l n="35" met="-+-+-+-+-+" real="+--+-+--++">
+                    <seg>Some<sb/>one </seg>
+                    <seg>who lived </seg>
+                    <seg>in turn<sb/></seg>
+                    <seg>ing to </seg>
+                    <seg>fresh tasks</seg>
+                    </l><l n="36" met="-+-+-+-+-+" real="-+-+-+-+-+">
+                    <seg>Could so </seg>
+                    <seg>for<sb/>get </seg>
+                    <seg>his han<sb/></seg>
+                    <seg>di<sb/>work </seg>
+                    <seg>on which</seg>
+                    </l><l n="37" met="-+-+-+-+-+" real="-+-+-+-+-+">
+                    <seg>He spent </seg>
+                    <seg>him<sb/>self, <caesura/></seg>
+                    <seg>the la<sb/></seg>
+                    <seg>bor of </seg>
+                    <seg>his ax,</seg>
+                    </l><l n="38" met="-+-+-+-+-+" real="-+-++--+-+-">
+                    <seg>And leave </seg>
+                    <seg>it there </seg>
+                    <seg>far from </seg>
+                    <seg>a use<sb/>ful </seg>
+                    <seg>fi<sb/>re<sb/>place</seg>
+                    </l><l n="39" met="-+-+-+-+-+" real="-+-+-+-+-+">
+                    <seg>To warm </seg>
+                    <seg>the fro<sb/></seg>
+                    <seg>zen swamp </seg>
+                    <seg>as best </seg>
+                    <seg>it could</seg>
+                    </l><l n="40" met="-+-+-+-+-+" real="--++-+-+-+">
+                    <seg>With the </seg>
+                    <seg>slow smoke<sb/></seg>
+                    <seg>less burn<sb/></seg>
+                    <seg>ing of </seg>
+                    <seg>de<sb/>cay.</seg>
+                    </l></lg></body></text></TEI>
