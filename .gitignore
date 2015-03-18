@@ -1,4 +1,7 @@
+poems/*.html
 
 # /wp/wp-content/
 /wp/wp-content/uploads
 wp/wp-config.php
+
+
