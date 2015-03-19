@@ -14,7 +14,7 @@
         </teiHeader>
         <text>
             <body>
-                <lg n="1" type="blank verse" met="-+(5/5/5/5/5/5/5/5/5/5/5/5/5/5/5/5/5/5/5/5/5/5/5)" org="uniform" sample="complete" part="N">
+                <lg n="1" type="blank verse" met="-+(5/5/5/5/5/5/5/5/5/5/5/5/5/5/5/5/5/5/5/5/5/5/5/5/5/5/5/5/5/5/5/5/5/5/5/5/5/5/5/5/)" org="uniform" sample="complete" part="N">
                     <l n="1" met="-+-+-+-+-+" real="-+---+-+--+">
                    <seg>Out walk<sb/></seg>
                    <seg>ing in </seg>
@@ -72,9 +72,9 @@
                     </l><l n="10" met="-+-+-+-+-+" real="-+++-+-+-+-">
                     <seg>A small </seg>
                     <seg>bird flew </seg>
-                    <seg>be<sb/>fore me. <caesura/></seg>
-                    <seg>He was </seg>
-                    <seg>careful </seg>
+                    <seg>be<sb/>fore </seg>
+                    <seg>me. <caesura/> He </seg>
+                    <seg>was careful </seg>
                     </l><l n="11" met="-+-+-+-+-+" real="-+-+-+-+-+-">
                     <seg>To put </seg>
                     <seg>a tree </seg>
@@ -127,8 +127,8 @@
                     <seg>I for<sb/></seg>
                     <seg>got him </seg>
                     <seg>and let </seg>
-                    <seg>his li<sb/></seg>
-                    <seg>ttle fear</seg>
+                    <seg>his lit<sb/></seg>
+                    <seg>tle fear</seg>
                     </l><l n="20" met="-+-+-+-+-+" real="+--+-+-+-+">
                     <seg>Car<sb/>ry </seg>
                     <seg>him off </seg>
@@ -192,8 +192,8 @@
                     </l><l n="30" met="-+-+-+-+-+" real="--++-+-+-+">
                     <seg>And the </seg>
                     <seg>pile some<sb/></seg>
-                    <seg>what sun<sb/>ken. <caesura/></seg>
-                    <seg>Cle<sb/></seg>
+                    <seg>what sun<sb/></seg>
+                    <seg>ken. <caesura/>Cle<sb/></seg>
                     <seg>ma<sb/>tis</seg>
                     </l><l n="31" met="-+-+-+-+-+" real="-+++-+---+-">
                     <seg>Had wound </seg>
@@ -237,7 +237,7 @@
                     <seg>the la<sb/></seg>
                     <seg>bor of </seg>
                     <seg>his ax,</seg>
-                    </l><l n="38" met="-+-+-+-+-+" real="-+-++--+-+-">
+                    </l><l n="38" met="-+-+-+-+-+" real="-+-++--+-+--">
                     <seg>And leave </seg>
                     <seg>it there </seg>
                     <seg>far from </seg>
