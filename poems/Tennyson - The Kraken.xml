@@ -14,7 +14,7 @@
         </teiHeader>
         <text>
             <body>
-                <lg n="1" type="quatrain" met="-+(5/5/5/5/5)" rhyme="ababcddcefeaafe" org="uniform" sample="complete" part="N">
+                <lg n="1" type="quatrain" met="-+(5/5/5/5/5/5/5/5/5/5/5/5/5/5/6)" rhyme="ababcddcefeaafe" org="uniform" sample="complete" part="N">
                     <l n="1" met="-+-+-+-+-+" real="-+-+-+-+-+">
                     <seg>Be<sb/>low </seg>
                     <seg>the thun<sb/></seg>
@@ -47,7 +47,7 @@
                     <seg>him <rhyme label="c">swell</rhyme></seg>
                     </l><l n="6" met="-+-+-+-+-+" real="++---+--+-+">
                     <seg>Huge spon<sb/></seg>
-                    <seg>ges of</seg>
+                    <seg>ges of </seg>
                     <seg>mil<sb/>len<sb/></seg>
                     <seg>ni<sb/>al growth </seg>
                     <seg>and <rhyme label="d">height;</rhyme></seg>
@@ -60,7 +60,7 @@
                     </l><l n="8" met="-+-+-+-+-+" real="-+--+-+-+-+">
                     <seg>From man<sb/></seg>
                     <seg>y a won<sb/></seg>
-                    <seg>drous grot</seg>
+                    <seg>drous grot </seg>
                     <seg>and se<sb/></seg>
                     <seg>cret <rhyme label="c">cell</rhyme></seg>
                     </l><l n="9" met="-+-+-+-+-+" real="++---+-+-+">
@@ -68,7 +68,7 @@
                     <seg>bered and </seg>
                     <seg>e<sb/>nor<sb/></seg>
                     <seg>mous<sb/> pol<sb/></seg>
-                    <seg>y<sb/>pi<rhyme label="e">pi</rhyme></seg>
+                    <seg>y<sb/><rhyme label="e">pi</rhyme></seg>
                     </l><l n="10" met="-+-+-+-+-+" real="+--+-+-+--+">
                     <seg>Win<sb/>now </seg>
                     <seg>with gi<sb/></seg>
@@ -79,7 +79,7 @@
                     <seg>There hath </seg>
                     <seg>he lain </seg>
                     <seg>for a<sb/></seg>
-                    <seg>ges and</seg>
+                    <seg>ges and </seg>
                     <seg>will <rhyme label="e">lie</rhyme></seg>
                     </l><l n="12" met="-+-+-+-+-+" real="+---+++---+|+---+++-+-+">
                     <seg>Bat<sb/>ten<sb/></seg>
@@ -87,7 +87,7 @@
                     <seg>huge sea<sb/></seg>
                     <seg>worms in </seg>
                     <seg>his <rhyme label="a">sleep,</rhyme></seg>
-                    </l><l n="13" met="-+-+-+-+-+" real="-+-+-+-+-+">
+                    </l><l n="13" met="-+-+-+-+-+" real="-+-+-+--+-+">
                     <seg>Un<sb/>til </seg>
                     <seg>the lat<sb/></seg>
                     <seg>ter fi<sb/></seg>
