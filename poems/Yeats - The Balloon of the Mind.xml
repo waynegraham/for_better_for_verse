@@ -17,7 +17,7 @@
                     <seg met="-+" part="N">That bel</seg>
                     <seg met="-+" real="--+" part="N">lies and drags <sb part="N"/></seg>
                     <seg met="-+" real="--+" part="N">in the <rhyme label="b">wind,</rhyme></seg>
-                </l><l n="4" part="N" met="-+-+-+" real="+--+-+|-+-+-+">
+                </l><l n="4" part="N" met="-+-+-+" real="+--+-+">
                     <seg met="-+" real="+-|-+">In<sb/>to </seg>
                     <seg met="-+" part="N">its nar</seg>
                     <seg met="-+" part="N">row <rhyme label="a">shed.</rhyme></seg>

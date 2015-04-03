@@ -21,10 +21,10 @@
                    <seg>the fro<sb/></seg>
                    <seg>zen swamp </seg>
                    <seg>one gray day,</seg>
-                    </l><l n="2" met="-+-+-+-+-+" real="-+-++--+-+">
+                    </l><l n="2" met="-+-+-+-+-+" real="-+-+--++-+">
                     <seg>I paused </seg>
                     <seg>and said, <caesura/></seg>
-                    <seg>'I will </seg>
+                    <seg>"I will </seg>
                    <seg>turn back </seg>
                     <seg>from here.</seg>
                     </l><l n="3" met="-+-+-+-+-+" real="+--+-+--+-+">
@@ -32,7 +32,7 @@
                     <seg>will go </seg>
                     <seg>on far<sb/></seg>
                     <seg>ther--<caesura/>and we </seg>
-                    <seg>shall see.'</seg>
+                    <seg>shall see."</seg>
                     </l><l n="4" met="-+-+-+-+-+" real="-+++-+-+-+">
                     <seg>The hard </seg>
                     <seg>snow held </seg>
@@ -63,7 +63,7 @@
                     <seg>for cer<sb/></seg>
                     <seg>tain I </seg>
                     <seg>was here</seg>
-                    </l><l n="9" met="-+-+-+-+-+" real="-+-++--+-+">
+                    </l><l n="9" met="-+-+-+-+-+" real="-+-++--+-+|-+-+--++-+">
                     <seg>Or some<sb/></seg>
                     <seg>where else: <caesura/></seg>
                     <seg>I was </seg>
@@ -81,7 +81,7 @@
                     <seg>be<sb/>tween </seg>
                     <seg>us when </seg>
                     <seg>he ligh<sb/>ted,</seg>
-                    </l><l n="12" met="-+-+-+-+-+" real="-+++-+---+">
+                    </l><l n="12" met="-+-+-+-+-+" real="-+++-+---+|-+++-+-+-+">
                     <seg>And say </seg>
                     <seg>no word </seg>
                     <seg>to tell </seg>
@@ -93,7 +93,7 @@
                     <seg>lish as </seg>
                     <seg>to think </seg>
                     <seg>what he thought.</seg>
-                    </l><l n="14" met="-+-+-+-+-+" real="+--+-+--+-+-">
+                    </l><l n="14" met="-+-+-+-+-+" real="+--+-+--+-+-|-+-+-+--+-+-">
                     <seg>He thought </seg>
                     <seg>that I </seg>
                     <seg>was af<sb/></seg>
@@ -161,16 +161,16 @@
                     <seg>by eight.</seg>
                     </l><l n="25" met="-+-+-+-+-+" real="-+-+-+-+-+">
                     <seg>And not </seg>
-                    <seg>a<sb/>no<sb/></seg>
-                    <seg>ther like </seg>
+                    <seg>a<sb/>noth<sb/></seg>
+                    <seg>er like </seg>
                     <seg>it could </seg>
                     <seg>I see.</seg>
-                    </l><l n="26" met="-+-+-+-+-+" real="-+-+-+--++-">
+                    </l><l n="26" met="-+-+-+-+-+" real="-+-+-+-+++-">
                     <seg>No run<sb/></seg>
                     <seg>ner tracks </seg>
                     <seg>in this </seg>
-                    <seg>year's snow looped </seg>
-                    <seg>near it.</seg>
+                    <seg>year's snow </seg>
+                    <seg>looped near it.</seg>
                     </l><l n="27" met="-+-+-+-+-+" real="-+-+-+-+-+-">
                     <seg>And it </seg>
                     <seg>was ol<sb/></seg>
