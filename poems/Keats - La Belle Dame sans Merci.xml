@@ -21,7 +21,7 @@
                     <seg>thee, knight-</seg>
                     <seg>at-<sb/><rhyme label="a">arms,</rhyme></seg>
                     </l><l n="2" met="-+-+-+-+" real="-+-+-+-+">
-                    <seg>A<sb/>one </seg>
+                    <seg>A<sb/>lone </seg>
                     <seg>and pale<sb/></seg>
                     <seg>ly loit<sb/></seg>
                     <seg>er<sb/><rhyme label="b">ing?</rhyme></seg>
@@ -64,7 +64,7 @@
                     <seg>thy <rhyme label="a"></rhyme>brow,</seg>
                     </l><l n="10" met="-+-+-+-+" real="-+-+-+-+">
                     <seg>With an<sb/></seg>
-                    <seg>fuish moist </seg>
+                    <seg>guish moist </seg>
                     <seg>and fe<sb/></seg>
                     <seg>ver-<sb/><rhyme label="b"></rhyme>dew,</seg>
                     </l><l n="11" met="-+-+-+-+" real="-+-+-+-+">
@@ -80,7 +80,7 @@
                     <l n="13" met="-+-+-+-+" real="-+-+-+-+">
                     <seg>I met </seg>
                     <seg>a la<sb/></seg>
-                    <seg>y in</seg>
+                    <seg>dy in </seg>
                     <seg>the <rhyme label="a"></rhyme>meads,</seg>
                     </l><l n="14" met="-+-+-+-+" real="++-+-+-+">
                     <seg>Full beau<sb/></seg>
@@ -92,12 +92,12 @@
                     <seg>was long, </seg>
                     <seg>her foot </seg>
                     <seg>was <rhyme label="c"></rhyme>light,</seg>
-               </l></lg> 
-                <lg n="5" type="stanza" met="-+(4/4/4/2)" rhyme="abcb" org="uniform" sample="complete" part="N"><space quantity="1"/>
-                    <l n="16" met="-+-+" real="--+-+">
+                    </l><l n="16" met="-+-+" real="--+-+">
                     <seg>And her eyes </seg>
                     <seg>were <rhyme label="b"></rhyme>wild.</seg>
-                    </l><l n="17" met="-+-+-+-+" real="-+-+-+-+">
+               </l></lg> 
+                <lg n="5" type="stanza" met="-+(4/4/4/2)" rhyme="abcb" org="uniform" sample="complete" part="N"><space quantity="1"/>
+                    <l n="17" met="-+-+-+-+" real="-+-+-+-+">
                     <seg>I made </seg>
                     <seg>a gar<sb/></seg>
                     <seg>land for </seg>
@@ -154,7 +154,7 @@
                     <seg>she <rhyme label="c"></rhyme>said,</seg>
                     </l><l n="28" met="-+-+" real="-+-+">
                     <seg>"I love </seg>
-                    <seg>the <rhyme label="b"></rhyme>true."</seg>
+                    <seg>thee <rhyme label="b"></rhyme>true."</seg>
                </l></lg> 
                 <lg n="8" type="stanza" met="-+(4/4/4/2)" rhyme="abcb" org="uniform" sample="complete" part="N"><space quantity="1"/>
                     <l n="29" met="-+-+-+-+" real="-+-+-+-+">
