@@ -180,7 +180,7 @@
                     <l n="33" met="-+-+-+-+" real="-+-+-+-+">
                     <seg>And there </seg>
                     <seg>she lull<sb/></seg>
-                    <seg>èd me </seg>
+                    <seg>&#x00e8;d me </seg>
                     <seg>as<sb/><rhyme label="a"></rhyme>leep,</seg>
                     </l><l n="34" met="-+-+-+-+" real="-+-+++-+">
                     <seg>And there </seg>
@@ -226,7 +226,7 @@
                     <seg>With hor<sb/></seg>
                     <seg>rid warn<sb/></seg>
                     <seg>ing gap<sb/></seg>
-                    <seg>èd <rhyme label="b"></rhyme>wide,</seg>
+                    <seg>&#x00e8;d <rhyme label="b"></rhyme>wide,</seg>
                     </l><l n="43" met="-+-+-+-+" real="-+-+-+-+">
                     <seg>And I </seg>
                     <seg>a<sb/>woke </seg>
