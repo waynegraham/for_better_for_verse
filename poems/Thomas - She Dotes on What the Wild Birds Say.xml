@@ -19,12 +19,12 @@
                     <seg>She dotes </seg>
                     <seg>on what </seg>
                     <seg>the wild </seg>
-                    <seg>birds<rhyme label="a">say</rhyme></seg>
+                    <seg>birds <rhyme label="a">say</rhyme></seg>
                     </l><l n="2" met="-+-+-+-+" real="-+-+-+-+">
                     <seg>Or hint </seg>
                     <seg>or mock </seg>
                     <seg>at, night </seg>
-                    <seg>and<rhyme label="a">day, --</rhyme></seg>
+                    <seg>and <rhyme label="a">day, --</rhyme></seg>
                     </l><l n="3" met="-+-+-+-+" real="++-+-+-+">
                     <seg>Thrush, black<sb/></seg>
                     <seg>bird, all </seg>
@@ -32,7 +32,7 @@
                     <seg>in <rhyme label="a">May</rhyme></seg>
                     </l><l n="4" met="-+-+" real="-+-+-">
                     <seg>And song<sb/></seg>
-                    <seg>less plo<sb/><rhyme label="b">er,</rhyme></seg>
+                    <seg>less plo<sb/><rhyme label="b">ver,</rhyme></seg>
                     </l><l n="5" met="-+-+-+-+" real="++-+-+-+">
                     <seg>Hawk, her<sb/></seg>
                     <seg>on, owl, </seg>
@@ -42,7 +42,7 @@
                     <seg>They ne<sb/></seg>
                     <seg>ver say </seg>
                     <seg>a word </seg>
-                    <seg>to<rhyme label="b">her</rhyme></seg>
+                    <seg>to <rhyme label="b">her</rhyme></seg>
                     </l><l n="7" met="-+-+" real="-+-+-">
                     <seg>A<sb/>bout </seg>
                     <seg>her lo<sb/><rhyme label="b">ver.</rhyme></seg>
@@ -110,6 +110,6 @@
                     <seg>oo cries </seg>
                     <seg>to his <rhyme label="c">mate</rhyme></seg>
                     </l><l n="21" met="-+-+" real="+--+-">
-                    <seg>O<sb/>ver</seg>
+                    <seg>O<sb/>ver </seg>
                     <seg>and o<sb/><rhyme label="b">ver.</rhyme></seg>
                     </l></lg></body></text></TEI>
