@@ -14,7 +14,7 @@
         </teiHeader>
         <text>
             <body>
-                <lg n="1" type="stanza" met="-+(4/4/4/2/4/4/2)" rhyme="aaabccb" org="uniform" sample="complete" part="N"><space quantity="1"/>
+                <lg n="1" type="stanza" met="-+(4/4/4/2/4/4/2)" rhyme="aaabccb" org="uniform" sample="complete" part="N">
                     <l n="1" met="-+-+-+-+" real="-+-+-+++|-+---+++">
                     <seg>She dotes </seg>
                     <seg>on what </seg>
