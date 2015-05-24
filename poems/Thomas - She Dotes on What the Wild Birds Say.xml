@@ -15,35 +15,35 @@
         <text>
             <body>
                 <lg n="1" type="stanza" met="-+(4/4/4/2/4/4/2)" rhyme="aaabccb" org="uniform" sample="complete" part="N">
-                    <l n="1" met="-+-+-+-+" real="-+-+-+++|-+---+++">
+                    <l n="1" met="-+-+-+-+" real="-+-+-+++|-+---+++" part="N">
                     <seg>She dotes </seg>
                     <seg>on what </seg>
                     <seg>the wild </seg>
                     <seg>birds <rhyme label="a">say</rhyme></seg>
-                    </l><l n="2" met="-+-+-+-+" real="-+-+-+-+">
+                    </l><l n="2" met="-+-+-+-+" real="-+-+-+-+" part="N">
                     <seg>Or hint </seg>
                     <seg>or mock </seg>
                     <seg>at, night </seg>
                     <seg>and <rhyme label="a">day,--</rhyme></seg>
-                    </l><l n="3" met="-+-+-+-+" real="++-+-+-+">
+                    </l><l n="3" met="-+-+-+-+" real="++-+-+-+" part="N">
                     <seg>Thrush, black<sb/></seg>
                     <seg>bird, all </seg>
                     <seg>that sing </seg>
                     <seg>in <rhyme label="a">May</rhyme></seg>
-                    </l><l n="4" met="-+-+" real="-+-+-">
+                    </l><l n="4" met="-+-+" real="-+-+-" part="N">
                     <seg>And song<sb/></seg>
                     <seg>less plo<sb/><rhyme label="b">ver,</rhyme></seg>
-                    </l><l n="5" met="-+-+-+-+" real="++-+-+-+">
+                    </l><l n="5" met="-+-+-+-+" real="++-+-+-+" part="N">
                     <seg>Hawk, her<sb/></seg>
                     <seg>on, owl, </seg>
                     <seg>and wood<sb/></seg>
                     <seg>peck<sb/><rhyme label="b">er.</rhyme></seg>
-                    </l><l n="6" met="-+-+-+-+" real="-+-+-+-+">
+                    </l><l n="6" met="-+-+-+-+" real="-+-+-+-+" part="N">
                     <seg>They ne<sb/></seg>
                     <seg>ver say </seg>
                     <seg>a word </seg>
                     <seg>to <rhyme label="b">her</rhyme></seg>
-                    </l><l n="7" met="-+-+" real="-+-+-">
+                    </l><l n="7" met="-+-+" real="-+-+-" part="N">
                     <seg>A<sb/>bout </seg>
                     <seg>her lo<sb/><rhyme label="b">ver.</rhyme></seg>
              </l></lg> 
