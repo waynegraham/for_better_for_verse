@@ -189,7 +189,7 @@
                     <seg>The lat<sb/></seg>
                     <seg>est dream </seg>
                     <seg>I e<sb/></seg>
-                    <seg>ver <rhyme label="c">dreamed </rhyme></seg>
+                    <seg>ver <rhyme label="c">dreamed</rhyme></seg>
                     </l><l n="36" met="-+-+" real="--+++">
                     <seg>On the cold </seg>
                     <seg>hill's <rhyme label="b">side.</rhyme></seg>
@@ -209,10 +209,10 @@
                     <seg>They cried, </seg>
                     <seg>"La Belle </seg>
                     <seg>Dame sans </seg>
-                    <seg>Mer<sb/><rhyme label="c">ci </rhyme></seg>
+                    <seg>Mer<sb/><rhyme label="c">ci</rhyme></seg>
                     </l><l n="40" met="-+-+" real="-+-+">
                     <seg>Hath thee </seg>
-                    <seg>in <rhyme label="b">thrall!" </rhyme></seg>
+                    <seg>in <rhyme label="b">thrall!"</rhyme></seg>
                </l></lg> 
                 <lg n="11" type="stanza" met="-+(4/4/4/2)" rhyme="abcb" org="uniform" sample="complete" part="N"><space quantity="1"/>
                     <l n="41" met="-+-+-+-+" real="-+-++--+">
@@ -229,7 +229,7 @@
                     <seg>And I </seg>
                     <seg>a<sb/>woke </seg>
                     <seg>and found </seg>
-                    <seg>me <rhyme label="c">here </rhyme></seg>
+                    <seg>me <rhyme label="c">here</rhyme></seg>
                     </l><l n="44" met="-+-+" real="--+++">
                     <seg>On the cold </seg>
                     <seg>hill's <rhyme label="b">side.</rhyme></seg>
