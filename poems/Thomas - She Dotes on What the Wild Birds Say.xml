@@ -48,68 +48,68 @@
                     <seg>her lo<sb/><rhyme label="b">ver.</rhyme></seg>
              </l></lg> 
                 <lg n="2" type="stanza" met="-+(4/4/4/2/4/4/2)" rhyme="aaabccb" org="uniform" sample="complete" part="N">
-                    <l n="8" met="-+-+-+-+" real="-+-+-+-+">
+                    <l n="8" met="-+-+-+-+" real="-+-+-+-+" part="N">
                     <seg>She laughs </seg>
                     <seg>at them </seg>
                     <seg>for child<sb/></seg>
                     <seg>ish<sb/><rhyme label="a">ness,</rhyme></seg>
-                    </l><l n="9" met="-+-+-+-+" real="-+-+-+-+">
+                    </l><l n="9" met="-+-+-+-+" real="-+-+-+-+" part="N">
                     <seg>She cries </seg>
                     <seg>at them </seg>
                     <seg>for care<sb/></seg>
                     <seg>less<sb/><rhyme label="a">ness</rhyme></seg>
-                    </l><l n="10" met="-+-+-+-+" real="-+-+-+-+">
+                    </l><l n="10" met="-+-+-+-+" real="-+-+-+-+" part="N">
                     <seg>Who see </seg>
                     <seg>her go<sb/></seg>
                     <seg>ing lo<sb/></seg>
                     <seg>ver<sb/><rhyme label="a">less</rhyme></seg>
-                    </l><l n="11" met="-+-+" real="-+-+-">
+                    </l><l n="11" met="-+-+" real="-+-+-" part="N">
                     <seg>Yet sing </seg>
                     <seg>and chat<sb/><rhyme label="b">ter</rhyme></seg>
-                    </l><l n="12" met="-+-+-+-+" real="+-+--+-+">
+                    </l><l n="12" met="-+-+-+-+" real="+-+--+-+" part="N">
                     <seg>Just as </seg>
                     <seg>when he </seg>
                     <seg>was not </seg>
                     <seg>a <rhyme label="c">ghost,</rhyme></seg>
-                    </l><l n="13" met="-+-+-+-+" real="-+-+-+--+">
+                    </l><l n="13" met="-+-+-+-+" real="-+-+-+--+" part="N">
                     <seg>Nor e<sb/></seg>
                     <seg>ver ask </seg>
                     <seg>her what </seg>
                     <seg>she has <rhyme label="c">lost</rhyme></seg>
-                    </l><l n="14" met="-+-+" real="-+--+-">
+                    </l><l n="14" met="-+-+" real="-+--+-" part="N">
                     <seg>Or what </seg>
                     <seg>is the mat<sb/><rhyme label="b">ter.</rhyme></seg>  
                </l></lg> 
                 <lg n="3" type="stanza" met="-+(4/4/4/2/4/4/2)" rhyme="aaabccb" org="uniform" sample="complete" part="N">
-                    <l n="15" met="-+-+-+-+" real="-+-+-+-+">
+                    <l n="15" met="-+-+-+-+" real="-+-+-+-+" part="N">
                     <seg>Yet she </seg>
                     <seg>has fan<sb/></seg>
                     <seg>cied black<sb/></seg>
                     <seg>birds <rhyme label="a">hide</rhyme></seg>
-                    </l><l n="16" met="-+-+-+-+" real="-+-+-+-+">
+                    </l><l n="16" met="-+-+-+-+" real="-+-+-+-+" part="N">
                     <seg>A se<sb/></seg>
                     <seg>cret, <caesura/>and </seg>
                     <seg>that thru<sb/></seg>
                     <seg>shes <rhyme label="a">chide</rhyme></seg>
-                    </l><l n="17" met="-+-+-+-+" real="-+-++--+">
+                    </l><l n="17" met="-+-+-+-+" real="-+-++--+" part="N">
                     <seg>Be<sb/>cause </seg>
                     <seg>she thinks </seg>
                     <seg>death can </seg>
                     <seg>di<sb/><rhyme label="a">vide</rhyme></seg>
-                    </l><l n="18" met="-+-+" real="+--+-">
+                    </l><l n="18" met="-+-+" real="+--+-" part="N">
                     <seg>Her from </seg>
                     <seg>her lo<sb/><rhyme label="b">ver;</rhyme></seg>
-                    </l><l n="19" met="-+-+-+-+" real="-+-++---+">
+                    </l><l n="19" met="-+-+-+-+" real="-+-++---+" part="N">
                     <seg>And she </seg>
                     <seg>has slept, <caesura/></seg>
                     <seg>try<sb/>ing </seg>
                     <seg>to trans<sb/><rhyme label="c">late</rhyme></seg>
-                    </l><l n="20" met="-+-+-+-+" real="-+-+-+--+">
+                    </l><l n="20" met="-+-+-+-+" real="-+-+-+--+" part="N">
                     <seg>The word </seg>
                     <seg>the cuck<sb/></seg>
                     <seg>oo cries </seg>
                     <seg>to his <rhyme label="c">mate</rhyme></seg>
-                    </l><l n="21" met="-+-+" real="+--+-">
+                    </l><l n="21" met="-+-+" real="+--+-" part="N">
                     <seg>O<sb/>ver </seg>
                     <seg>and o<sb/><rhyme label="b">ver.</rhyme></seg>
                     </l></lg></body></text></TEI>
