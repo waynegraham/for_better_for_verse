@@ -47,7 +47,7 @@
                     <seg>A<sb/>bout </seg>
                     <seg>her lo<sb/><rhyme label="b">ver.</rhyme></seg>
              </l></lg> 
-                <lg n="2" type="stanza" met="-+(4/4/4/2/4/4/2)" rhyme="aaabccb" org="uniform" sample="complete" part="N"><space quantity="1"/>
+                <lg n="2" type="stanza" met="-+(4/4/4/2/4/4/2)" rhyme="aaabccb" org="uniform" sample="complete" part="N">
                     <l n="8" met="-+-+-+-+" real="-+-+-+-+">
                     <seg>She laughs </seg>
                     <seg>at them </seg>
@@ -80,7 +80,7 @@
                     <seg>Or what </seg>
                     <seg>is the mat<sb/><rhyme label="b">ter.</rhyme></seg>  
                </l></lg> 
-                <lg n="3" type="stanza" met="-+(4/4/4/2/4/4/2)" rhyme="aaabccb" org="uniform" sample="complete" part="N"><space quantity="1"/>
+                <lg n="3" type="stanza" met="-+(4/4/4/2/4/4/2)" rhyme="aaabccb" org="uniform" sample="complete" part="N">
                     <l n="15" met="-+-+-+-+" real="-+-+-+-+">
                     <seg>Yet she </seg>
                     <seg>has fan<sb/></seg>
