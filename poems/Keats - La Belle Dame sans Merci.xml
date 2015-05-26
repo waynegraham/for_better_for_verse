@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE TEI
 PUBLIC "-//TEI P5//DTD Main Document Type//EN" "http://prosody.lib.virginia.edu:8080/prosody/poems/tei_all.dtd">
-<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" version="5.0">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"
+  version="5.0">
   <teiHeader type="text">
     <fileDesc>
       <titleStmt>
         <title>La Belle Dame sans Merci</title>
         <author>John Keats</author>
       </titleStmt>
-      <publicationStmt><date>1820</date></publicationStmt>
-      <sourceDesc default="false"><p/></sourceDesc>
+      <publicationStmt>
+        <date>1820</date>
+      </publicationStmt>
+      <sourceDesc default="false">
+        <p/>
+      </sourceDesc>
     </fileDesc>
   </teiHeader>
   <text>
@@ -314,4 +319,6 @@ PUBLIC "-//TEI P5//DTD Main Document Type//EN" "http://prosody.lib.virginia.edu:
           <seg>birds <rhyme label="b">sing.</rhyme></seg>
         </l>
       </lg>
-</body></text></TEI>
+    </body>
+  </text>
+</TEI>
