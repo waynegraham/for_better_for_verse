@@ -15,13 +15,14 @@
                     <seg>their con<sb part="N"/></seg>
                     <seg>vent's nar<sb part="N"/></seg>
                     <seg met="-+" part="N">row <rhyme label="a">room,</rhyme></seg>
-                </l><space quantity="1"/><l n="2" part="N" met="-+-+-+-+-+" real="-+-+-+-+-+">
+                    </l>
+                    <l n="2" part="N" met="-+-+-+-+-+" real="-+-+-+-+-+">
                     <seg>And her<sb part="N"/></seg>
                     <seg>mits are </seg>
                     <seg>con<sb part="N"/>tent<sb part="N"/></seg>
                     <seg>ed with </seg>
                     <seg>their <rhyme label="b">cells,</rhyme></seg>
-                </l><space quantity="1"/><l n="3" part="N" met="-+-+-+-+-+" real="-+-+-+-+-+">
+                </l><l n="3" part="N" met="-+-+-+-+-+" real="-+-+-+-+-+">
                     <seg>And stu<sb part="N"/></seg>
                     <seg>dents with </seg>
                     <seg>their pen<sb part="N"/></seg>
@@ -40,13 +41,13 @@
                     <seg>py; <caesura/>bees </seg>
                     <seg>that soar </seg>
                     <seg>for <rhyme label="a">bloom,</rhyme></seg>
-                </l><space quantity="1"/><l n="6" part="N" met="-+-+-+-+-+" real="+--+-+-+-+">
+                </l><l n="6" part="N" met="-+-+-+-+-+" real="+--+-+-+-+">
                     <seg met="-+" real="+-">High as </seg>
                     <seg>the high<sb part="N"/></seg>
                     <seg>est peak </seg>
                     <seg>of Fur<sb part="N"/></seg>
                     <seg>ness <rhyme label="b">fells,</rhyme></seg>
-                </l><space quantity="1"/><l n="7" part="N" met="-+-+-+-+-+" real="-+-+-+-+-+">
+                </l><l n="7" part="N" met="-+-+-+-+-+" real="-+-+-+-+-+">
                     <seg>Will mur<sb part="N"/></seg>
                     <seg>mur by </seg>
                     <seg>the hour </seg>
@@ -68,14 +69,14 @@
                     <caesura/>
                     <seg>and hence </seg>
                     <seg>for <rhyme label="c">me,</rhyme></seg>
-                </l><space quantity="1"/><l n="10" part="N" met="-+-+-+-+-+" real="-+-+-+-+-+">
+                </l><l n="10" part="N" met="-+-+-+-+-+" real="-+-+-+-+-+">
                     <seg>In sun<sb part="N"/></seg>
                     <seg>dry moods, </seg>
                     <caesura/>
                     <seg>'twas pas<sb part="N"/></seg>
                     <seg>time to </seg>
                     <seg>be <rhyme label="d">bound</rhyme></seg>
-                </l><space quantity="1"/><l n="11" part="N" met="-+-+-+-+-+" real="-+-+-+-+-+">
+                </l><l n="11" part="N" met="-+-+-+-+-+" real="-+-+-+-+-+">
                     <seg>With<sb part="N"/>in </seg>
                     <seg>the Son<sb part="N"/></seg>
                     <seg>net's scan<sb part="N"/></seg>
@@ -97,7 +98,7 @@
                     <seg>of too </seg>
                     <seg met="-+" real="++">much li<sb part="N"/></seg>
                     <seg>ber<sb part="N"/><rhyme label="c">ty,</rhyme></seg>
-                </l><space quantity="1"/><l n="14" part="N" met="-+-+-+-+-+" real="-+++-+-+-+">
+                </l><l n="14" part="N" met="-+-+-+-+-+" real="-+++-+-+-+">
                     <seg>Should find </seg>
                     <seg met="-+" real="++">brief sol<sb part="N"/></seg>
                     <seg>ace there, </seg>
