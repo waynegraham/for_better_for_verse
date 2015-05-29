@@ -16,11 +16,11 @@
         <body>
             <lg n="1" met="-+(5/5/5/5)" rhyme="aabb" org="uniform" sample="complete" part="N">
                 <l n="1" met="-+-+-+-+-+" real="+--++--+++">
-                    <seg>O<sb/>ver </seg>
-                    <seg>the land </seg>
-                    <seg>freck<sb/>led </seg>
-                    <seg>with snow </seg>
-                    <seg>half-<rhyme label="a">thawed</rhyme></seg>
+                    <seg met="-+" real="+-" part="N">O<sb/>ver </seg>
+                    <seg met="-+" part="N">the land </seg>
+                    <seg met="-+" real="+-" part="N">freck<sb/>led </seg>
+                    <seg met="-+" part="N">with snow </seg>
+                    <seg met="-+" real="++" part="N">half-<rhyme label="a">thawed</rhyme></seg>
                 </l><l n="2" met="-+-+-+-+-+" real="-+-+-+--++">
                     <seg>The spec<sb/></seg>
                     <seg>u<sb/>la<sb/></seg>
