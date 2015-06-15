@@ -33,7 +33,7 @@
                         <seg met="-+" part="N">that <rhyme label="b">view</rhyme></seg>
                     </l><l n="5" met="-+-+" real="-+-+" part="N">
                         <seg met="-+" part="N">A<sb/>noth<sb/></seg>
-                        <seg met="-+" part="N">er day <rhyme label="c"></rhyme></seg>
+                        <seg met="-+" part="N">er <rhyme label="c">day</rhyme></seg>
                     </l><l n="6" met="-+-+" real="-+++" part="N">
                         <seg met="-+" part="N">Un<sb/>til </seg>
                         <seg met="-+" part="N">next <rhyme label="c">May</rhyme></seg>
@@ -60,10 +60,10 @@
                         <seg met="-+" real="--+" part="N">ver and <rhyme label="b">done</rhyme></seg>
                     </l><l n="12" met="-+-+" real="+-+" part="N">
                         <seg met="-+" real="+" part="N">Sud<sb/></seg>
-                        <seg met="-+" part="N">den<sb/><rhyme label="c">ly</rhyme> </seg>
+                        <seg met="-+" part="N">den<sb/><rhyme label="c">ly</rhyme></seg>
                     </l><l n="13" met="-+-+" real="--+-+" part="N">
                         <seg met="-+" real="--+" part="N">And I on<sb/></seg>
-                        <seg met="-+" part="N">ly <rhyme label="c">see</rhyme> </seg>
+                        <seg met="-+" part="N">ly <rhyme label="c">see</rhyme></seg>
                     </l><l n="14" met="-+-+" real="--+-+" part="N">
                         <seg met="-+" real="--+" part="N">Them to know </seg>
                         <seg met="-+" part="N">them <rhyme label="b">gone.</rhyme></seg>  
