@@ -24,8 +24,8 @@
                     </l><l n="2" met="-+-+-+-+-+" real="-+-+--++-+">
                         <seg met="-+" real="-+" part="N">I paused </seg>
                         <seg met="-+" real="-+" part="N">and said, <caesura/></seg>
-                        <seg met="-+" real="+-" part="N">"I will </seg>
-                        <seg met="-+" real="-+" part="N">turn back </seg>
+                        <seg met="-+" real="--" part="N">"I will </seg>
+                        <seg met="-+" real="++" part="N">turn back </seg>
                         <seg met="-+" real="-+" part="N">from here.</seg>
                     </l><l n="3" met="-+-+-+-+-+" real="+--+-+--+-+">
                         <seg met="-+" real="+-" part="N">No, I </seg>
