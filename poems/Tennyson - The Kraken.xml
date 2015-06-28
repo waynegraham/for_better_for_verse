@@ -30,7 +30,7 @@
                     </l><l n="3" met="-+-+-+-+-+" real="-+-+-+-+-+" part="N">
                         <seg met="-+" real="-+" part="N">His an<sb/></seg>
                         <seg met="-+" real="-+" part="N">cient, dream<sb/></seg>
-                        <seg met="-+" real="-+-" part="N">les, un<sb/>in<sb/></seg>
+                        <seg met="-+" real="-+-" part="N">less, un<sb/>in<sb/></seg>
                         <seg met="-+" real="+-" part="N">va<sb/>ded </seg>
                         <seg met="-+" real="+" part="N"><rhyme label="a">sleep</rhyme></seg>
                     </l><l n="4" met="-+-+-+-+-+" real="-+-+-+-+-+" part="N">
@@ -42,7 +42,7 @@
                     </l><l n="5" met="-+-+-+-+-+" real="-+-+--+-+-+" part="N">
                         <seg met="-+" real="-+" part="N">A<sb/>bout </seg>
                         <seg met="-+" real="-+" part="N">his shad<sb/></seg>
-                        <seg met="-+" real="--+" part="N">ow<sb/>y sides:<caesura/> </seg>
+                        <seg met="-+" real="--+" part="N">ow<sb/>y sides: <caesura/> </seg>
                         <seg met="-+" real="-+" part="N">a<sb/>bove </seg>
                         <seg met="-+" real="-+" part="N">him <rhyme label="c">swell</rhyme></seg>
                     </l><l n="6" met="-+-+-+-+-+" real="++---+--+-+" part="N">
