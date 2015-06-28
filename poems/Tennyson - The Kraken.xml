@@ -16,11 +16,11 @@
             <body>
                 <lg n="1" type="stanza" met="-+(5/5/5/5/5/5/5/5/5/5/5/5/5/5/6)" rhyme="ababcddcefeaafe" org="uniform" sample="complete" part="N">
                     <l n="1" met="-+-+-+-+-+" real="-+-+-+-+-+" part="N">
-                        <seg met="-+" real="-+" part="N">Be<sb/>low </seg>
-                        <seg met="-+" real="-+" part="N">the thun<sb/></seg>
-                        <seg met="-+" real="-+" part="N">ders of </seg>
-                        <seg met="-+" real="-+" part="N">the up<sb/></seg>
-                        <seg met="-+" real="-+" part="N">per <rhyme label="a">deep,</rhyme></seg>
+                        <seg met="-+" part="N">Be<sb/>low </seg>
+                        <seg met="-+" part="N">the thun<sb/></seg>
+                        <seg met="-+" part="N">ders of </seg>
+                        <seg met="-+" part="N">the up<sb/></seg>
+                        <seg met="-+" part="N">per <rhyme label="a">deep,</rhyme></seg>
                     </l><l n="2" met="-+-+-+-+-+" real="++-+---+-+" part="N">
                         <seg met="-+" real="++" part="N">Far, far </seg>
                         <seg met="-+" real="-+" part="N">be<sb/>neath </seg>
@@ -36,13 +36,13 @@
                     </l><l n="4" met="-+-+-+-+-+" real="-+-+-+-+-+" part="N">
                         <seg met="-+" real="-+" part="N">The Kra<sb/></seg>
                         <seg met="-+" real="-+" part="N">ken sleep<sb/></seg>
-                        <seg met="-+" real="-+" part="N">eth: <caesura/> faint<sb/></seg>
+                        <seg met="-+" real="-+" part="N">eth: <caesura/>faint<sb/></seg>
                         <seg met="-+" real="-+" part="N">est sun<sb/></seg>
                         <seg met="-+" real="-+" part="N">lights <rhyme label="b">flee</rhyme></seg>
                     </l><l n="5" met="-+-+-+-+-+" real="-+-+--+-+-+" part="N">
-                        <seg met="-+" real="-+" part="N">A<sb/>bout<sb/></seg>
+                        <seg met="-+" real="-+" part="N">A<sb/>bout </seg>
                         <seg met="-+" real="-+" part="N">his shad<sb/></seg>
-                        <seg met="-+" real="--+" part="N">ow<sb/>y sides: <caesura/> </seg>
+                        <seg met="-+" real="--+" part="N">ow<sb/>y sides:<caesura/> </seg>
                         <seg met="-+" real="-+" part="N">a<sb/>bove </seg>
                         <seg met="-+" real="-+" part="N">him <rhyme label="c">swell</rhyme></seg>
                     </l><l n="6" met="-+-+-+-+-+" real="++---+--+-+" part="N">
